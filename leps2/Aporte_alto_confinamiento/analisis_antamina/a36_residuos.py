@@ -21,7 +21,7 @@ A33 = json.load(open(AQ / "a33_curva_propuesta.json", encoding="utf-8")); A31 = 
 PE0, PE1 = A33["parametros"]["pe0"], A33["nivel"]["lineal"]["pe0"]
 P = pd.read_csv(AQ / "a35_residuos.csv")
 ph = lambda s, pe0, e, m: np.degrees(np.arctan(np.tan(np.radians(pe0 - OM * e)) * (s / S0) ** (m - 1)))
-P["r_prop"] = P["Curva propuesta"]                                   # m = 0.85, con tope (la curva entregada)
+P["r_prop"] = P["Curva propuesta"]                                   # m = 0.85, sin tope (a35): el ajuste, como la hoja Ensayos del Excel
 P["r_sintope"] = P.phis - ph(P.sn, PE0, P.e, 0.85)
 P["r_m1"] = P.phis - ph(P.sn, PE1, P.e, 1.0)
 BINS = [(0.1, 0.5), (0.5, 1.0), (1.0, 2.0), (2.0, 5.0)]
@@ -41,7 +41,10 @@ def por_rango(r):
     return out
 
 
-R = {k: dict(tendencia=tendencia(P[k]), rangos=por_rango(P[k])) for k in ("r_prop", "r_sintope", "r_m1")}
+# vista de diseño: ensayos llevados a e = 0.45 (Ec. 27) frente a la curva a e = 0.45 con el tope
+P["r_diseno"] = (P.phis - OM * (0.45 - P.e)) - np.minimum(ph(P.sn, PE0, 0.45, 0.85), TOPE)
+P["r_diseno40"] = (P.phis - OM * (0.45 - P.e)) - np.minimum(ph(P.sn, PE0, 0.45, 0.85), 40.0)
+R = {k: dict(tendencia=tendencia(P[k]), rangos=por_rango(P[k])) for k in ("r_prop", "r_sintope", "r_m1", "r_diseno", "r_diseno40")}
 # dentro de cada set (con 2 o más esfuerzos): pendiente del residuo sin tope sobre ln σ′n
 SL = {s: float(stats.linregress(np.log(q.sn), q.r_sintope).slope) for s, q in P.groupby("set") if q.sn.nunique() >= 2}
 R["dentro_sets"] = dict(n=len(SL), media=float(np.mean(list(SL.values()))), positivas=int(sum(v > 0 for v in SL.values())), por_set=SL)
@@ -81,7 +84,7 @@ def panel_res(ax, col, titulo, color_med):
             va="bottom", bbox=dict(facecolor="white", edgecolor="none", alpha=0.85, pad=1.5))
 
 
-panel_res(axs[0, 0], "r_prop", f"(a) Curva propuesta (m = 0.85, tope de {TOPE:.0f}°)", VIO)
+panel_res(axs[0, 0], "r_prop", "(a) Curva propuesta (m = 0.85), sin tope", VIO)
 panel_res(axs[0, 1], "r_m1", "(b) Nivel reajustado con m = 1", INK2)
 ax = axs[1, 0]
 rng = np.random.default_rng(36); orden = ["Mármol", "Intrusivo", "Mezcla", "Hornfels"]

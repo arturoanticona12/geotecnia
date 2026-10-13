@@ -186,7 +186,7 @@ ws.cell(nS + 2, 1, "φ′1 de cada ensayo: Ensayos!V (a su e0). Cada punto de la
 
 # ------------------------------------------------------------------ Comparacion_envolventes (capítulo «Por qué esta curva», a35)
 A35 = J("a35_comparacion.json")
-ws = hoja("Comparacion_envolventes", ["Set", "σ′n (MPa)", "e0", "φ′s medido (°)", "Curva propuesta (°)", "Leps (1970) superior (°)",
+ws = hoja("Comparacion_envolventes", ["Set", "σ′n (MPa)", "e0", "φ′s medido (°)", "Curva propuesta, sin tope (°)", "Leps (1970) superior (°)",
                                       "Leps (1970) media (°)", "Leps (1970) inferior (°)", "Indraratna et al. (1993) (°)",
                                       "Res. curva", "Res. Leps sup.", "Res. Leps media", "Res. Leps inf.", "Res. Indraratna",
                                       "φ′e=0 sin el set (°)", "Curva sin su set (°)", "Res. curva sin su set"], [], [26] + [11] * 16)
@@ -200,13 +200,13 @@ p09 = lambda x, p1: f"DEGREES(ATAN(TAN(RADIANS({p1}))*({x}/sref)^(0.9-1)))"
 for i in range(N_AJ):
     k = 2 + i
     ws.cell(k, 1, f'=Ensayos!A{k}&"|"&Ensayos!B{k}'); ws.cell(k, 2, f"=Ensayos!M{k}"); ws.cell(k, 3, f"=Ensayos!J{k}"); ws.cell(k, 4, f"=Ensayos!O{k}")
-    ws.cell(k, 5, f"=MIN(tope,DEGREES(ATAN(TAN(RADIANS(pe0-omega*C{k}))*(B{k}/sref)^(m_-1))))")
+    ws.cell(k, 5, f"=DEGREES(ATAN(TAN(RADIANS(pe0-omega*C{k}))*(B{k}/sref)^(m_-1)))")   # sin tope: el ajuste (como Ensayos!Q)
     for j, p1 in enumerate((46, 41, 36, 33), 6):
         ws.cell(k, j, "=" + p09(f"B{k}", p1))
     for j in range(5):
         ws.cell(k, 10 + j, f"=D{k}-{get_column_letter(5 + j)}{k}")
     ws.cell(k, 15, f"=(SUM({PR})-SUMIF({SR},A{k},{PR}))/(COUNT({PR})-1)")
-    ws.cell(k, 16, f"=MIN(tope,DEGREES(ATAN(TAN(RADIANS(O{k}-omega*C{k}))*(B{k}/sref)^(m_-1))))"); ws.cell(k, 17, f"=D{k}-P{k}")
+    ws.cell(k, 16, f"=DEGREES(ATAN(TAN(RADIANS(O{k}-omega*C{k}))*(B{k}/sref)^(m_-1)))"); ws.cell(k, 17, f"=D{k}-P{k}")
 # resumen
 r0 = n1 + 3
 ws.cell(r0, 1, "Residuo = φ′s medido − φ′s de la envolvente, a σ′n y e0 del ensayo (°). Leps (1970) e Indraratna: Ec. 9 de Cylwik et al. (2025), m = 0.9, sin e.").font = NEG
@@ -243,7 +243,7 @@ for j, h in enumerate(["Grupo", "σ′n (MPa)", "e0", "φ′s medido (°)", "Res
 for i, (_, r) in enumerate(_CU.iterrows()):
     k = r2 + 2 + i
     ws.cell(k, 1, r.grupo); ws.cell(k, 2, float(r.sn)); ws.cell(k, 3, float(r.e)); ws.cell(k, 4, float(r.phis))
-    ws.cell(k, 5, f"=D{k}-MIN(tope,DEGREES(ATAN(TAN(RADIANS(pe0-omega*C{k}))*(B{k}/sref)^(m_-1))))")
+    ws.cell(k, 5, f"=D{k}-DEGREES(ATAN(TAN(RADIANS(pe0-omega*C{k}))*(B{k}/sref)^(m_-1)))")
     for j, p1 in enumerate((46, 41, 36, 33), 6):
         ws.cell(k, j, f"=D{k}-" + p09(f"B{k}", p1))
 kz = r2 + 2 + len(_CU)

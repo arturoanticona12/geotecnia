@@ -33,6 +33,12 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-13 (9): corrección (lo detectó el usuario): los residuos del ajuste se evalúan con la curva SIN tope (el tope es límite
+  de diseño a e = 0.45; aplicado a la e0 de probetas densas recortaba residuos hasta ~1 MPa). a35, a36, cap. 7, sec. 5.2 y Excel
+  (Comparacion_envolventes, Fig. 2) corregidos. Resultado: entre 0.5 y 1 MPa la curva sobreestima 8 de 10 ensayos en 2.8°
+  (IC 90 % −4.9 a −0.6°); con tope 42° a e = 0.45 sigue 2.7°. Leps media ajusta algo mejor a la densidad de los ensayos
+  (EMA 3.5° vs 4.3°). PENDIENTE (usuario): alternativa «menor de los dos ajustes» (m = 0.85 y m = 1 a e = 0.45; 39.0° constante
+  bajo 1.12 MPa, igual a la propuesta encima): residuo −0.75° en 0.5–1 MPa; o volver al tope de 40° (−1.7°).
 - 2026-10-13 (8): sec. 5.3 «Por qué m = 0.85: prueba de extrapolación» con Fig. 3 (a38; Excel la reproduce con fórmulas).
   Base mundial (26 ensayos de 21 sets sobre 4.60 MPa): m = 1 sesgo +7.4° (26/26 sobreestimados), m = 0.85 +0.0°. Antamina
   (7 ensayos de 6 sets): m = 1 −0.8°, m = 0.85 −5.2°. m de Antamina con todo (a37): 1.00 (0.95–1.05); solo TX 1.04; solo DS
