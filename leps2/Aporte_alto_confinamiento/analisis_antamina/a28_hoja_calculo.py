@@ -108,6 +108,8 @@ for k_, (nm_, et_, v_, u_, n_) in enumerate([("cc_bajo", "Cc perfil A, 0.2–0.8
     ws.cell(k_, 1, et_); c_ = ws.cell(k_, 2, v_); c_.font = AZUL; c_.fill = ENT; ws.cell(k_, 3, u_); ws.cell(k_, 4, n_)
     wb.defined_names[nm_] = DefinedName(nm_, attr_text=f"Parametros!$B${k_}")
 ws.cell(24, 1, "Control: φ′e=0 con la composición de LE2"); ws.cell(24, 2, OP2["pe0_le2"]); ws.cell(24, 3, "°"); ws.cell(24, 4, "MR2024, períodos ≥2035: mármol 37.8 %, hornfels 15.5 %, intrusivo 17.0 %, caliza y margas 29.6 % (sin ensayos; asimiladas al mármol)")
+A39 = J("a39_hornfels_alta.json")
+ws.cell(25, 1, "Sensibilidad: φ′e=0 sin los 4 triaxiales de hornfels de 1 m a alta presión"); ws.cell(25, 2, A39["nivel"]["sin"]); ws.cell(25, 3, "°"); ws.cell(25, 4, "Golder Associates Perú (2022), IDIEM, σ′3 = 1.96 y 2.45 MPa; cada set conserva su ensayo a 0.98 MPa (a39; memo, sec. 5.2)")
 ws.cell(23, 1, "Control: φ′e=0 con la composición del DDE (44/56)"); ws.cell(23, 2, OP2["pe0_dde"]); ws.cell(23, 3, "°"); ws.cell(23, 4, "IFF-115-G-0001 Rev. B, Tabla 3-1: intrusivo y exoskarn 44 %, hornfels y mármol 56 % (repartido por igual)")
 
 # ------------------------------------------------------------------ Ensayos

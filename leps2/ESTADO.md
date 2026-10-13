@@ -33,6 +33,10 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-13 (10): triaxiales de hornfels de 1 m a alta presión (w2022, IDIEM, σ′3 1.96 y 2.45 MPa; a39). Se mantienen (sin
+  criterio de calidad que los separe: 13 de 22 TX con máximo a εa ≥ 17.5 %). Sin ellos: nivel 47.72° (−0.75°), m Antamina 0.99,
+  margen 2–4.62 MPa +1.5° en vez de +5.0°. Memo: párrafo en 5.2, margen corregido (5.2, cap. 7, resumen), fila en Tabla hip;
+  Excel: Parametros fila 25.
 - 2026-10-13 (9): residuos con la curva entregada, CON tope (decisión del usuario: se evalúa la curva que se usa; el cambio a
   «sin tope» se revirtió). Hoja Ensayos del Excel: «φ′s predicha por la curva» y «Δφ′s» ahora con tope, iguales a la Fig. 2.
   Sec. 5.2 agrega la vista de diseño (ensayos a e = 0.45, curva con tope): sobreestima 2.7° entre 0.5 y 1 MPa y 2.3° bajo 0.5.
