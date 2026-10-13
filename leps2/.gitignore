@@ -13,3 +13,7 @@ __pycache__/
 *.log
 *.out
 desktop.ini
+
+# Imágenes de páginas escaneadas (intermedias de la extracción, cientos de MB); quedan en Drive
+**/paginas/**/*.png
+**/paginas/**/*.wmf
