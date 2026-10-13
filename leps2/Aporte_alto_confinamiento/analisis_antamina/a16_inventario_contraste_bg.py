@@ -111,10 +111,7 @@ plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 9, "axes.edgecol
 sn = np.array(A33["sn"]); lo = np.array(A33["phi_lo"]); hi = np.array(A33["phi_hi"])
 fig, ax = plt.subplots(figsize=(6.5, 5.4))
 ax.fill_between(sn, lo, hi, color="#e3e0f3", lw=0, zorder=1, label="Incertidumbre de la curva")
-from tope import TOPE  # noqa: E402
-_pc = phis_c(sn); _tp = _pc > TOPE
-ax.plot(sn, np.minimum(_pc, TOPE), color="#4a3aa7", lw=2.2, zorder=4, label=f"Curva propuesta (m = {M:.2f}), con tope de {TOPE:.0f}°")
-ax.plot(np.where(_tp, sn, np.nan), np.where(_tp, _pc, np.nan), color="#4a3aa7", lw=1.1, ls=":", zorder=4, label="Curva sin tope")
+ax.plot(sn, phis_c(sn), color="#4a3aa7", lw=2.2, zorder=4, label=f"Curva propuesta (m = {M:.2f})")
 # fondo (WA 2026-10-12): Leps (1970) en la forma de Cylwik et al. (2025, p. 2, Ec. 9, m = 0.9) y cota inferior de Indraratna et al. (1993)
 _l70 = lambda s, p1: np.degrees(np.arctan(np.tan(np.radians(p1)) * (s / S0) ** (0.9 - 1)))
 for _nm, _p1, _ls in (("Leps (1970), envolvente superior", 46.0, (0, (6, 2, 1, 2))), ("Leps (1970), envolvente media", 41.0, (0, (4, 2))),

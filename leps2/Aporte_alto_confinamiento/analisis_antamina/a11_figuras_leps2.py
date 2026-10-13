@@ -139,7 +139,7 @@ ax.plot(sn, np.minimum(_phi, TOPE), color=VIO, lw=2.4, zorder=4)
 ax.plot(np.where(_top, sn, np.nan), np.where(_top, _phi, np.nan), color=VIO, lw=1.2, ls=":", zorder=4)
 mundo(ax); fondo(ax, sn)
 ensayos(ax, lambda q: q.phis_e065)
-eje_log(ax, (20, 60))
+eje_log(ax, (22, 56))
 h = [Line2D([], [], color=VIO, lw=2.4, label=f"Curva propuesta (m = {PC['m_a']:.2f}), con tope de {TOPE:.0f}°"),
      Line2D([], [], color=VIO, lw=1.2, ls=":", label="Curva sin tope"), Patch(color=VIO_B, label="Incertidumbre de la curva"),
      Patch(facecolor="#efeee9", label=f"{SNX:.2f}–{SNW:.2f} MPa: sin ensayos de Antamina"),
@@ -179,23 +179,23 @@ EST = {0.45: (0, (1, 1.5)), 0.55: (0, (4, 2)), 0.65: (0, (6, 2, 1, 2))}
 a1.axvline(EC, color=VIO, lw=2.0)
 a1.plot(eA, zz, color=COLP["Perfil A (edómetro Antamina)"], lw=2); a1.plot(eV, zz, color=COLP["Perfil V (Valenzuela et al. 2008)"], lw=2)
 a1.text(eA[-1] - 0.008, 690, "A", color=INK, fontsize=8, ha="right", va="bottom"); a1.text(np.nanmin(eV) - 0.005, 600, "V", color=INK, fontsize=8, ha="right", va="center")
-a1.set_ylim(700, 0); a1.set_xlim(0.0, 0.70); a1.set_xlabel("Relación de vacíos, e"); a1.set_ylabel("Profundidad bajo la superficie (m)")
+a1.set_ylim(700, 0); a1.set_xlim(0.08, 0.70); a1.set_xlabel("Relación de vacíos, e"); a1.set_ylabel("Profundidad bajo la superficie (m)")
 a1.grid(True, color=GRID, lw=0.6); a1.set_axisbelow(True); a1.set_title("(a) Relación de vacíos", loc="left", fontsize=8.5, color=INK)
 snp = np.geomspace(0.1, XMAX, 200)
 fondo(a2, snp)
 for k in PE["curvas"]:
     _e = (float(k[4:]) if k.startswith("e = ") else (PEM.e_A(snp) if k.startswith("Perfil A") else PEM.eV_of_sv(snp)))
-    f = np.minimum(LC.phis(snp, _e, PC), TOPE)
+    f = LC.phis(snp, _e, PC)
     if k.startswith("e = "):
         e_ = float(k[4:])
         if abs(e_ - EC) < 1e-9:
             a2.plot(snp, f, color=VIO, lw=2.2, label=f"e = {EC:.2f} constante (base)")
     else:
         a2.plot(snp, f, color=COLP[k], lw=2.0, label=NOMP[k])
-a2.set_xscale("log"); a2.set_xlim(0.1, XMAX); a2.set_ylim(20, 60); a2.set_xticks([0.1, 0.2, 0.5, 1, 2, 5, 15]); a2.set_xticklabels(["0.1", "0.2", "0.5", "1", "2", "5", "15"])
+a2.set_xscale("log"); a2.set_xlim(0.1, XMAX); a2.set_ylim(22, 58); a2.set_xticks([0.1, 0.2, 0.5, 1, 2, 5, 15]); a2.set_xticklabels(["0.1", "0.2", "0.5", "1", "2", "5", "15"])
 zonas(a2, rotulos=False)
 a2.xaxis.set_minor_formatter(matplotlib.ticker.NullFormatter())
-a2.set_xlabel("σ′n (MPa)"); a2.set_ylabel(f"φ′s (°), curva propuesta con tope de {TOPE:.0f}°"); a2.grid(True, color=GRID, lw=0.6); a2.set_axisbelow(True)
+a2.set_xlabel("σ′n (MPa)"); a2.set_ylabel("φ′s (°), curva propuesta"); a2.grid(True, color=GRID, lw=0.6); a2.set_axisbelow(True)
 a2.set_title("(b) Ángulo de fricción secante", loc="left", fontsize=8.5, color=INK)
 fig.legend(handles=a2.get_legend_handles_labels()[0] + h_fondo(), loc="lower center", bbox_to_anchor=(0.5, 0.0), fontsize=6.6,
            frameon=False, ncol=2)

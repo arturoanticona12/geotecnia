@@ -122,9 +122,9 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
         filas = [[*(fa or [None, None])[:2], *(gg or [None, None, None, None])[2:]] for fa, gg in zip_longest(f, g)]
         return bloque(titulo, ["Zona gris x", "Zona gris y", "Rayado x", "Rayado y"], filas)
 
-    cZ1, nZ1 = zonas("Zonas Fig. 2 (valores)", 20, 60)
+    cZ1, nZ1 = zonas("Zonas Fig. 2 (valores)", 22, 56)
     cZ2, nZ2 = zonas("Zonas Fig. 5 (valores)", 0, 10.5, log=False)
-    cZ3, nZ3 = zonas("Zonas Fig. 6b (valores)", 20, 60)
+    cZ3, nZ3 = zonas("Zonas Fig. 6b (valores)", 22, 58)
 
     # ensayos del ajuste (fórmulas ligadas a la hoja Ensayos, filas 2 a 1 + N_AJ)
     SER = [(l, tx) for l in LIT for tx in (True, False)]
@@ -165,15 +165,15 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
     cPb, _ = bloque("Fig. 6a: e base (fórmula)", ["Profundidad (m)", "e base"], [[0.0], [700.0]])
     wd.cell(3, cPb + 1, "=e_base"); wd.cell(4, cPb + 1, "=e_base")
     xs6 = np.geomspace(0.1, 15, 90)
-    cQ, nQ = bloque("Fig. 6b: φ′s con tope (fórmulas; e perfil V como valor, a13)",
-                    ["σ′n (MPa)", "e perfil A", "e perfil V", "e base, con tope", "Perfil A, con tope", "Perfil V, con tope"],
+    cQ, nQ = bloque("Fig. 6b: φ′s sin tope, como la Fig. 6 del memo (fórmulas; e perfil V como valor, a13)",
+                    ["σ′n (MPa)", "e perfil A", "e perfil V", "φ′s e base (°)", "φ′s perfil A (°)", "φ′s perfil V (°)"],
                     [[x, None, (None if np.isnan(float(PEM.eV_of_sv(x))) else round(float(PEM.eV_of_sv(x)), 5))] for x in xs6])
     for i in range(nQ):
         r = 3 + i; x = L(cQ, r)
         wd.cell(r, cQ + 1, f"=IF(MAX({x},sv_piso)<=1,e_base-cc_bajo*LOG10(MAX({x},sv_piso)/sv_piso),e_base-cc_bajo*LOG10(1/sv_piso)-cc_alto*LOG10({x}))")
-        wd.cell(r, cQ + 3, f"=MIN(tope,{phi_e(x, 'e_base')})")
-        wd.cell(r, cQ + 4, f"=MIN(tope,{phi_e(x, L(cQ + 1, r))})")
-        wd.cell(r, cQ + 5, f'=IF(ISNUMBER({L(cQ + 2, r)}),MIN(tope,{phi_e(x, L(cQ + 2, r))}),NA())')
+        wd.cell(r, cQ + 3, "=" + phi_e(x, 'e_base'))
+        wd.cell(r, cQ + 4, "=" + phi_e(x, L(cQ + 1, r)))
+        wd.cell(r, cQ + 5, f'=IF(ISNUMBER({L(cQ + 2, r)}),{phi_e(x, L(cQ + 2, r))},NA())')
 
     # Fig. 3: contraste CU (a16, valores)
     GRU = [("CU Anddes (2024), 6 in, máxima oblicuidad", "E87BA4", "square", "Triaxiales CU, Anddes (2024), 6 in"),
@@ -268,7 +268,7 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
         serie(ch, cS, cS + 1 + j, nS, f"{'Mezclas' if l == 'Mezcla' else l}, {'corte directo' if ds else 'triaxial'}", marcador=mk, msize=7, lleno=not ds, mcol=c_)
     figs.append(("fig:phi1e", ch))
     # Fig. 2
-    ch = grafico(XL, YL, 0.1, 15, 20, 60, log=True, ymaj=5)
+    ch = grafico(XL, YL, 0.1, 15, 22, 56, log=True, ymaj=5)
     zonas_series(ch, cZ1, nZ1)
     serie(ch, cB1, cB1 + 1, nB1, "Incertidumbre de la curva", linea=(VIO_B, 4.0))
     mundo(ch); fondo(ch)
@@ -279,8 +279,7 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
     # Fig. 3
     ch = grafico(XL, YL, 0.1, 8, 15, 60, log=True, ymaj=5, h=14)
     serie(ch, cB1, cB1 + 1, nB1, "Incertidumbre de la curva", linea=(VIO_B, 4.0))
-    serie(ch, cG, cG + 2, nG, f"Curva propuesta (m = 0.85), con tope de {TOPE:.0f}°", linea=(VIO, 2.2))
-    serie(ch, cG, cG + 3, nG, "Curva sin tope", linea=(VIO, 1.1, "sysDot"))
+    serie(ch, cG, cG + 1, nG, "Curva propuesta (m = 0.85)", linea=(VIO, 2.2))   # la Fig. 3 del memo (a16) no lleva tope
     fondo(ch)
     serie(ch, cE, cE + 1, nE, f"Ensayos del ajuste ({N_AJ}: triaxial CD y corte directo)", marcador="circle", msize=5, lleno=True, mcol=INK2)
     for j, (g, c_, mk, lab) in enumerate(GRU):
@@ -305,12 +304,12 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
     ensayos(ch, tau=True)
     figs.append(("fig:tau", ch))
     # Fig. 6a y 6b
-    cha = grafico("Relación de vacíos, e", "Profundidad bajo la superficie (m)", 0.0, 0.70, 0, 700, ymaj=100, w=8.5, h=12, invy=True)
+    cha = grafico("Relación de vacíos, e", "Profundidad bajo la superficie (m)", 0.08, 0.70, 0, 700, ymaj=100, w=8.5, h=12, invy=True)
     cha.x_axis.majorUnit = 0.1
     serie(cha, cPb + 1, cPb, 2, f"e = {EB:.2f} constante (base)", linea=(VIO, 2.0))
     serie(cha, cP + 1, cP, nP, "Perfil A, compresibilidad de Antamina", linea=("E87BA4", 2.0))
     serie(cha, cP + 2, cP, nP, "Perfil V, Valenzuela et al. (2008)", linea=("008300", 2.0))
-    chb = grafico("σ′n (MPa)", f"φ′s (°), curva propuesta con tope de {TOPE:.0f}°", 0.1, 15, 20, 60, log=True, ymaj=5, w=12.5, h=12)
+    chb = grafico("σ′n (MPa)", "φ′s (°), curva propuesta", 0.1, 15, 22, 58, log=True, ymaj=5, w=12.5, h=12)
     zonas_series(chb, cZ3, nZ3)
     fondo(chb)
     serie(chb, cQ, cQ + 3, nQ, f"e = {EB:.2f} constante (base)", linea=(VIO, 2.2))
