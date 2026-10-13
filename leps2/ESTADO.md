@@ -33,6 +33,8 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-13 (12): hoja Ensayos del Excel con columna X «Bg (%)»: fórmula al valor adoptado de Rotura_Bg (16 triaxiales drenados);
+  «no informado» en G2021 e I2025.
 - 2026-10-13 (11): Excel con hoja «Rotura_Bg»: todos los Bg de rotura_bg.csv (sin mezclas con relave), con fuente, página, origen
   (informado/calculado) y uso en la figura; Golder (2012) Σ|ΔW| = 2·Bg con fórmula Bg = Σ|ΔW|/2. La figura del Bg lee esa hoja.
 - 2026-10-13 (10): triaxiales de hornfels de 1 m a alta presión (w2022, IDIEM, σ′3 1.96 y 2.45 MPa; a39). Se mantienen (sin

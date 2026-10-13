@@ -59,7 +59,7 @@ for t in ["Curva de resistencia Leps 2.0 del desmonte ROM de Antamina: datos, c�
           "",
           "Hojas:",
           "  Parametros: parámetros de la curva propuesta, hipótesis de curvatura y controles con la composición del DDE y la de LE2.",
-          "  Ensayos: los 120 ensayos de resistencia con su uso (ajuste, contraste, no usado), esfuerzos de falla, conversión de Leps 2.0 (fórmula) y corrección a e base (Ec. 27).",
+          "  Ensayos: los 120 ensayos de resistencia con su uso (ajuste, contraste, no usado), esfuerzos de falla, conversión de Leps 2.0 (fórmula), corrección a e base (Ec. 27) e índice de rotura Bg (columna X, de la hoja Rotura_Bg).",
           "  Figuras: las figuras del memo como gráficos de Excel, con la misma numeración (datos y fórmulas en Datos_figuras).",
           "  Curva: curva propuesta a e base, 0.55, 0.65 y perfiles A y V; tope de " + f"{TOPE:.0f}" + "° en todas las curvas de Leps 2.0; banda de incertidumbre (sin tope); cotas de Indraratna et al. (1993) y Hawley y Cunning (2017); recta de 37°; sensibilidad del DDE; gráficos.",
           "  phi1_vs_e: φ′1 de cada ensayo y por set contra e, φ′e=0 por set y su media (el nivel de la curva), con la recta de la curva propuesta, las envolventes de Leps (1970) y la cota de Indraratna et al. (1993).",
@@ -309,6 +309,32 @@ ws.cell(nB + 2, 1, "Bg: índice de rotura de Marsal (1967), suma de las diferenc
                    "Golder (2012, Tabla 5) informa la suma de las diferencias en valor absoluto, Σ|ΔW| = 2·Bg; su Bg se calcula como Σ|ΔW|/2 (columna H, fórmula).")
 ws.cell(nB + 3, 1, "Fuente: datos_antamina/verificacion_ocr/rotura_bg.csv, verificado contra las páginas citadas. Sin las mezclas con relave. "
                    "«sí» en la última columna: ensayos de la figura del índice de rotura del memo (triaxiales drenados del ajuste, valor adoptado).")
+
+# Bg en la hoja Ensayos (columna X): fórmula a la fila adoptada de Rotura_Bg (la marcada «sí»)
+import re as _re
+_clave = lambda set_id, txt, s3: (str(set_id), _re.search(r"Test \d", str(txt)).group(0)) if str(set_id) == "G2012-MN-C" else (str(set_id), round(float(s3), 2))
+_ADOP = {}
+for i, r in _BG.iterrows():
+    k = i + 2
+    if ws.cell(k, 13).value == "sí":
+        _ADOP[_clave(r.set_id, r.probeta, float(r.sigma3_kPa) / 1000)] = k
+_we = wb["Ensayos"]; _c = 24
+_we.cell(1, _c, "Bg (%) (índice de rotura de Marsal; hoja Rotura_Bg)").font = NEG; _we.cell(1, _c).fill = CAB
+_we.cell(1, _c).alignment = Alignment(wrap_text=True, vertical="top"); _we.column_dimensions[get_column_letter(_c)].width = 14
+_SIN_BG = {"G21-DESM-COMP": "no informado", "Codisposal 1 (100% Intrusivo)": "no informado"}
+n_bg = 0
+for i, r in T27.iterrows():
+    k = i + 2
+    try:
+        kb = _ADOP.get(_clave(r.set_id, r.ensayo_id, r.s3))
+    except (AttributeError, TypeError, ValueError):
+        kb = None
+    if kb:
+        _we.cell(k, _c, f"=Rotura_Bg!H{kb}"); n_bg += 1
+    elif str(r.set_id) in _SIN_BG and str(r.ensayo).startswith("Triaxial"):
+        _we.cell(k, _c, _SIN_BG[str(r.set_id)])
+assert n_bg == len(_ADOP), (n_bg, len(_ADOP))
+control["bg_ensayos"] = n_bg
 
 # ------------------------------------------------------------------ Hipotesis_m
 SNT = [1, 2, 3, 4.6, 8, 15]
