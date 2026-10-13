@@ -22,7 +22,9 @@ R19 = J("a19_m_covariables.json"); EDO = J("a17_edometros.json"); A16 = J("a16_r
 # revisión 10: curva simple (a33): m = 0.85, nivel = media de φ′1 + 20·e0 de los sets; m sin sesgo en la base mundial (a31)
 A33 = J("a33_curva_propuesta.json"); NIV = A33["nivel"]; A31 = J("a31_m_defendible.json"); S34 = pd.read_csv(AQ / "a34_phi1_sets.csv")
 _ml = S34.groupby("litologia").phi_e0.mean()
-OP2 = dict(pe0=A33["parametros"]["pe0"], m=A33["parametros"]["m_a"], pe0_dde=float(0.28 * _ml["Mármol"] + 0.28 * _ml["Hornfels"] + 0.44 * _ml["Intrusivo"]))
+OP2 = dict(pe0=A33["parametros"]["pe0"], m=A33["parametros"]["m_a"], pe0_dde=float(0.28 * _ml["Mármol"] + 0.28 * _ml["Hornfels"] + 0.44 * _ml["Intrusivo"]),
+           pe0_le2=float(0.674 * _ml["Mármol"] + 0.155 * _ml["Hornfels"] + 0.170 * _ml["Intrusivo"]) / 0.999)   # MR2024 ≥2035; caliza y margas (29.6 %) asimiladas al mármol
+TOPE = 40.0   # tope del ángulo secante (revisión 11)
 PE0, M, OM, EB, PA = OP2["pe0"], OP2["m"], 20.0, 0.45, 0.1013
 SNW = R19["base_sn_max"]
 T27 = pd.read_csv(AQ / "a27_ensayos_todos.csv")
@@ -51,16 +53,16 @@ def hoja(nombre, cab, filas, anchos=None):
 ws = wb.active; ws.title = "Leame"
 for t in ["Curva de resistencia Leps 2.0 del desmonte ROM de Antamina: datos, cálculos y curvas (memo de Stantec, 12 de octubre de 2026)",
           "",
-          "Las celdas en azul de la hoja Parametros son las entradas; todo lo demás se calcula con fórmulas a partir de ellas (nombres definidos: pe0, omega, m_, e_base, sref).",
-          "Leps 2.0 (Cylwik et al. 2025, Ec. 26): τ = tan(φ′e=0 − ω·e)·(10pa)^(1−m)·σ′n^m; φ′s = atan(τ/σ′n).",
+          "Las celdas en azul de la hoja Parametros son las entradas; todo lo demás se calcula con fórmulas a partir de ellas (nombres definidos: pe0, omega, m_, e_base, sref, tope).",
+          "Leps 2.0 (Cylwik et al. 2025, Ec. 26): τ = tan(φ′e=0 − ω·e)·(10pa)^(1−m)·σ′n^m; φ′s = atan(τ/σ′n). La curva se aplica con un tope de 40° en φ′s (τ ≤ σ′n·tan 40°).",
           "Unidades: esfuerzos en MPa; ángulos en grados.",
           "",
           "Hojas:",
-          "  Parametros: parámetros de la curva propuesta, hipótesis de curvatura y control con la composición del DDE.",
+          "  Parametros: parámetros de la curva propuesta, hipótesis de curvatura y controles con la composición del DDE y la de LE2.",
           "  Ensayos: los 120 ensayos de resistencia con su uso (ajuste, contraste, no usado), esfuerzos de falla, conversión de Leps 2.0 (fórmula) y corrección a e base (Ec. 27).",
-          "  Curva: curva propuesta a e base, 0.55, 0.65 y perfiles A y V; banda de incertidumbre; cotas de Indraratna et al. (1993) y Hawley y Cunning (2017); recta de 37°; sensibilidad del DDE; gráficos.",
+          "  Curva: curva propuesta a e base, 0.55, 0.65 y perfiles A y V; tope de 40° en todas las curvas de Leps 2.0; banda de incertidumbre (sin tope); cotas de Indraratna et al. (1993) y Hawley y Cunning (2017); recta de 37°; sensibilidad del DDE; gráficos.",
           "  phi1_vs_e: φ′1 de cada ensayo y por set contra e, φ′e=0 por set y su media (el nivel de la curva), con la recta de la curva propuesta, las envolventes de Leps (1970) y la cota de Indraratna et al. (1993).",
-          "  Hipotesis_m: φ′s según la hipótesis de curvatura (m del intervalo al 90 % de la prueba con la base mundial, y m = 1 de Antamina sola como sensibilidad).",
+          "  Hipotesis_m: φ′s según la hipótesis de curvatura (m del intervalo al 90 % y P10–P90 entre materiales de la base mundial, y m = 1 de Antamina sola como sensibilidad).",
           "  Base_mundial: los ensayos de la base de Leps 2.0 (sin los censurados, como en el memo) frente a la curva evaluada a su propia e (Δφ′s) y conteos por rango de esfuerzo.",
           "  FLAC_tangente: Mohr-Coulomb tangente a la curva según σ′3 (para verificar la implementación en FLAC2D).",
           "  Relacion_vacios: e de colocación calculada con los pesos unitarios de los estudios de Antamina.",
@@ -86,20 +88,25 @@ for k, (nm, et, v, u, n) in enumerate(PAR, 2):
     c = ws.cell(k, 2, v if v is not None else "=10*pa"); c.font = AZUL if v is not None else Font(); c.fill = ENT if v is not None else PatternFill()
     wb.defined_names[nm] = DefinedName(nm, attr_text=f"Parametros!$B${k}")
 ws.cell(8, 1, "φ′1 a e base"); ws.cell(8, 2, "=pe0-omega*e_base"); ws.cell(8, 3, "°")
+ws.cell(9, 1, "Tope de φ′s"); c = ws.cell(9, 2, TOPE); c.font = AZUL; c.fill = ENT; ws.cell(9, 3, "°"); ws.cell(9, 4, "Ángulo secante máximo de la curva (bajo confinamiento; sección 7 del memo)")
+wb.defined_names["tope"] = DefinedName("tope", attr_text="Parametros!$B$9")
 control["phi1"] = PE0 - OM * EB
 ws.cell(10, 1, "Hipótesis de curvatura").font = NEG
 ws.cell(11, 1, "Hipótesis"); ws.cell(11, 2, "m"); ws.cell(11, 3, "φ′e=0 (°)"); ws.cell(11, 4, "Nota"); ws.cell(11, 5, "φ′e=0 P5 (°)"); ws.cell(11, 6, "φ′e=0 P95 (°)")
-HIP = [("m0862", "m alto (IC 90 %)"), ("m085", "Curva propuesta"), ("m0834", "m bajo (IC 90 %)"), ("lineal", "Antamina sola (m = 1), sensibilidad")]
-for k, (key, et) in enumerate(HIP, 12):          # filas 12–14: banda (mínimo de los P5 y máximo de los P95); fila 15: sensibilidad, fuera de la banda
+HIP = [("m_p90", "m P90 entre materiales"), ("m0862", "m alto (IC 90 %)"), ("m085", "Curva propuesta"), ("m0834", "m bajo (IC 90 %)"), ("m_p10", "m P10 entre materiales"),
+       ("lineal", "Antamina sola (m = 1), sensibilidad")]
+HB = (12, 13, 14, 15, 16)
+for k, (key, et) in enumerate(HIP, 12):          # filas 12–16: banda (mínimo de los P5 y máximo de los P95); fila 17: sensibilidad, fuera de la banda
     ws.cell(k, 1, et); ws.cell(k, 2, A33["hipotesis"][key]["m_a"]); ws.cell(k, 3, NIV[key]["pe0"]); ws.cell(k, 4, "Nivel reajustado a los ensayos de Antamina con esa m (a33)")
     ws.cell(k, 5, NIV[key]["p5"]); ws.cell(k, 6, NIV[key]["p95"])
 for k_, (nm_, et_, v_, u_, n_) in enumerate([("cc_bajo", "Cc perfil A, 0.2–0.8 MPa", PE["Cc1"], "-", "Edómetro de mármol suelto (a13)"),
                                                 ("cc_alto", "Cc perfil A, 1.2–4.8 MPa", PE["Cc2"], "-", "Edómetro de mármol suelto (a13)"),
                                                 ("sv_piso", "σ′v mínima de la ley del perfil A", 0.05, "MPa", "a13"),
-                                                ("c_ds", "Peso del residuo del corte directo", C_DS, "-", "Iguala la sensibilidad al ángulo de ln q y ln τ (a9)")], 18):
+                                                ("c_ds", "Peso del residuo del corte directo", C_DS, "-", "Iguala la sensibilidad al ángulo de ln q y ln τ (a9)")], 19):
     ws.cell(k_, 1, et_); c_ = ws.cell(k_, 2, v_); c_.font = AZUL; c_.fill = ENT; ws.cell(k_, 3, u_); ws.cell(k_, 4, n_)
     wb.defined_names[nm_] = DefinedName(nm_, attr_text=f"Parametros!$B${k_}")
-ws.cell(16, 1, "Control: φ′e=0 con la composición del DDE (44/56)"); ws.cell(16, 2, OP2["pe0_dde"]); ws.cell(16, 4, "IFF-115-G-0001 Rev. B, Tabla 3-1: intrusivo y exoskarn 44 %, hornfels y mármol 56 % (repartido por igual)")
+ws.cell(24, 1, "Control: φ′e=0 con la composición de LE2"); ws.cell(24, 2, OP2["pe0_le2"]); ws.cell(24, 3, "°"); ws.cell(24, 4, "MR2024, períodos ≥2035: mármol 37.8 %, hornfels 15.5 %, intrusivo 17.0 %, caliza y margas 29.6 % (sin ensayos; asimiladas al mármol)")
+ws.cell(23, 1, "Control: φ′e=0 con la composición del DDE (44/56)"); ws.cell(23, 2, OP2["pe0_dde"]); ws.cell(23, 3, "°"); ws.cell(23, 4, "IFF-115-G-0001 Rev. B, Tabla 3-1: intrusivo y exoskarn 44 %, hornfels y mármol 56 % (repartido por igual)")
 
 # ------------------------------------------------------------------ Ensayos
 cab = ["Fuente", "Set", "Ensayo (id)", "Litología", "Tipo", "Uso", "Motivo", "D (m)", "Dmax (mm)", "e0", "σ′3 (MPa)", "σ′1 (MPa)",
@@ -131,28 +138,28 @@ N_AJ = int((T27.uso == "Ajuste de la curva propuesta").sum())
 # ------------------------------------------------------------------ Curva
 SN = [0.01, 0.02, 0.03, 0.05, 0.07, 0.1, 0.15, 0.2, 0.3, 0.5, 0.7, 1, 1.5, 2, 3, 4, 4.6, 5, 6, 7, 7.86, 8, 9, 10, 11, 12, 13, 14, 15]
 _hb = [A33["hipotesis"][k_]["m_a"] for k_ in ("m0862", "m085", "m0834")]
-lo = lambda s: min(np.degrees(np.arctan(np.tan(np.radians(NIV[k_]["p5"] - OM * EB)) * (s / 1.013) ** (A33["hipotesis"][k_]["m_a"] - 1))) for k_ in ("m0862", "m085", "m0834"))
-hi = lambda s: max(np.degrees(np.arctan(np.tan(np.radians(NIV[k_]["p95"] - OM * EB)) * (s / 1.013) ** (A33["hipotesis"][k_]["m_a"] - 1))) for k_ in ("m0862", "m085", "m0834"))
-cab = ["σ′n (MPa)", "Zona", "τ curva (MPa)", "φ′s curva (°)", "φ′s banda inf. (°)", "φ′s banda sup. (°)", "τ banda inf. (MPa)", "τ banda sup. (MPa)",
+lo = lambda s: min(np.degrees(np.arctan(np.tan(np.radians(NIV[k_]["p5"] - OM * EB)) * (s / 1.013) ** (A33["hipotesis"][k_]["m_a"] - 1))) for k_ in ("m_p90", "m0862", "m085", "m0834", "m_p10"))
+hi = lambda s: max(np.degrees(np.arctan(np.tan(np.radians(NIV[k_]["p95"] - OM * EB)) * (s / 1.013) ** (A33["hipotesis"][k_]["m_a"] - 1))) for k_ in ("m_p90", "m0862", "m085", "m0834", "m_p10"))
+cab = ["σ′n (MPa)", "Zona", "τ curva, con tope (MPa)", "φ′s curva, con tope (°)", "φ′s banda inf. (°)", "φ′s banda sup. (°)", "τ banda inf. (MPa)", "τ banda sup. (MPa)",
        "τ e = 0.55", "τ e = 0.65", "e perfil A", "τ perfil A", "e perfil V", "τ perfil V", "φ′s Indraratna (°)", "φ′s Hawley y Cunning (°)",
        "τ Indraratna", "τ Hawley y Cunning", "τ 37° (MPa)", "φ′ sensibilidad DDE (°)"]
 ws = hoja("Curva", cab, [], [9, 30] + [11] * 18)
 for k, s in enumerate(SN, 2):
     zona = "con ensayos de Antamina" if s <= SNX else ("solo base mundial" if s <= SNW else "extrapolación")
     eV = float(PEM.eV_of_sv(s)); eA = float(PEM.e_A(s))
-    vals = [s, zona, f"=TAN(RADIANS(pe0-omega*e_base))*sref^(1-m_)*A{k}^m_", f"=DEGREES(ATAN(C{k}/A{k}))",
-            "=MIN(" + ",".join(f"DEGREES(ATAN(TAN(RADIANS(Parametros!$E${h}-omega*e_base))*(A{k}/sref)^(Parametros!$B${h}-1)))" for h in (12, 13, 14)) + ")",
-            "=MAX(" + ",".join(f"DEGREES(ATAN(TAN(RADIANS(Parametros!$F${h}-omega*e_base))*(A{k}/sref)^(Parametros!$B${h}-1)))" for h in (12, 13, 14)) + ")",
-            f"=A{k}*TAN(RADIANS(E{k}))", f"=A{k}*TAN(RADIANS(F{k}))", f"=TAN(RADIANS(pe0-omega*0.55))*sref^(1-m_)*A{k}^m_",
-            f"=TAN(RADIANS(pe0-omega*0.65))*sref^(1-m_)*A{k}^m_",
-            f"=IF(MAX(A{k},sv_piso)<=1,e_base-cc_bajo*LOG10(MAX(A{k},sv_piso)/sv_piso),e_base-cc_bajo*LOG10(1/sv_piso)-cc_alto*LOG10(A{k}))", f"=TAN(RADIANS(pe0-omega*K{k}))*sref^(1-m_)*A{k}^m_",
-            None if math.isnan(eV) else round(eV, 4), None if math.isnan(eV) else f"=TAN(RADIANS(pe0-omega*M{k}))*sref^(1-m_)*A{k}^m_",
+    vals = [s, zona, f"=MIN(TAN(RADIANS(pe0-omega*e_base))*sref^(1-m_)*A{k}^m_,A{k}*TAN(RADIANS(tope)))", f"=DEGREES(ATAN(C{k}/A{k}))",
+            "=MIN(" + ",".join(f"DEGREES(ATAN(TAN(RADIANS(Parametros!$E${h}-omega*e_base))*(A{k}/sref)^(Parametros!$B${h}-1)))" for h in HB) + ")",
+            "=MAX(" + ",".join(f"DEGREES(ATAN(TAN(RADIANS(Parametros!$F${h}-omega*e_base))*(A{k}/sref)^(Parametros!$B${h}-1)))" for h in HB) + ")",
+            f"=A{k}*TAN(RADIANS(E{k}))", f"=A{k}*TAN(RADIANS(F{k}))", f"=MIN(TAN(RADIANS(pe0-omega*0.55))*sref^(1-m_)*A{k}^m_,A{k}*TAN(RADIANS(tope)))",
+            f"=MIN(TAN(RADIANS(pe0-omega*0.65))*sref^(1-m_)*A{k}^m_,A{k}*TAN(RADIANS(tope)))",
+            f"=IF(MAX(A{k},sv_piso)<=1,e_base-cc_bajo*LOG10(MAX(A{k},sv_piso)/sv_piso),e_base-cc_bajo*LOG10(1/sv_piso)-cc_alto*LOG10(A{k}))", f"=MIN(TAN(RADIANS(pe0-omega*K{k}))*sref^(1-m_)*A{k}^m_,A{k}*TAN(RADIANS(tope)))",
+            None if math.isnan(eV) else round(eV, 4), None if math.isnan(eV) else f"=MIN(TAN(RADIANS(pe0-omega*M{k}))*sref^(1-m_)*A{k}^m_,A{k}*TAN(RADIANS(tope)))",
             f"=DEGREES(ATAN(TAN(RADIANS(33))*(A{k}/sref)^(0.9-1)))", f"=DEGREES(ATAN(1.446*(A{k}*1000)^0.898/(A{k}*1000)))",
             f"=A{k}*TAN(RADIANS(O{k}))", f"=A{k}*TAN(RADIANS(P{k}))", f"=A{k}*TAN(RADIANS(37))", 33 if 5 <= s <= 10 else (30 if s > 10 else None)]
     for j, v in enumerate(vals, 1):
         ws.cell(k, j, v)
 control["banda"] = [[float(lo(s)), float(hi(s))] for s in SN]; control["eA"] = [float(PEM.e_A(s)) for s in SN]
-control["curva_phis"] = [float(np.degrees(np.arctan(np.tan(np.radians(PE0 - OM * EB)) * (s / 1.013) ** (M - 1)))) for s in SN]
+control["curva_phis"] = [min(TOPE, float(np.degrees(np.arctan(np.tan(np.radians(PE0 - OM * EB)) * (s / 1.013) ** (M - 1))))) for s in SN]
 nC = len(SN) + 1
 ch = ScatterChart(); ch.title = "Ángulo de fricción secante a e base"; ch.x_axis.title = "σ′n (MPa)"; ch.y_axis.title = "φ′s (°)"
 ch.x_axis.scaling.logBase = 10; ch.x_axis.scaling.min = 0.1; ch.x_axis.scaling.max = 15; ch.y_axis.scaling.min = 22; ch.y_axis.scaling.max = 56

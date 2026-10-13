@@ -3,8 +3,8 @@
 Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que no coincida con tu memoria.
 
 ## Pendiente (en orden)
-1. **Memo EoR, ajuste en dos pasos (pedido de WA):** a30 ya corrió; falta decidir con el usuario si se adopta antes de
-   tocar a12, la planilla (a28) y el memo. Ver «Datos y valores clave».
+1. Memo EoR, pendientes que esperan al usuario: rótulo de confidencialidad de Antamina; nota de cambio de revisión
+   (46.53° → 48.47°); mención de las 42 mezclas CD con relave (WA pidió no mencionarlas).
 2. Incorporar los comentarios de WA (`eor_antamina/curva_leps2_antamina_rev3_comentarios_WA.pdf`, `_1210wa.pdf`).
 3. **Artículo HiBER r6:** cerrar las brechas de `manuscrito/PLAN_RONDA6.md` que sigan abiertas; revisión visual final.
 4. Pendientes del artículo sin resolver: autores y afiliaciones, DOI del repositorio, año de la versión de Slide2,
@@ -17,19 +17,25 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - Modelo renombrado **HiBER** (antes Leps-P), 2026-10-07.
 - Memo: m común para los sets de Antamina (pedido de WA), en vez de una m por set como Cylwik.
 - Regla de diseño del Modo B: sobre la σ′n máxima del sitio, el menor entre el percentil actualizado y el de la previa.
-- Curva vigente del memo: φ′e=0 = 48.10°, ω = 20°, m = 0.859, e base 0.45.
+- Curva vigente del memo: φ′e=0 = 48.47° (media de 13 sets, 37 ensayos), ω = 20°, m = 0.85, e base 0.45, **tope de 40°** en φ′s,
+  verificación del diseño con e = 0.55. Es la curva media, no característica (decisión del usuario, 2026-10-13).
 
 ## Datos y valores clave
-- a30 (`analisis_antamina/a30_dos_pasos.json`): paso 1 con w = 0 da m = 1.00 (límite); bootstrap m 0.89–0.97.
-  Paso 2: ω = −4.2°, IC 90 % [−23°, +39°] → **no adoptable** por el criterio (15–25°, ±10°).
-  Con la base mundial (217 sets, 50/50): ω = 9.3°, φ′e=0 Antamina = 44.6°.
-- Curva vigente: φ′s = 39.2° (1 MPa), 33.3° (4.6 MPa), 30.5° (10 MPa), 29.0° (15 MPa).
+- a30 (con e0 adoptado): paso 1 m = 0.93 (50 % mundo), 1.00 con Antamina sola; paso 2 ω = −17.7°, IC 90 % [−38°, +30°]
+  → **no adoptable**; base mundial ω = 7.6°. El memo lo presenta como control (sec. 4.1) y mantiene ω = 20°.
+- Curva vigente: φ′s = 39.5° (1 MPa), 33.3° (4.6 MPa), 30.3° (10 MPa), 28.8° (15 MPa); tope 40° gobierna bajo 0.89 MPa.
+- Banda (m P10–P90 entre materiales 0.787–0.923 + nivel P5–P95): 37.4–42.2° a 1 MPa, 25.1–36.1° a 10 MPa.
+- Niveles: mármol 45.81°, intrusivo 48.05°, hornfels 51.62°; DDE 48.42°; LE2 (MR2024 ≥2035, caliza y margas = mármol) 47.09°.
 - HiBER r6: MC 0/600 fallas (β_LN 3.2); Pf integrada sobre τ_D 4.6e-3 (β 2.6); manuscrito 30 p., suplemento 8 p.
 
 ## Preguntas abiertas
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-13 (4): revisión del memo completo (autor de Leps 2.0, Stantec, Piteau, Antamina). Aplicado: curva media 48.47°
+  declarada como no característica; tope de 40°; verificación con e = 0.55; banda con m P10–P90; sensibilidades de nivel por
+  litología y LE2; Indraratna con dos lecturas; ajuste en dos pasos en la sec. 4.1; riesgos actualizados; planilla (a28) con
+  tope, banda nueva y control LE2 (verificada con LibreOffice contra Python). Memo 52 p., anexos 12 p., sin errores.
 - 2026-10-13 (3): revisión por tres revisores senior (Stantec, Piteau, Antamina) de la sec. 2.2 y el Anexo B. Aplicado:
   matriz de cobertura ensayo × litología con n y fracción en masa LE2 (Tabla 2 nueva); REG 41061 = mármol; Los Ángeles
   individuales de WSP 2022 y Golder 2012; mármol M-001 de terreno; modelo de bloques = LOM25 (LE1+LE2) con columna LE2

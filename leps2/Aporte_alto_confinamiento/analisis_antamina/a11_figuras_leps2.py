@@ -24,7 +24,7 @@ EC = json.load(open(AQ / "a13_perfil_e.json", encoding="utf-8"))["e_top"]       
 INK, INK2, MUTED, GRID, SURF, GRIS = "#0b0b0b", "#52514e", "#8a8984", "#e6e5e1", "#fcfcfb", "#b9b8b2"
 VIO, VIO_B = "#4a3aa7", "#e3e0f3"                                # curva propuesta y su banda
 LIT = {"Mármol": ("#2a78d6", "o"), "Hornfels": ("#eb6834", "s"), "Intrusivo": ("#1baf7a", "^"), "Mezcla": ("#eda100", "D")}
-LIT_TXT = {"Mármol": "Mármol", "Hornfels": "Hornfels", "Intrusivo": "Intrusivo", "Mezcla": "Mezclas (Golder 2021; Anddes 2024)"}
+LIT_TXT = {"Mármol": "Mármol", "Hornfels": "Hornfels", "Intrusivo": "Intrusivo", "Mezcla": "Mezclas (Golder Associates Perú, 2021; Anddes Geolab, 2024)"}
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 9, "axes.edgecolor": MUTED, "axes.labelcolor": INK, "xtick.color": INK2,
                      "ytick.color": INK2, "axes.spines.top": False, "axes.spines.right": False, "savefig.dpi": 300})
 # 2026-10-12: curva propuesta simple, m = 0.85 (leps_compuesta con m_a = m_h, a33). Puntos: e0 con D854 (a8); triaxiales a σ′n–τ con
@@ -79,7 +79,7 @@ def mundo(ax, tau=False):
 
 
 H_MUNDO = Line2D([], [], ls="", marker="o", markerfacecolor=GRIS_M, markeredgecolor="none", markersize=4,
-                 label="Base mundial de Leps 2.0 (Cylwik et al. 2025), llevada a e = %.2f" % EC)
+                 label="Base mundial de Leps 2.0 (Cylwik et al., 2025), llevada a e = %.2f" % EC)
 
 
 def fondo(ax, x, tau=False):
@@ -133,11 +133,15 @@ def eje_log(ax, ylim):
 # ---------------------------------------------------------------- Fig. 1: curva recomendada y ensayos del ajuste
 fig, ax = plt.subplots(figsize=(6.5, 5.0))
 ax.fill_between(sn, lo, hi, color=VIO_B, lw=0, zorder=1)
-ax.plot(sn, OP2["phi"], color=VIO, lw=2.4, zorder=4)
+TOPE = 40.0                                         # revisión 11: tope del ángulo secante a bajo confinamiento
+_phi = np.array(OP2["phi"]); _top = _phi > TOPE
+ax.plot(sn, np.minimum(_phi, TOPE), color=VIO, lw=2.4, zorder=4)
+ax.plot(np.where(_top, sn, np.nan), np.where(_top, _phi, np.nan), color=VIO, lw=1.2, ls=":", zorder=4)
 mundo(ax); fondo(ax, sn)
 ensayos(ax, lambda q: q.phis_e065)
 eje_log(ax, (22, 56))
-h = [Line2D([], [], color=VIO, lw=2.4, label=f"Curva propuesta (m = {PC['m_a']:.2f})"), Patch(color=VIO_B, label="Incertidumbre de la curva"),
+h = [Line2D([], [], color=VIO, lw=2.4, label=f"Curva propuesta (m = {PC['m_a']:.2f}), con tope de {TOPE:.0f}°"),
+     Line2D([], [], color=VIO, lw=1.2, ls=":", label="Curva sin tope"), Patch(color=VIO_B, label="Incertidumbre de la curva"),
      Patch(facecolor="#efeee9", label=f"{SNX:.2f}–{SNW:.2f} MPa: sin ensayos de Antamina"),
      Patch(facecolor="none", edgecolor="#d2d1cb", hatch="///", label=f"Sobre {SNW:.2f} MPa: extrapolación")] + h_fondo() + [H_MUNDO]
 leyendas(fig, ax, h)
@@ -151,11 +155,11 @@ fig, ax = plt.subplots(figsize=(6.5, 4.6))
 ax.fill_between(sl, tau_of(lo), tau_of(hi), color=VIO_B, lw=0, zorder=1)
 REF = [(nm, (lambda g: lambda s: s * np.tan(np.radians(g(s))))(f_), ls) for nm, f_, ls in FONDO]
 mundo(ax, tau=True); fondo(ax, sl, tau=True)
-ax.plot(sl, tau_of(OP2["phi"]), color=VIO, lw=2.4, zorder=4)
+ax.plot(sl, tau_of(np.minimum(np.array(OP2["phi"]), TOPE)), color=VIO, lw=2.4, zorder=4)
 ensayos(ax, lambda q: q.sn * np.tan(np.radians(q.phis_e065)))
 ax.set_xlim(0, XMAX); ax.set_ylim(0, 10.5); zonas(ax, log=False); ax.set_xlabel("Esfuerzo normal efectivo en el plano de falla, σ′n (MPa)"); ax.set_ylabel("Resistencia al corte, τ (MPa)")
 ax.grid(True, color=GRID, lw=0.6); ax.set_axisbelow(True)
-h = [Line2D([], [], color=VIO, lw=2.4, label=f"Curva propuesta, e = {EC:.2f}"), Patch(color=VIO_B, label="Incertidumbre de la curva")]
+h = [Line2D([], [], color=VIO, lw=2.4, label=f"Curva propuesta, e = {EC:.2f}, con tope de {TOPE:.0f}°"), Patch(color=VIO_B, label="Incertidumbre de la curva")]
 h += h_fondo() + [H_MUNDO]
 leyendas(fig, ax, h, y=-0.16)
 fig.set_size_inches(6.5, 5.6); fig.subplots_adjust(left=0.1, right=0.97, top=0.97, bottom=0.38)
