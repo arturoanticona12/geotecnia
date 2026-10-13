@@ -560,13 +560,17 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
         ROJO, MUN = "D55E00", "3B3A37"
         M40 = pd.read_csv(Path(__file__).with_name("a40_mundo.csv"))
         cur = lambda b, c: f"MIN(tope,DEGREES(ATAN(TAN(RADIANS(pe0-omega*{b}))*({c}/sref)^(m_-1))))"
-        cab = ["Set", "σ′n (MPa)", "Residuo (°)", "Entra en (b)", "ln σ′n (b)", "Media del set (b)", "Residuo centrado (b)"]
+        cab = ["Set", "σ′n (MPa)", "Residuo (°)", "Entra en (b)", "ln σ′n (b)", "Media del set (b)", "Residuo centrado (b)", "Clase de roca",
+               "(a) buena", "(a) moderada", "(a) baja", "(b) buena", "(b) moderada", "(b) baja"]
         cM, nM = bloque("Fig. residuos Antamina y mundo: base mundial (fórmulas; Base_mundial)", cab, [[None]] * len(M40))
         for i in range(nM):
             r = 3 + i; kb = 2 + i
             wd.cell(r, cM, f"=Base_mundial!A{kb}"); wd.cell(r, cM + 1, f"=Base_mundial!C{kb}")
             wd.cell(r, cM + 2, f"=Base_mundial!E{kb}-{cur(f'Base_mundial!B{kb}', f'Base_mundial!C{kb}')}")
-            wd.cell(r, cM + 3, 1 if bool(M40.dentro.iloc[i]) else 0)
+            wd.cell(r, cM + 3, 1 if bool(M40.dentro.iloc[i]) else 0); wd.cell(r, cM + 7, str(M40.clase.iloc[i]))
+            for j, c in enumerate(("good", "moderate", "low")):
+                wd.cell(r, cM + 8 + j, f'=IF({L(cM + 7, r)}="{c}",{L(cM + 2, r)},NA())')
+                wd.cell(r, cM + 11 + j, f'=IF(AND({L(cM + 7, r)}="{c}",{L(cM + 3, r)}=1),{L(cM + 6, r)},NA())')
         SR, IR, RR = (f"{L(cM + j, 3)}:{L(cM + j, 2 + nM)}" for j in (0, 3, 2))
         for i in range(nM):
             r = 3 + i
@@ -602,16 +606,41 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
         titulo(cha, "(a) Residuo de la curva propuesta, cada ensayo a su e0. Base mundial, 3–8 MPa, mediana por clase: "
                + ", ".join(f"{n_} {cl[c]['mediana']:+.1f}° ({cl[c]['n']})" for c, n_ in (("good", "buena"), ("moderate", "moderada"), ("low", "baja"))))
         serie(cha, cZ4, cZ4 + 1, 2, "Cero", linea=(INK2, 0.9), leyenda=False)
-        serie(cha, cM + 1, cM + 2, nM, f"Base mundial de Leps 2.0 ({nM}; Cylwik et al., 2025)", marcador="diamond", msize=3, mcol=MUN)
-        serie(cha, cA + 1, cA + 2, nA, f"Antamina, ensayos del ajuste ({nA})", marcador="circle", msize=6, mcol=ROJO)
+        from openpyxl.worksheet.formula import ArrayFormula
+        COLC = {"good": "1F4E9E", "moderate": "1B8A3A", "low": "8C5A1E"}; NOMC = {"good": "buena", "moderate": "moderada", "low": "baja"}
+        MKX = {"good": "triangle", "moderate": "square", "low": "circle"}; LLX = {"good": True, "moderate": True, "low": False}
+        CL_R, SN_R = f"{L(cM + 7, 3)}:{L(cM + 7, 2 + nM)}", f"{L(cM + 1, 3)}:{L(cM + 1, 2 + nM)}"
+        IN_R = f"{L(cM + 3, 3)}:{L(cM + 3, 2 + nM)}"
+        MEDC = {}
+        for pan, col_res, extra in (("a", cM + 2, ""), ("b", cM + 6, f"*({IN_R}=1)")):
+            for c in ("good", "moderate", "low"):
+                filas_m = A40["medianas"][pan][c]
+                cMd, nMd = bloque(f"Fig. residuos Antamina y mundo ({pan}): mediana por rango, clase {NOMC[c]} (fórmulas matriciales)",
+                                  ["Desde (MPa)", "Hasta (MPa)", "σ′n media geom. (MPa)", "Mediana (°)", "n"], [[f_[3], f_[4]] for f_ in filas_m])
+                RES_R = f"{L(col_res, 3)}:{L(col_res, 2 + nM)}"
+                for i in range(nMd):
+                    r = 3 + i; cond = f'({CL_R}="{c}")*({SN_R}>={L(cMd, r)})*({SN_R}<{L(cMd + 1, r)}){extra}'
+                    ref = f"{L(cMd + 2, r)}"; wd[ref] = ArrayFormula(ref, f"=EXP(AVERAGE(IF({cond},LN({SN_R}))))")
+                    ref = f"{L(cMd + 3, r)}"; wd[ref] = ArrayFormula(ref, f"=MEDIAN(IF({cond},{RES_R}))")
+                    ref = f"{L(cMd + 4, r)}"; wd[ref] = ArrayFormula(ref, f"=SUM({cond})")
+                MEDC[(pan, c)] = (cMd, nMd)
+        serie(cha, cM + 1, cM + 2, nM, f"Base mundial de Leps 2.0, ensayos ({nM}; Cylwik et al., 2025)", marcador="circle", msize=2, mcol="CFCEC9")
+        for c in ("good", "moderate", "low"):
+            cMd, nMd = MEDC[("a", c)]
+            serie(cha, cMd + 2, cMd + 3, nMd, f"Mediana por rango de σ′n, clase {NOMC[c]} ({A40['n_clase'][c]} ensayos)", linea=(COLC[c], 1.6), marcador=MKX[c], msize=7, lleno=LLX[c], mcol=COLC[c])
+        serie(cha, cA + 1, cA + 2, nA, f"Antamina, ensayos del ajuste ({nA})", marcador="circle", msize=7, mcol=ROJO)
+        pf = lambda p: "p < 0.001" if p < 0.001 else f"p = {p:.2f}"
         chb = grafico("Esfuerzo normal efectivo en el plano de falla, σ′n (MPa)", "Residuo centrado en el set (°)", 1, 10, -8, 8, log=True, ymaj=4, w=17, h=11)
         titulo(chb, f"(b) Residuo dentro de cada set (menos la media del set), σ′n > {A40['smin']:g} MPa")
         serie(chb, cZ4, cZ4 + 1, 2, "Cero", linea=(INK2, 0.9), leyenda=False)
-        serie(chb, cM + 1, cM + 6, nM, "Base mundial de Leps 2.0", marcador="diamond", msize=3, mcol=MUN)
-        serie(chb, cA + 1, cA + 6, nA, "Antamina", marcador="circle", msize=6, mcol=ROJO)
-        pf = lambda p: "p < 0.001" if p < 0.001 else f"p = {p:.2f}"
+        serie(chb, cM + 1, cM + 6, nM, "Base mundial de Leps 2.0, ensayos", marcador="circle", msize=2, mcol="CFCEC9")
+        for c in ("good", "moderate", "low"):
+            tc = A40["dentro_clase"][c]; cMd, nMd = MEDC[("b", c)]
+            serie(chb, cMd + 2, cMd + 3, nMd, f"Mediana por rango, clase {NOMC[c]}; tendencia {tc['pendiente']:+.2f}°, {pf(tc['p'])}".replace("-", "−"),
+                  linea=(COLC[c], 1.6), marcador=MKX[c], msize=7, lleno=LLX[c], mcol=COLC[c])
+        serie(chb, cA + 1, cA + 6, nA, "Antamina", marcador="circle", msize=7, mcol=ROJO)
         Tw, Ta = A40["dentro_mundo"], A40["dentro_antamina"]
-        serie(chb, cT4, cT4 + 1, 2, f"Tendencia base mundial: {Tw['pendiente']:+.2f}° por unidad de ln σ′n, {pf(Tw['p'])} ({Tw['sets']} sets)".replace("-", "−"), linea=(MUN, 1.6, "dash"))
+        serie(chb, cT4, cT4 + 1, 2, f"Tendencia base mundial, todas las clases: {Tw['pendiente']:+.2f}° por unidad de ln σ′n, {pf(Tw['p'])} ({Tw['sets']} sets)".replace("-", "−"), linea=(MUN, 1.6, "dash"))
         serie(chb, cT4 + 2, cT4 + 3, 2, f"Tendencia Antamina: {Ta['pendiente']:+.1f}° por unidad de ln σ′n, {pf(Ta['p'])} ({Ta['sets']} sets)".replace("-", "−"), linea=(ROJO, 1.6, "dash"))
         figs.append(("fig:resmundo", (cha, chb, "vertical")))
     return wf, figs

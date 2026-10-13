@@ -33,6 +33,9 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-13 (14): Fig. 4 rediseñada (pedido del usuario: se distinguen las clases sin recargar): base mundial en gris y mediana por
+  rango de σ′n de cada clase (▲ buena, ■ moderada, ○ baja); tendencias dentro de los sets por clase −0.83/+0.25/−0.45° por ln σ′n.
+  Excel: medianas con fórmulas matriciales MEDIAN(IF()), verificadas contra Python.
 - 2026-10-13 (13): Fig. 4 nueva (idea del usuario; a40): residuos de la curva en Antamina y en la base mundial. (a) cada ensayo:
   mundo 3–8 MPa 60/66 sobre la curva, mediana +3.8°, por material (φ′e=0 mediano 51.2°; buena +5.3, moderada +2.9, baja +1.4).
   (b) dentro de cada set, σ′n > 1 MPa: mundo −0.11°/ln σ′n (p = 0.31, 82 sets), Antamina +6.3° (p < 0.001, 5 sets). Párrafo
