@@ -30,6 +30,12 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-13 (3): revisión por tres revisores senior (Stantec, Piteau, Antamina) de la sec. 2.2 y el Anexo B. Aplicado:
+  matriz de cobertura ensayo × litología con n y fracción en masa LE2 (Tabla 2 nueva); REG 41061 = mármol; Los Ángeles
+  individuales de WSP 2022 y Golder 2012; mármol M-001 de terreno; modelo de bloques = LOM25 (LE1+LE2) con columna LE2
+  (≥2035); n de LE2 = 23 860 con cortes; P35 XDP recalculado 70.8 MPa; unidad de n en Tabla 3; citas internas completadas.
+  Pendiente para el usuario: rótulo de confidencialidad de Antamina; ponderación por litología de la sec. 5 (DDE) frente a
+  MR2024 (caliza y margas 30 % sin ensayos de desmonte).
 - 2026-10-13 (2): memo con todo lo disponible por tipo de desmonte. Tabla 2 ampliada (fases A y B de Golder 2010, carga en
   plataforma, LE2 por RMU, Waste-C/Fine/Hard, modelo de bloques MR24, fragmentación) y Anexo B (Tablas B1–B11) con los valores
   por litología, clase o RMU y por muestra, cada uno con su tabla/página de origen. Referencias nuevas: Antamina 2025b (LE2),
