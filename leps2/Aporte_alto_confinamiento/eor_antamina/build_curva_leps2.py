@@ -1096,16 +1096,7 @@ _b0 = T.index("\\begin{thebibliography}"); _b1 = T.index("\\end{thebibliography}
 _bib_items = [b for b in T[_b0:_b1].split("\\bibitem")[1:]]
 _bib_keep = [b.replace("\\end{thebibliography}", "").rstrip() for b in _bib_items if re.match(r"\[[^\]]*\]\{([^}]+)\}", b).group(1) in _cit]
 ANXDOC = (_pre + "\\begin{document}\n"
-          + r"""\begin{center}{\Large\textbf{Envolvente de resistencia del desmonte ROM de Antamina con Leps 2.0}}\\[3pt]{\large Anexos del memorándum}\end{center}
-\vspace{4pt}
-\noindent\begin{tabular}{@{}p{3.2cm}p{12.6cm}@{}}\toprule
-Para: & Compañía Minera Antamina\\
-De: & Stantec\\
-Fecha: & """ + FECHA + r"""\\\bottomrule
-\end{tabular}
-
-\vspace{6pt}\noindent Este documento reúne los anexos del memorándum: el Anexo~\ref{sec:anexo}, con los ensayos de resistencia del desmonte de Antamina y su uso, y el Anexo~\ref{sec:anexob}, con la caracterización por tipo de desmonte. Las tablas y secciones del cuerpo del memorándum se citan con su número en el memorándum.
-""" + _anx.replace("\\appendix\n", "\\appendix\n", 1)
+          + _anx.replace("\\appendix\n", "\\appendix\n", 1)
           + "\n\\begin{thebibliography}{20}\\small\n" + "\n".join("\\bibitem" + b for b in _bib_keep) + "\n\\end{thebibliography}\n\\end{document}\n")
 (AQ / "curva_leps2_antamina_anexos.tex").write_text(ANXDOC, encoding="utf-8")
 print(f"anexos: {len(_bib_keep)} referencias, {len(_lab)} etiquetas propias")
