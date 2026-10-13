@@ -1,0 +1,47 @@
+{
+ "botadero_700m": {
+  "estado": "ok",
+  "fs": {
+   "Ladera 10 grados / m 0.87 phi1 38": {
+    "janbu simplified": 1.46393,
+    "janbu corrected": 1.52673,
+    "spencer": 1.51449,
+    "gle/morgenstern-price": 1.51051
+   },
+   "Ladera 10 grados / Leps 2.0 phi1 38": {
+    "janbu simplified": 1.50373,
+    "janbu corrected": 1.56114,
+    "spencer": 1.5463,
+    "gle/morgenstern-price": 1.54264
+   },
+   "Fundacion horizontal / Leps 2.0 phi1 38": {
+    "bishop simplified": 1.54809,
+    "spencer": 1.54302
+   },
+   "Ladera 10 grados / m 0.87 phi1 41": {
+    "janbu simplified": 1.62773,
+    "janbu corrected": 1.69928,
+    "spencer": 1.68623,
+    "gle/morgenstern-price": 1.68137
+   },
+   "Fundacion horizontal / Leps 2.0 phi1 41": {
+    "bishop simplified": 1.72248,
+    "spencer": 1.71738
+   },
+   "Fundacion horizontal / m 0.87 phi1 38": {
+    "bishop simplified": 1.51453,
+    "spencer": 1.50975
+   },
+   "Ladera 10 grados / Leps 2.0 phi1 41": {
+    "janbu simplified": 1.67185,
+    "janbu corrected": 1.73696,
+    "spencer": 1.72091,
+    "gle/morgenstern-price": 1.71547
+   },
+   "Fundacion horizontal / m 0.87 phi1 41": {
+    "bishop simplified": 1.68527,
+    "spencer": 1.68329
+   }
+  }
+ }
+}

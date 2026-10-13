@@ -1,0 +1,19 @@
+\begin{figure}
+\centering\includegraphics[width=\linewidth]{Fig01_design_envelopes.png}
+\caption{Design envelopes of HiBER for a new material tested by a new laboratory, at a specimen size of 100 mm, by rock quality and void ratio: median (thick lines) and 5th percentile (thin lines) of the mean envelope, up to the limit of use (8 MPa).}
+\label{fig:1}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\centering\includegraphics[width=\linewidth]{Fig02_validation.png}
+\caption{Out-of-sample evaluation, leaving out each laboratory: (a) coverage of the 80\% interval by range of normal stress without site tests; and (b) mean CRPS of ln $\tau$ for held-out tests at $\sigma'_n$ $\ge$ 2 MPa with site tests at $\sigma'_n$ $\le$ 1.5 MPa (bars: 95\% bootstrap intervals over laboratories; filled: level update of the design procedure).}
+\label{fig:2}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\centering\includegraphics[width=\linewidth]{Fig03_site_envelopes.png}
+\caption{Waste rock of the example: (a) laboratory-scale envelopes by rock type with the site tests (open symbols: sets flagged by the conflict check and excluded); and (b) envelopes of placed waste rock (void ratio 0.65, rock type E 0.80; maximum particle size 1 m) by rock type and dump-average envelope. Dotted vertical lines mark the largest normal stress of the site tests.}
+\label{fig:3}
+\end{figure}

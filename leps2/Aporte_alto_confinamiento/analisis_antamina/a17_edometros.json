@@ -1,0 +1,146 @@
+[
+ {
+  "ensayo": "INT-edo-0.6m-C4 (IDIEM/WSP)",
+  "fuente": "W2024",
+  "litologia": "Desmonte intrusivo 100 % (Codisposal 4, sin relave)",
+  "diametro_mm": 600.0,
+  "Dmax_mm": 101.6,
+  "Gs": 2.85,
+  "Gs_origen": "ponderado (ASTM D854) de Gs<#4=2.80 (IDIEM D854, p110) y Gs>#4=2.87 (prom. aparente ASTM C127, WSP Lima, Tabla 3 p11); Tabla 5 p12; hoja IDIEM: 'proporcionado por el cliente' (p121)",
+  "e0": 0.425,
+  "e0_origen": "informado (hoja IDIEM p121); coincide con Gs/ρd−1 = 2.85/2.00−1 = 0.425",
+  "sv_max": 5884.0,
+  "Cc1": 0.07309585955514436,
+  "Cc2": 0.07308577804448901,
+  "perfil": {
+   "300": 0.2959748795609864,
+   "700": 0.26841719579495205
+  }
+ },
+ {
+  "ensayo": "HF-edo-1.0m (IDIEM)",
+  "fuente": "W2022",
+  "litologia": "Hornfels gris (H6)",
+  "diametro_mm": 1000.0,
+  "Dmax_mm": 177.8,
+  "Gs": 2.6,
+  "Gs_origen": "estimado por IDIEM ('Peso Especifico estimado, para calculo de parametros entregados', p300 nota 3); no ensayado",
+  "e0": 0.238,
+  "e0_origen": "informado (p300); coincide con Gs/ρd−1 = 2.60/2.10−1 = 0.238",
+  "sv_max": 6864.7,
+  "Cc1": 0.017013483898607844,
+  "Cc2": 0.05492262591998575,
+  "perfil": {
+   "300": 0.3849536905861862,
+   "700": 0.3644197876393088
+  }
+ },
+ {
+  "ensayo": "MN-edo-1.0m-2021 (IDIEM)",
+  "fuente": "W2022",
+  "litologia": "Mármol negro (REG 41061)",
+  "diametro_mm": 1000.0,
+  "Dmax_mm": 177.8,
+  "Gs": 2.6,
+  "Gs_origen": "estimado por IDIEM ('Peso Especifico estimado, para calculo de parametros entregados', p324 nota 3); no ensayado",
+  "e0": 0.238,
+  "e0_origen": "informado (p324); coincide con Gs/ρd−1 = 2.60/2.10−1 = 0.238",
+  "sv_max": 6864.7,
+  "Cc1": 0.02011799228196822,
+  "Cc2": 0.04793222694081214,
+  "perfil": {
+   "300": 0.38636274448480046,
+   "700": 0.368475647680085
+  }
+ },
+ {
+  "ensayo": "MN-edo-1.0m-2011 (IDIEM 708.397-A)",
+  "fuente": "W2022",
+  "litologia": "Mármol negro (2011)",
+  "diametro_mm": 949.7,
+  "Dmax_mm": 178.0,
+  "Gs": 2.7,
+  "Gs_origen": "'Peso especifico Integral 2,700' en la hoja IDIEM (p295); método no declarado",
+  "e0": 0.286,
+  "e0_origen": "calculado Gs/ρd−1 = 2.700/2.100−1 = 0.2857 (no tabulado; la 1.ª fila, seca a 0.18 kg/cm², da e 0.284)",
+  "sv_max": 5884.0,
+  "Cc1": 0.03290876131086148,
+  "Cc2": 0.12243880608722961,
+  "perfil": {
+   "300": 0.3096175274168385,
+   "700": 0.2628450713159432
+  }
+ },
+ {
+  "ensayo": "MN-edo-0.24m-1.86 (Golder Test 1)",
+  "fuente": "W2022",
+  "litologia": "Mármol negro (2021, muestra MR)",
+  "diametro_mm": 241.0,
+  "Dmax_mm": 25.4,
+  "Gs": 2.7,
+  "Gs_origen": "'Assumed' en la hoja Golder (p359)",
+  "e0": 0.455,
+  "e0_origen": "informado (p359); coincide con Gs/ρd−1 = 2.70/1.856−1 = 0.455",
+  "sv_max": 4799.0,
+  "Cc1": 0.07474338213496558,
+  "Cc2": 0.11456125230157023,
+  "perfil": {
+   "300": 0.2595987857550175,
+   "700": 0.2158110630915585
+  }
+ },
+ {
+  "ensayo": "HF-edo-0.24m-2.1 (Golder)",
+  "fuente": "W2022",
+  "litologia": "Hornfels gris (H6)",
+  "diametro_mm": 240.0,
+  "Dmax_mm": 25.4,
+  "Gs": NaN,
+  "Gs_origen": "no informado (no hay hoja Golder del ensayo); implícito ≈2.77 = 2.1×(1+0.317) a partir de e0 de la Fig. 31",
+  "e0": 0.317,
+  "e0_origen": "lectura de gráfico Fig. 31 p33 (primer punto, σ≈25 kPa); ρd nominal (Tabla 4 p31)",
+  "sv_max": 4799.0,
+  "Cc1": 0.013360127957592432,
+  "Cc2": 0.09447527239276306,
+  "perfil": {
+   "300": 0.3584421493881887,
+   "700": 0.32271315191405286
+  }
+ },
+ {
+  "ensayo": "HF-edo-0.24m-1.8 (Golder)",
+  "fuente": "W2022",
+  "litologia": "Hornfels gris (H6)",
+  "diametro_mm": 240.0,
+  "Dmax_mm": 25.4,
+  "Gs": NaN,
+  "Gs_origen": "no informado (no hay hoja Golder del ensayo); implícito ≈2.76 = 1.8×(1+0.532) a partir de e0 de la Fig. 31",
+  "e0": 0.532,
+  "e0_origen": "lectura de gráfico Fig. 31 p33: vértice de la polilínea fuera del eje (e>0.50, recortado en la figura), σ≈25 kPa; ρd nominal (Tabla 4 p31)",
+  "sv_max": 4799.0,
+  "Cc1": 0.11818204600257605,
+  "Cc2": 0.10689038507713515,
+  "perfil": {
+   "300": 0.20742846115809696,
+   "700": 0.16654564589192028
+  }
+ },
+ {
+  "ensayo": "MN-edo-0.24m-2.3 (Golder)",
+  "fuente": "W2022",
+  "litologia": "Mármol negro (2021, muestra MR)",
+  "diametro_mm": 240.0,
+  "Dmax_mm": 25.4,
+  "Gs": NaN,
+  "Gs_origen": "no informado para este ensayo (sin hoja); implícito ≈2.71 = 2.3×(1+0.178), compatible con Gs 2.70 'Assumed' del Test 1 (p359)",
+  "e0": 0.178,
+  "e0_origen": "lectura de gráfico Fig. 32 p34 (primer punto, σ≈25 kPa); ρd nominal (Tabla 4 p31)",
+  "sv_max": 4794.0,
+  "Cc1": 0.01670015994699063,
+  "Cc2": 0.040293858763092695,
+  "perfil": {
+   "300": 0.3968725145233312,
+   "700": 0.3818709401863418
+  }
+ }
+]

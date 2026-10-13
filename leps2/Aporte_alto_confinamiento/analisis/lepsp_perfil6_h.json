@@ -1,0 +1,12 @@
+{
+ "perfil": [
+  {
+   "phi": 0.0,
+   "zeta": 0.2,
+   "ml": 780.48,
+   "psi": [],
+   "beta": [],
+   "aproximado": "máximo sobre zeta0 en {0.15, 0.20} (diag_phi0.py); la búsqueda continua no terminó"
+  }
+ ]
+}

@@ -1,0 +1,829 @@
+====================================================================================================
+SIMULACIONES_MR2024_V3 filas: 310102 columnas: 12
+X                  float64
+Y                  float64
+Z                  float64
+MR24_ABRA          float64
+MR24_AXB           float64
+MR24_BD            float64
+MR24_BWI           float64
+MR24_RT              int64
+MR24_UCS           float64
+LOM25_AMIN_LE2     float64
+LOM25_FASES_LE2     object
+XLE2WST_AMIN         int64
+
+-- nulos por columna --
+X                     0
+Y                     0
+Z                     0
+MR24_ABRA             0
+MR24_AXB              0
+MR24_BD               0
+MR24_BWI              0
+MR24_RT               0
+MR24_UCS              0
+LOM25_AMIN_LE2     9355
+LOM25_FASES_LE2    9355
+XLE2WST_AMIN          0
+
+-- n únicos --
+X                    280
+Y                    266
+Z                    106
+MR24_ABRA           5133
+MR24_AXB           11126
+MR24_BD              964
+MR24_BWI            1404
+MR24_RT                9
+MR24_UCS           12794
+LOM25_AMIN_LE2        25
+LOM25_FASES_LE2       12
+XLE2WST_AMIN          16
+
+-- describe numéricas --
+                   count           mean            std          min           5%          25%            50%            75%            95%            max
+X               310102.0    3876.383173     699.141944  1495.977156  2683.916548  3376.881193    3871.855940    4437.541365    4974.942519    5710.333571
+Y               310102.0    5167.580440     785.870881  3284.258573  3948.938948  4557.050779    5094.451933    5815.700850    6480.381224    7031.924514
+Z               310102.0    4047.450777     284.392027  3255.500000  3540.500000  3840.500000    4065.500000    4275.500000    4470.500000    4830.500000
+MR24_ABRA       310102.0      30.524573       8.122746    12.470000    21.430000    24.870000      26.580000      38.310000      41.690000      66.850000
+MR24_AXB        310102.0      67.914722      26.645961    30.400000    36.620000    42.690000      70.100000      93.820000      93.820000     304.960000
+MR24_BD         310102.0       2.680590       0.108745     2.166000     2.432000     2.686000       2.703000       2.717000       2.834000       3.458000
+MR24_BWI        310102.0      12.066603       3.663743     6.690000     7.940000     9.070000      10.240000      14.820000      18.000000      22.640000
+MR24_RT         310102.0      11.776351       5.401758     1.000000     1.000000    11.000000      13.000000      16.000000      16.000000      53.000000
+MR24_UCS        310102.0      79.416114      20.193881    16.810000    51.420000    68.320000      74.140000      88.740000     115.689500     225.950000
+LOM25_AMIN_LE2  300747.0    2035.388080       5.890014  2025.000000  2026.000000  2031.000000    2035.000000    2040.000000    2045.000000    2049.000000
+XLE2WST_AMIN    310102.0  106212.353645  100940.344827  2025.000000  2026.000000  2031.000000  203637.000000  204041.000000  204245.000000  204649.000000
+
+-- value_counts MR24_RT (n únicos=9) --
+MR24_RT
+16    110698
+11     58104
+13     48510
+1      46813
+10     24434
+14      9983
+19      8020
+2       3137
+53       403
+
+-- value_counts LOM25_AMIN_LE2 (n únicos=25) --
+LOM25_AMIN_LE2
+2041.0    18331
+2039.0    18002
+2033.0    17922
+2037.0    16874
+2032.0    16441
+2038.0    16105
+2040.0    15536
+2036.0    15042
+2034.0    14875
+2030.0    14505
+2035.0    14479
+2031.0    14179
+2029.0    13465
+2042.0    12183
+2026.0    11761
+2027.0    11286
+2025.0    11263
+2028.0    10726
+2043.0     9788
+NaN        9355
+2044.0     8833
+2045.0     7970
+2046.0     5288
+2047.0     3880
+2048.0     1835
+2049.0      178
+
+-- value_counts LOM25_FASES_LE2 (n únicos=12) --
+LOM25_FASES_LE2
+13      66123
+1202    60283
+14      44852
+1201    37818
+10A     34591
+11      30210
+10B     13079
+NaN      9355
+9B       5873
+9C       5093
+9D       2128
+8         691
+9A          6
+
+-- value_counts XLE2WST_AMIN (n únicos=16) --
+XLE2WST_AMIN
+204245    44663
+203839    35612
+203637    34489
+204041    33259
+2032      16720
+2034      16039
+2035      15486
+2033      15053
+2030      14340
+2029      13915
+2031      13073
+2026      11987
+204649    11928
+2025      11810
+2028      11312
+2027      10416
+
+X: min 1495.977156 max 5710.333571 n 280; diffs más comunes:
+14.142     277
+42.426       1
+254.558      1
+
+Y: min 3284.258573 max 7031.924514 n 266; diffs más comunes:
+14.142    265
+
+Z: min 3255.5 max 4830.5 n 106; diffs más comunes:
+15.0    105
+
+ASSAY leído con utf-8
+====================================================================================================
+Merged_Table_Assay_lito filas: 248620 columnas: 35
+holeid                      object
+from                       float64
+to                         float64
+GM_LE2WASTE_Output           int64
+GM_YEAR_LE2_Output           int64
+plp_GM_FASES_LE2_Output     object
+plp_GM_YEAR_LE2_Output      object
+SAMPLEID                    object
+SAMPLETYPE                  object
+Ag_ppm_BESTEL              float64
+As_ppm_BESTEL              float64
+BI_PPM_BESTEL2             float64
+Cu_pct_BESTEL              float64
+CuAC_pct_BESTEL            float64
+CuCN_pct_BESTEL            float64
+Mo_pct_BESTEL              float64
+Zn_pct_BESTEL              float64
+ZnAC_pct_BESTEL            float64
+RT_Abrasion                 object
+ABRASION_pc                float64
+Fuente                      object
+Geologia_2024               object
+Lithology                   object
+RT_UCS                      object
+UCS_MPa                    float64
+RT_RQD                      object
+RQD_pc                     float64
+ROCKCODE                    object
+ROCKCODE_NUMEQ               int64
+MODEL                       object
+ROCA                       float64
+DTADJ                      float64
+mid_x                      float64
+mid_y                      float64
+mid_z                      float64
+
+-- nulos por columna --
+holeid                          0
+from                            0
+to                              0
+GM_LE2WASTE_Output              0
+GM_YEAR_LE2_Output              0
+plp_GM_FASES_LE2_Output         0
+plp_GM_YEAR_LE2_Output          0
+SAMPLEID                        0
+SAMPLETYPE                      0
+Ag_ppm_BESTEL                4831
+As_ppm_BESTEL                4833
+BI_PPM_BESTEL2               4833
+Cu_pct_BESTEL                4812
+CuAC_pct_BESTEL            196690
+CuCN_pct_BESTEL            196690
+Mo_pct_BESTEL                4831
+Zn_pct_BESTEL                4812
+ZnAC_pct_BESTEL            196690
+RT_Abrasion                246660
+ABRASION_pc                246660
+Fuente                     233710
+Geologia_2024              233710
+Lithology                  233710
+RT_UCS                     233710
+UCS_MPa                    233710
+RT_RQD                      49544
+RQD_pc                      49544
+ROCKCODE                        0
+ROCKCODE_NUMEQ                  0
+MODEL                           0
+ROCA                       234099
+DTADJ                      234099
+mid_x                           0
+mid_y                           0
+mid_z                           0
+
+-- n únicos --
+holeid                       1873
+from                        38478
+to                          38474
+GM_LE2WASTE_Output             16
+GM_YEAR_LE2_Output             21
+plp_GM_FASES_LE2_Output        21
+plp_GM_YEAR_LE2_Output         26
+SAMPLEID                   107551
+SAMPLETYPE                     25
+Ag_ppm_BESTEL                 458
+As_ppm_BESTEL                 832
+BI_PPM_BESTEL2               3429
+Cu_pct_BESTEL                6117
+CuAC_pct_BESTEL                70
+CuCN_pct_BESTEL               208
+Mo_pct_BESTEL                1353
+Zn_pct_BESTEL                7112
+ZnAC_pct_BESTEL               110
+RT_Abrasion                     9
+ABRASION_pc                   363
+Fuente                          2
+Geologia_2024                  18
+Lithology                      66
+RT_UCS                         32
+UCS_MPa                      7706
+RT_RQD                         41
+RQD_pc                      14979
+ROCKCODE                       39
+ROCKCODE_NUMEQ                  6
+MODEL                          24
+ROCA                           20
+DTADJ                         598
+mid_x                      248271
+mid_y                      248274
+mid_z                      248575
+
+-- describe numéricas --
+                       count          mean           std          min           5%          25%          50%            75%            95%            max
+from                248620.0    377.688084    266.918548     0.000000    60.400000   180.500000   322.300000     509.100000     897.900000    1868.900000
+to                  248620.0    378.727505    266.884703     1.000000    61.378500   181.500000   323.490000     510.310000     898.962000    1870.100000
+GM_LE2WASTE_Output  248620.0  53161.198725  87818.781292  2025.000000  2025.000000  2028.000000  2031.000000  203637.000000  204245.000000  204649.000000
+GM_YEAR_LE2_Output  248620.0   2033.520288      4.801553  2028.000000  2030.000000  2030.000000  2031.000000    2036.000000    2044.000000    2049.000000
+Ag_ppm_BESTEL       243789.0      1.288902      6.501939     0.100000     0.100000     0.200000     0.500000       1.000000       4.000000     791.000000
+As_ppm_BESTEL       243787.0     31.821914     95.400906     1.000000     1.000000     5.000000    12.000000      29.000000     114.000000   10000.000000
+BI_PPM_BESTEL2      243787.0      5.547612     36.819460     0.005000     0.080000     0.200000     0.860000       3.020000      19.400000    4990.000000
+Cu_pct_BESTEL       243808.0      0.041731      0.126614     0.000050     0.000900     0.002600     0.010000       0.040000       0.160000       6.660000
+CuAC_pct_BESTEL      51930.0      0.005742      0.009621     0.000500     0.000500     0.002000     0.005000       0.005000       0.012000       0.500000
+CuCN_pct_BESTEL      51930.0      0.009852      0.030519     0.000500     0.000500     0.004000     0.005000       0.005000       0.030000       1.190000
+Mo_pct_BESTEL       243789.0      0.006486      0.025172     0.000050     0.000050     0.000100     0.000300       0.001600       0.035700       3.030000
+Zn_pct_BESTEL       243808.0      0.053559      0.316261     0.000100     0.002200     0.005000     0.010000       0.030000       0.160000      31.390000
+ZnAC_pct_BESTEL      51930.0      0.006271      0.028061     0.000500     0.000500     0.002000     0.005000       0.005000       0.010000       2.320000
+ABRASION_pc           1960.0     28.576855     14.652018     2.658405    13.597281    19.104150    23.950000      32.928770      62.234725      83.200000
+UCS_MPa              14910.0     86.876752     47.056860     4.800000    27.798890    52.203475    78.871150     111.111000     174.561100     300.000000
+RQD_pc              199076.0     93.304748     16.223450     0.000000    60.740000    95.043982   100.000000     100.000000     100.000000     100.000000
+ROCKCODE_NUMEQ      248620.0     11.556182      6.500497     1.000000     1.000000    10.000000    13.000000      16.000000      19.000000      19.000000
+ROCA                 14521.0     11.708009      6.436413     1.000000     1.000000    10.000000    13.000000      16.000000      19.000000      53.000000
+DTADJ                14521.0      2.670194      0.141755     1.948694     2.404430     2.650402     2.698332       2.728000       2.882554       3.530142
+mid_x               248620.0   3913.990447    691.833246  2564.586489  2897.123764  3258.219685  3917.518696    4590.033873    4865.947764    5247.717390
+mid_y               248620.0   5185.645539    658.499262  3323.258063  4086.127374  4725.954830  5083.726140    5792.206161    6211.198292    6568.806798
+mid_z               248620.0   4022.150152    229.062807  3277.731073  3635.137738  3864.387669  4035.633364    4191.639735    4373.049761    4700.474916
+
+-- value_counts holeid (n únicos=1873) --
+holeid
+A3851    1619
+A3815    1528
+A3943    1467
+A3850    1377
+A3845    1310
+A3899    1308
+A3855    1240
+A3830    1214
+A3911    1098
+A3831    1098
+A3870    1095
+A3948     983
+A3842     894
+A3699     887
+A3789     867
+A3816     858
+A3906     827
+A3832     810
+A3669     803
+A3900     800
+A3896     795
+A3929     788
+A3897     786
+A3687     780
+A3947     763
+A3749     763
+A3823     741
+A3696     739
+A3904     723
+A3736     715
+A3877     714
+A3491     713
+A3857     712
+A3670     711
+A3695     706
+A3611     706
+A3667     699
+A3602     688
+A3839     687
+A3892     685
+A3513     673
+A3893     669
+A3689     669
+A3461     656
+A3907     656
+A3953     655
+A3923     653
+A3934     651
+A3280     643
+A3678     632
+A3841     626
+A3138     625
+A3827     622
+A3523     613
+A3533     601
+A3818     599
+A3785     593
+A3963     588
+A3869     586
+A3541     585
+
+-- value_counts GM_LE2WASTE_Output (n únicos=16) --
+GM_LE2WASTE_Output
+2030      32348
+2031      24236
+2032      19876
+2028      19552
+2029      19272
+2025      16084
+203637    16069
+203839    15325
+2026      15322
+204245    14632
+2027      14081
+204041    11422
+2033      10852
+2034       7823
+2035       6229
+204649     5497
+
+-- value_counts GM_YEAR_LE2_Output (n únicos=21) --
+GM_YEAR_LE2_Output
+2030    116678
+2031     20608
+2032     17868
+2035     10728
+2041      9097
+2039      8934
+2034      7942
+2033      7874
+2036      7605
+2040      7085
+2038      6230
+2037      5945
+2045      4668
+2044      4299
+2046      3603
+2042      3473
+2043      2693
+2047      2339
+2048       792
+2049       152
+2028         7
+
+-- value_counts plp_GM_FASES_LE2_Output (n únicos=21) --
+plp_GM_FASES_LE2_Output
+11D      73230
+10AN     37193
+14       25658
+10B      16652
+12A2     15643
+13C      14944
+9BN      13596
+9BS      11616
+15        9567
+12B       9561
+11C       6239
+11A       3665
+10AS      2300
+9C        2274
+11B       1890
+8         1766
+13B2      1144
+12A1       864
+OTROS      405
+13A        389
+13B1        24
+
+-- value_counts plp_GM_YEAR_LE2_Output (n únicos=26) --
+plp_GM_YEAR_LE2_Output
+2030     32350
+2031     24236
+2032     19862
+2028     19549
+2029     19272
+2025     16084
+2026     15323
+2027     14077
+2033     10849
+2037      8772
+2034      7821
+2038      7784
+2039      7521
+2036      7347
+2040      6353
+2035      6229
+2042      5872
+2041      5039
+2045      3610
+2043      3384
+2046      2849
+2044      1712
+2047      1529
+2048       847
+2049       254
+OTROS       95
+
+-- value_counts SAMPLEID (n únicos=107551) --
+SAMPLEID
+DH783512    432
+DH783121    365
+DH790496    348
+DH773581    319
+DH784966    308
+DH783009    277
+DH769199    265
+DH800649    252
+DH783123    173
+NS000048    162
+DH783011    143
+DH783014    137
+DH783005    134
+DH785131    122
+NS000055     52
+DH790002     45
+NS000038     29
+NS000037     19
+NS000036     14
+NS000023     10
+DH810221     10
+DH910142     10
+DH780849      9
+DH792974      9
+DH845582      9
+DH844540      9
+DH868316      9
+DH864063      9
+DH802172      9
+DH868517      9
+DH813760      9
+DH843580      9
+DH808769      9
+DH768100      9
+DH798109      9
+DH806618      9
+DH818574      9
+DH772905      9
+DH813619      9
+DH832287      9
+DH832071      9
+DH823357      9
+DH854833      9
+DH767315      9
+DH773733      9
+DH834491      9
+DH855406      9
+DH837165      9
+DH772665      9
+DH807406      9
+DH836666      9
+DH836202      9
+DH850057      9
+DH826583      9
+DH820191      9
+DH867426      9
+DH842569      9
+DH771543      9
+DH843310      9
+DH815842      9
+
+-- value_counts SAMPLETYPE (n únicos=25) --
+SAMPLETYPE
+HHQ         151345
+HNQ          47659
+DCD          23444
+DT            5978
+HHQ_TT        4379
+NS            3895
+CORE          3249
+HHQ_ABRA      2413
+HNQ_TT        2081
+HNQ_ABRA       964
+HPQ            904
+EGE            539
+DCD_TT         473
+HBQ            315
+DT_TT          228
+PR             216
+IS             183
+GSC            119
+HHQ_SMC         82
+GT              48
+RC              28
+HBQ_TT          25
+HPQ_TT          23
+HPQ_ABRA        18
+NR              12
+
+-- value_counts RT_Abrasion (n únicos=9) --
+RT_Abrasion
+NaN      246660
+16          705
+13          429
+11          319
+19          194
+14          117
+16_MN        98
+10           42
+1            33
+2            23
+
+-- value_counts Fuente (n únicos=2) --
+Fuente
+NaN         233710
+Core_PLT     12652
+Core_UCS      2258
+
+-- value_counts Geologia_2024 (n únicos=18) --
+Geologia_2024
+NaN                233710
+Metamorfico_16       5463
+Metamorfico_13       3381
+Intrusivo_1          1732
+Sedimentario_11      1399
+Metamorfico_14        991
+Metamorfico_19        974
+Sedimentario_10       457
+Intrusivo_2           354
+Endoskarn_22           65
+Exoskarn_34            35
+Exoskarn_32            14
+Exoskarn_35            13
+Exoskarn_37            11
+Exoskarn_36             6
+Endoskarn_23            6
+Endoskarn_20            6
+Exoskarn_31             2
+Brechas_50              1
+
+-- value_counts Lithology (n únicos=66) --
+Lithology
+NaN               233710
+MC                  2053
+MDP                 1753
+HG                  1383
+IPPA                1338
+CG                  1005
+MPA                  925
+MG                   896
+MCGB                 783
+CGS                  770
+MGS                  696
+HC                   515
+HGS                  513
+IPPAO                466
+LMH                  362
+MCB                  198
+IPPAMO               181
+INT                  132
+CN                   126
+HGV                  126
+HBV                  100
+CA                    96
+M                     66
+XGRDW                 63
+IPPEO                 63
+HCB                   57
+HDP                   33
+MCG                   30
+HMGV                  27
+C                     19
+CF                    15
+EXO                   14
+CBMN                  13
+IPHPE                 10
+XWGV                   8
+XGVDP                  7
+NPL                    5
+Marble                 4
+NGRDW                  4
+MCD                    4
+IQM                    3
+HG/HGS                 3
+IPP4                   3
+IPPA/NPL               3
+MGS/MC                 3
+MGCB                   3
+HGS/HC                 3
+MG/MC                  3
+MPA & XGVDP            3
+NGRD                   2
+NG                     2
+HG & HGS               2
+NGR3                   2
+XGRD                   2
+HC & HGS               2
+NC                     1
+Diop. Hornfels         1
+XBV                    1
+XWGCV                  1
+MG & MGS               1
+
+-- value_counts RT_UCS (n únicos=32) --
+RT_UCS
+NaN         233710
+16_No_ZD      4602
+13_No_ZD      1999
+1_No_ZD       1562
+13_ZD         1382
+11_No_ZD      1084
+16_ZD          861
+19_No_ZD       767
+14_No_ZD       567
+14_ZD          424
+10_No_ZD       412
+11_ZD          315
+2_No_ZD        231
+19_ZD          207
+1_ZD           170
+2_ZD           123
+22_No_ZD        59
+10_ZD           45
+34_ZD           20
+34_No_ZD        15
+32_No_ZD        13
+35_No_ZD        12
+37_No_ZD         7
+23_No_ZD         6
+22_ZD            6
+20_No_ZD         6
+36_ZD            5
+37_ZD            4
+31_No_ZD         2
+36_No_ZD         1
+50_No_ZD         1
+35_ZD            1
+32_ZD            1
+
+-- value_counts RT_RQD (n únicos=41) --
+RT_RQD
+NaN         49544
+16_No_ZD    48363
+1_No_ZD     29431
+13_No_ZD    23927
+13_ZD       20614
+19_No_ZD    12262
+11_No_ZD    11913
+16_ZD        8920
+14_No_ZD     8704
+11_ZD        7924
+14_ZD        6711
+10_No_ZD     4062
+19_ZD        3179
+2_No_ZD      2870
+1_ZD         2528
+22_No_ZD     1722
+2_ZD         1591
+20_No_ZD      698
+34_ZD         652
+34_No_ZD      567
+10_ZD         517
+37_No_ZD      355
+32_No_ZD      257
+35_No_ZD      199
+23_No_ZD      156
+31_No_ZD      136
+37_ZD         129
+22_ZD          92
+53_No_ZD       79
+20_ZD          74
+36_ZD          66
+36_No_ZD       64
+23_ZD          62
+31_ZD          58
+35_ZD          53
+32_ZD          50
+50_No_ZD       46
+52_No_ZD       14
+51_No_ZD       13
+51_ZD          12
+53_ZD           4
+52_ZD           2
+
+-- value_counts ROCKCODE (n únicos=39) --
+ROCKCODE
+IPPA       34084
+MDP        34066
+MC         32694
+HG         21209
+IPPAO      20954
+CG         15326
+MPA        13329
+MG         13016
+MCGB       11767
+CGS         9230
+MGS         7766
+HGS         7621
+HC          7136
+IPPAMO      4641
+MCB         4491
+CN          1981
+HBV         1932
+HGV         1896
+CA          1773
+IPPEO       1138
+HCB          825
+HDP          516
+HMGV         278
+CBMN         276
+CF           159
+IPHPE        112
+MDL           79
+C             69
+HV            67
+M             57
+BCIPPA        37
+CM            36
+BCM           15
+BCIPPAO       13
+BMHG           9
+BMIPPA         8
+DI             6
+BCHG           4
+BCIPPEO        4
+
+-- value_counts ROCKCODE_NUMEQ (n únicos=6) --
+ROCKCODE_NUMEQ
+16    83214
+1     60997
+13    35979
+19    34066
+10    28850
+14     5514
+
+-- value_counts MODEL (n únicos=24) --
+MODEL
+RM_2023           25649
+RM_2009           22874
+RM_2018           18524
+RM_2022           17565
+RM_2017           16519
+RM_2024           16054
+RM_2019           15980
+RM_2021           15121
+RM_2024-LE2-2A    14745
+RM_2013           12294
+RM_2015_Abril     11372
+RM_2014           10981
+RM_2016_Agosto     7855
+RM_2012_II         7797
+RM_2020            7293
+RM_2008            7233
+RM_2012            6991
+RM_2015_Agosto     5051
+RM_2000            3372
+RM_2006            1651
+RM_2015_2016       1540
+RM_2016_Enero      1115
+RM_2005            1006
+RM_2003              38
+
+-- value_counts ROCA (n únicos=20) --
+ROCA
+NaN     234099
+16.0      4788
+1.0       3059
+13.0      2546
+11.0      1178
+19.0      1064
+14.0       980
+10.0       362
+2.0        314
+22.0       126
+20.0        24
+34.0        20
+37.0        15
+35.0        10
+32.0         9
+23.0         8
+53.0         6
+31.0         5
+50.0         4
+36.0         2
+51.0         1
+
+longitud de intervalo:
+ count    248620.000000
+mean          1.039421
+std           0.812418
+min           0.001000
+25%           0.310000
+50%           1.000000
+75%           1.500000
+max          36.600000
+n sondajes: 1873

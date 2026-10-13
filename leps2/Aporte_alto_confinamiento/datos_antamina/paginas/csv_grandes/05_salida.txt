@@ -1,0 +1,162 @@
+
+SIMULACIONES_MR2024_V3 total por litologia_normalizada:
+      litologia_codigo     toneladas  metros     pct
+1675        Intrusivo  7.418510e+08     NaN  14.874
+1676      sin asignar  4.245686e+09     NaN  85.125
+
+SIMULACIONES_MR2024_V3 total por litologia_tentativa:
+                                                            litologia_codigo     toneladas  metros     pct
+2241              Caliza (hipótesis: Sedimentario; RT11~NUMEQ10, siglas C*)  9.450997e+08     NaN  18.949
+2242                                          Caliza (hipótesis: siglas C*)  3.970905e+08     NaN   7.962
+2243  Hornfels (hipótesis: siglas HBV, HGV, HCB, HDP; 'Diop. Hornfels'~HGV)  1.712834e+08     NaN   3.434
+2244                               Hornfels (hipótesis: siglas HG, HGS, HC)  7.877537e+08     NaN  15.794
+2245                                                              Intrusivo  7.418510e+08     NaN  14.874
+2246                                          Mármol (hipótesis: sigla MDP)  1.370226e+08     NaN   2.747
+2247       Mármol (hipótesis: siglas MC, MG, MGS, MPA, MCGB; 'Marble'~MCGB)  1.801011e+09     NaN  36.110
+2248                                                          sin hipótesis  6.425370e+06     NaN   0.129
+
+Merged_Table_Assay_lito total por litologia_normalizada:
+      litologia_codigo  toneladas     metros     pct
+1565        Intrusivo        NaN   75827.73  29.343
+1566      sin asignar        NaN  182593.11  70.656
+
+Merged_Table_Assay_lito total por litologia_tentativa:
+                      litologia_codigo  toneladas    metros     pct
+1841    Caliza (hipótesis: siglas C*)        NaN  26413.85  10.221
+1842  Hornfels (hipótesis: siglas H*)        NaN  35412.08  13.703
+1843                        Intrusivo        NaN  75827.73  29.343
+1844    Mármol (hipótesis: sigla MDP)        NaN  33075.63  12.799
+1845    Mármol (hipótesis: siglas M*)        NaN  87691.55  33.933
+
+SIM por período (tentativa, %):
+ litologia_codigo  Caliza (hipótesis: Sedimentario; RT11~NUMEQ10, siglas C*)  Caliza (hipótesis: siglas C*)  Hornfels (hipótesis: siglas HBV, HGV, HCB, HDP; 'Diop. Hornfels'~HGV)  Hornfels (hipótesis: siglas HG, HGS, HC)  Intrusivo  Mármol (hipótesis: sigla MDP)  Mármol (hipótesis: siglas MC, MG, MGS, MPA, MCGB; 'Marble'~MCGB)  sin hipótesis
+clave                                                                                                                                                                                                                                                                                                                                                 
+2025                                                                   16.9                           16.0                                                                    0.8                                      13.6        6.6                            2.4                                                              43.6            0.2
+2026                                                                   17.2                            4.7                                                                    2.8                                       9.1        8.8                            4.6                                                              52.4            0.4
+2027                                                                    2.6                            3.6                                                                    2.6                                       4.3       16.0                            5.4                                                              65.0            0.5
+2028                                                                   10.6                            3.3                                                                    3.4                                      15.9       11.9                            4.6                                                              50.2            0.1
+2029                                                                   19.7                            3.1                                                                    6.4                                      18.3       15.2                            1.6                                                              35.5            0.2
+2030                                                                   11.8                            4.1                                                                    7.2                                      39.3       13.5                            3.4                                                              20.4            0.2
+2031                                                                    6.6                            8.3                                                                    7.1                                      36.7       14.5                            2.3                                                              24.3            0.2
+2032                                                                   10.8                           14.2                                                                    5.4                                      18.0       20.2                            3.5                                                              27.9            0.0
+2033                                                                   25.6                            6.5                                                                    7.8                                      10.4        9.9                            5.5                                                              34.1            0.1
+2034                                                                   36.8                            2.5                                                                    4.4                                      19.3        4.8                            4.1                                                              28.2            0.0
+2035                                                                   27.2                           11.4                                                                    1.1                                       6.3       15.4                            4.5                                                              33.8            0.3
+203637                                                                 17.9                            8.5                                                                    5.8                                      18.9        8.3                            3.2                                                              37.3            0.1
+203839                                                                 28.8                            5.0                                                                    1.4                                      13.8       13.7                            2.1                                                              35.1            0.0
+204041                                                                 34.3                           12.0                                                                    0.9                                      15.5       21.0                            0.2                                                              16.1            0.0
+204245                                                                  9.4                           11.5                                                                    2.1                                      12.7       13.0                            1.8                                                              49.5            0.0
+204649                                                                  NaN                            NaN                                                                    0.0                                       0.3       59.2                            0.9                                                              39.3            0.2
+
+Asignación por código (propiedades):
+    codigo_tipo litologia_codigo litologia_normalizada                                                    litologia_tentativa
+0       MR24_RT                1             Intrusivo                                                              Intrusivo
+1       MR24_RT                2             Intrusivo                                                              Intrusivo
+2       MR24_RT               10           sin asignar                                          Caliza (hipótesis: siglas C*)
+3       MR24_RT               11           sin asignar              Caliza (hipótesis: Sedimentario; RT11~NUMEQ10, siglas C*)
+4       MR24_RT               13           sin asignar                               Hornfels (hipótesis: siglas HG, HGS, HC)
+5       MR24_RT               14           sin asignar  Hornfels (hipótesis: siglas HBV, HGV, HCB, HDP; 'Diop. Hornfels'~HGV)
+6       MR24_RT               16           sin asignar       Mármol (hipótesis: siglas MC, MG, MGS, MPA, MCGB; 'Marble'~MCGB)
+7       MR24_RT               19           sin asignar                                          Mármol (hipótesis: sigla MDP)
+8       MR24_RT               53           sin asignar                                                          sin hipótesis
+9       MR24_RT            TODOS                                                                                             
+139   Lithology                C           sin asignar                                          Caliza (hipótesis: siglas C*)
+140   Lithology               CA           sin asignar                                          Caliza (hipótesis: siglas C*)
+141   Lithology             CBMN           sin asignar                                          Caliza (hipótesis: siglas C*)
+142   Lithology               CF           sin asignar                                          Caliza (hipótesis: siglas C*)
+143   Lithology               CG           sin asignar                                          Caliza (hipótesis: siglas C*)
+144   Lithology        CG & NGR3           sin asignar                                 Caliza (hipótesis: siglas C*) (mezcla)
+145   Lithology              CGS           sin asignar                                          Caliza (hipótesis: siglas C*)
+146   Lithology        CGS & MGS           sin asignar                                 Caliza (hipótesis: siglas C*) (mezcla)
+147   Lithology               CN           sin asignar                                          Caliza (hipótesis: siglas C*)
+148   Lithology   Diop. Hornfels              Hornfels                                                               Hornfels
+149   Lithology              EXO           sin asignar                                                          sin hipótesis
+150   Lithology              HBV           sin asignar                                        Hornfels (hipótesis: siglas H*)
+151   Lithology               HC           sin asignar                                        Hornfels (hipótesis: siglas H*)
+152   Lithology         HC & HGS           sin asignar                               Hornfels (hipótesis: siglas H*) (mezcla)
+153   Lithology              HCB           sin asignar                                        Hornfels (hipótesis: siglas H*)
+154   Lithology              HDP           sin asignar                                        Hornfels (hipótesis: siglas H*)
+155   Lithology              HDV           sin asignar                                                          sin hipótesis
+156   Lithology               HG           sin asignar                                        Hornfels (hipótesis: siglas H*)
+157   Lithology         HG & HGS           sin asignar                               Hornfels (hipótesis: siglas H*) (mezcla)
+158   Lithology           HG/HGS           sin asignar                               Hornfels (hipótesis: siglas H*) (mezcla)
+159   Lithology              HGS           sin asignar                                        Hornfels (hipótesis: siglas H*)
+160   Lithology           HGS/HC           sin asignar                               Hornfels (hipótesis: siglas H*) (mezcla)
+161   Lithology              HGV           sin asignar                                        Hornfels (hipótesis: siglas H*)
+162   Lithology             HMGV           sin asignar                                        Hornfels (hipótesis: siglas H*)
+163   Lithology               HV           sin asignar                                        Hornfels (hipótesis: siglas H*)
+164   Lithology              INT           sin asignar                                                          sin hipótesis
+165   Lithology            IPHPE             Intrusivo                                                              Intrusivo
+166   Lithology             IPP4           sin asignar                                                          sin hipótesis
+167   Lithology             IPPA             Intrusivo                                                              Intrusivo
+168   Lithology         IPPA/NPL           sin asignar                                                     Intrusivo (mezcla)
+169   Lithology           IPPAMO             Intrusivo                                                              Intrusivo
+170   Lithology            IPPAO             Intrusivo                                                              Intrusivo
+171   Lithology      IPPAO & MGS           sin asignar                                                     Intrusivo (mezcla)
+172   Lithology            IPPEO             Intrusivo                                                              Intrusivo
+173   Lithology              IQM           sin asignar                                                          sin hipótesis
+174   Lithology              LMH           sin asignar                                                          sin hipótesis
+175   Lithology                M           sin asignar                                          Mármol (hipótesis: siglas M*)
+176   Lithology               MC           sin asignar                                          Mármol (hipótesis: siglas M*)
+177   Lithology              MCB           sin asignar                                          Mármol (hipótesis: siglas M*)
+178   Lithology              MCD           sin asignar                                                          sin hipótesis
+179   Lithology              MCG           sin asignar                                                          sin hipótesis
+180   Lithology             MCGB           sin asignar                                          Mármol (hipótesis: siglas M*)
+181   Lithology              MDP           sin asignar                                          Mármol (hipótesis: sigla MDP)
+182   Lithology               MG           sin asignar                                          Mármol (hipótesis: siglas M*)
+183   Lithology         MG & MGS           sin asignar                                 Mármol (hipótesis: siglas M*) (mezcla)
+184   Lithology            MG/MC           sin asignar                                 Mármol (hipótesis: siglas M*) (mezcla)
+185   Lithology             MGCB           sin asignar                                                          sin hipótesis
+186   Lithology              MGS           sin asignar                                          Mármol (hipótesis: siglas M*)
+187   Lithology           MGS/MC           sin asignar                                 Mármol (hipótesis: siglas M*) (mezcla)
+188   Lithology              MPA           sin asignar                                          Mármol (hipótesis: siglas M*)
+189   Lithology      MPA & XGVDP           sin asignar                                 Mármol (hipótesis: siglas M*) (mezcla)
+190   Lithology           Marble                Mármol                                                                 Mármol
+191   Lithology               NC           sin asignar                                                          sin hipótesis
+192   Lithology               NG           sin asignar                                                          sin hipótesis
+193   Lithology             NGR3           sin asignar                                                          sin hipótesis
+194   Lithology             NGRD           sin asignar                                                          sin hipótesis
+195   Lithology            NGRDW           sin asignar                                                          sin hipótesis
+196   Lithology              NPL           sin asignar                                                          sin hipótesis
+197   Lithology              XBV           sin asignar                                                          sin hipótesis
+198   Lithology             XGRD           sin asignar                                                          sin hipótesis
+199   Lithology            XGRDP           sin asignar                                                          sin hipótesis
+200   Lithology            XGRDW           sin asignar                                                          sin hipótesis
+201   Lithology            XGVDP           sin asignar                                                          sin hipótesis
+202   Lithology            XWGCV           sin asignar                                                          sin hipótesis
+203   Lithology             XWGV           sin asignar                                                          sin hipótesis
+204   Lithology            XWGVC           sin asignar                                                          sin hipótesis
+205   Lithology            TODOS                                                                                             
+296        ROCA                1             Intrusivo                                                              Intrusivo
+297        ROCA                2             Intrusivo                                                              Intrusivo
+298        ROCA               10           sin asignar                                          Caliza (hipótesis: siglas C*)
+299        ROCA               11           sin asignar              Caliza (hipótesis: Sedimentario; RT11~NUMEQ10, siglas C*)
+300        ROCA               13           sin asignar                               Hornfels (hipótesis: siglas HG, HGS, HC)
+301        ROCA               14           sin asignar  Hornfels (hipótesis: siglas HBV, HGV, HCB, HDP; 'Diop. Hornfels'~HGV)
+302        ROCA               16           sin asignar       Mármol (hipótesis: siglas MC, MG, MGS, MPA, MCGB; 'Marble'~MCGB)
+303        ROCA               19           sin asignar                                          Mármol (hipótesis: sigla MDP)
+304        ROCA               20                 Skarn                                                                  Skarn
+305        ROCA               22                 Skarn                                                                  Skarn
+306        ROCA               23                 Skarn                                                                  Skarn
+307        ROCA               31                 Skarn                                                                  Skarn
+308        ROCA               32                 Skarn                                                                  Skarn
+309        ROCA               34                 Skarn                                                                  Skarn
+310        ROCA               35                 Skarn                                                                  Skarn
+311        ROCA               36                 Skarn                                                                  Skarn
+312        ROCA               37                 Skarn                                                                  Skarn
+313        ROCA               50                  Otra                                                         Otra (Brechas)
+314        ROCA               51           sin asignar                                                          sin hipótesis
+315        ROCA               53           sin asignar                                                          sin hipótesis
+316        ROCA            TODOS                                                                                             
+
+sin asignar por codigo_tipo (propiedades):
+ codigo_tipo
+Lithology        59
+MR24_RT          35
+ROCA              8
+ROCKCODE         27
+RT_Abrasion       7
+RT_RQD           18
+RT_UCS           12
+RT_UCS|Fuente    24
+filas: 2249 317

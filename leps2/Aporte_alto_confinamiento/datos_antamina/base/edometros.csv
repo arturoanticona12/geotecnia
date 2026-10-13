@@ -1,0 +1,254 @@
+﻿fuente_id,ensayo_id,sigma_v_kPa,eps_v_pct,e,pagina,notas
+W2022,HF-edo-1.0m (IDIEM),0.0,0.0,0.238,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),0.0,0.057,0.237,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),196.1,0.471,0.232,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),392.3,0.929,0.227,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),588.4,1.229,0.223,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),784.5,1.286,0.222,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),980.7,1.357,0.221,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),1176.8,1.529,0.219,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),1372.9,1.757,0.216,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),1569.1,1.871,0.215,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),1765.2,2.129,0.212,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),1961.3,2.3,0.21,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),2157.5,2.471,0.207,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),2353.6,2.643,0.205,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),2549.7,2.729,0.204,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),2745.9,2.829,0.203,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),2942.0,2.929,0.202,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),3138.1,3.171,0.199,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),3334.3,3.343,0.197,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),3530.4,3.414,0.196,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),3726.5,3.543,0.194,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),3922.7,3.614,0.193,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),4118.8,3.7,0.192,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),4314.9,3.8,0.191,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),4511.1,4.043,0.188,300,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),4707.2,4.114,0.187,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),4903.3,4.186,0.186,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),5099.5,4.2,0.186,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),5295.6,4.214,0.186,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),5491.7,4.314,0.185,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),5687.9,4.629,0.181,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),5884.0,4.686,0.18,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),4903.3,4.686,0.18,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),3922.7,4.686,0.18,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),3530.4,4.671,0.18,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),3138.1,4.671,0.18,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),2745.9,4.671,0.18,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),2353.6,4.671,0.18,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),1961.3,4.671,0.18,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),1569.1,4.671,0.18,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),1176.8,4.671,0.18,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),2157.5,4.671,0.18,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),3138.1,4.7,0.18,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),3530.4,4.729,0.18,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),3922.7,4.786,0.179,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),4314.9,4.786,0.179,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),4707.2,4.814,0.178,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),5099.5,4.831,0.178,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),5295.6,4.857,0.178,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),5491.7,4.9,0.177,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),5687.9,4.929,0.177,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),5884.0,4.929,0.177,301,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),6080.1,4.929,0.177,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),6276.3,4.943,0.177,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),6472.4,4.957,0.177,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),6668.5,4.971,0.177,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),6864.7,5.014,0.176,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),5884.0,5.0,0.176,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),4903.3,5.0,0.176,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),4413.0,4.986,0.176,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),3922.7,4.986,0.176,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),3432.3,4.971,0.177,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),2942.0,4.971,0.177,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),2451.7,4.971,0.177,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),1961.3,4.943,0.177,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),1471.0,4.914,0.177,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),980.7,4.886,0.178,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),490.3,4.886,0.178,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,HF-edo-1.0m (IDIEM),0.0,4.743,0.179,302,tabla IDIEM; σ kg/cm²×98.0665; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),0.0,0.0,0.238,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),0.0,0.229,0.235,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),196.1,2.186,0.211,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),392.3,2.571,0.206,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),588.4,2.9,0.202,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),784.5,3.086,0.2,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),980.7,3.329,0.197,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),1176.8,3.714,0.192,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),1372.9,3.929,0.189,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),1569.1,4.071,0.188,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),1765.2,4.186,0.186,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),1961.3,4.357,0.184,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),2157.5,4.529,0.182,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),2353.6,4.686,0.18,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),2549.7,4.829,0.178,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),2745.9,4.929,0.177,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),2942.0,5.043,0.176,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),3138.1,5.171,0.174,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),3334.3,5.257,0.173,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),3530.4,5.314,0.172,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),3726.5,5.4,0.171,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),3922.7,5.657,0.168,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),4118.8,5.7,0.168,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),4314.9,5.829,0.166,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),4511.1,5.9,0.165,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),4707.2,5.929,0.165,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),4903.3,5.957,0.164,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),5099.5,5.986,0.164,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),5295.6,6.014,0.164,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),5491.7,6.057,0.163,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),5687.9,6.086,0.163,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),5884.0,6.114,0.162,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),4903.3,6.1,0.163,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),3922.7,6.114,0.162,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),3530.4,6.114,0.162,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),3138.1,6.114,0.162,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),2745.9,6.1,0.163,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),2353.6,6.1,0.163,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),1961.3,6.1,0.163,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),1569.1,6.1,0.163,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),1176.8,6.057,0.163,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),2157.5,6.157,0.162,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),3138.1,6.171,0.162,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),3530.4,6.186,0.162,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),3922.7,6.2,0.161,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),4314.9,6.2,0.161,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),4707.2,6.214,0.161,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),5099.5,6.229,0.161,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),5295.6,6.243,0.161,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),5491.7,6.271,0.16,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),5687.9,6.271,0.16,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),5884.0,6.286,0.16,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),6080.1,6.286,0.16,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),6276.3,6.329,0.16,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),6472.4,6.343,0.16,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),6668.5,6.357,0.159,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),6864.7,6.386,0.159,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),5884.0,6.386,0.159,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),4903.3,6.386,0.159,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),4413.0,6.371,0.159,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),3922.7,6.357,0.159,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),3432.3,6.343,0.16,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),2942.0,6.329,0.16,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),2451.7,6.3,0.16,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),1961.3,6.257,0.161,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),1471.0,6.214,0.161,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),980.7,6.2,0.161,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),490.3,6.157,0.162,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2021 (IDIEM),0.0,6.071,0.163,324,tabla IDIEM; e con Gs 2.60 (estimado)
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),17.7,0.17,0.284,295,εv=(90−H)/90 con H de la hoja; e de la hoja; estado seco
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),17.7,0.26,0.282,295,εv=(90−H)/90 con H de la hoja; e de la hoja; tras saturación
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),196.1,1.09,0.272,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),392.3,1.3,0.269,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),588.4,1.7,0.264,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),784.5,2.09,0.259,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),980.7,2.51,0.253,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),1176.8,2.83,0.249,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),1372.9,3.22,0.244,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),1569.1,3.61,0.239,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),1765.2,3.98,0.235,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),1961.3,4.39,0.229,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),2157.5,4.67,0.226,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),2353.6,5.06,0.221,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),2549.7,5.42,0.216,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),2745.9,5.77,0.212,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),2942.0,6.03,0.208,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),3138.1,6.33,0.204,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),3334.3,6.57,0.201,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),3530.4,7.01,0.196,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),3726.5,7.22,0.193,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),3922.7,7.54,0.189,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),4413.0,7.86,0.185,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),4903.3,8.19,0.18,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),5393.7,8.73,0.173,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),5884.0,9.03,0.17,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),4903.3,9.03,0.17,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),3922.7,9.03,0.17,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),3530.4,9.03,0.17,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),3138.1,9.04,0.169,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),2745.9,9.04,0.169,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),2353.6,9.04,0.169,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),1961.3,9.03,0.17,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),1569.1,9.03,0.17,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),1176.8,9.03,0.17,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),784.5,9.01,0.17,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),392.3,8.98,0.17,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-1.0m-2011 (IDIEM 708.397-A),17.7,8.87,0.172,295,εv=(90−H)/90 con H de la hoja; e de la hoja
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),0.0,0.0,0.455,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed; estado inicial
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),200.0,6.86,0.355,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),400.0,8.11,0.337,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),800.0,9.93,0.31,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),1200.0,10.85,0.297,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),1600.0,11.61,0.286,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),1999.0,12.13,0.278,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),2400.0,12.66,0.27,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),2800.0,13.18,0.263,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),3200.0,13.73,0.255,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),3600.0,14.22,0.248,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),3999.0,14.72,0.24,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),4399.0,15.02,0.236,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),4799.0,15.63,0.227,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),4000.0,15.42,0.23,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),3200.0,15.19,0.234,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),2400.0,14.92,0.238,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),1600.0,14.62,0.242,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),1200.0,14.46,0.244,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),2200.0,14.82,0.239,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),3200.0,15.16,0.234,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),4000.0,15.42,0.23,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),4800.0,15.67,0.227,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),3000.0,15.16,0.234,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),1000.0,14.42,0.245,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,MN-edo-0.24m-1.86 (Golder Test 1),0.0,12.89,0.267,359,hoja Golder; εv=ΣΔH/H0; e con Gs 2.70 assumed
+W2022,HF-edo-0.24m-2.1 (Golder),0.0,-0.0,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),196.0,0.84,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),399.0,1.01,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),797.0,1.31,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),1203.0,1.57,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),1600.0,1.84,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),1997.0,2.19,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),2398.0,2.59,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),2798.0,3.04,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),3198.0,3.56,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),3601.0,4.03,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),3998.0,4.78,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),4399.0,5.3,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),4799.0,5.85,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),3998.0,5.64,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),3201.0,5.41,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),2401.0,5.14,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),1597.0,4.84,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),1197.0,4.68,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),2201.0,5.05,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),3198.0,5.39,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),3998.0,5.66,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),4799.0,5.89,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),4799.0,6.13,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),997.0,5.37,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-2.1 (Golder),0.0,3.56,,35,leído de gráfico (marcadores vectoriales Fig. 33c); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),0.0,-0.0,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),200.0,8.21,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),403.0,9.9,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),797.0,12.18,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),1200.0,13.26,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),1600.0,13.85,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),2000.0,14.46,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),2398.0,14.92,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),2798.0,15.42,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),3198.0,15.92,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),3601.0,16.42,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),3998.0,16.68,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),4399.0,17.19,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),4799.0,17.31,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),3998.0,17.1,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),3201.0,16.87,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),2401.0,16.61,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),1597.0,16.31,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),1197.0,16.14,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),2197.0,16.52,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),3198.0,16.88,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),3998.0,17.15,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),4799.0,17.52,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),1000.0,16.81,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %
+W2022,HF-edo-0.24m-1.8 (Golder),0.0,15.83,,35,leído de gráfico (marcadores vectoriales Fig. 33d); incertidumbre ≈±30 kPa y ±0.05 %

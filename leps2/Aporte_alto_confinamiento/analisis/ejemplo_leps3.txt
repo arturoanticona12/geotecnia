@@ -1,0 +1,8 @@
+φ'1 = 41°  Leps 2.0 (m = 0.9)           FS = 1.729  σ'n,max = 2.79 MPa
+φ'1 = 41°  Leps 3.0 central (m = 0.87)  FS = 1.690  σ'n,max = 3.12 MPa
+φ'1 = 41°  Leps 3.0 diseño P20          FS = 1.605  σ'n,max = 2.79 MPa
+φ'1 = 41°  Leps 3.0 diseño P10          FS = 1.515  σ'n,max = 2.50 MPa
+φ'1 = 38°  Leps 2.0 (m = 0.9)           FS = 1.554  σ'n,max = 2.79 MPa
+φ'1 = 38°  Leps 3.0 central (m = 0.87)  FS = 1.518  σ'n,max = 3.10 MPa
+φ'1 = 38°  Leps 3.0 diseño P20          FS = 1.442  σ'n,max = 2.77 MPa
+φ'1 = 38°  Leps 3.0 diseño P10          FS = 1.359  σ'n,max = 2.50 MPa

@@ -1,0 +1,386 @@
+[0] Leps-P: Probabilistic Strength Envelopes with Stress-Decaying Curvature for Rockfill and Mine Waste Rock
+
+[1] Author names, ASCE grade, affiliations, and corresponding author e-mail to be completed.
+
+[2] Abstract
+
+[3] Reliability-based design of high waste dumps needs the drained shear strength of rockfill and mine waste rock as a distribution and a rule to combine published experience with site tests. Leps-P is a three-level hierarchical model of the secant friction angle in which the dilatant part of strength decays with stress toward an asymptote, with a material-level dilatant level and decay rate, calibrated on 767 large-scale triaxial tests from 36 publications of the Leps 2.0 database. In maximum likelihood, this form exceeded a quadratic log–log envelope with the same number of parameters by 9.7 and a form without an asymptote by 12.2; the asymptote, about 24°, is a decay parameter, not a critical-state angle. Leaving out one publication at a time, the bounded, quadratic, and Leps 2.0 envelopes predicted new materials with indistinguishable accuracy; the hierarchical forms had intervals consistent with nominal coverage at low stress, unlike a constant dispersion, and underpredicted the median above 2.75 MPa. Updating the level of each material with a few site tests at low stress gave nominal coverage at higher stress (83% of the 80% interval). Under the adopted size model, 52–62% of the variance for an untested waste rock at field scale came from the heterogeneity of the specimen-size effect. For a 700 m dump on a competent foundation, whose critical surface mobilized  ≤ 2.0 MPa, the Morgenstern–Price factor of safety was 1.47 with the median and 1.21 with the 5th-percentile envelope of placed waste rock. Design charts and open code are provided.
+
+[4] Practical Applications
+
+[5] Designers of high waste dumps and rockfill dams often have few or no large-scale shear tests and rely on published charts of rockfill strength. This work turns the Leps chart into a tool that gives a best estimate of strength and a cautious value for design, for any rock quality and density, together with the range of uncertainty. Its curves flatten at high pressure, as expected when crushed rock stops dilating, and they are supported by tests up to about 8 MPa on the failure plane. A few tests of the site material at low pressure sharpen the estimate at higher pressure, and the tool warns when site tests disagree with published experience. For untested waste rock, most of the remaining uncertainty comes, under the adopted model, from the size of the rock particles and from differences between materials and laboratories; testing the actual waste rock at large scale and at two particle sizes is therefore the most valuable investigation. Free software accompanies the paper.
+
+[6] Author keywords: Rockfill; Mine waste rock; Shear strength; Nonlinear failure envelope; Dilatancy; Hierarchical model; Reliability-based design; High waste dumps.
+
+[7] Introduction
+
+[8] Leps (1970) compiled 109 large-scale triaxial tests and proposed three nonlinear envelopes for rockfill that have been used for dams and waste dumps whenever site-specific tests were unavailable. Cylwik et al. (2025) updated them with a public database of 938 tests (Arrieta 2025), adopted the power criterion of De Mello (1977) and Charles and Watts (1980) with a single fitting parameter, the secant friction angle at  = 10, and related that angle to rock quality and void ratio. That update is referred to here as Leps 2.0.
+
+[9] Two developments motivate a further extension. First, design is moving toward reliability-based criteria (Read and Stacey 2009; Hawley and Cunning 2017), which require a strength distribution and a rule to combine published experience with site tests. Second, waste dumps now reach 500–700 m (Valenzuela et al. 2008). For a uniform dump on a competent foundation the critical surface stays at normal stresses of about 2 MPa (see the application below), but mechanisms controlled by the foundation, by a basal layer, or by the weakest material reach higher stresses, where waste rock crushes and loses dilatancy (Marsal 1973; Hardin 1985; Lade et al. 1996; Linero et al. 2007; Ovalle et al. 2020). How an envelope behaves at the edge of and beyond the data then matters: a power law with a constant exponent keeps curving downward, whereas the excess of strength over the critical state, which is the contribution of dilatancy, is suppressed by confinement (Bolton 1986; Jefferies and Been 2016).
+
+[10] Hierarchical models that borrow strength from generic databases have been developed for soil properties (Ching and Phoon 2019; Ching et al. 2021), and a hierarchical Bayesian analysis of the Barton and Kjærnsli (1981) parameters has been applied to the rockfill groups of a single project (Contreras et al. 2022; Contreras and Linero-Molina 2025). Leps-P differs in pooling 36 publications, in its envelope form, and in its out-of-sample evaluation. Its contributions are a material-level envelope whose curvature decays with stress, a site-updating rule with a prior–data conflict check, a decomposition of the uncertainty of an untested waste rock at field scale, and design charts with an open implementation.
+
+[11] Database and Model Formulation
+
+[12] Calibration Database
+
+[13] The public database (Arrieta 2025) was filtered to tests with  ≥ 60 kPa, reported initial void ratio, and at least two tests per set, giving 767 tests on 226 sets from 36 publications (Fig. S1). A set is a material with a given gradation, density, and rock type tested in one program; failure is the maximum deviator stress, as in Leps 2.0. Rock quality classes follow Table 5 of Cylwik et al. (2025). Tests with  > 3 MPa (90 tests) come from eight publications, seven of them published between 1963 and 1983 (e.g., Marachi et al. 1972; Marsal 1973), and sets with  < 31° were excluded by Cylwik et al. (2025), so the lower tail of the population is truncated. The net volumetric strain at the maximum deviator, reported for 308 tests, showed compression that grew with stress: its median was -0.9% below 0.5 MPa and -6.9% above 3 MPa, where the median breakage index of Marsal (1973) was 36% (Fig. S2); the dilatancy rate at the peak is not reported. Above 5 MPa the measured secant angles ranged from 35.5° to 41.2° (5th to 95th percentile, 34 tests). The database void ratio ranges from 0.15 to 0.89, and 83 of the 90 tests above 3 MPa have e ≤ 0.55.
+
+[14] Envelope
+
+[15] The Leps 2.0 criterion is the power law
+
+[16] 		(1)
+
+[17] where  = 10,  = 0.1013 MPa,  is the secant friction angle at  = , and m is a constant exponent; the secant friction angle is  = arctan(τ/). In granular materials the excess of strength over the critical state is governed by dilatancy, which is controlled by the state of the material relative to its critical state and is suppressed by confinement (Bolton 1986; Jefferies and Been 2016, p. 43); particle crushing reinforces this trend (Hardin 1985; McDowell and Bolton 1998; Coop et al. 2004; Einav 2007). A minimal form with this property is
+
+[18] 		(2)
+
+[19] in which the dilatant part decays at rate ζ toward the asymptotic angle . For  = 0 it reduces to a power law with m = 1 − ζ; Bolton (1986) proposed instead a dilatant part that vanishes at a finite stress. Because specimens at high stress were still compressing at large strains when the maximum deviator was reached, part of the curvature may reflect strain-limited, under-mobilized tests, so  is a population decay parameter of the maximum-deviator envelope and not a critical-state angle (Been and Jefferies 1985; Russell and Khalili 2004).
+
+[20] Hierarchical Model
+
+[21] With y = ln(τ/), the strength of test i of set j of publication k is
+
+[22] 		(3)
+
+[23] 		(4)
+
+[24] 		(5)
+
+[25] where η = ln tan  is the dilatant level of the material,  the coefficient of rock quality class c,  the effect of initial void ratio e,  the population decay rate,  = (, ) the publication and set random effects with covariance matrices  and , and ε the test-to-test deviation with standard deviation  (Laird and Ware 1982). Every material thus has its own envelope that decays toward the common asymptote, and its local slope is below one when ζ > 0. A common asymptote is a structural assumption: it makes between-material differences shrink at stresses far beyond the data. In the database the between-set standard deviation of the mean residual of ln τ fell from 0.124 below 1 MPa to 0.085 above 3 MPa, although the latter rests on 8 publications. The publication effect, which combines laboratory, procedure, era, and material selection, is treated as uncertainty of strength. Through  and  the median  approximates the relation  =  − ωe of Leps 2.0. A quadratic log–log form, y = θ + m·x + c₂x², and a power form (c₂ = 0), with random effects on θ and m, were fitted for comparison.
+
+[26] The asymptote is weakly identified: lower values of  with slower decay fit nearly as well as higher values with faster decay. Its profile likelihood was computed by maximum likelihood at each  from 0° to 34° in steps of 1–3°, refitting , the fixed effects, and the variance parameters (Fig. S3). The values within 6 log-likelihood units of the maximum were retained, and predictions average over them with weights proportional to the likelihood (flat prior in degrees; a prior uniform in tan  was used as a sensitivity).
+
+[27] Predictive Distribution and Design Values
+
+[28] For a new material of class c and void ratio e tested by a new laboratory, y is approximately normal with mean f(x) given by Eq. (3) with  = 0 and variance
+
+[29] 		(6)
+
+[30] where  and  are the gradients of f with respect to (η, ζ) and to the fixed effects and  is the covariance of the fixed effects, evaluated at zero random effects (first-order method; cf. Lindstrom and Bates 1990). The first two terms describe the uncertainty of the mean envelope of the material, which does not average out along a failure surface within that material (Christian et al. 1994); the last describes test-to-test scatter. The implementation samples the variance parameters from their posterior, (, ) from the profile weights, the fixed effects, and the random effects. Fig. 1 shows the median and 5th percentile of the mean envelope of untested materials at laboratory specimen size.
+
+[31] Updating with Site Tests
+
+[32] Site triaxial tests are reduced with the maximum-deviator criterion of the database and converted to (, τ) with Eqs. (13), (14), and (16) of Cylwik et al. (2025). Consistency with the prior is checked with the prior predictive Mahalanobis distance
+
+[33] 		(7)
+
+[34] where  holds the residuals  of the n site tests from the prior mean,  and  have rows  and , and ; a p-value below 0.05 flags the tests for review. The update treats the residuals as measurements of the level of the envelope at the centroid  of the tests. With  the random effects of the material and the deviation of the fixed effects,  their prior covariance,  the gradient at , and  = , the level  =  has the posterior
+
+[35] 		(8)
+
+[36] and  is shifted by . Eq. (8) is a cut (modular) update that can be applied in a spreadsheet; it does not estimate the decay of a single material from a few tests. When several materials of one site were tested by the same laboratory, the sets can be updated jointly with the same rule and a shared publication effect, which untested materials then inherit. Whether flagged sets are excluded is a site-specific decision taken after reviewing the tests; the evaluation below does not support exclusion as a general rule.
+
+[37] Placement Density and Specimen Size
+
+[38] A change of void ratio Δe from the specimens to the placed material enters through η, so its effect fades with stress. Because  was estimated between sets, in which void ratio also reflects gradation and particle shape, applying it to a change of state of one material is an assumption. Specimen size enters as a shift of level
+
+[39] 		(9)
+
+[40] where  and  are the maximum particle sizes in the field and in the laboratory; Weibull scaling predicts  < 0 (Frossard et al. 2012; Ovalle et al. 2014; Alonso et al. 2012).
+
+[41] Estimation and Out-of-Sample Evaluation
+
+[42] Fixed effects were estimated by Gauss–Newton iteration on the linearized mean, with restricted maximum likelihood (REML) for the variance parameters. Variance parameters were sampled with an adaptive Metropolis algorithm under weakly informative priors (half-normal with scale 0.25 on standard deviations, uniform on correlations, normal on ), with four chains from dispersed starting values; the fixed effects are thus estimated conditionally (an empirical Bayes scheme). Convergence was checked with the rank-normalized potential scale reduction factor and bulk and tail effective sample sizes (Vehtari et al. 2021). Comparisons between mean structures used the full maximum likelihood, with the variance parameters refitted for each structure.
+
+[43] Each publication was left out in turn; in each fold (, ) were selected on the training data only ( from 16° to 30° in steps of 2° and  from 0.20 to 0.45 in steps of 0.05, at the variance parameters of a common starting fit) and the model was refitted. In Mode A (no site tests), every test of the held-out publication was predicted. In Mode B, each held-out set with at least two tests at  ≤ 1.5 MPa and one at  ≥ 2 MPa was updated with the former, and the latter were predicted with the prior, the level update of each set (Eq. 8), variants with discarded or jointly updated sets, and least-squares fits of  with m = 0.90 or with m from the training data (Table S1). These procedures were developed on the same held-out sets, so the Mode B comparisons are exploratory. Scores were the coverage of the 80% interval, the fraction of tests below the 10th percentile, the continuous ranked probability score (CRPS) of ln τ (Gneiting and Raftery 2007), and, for the 10th percentile, the quantile (pinball) loss. Differences in publication means were tested with exact sign-flip tests with Holm (1979) adjustment within each mode; bootstrap intervals over publications are given for description only, since they are anti-conservative with 9–13 publications. The Mode A reference was the Leps 2.0 envelope (m = 0.9) with a constant dispersion fitted to the training data; its constants were fitted to the whole database, which favors it.
+
+[44] The folds used plug-in predictive distributions. With all data, the distribution of the implementation differed from the plug-in one by at most 0.004 in median ln τ and had a standard deviation 1.03–1.09 times as large. The single-material update of the implementation is algebraically the Mode B level update; the joint site update applies the same rule with a shared laboratory effect.
+
+[45] Results
+
+[46] Parameters and Evidence for Stress-Decaying Curvature
+
+[47] Table 1 lists the parameters. The rank-normalized potential scale reduction factor was at most 1.005, and the bulk and tail effective sample sizes were at least 967 and 2121. With half-normal prior scales of 0.1, 0.25, and 0.5 the median between-publication standard deviation of η was 0.060, 0.062, and 0.062. At , publication effects account for 36% (90% credible interval 22%–54%) of the between-material variance of η.
+
+[48] In maximum likelihood, the bounded form exceeded the quadratic form, which has the same number of parameters, by 9.7, and the form without an asymptote ( = 0, the power form) by 12.2 (likelihood ratio test, p < 10⁻⁵, approximate because the null lies on the boundary of the parameter space). Within 3 log-likelihood units of the maximum,  ranged from 19° to 28° (Fig. S3); the weighted mean was 24.4° (24.5° with a prior uniform in tan ) and  = 0.29. All 36 folds selected  of 24–26° and  = 0.30 on the coarser fold grid. Out of sample the forms were indistinguishable (next section).
+
+[49] Mode A: No Site Tests
+
+[50] Across all held-out tests (Table 2, Fig. 2a), the bounded and quadratic forms had CRPS 0.0680 and 0.0688 (−0.0008 (95% CI −0.0036 to +0.0015; sign-flip p = 0.56, Holm-adjusted 1.00)), and Leps-P covered 84% of tests with its 80% interval. Above 2.75 MPa (100 tests, 9 publications) both forms underpredicted the median (mean standardized residual +0.21 and +0.28), and the Leps 2.0 reference had a lower CRPS (0.0446 against 0.0478) and a lower 10% quantile loss (+0.0033 (95% CI +0.0014 to +0.0056; sign-flip p = 0.01, Holm-adjusted 0.14)): out of sample the decay of Leps-P may be too strong at high stress, and its lower percentiles there are conservative. Below 0.5 MPa the constant-dispersion interval covered only 70% of tests, with the median biased low (mean standardized residual +0.59), whereas both hierarchical forms covered 84% and 84%; this reflects the constant dispersion of the reference, not the Leps 2.0 envelope itself.
+
+[51] Mode B: Site Tests at Low Stress
+
+[52] With the level update of each set, 83% of the held-out tests fell within the 80% interval (binomial 95% interval about 71–91%, before allowing for clustering) and the standard deviation of standardized residuals was 0.91, consistent with nominal (Table 2, Fig. 2b). The CRPS was 0.0308, against 0.0424 for the prior, 0.0369 for the least-squares fit with m from the training data, and 0.0407 for the fit with m = 0.90, which placed 17% of tests below its 10th percentile. The joint update scored 0.0330 with heavy tails (standard deviation of standardized residuals 1.34). Discarding flagged sets did not improve the scores (0.0345 alone and 0.0344 with a shared laboratory effect), so the evaluation does not support exclusion as a general rule. None of the differences was significant after adjustment (smallest Holm-adjusted p = 0.48; all procedures in Table S1); with 64 tests from 13 publications the comparison can detect only large differences. The conflict check flagged 9% of the sets.
+
+[53] Specimen Size
+
+[54] Sixteen materials of 12 publications were tested at maximum particle sizes differing by a factor of two or more. With set intercepts adjusted for void ratio and materials combined within publications, the random-effects mean of  was +0.041 (Knapp–Hartung 95% CI −0.001 to +0.084; Knapp and Hartung 2003) with a between-publication standard deviation  = 0.063 (Q-profile 95% CI 0.042–0.107; Viechtbauer 2007; Fig. S4). Materials with size ratios below 2, which cannot resolve a log-size effect, were excluded; with them  = 0.104, and adding the between-set variance of the model to each estimate gave  = 0.049. The interval for the mean excludes the magnitude of about −0.05 to −0.15 implied by Weibull scaling of homothetic gradations, while the database mixes scalped and parallel gradations and rounded and angular particles, for which opposite trends have been reported (Varadarajan et al. 2003). For design, Leps-P uses a zero mean, which is conservative given the positive estimate, with  = 0.063 and the standard error of the mean as uncertainty (effective standard deviation 0.066 per unit ln(/)).
+
+[55] Sources of Uncertainty at Field Scale
+
+[56] For an untested material of low rock quality placed at e = 0.65 and scaled from 0.18 m to 1 m particles, the standard deviation of the mean-envelope ln τ at 3 MPa corresponds to about 3.8° in . Under the adopted size model, specimen size contributed 62% of the variance (52% with  = 0.049), between-set variability 23%, publication 12%, the population asymptote and decay rate (, ) 0%, and the fixed effects 2% (Fig. S5); at 10 MPa (, ) contributed 2%. The size share scales with ln²(/). The size shift is a level term, so at field scale it does not decrease with stress; the between-material variance decreases with stress only at laboratory scale and only beyond about 30 MPa, a consequence of the common asymptote that probably understates the uncertainty of extrapolation.
+
+[57] Design Values
+
+[58] Table 3 gives the median and 5th percentile of the mean envelope of untested materials at laboratory specimen size, by rock quality and void ratio. The values apply to drained, global mechanisms with the maximum-deviator criterion. Adding the specimen-size uncertainty lowers the 5th percentile by about 2–4° for a size ratio of 5.6, and the values do not represent degradable, argillaceous, or fines-rich waste below the database range. Envelopes must not be used above  = 8 MPa, including in numerical models, or above 3 MPa for e > 0.55.
+
+[59] Application: Waste Rock from a Large Open-Pit Mine
+
+[60] Site Data and Conflict Check
+
+[61] The waste rock of a large open-pit mine comprises five rock types, A to E. Drained triaxial tests on large specimens of scalped gradation by one laboratory were available for A, B, and C (5 sets); D and E were untested, and E is prone to degradation. Rock quality was taken as low for A, C, D, and E and moderate for B; illustrative mass fractions of 35%, 25%, 20%, 10%, and 10% were used. For rock type A the conflict check gave p = 0.17 with the low class and 0.025 with the good class, so the tests were consistent with the class assigned. The check flagged 3 of the 5 sets (Fig. 3a): both sets of B (p ≤ 0.0001) and one of C (p = 0.022). In the B sets the secant angle increased with stress and the specimens were still compressing at the maximum deviator, reached at 13–19% axial strain. With the deviator at 10% and 15% axial strain their free log–log slopes were still 1.04–1.19, so the increase is not an artifact of the failure definition, and fixed-strain criteria created new conflicts in the other rock types. Because the flagged sets are stronger than the prior at high stress, they were not used to update the envelope, which is conservative here; the remaining sets were updated jointly with a common laboratory effect. Each rock type is represented by one material, so the updated envelope describes the tested sample of that rock type rather than its variability within the dump.
+
+[62] Placement Density, Specimen Size, and Dump-Average Envelope
+
+[63] Laboratory specimens had void ratios of 0.31–0.42; a placement void ratio of 0.65 was adopted for end-dumped waste rock, with an additional increase of 0.15 for the degradation of E. A failure surface through a mixed dump mobilizes the mass-weighted strength of the rock types it crosses; this assumes mixing along the surface, and the weakest-rock-type case bounds segregated placement. At  = 1 MPa, typical of the critical surfaces below, the median and 5th percentile of the dump-average  were 41.5° and 39.7° at laboratory density and size, 36.4° and 34.6° at placement density without size shift, and 36.4° and 31.1° with both (Table 4; Fig. 3b). Density thus lowered the median and size uncertainty the 5th percentile. The size shift was shared by all rock types; with independent shifts the 5th percentile of the dump average was 33.5°, so sharing it is conservative. A surface confined to E lowered the 5th percentile by 3.7°, and giving D and E a laboratory effect independent of the site changed it by 0.4°. Only 23 database tests have void ratios above 0.75, as for E.
+
+[64] Stability of a High Dump
+
+[65] Dumps 150–700 m high with an overall slope of 2H:1V on a competent, drained, level foundation were analyzed in Slide2 (Rocscience year) with the Morgenstern and Price (1965) method (half-sine interslice function) and a noncircular search optimized by simulated annealing, using the envelopes tabulated from 0.05 MPa with linear interpolation to the origin (Table 5). The section is a uniform face without benches or lifts, dry, with void ratio and unit weight constant with depth; lift-scale stability at the angle of repose is outside the scope. The unit weight was consistent with the void ratio: 17.2 kN/m³ for e = 0.65 (specific gravity 2.75, water content 5%), 15.7 kN/m³ for E (e = 0.80), and 21 kN/m³ at laboratory density. The critical surfaces ran from the toe to the crest, 31 m deep at 150 m and 137 m at 700 m, and mobilized  averaging 1.4 MPa and at most 2.0 MPa at 700 m (γ·h·cos²α at the slice bases), within the validity domain. For 700 m, the factor of safety was 1.47 with the median and 1.21 with the 5th-percentile dump-average envelope, and 1.69 and 1.60 at laboratory density and size (Table 5, which also lists the sensitivities to density, size, and envelope form). The quadratic form gave 1.20 with the 5th percentile, because at these stresses the forms agree, and a circular search (Auto Refine) gave 1.209 against 1.205. In a Monte Carlo analysis, each of 600 envelope samples was analyzed in Slide2 with its own search of the critical surface. The model correlation gave 0 failures (probability of failure below 0.6% at 95% confidence, Clopper–Pearson; Clopper and Pearson 1934; lognormal reliability index 3.3 from the median and 5th percentile of the factor of safety), and a surface confined to E gave 11 of 600 (0.9–3.3%; index 2.1). The 5th percentile of the factor of safety (1.22) agreed with the factor of safety computed with the 5th-percentile envelope (1.21), which supports deterministic analyses with percentile envelopes for this mechanism. These are strength-only probabilities, conditional on the size model, a drained foundation, and a two-dimensional section.
+
+[66] Discussion
+
+[67] What Leps-P Adds
+
+[68] Leps-P does not predict the central strength of an untested material better than Leps 2.0, and with few site tests its advantage over simple fits is not statistically demonstrable with the available publications. Its contributions are a material-level envelope whose curvature decays with stress, strongly favored by the likelihood and consistent with the suppression of dilatancy; intervals consistent with nominal coverage where a constant dispersion is not, both without and with site tests; an updating rule with a conflict check; and a decomposition showing that, under the adopted size model, particle size and the identity of the material dominate the uncertainty of an untested waste rock. Large-scale tests of the actual waste rock, and of one material at two particle sizes, are therefore the most valuable investigations. The stress-decaying curvature matters only for mechanisms that reach several megapascals, such as those controlled by a weak foundation or a basal layer, which were not analyzed here.
+
+[69] Design Format
+
+[70] A procedure consistent with these results is: (1) assign rock quality and placement void ratio to each rock type, reduce any site tests with the maximum-deviator criterion, and check the conflict diagnostic; (2) update the level of the envelopes with the site tests (Eq. 8), jointly when one laboratory tested several materials, and exclude flagged sets only when a review of the tests identifies a cause or when exclusion is conservative; (3) shift the envelopes to placement density and field particle size; (4) adopt as characteristic value for a global mechanism the 5th percentile of the mean envelope, a Bayesian cautious estimate of the mean (Prästings et al. 2019) in the spirit of Eurocode 7 (CEN 2004, 2024); and (5) check the probability of failure by sampling the envelopes with stated correlations between rock types, including the weakest-rock-type case. The factor of safety computed with the characteristic envelope is the strength factor that the design would still tolerate, so applying mining acceptance criteria calibrated for best-estimate strength (Read and Stacey 2009; Hawley and Cunning 2017) on top of it partly counts the strength uncertainty twice. The example shows the tension: with a partial factor of 1.25 on tan φ′, as in the material-factor approach of Eurocode 7, the characteristic factor of safety of 1.21 would not satisfy the check, although the conditional probability of failure was below 0.6%. No target values are proposed here; the pairing of factor of safety and conditional probability of failure in Table 5 is an example to be calibrated site by site.
+
+[71] Limitations
+
+[72] The validity domain is  ≤ 8 MPa and, above 3 MPa, e ≤ 0.55, where 83 of the 90 high-stress tests lie; percentiles beyond it are model extrapolations. Tests above 3 MPa come from eight publications, the lower tail of the population is truncated at  = 31°, class labels may carry information from measured strength, and the within-material residual is laboratory scatter rather than spatial variability. The size-effect heterogeneity, the largest term at field scale, rests on 12 publications. The common asymptote is a structural assumption. The site application uses one laboratory, one tested set per rock type, a size shift shared by all rock types, and illustrative proportions. Pore pressure in saturated basal layers, wetting collapse (Oldecop and Alonso 2001), seismic loading, three-dimensional geometry, and static liquefaction are outside the scope. Leps-P can be re-estimated as drained tests at  of 5–10 MPa, tests of one material at two sizes, and in situ density data become available.
+
+[73] Conclusions
+
+[74] An envelope in which the dilatant part of tan  decays with stress toward an asymptote, with a material-level dilatant level and decay rate, is strongly favored by the likelihood over fixed-form alternatives; the asymptote (about 24°) is a decay parameter, not a critical-state angle.
+
+[75] Out of sample, the bounded, quadratic, and Leps 2.0 envelopes predict new materials with indistinguishable accuracy; both hierarchical forms have intervals consistent with nominal coverage at low stress, where a constant dispersion does not, and both underpredict the median above 2.75 MPa.
+
+[76] Updating the level of each material with a few site tests at low stress gives predictions at higher stress with coverage consistent with nominal; its advantage over simpler fits is not statistically significant with 13 publications.
+
+[77] No systematic specimen-size effect is detected within materials; under the adopted model its heterogeneity dominates the uncertainty of an untested waste rock at field scale.
+
+[78] For a 700 m dump on a competent foundation, whose critical surface mobilizes about 2 MPa, placement density lowers the median strength and size uncertainty the cautious strength, and the envelope form does not affect the factor of safety.
+
+[79] Data Availability Statement
+
+[80] Some or all data, models, or code generated or used during the study are available in a repository or online in accordance with funder data retention policies (Leps-P code, parameters, and evaluation scripts: repository DOI; calibration database: Arrieta 2025). Some or all data, models, or code generated or used during the study are proprietary or confidential in nature and may only be provided with restrictions (the site test results, which may be provided in anonymized form with the permission of their owner).
+
+[81] Acknowledgments
+
+[82] Acknowledgments, funding, and the permission of the owner of the site test data to be completed. Declaration of the use of AI tools, as required by ASCE policy: tool, purpose, and confirmation that the authors reviewed and take responsibility for the content.
+
+[83] Notation
+
+[84] The following symbols are used in this paper:
+
+[85]  = covariance matrix of the fixed effects;
+
+[86] ,  = maximum particle size in the field and in the laboratory;
+
+[87]  = prior predictive Mahalanobis distance of the site tests;
+
+[88] ,  = covariance matrices of the publication and set random effects;
+
+[89] ,  = matrices of the gradients of the envelope with respect to the fixed and random effects;
+
+[90]  = prior covariance of the random effects and fixed-effect deviations of a material;
+
+[91]  = diagonal matrix of test-to-test variances;
+
+[92]  = prior predictive covariance of the site tests;
+
+[93]  = maximum particle size;
+
+[94]  = gradient of the envelope at the centroid of the site tests;
+
+[95] ,  = parameters of the test-to-test dispersion;
+
+[96] c, c₂ = rock quality class; quadratic coefficient of the comparison form;
+
+[97] e = initial void ratio;
+
+[98] f = mean envelope of a new material in terms of y;
+
+[99]  = prior variance of ;
+
+[100] ,  = gradients of f with respect to the fixed and random effects;
+
+[101] m = exponent of the power envelope;
+
+[102] n = number of site tests;
+
+[103]  = atmospheric pressure (0.1013 MPa);
+
+[104]  = level of the envelope at the centroid of the site tests;
+
+[105] ,  = residuals of the site tests from the prior mean;
+
+[106] , ,  = random effects on (η, ζ): total, publication, and set;
+
+[107]  = random effects and fixed-effect deviations of a material;
+
+[108] x = ln(/);
+
+[109]  = mean of x over the site tests of a set;
+
+[110] y = ln(τ/);
+
+[111]  = coefficient of rock quality class c;
+
+[112]  = specimen-size coefficient;
+
+[113]  = effect of void ratio on η;
+
+[114] Δe, Δy = change of void ratio; shift of y for specimen size;
+
+[115] ε = test-to-test deviation;
+
+[116] ζ,  = decay rate of a material and of the population;
+
+[117] η = dilatant level of a material, ln tan ;
+
+[118] θ = level of the comparison forms;
+
+[119]  = reference stress, 10;
+
+[120]  = effective confining stress;
+
+[121]  = effective normal stress on the failure plane;
+
+[122]  = standard deviation of test-to-test scatter;
+
+[123] τ = shear strength;
+
+[124]  = between-publication standard deviation of ;
+
+[125]  = tan ;
+
+[126]  = secant friction angle at  = ;
+
+[127]  = asymptotic secant friction angle;
+
+[128]  =  extrapolated to e = 0 in Leps 2.0;
+
+[129]  = secant friction angle;
+
+[130] ω = decrease of  per unit void ratio in Leps 2.0;
+
+[131] Supplemental Materials
+
+[132] Figs. S1–S5 (stress coverage of the database; volumetric strain and breakage at failure; profile likelihood of the asymptotic angle; specimen-size effect by material; variance decomposition) and Table S1 (every Mode B procedure evaluated) are available online in the ASCE Library (www.ascelibrary.org).
+
+[134] References
+
+[135] Alonso, E. E., M. Tapias, and J. Gili. 2012. "Scale effects in rockfill behaviour." Géotech. Lett. 2 (3): 155–160. https://doi.org/10.1680/geolett.12.00025.
+
+[136] Arrieta, M. 2025. "Rockfill test database. Version 1." Zenodo. Accessed October 6, 2026. https://doi.org/10.5281/zenodo.14665504.
+
+[137] Barton, N., and B. Kjærnsli. 1981. "Shear strength of rockfill." J. Geotech. Eng. Div. 107 (7): 873–891. https://doi.org/10.1061/AJGEB6.0001167.
+
+[138] Been, K., and M. G. Jefferies. 1985. "A state parameter for sands." Géotechnique 35 (2): 99–112. https://doi.org/10.1680/geot.1985.35.2.99.
+
+[139] Bolton, M. D. 1986. "The strength and dilatancy of sands." Géotechnique 36 (1): 65–78. https://doi.org/10.1680/geot.1986.36.1.65.
+
+[140] CEN (European Committee for Standardization). 2004. Eurocode 7: Geotechnical design—Part 1: General rules. EN 1997-1. Brussels, Belgium: CEN.
+
+[141] CEN (European Committee for Standardization). 2024. Eurocode 7: Geotechnical design—Part 1: General rules. EN 1997-1:2024. Brussels, Belgium: CEN.
+
+[142] Charles, J. A., and K. S. Watts. 1980. "The influence of confining pressure on the shear strength of compacted rockfill." Géotechnique 30 (4): 353–367. https://doi.org/10.1680/geot.1980.30.4.353.
+
+[143] Ching, J., and K.-K. Phoon. 2019. "Constructing site-specific multivariate probability distribution model using Bayesian machine learning." J. Eng. Mech. 145 (1): 04018126. https://doi.org/10.1061/(ASCE)EM.1943-7889.0001537.
+
+[144] Ching, J., S. Wu, and K.-K. Phoon. 2021. "Constructing quasi-site-specific multivariate probability distribution using hierarchical Bayesian model." J. Eng. Mech. 147 (10): 04021069. https://doi.org/10.1061/(ASCE)EM.1943-7889.0001964.
+
+[145] Christian, J. T., C. C. Ladd, and G. B. Baecher. 1994. "Reliability applied to slope stability analysis." J. Geotech. Eng. 120 (12): 2180–2207. https://doi.org/10.1061/(ASCE)0733-9410(1994)120:12(2180).
+
+[146] Clopper, C. J., and E. S. Pearson. 1934. "The use of confidence or fiducial limits illustrated in the case of the binomial." Biometrika 26 (4): 404–413. https://doi.org/10.1093/biomet/26.4.404.
+
+[147] Contreras, L.-F., and S. Linero-Molina. 2025. "Hierarchical Bayesian inference of rockfill strength parameters from large-scale triaxial test data." Aust. Geomech. 60 (2): 91–106. https://doi.org/10.56295/AGJ6024.
+
+[148] Contreras, L.-F., S. Linero-Molina, and J. Dixon. 2022. "Bayesian approach to improve the confidence of the estimation of the shear strength of coarse mine waste using Barton's empirical criterion." Aust. Geomech. 57 (2): 163–174. https://doi.org/10.56295/AGJ5728.
+
+[149] Coop, M. R., K. K. Sørensen, T. Bodas Freitas, and G. Georgoutsos. 2004. "Particle breakage during shearing of a carbonate sand." Géotechnique 54 (3): 157–163. https://doi.org/10.1680/geot.2004.54.3.157.
+
+[150] Cylwik, S. D., M. Arrieta, J. C. Cunning, and P. M. Hawley. 2025. "Update to the Leps strength envelopes for rockfill based on 900 large-scale triaxial tests." Int. J. Geomech. 25 (12): 04025285. https://doi.org/10.1061/IJGNAI.GMENG-12050.
+
+[151] De Mello, V. F. B. 1977. "Reflections on design decisions of practical significance to embankment dams." Géotechnique 27 (3): 281–355. https://doi.org/10.1680/geot.1977.27.3.281.
+
+[152] Einav, I. 2007. "Breakage mechanics—Part I: Theory." J. Mech. Phys. Solids 55 (6): 1274–1297. https://doi.org/10.1016/j.jmps.2006.11.003.
+
+[153] Frossard, E., W. Hu, C. Dano, and P.-Y. Hicher. 2012. "Rockfill shear strength evaluation: A rational method based on size effects." Géotechnique 62 (5): 415–427. https://doi.org/10.1680/geot.10.P.079.
+
+[154] Gneiting, T., and A. E. Raftery. 2007. "Strictly proper scoring rules, prediction, and estimation." J. Am. Stat. Assoc. 102 (477): 359–378. https://doi.org/10.1198/016214506000001437.
+
+[155] Hardin, B. O. 1985. "Crushing of soil particles." J. Geotech. Eng. 111 (10): 1177–1192. https://doi.org/10.1061/(ASCE)0733-9410(1985)111:10(1177).
+
+[156] Hawley, M., and J. Cunning, eds. 2017. Guidelines for mine waste dump and stockpile design. Clayton, Australia: CSIRO Publishing.
+
+[157] Holm, S. 1979. "A simple sequentially rejective multiple test procedure." Scand. J. Stat. 6 (2): 65–70.
+
+[158] Jefferies, M., and K. Been. 2016. Soil liquefaction: A critical state approach. 2nd ed. Boca Raton, FL: CRC Press. https://doi.org/10.1201/b19114.
+
+[159] Knapp, G., and J. Hartung. 2003. "Improved tests for a random effects meta-regression with a single covariate." Stat. Med. 22 (17): 2693–2710. https://doi.org/10.1002/sim.1482.
+
+[160] Lade, P. V., J. A. Yamamuro, and P. A. Bopp. 1996. "Significance of particle crushing in granular materials." J. Geotech. Eng. 122 (4): 309–316. https://doi.org/10.1061/(ASCE)0733-9410(1996)122:4(309).
+
+[161] Laird, N. M., and J. H. Ware. 1982. "Random-effects models for longitudinal data." Biometrics 38 (4): 963–974. https://doi.org/10.2307/2529876.
+
+[162] Leps, T. M. 1970. "Review of shearing strength of rockfill." J. Soil Mech. Found. Div. 96 (4): 1159–1170. https://doi.org/10.1061/JSFEAQ.0001433.
+
+[163] Lindstrom, M. J., and D. M. Bates. 1990. "Nonlinear mixed effects models for repeated measures data." Biometrics 46 (3): 673–687. https://doi.org/10.2307/2532087.
+
+[164] Linero, S., C. Palma, and R. Apablaza. 2007. "Geotechnical characterisation of waste material in very high dumps with large scale triaxial testing." In Proc., Int. Symp. on Rock Slope Stability in Open Pit Mining and Civil Engineering, edited by Y. Potvin, 59–75. Perth, Australia: Australian Centre for Geomechanics. https://doi.org/10.36487/ACG_repo/708_2.
+
+[165] Marachi, N. D., C. K. Chan, and H. B. Seed. 1972. "Evaluation of properties of rockfill materials." J. Soil Mech. Found. Div. 98 (1): 95–114. https://doi.org/10.1061/JSFEAQ.0001735.
+
+[166] Marsal, R. J. 1973. "Mechanical properties of rockfill." In Embankment-dam engineering: Casagrande volume, edited by R. C. Hirschfeld and S. J. Poulos, 109–200. New York: Wiley.
+
+[167] McDowell, G. R., and M. D. Bolton. 1998. "On the micromechanics of crushable aggregates." Géotechnique 48 (5): 667–679. https://doi.org/10.1680/geot.1998.48.5.667.
+
+[168] Morgenstern, N. R., and V. E. Price. 1965. "The analysis of the stability of general slip surfaces." Géotechnique 15 (1): 79–93. https://doi.org/10.1680/geot.1965.15.1.79.
+
+[169] Oldecop, L. A., and E. E. Alonso. 2001. "A model for rockfill compressibility." Géotechnique 51 (2): 127–139. https://doi.org/10.1680/geot.2001.51.2.127.
+
+[170] Ovalle, C., E. Frossard, C. Dano, W. Hu, S. Maiolino, and P.-Y. Hicher. 2014. "The effect of size on the strength of coarse rock aggregates and large rockfill samples through experimental data." Acta Mech. 225 (8): 2199–2216. https://doi.org/10.1007/s00707-014-1127-z.
+
+[171] Ovalle, C., S. Linero, C. Dano, E. Bard, P.-Y. Hicher, and R. Osses. 2020. "Data compilation from large drained compression triaxial tests on coarse crushable rockfill materials." J. Geotech. Geoenviron. Eng. 146 (9): 06020013. https://doi.org/10.1061/(ASCE)GT.1943-5606.0002314.
+
+[172] Prästings, A., J. Spross, and S. Larsson. 2019. "Characteristic values of geotechnical parameters in Eurocode 7." Proc. Inst. Civ. Eng. Geotech. Eng. 172 (4): 301–311. https://doi.org/10.1680/jgeen.18.00057.
+
+[173] Read, J., and P. Stacey, eds. 2009. Guidelines for open pit slope design. Collingwood, Australia: CSIRO Publishing.
+
+[174] Rocscience. year. Slide2. Version 9.043. Toronto: Rocscience.
+
+[175] Russell, A. R., and N. Khalili. 2004. "A bounding surface plasticity model for sands exhibiting particle crushing." Can. Geotech. J. 41 (6): 1179–1192. https://doi.org/10.1139/t04-065.
+
+[176] Valenzuela, L., E. Bard, J. Campaña, and M. E. Anabalón. 2008. "High waste rock dumps: Challenges and developments." In Proc., 1st Int. Seminar on the Management of Rock Dumps, Stockpiles and Heap Leach Pads, 65–78. Perth, Australia: Australian Centre for Geomechanics. https://doi.org/10.36487/ACG_repo/802_6.
+
+[177] Varadarajan, A., K. G. Sharma, K. Venkatachalam, and A. K. Gupta. 2003. "Testing and modeling two rockfill materials." J. Geotech. Geoenviron. Eng. 129 (3): 206–218. https://doi.org/10.1061/(ASCE)1090-0241(2003)129:3(206).
+
+[178] Vehtari, A., A. Gelman, D. Simpson, B. Carpenter, and P.-C. Bürkner. 2021. "Rank-normalization, folding, and localization: An improved R̂ for assessing convergence of MCMC." Bayesian Anal. 16 (2): 667–718. https://doi.org/10.1214/20-BA1221.
+
+[179] Viechtbauer, W. 2007. "Confidence intervals for the amount of heterogeneity in meta-analysis." Stat. Med. 26 (1): 37–52. https://doi.org/10.1002/sim.2514.
+
+[181] Figure Captions List
+
+[182] Fig. 1. Design envelopes of Leps-P for a new material tested by a new laboratory, at laboratory specimen size, by rock quality and void ratio: median (thick lines) and 5th percentile (thin lines) of the mean envelope. The shaded zone exceeds the largest normal stress in the database.
+
+[183] Fig. 2. Out-of-sample evaluation, leaving out each publication: (a) coverage of the 80% interval by range of normal stress without site tests; and (b) mean CRPS of ln τ for held-out tests at  ≥ 2 MPa with site tests at  ≤ 1.5 MPa (bars: 95% bootstrap intervals over publications; filled: recommended procedure).
+
+[184] Fig. 3. Waste rock of the example: (a) laboratory-scale envelopes by rock type with the site tests (open symbols: tests flagged by the conflict check); and (b) envelopes of placed waste rock (void ratio 0.65, maximum particle size 1 m) by rock type and dump-average envelope. Dotted vertical lines mark the largest normal stress of the site tests.
+
+[186] Table 1. Parameters of Leps-P
+
+[187] Note: 767 tests, 226 sets, 36 publications. Fixed effects at the maximum-likelihood point of the ridge ( = 25°,  = 0.2985342815779983); variance parameters: posterior median and 90% credible interval. Median  at e = 0: 51.6°, 47.8°, and 45.7° for good, moderate, and low rock quality.
+
+[189] Table 2. Out-of-sample evaluation (leave one publication out)
+
+[190] Note: Mode A: 767 tests (36 publications); above 2.75 MPa, 100 tests (9 publications). Mode B: 64 tests at  ≥ 2 MPa (46 sets, 13 publications). Nominal values: 80% coverage and 10% below P10. CRPS in units of ln τ. No difference was significant after Holm adjustment.
+
+[192] Table 3. Design values of the secant friction angle  (°) for an untested material: median / 5th percentile of the mean envelope
+
+[193] Note: Laboratory specimen size, new laboratory, no site tests, drained, maximum-deviator criterion; for global mechanisms. Field values are lower when the specimen-size uncertainty is added (about 2–4° at the 5th percentile for a size ratio of 5.6). Not applicable to degradable, argillaceous, or fines-rich waste below the database range ( ≥ 31°). ᵃExtrapolated beyond the validity domain ( ≤ 8 MPa; e ≤ 0.55 above 3 MPa).
+
+[195] Table 4. Secant friction angle  (°) of the waste rock of the example, median / 5th percentile of the mean envelope
+
+[196] Note: Laboratory: specimen void ratio and size. Placed: void ratio 0.65 (rock type E, 0.80), maximum particle size 1 m, size effect with zero mean. The full-correlation case sorts the samples of each rock type at every stress, an upper bound on dependence. No site tests above  ≈ 4.6 MPa. The critical surfaces of Table 5 mobilize  of up to about 2 MPa.
+
+[198] Table 5. Factor of safety of dumps on a competent level foundation (Morgenstern–Price, Slide2), placed waste rock: median / 5th-percentile envelope
+
+[199] Note: Uniform dry face without benches; unit weight 17.2 kN/m³ (rock type E only: 15.7 kN/m³). Monte Carlo at 700 m with 600 envelope samples, each with its own search: model correlation 0 failures (0.0–0.6%; lognormal reliability index 3.3); rock type E only 11 failures (0.9–3.3%; index 2.1). 700 m, model correlation: without size shift 1.47 / 1.39; laboratory density with size shift (21 kN/m³) 1.69 / 1.39; laboratory density and size 1.69 / 1.60; size effect at its estimated mean 1.58 / 1.30; independent size shifts per rock type 1.48 / 1.32;  = 0.049 1.47 / 1.25; quadratic form 1.46 / 1.20.
+

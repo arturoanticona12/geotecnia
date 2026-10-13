@@ -1,0 +1,30 @@
+holdout err09 vs UCS: r=-0.53 n=18 ; vs log(sn/UCS): r=0.39
+            size   mean  median
+UCS                            
+(0, 80]        8  0.064   0.075
+(80, 150]      2  0.010   0.010
+(150, 400]     8 -0.032  -0.043
+
+Model A Δφ1 = a·log10(σn/10pa): a=-3.72 °/decade, RMSE=1.67, n=266
+Model B Δφ1 = L·(-3.27 + 3.06·log10(100/UCS)), RMSE=1.65
+bootstrap 90% CI a: [-4.03, -2.49]  b: [0.60, 5.66]
+bootstrap 90% CI a (model A): [-4.44, -3.00]
+                n  sets  slope
+UCS                           
+(0, 80]      55.0  27.0  -2.78
+(80, 150]    35.0  19.0  -2.15
+(150, 400]  176.0  81.0  -4.21
+φ1=38: effective m over 1–8 MPa = 0.841
+φ1=41: effective m over 1–8 MPa = 0.842
+φ1=44: effective m over 1–8 MPa = 0.843
+UCS 0-80: n=113 Bg = 19.1 + 14.3 log10σn  r=0.58
+UCS 80-150: n=131 Bg = 22.4 + 13.1 log10σn  r=0.51
+UCS 150-400: n=333 Bg = 27.7 + 25.2 log10σn  r=0.50
+s3
+(0.0, 0.1]    0.00
+(0.1, 0.3]    0.03
+(0.3, 0.6]    0.00
+(0.6, 1.0]    0.00
+(1.0, 2.0]    0.00
+(2.0, 5.0]    0.00
+Name: evol, dtype: float64

@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: HiBER_IJGM_manuscript_r6.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+The style file: ascelike-new.bst
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: hiber.bib
+You've used 52 entries,
+            2831 wiz_defined-function locations,
+            962 strings with 14442 characters,
+and the built_in function-call counts, 29152 in all, are:
+= -- 3026
+> -- 957
+< -- 124
++ -- 280
+- -- 261
+* -- 2666
+:= -- 4118
+add.period$ -- 115
+call.type$ -- 52
+change.case$ -- 383
+chr.to.int$ -- 51
+cite$ -- 52
+duplicate$ -- 1287
+empty$ -- 2156
+format.name$ -- 604
+if$ -- 5918
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 54
+newline$ -- 222
+num.names$ -- 317
+pop$ -- 361
+preamble$ -- 1
+purify$ -- 699
+quote$ -- 0
+skip$ -- 1080
+stack$ -- 0
+substring$ -- 2162
+swap$ -- 290
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 976
+warning$ -- 0
+while$ -- 189
+width$ -- 0
+write$ -- 745

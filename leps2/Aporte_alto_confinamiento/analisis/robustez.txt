@@ -1,0 +1,57 @@
+
+== 1. Ventana de referencia
+ref 0.2–1.0 MPa                                            a =  -4.26 °/déc  (n = 282, sets = 136)
+ref 0.3–1.5 MPa                                            a =  -3.74 °/déc  (n = 286, sets = 137)
+ref 0.5–2.0 MPa                                            a =  -2.01 °/déc  (n = 293, sets = 139)
+ref 0.3–1.0 MPa                                            a =  -4.20 °/déc  (n = 282, sets = 136)
+
+== 2. Rango de aplicación de Cylwik et al. (2025) y guía 60-600
+D50 > 2 mm y finos < 25 %                                  a =  -3.76 °/déc  (n = 216, sets = 96)
+σ3 ≥ 60 kPa                                                a =  -3.74 °/déc  (n = 285, sets = 136)
+ambos                                                      a =  -3.76 °/déc  (n = 216, sets = 96)
+
+== 3. Efectos mixtos (intercepto y pendiente aleatorios por set), σn ≥ 1 MPa
+                Coef. Std.Err.        z  P>|z|  [0.025  0.975]
+Intercept      41.990    0.346  121.458  0.000  41.312  42.667
+L              -1.830    0.471   -3.888  0.000  -2.752  -0.908
+Group Var      14.840    4.583                                
+Group x L Cov  -8.330    3.475                                
+L Var           9.988    5.572                                
+
+Modelo por tramos sin referencia (φ'1-test ~ Lm + Lp, intercepto aleatorio por set):
+            Coef. Std.Err.        z  P>|z|  [0.025  0.975]
+Intercept  41.787    0.313  133.342  0.000  41.173  42.402
+Lm         -3.182    0.299  -10.645  0.000  -3.768  -2.596
+Lp         -2.242    0.365   -6.146  0.000  -2.957  -1.527
+Group Var  15.904    1.259                                
+
+== 4. Exclusión de una publicación a la vez (fuentes con datos σn ≥ 3 MPa)
+ref
+Donaghe & Cohen (1978)    26
+Al-Hussaini (1983)        20
+Marachi et al. (1972)     18
+Marsal (1973)             12
+Marsal et al. (1965)       7
+Hall & Gordon (1963)       2
+Marsal (1971)              1
+Ovalle et al. (2020)       1
+  sin Donaghe & Cohen (1978)         a =  -3.87  (n = 247, sets = 124)
+  sin Al-Hussaini (1983)             a =  -3.20  (n = 256, sets = 127)
+  sin Marachi et al. (1972)          a =  -4.07  (n = 259, sets = 128)
+  sin Marsal (1973)                  a =  -3.80  (n = 248, sets = 123)
+  sin Marsal et al. (1965)           a =  -3.70  (n = 273, sets = 133)
+  sin Hall & Gordon (1963)           a =  -3.87  (n = 279, sets = 133)
+  sin Marsal (1971)                  a =  -3.78  (n = 284, sets = 136)
+  sin Ovalle et al. (2020)           a =  -3.75  (n = 284, sets = 136)
+
+== 5. Validación cruzada por set: entrenar σn ≤ 1.5 MPa, predecir σn ≥ 2 MPa
+sets = 47, ensayos = 67
+  e09: sesgo medio +0.049  mediana +0.050  error abs. medio 0.067  fracción sobreestimada 0.81
+  ecorr: sesgo medio -0.016  mediana -0.009  error abs. medio 0.051  fracción sobreestimada 0.43
+  σn ≥ 3 MPa e09: sesgo +0.030  abs 0.067  n = 26
+  σn ≥ 3 MPa ecorr: sesgo -0.052  abs 0.072  n = 26
+
+== 6. m ajustado por set (todos los ensayos) — sets que llegan a σn ≥ 4 MPa
+todos: mediana m = 0.858, media 0.849, n = 209
+σn,max ≥ 4: mediana m = 0.859, n = 44
+
