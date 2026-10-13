@@ -335,14 +335,14 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
                 q = P35[(P35.litologia == lit) & (P35.tipo == tipo)]
                 for (_, r), u in zip(q.iterrows(), rng.uniform(-0.18, 0.18, len(q))):
                     JIT[(round(r.sn, 5), round(r.e, 5))] = i + u
-        cab = ["σ′n (MPa)", "ln σ′n", "Residuo curva propuesta, sin tope (°) = Ensayos!R", "Residuo m = 1 (°)", "x litología"] + \
+        cab = ["σ′n (MPa)", "ln σ′n", "Residuo curva propuesta (°)", "Residuo m = 1 (°)", "x litología"] + \
               [f"{l} {'TX' if tx else 'DS'} (a)" for l, tx in SER] + [f"{l} {'TX' if tx else 'DS'} (b)" for l, tx in SER] + \
               [f"{l} {'TX' if tx else 'DS'} (d)" for l, tx in SER]
         cX, nX = bloque("Fig. residuos: residuo = φ′s medido − predicho, a σ′n y e0 del ensayo (fórmulas; Ensayos)", cab, [[None]] * N_AJ)
         for i in range(N_AJ):
             r = 3 + i; re_ = 2 + i; f_ = FIT.iloc[i]
             wd.cell(r, cX, f"=Ensayos!M{re_}"); wd.cell(r, cX + 1, f"=LN({L(cX, r)})")
-            wd.cell(r, cX + 2, f"=Ensayos!R{re_}")   # Δφ′s ensayo − curva, sin tope (hoja Ensayos)
+            wd.cell(r, cX + 2, f"=Ensayos!O{re_}-MIN(tope,DEGREES(ATAN(TAN(RADIANS(pe0-omega*Ensayos!J{re_}))*(Ensayos!M{re_}/sref)^(m_-1))))")
             wd.cell(r, cX + 3, f"=Ensayos!O{re_}-(Parametros!$C$17-omega*Ensayos!J{re_})")
             wd.cell(r, cX + 4, round(JIT[(round(f_.sn, 5), round(f_.e0, 5))], 6))
             for j, (l, tx) in enumerate(SER):
@@ -399,7 +399,7 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
             serie(ch, cTr, cTr + 1 + b, 2, "Tendencia sobre ln σ′n", linea=(col_med, 1.2, "dash"))
             return ch
 
-        cha = panel("Residuo: φ′s medido − predicho (°)", 0, VIO); titulo(cha, "(a) Curva propuesta (m = 0.85), sin tope")
+        cha = panel("Residuo: φ′s medido − predicho (°)", 0, VIO); titulo(cha, f"(a) Curva propuesta (m = 0.85, tope de {TOPE:.0f}°)")
         chb = panel("Residuo: φ′s medido − predicho (°)", 1, INK2); titulo(chb, "(b) Nivel reajustado con m = 1")
         chd = grafico("Litología", "Residuo de la curva propuesta (°)", -0.6, 3.6, -16, 16, ymaj=4, w=12.5, h=11)
         titulo(chd, "(c) Residuo por litología (raya: media)"); chd.x_axis.tickLblPos = "none"; chd.x_axis.number_format = ";;;"; chd.x_axis.majorGridlines = None

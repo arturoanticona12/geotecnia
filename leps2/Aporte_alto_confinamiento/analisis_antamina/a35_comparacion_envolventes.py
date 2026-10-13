@@ -1,6 +1,6 @@
 """Representatividad de la curva propuesta frente a Leps (1970) y a Indraratna et al. (1993) (pedido del usuario, 2026-10-13).
 Compara cada envolvente con los ensayos de Antamina, cada ensayo a su σ′n y a su e0:
-  - Curva propuesta: Leps 2.0 con φ′e=0 = 48.47°, ω = 20°, m = 0.85, evaluada a la e0 del ensayo, sin el tope (límite de diseño a e = 0.45).
+  - Curva propuesta: Leps 2.0 con φ′e=0 = 48.47°, ω = 20°, m = 0.85, evaluada a la e0 del ensayo, con el tope (tope.py).
   - Leps (1970), envolventes superior, media e inferior, y cota inferior de Indraratna et al. (1993), en la forma de la Ec. 9 de
     Cylwik et al. (2025): φ′1 = 46°, 41°, 36° y 33°, m = 0.9, sin dependencia de e.
 Residuo = φ′s medido − φ′s de la envolvente (°); negativo = la envolvente sobreestima la resistencia del ensayo.
@@ -31,7 +31,7 @@ P = pd.DataFrame(dict(set=(d.fuente_id + "|" + d.set_id.astype(str)).values, lit
 
 phis_l2 = lambda s, pe0, e, m=MC: np.degrees(np.arctan(np.tan(np.radians(pe0 - OM * e)) * (s / S0) ** (m - 1)))
 phis_09 = lambda s, p1: np.degrees(np.arctan(np.tan(np.radians(p1)) * (s / S0) ** (0.9 - 1)))
-MOD = {"Curva propuesta": lambda s, e: phis_l2(s, PE0, e),   # sin tope: el tope es un límite de diseño a e = 0.45, no parte del ajuste
+MOD = {"Curva propuesta": lambda s, e: np.minimum(phis_l2(s, PE0, e), TOPE),
        "Leps (1970), superior": lambda s, e: phis_09(s, 46.0), "Leps (1970), media": lambda s, e: phis_09(s, 41.0),
        "Leps (1970), inferior": lambda s, e: phis_09(s, 36.0), "Indraratna et al. (1993)": lambda s, e: phis_09(s, 33.0)}
 RANGOS = [("Todos", 0, 99), ("σ′n < 0.5 MPa", 0, 0.5), ("0.5–2 MPa", 0.5, 2), ("2–4.62 MPa", 2, 99)]
@@ -49,7 +49,7 @@ for nm, f in MOD.items():
     out["ajuste"][nm] = {rg: stats(P[nm][(P.sn > a) & (P.sn <= b)]) for rg, a, b in RANGOS}
 # validación cruzada por sets: nivel = media de φ′e=0 de los otros 12 sets
 P["pe0_loso"] = [(sum(NIV_SET.values()) - NIV_SET[s]) / (len(NIV_SET) - 1) for s in P.set]
-P["Curva propuesta, sin su set"] = P.phis - phis_l2(P.sn.values, P.pe0_loso.values, P.e.values)
+P["Curva propuesta, sin su set"] = P.phis - np.minimum(phis_l2(P.sn.values, P.pe0_loso.values, P.e.values), TOPE)
 out["loso"] = {rg: stats(P["Curva propuesta, sin su set"][(P.sn > a) & (P.sn <= b)]) for rg, a, b in RANGOS}
 # triaxiales CU de contraste (a16), no usados en el ajuste
 C = pd.read_csv(AQ / "a16_contraste.csv")
