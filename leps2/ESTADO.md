@@ -37,7 +37,8 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
   de él; las figuras siguen siendo las de Python (a11, a16, a34) sin otros cambios. Planilla (para que los autores de Leps 2.0
   validen los cálculos): hoja «Figuras» con las seis figuras del memo como gráficos nativos (a28_figuras_excel.py; datos con
   fórmulas en «Datos_figuras», verificados contra matplotlib). Regla del usuario: no alterar el memo cuando se pide trabajar en
-  el Excel. Pendiente para el usuario: la frase «El tope de 42° deja la curva cerca de la mediana de esos ensayos» (mediana 37.3°).
+  el Excel. Memo final: justificación del tope frente a la base mundial (sec. 6) y cierre
+  del riesgo de bajo confinamiento con cortes directos de gran escala; el Excel reproduce las figuras del memo, no al revés.
 - 2026-10-13 (4): revisión del memo completo (autor de Leps 2.0, Stantec, Piteau, Antamina). Aplicado: curva media 48.47°
   declarada como no característica; tope de 40°; verificación con e = 0.55; banda con m P10–P90; sensibilidades de nivel por
   litología y LE2; Indraratna con dos lecturas; ajuste en dos pasos en la sec. 4.1; riesgos actualizados; planilla (a28) con
