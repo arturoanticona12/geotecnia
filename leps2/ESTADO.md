@@ -4,7 +4,7 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 
 ## Pendiente (en orden)
 1. Memo EoR, pendientes que esperan al usuario: rótulo de confidencialidad de Antamina; nota de cambio de revisión
-   (46.53° → 48.47°); mención de las 42 mezclas CD con relave (WA pidió no mencionarlas).
+   (46.53° → 48.47°).
 2. Incorporar los comentarios de WA (`eor_antamina/curva_leps2_antamina_rev3_comentarios_WA.pdf`, `_1210wa.pdf`).
 3. **Artículo HiBER r6:** cerrar las brechas de `manuscrito/PLAN_RONDA6.md` que sigan abiertas; revisión visual final.
 4. Pendientes del artículo sin resolver: autores y afiliaciones, DOI del repositorio, año de la versión de Slide2,
@@ -15,6 +15,7 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 
 ## Decisiones tomadas (no volver a discutir)
 - Modelo renombrado **HiBER** (antes Leps-P), 2026-10-07.
+- Memo: no mencionar los 42 triaxiales CD de mezclas con relave (usuario y WA, 2026-10-13).
 - Memo: m común para los sets de Antamina (pedido de WA), en vez de una m por set como Cylwik.
 - Regla de diseño del Modo B: sobre la σ′n máxima del sitio, el menor entre el percentil actualizado y el de la previa.
 - Curva vigente del memo: φ′e=0 = 48.47° (media de 13 sets, 37 ensayos), ω = 20°, m = 0.85, e base 0.45, **tope de 40°** en φ′s,
