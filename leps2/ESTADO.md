@@ -33,6 +33,10 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-13 (6): capítulo 7 del memo, «Por qué esta curva y no Leps (1970) ni Indraratna et al. (1993)» (a35). Con los 37 ensayos
+  a su e0: curva EMA 3.7°, Leps media 3.5° (ajustan igual), superior sobreestima 31/37, inferior +5.1°, Indraratna +8.1°;
+  validación por sets EMA 3.8°. La diferencia con Leps media está en la e de colocación (1.5° en φ′1) y la curvatura (m = 0.9
+  sobreestima 2.5° sobre 4.6 MPa en la base mundial). Excel: hoja «Comparacion_envolventes» con fórmulas (verificada).
 - 2026-10-13 (5): tope 40° → 42° (decisión del usuario). En el memo solo cambia el valor del tope y los números que dependen
   de él; las figuras siguen siendo las de Python (a11, a16, a34) sin otros cambios. Planilla (para que los autores de Leps 2.0
   validen los cálculos): hoja «Figuras» con las seis figuras del memo como gráficos nativos (a28_figuras_excel.py; datos con

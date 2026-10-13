@@ -383,6 +383,50 @@ PC = r"\colorbox{yellow}"
 FECHA = "12 de octubre de 2026"
 TXT_OBJ_ESCALA = r"El efecto del tamaño de partícula, entre los ensayos ($D_{max}$ de 25 a 178~mm) y el desmonte ROM (tamaño máximo de 1~m; \citealp[Tabla~3-1]{stantec2026iff}), se estimó aparte como sensibilidad (sección~\ref{sec:tamano})."
 
+# ---------------------------------------------------------------- capítulo: por qué esta curva y no Leps (1970) o Indraratna (a35)
+A35 = J("a35_comparacion.json")
+_AJ, _CU, _LO = A35["ajuste"], A35["cu"], A35["loso"]
+_NOMB = [("Curva propuesta", "Curva propuesta", "48.47$^{a}$", f"{MC:.2f}"),
+         ("Leps (1970), superior", "\\citet{leps}, superior", "46", "0.9"), ("Leps (1970), media", "\\citet{leps}, media", "41", "0.9"),
+         ("Leps (1970), inferior", "\\citet{leps}, inferior", "36", "0.9"), ("Indraratna et al. (1993)", "\\citet{indraratna1993}", "33", "0.9")]
+_sg = lambda v: f"{v:+.1f}".replace("-", "$-$")
+def _fila_env(k, nm, p1, m, d=None):
+    d = d or _AJ[k]; t = d["Todos"]
+    return (f"{nm} & {p1} & {m} & {_sg(t['media'])} & {t['mae']:.1f} & {t['bajo']} de {t['n']} & "
+            + " & ".join(_sg(d[r]["media"]) for r in ("σ′n < 0.5 MPa", "0.5–2 MPa", "2–4.62 MPa")) + r" \\")
+FILAS_ENV = [_fila_env(k, nm, p1, m) for k, nm, p1, m in _NOMB]
+FILAS_ENV.insert(1, _fila_env(None, "Curva propuesta, validación por sets$^{b}$", "--", f"{MC:.2f}", _LO))
+_EB_ = 0.45; _P1EB = A35["phi1_sets_eb"]; _SNT = A35["diseno_sn"]
+FILAS_DIS = [f"{nm} & " + " & ".join(f"{v:.1f}" for v in A35["diseno"][k]) + r" \\" for k, nm, _, _ in _NOMB]
+_m10 = L70(10, 41.0); _d10 = L70(10, _P1EB); _c10 = phis(10, OP2["pe0"], MC)
+PORQUE = r"""\section{Por qué esta curva y no Leps (1970) ni Indraratna et al. (1993)}\label{sec:porque}
+Las envolventes de \citet{leps} se definieron con 109 triaxiales de gran escala, en tres categorías (superior, media e inferior), y se usan cuando no hay ensayos del sitio \citep[p.~1]{cylwik}. \citet[p.~2]{cylwik} las reproducen con la Ec.~9 de Leps 2.0 ($m = 0.9$) y $\phi'_1$ = 46°, 41° y 36°, y observan que no tienen un criterio cuantitativo para elegir la categoría de un material. La cota de \citet{indraratna1993}, con $\phi'_1 = 33°$ en la misma forma, representa el límite inferior de los enrocados de baja calidad en estado suelto \citep[p.~13 y Fig.~19]{cylwik}. Ninguna de estas envolventes depende de la relación de vacíos. Para Antamina hay """ + f"{len(P)}" + r""" ensayos de resistencia del desmonte (sección~\ref{sec:datos}), y \citet[p.~13]{cylwik} recomiendan ensayos del sitio en proyectos de alta consecuencia. Esta sección compara las cinco envolventes con esos ensayos y explica por qué la curva propuesta representa mejor el desmonte ROM colocado.
+
+\textbf{Comparación con los ensayos.} La Tabla~\ref{tab:env} da, para cada envolvente, el residuo $\phi'_s$ medido $-$ $\phi'_s$ de la envolvente, con cada ensayo a su $\sigma'_n$ y a su $e_0$; un residuo negativo indica que la envolvente sobreestima la resistencia del ensayo.
+\begin{table}[htbp]\centering\small\caption{Residuo de cada envolvente frente a los """ + f"{len(P)}" + r""" ensayos del ajuste, cada uno a su $\sigma'_n$ y a su $e_0$ ($\phi'_s$ medido $-$ $\phi'_s$ de la envolvente, en grados).}\label{tab:env}
+\setlength{\tabcolsep}{3.5pt}\begin{tabular}{L{3.9cm}rrrrrrrr}\toprule
+ & & & \multicolumn{3}{c}{Todos los ensayos} & \multicolumn{3}{c}{Residuo medio por rango de $\sigma'_n$}\\\cmidrule(lr){4-6}\cmidrule(lr){7-9}
+Envolvente & $\phi'_1$ (°) & $m$ & Medio & Abs. & Sobreest. & $<$ 0.5~MPa & 0.5--2~MPa & 2--""" + f2(SNX) + r"""~MPa\\\midrule
+""" + "\n".join(FILAS_ENV) + r"""
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize $^{a}$$\phi'_{e=0}$; con $\omega = 20°$, $\phi'_1$ varía con la $e_0$ de cada ensayo, y se aplica el tope de """ + f"{TOPE:.0f}" + r"""°. $^{b}$Cada set se predice con el nivel calculado sin ese set (media de los otros """ + f"{P.set.nunique() - 1}" + r""" sets). Abs.: residuo medio absoluto. Sobreest.: ensayos con resistencia menor que la de la envolvente. Las envolventes de \citet{leps} y de \citet{indraratna1993} no dependen de $e$. Triaxiales convertidos a $\sigma'_n$--$\tau$ con $m = """ + f"{MC:.2f}" + r"""$, como en el resto del documento.\end{table}
+
+La envolvente superior de \citet{leps} sobreestima """ + f"{_AJ['Leps (1970), superior']['Todos']['bajo']} de los {len(P)}" + r""" ensayos, en """ + f"{-_AJ['Leps (1970), superior']['Todos']['media']:.1f}" + r"""° en promedio: no representa el desmonte de Antamina y quedaría del lado inseguro. La envolvente inferior y la cota de \citet{indraratna1993} quedan bajo casi todos los ensayos, """ + f"{_AJ['Leps (1970), inferior']['Todos']['media']:.1f}° y {_AJ['Indraratna et al. (1993)']['Todos']['media']:.1f}°" + r""" en promedio: son conservadoras, pero no describen el material ensayado, y la cota de \citet{indraratna1993} corresponde a enrocados de baja calidad llevados a $e = 0.6$ \citep[Fig.~19]{cylwik}, más sueltos que cualquier ensayo de Antamina ($e_0$ hasta """ + f"{P.e.max():.2f}" + r"""). A la densidad de los ensayos, la envolvente media de \citet{leps} y la curva propuesta ajustan igual (residuo medio absoluto de """ + f"{_AJ['Leps (1970), media']['Todos']['mae']:.1f}° y {_AJ['Curva propuesta']['Todos']['mae']:.1f}°" + r"""). Es lo esperable: el $\phi'_1$ de los sets de Antamina, a su propia $e_0$ (media """ + f"{A35['phi1_sets_e0']['e0_media']:.2f}" + r"""), es en promedio """ + f"{A35['phi1_sets_e0']['media']:.1f}" + r"""° (Fig.~\ref{fig:phi1e}), prácticamente el de la envolvente media, y la media de toda la base de Leps 2.0 es 41.3° \citep[p.~5]{cylwik}. La envolvente media describe, entonces, los ensayos de Antamina, no el desmonte colocado. La diferencia entre las dos está en lo que los ensayos no miden: la densidad de colocación y la curvatura sobre """ + f2(SNX) + r"""~MPa.
+
+\textbf{Densidad de colocación.} Los ensayos se hicieron con $e_0$ de """ + f"{P.e.min():.2f} a {P.e.max():.2f}" + r""", más densos que el desmonte volteado ($e = 0.45$; sección~\ref{sec:e}). Leps 2.0 corrige esa diferencia con $\omega = 20°$, y a $e = 0.45$ el nivel de la curva es $\phi'_1 = """ + f"{_P1EB:.1f}" + r"""°$, entre las envolventes inferior y media. Las envolventes de \citet{leps} no tienen esa corrección: usar la media para el ROM le asigna la resistencia de probetas más densas, """ + f"{41.0 - _P1EB:.1f}" + r"""° más en $\phi'_1$.
+
+\textbf{Curvatura sobre """ + f2(SNX) + r"""~MPa.} Sobre el máximo de Antamina la forma de la curva sale de la base mundial. En la prueba de extrapolación con los """ + f"{A35['forma']['0.85']['n']}" + r""" sets mundiales con ensayos sobre 4.6~MPa (sección~\ref{sec:alto}), $m = 0.85$ predice esos ensayos sin sesgo (""" + _sg(A35['forma']['0.85']['sesgo']) + r"""°, error medio absoluto """ + f"{A35['forma']['0.85']['mae']:.1f}" + r"""°), y $m = 0.9$, la forma de \citet{leps} y de \citet{indraratna1993}, los sobreestima en """ + f"{A35['forma']['0.9']['sesgo']:.1f}" + r"""° (error """ + f"{A35['forma']['0.9']['mae']:.1f}" + r"""°). Los ensayos de Antamina, casi lineales, quedan sobre la curva propuesta en el rango de 2 a """ + f2(SNX) + r"""~MPa (Tabla~\ref{tab:env}); en ese rango la curva es conservadora (sección~\ref{sec:alto}).
+
+\textbf{Resultado para el diseño.} La Tabla~\ref{tab:envdis} da el ángulo secante de cada envolvente con $e = 0.45$. A 10~MPa, la envolvente media de \citet{leps} da """ + f"{_m10:.1f}" + r"""° y la curva propuesta """ + f"{_c10:.1f}" + r"""°: """ + f"{_m10 - _d10:.1f}" + r"""° de la diferencia vienen de la densidad y """ + f"{_d10 - _c10:.1f}" + r"""° de la curvatura. A grandes esfuerzos la curva propuesta queda cerca de la envolvente inferior, pero por otras razones: la inferior queda """ + f"{_AJ['Leps (1970), inferior']['Todos']['media']:.1f}" + r"""° bajo los ensayos de Antamina en todo el rango ensayado, mientras que la curva propuesta reproduce los ensayos y baja a grandes esfuerzos por la densidad de colocación y la curvatura de la base mundial.
+\begin{table}[htbp]\centering\small\caption{Ángulo de fricción secante $\phi'_s$ (°) de cada envolvente con $e = 0.45$.}\label{tab:envdis}
+\begin{tabular}{lrrr}\toprule Envolvente & """ + " & ".join(f"{s:g}~MPa" for s in _SNT) + r"""\\\midrule
+""" + "\n".join(FILAS_DIS) + r"""
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize La curva propuesta incluye el tope de """ + f"{TOPE:.0f}" + r"""°, que no gobierna a estos esfuerzos. 10~MPa está fuera de la base mundial (extrapolación; sección~\ref{sec:rango}).\end{table}
+
+\textbf{Estabilidad del resultado.} Con el nivel recalculado sin el set que se predice, la curva propuesta mantiene su ajuste (residuo medio """ + _sg(_LO['Todos']['media']) + r"""°, medio absoluto """ + f"{_LO['Todos']['mae']:.1f}" + r"""°; Tabla~\ref{tab:env}): el nivel no depende de un set en particular. En los """ + f"{_CU['Curva propuesta']['n']}" + r""" triaxiales CU de contraste (sección~\ref{sec:contraste}), más dispersos, ninguna envolvente se distingue por su error (residuo medio absoluto de """ + f"{min(v['mae'] for v in _CU.values()):.1f} a {max(v['mae'] for v in _CU.values()):.1f}" + r"""°); la envolvente superior vuelve a sobreestimar """ + f"{_CU['Leps (1970), superior']['bajo']} de los {_CU['Leps (1970), superior']['n']}" + r""".
+
+En resumen, la curva propuesta es la única de las cinco que toma su nivel de los ensayos de Antamina, lo lleva a la densidad de colocación del desmonte y tiene una forma contrastada con ensayos sobre 4.6~MPa. La envolvente media de \citet{leps} representa bien los ensayos, pero no el desmonte colocado ni su curvatura a grandes esfuerzos; la superior lo sobreestima, y la inferior y la cota de \citet{indraratna1993} lo subestiman en todo el rango ensayado.
+
+"""
 T = r"""\documentclass[11pt,letterpaper]{article}
 \usepackage[utf8]{inputenc}\usepackage[T1]{fontenc}\usepackage{lmodern}
 \usepackage[spanish,es-noshorthands,es-tabla]{babel}\decimalpoint
@@ -661,7 +705,7 @@ La curva se entrega con un tope de """ + f"{TOPE:.0f}" + r"""° en el ángulo se
 
 Además, los mecanismos de cara y de banco, con $\sigma'_n$ menor que el cruce con 37° (""" + f"{s_cruce(OP2['pe0']):.1f}" + r"""~MPa), se verifican además con $\phi' = 37°$. \citet[§8.4.1.1]{hc2017} indican que el peligro de inestabilidad superficial de las caras a ángulo de reposo se maneja normalmente con procedimientos operacionales, y que analizarlo no suele aportar, porque su factor de seguridad es 1 por definición. Por eso la verificación con 37° tiene sentido en caras y bancos más tendidos que el ángulo de reposo.
 
-\section{Valores para los modelos de equilibrio límite}\label{sec:valores}
+""" + PORQUE + r"""\section{Valores para los modelos de equilibrio límite}\label{sec:valores}
 La Tabla~\ref{tab:slide} da los pares $\sigma'_n$--$\tau$ de la curva propuesta a $e = 0.45$ y de los límites de su incertidumbre, y la Tabla~\ref{tab:slide_e}, los de la curva propuesta para cada supuesto de $e$. Ambas incluyen el origen y puntos desde 10~kPa, para definir la curva cerca del origen. Las curvas con $e$ constante también pueden cargarse como función de potencia (\emph{Power Curve} de Slide2, $\tau = a(\sigma'_n + d)^b + c$), con los parámetros de la Tabla~\ref{tab:power}. Los perfiles $e(z)$ no son una función de potencia y se cargan como pares. La Fig.~\ref{fig:tau} compara la curva propuesta con las envolventes de \citet{leps} y la cota inferior de \citet{indraratna1993}.
 
 \begin{table}[htbp]\centering\small\caption{Pares $\sigma'_n$--$\tau$ a $e = 0.45$: curva propuesta y límites de su incertidumbre.}\label{tab:slide}

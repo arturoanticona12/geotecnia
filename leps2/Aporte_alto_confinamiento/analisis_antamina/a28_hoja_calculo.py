@@ -63,6 +63,7 @@ for t in ["Curva de resistencia Leps 2.0 del desmonte ROM de Antamina: datos, c�
           "  Figuras: las seis figuras del memo como gráficos de Excel, con la misma numeración (datos y fórmulas en Datos_figuras).",
           "  Curva: curva propuesta a e base, 0.55, 0.65 y perfiles A y V; tope de " + f"{TOPE:.0f}" + "° en todas las curvas de Leps 2.0; banda de incertidumbre (sin tope); cotas de Indraratna et al. (1993) y Hawley y Cunning (2017); recta de 37°; sensibilidad del DDE; gráficos.",
           "  phi1_vs_e: φ′1 de cada ensayo y por set contra e, φ′e=0 por set y su media (el nivel de la curva), con la recta de la curva propuesta, las envolventes de Leps (1970) y la cota de Indraratna et al. (1993).",
+          "  Comparacion_envolventes: curva propuesta, Leps (1970) e Indraratna et al. (1993) frente a los ensayos (sección «Por qué esta curva» del memo).",
           "  Hipotesis_m: φ′s según la hipótesis de curvatura (m del intervalo al 90 % y P10–P90 entre materiales de la base mundial, y m = 1 de Antamina sola como sensibilidad).",
           "  Base_mundial: los ensayos de la base de Leps 2.0 (sin los censurados, como en el memo) frente a la curva evaluada a su propia e (Δφ′s) y conteos por rango de esfuerzo.",
           "  FLAC_tangente: Mohr-Coulomb tangente a la curva según σ′3 (para verificar la implementación en FLAC2D).",
@@ -182,6 +183,79 @@ for k, e_ in enumerate([round(0.05 * i, 2) for i in range(17)], 2):
     for j, p_ in enumerate((46, 41, 36, 33), 9):          # Leps (1970) e Indraratna (1993): no dependen de e (Cylwik et al. 2025, p. 2 y Tabla 1)
         ws.cell(k, j, p_)
 ws.cell(nS + 2, 1, "φ′1 de cada ensayo: Ensayos!V (a su e0). Cada punto de la figura de Cylwik et al. (2025) es un set; aquí, el promedio de los ensayos del set.")
+
+# ------------------------------------------------------------------ Comparacion_envolventes (capítulo «Por qué esta curva», a35)
+A35 = J("a35_comparacion.json")
+ws = hoja("Comparacion_envolventes", ["Set", "σ′n (MPa)", "e0", "φ′s medido (°)", "Curva propuesta (°)", "Leps (1970) superior (°)",
+                                      "Leps (1970) media (°)", "Leps (1970) inferior (°)", "Indraratna et al. (1993) (°)",
+                                      "Res. curva", "Res. Leps sup.", "Res. Leps media", "Res. Leps inf.", "Res. Indraratna",
+                                      "φ′e=0 sin el set (°)", "Curva sin su set (°)", "Res. curva sin su set"], [], [26] + [11] * 16)
+n1 = 1 + N_AJ
+_C0 = 21   # tabla de sets (a34) en las columnas U:V
+ws.cell(1, _C0, "Set (a34)").font = NEG; ws.cell(1, _C0 + 1, "φ′e=0 del set (°)").font = NEG
+for k, (_, r) in enumerate(S34.iterrows(), 2):
+    ws.cell(k, _C0, r.set); ws.cell(k, _C0 + 1, float(r.phi_e0))
+nS34 = 1 + len(S34); SR, PR = f"$U$2:$U${nS34}", f"$V$2:$V${nS34}"
+p09 = lambda x, p1: f"DEGREES(ATAN(TAN(RADIANS({p1}))*({x}/sref)^(0.9-1)))"
+for i in range(N_AJ):
+    k = 2 + i
+    ws.cell(k, 1, f'=Ensayos!A{k}&"|"&Ensayos!B{k}'); ws.cell(k, 2, f"=Ensayos!M{k}"); ws.cell(k, 3, f"=Ensayos!J{k}"); ws.cell(k, 4, f"=Ensayos!O{k}")
+    ws.cell(k, 5, f"=MIN(tope,DEGREES(ATAN(TAN(RADIANS(pe0-omega*C{k}))*(B{k}/sref)^(m_-1))))")
+    for j, p1 in enumerate((46, 41, 36, 33), 6):
+        ws.cell(k, j, "=" + p09(f"B{k}", p1))
+    for j in range(5):
+        ws.cell(k, 10 + j, f"=D{k}-{get_column_letter(5 + j)}{k}")
+    ws.cell(k, 15, f"=(SUM({PR})-SUMIF({SR},A{k},{PR}))/(COUNT({PR})-1)")
+    ws.cell(k, 16, f"=MIN(tope,DEGREES(ATAN(TAN(RADIANS(O{k}-omega*C{k}))*(B{k}/sref)^(m_-1))))"); ws.cell(k, 17, f"=D{k}-P{k}")
+# resumen
+r0 = n1 + 3
+ws.cell(r0, 1, "Residuo = φ′s medido − φ′s de la envolvente, a σ′n y e0 del ensayo (°). Leps (1970) e Indraratna: Ec. 9 de Cylwik et al. (2025), m = 0.9, sin e.").font = NEG
+cab = ["Envolvente", "n", "Medio", "Mediana", "Medio absoluto", "RMSE", "Sobreestimados (res. < 0)", "Medio σ′n < 0.5", "Medio 0.5–2", f"Medio 2–{SNX:.2f}"]
+for j, h in enumerate(cab, 1):
+    c = ws.cell(r0 + 1, j, h); c.font = NEG; c.fill = CAB
+RES = [("Curva propuesta", "J"), ("Curva propuesta, validación por sets", "Q"), ("Leps (1970), superior", "K"), ("Leps (1970), media", "L"),
+       ("Leps (1970), inferior", "M"), ("Indraratna et al. (1993)", "N")]
+B_ = f"$B$2:$B${n1}"
+for i, (nm, c) in enumerate(RES):
+    k = r0 + 2 + i; R = f"{c}2:{c}{n1}"
+    for j, v in enumerate([nm, f"=COUNT({R})", f"=AVERAGE({R})", f"=MEDIAN({R})", f"=SUMPRODUCT(ABS({R}))/COUNT({R})",
+                           f"=SQRT(SUMSQ({R})/COUNT({R}))", f'=COUNTIF({R},"<0")', f'=AVERAGEIFS({R},{B_},"<=0.5")',
+                           f'=AVERAGEIFS({R},{B_},">0.5",{B_},"<=2")', f'=AVERAGEIFS({R},{B_},">2")'], 1):
+        ws.cell(k, j, v)
+# diseño a e = 0.45
+r1 = r0 + 10
+ws.cell(r1, 1, "φ′s de cada envolvente con e = e_base (°)").font = NEG
+for j, s_ in enumerate((1, 4.6, 10), 2):
+    c = ws.cell(r1 + 1, j, s_); c.font = NEG; c.fill = CAB
+ws.cell(r1 + 1, 1, "σ′n (MPa) →").font = NEG
+for i, (nm, f_) in enumerate([("Curva propuesta", lambda x: f"MIN(tope,DEGREES(ATAN(TAN(RADIANS(pe0-omega*e_base))*({x}/sref)^(m_-1))))"),
+                               ("Leps (1970), superior", lambda x: p09(x, 46)), ("Leps (1970), media", lambda x: p09(x, 41)),
+                               ("Leps (1970), inferior", lambda x: p09(x, 36)), ("Indraratna et al. (1993)", lambda x: p09(x, 33))]):
+    k = r1 + 2 + i; ws.cell(k, 1, nm)
+    for j in range(2, 5):
+        ws.cell(k, j, "=" + f_(f"{get_column_letter(j)}${r1 + 1}"))
+# triaxiales CU de contraste (a16, valores)
+r2 = r1 + 9
+_CU = pd.read_csv(AQ / "a16_contraste.csv")
+ws.cell(r2, 1, "Triaxiales CU de contraste, no usados en el ajuste (a16_contraste.csv): σ′n, e0 y φ′s medidos como valores").font = NEG
+for j, h in enumerate(["Grupo", "σ′n (MPa)", "e0", "φ′s medido (°)", "Res. curva", "Res. Leps sup.", "Res. Leps media", "Res. Leps inf.", "Res. Indraratna"], 1):
+    c = ws.cell(r2 + 1, j, h); c.font = NEG; c.fill = CAB
+for i, (_, r) in enumerate(_CU.iterrows()):
+    k = r2 + 2 + i
+    ws.cell(k, 1, r.grupo); ws.cell(k, 2, float(r.sn)); ws.cell(k, 3, float(r.e)); ws.cell(k, 4, float(r.phis))
+    ws.cell(k, 5, f"=D{k}-MIN(tope,DEGREES(ATAN(TAN(RADIANS(pe0-omega*C{k}))*(B{k}/sref)^(m_-1))))")
+    for j, p1 in enumerate((46, 41, 36, 33), 6):
+        ws.cell(k, j, f"=D{k}-" + p09(f"B{k}", p1))
+kz = r2 + 2 + len(_CU)
+ws.cell(kz, 1, "Medio absoluto").font = NEG
+ws.cell(kz + 1, 1, "Sobreestimados (res. < 0)").font = NEG
+for j in range(5, 10):
+    L_ = get_column_letter(j); R = f"{L_}{r2 + 2}:{L_}{kz - 1}"
+    ws.cell(kz, j, f"=SUMPRODUCT(ABS({R}))/COUNT({R})"); ws.cell(kz + 1, j, f'=COUNTIF({R},"<0")')
+ws.cell(kz + 3, 1, "Forma sobre 4.6 MPa (a31, prueba de extrapolación con 26 sets mundiales): sesgo con m = 0.85: "
+        f"{A35['forma']['0.85']['sesgo']:+.2f}°, con m = 0.9 (Leps 1970 e Indraratna): {A35['forma']['0.9']['sesgo']:+.2f}°.")
+control["comparacion"] = {k: v["Todos"] for k, v in A35["ajuste"].items()}; control["comparacion_loso"] = A35["loso"]["Todos"]
+control["comparacion_cu"] = A35["cu"]; control["comparacion_diseno"] = A35["diseno"]
 
 # ------------------------------------------------------------------ Hipotesis_m
 SNT = [1, 2, 3, 4.6, 8, 15]
