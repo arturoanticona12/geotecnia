@@ -395,11 +395,13 @@ TIT = {"fig:phi1e": "φ′1 de cada set de Antamina frente a su e0 media, y la r
        "fig:contraste": "Contraste de la curva propuesta con los triaxiales CU de desmonte ROM no usados en el ajuste",
        "fig:bg": "Índice de rotura de Marsal (1967) en los triaxiales drenados del ajuste",
        "fig:tau": "Curva propuesta y su banda de incertidumbre en τ–σ′n",
-       "fig:residuos": "Residuos del ajuste: (a) curva propuesta, (b) nivel reajustado con m = 1, (c) prueba de extrapolación según m, (d) residuo por litología",
+       "fig:residuos": "Residuos del ajuste: (a) curva propuesta, (b) nivel reajustado con m = 1, (c) residuo por litología",
+       "fig:extrap": "Prueba de extrapolación: (a) ejemplo, (b) base mundial, (c) Antamina, (d) sesgo según m",
        "fig:e": "(a) Relación de vacíos con la profundidad; (b) ángulo de fricción secante de la curva propuesta con cada supuesto"}
 _wf, _figs = FX.agregar(wb, HB=HB, SNX=SNX, SNW=SNW, EB=EB, TOPE=TOPE, PE=PE, PEM=PEM, A16BG=pd.read_csv(AQ / "a16_bg.csv"),
                         A16C=pd.read_csv(AQ / "a16_contraste.csv"), S34=S34, N_AJ=N_AJ, NW=len(W), rbg=A16["bg"]["r"],
-                        A36=J("a36_residuos.json"), P35=pd.read_csv(AQ / "a35_residuos.csv"), FIT=T27.iloc[:N_AJ])
+                        A36=J("a36_residuos.json"), P35=pd.read_csv(AQ / "a35_residuos.csv"), FIT=T27.iloc[:N_AJ],
+                        A38=J("a38_extrapolacion.json"), WDF=W)
 FX.colocar(_wf, _figs, {k: (ROT.get(k, ""), t) for k, t in TIT.items()})
 wb.save(OUT)
 json.dump(control, open(AQ / "a28_valores_control.json", "w", encoding="utf-8"))

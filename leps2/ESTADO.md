@@ -33,6 +33,12 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-13 (8): sec. 5.3 «Por qué m = 0.85: prueba de extrapolación» con Fig. 3 (a38; Excel la reproduce con fórmulas).
+  Base mundial (26 ensayos de 21 sets sobre 4.60 MPa): m = 1 sesgo +7.4° (26/26 sobreestimados), m = 0.85 +0.0°. Antamina
+  (7 ensayos de 6 sets): m = 1 −0.8°, m = 0.85 −5.2°. m de Antamina con todo (a37): 1.00 (0.95–1.05); solo TX 1.04; solo DS
+  0.94 (0.85–1.02). Curva compuesta (m = 1 hasta 4.23 MPa, a 0.85 en 7.86) evaluada y descartada: +7.0° en la prueba mundial,
+  36.7° a 10 MPa. Figura de residuos ahora con 3 paneles. Ejes de las figuras desde 0.1 MPa: la base mundial usada empieza
+  en 0.1 MPa (guía 60–600, σ′3 ≥ 0.06 MPa); la base cruda tiene 97 ensayos con σ′n < 0.1 MPa (pendiente: decidir si se muestran).
 - 2026-10-13 (7): residuos del ajuste (a36; sec. 5.2 y Fig. 2 del memo, reproducida en el Excel). El residuo de la curva
   crece con σ′n (+2.5°/ln σ′n con tope, +4.3° sin tope; p < 0.01): sesgo de forma (con m = 1 desaparece; 9 de 11 sets con
   pendiente positiva). Medias: −0.4° (<0.5 MPa), −1.4° (0.5–1), +0.2° (1–2), +5.0° (2–4.62). Se acepta por la prueba de

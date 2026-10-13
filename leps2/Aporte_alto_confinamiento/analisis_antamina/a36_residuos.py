@@ -2,8 +2,7 @@
 Residuo = φ′s medido − φ′s de la curva, cada ensayo a su σ′n y su e0 (a35_residuos.csv; triaxiales convertidos con m = 0.85).
   (a) curva propuesta (m = 0.85, con tope) frente a σ′n: tendencia (regresión sobre ln σ′n) y medias por rango con IC 90 %;
   (b) la misma prueba con el nivel ajustado con m = 1 (Antamina sola, a33 «lineal»): si la tendencia desaparece, es de forma;
-  (c) prueba de extrapolación (a31): sesgo al predecir los ensayos de mayor esfuerzo según m, base mundial y Antamina;
-  (d) residuo de la curva propuesta por litología (nivel).
+  (c) residuo de la curva propuesta por litología (nivel). La prueba de extrapolación va en su propia figura (a38).
 Escribe a36_residuos.json y figuras_leps2/Fig_residuos.pdf/png."""
 import json, sys
 from pathlib import Path
@@ -85,15 +84,6 @@ def panel_res(ax, col, titulo, color_med):
 panel_res(axs[0, 0], "r_prop", f"(a) Curva propuesta (m = 0.85, tope de {TOPE:.0f}°)", VIO)
 panel_res(axs[0, 1], "r_m1", "(b) Nivel reajustado con m = 1", INK2)
 ax = axs[1, 0]
-EX = pd.DataFrame(R["extrapolacion"])
-ax.axhline(0, color=INK2, lw=0.9)
-ax.plot(EX.m, EX.mundo, color=VIO, lw=2.0, marker="o", ms=3.5, label=f"Base mundial ({EX.n_w.iloc[0]} sets; ensayos > 4.6 MPa)")
-ax.plot(EX.m, EX.antamina, color=ROSA, lw=2.0, marker="s", ms=3.5, label=f"Antamina ({EX.n_a.iloc[0]} sets; ensayo de mayor σ′n)")
-ax.axvline(0.85, color=VIO, lw=0.8, ls=(0, (2, 2))); ax.axvline(1.0, color=INK2, lw=0.8, ls=(0, (2, 2)))
-ax.set_xlim(0.77, 1.01); ax.set_ylim(-9, 9); ax.set_xlabel("Exponente de curvatura, m"); ax.set_ylabel("Sesgo de la predicción (°)")
-ax.grid(True, color=GRID, lw=0.6); ax.set_axisbelow(True); ax.set_title("(c) Prueba de extrapolación según m", loc="left", fontsize=8.3, color=INK)
-ax.legend(loc="upper left", fontsize=6.6, frameon=False)
-ax = axs[1, 1]
 rng = np.random.default_rng(36); orden = ["Mármol", "Intrusivo", "Mezcla", "Hornfels"]
 ax.axhline(0, color=INK2, lw=0.9)
 for i, lit in enumerate(orden):
@@ -105,14 +95,15 @@ for i, lit in enumerate(orden):
     m_ = P[P.litologia == lit].r_prop.mean(); ax.plot([i - 0.3, i + 0.3], [m_, m_], color=INK, lw=2.0, zorder=5)
 ax.set_xticks(range(4)); ax.set_xticklabels(["Mármol", "Intrusivo", "Mezclas", "Hornfels"]); ax.set_xlim(-0.6, 3.6); ax.set_ylim(-16, 16)
 ax.set_ylabel("Residuo de la curva propuesta (°)"); ax.grid(True, axis="y", color=GRID, lw=0.6); ax.set_axisbelow(True)
-ax.set_title("(d) Residuo por litología (raya: media)", loc="left", fontsize=8.3, color=INK)
+ax.set_title("(c) Residuo por litología (raya: media)", loc="left", fontsize=8.3, color=INK)
 h = [Line2D([], [], ls="", marker=LIT[l][1], color=LIT[l][0], ms=5.5, label=("Mezclas" if l == "Mezcla" else l)) for l in LIT]
 h += [Line2D([], [], ls="", marker="o", mfc=INK2, mec=INK2, ms=5.5, label="Lleno: triaxial drenado"),
       Line2D([], [], ls="", marker="o", mfc="none", mec=INK2, ms=5.5, label="Vacío: corte directo"),
       Line2D([], [], ls="", marker="o", mfc="white", mec=VIO, mew=1.8, ms=6, label="Media por rango de σ′n, IC 90 %"),
       Line2D([], [], color=VIO, lw=1.2, ls=(0, (4, 2)), label="Tendencia sobre ln σ′n")]
-fig.legend(handles=h, loc="lower center", ncol=4, fontsize=6.8, frameon=False, bbox_to_anchor=(0.5, 0.0))
-fig.subplots_adjust(left=0.1, right=0.98, top=0.96, bottom=0.12)
+axs[1, 1].axis("off")
+axs[1, 1].legend(handles=h, loc="center left", fontsize=7.2, frameon=False, ncol=1)
+fig.subplots_adjust(left=0.1, right=0.98, top=0.96, bottom=0.07)
 for ext in ("png", "pdf"):
     fig.savefig(AQ / "figuras_leps2" / f"Fig_residuos.{ext}")
 plt.close(fig)

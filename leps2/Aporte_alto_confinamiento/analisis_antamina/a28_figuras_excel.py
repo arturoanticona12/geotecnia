@@ -37,7 +37,7 @@ def _ln(color, w_pt, dash="solid"):
     return LineProperties(solidFill=color, w=int(w_pt * 12700), prstDash=dash)
 
 
-def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, rbg, A36=None, P35=None, FIT=None):
+def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, rbg, A36=None, P35=None, FIT=None, A38=None, WDF=None):
     wd = wb.create_sheet("Datos_figuras")
     wf = wb.create_sheet("Figuras", 1)
     col = [1]
@@ -236,6 +236,12 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
         ch.width, ch.height = w, h
         return ch
 
+    def titulo(ch, texto):
+        from openpyxl.chart.title import Title
+        from openpyxl.chart.text import Text
+        cp = CharacterProperties(sz=900, b=False)
+        ch.title = Title(tx=Text(rich=RichText(p=[Paragraph(pPr=ParagraphProperties(defRPr=cp), r=[__import__("openpyxl").drawing.text.RegularTextRun(rPr=cp, t=texto)])])), overlay=False)
+
     def zonas_series(ch, cZ, nZ):
         serie(ch, cZ, cZ + 1, nZ, f"{SNX:.2f}–{SNW:.2f} MPa: sin ensayos de Antamina", linea=(ZONA, 4.5))
         serie(ch, cZ + 2, cZ + 3, nZ, f"Sobre {SNW:.2f} MPa: extrapolación", linea=(RAYA, 0.75))
@@ -268,7 +274,7 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
         serie(ch, cS, cS + 1 + j, nS, f"{'Mezclas' if l == 'Mezcla' else l}, {'corte directo' if ds else 'triaxial'}", marcador=mk, msize=7, lleno=not ds, mcol=c_)
     figs.append(("fig:phi1e", ch))
     # Fig. 2
-    ch = grafico(XL, YL, 0.1, 15, 22, 56, log=True, ymaj=5)
+    ch = grafico(XL, YL, 0.1, 15, 22, 56, log=True, ymaj=2)
     zonas_series(ch, cZ1, nZ1)
     serie(ch, cB1, cB1 + 1, nB1, "Incertidumbre de la curva", linea=(VIO_B, 4.0))
     mundo(ch); fondo(ch)
@@ -305,11 +311,12 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
     figs.append(("fig:tau", ch))
     # Fig. 6a y 6b
     cha = grafico("Relación de vacíos, e", "Profundidad bajo la superficie (m)", 0.08, 0.70, 0, 700, ymaj=100, w=8.5, h=12, invy=True)
-    cha.x_axis.majorUnit = 0.1
+    cha.x_axis.majorUnit = 0.04; cha.x_axis.number_format = "0.00"
     serie(cha, cPb + 1, cPb, 2, f"e = {EB:.2f} constante (base)", linea=(VIO, 2.0))
     serie(cha, cP + 1, cP, nP, "Perfil A, compresibilidad de Antamina", linea=("E87BA4", 2.0))
     serie(cha, cP + 2, cP, nP, "Perfil V, Valenzuela et al. (2008)", linea=("008300", 2.0))
-    chb = grafico("σ′n (MPa)", "φ′s (°), curva propuesta", 0.1, 15, 22, 58, log=True, ymaj=5, w=12.5, h=12)
+    titulo(cha, "(a) Relación de vacíos")
+    chb = grafico("σ′n (MPa)", "φ′s (°), curva propuesta", 0.1, 15, 22, 58, log=True, ymaj=4, w=12.5, h=12); titulo(chb, "(b) Ángulo de fricción secante")
     zonas_series(chb, cZ3, nZ3)
     fondo(chb)
     serie(chb, cQ, cQ + 3, nQ, f"e = {EB:.2f} constante (base)", linea=(VIO, 2.2))
@@ -363,11 +370,7 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
                 r = 3 + i
                 wd.cell(r, cTr + k, f"=AVERAGE({RR})+SLOPE({RR},{LN_})*(LN({L(cTr, r)})-AVERAGE({LN_}))")
             wd.cell(3, cTr + 2 + 2 * k, f"=SLOPE({RR},{LN_})"); wd.cell(3, cTr + 3 + 2 * k, f"=CORREL({RR},{LN_})")
-        # (c) prueba de extrapolación (a31, valores) y (d) medias por litología
-        EXr = A36["extrapolacion"]
-        cP3, nP3 = bloque("Fig. residuos (c): prueba de extrapolación (a31_m_defendible.json)", ["m", "Base mundial (°)", "Antamina (°)"],
-                          [[r_["m"], r_["mundo"], r_["antamina"]] for r_ in EXr])
-        cV, nV = bloque("Fig. residuos (c): referencias", ["m", "y", "", "m", "y", "", "m", "y"], [[0.85, -9, None, 1.0, -9, None, 0.77, 0], [0.85, 9, None, 1.0, 9, None, 1.01, 0]])
+        # (c) medias por litología
         fl = []
         for i in range(4):
             fl += [[i - 0.3, None], [i + 0.3, None], [None, None]]
@@ -386,7 +389,7 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
 
         def panel(titulo_y, b, col_med):
             ch = grafico("σ′n (MPa)", titulo_y, 0.1, 5, -16, 16, log=True, ymaj=4, w=12.5, h=11)
-            serie(ch, cZ0, cZ0 + 1, 2, "Cero", linea=(INK2, 0.9))
+            serie(ch, cZ0, cZ0 + 1, 2, "Cero", linea=(INK2, 0.9), leyenda=False)
             for j, (l, tx) in enumerate(SER):
                 c_, mk = LIT[l]
                 serie(ch, cX, cX + 5 + b * len(SER) + j, nX, f"{'Mezclas' if l == 'Mezcla' else l}, {'triaxial drenado' if tx else 'corte directo'}",
@@ -396,18 +399,17 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
             serie(ch, cTr, cTr + 1 + b, 2, "Tendencia sobre ln σ′n", linea=(col_med, 1.2, "dash"))
             return ch
 
-        cha = panel("Residuo: φ′s medido − predicho (°)", 0, VIO)
-        chb = panel("Residuo: φ′s medido − predicho (°)", 1, INK2)
-        chc = grafico("Exponente de curvatura, m", "Sesgo de la predicción (°)", 0.77, 1.01, -9, 9, ymaj=3, w=12.5, h=11)
-        chc.x_axis.majorUnit = 0.05
-        serie(chc, cV + 6, cV + 7, 2, "Cero", linea=(INK2, 0.9))
-        serie(chc, cV, cV + 1, 2, "m = 0.85", linea=(VIO, 0.8, "sysDash"))
-        serie(chc, cV + 3, cV + 4, 2, "m = 1", linea=(INK2, 0.8, "sysDash"))
-        serie(chc, cP3, cP3 + 1, nP3, f"Base mundial ({EXr[0]['n_w']} sets; ensayos > 4.6 MPa)", linea=(VIO, 2.0), marcador="circle", msize=4, mcol=VIO)
-        serie(chc, cP3, cP3 + 2, nP3, f"Antamina ({EXr[0]['n_a']} sets; ensayo de mayor σ′n)", linea=("E87BA4", 2.0), marcador="square", msize=4, mcol="E87BA4")
-        chd = grafico("Litología: 0 mármol, 1 intrusivo, 2 mezclas, 3 hornfels", "Residuo de la curva propuesta (°)", -0.6, 3.6, -16, 16, ymaj=4, w=12.5, h=11)
+        cha = panel("Residuo: φ′s medido − predicho (°)", 0, VIO); titulo(cha, f"(a) Curva propuesta (m = 0.85, tope de {TOPE:.0f}°)")
+        chb = panel("Residuo: φ′s medido − predicho (°)", 1, INK2); titulo(chb, "(b) Nivel reajustado con m = 1")
+        chd = grafico("Litología", "Residuo de la curva propuesta (°)", -0.6, 3.6, -16, 16, ymaj=4, w=12.5, h=11)
+        titulo(chd, "(c) Residuo por litología (raya: media)"); chd.x_axis.tickLblPos = "none"; chd.x_axis.number_format = ";;;"; chd.x_axis.majorGridlines = None
+        from openpyxl.chart.label import DataLabelList
+        cNm, _ = bloque("Fig. residuos (c): rótulos de litología", ["x", "y"], [[i, -14.3] for i in range(4)])
+        for i, nm_ in enumerate(["Mármol", "Intrusivo", "Mezclas", "Hornfels"]):
+            sl = serie(chd, cNm, cNm + 1, 1, nm_, r0=3 + i, leyenda=False)
+            sl.dLbls = DataLabelList(showSerName=True, showVal=False, showCatName=False, showLegendKey=False, showPercent=False, dLblPos="ctr")
         chd.x_axis.majorUnit = 1
-        serie(chd, cZ0 + 2, cZ0 + 3, 2, "Cero", linea=(INK2, 0.9))
+        serie(chd, cZ0 + 2, cZ0 + 3, 2, "Cero", linea=(INK2, 0.9), leyenda=False)
         for j, (l, tx) in enumerate(SER):
             c_, mk = LIT[l]
             s = Series(Reference(wd, min_col=cX + 5 + 2 * len(SER) + j, min_row=3, max_row=2 + nX), Reference(wd, min_col=cX + 4, min_row=3, max_row=2 + nX),
@@ -417,7 +419,134 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
             s.marker.graphicalProperties = GraphicalProperties(solidFill=c_, ln=_ln(SURF, 0.6)) if tx else GraphicalProperties(noFill=True, ln=_ln(c_, 1.2))
             chd.series.append(s)
         serie(chd, cLm, cLm + 1, nLm, "Media por litología", linea=("0B0B0B", 2.0))
-        figs.append(("fig:residuos", (cha, chb, chc, chd)))
+        figs.append(("fig:residuos", (cha, chb, chd)))
+    # ---------------------------------------------------------------- Fig. prueba de extrapolación (a38)
+    if A38 is not None:
+        NAR, ROSA = "D55E00", "E87BA4"
+        sx = A38["snx"]; EJ = A38["ejemplo"]
+        # base mundial: sets con ensayos ≤ 2 MPa y > snx; filas ligadas a Base_mundial (mismo orden que la hoja)
+        Wd = WDF.reset_index(drop=True); filas = []
+        for s, g in Wd.groupby("Set"):
+            lo, hi = g[g.sn <= 2.0], g[g.sn > sx]
+            if len(lo) and len(hi):
+                filas += [(i, "bajo") for i in lo.index] + [(i, "alto") for i in hi.index]
+        filas.sort()
+        cab = ["Set", "σ′n (MPa)", "τ (MPa)", "Rol", "φ′s medido (°)", "h m=0.85", "h m=1", "Nivel m=0.85", "Nivel m=1",
+               "φ′s pred. m=0.85 (°)", "φ′s pred. m=1 (°)", "Error m=0.85 (°)", "Error m=1 (°)"]
+        cWx, nWx = bloque(f"Fig. extrapolación (b): base mundial, nivel con σ′n ≤ 2 MPa, predicción sobre {sx:.2f} MPa (fórmulas; Base_mundial)", cab, [[None]] * len(filas))
+        SETR, ROLR = None, None
+        for j, (i, rol) in enumerate(filas):
+            r = 3 + j; k = i + 2
+            wd.cell(r, cWx, f"=Base_mundial!A{k}"); wd.cell(r, cWx + 1, f"=Base_mundial!C{k}"); wd.cell(r, cWx + 2, f"=Base_mundial!D{k}"); wd.cell(r, cWx + 3, rol)
+            sn_, ta_ = L(cWx + 1, r), L(cWx + 2, r)
+            wd.cell(r, cWx + 4, f"=DEGREES(ATAN({ta_}/{sn_}))")
+            wd.cell(r, cWx + 5, f"=LN({ta_})-LN(sref^(1-0.85)*{sn_}^0.85)"); wd.cell(r, cWx + 6, f"=LN({ta_})-LN({sn_})")
+        SETR, ROLR = R_ext = (f"{L(cWx, 3)}:{L(cWx, 2 + nWx)}", f"{L(cWx + 3, 3)}:{L(cWx + 3, 2 + nWx)}")
+        for j in range(nWx):
+            r = 3 + j; sn_ = L(cWx + 1, r)
+            for b, m in enumerate((0.85, 1.0)):
+                hR = f"{L(cWx + 5 + b, 3)}:{L(cWx + 5 + b, 2 + nWx)}"
+                wd.cell(r, cWx + 7 + b, f'=AVERAGEIFS({hR},{SETR},{L(cWx, r)},{ROLR},"bajo")')
+                wd.cell(r, cWx + 9 + b, f'=IF({L(cWx + 3, r)}="alto",DEGREES(ATAN(EXP({L(cWx + 7 + b, r)})*sref^(1-{m})*{sn_}^{m}/{sn_})),NA())')
+                wd.cell(r, cWx + 11 + b, f'=IF({L(cWx + 3, r)}="alto",{L(cWx + 9 + b, r)}-{L(cWx + 4, r)},NA())')
+        # Antamina: triaxiales de sets con 3 o más σ′3; nivel con los dos menores, se predice el mayor (σ′n y τ con cada m)
+        tx = FIT[FIT.ensayo.str.startswith("Triaxial")].copy(); tx["key"] = tx.fuente_id + "|" + tx.set_id.astype(str)
+        tx["fila"] = [FIT.index.get_loc(i) + 2 for i in tx.index]
+        filasA = []
+        for s, g in tx.groupby("key"):
+            if g.s3.nunique() >= 3:
+                mx = g.s3.max(); filasA += [(int(f), "alto" if s3 == mx else "bajo", s) for f, s3 in zip(g.fila, g.s3)]
+        filasA.sort()
+        cabA = ["Set", "σ′3 (MPa)", "σ′1 (MPa)", "Rol"] + [f"{t} m={m}" for m in ("0.85", "1") for t in ("sin φ", "σ′n", "τ", "φ′s medido", "h", "Nivel", "φ′s pred.", "Error")]
+        cAx, nAx = bloque("Fig. extrapolación (c): Antamina, nivel con los dos menores σ′3, predicción del mayor (fórmulas; Ensayos)", cabA, [[None]] * len(filasA))
+        SETA, ROLA = f"{L(cAx, 3)}:{L(cAx, 2 + nAx)}", f"{L(cAx + 3, 3)}:{L(cAx + 3, 2 + nAx)}"
+        for j, (k, rol, s) in enumerate(filasA):
+            r = 3 + j
+            wd.cell(r, cAx, s); wd.cell(r, cAx + 1, f"=Ensayos!K{k}"); wd.cell(r, cAx + 2, f"=Ensayos!L{k}"); wd.cell(r, cAx + 3, rol)
+            s3_, s1_ = L(cAx + 1, r), L(cAx + 2, r); D_, S_ = f"({s1_}-{s3_})", f"({s1_}+{s3_})"
+            for b, m in enumerate((0.85, 1.0)):
+                c0 = cAx + 4 + 8 * b
+                wd.cell(r, c0, f"={D_}/{S_}" if m == 1.0 else f"=(SQRT(4*{m}*({m}-1)*{D_}^2+{S_}^2)-{S_})/(2*({m}-1)*{D_})")
+                sp = L(c0, r)
+                wd.cell(r, c0 + 1, f"={S_}/2-{D_}/2*{sp}"); wd.cell(r, c0 + 2, f"={D_}/2*SQRT(1-{sp}^2)")
+                sn_, ta_ = L(c0 + 1, r), L(c0 + 2, r)
+                wd.cell(r, c0 + 3, f"=DEGREES(ATAN({ta_}/{sn_}))")
+                wd.cell(r, c0 + 4, f"=LN({ta_})-LN(sref^(1-{m})*{sn_}^{m})")
+                hR = f"{L(c0 + 4, 3)}:{L(c0 + 4, 2 + nAx)}"
+                wd.cell(r, c0 + 5, f'=AVERAGEIFS({hR},{SETA},{L(cAx, r)},{ROLA},"bajo")')
+                wd.cell(r, c0 + 6, f'=IF({L(cAx + 3, r)}="alto",DEGREES(ATAN(EXP({L(c0 + 5, r)})*sref^(1-{m})*{sn_}^{m}/{sn_})),NA())')
+                wd.cell(r, c0 + 7, f'=IF({L(cAx + 3, r)}="alto",{L(c0 + 6, r)}-{L(c0 + 3, r)},NA())')
+        # resumen (sesgo y sobreestimados)
+        cRs, _ = bloque("Fig. extrapolación: resumen (fórmulas)", ["Población", "m", "n", "Sesgo (°)", "Medio absoluto (°)", "Sobreestimados"],
+                        [["Base mundial", 0.85], ["Base mundial", 1.0], ["Antamina", 0.85], ["Antamina", 1.0]])
+        for i, (cE_, n_) in enumerate(((cWx + 11, nWx), (cWx + 12, nWx), (cAx + 11, nAx), (cAx + 19, nAx))):
+            r = 3 + i; RR = f"{L(cE_, 3)}:{L(cE_, 2 + n_)}"
+            wd.cell(r, cRs + 2, f"=COUNT({RR})"); wd.cell(r, cRs + 3, f"=AVERAGEIF({RR},\"<1E9\")")
+            wd.cell(r, cRs + 4, f"=SUMPRODUCT(ISNUMBER({RR})*ABS(IFERROR({RR},0)))/COUNT({RR})"); wd.cell(r, cRs + 5, f'=COUNTIF({RR},">0")')
+        RS = A38["resumen"]
+        # (a) ejemplo
+        ge = Wd[Wd.Set == EJ]
+        cEj, nEj = bloque(f"Fig. extrapolación (a): ejemplo {EJ} (fórmulas)", ["σ′n bajo", "φ′s bajo", "σ′n alto", "φ′s alto", "σ′n otros", "φ′s otros"],
+                          [[None]] * len(ge))
+        for j, (i, rr) in enumerate(ge.iterrows()):
+            r = 3 + j; k = i + 2; grupo = 0 if rr.sn <= 2.0 else (1 if rr.sn > sx else 2)
+            wd.cell(r, cEj + 2 * grupo, f"=Base_mundial!C{k}"); wd.cell(r, cEj + 2 * grupo + 1, f"=DEGREES(ATAN(Base_mundial!D{k}/Base_mundial!C{k}))")
+        xs_ = np.geomspace(0.1, 12, 40)
+        cEc, nEc = bloque("Fig. extrapolación (a): curvas del ejemplo (fórmulas)", ["σ′n (MPa)", "m = 0.85", "m = 1"], [[x] for x in xs_])
+        r_ej = 3 + [j for j, (i, _) in enumerate(filas) if Wd.Set[i] == EJ][0]
+        for j in range(nEc):
+            r = 3 + j; x = L(cEc, r)
+            for b, m in enumerate((0.85, 1.0)):
+                wd.cell(r, cEc + 1 + b, f"=DEGREES(ATAN(EXP(${L(cWx + 7 + b, r_ej).rstrip('0123456789')}${r_ej})*sref^(1-{m})*{x}^{m}/{x}))")
+        fz = []
+        for x in np.geomspace(sx, 12, 18):
+            fz += [[x, 34], [x, 56], [None, None]]
+        cZe, nZe = bloque("Fig. extrapolación (a): zona sobre el umbral (valores)", ["x", "y"], fz)
+        cL1, _ = bloque("Fig. extrapolación (b, c): recta 1:1 y referencias de (d)", ["x", "y", "", "m", "y", "", "m", "y", "", "m", "y"],
+                        [[20, 20, None, 0.85, -9, None, 1.0, -9, None, 0.75, 0], [60, 60, None, 0.85, 9, None, 1.0, 9, None, 1.05, 0]])
+        BR = A38["barrido"]
+        cBr, nBr = bloque("Fig. extrapolación (d): sesgo según m (a31_m_defendible.json)", ["m", "Base mundial (°)", "Antamina (°)"],
+                          [[b_["m"], b_["mundo"], b_["antamina"]] for b_ in BR])
+        E_ = A38["ejes"]
+        cha = grafico("σ′n (MPa)", "φ′s (°)", 0.1, 12, 34, 56, log=True, ymaj=2, w=12.5, h=11); titulo(cha, "(a) Ejemplo: " + " · ".join(x.strip() for x in EJ.split("|")))
+        serie(cha, cZe, cZe + 1, nZe, f"Sobre {sx:.2f} MPa: se predice", linea=(ZONA, 4.5))
+        serie(cha, cEc, cEc + 1, nEc, "m = 0.85 (curva propuesta)", linea=(VIO, 2.0))
+        serie(cha, cEc, cEc + 2, nEc, "m = 1 (lineal, como Antamina)", linea=(NAR, 2.0, "dash"))
+        serie(cha, cEj + 4, cEj + 5, nEj, "Otros ensayos del set", marcador="circle", msize=4, mcol=GRIS_M)
+        serie(cha, cEj, cEj + 1, nEj, "Ensayos con σ′n ≤ 2 MPa: fijan el nivel", marcador="circle", msize=6, mcol=INK2)
+        serie(cha, cEj + 2, cEj + 3, nEj, f"Ensayos sobre {sx:.2f} MPa: se predicen", marcador="square", msize=7, lleno=False, mcol="0B0B0B")
+
+        def unoauno(xr, yr, pob, cpob, npob, c85, c1):
+            ch = grafico("φ′s medido (°)", "φ′s predicho (°)", xr[0], xr[1], yr[0], yr[1], ymaj=4, w=12.5, h=11)
+            ch.x_axis.majorUnit = 4
+            serie(ch, cL1, cL1 + 1, 2, "1:1", linea=(INK2, 0.9), leyenda=False)
+            for m, cc, mk, ll in ((0.85, c85, "circle", True), (1.0, c1, "square", False)):
+                r_ = RS[f"{pob}|{m}"]
+                serie(ch, cpob[0], cpob[1 if m == 0.85 else 2], npob, f"m = {m:.2f}: sesgo {r_['sesgo']:+.1f}°, {r_['sobre']} de {r_['n']} sobreestimados".replace("-", "−"),
+                      marcador=mk, msize=5, lleno=ll, mcol=cc)
+            return ch
+        chb = unoauno((32, 52), (32, 56), "Base mundial", (cWx + 4, cWx + 9, cWx + 10), nWx, VIO, NAR); titulo(chb, f"(b) Base mundial: ensayos sobre {sx:.2f} MPa")
+        chc = unoauno((28, 50), (28, 56), "Antamina", (cAx + 7, cAx + 10, cAx + 10 + 8), nAx, VIO, NAR); titulo(chc, "(c) Antamina: ensayo de mayor σ′3 de cada set")
+        # en (c) el φ′s medido depende de m (conversión): cada serie usa su propio medido
+        chc.series[1].xVal.numRef.f = f"'Datos_figuras'!${L(cAx + 7, 3).rstrip('0123456789')}$3:${L(cAx + 7, 3).rstrip('0123456789')}${2 + nAx}"
+        chc.series[2].xVal.numRef.f = f"'Datos_figuras'!${L(cAx + 15, 3).rstrip('0123456789')}$3:${L(cAx + 15, 3).rstrip('0123456789')}${2 + nAx}"
+        chd = grafico("Exponente de curvatura, m", "Sesgo medio de la predicción (°)", 0.75, 1.05, -9, 9, ymaj=3, w=12.5, h=11); titulo(chd, "(d) Sesgo según m: ningún m anula los dos")
+        chd.x_axis.majorUnit = 0.05; chd.x_axis.number_format = "0.00"
+        serie(chd, cL1 + 9, cL1 + 10, 2, "Cero", linea=(INK2, 0.9), leyenda=False)
+        serie(chd, cL1 + 3, cL1 + 4, 2, "m = 0.85", linea=(VIO, 0.9, "sysDash"), leyenda=False)
+        serie(chd, cL1 + 6, cL1 + 7, 2, "m = 1", linea=(NAR, 0.9, "sysDash"), leyenda=False)
+        serie(chd, cBr, cBr + 1, nBr, f"Base mundial ({sx:.2f}–{A38['sn_mundo_max']:.2f} MPa)", linea=(VIO, 2.0))
+        serie(chd, cBr, cBr + 2, nBr, f"Antamina (hasta {sx:.2f} MPa)", linea=(ROSA, 2.0))
+        from openpyxl.chart.label import DataLabelList
+        y85 = float(np.interp(0.85, [b_["m"] for b_ in BR], [b_["mundo"] for b_ in BR])); y1 = float(np.interp(1.0, [b_["m"] for b_ in BR], [b_["mundo"] for b_ in BR]))
+        cPt, _ = bloque("Fig. extrapolación (d): sesgo en m = 0.85 y m = 1 (base mundial)", ["m", "Sesgo (°)"], [[0.85, y85], [1.0, y1]])
+        for i_, (cc_, pos_) in enumerate(((VIO, "t"), (NAR, "l"))):
+            sp_ = serie(chd, cPt, cPt + 1, 1, f"m = {(0.85, 1.0)[i_]:g}", marcador="circle", msize=5, lleno=True, mcol=cc_, r0=3 + i_, leyenda=False)
+            sp_.dLbls = DataLabelList(showSerName=True, showVal=True, showCatName=False, showLegendKey=False, showPercent=False, dLblPos=pos_, separator=": ")
+            from openpyxl.chart.data_source import NumFmt
+            sp_.dLbls.numFmt = None
+            wd.cell(3 + i_, cPt + 1).number_format = '+0.0"°";-0.0"°"'
+        figs.append(("fig:extrap", (cha, chb, chc, chd)))
     return wf, figs
 
 
@@ -425,6 +554,8 @@ def colocar(wf, figs, rotulos):
     """Coloca las figuras en la hoja Figuras, una bajo la otra, con su número y título del memo."""
     fila = 1
     wf.column_dimensions["A"].width = 3
+    wf.sheet_properties.pageSetUpPr.fitToPage = True; wf.page_setup.fitToWidth = 1; wf.page_setup.fitToHeight = 0
+    wf.page_setup.orientation = "portrait"; wf.page_setup.paperSize = wf.PAPERSIZE_A4
     wf.cell(fila, 2, "Figuras del memorándum, recalculadas con las fórmulas de este libro (datos en Datos_figuras). "
                      "La banda y la zona gris se dibujan con segmentos verticales; el rayado, con segmentos diagonales.").font = Font(italic=True)
     fila += 2
@@ -437,6 +568,10 @@ def colocar(wf, figs, rotulos):
             wf.add_chart(ch[0], f"B{fila}"); wf.add_chart(ch[1], f"N{fila}")
             fila += int(ch[0].height / 0.5) + 2
             wf.add_chart(ch[2], f"B{fila}"); wf.add_chart(ch[3], f"N{fila}"); h = ch[2].height
+        elif isinstance(ch, tuple) and len(ch) == 3:
+            wf.add_chart(ch[0], f"B{fila}"); wf.add_chart(ch[1], f"N{fila}")
+            fila += int(ch[0].height / 0.5) + 2
+            wf.add_chart(ch[2], f"B{fila}"); h = ch[2].height
         elif isinstance(ch, tuple):
             wf.add_chart(ch[0], f"B{fila}"); wf.add_chart(ch[1], f"J{fila}"); h = ch[0].height
         else:
