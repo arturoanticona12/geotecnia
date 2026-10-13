@@ -17,7 +17,7 @@ import numpy as np, pandas as pd
 
 AQ = Path(__file__).parent; AA = AQ.parent / "analisis_antamina"; FIG = AA / "figuras_leps2"
 (AQ / "figs").mkdir(exist_ok=True)
-for f in ("Fig1_phi_sigma.pdf", "Fig2_tau_sigma.pdf", "Fig3_perfil_e.pdf", "Fig4_contraste.pdf", "Fig5_bg.pdf", "Fig_phi1_e.pdf"):
+for f in ("Fig1_phi_sigma.pdf", "Fig2_tau_sigma.pdf", "Fig3_perfil_e.pdf", "Fig4_contraste.pdf", "Fig5_bg.pdf", "Fig_phi1_e.pdf", "Fig_residuos.pdf"):
     shutil.copy2(FIG / f, AQ / "figs" / f)
 J = lambda n: json.load(open(AA / n, encoding="utf-8"))
 R9, C, A12, PE = J("a9_leps2_antamina.json"), J("a10_leps2_curvatura.json"), J("a12_leps2_ponderada.json"), J("a13_perfil_e.json")
@@ -427,6 +427,23 @@ La envolvente superior de \citet{leps} sobreestima """ + f"{_AJ['Leps (1970), su
 En resumen, la curva propuesta es la única de las cinco que toma su nivel de los ensayos de Antamina, lo lleva a la densidad de colocación del desmonte y tiene una forma contrastada con ensayos sobre 4.6~MPa. La envolvente media de \citet{leps} representa bien los ensayos, pero no el desmonte colocado ni su curvatura a grandes esfuerzos; la superior lo sobreestima, y la inferior y la cota de \citet{indraratna1993} lo subestiman en todo el rango ensayado.
 
 """
+# ---------------------------------------------------------------- subsección: residuos del ajuste (a36)
+A36 = J("a36_residuos.json")
+_T, _T0, _T1 = A36["r_prop"]["tendencia"], A36["r_sintope"]["tendencia"], A36["r_m1"]["tendencia"]
+_RG = A36["r_prop"]["rangos"]; _EXT = {round(r["m"], 2): r for r in A36["extrapolacion"]}; _DS = A36["dentro_sets"]; _LT = A36["por_litologia"]
+_pf = lambda p: (r"$p < 0.001$" if p < 0.001 else f"$p = {p:.3f}$") if p < 0.01 else f"$p = {p:.2f}$"
+_rg = lambda b: (f"{b['a']:g} a {b['b']:g}~MPa" if b["b"] < 5 else f"{b['a']:g} a " + f2(SNX) + "~MPa")
+_sgm = lambda v: f"{v:+.1f}".replace("-", "$-$")
+RESID = r"""\subsection{Residuos del ajuste}\label{sec:residuos}
+La Fig.~\ref{fig:residuos}a da el residuo de la curva propuesta, $\phi'_s$ medido $-$ $\phi'_s$ predicho, con cada ensayo a su $\sigma'_n$ y a su $e_0$. El residuo medio es """ + _sgm(_T['media']) + r"""°, pero no es independiente del esfuerzo: crece """ + f"{_T['pendiente']:.1f}" + r"""° por unidad de $\ln\sigma'_n$ ($r = """ + f"{_T['r']:.2f}" + r"""$, """ + _pf(_T['p']) + r"""; sin el tope, """ + f"{_T0['pendiente']:.1f}" + r"""° y $r = """ + f"{_T0['r']:.2f}" + r"""$). Por rango de esfuerzo, la media es """ + "; ".join(f"{_sgm(b['media'])}° de {_rg(b)} ({b['n']} ensayos, IC 90~\\% $\\pm$" + f"{b['ic90']:.1f}°)" for b in _RG) + r""". La curva queda centrada entre 0.5 y 2~MPa, alrededor de $10p_a$, donde se fija su nivel, y bajo los ensayos de 2 a """ + f2(SNX) + r"""~MPa.
+
+La tendencia es de forma, no de nivel. Con el nivel reajustado con $m = 1$ desaparece (Fig.~\ref{fig:residuos}b: """ + _sgm(_T1['pendiente']) + r"""° por unidad de $\ln\sigma'_n$, $r = """ + f"{_T1['r']:.2f}" + r"""$, """ + _pf(_T1['p']) + r"""), y aparece también dentro de los sets: en """ + f"{_DS['positivas']} de los {_DS['n']}" + r""" sets con más de un esfuerzo el residuo crece con $\sigma'_n$ (pendiente media """ + f"{_DS['media']:.1f}" + r"""°). En su rango, los ensayos de Antamina son casi lineales ($m$ de Antamina sola, """ + f"{A31['estimadores']['Antamina sola (a18, nivel por set)']['m']:.2f}" + r""" $\pm$ """ + f"{A31['estimadores']['Antamina sola (a18, nivel por set)']['se']:.2f}" + r"""; sección~\ref{sec:alto}), y la curva usa la curvatura de la base mundial. Es una decisión deliberada, porque la curva se usará sobre todo por encima de """ + f2(SNX) + r"""~MPa, donde no hay ensayos de Antamina. La Fig.~\ref{fig:residuos}c muestra la prueba de extrapolación: con el nivel fijado a menor esfuerzo, $m = 1$ sobreestima en """ + f"{_EXT[1.0]['mundo']:.1f}" + r"""° los ensayos mundiales sobre 4.6~MPa ("""+ f"{_EXT[0.85]['n_w']}" + r""" sets), y $m = 0.85$ los predice sin sesgo (""" + _sgm(_EXT[0.85]['mundo']) + r"""°). En los """ + f"{_EXT[0.85]['n_a']}" + r""" sets de Antamina con tres o más esfuerzos, $m = 0.85$ subestima su ensayo de mayor esfuerzo en """ + f"{-_EXT[0.85]['antamina']:.1f}" + r"""°, del lado conservador. No hay un $m$ que deje sin sesgo a las dos poblaciones; la curva toma el que no sobreestima los ensayos de mayor esfuerzo disponibles.
+
+El costo de esa decisión dentro del rango de Antamina tiene dos partes. Sobre 2~MPa la curva queda """ + f"{_RG[3]['media']:.1f}" + r"""° bajo los ensayos, del lado conservador. Entre 0.5 y 1~MPa los sobreestima en """ + f"{-_RG[1]['media']:.1f}" + r"""° en promedio, una diferencia que no es significativa al 90~\% (intervalo de """ + _sgm(_RG[1]['media'] - _RG[1]['ic90']).lstrip('+') + " a " + _sgm(_RG[1]['media'] + _RG[1]['ic90']).lstrip('+') + r"""°); bajo 0.5~MPa, donde la curva sin tope sobreestimaría los ensayos en """ + f"{-A36['r_sintope']['rangos'][0]['media']:.1f}" + r"""°, el tope de """ + f"{TOPE:.0f}" + r"""° deja la media en """ + _sgm(_RG[0]['media']) + r"""°, con mucha dispersión (6 ensayos). La Fig.~\ref{fig:residuos}d da el residuo por litología: mármol """ + _sgm(_LT['Mármol']['media']) + r"""°, intrusivo """ + _sgm(_LT['Intrusivo']['media']) + r"""°, mezclas """ + _sgm(_LT['Mezcla']['media']) + r"""° y hornfels """ + _sgm(_LT['Hornfels']['media']) + r"""°, la diferencia de nivel entre litologías de la sección~\ref{sec:vacios}. Los residuos más altos, sobre 3~MPa, son triaxiales de hornfels de 1~m; en esos ensayos la litología y el esfuerzo no se pueden separar. El residuo también crece con $e_0$ (""" + f"{A36['frente_e']['pendiente']:.0f}" + r"""° por unidad de $e$, """ + _pf(A36['frente_e']['p']) + r"""), coherente con que $\omega$ no se pueda identificar con estos ensayos (sección~\ref{sec:decisiones}).
+\begin{figure}[htbp]\centering\includegraphics[width=\linewidth]{figs/Fig_residuos.pdf}
+\caption{Residuos del ajuste, $\phi'_s$ medido $-$ $\phi'_s$ predicho, con cada ensayo a su $\sigma'_n$ y su $e_0$. (a) Curva propuesta ($m = """ + f"{MC:.2f}" + r"""$, con tope de """ + f"{TOPE:.0f}" + r"""°). (b) Nivel reajustado con $m = 1$ ($\phi'_{e=0} = """ + f"{A36['pe0_m1']:.2f}" + r"""°$). Círculos grandes: media por rango de $\sigma'_n$ con su intervalo de confianza al 90~\%; línea discontinua: regresión sobre $\ln\sigma'_n$. (c) Prueba de extrapolación de la sección~\ref{sec:alto}: sesgo al predecir el ensayo de mayor esfuerzo con el nivel fijado por los de menor esfuerzo, según $m$; positivo, la curva lo sobreestima. (d) Residuo de la curva propuesta por litología.}\label{fig:residuos}\end{figure}
+
+"""
 T = r"""\documentclass[11pt,letterpaper]{article}
 \usepackage[utf8]{inputenc}\usepackage[T1]{fontenc}\usepackage{lmodern}
 \usepackage[spanish,es-noshorthands,es-tabla]{babel}\decimalpoint
@@ -633,7 +650,7 @@ Con $m = 0.90$ y todos los ensayos sin ponderar, solo para comparar los escenari
 """ + "\n".join(filas_t2) + r"""
 \bottomrule\end{tabular}\end{table}
 
-\subsection{Rango de esfuerzos con respaldo de datos}\label{sec:rango}
+""" + RESID + r"""\subsection{Rango de esfuerzos con respaldo de datos}\label{sec:rango}
 Las figuras y tablas de este memorándum llegan hasta $\sigma'_n = 15$~MPa, pero el respaldo de los datos no es el mismo en todo ese rango. Hay tres zonas:
 \begin{itemize}
 \item \textbf{Hasta """ + f2(SNX) + r"""~MPa}, el máximo de los ensayos de Antamina (triaxial de hornfels con $\sigma'_3 = """ + f2(S3X) + r"""$~MPa, convertido con $m = """ + f"{MC:.2f}" + r"""$). El nivel de la curva se apoya en los ensayos de Antamina y su curvatura, en la base mundial.

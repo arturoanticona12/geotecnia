@@ -33,6 +33,10 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-13 (7): residuos del ajuste (a36; sec. 5.2 y Fig. 2 del memo, reproducida en el Excel). El residuo de la curva
+  crece con σ′n (+2.5°/ln σ′n con tope, +4.3° sin tope; p < 0.01): sesgo de forma (con m = 1 desaparece; 9 de 11 sets con
+  pendiente positiva). Medias: −0.4° (<0.5 MPa), −1.4° (0.5–1), +0.2° (1–2), +5.0° (2–4.62). Se acepta por la prueba de
+  extrapolación (m = 1 sobreestima 7.4° la base mundial sobre 4.6 MPa). Residuo por litología: mármol −2.1°, hornfels +3.8°.
 - 2026-10-13 (6): capítulo 7 del memo, «Por qué esta curva y no Leps (1970) ni Indraratna et al. (1993)» (a35). Con los 37 ensayos
   a su e0: curva EMA 3.7°, Leps media 3.5° (ajustan igual), superior sobreestima 31/37, inferior +5.1°, Indraratna +8.1°;
   validación por sets EMA 3.8°. La diferencia con Leps media está en la e de colocación (1.5° en φ′1) y la curvatura (m = 0.9

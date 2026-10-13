@@ -37,7 +37,7 @@ def _ln(color, w_pt, dash="solid"):
     return LineProperties(solidFill=color, w=int(w_pt * 12700), prstDash=dash)
 
 
-def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, rbg):
+def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, rbg, A36=None, P35=None, FIT=None):
     wd = wb.create_sheet("Datos_figuras")
     wf = wb.create_sheet("Figuras", 1)
     col = [1]
@@ -316,6 +316,108 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
     serie(chb, cQ, cQ + 4, nQ, "Perfil A, compresibilidad de Antamina", linea=("E87BA4", 2.0))
     serie(chb, cQ, cQ + 5, nQ, "Perfil V, Valenzuela et al. (2008)", linea=("008300", 2.0))
     figs.append(("fig:e", (cha, chb)))
+    # ---------------------------------------------------------------- Fig. residuos (a36): datos con fórmulas ligadas a Ensayos
+    if A36 is not None:
+        from openpyxl.chart.error_bar import ErrorBars
+        from openpyxl.chart.data_source import NumDataSource, NumRef
+        # dispersión de la litología (d): la misma secuencia aleatoria que a36 (semilla 36), asignada a cada ensayo por (σ′n, e0)
+        rng = np.random.default_rng(36); JIT = {}
+        orden = ["Mármol", "Intrusivo", "Mezcla", "Hornfels"]
+        for i, lit in enumerate(orden):
+            for tipo in ("TX", "DS"):
+                q = P35[(P35.litologia == lit) & (P35.tipo == tipo)]
+                for (_, r), u in zip(q.iterrows(), rng.uniform(-0.18, 0.18, len(q))):
+                    JIT[(round(r.sn, 5), round(r.e, 5))] = i + u
+        cab = ["σ′n (MPa)", "ln σ′n", "Residuo curva propuesta (°)", "Residuo m = 1 (°)", "x litología"] + \
+              [f"{l} {'TX' if tx else 'DS'} (a)" for l, tx in SER] + [f"{l} {'TX' if tx else 'DS'} (b)" for l, tx in SER] + \
+              [f"{l} {'TX' if tx else 'DS'} (d)" for l, tx in SER]
+        cX, nX = bloque("Fig. residuos: residuo = φ′s medido − predicho, a σ′n y e0 del ensayo (fórmulas; Ensayos)", cab, [[None]] * N_AJ)
+        for i in range(N_AJ):
+            r = 3 + i; re_ = 2 + i; f_ = FIT.iloc[i]
+            wd.cell(r, cX, f"=Ensayos!M{re_}"); wd.cell(r, cX + 1, f"=LN({L(cX, r)})")
+            wd.cell(r, cX + 2, f"=Ensayos!O{re_}-MIN(tope,DEGREES(ATAN(TAN(RADIANS(pe0-omega*Ensayos!J{re_}))*(Ensayos!M{re_}/sref)^(m_-1))))")
+            wd.cell(r, cX + 3, f"=Ensayos!O{re_}-(Parametros!$C$17-omega*Ensayos!J{re_})")
+            wd.cell(r, cX + 4, round(JIT[(round(f_.sn, 5), round(f_.e0, 5))], 6))
+            for j, (l, tx) in enumerate(SER):
+                cond = f'AND(Ensayos!$D{re_}="{l}",{"" if tx else "NOT("}LEFT(Ensayos!$E{re_},7)="Triaxia"{"" if tx else ")"})'
+                for b, cc in enumerate((cX + 2, cX + 3, cX + 2)):
+                    wd.cell(r, cX + 5 + b * len(SER) + j, f"=IF({cond},{L(cc, r)},NA())")
+        R_ = lambda c: f"{L(c, 3)}:{L(c, 2 + nX)}"
+        SN_, LN_ = R_(cX), R_(cX + 1)
+        # medias por rango con IC 90 % (t de Student) y tendencia sobre ln σ′n
+        BINS = [(0.1, 0.5), (0.5, 1.0), (1.0, 2.0), (2.0, 5.0)]
+        cM, nM = bloque("Fig. residuos: medias por rango de σ′n (fórmulas)", ["Desde", "Hasta", "n", "σ′n media geom.", "Media (a)", "IC 90 % (a)",
+                                                                              "Media (b)", "IC 90 % (b)"], [[a, b] for a, b in BINS])
+        for i in range(len(BINS)):
+            r = 3 + i; c1 = f'{SN_},">="&{L(cM, r)},{SN_},"<"&{L(cM + 1, r)}'
+            wd.cell(r, cM + 2, f"=COUNTIFS({c1})"); wd.cell(r, cM + 3, f"=EXP(AVERAGEIFS({LN_},{c1}))")
+            for k, cr in ((4, cX + 2), (6, cX + 3)):
+                RR = R_(cr)
+                wd.cell(r, cM + k, f"=AVERAGEIFS({RR},{c1})")
+                wd.cell(r, cM + k + 1, f"=TINV(0.1,{L(cM + 2, r)}-1)*SQRT(SUMPRODUCT(({SN_}>={L(cM, r)})*({SN_}<{L(cM + 1, r)})*({RR}-{L(cM + k, r)})^2)/({L(cM + 2, r)}-1))/SQRT({L(cM + 2, r)})")
+        cTr, nTr = bloque("Fig. residuos: tendencia sobre ln σ′n (fórmulas)", ["σ′n (MPa)", "Tendencia (a)", "Tendencia (b)", "", "Pendiente (a)", "r (a)", "Pendiente (b)", "r (b)"],
+                          [[0.12], [4.8]])
+        for k, cr in ((1, cX + 2), (2, cX + 3)):
+            RR = R_(cr)
+            for i in range(2):
+                r = 3 + i
+                wd.cell(r, cTr + k, f"=AVERAGE({RR})+SLOPE({RR},{LN_})*(LN({L(cTr, r)})-AVERAGE({LN_}))")
+            wd.cell(3, cTr + 2 + 2 * k, f"=SLOPE({RR},{LN_})"); wd.cell(3, cTr + 3 + 2 * k, f"=CORREL({RR},{LN_})")
+        # (c) prueba de extrapolación (a31, valores) y (d) medias por litología
+        EXr = A36["extrapolacion"]
+        cP3, nP3 = bloque("Fig. residuos (c): prueba de extrapolación (a31_m_defendible.json)", ["m", "Base mundial (°)", "Antamina (°)"],
+                          [[r_["m"], r_["mundo"], r_["antamina"]] for r_ in EXr])
+        cV, nV = bloque("Fig. residuos (c): referencias", ["m", "y", "", "m", "y", "", "m", "y"], [[0.85, -9, None, 1.0, -9, None, 0.77, 0], [0.85, 9, None, 1.0, 9, None, 1.01, 0]])
+        fl = []
+        for i in range(4):
+            fl += [[i - 0.3, None], [i + 0.3, None], [None, None]]
+        cLm, nLm = bloque("Fig. residuos (d): media por litología (fórmulas)", ["x", "Media (°)"], fl)
+        LITR = "Ensayos!$D$2:$D$" + str(1 + N_AJ)
+        for i, lit in enumerate(orden):
+            for k in range(2):
+                wd.cell(3 + 3 * i + k, cLm + 1, f'=AVERAGEIF({LITR},"{lit}",{R_(cX + 2)})')
+        cZ0, _ = bloque("Fig. residuos: línea cero", ["x (a, b)", "y", "x (d)", "y"], [[0.1, 0, -0.6, 0], [5.0, 0, 3.6, 0]])
+
+        def err(s, cm, ce):
+            cl = wd.cell(3, ce).column_letter; ref = f"'Datos_figuras'!${cl}$3:${cl}$6"
+            s.errBars = ErrorBars(errDir="y", errBarType="both", errValType="cust", noEndCap=False,
+                                  plus=NumDataSource(numRef=NumRef(f=ref)), minus=NumDataSource(numRef=NumRef(f=ref)),
+                                  spPr=GraphicalProperties(ln=_ln(cm, 1.6)))
+
+        def panel(titulo_y, b, col_med):
+            ch = grafico("σ′n (MPa)", titulo_y, 0.1, 5, -16, 16, log=True, ymaj=4, w=12.5, h=11)
+            serie(ch, cZ0, cZ0 + 1, 2, "Cero", linea=(INK2, 0.9))
+            for j, (l, tx) in enumerate(SER):
+                c_, mk = LIT[l]
+                serie(ch, cX, cX + 5 + b * len(SER) + j, nX, f"{'Mezclas' if l == 'Mezcla' else l}, {'triaxial drenado' if tx else 'corte directo'}",
+                      marcador=mk, msize=5, lleno=tx, mcol=c_)
+            s = serie(ch, cM + 3, cM + 4 + 2 * b, nM, "Media por rango de σ′n, IC 90 %", marcador="circle", msize=8, lleno=False, mcol=col_med)
+            err(s, col_med, cM + 5 + 2 * b)
+            serie(ch, cTr, cTr + 1 + b, 2, "Tendencia sobre ln σ′n", linea=(col_med, 1.2, "dash"))
+            return ch
+
+        cha = panel("Residuo: φ′s medido − predicho (°)", 0, VIO)
+        chb = panel("Residuo: φ′s medido − predicho (°)", 1, INK2)
+        chc = grafico("Exponente de curvatura, m", "Sesgo de la predicción (°)", 0.77, 1.01, -9, 9, ymaj=3, w=12.5, h=11)
+        chc.x_axis.majorUnit = 0.05
+        serie(chc, cV + 6, cV + 7, 2, "Cero", linea=(INK2, 0.9))
+        serie(chc, cV, cV + 1, 2, "m = 0.85", linea=(VIO, 0.8, "sysDash"))
+        serie(chc, cV + 3, cV + 4, 2, "m = 1", linea=(INK2, 0.8, "sysDash"))
+        serie(chc, cP3, cP3 + 1, nP3, f"Base mundial ({EXr[0]['n_w']} sets; ensayos > 4.6 MPa)", linea=(VIO, 2.0), marcador="circle", msize=4, mcol=VIO)
+        serie(chc, cP3, cP3 + 2, nP3, f"Antamina ({EXr[0]['n_a']} sets; ensayo de mayor σ′n)", linea=("E87BA4", 2.0), marcador="square", msize=4, mcol="E87BA4")
+        chd = grafico("Litología: 0 mármol, 1 intrusivo, 2 mezclas, 3 hornfels", "Residuo de la curva propuesta (°)", -0.6, 3.6, -16, 16, ymaj=4, w=12.5, h=11)
+        chd.x_axis.majorUnit = 1
+        serie(chd, cZ0 + 2, cZ0 + 3, 2, "Cero", linea=(INK2, 0.9))
+        for j, (l, tx) in enumerate(SER):
+            c_, mk = LIT[l]
+            s = Series(Reference(wd, min_col=cX + 5 + 2 * len(SER) + j, min_row=3, max_row=2 + nX), Reference(wd, min_col=cX + 4, min_row=3, max_row=2 + nX),
+                       title=f"{'Mezclas' if l == 'Mezcla' else l}, {'triaxial drenado' if tx else 'corte directo'}")
+            s.smooth = False; s.graphicalProperties = GraphicalProperties(ln=LineProperties(noFill=True))
+            s.marker.symbol = mk; s.marker.size = 5
+            s.marker.graphicalProperties = GraphicalProperties(solidFill=c_, ln=_ln(SURF, 0.6)) if tx else GraphicalProperties(noFill=True, ln=_ln(c_, 1.2))
+            chd.series.append(s)
+        serie(chd, cLm, cLm + 1, nLm, "Media por litología", linea=("0B0B0B", 2.0))
+        figs.append(("fig:residuos", (cha, chb, chc, chd)))
     return wf, figs
 
 
@@ -326,11 +428,16 @@ def colocar(wf, figs, rotulos):
     wf.cell(fila, 2, "Figuras del memorándum, recalculadas con las fórmulas de este libro (datos en Datos_figuras). "
                      "La banda y la zona gris se dibujan con segmentos verticales; el rayado, con segmentos diagonales.").font = Font(italic=True)
     fila += 2
+    figs = sorted(figs, key=lambda f: int(rotulos.get(f[0], ("999", ""))[0] or 999))
     for lab, ch in figs:
         num, tit = rotulos.get(lab, ("", ""))
         wf.cell(fila, 2, f"Figura {num}. {tit}").font = NEG
         fila += 1
-        if isinstance(ch, tuple):
+        if isinstance(ch, tuple) and len(ch) == 4:
+            wf.add_chart(ch[0], f"B{fila}"); wf.add_chart(ch[1], f"N{fila}")
+            fila += int(ch[0].height / 0.5) + 2
+            wf.add_chart(ch[2], f"B{fila}"); wf.add_chart(ch[3], f"N{fila}"); h = ch[2].height
+        elif isinstance(ch, tuple):
             wf.add_chart(ch[0], f"B{fila}"); wf.add_chart(ch[1], f"J{fila}"); h = ch[0].height
         else:
             wf.add_chart(ch, f"B{fila}"); h = ch.height

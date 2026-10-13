@@ -60,7 +60,7 @@ for t in ["Curva de resistencia Leps 2.0 del desmonte ROM de Antamina: datos, c�
           "Hojas:",
           "  Parametros: parámetros de la curva propuesta, hipótesis de curvatura y controles con la composición del DDE y la de LE2.",
           "  Ensayos: los 120 ensayos de resistencia con su uso (ajuste, contraste, no usado), esfuerzos de falla, conversión de Leps 2.0 (fórmula) y corrección a e base (Ec. 27).",
-          "  Figuras: las seis figuras del memo como gráficos de Excel, con la misma numeración (datos y fórmulas en Datos_figuras).",
+          "  Figuras: las figuras del memo como gráficos de Excel, con la misma numeración (datos y fórmulas en Datos_figuras).",
           "  Curva: curva propuesta a e base, 0.55, 0.65 y perfiles A y V; tope de " + f"{TOPE:.0f}" + "° en todas las curvas de Leps 2.0; banda de incertidumbre (sin tope); cotas de Indraratna et al. (1993) y Hawley y Cunning (2017); recta de 37°; sensibilidad del DDE; gráficos.",
           "  phi1_vs_e: φ′1 de cada ensayo y por set contra e, φ′e=0 por set y su media (el nivel de la curva), con la recta de la curva propuesta, las envolventes de Leps (1970) y la cota de Indraratna et al. (1993).",
           "  Comparacion_envolventes: curva propuesta, Leps (1970) e Indraratna et al. (1993) frente a los ensayos (sección «Por qué esta curva» del memo).",
@@ -395,9 +395,11 @@ TIT = {"fig:phi1e": "φ′1 de cada set de Antamina frente a su e0 media, y la r
        "fig:contraste": "Contraste de la curva propuesta con los triaxiales CU de desmonte ROM no usados en el ajuste",
        "fig:bg": "Índice de rotura de Marsal (1967) en los triaxiales drenados del ajuste",
        "fig:tau": "Curva propuesta y su banda de incertidumbre en τ–σ′n",
+       "fig:residuos": "Residuos del ajuste: (a) curva propuesta, (b) nivel reajustado con m = 1, (c) prueba de extrapolación según m, (d) residuo por litología",
        "fig:e": "(a) Relación de vacíos con la profundidad; (b) ángulo de fricción secante de la curva propuesta con cada supuesto"}
 _wf, _figs = FX.agregar(wb, HB=HB, SNX=SNX, SNW=SNW, EB=EB, TOPE=TOPE, PE=PE, PEM=PEM, A16BG=pd.read_csv(AQ / "a16_bg.csv"),
-                        A16C=pd.read_csv(AQ / "a16_contraste.csv"), S34=S34, N_AJ=N_AJ, NW=len(W), rbg=A16["bg"]["r"])
+                        A16C=pd.read_csv(AQ / "a16_contraste.csv"), S34=S34, N_AJ=N_AJ, NW=len(W), rbg=A16["bg"]["r"],
+                        A36=J("a36_residuos.json"), P35=pd.read_csv(AQ / "a35_residuos.csv"), FIT=T27.iloc[:N_AJ])
 FX.colocar(_wf, _figs, {k: (ROT.get(k, ""), t) for k, t in TIT.items()})
 wb.save(OUT)
 json.dump(control, open(AQ / "a28_valores_control.json", "w", encoding="utf-8"))
