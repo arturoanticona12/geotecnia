@@ -190,7 +190,7 @@ rc = lambda pre: next(v for k, v in RC.items() if k.startswith(pre))
 INV = [
     (r"\citet{g2010}, fase A (ROM)", "Triaxial CU", "2.8 y 4~in (9.5--15.9~mm)", "Mármol, hornfels, intrusivo, skarn", "21", r"Contraste (sección~\ref{sec:contraste})"),
     (r"\citet{g2010}, fase B (ROM chancado)", "Triaxial CU", "2.8, 4 y 6~in (9.5--25.4~mm)", "Mármol, hornfels, intrusivo, skarn", "36", "No usado: material chancado"),
-    (r"\citet{g2010}", "Índices de roca y densidad in situ", "--", "Mármol, hornfels, intrusivo, skarn", "--", r"$G_s$; la $e$ in situ no se usa; resto, caracterización (Tabla~\ref{tab:caract})"),
+    (r"\citet{g2010}", "Granulometría, índices de roca, densidad in situ, permeabilidad y carga directa en plataforma", "--", "Mármol, hornfels, intrusivo, skarn (fases A y B)", "--", r"$G_s$; la $e$ in situ no se usa; resto, caracterización (Tablas~\ref{tab:b_g10gran} y~\ref{tab:b_g10ind})"),
     (r"\citet{g2012}", "Triaxial CD (3 con carga y descarga)", "1~m (178~mm)", "Mármol", "5", "Ajuste"),
     (r"\citet{g2012}", "Edómetro", "0.95~m", "Mármol", "1", r"Rango de compresibilidad (Tabla~\ref{tab:edo})"),
     (r"\citet{g2012}", "Permeabilidad en el edómetro", "0.95~m", "Mármol", "6", r"Caracterización (Tabla~\ref{tab:caract})"),
@@ -211,7 +211,9 @@ INV = [
     (r"\citet{anddes2024}", "Granulometría, límites, Proctor, humedad", "--", "Mármol, hornfels, intrusivo, mármol--hornfels", "5", r"Caracterización (Tabla~\ref{tab:caract})"),
     (r"\citet{stantec2023}", r"Puntos $\tau$--$\sigma'_n$ de terceros", "--", "--", "--", "No usado"),
     (r"\citet{antamina2025frag}", "Fragmentación por análisis de fotos", "Campo", "Desmonte ROM", f"{FR['n']}", "$D_{max}$ de campo"),
-    (r"\citet{antamina2025le2}", "UCS, carga puntual y tracción brasileña en roca", "--", "Seis unidades geotécnicas de roca", r"22\,970", r"Caracterización (Tabla~\ref{tab:caract})"),
+    (r"\citet{antamina2025le2}", "UCS, carga puntual, tracción, corte directo, RMR, RQD y FF en roca", "--", "Seis unidades geotécnicas de roca", r"22\,970", r"Caracterización (Tabla~\ref{tab:b_rmu})"),
+    (r"\citet{antamina2025wsc}", "UCS, índices de chancado y abrasión", "--", "Desmonte Waste-C/Std, Waste-Fine y Waste-Hard", "3", r"Caracterización (Tabla~\ref{tab:b_wsc})"),
+    (r"\citet{antamina2024mr}", "Modelo de bloques: UCS y densidad", "--", "Nueve litologías del desmonte LE2", r"310\,102", r"Caracterización (Tabla~\ref{tab:b_mr})"),
 ]
 filas_inv = [" & ".join(r) + r" \\" for r in INV]
 
@@ -220,50 +222,58 @@ filas_inv = [" & ".join(r) + r" \\" for r in INV]
 E = lambda m, x: f"${m}\\times10^{{{x}}}$"
 CAR = [
     ("Granulometría y clasificación", [
-        ("Granulometría de terreno", r"\citet[Tabla~2]{g2010}", "Mármol, hornfels, intrusivo y skarn (fase A)", "4", r"TM 19--35~in; finos 0.88--2.8~\%", "Caracterización"),
-        ("Granulometría de terreno", r"\citet[p.~47]{w2022}", "Hornfels (muestra M-001)", "1", r"TM 36~in; finos 2.49~\%; GW-GM$^{a}$", "Caracterización"),
-        ("Granulometría de terreno", r"\citet[p.~93]{w2024}", "Intrusivo", "1", r"TM 10~in; finos 6.6~\%", "Caracterización"),
-        ("Granulometría y SUCS (ASTM D6913 y D2487)", r"\citet{anddes2024}", r"Mármol, hornfels, intrusivo y mármol--hornfels; $D_{max}$ 75~mm", "5", r"Grava 57--68~\%, arena 21--34~\%, finos 8--11~\%; GP-GM (4) y GW-GM (1)", "Caracterización"),
-        ("Granulometría y SUCS (ASTM D422 y D7928)", r"\citet[Tabla~4]{g2021}", "Tipos A, B y C y desmonte compuesto", "4", r"$D_{50}$ 3.6--9.5~mm; finos 7.2--13.5~\%; GM (3) y GP-GM (1)", "Caracterización"),
-        ("Límites de Atterberg", r"\citet{anddes2024}", "Mismas muestras", "5", "LL: NP (3), 16 y 17; IP: NP", "Caracterización"),
+        ("Granulometría de terreno", r"\citet[Tablas~1 y~2]{g2010}", "Mármol, hornfels, intrusivo y skarn; fases A y B", "8", r"A: TM 19--35~in, finos 0.88--2.8~\%; B: finos 2.7--7.2~\%$^{k}$", r"Caracterización (Tabla~\ref{tab:b_g10gran})"),
+        ("Granulometría de terreno", r"\citet[p.~47]{w2022}", "Hornfels (muestra M-001)", "1", r"TM 36~in; finos 2.49~\%; GW-GM$^{a}$", r"Caracterización (Tabla~\ref{tab:b_gran})"),
+        ("Granulometría de terreno", r"\citet[p.~93]{w2024}", "Intrusivo", "1", r"TM 10~in; finos 6.6~\%", r"Caracterización (Tabla~\ref{tab:b_gran})"),
+        ("Granulometría y SUCS (ASTM D6913 y D2487)", r"\citet{anddes2024}", r"Mármol, hornfels, intrusivo y mármol--hornfels; $D_{max}$ 75~mm", "5", r"Grava 57--68~\%, arena 21--34~\%, finos 8--11~\%; GP-GM (4) y GW-GM (1)", r"Caracterización (Tabla~\ref{tab:b_gran})"),
+        ("Granulometría y SUCS (ASTM D422 y D7928)", r"\citet[Tabla~4]{g2021}", "Tipos A, B y C y desmonte compuesto", "4", r"$D_{50}$ 3.6--9.5~mm; finos 7.2--13.5~\%; GM (3) y GP-GM (1)", r"Caracterización (Tabla~\ref{tab:b_gran})"),
+        ("Límites de Atterberg", r"\citet{anddes2024}", "Mismas muestras", "5", "LL: NP (3), 16 y 17; IP: NP", r"Caracterización (Tabla~\ref{tab:b_gran})"),
         ("Límites de Atterberg", r"\citet[p.~14]{g2021}", "Compuestos y mezclas", "--", "NP", "Caracterización"),
     ]),
     ("Peso específico y absorción", [
-        (r"$G_s$ de sólidos (ASTM D854)", r"\citet[Tabla~2]{g2010}", "Mármol, hornfels, intrusivo y skarn (fase A)", "4", "2.674--3.484", r"$e_0$ (Tabla~\ref{tab:e0})"),
-        (r"$G_s$ y absorción del grueso (ASTM C127)", r"\citet[p.~48]{g2010}", "Mismas muestras", "4", r"$G_s$ bulk 2.461--3.212$^{b}$; absorción 0.24--1.66~\%", "Caracterización"),
-        (r"$G_s$ y absorción del grueso (ASTM C127)", r"\citet[pp.~14 y~83--86]{g2021}", "Tipos A, B y C y desmonte compuesto", "4", r"$G_s$ bulk 2.44--2.87; absorción 0.54--3.39~\%; $G_s$ de finos del compuesto 2.77", "Caracterización"),
-        (r"$G_s$ y absorción del grueso (ASTM C127)", r"\citet[Tabla~3]{w2024}", "Intrusivo", "8", r"$G_s$ aparente 2.83--2.93; base seca 2.71--2.86; absorción 0.8--1.6~\%", "Caracterización"),
+        (r"$G_s$ de sólidos (ASTM D854)", r"\citet[Tabla~2]{g2010}", "Mármol, hornfels, intrusivo y skarn; fases A y B", "8", "A: 2.674--3.484; B: 2.742--3.338", r"$e_0$ (Tabla~\ref{tab:e0})"),
+        (r"$G_s$ y absorción del grueso (ASTM C127)", r"\citet[p.~48]{g2010}", "Mismas muestras", "8", r"A: $G_s$ bulk 2.461--3.212$^{b}$, absorción 0.24--1.66~\%; B: 2.647--3.102 y 0.12--2.17~\%", r"Caracterización (Tabla~\ref{tab:b_g10ind})"),
+        (r"$G_s$ y absorción del grueso (ASTM C127)", r"\citet[Tabla~5 y pp.~83--86]{g2021}", "Tipos A, B y C y desmonte compuesto", "4", r"$G_s$ bulk 2.44--2.87; absorción 0.54--3.39~\%; $G_s$ de finos del compuesto 2.77", r"Caracterización (Tabla~\ref{tab:b_gs})"),
+        (r"$G_s$ y absorción del grueso (ASTM C127)", r"\citet[Tabla~3]{w2024}", "Intrusivo", "8", r"$G_s$ aparente 2.83--2.93; base seca 2.71--2.86; absorción 0.8--1.6~\%", r"Caracterización (Tabla~\ref{tab:b_gs})"),
     ]),
     ("Densidad y humedad", [
-        ("Densidad in situ (reemplazo de agua) y humedad natural", r"\citet[Tabla~2]{g2010}", "Desmonte en el tajo (fase A)", "4", r"$\gamma_d$ 1.865--2.273~g/cm³; $w$ 2.2--3.8~\%", r"No usado (sección~\ref{sec:datos})"),
-        ("Densidad mínima y máxima (ASTM D4254 y D4253)", r"\citet[p.~43]{g2010}", "Skarn (fase A)", "1", r"2.175 y 2.621~g/cm³", "Caracterización"),
-        ("Densidad mínima y máxima (ASTM D4254 y D4253)", r"\citet[pp.~85--86]{w2022}", "Hornfels y mármol", "2", r"Mínima 1.852 y 1.905; máxima seca 2.232 y 2.297~g/cm³", "Caracterización"),
-        ("Densidad mínima y máxima (ASTM D4254 y D4253)", r"\citet[Tabla~8]{w2024}", r"Intrusivo, set C4; fracción menor que 3~in", "1", r"1.825 y 2.212~g/cm³", "Caracterización"),
-        ("Proctor estándar (ASTM D698)", r"\citet{anddes2024}", "Mismas muestras", "5", r"$\gamma_{d,max}$ 19.95--23.78~kN/m³; $w_{opt}$ 6.8--11.1~\%$^{c}$", "Caracterización"),
-        ("Proctor estándar (ASTM D698)", r"\citet[Tabla~6]{g2021}", "Desmonte compuesto", "1", r"$\gamma_{d,max}$ 22.7~kN/m³; $w_{opt}$ 6.5~\%", "Caracterización"),
-        ("Contenido de agua", r"\citet{anddes2024}", "Mismas muestras", "5", r"3--6~\%", "Caracterización"),
+        ("Densidad in situ (reemplazo de agua) y humedad natural", r"\citet[Tabla~2]{g2010}", "Desmonte en el tajo (A) y chancado (B)", "8", r"A: $\gamma_d$ 1.865--2.273~g/cm³, $w$ 2.2--3.8~\%; B: 2.019--2.357~g/cm³, 2.3--3~\%", r"No usado (sección~\ref{sec:datos})"),
+        ("Densidad mínima y máxima (ASTM D4254 y D4253)", r"\citet[pp.~43--47]{g2010}", "Skarn (A); mármol, hornfels, intrusivo y skarn (B)", "5", r"Mínima 1.821--2.175; máxima 2.236--2.647~g/cm³", r"Caracterización (Tabla~\ref{tab:b_dens})"),
+        ("Densidad mínima y máxima (ASTM D4254 y D4253)", r"\citet[pp.~85--86]{w2022}", "Hornfels y mármol", "2", r"Mínima 1.852 y 1.905; máxima seca 2.232 y 2.297~g/cm³", r"Caracterización (Tabla~\ref{tab:b_dens})"),
+        ("Densidad mínima y máxima (ASTM D4254 y D4253)", r"\citet[Tabla~8]{w2024}", r"Intrusivo (C4) y mezclas con relave (C1--C3); fracción menor que 3~in", "4", r"Mínima 1.825--1.945; máxima 2.158--2.212~g/cm³", r"Caracterización (Tabla~\ref{tab:b_dens})"),
+        ("Proctor estándar (ASTM D698)", r"\citet{anddes2024}", "Mismas muestras", "5", r"$\gamma_{d,max}$ 19.95--23.78~kN/m³; $w_{opt}$ 6.8--11.1~\%$^{c}$", r"Caracterización (Tabla~\ref{tab:b_gran})"),
+        ("Proctor estándar (ASTM D698)", r"\citet[Tabla~6]{g2021}", "Desmonte compuesto y 9 mezclas con relave", "10", r"Compuesto: 22.7~kN/m³ y 6.5~\%; mezclas: 22.0--23.0~kN/m³ y 5.6--7.5~\%", r"Caracterización (Tabla~\ref{tab:b_gran})"),
+        ("Contenido de agua", r"\citet{anddes2024}", "Mismas muestras", "5", r"3--6~\%", r"Caracterización (Tabla~\ref{tab:b_gran})"),
     ]),
-    ("Compresibilidad y permeabilidad", [
+    ("Compresibilidad, carga en plataforma y permeabilidad", [
         ("Edómetro de gran escala", r"\citet{g2012,w2022,w2024}", "Mármol, hornfels e intrusivo; 0.24--1.0~m", "8", r"$C_c$ y $e$ con la profundidad en la Tabla~\ref{tab:edo}", "Perfil A y rango de compresibilidad"),
-        ("Permeabilidad, pared flexible (ASTM D5084)", r"\citet[Tabla~2]{g2010}", "Hornfels e intrusivo; fracción menor que 5/8~in", "4", r"$k_{20}$ " + E("2.2", "-6") + "--" + E("3.2", "-6") + "~m/s", "Caracterización"),
-        ("Permeabilidad, carga constante en el edómetro", r"\citet[Tabla~4]{g2012}", "Mármol; 0.95~m", "6", E("8.2", "-4") + "--" + E("1.4", "-3") + r"~m/s$^{d}$, con $\sigma'_v$ de 6 a 60~kg/cm²", "Caracterización"),
-        ("Permeabilidad, carga constante en el edómetro", r"\citet[Tablas~5 y~6]{w2022}", "Hornfels y mármol (2021); 1.0~m", "14", "Hornfels, de " + E("3.5", "-4") + " a " + E("3.5", "-5") + "; mármol, de " + E("1.2", "-4") + " a " + E("2.7", "-5") + r"~m/s$^{d}$, de 588 a 6865~kPa", "Caracterización"),
-        ("Permeabilidad, carga constante en el edómetro", r"\citet[Tabla~14]{w2024}", "Intrusivo, set C4; 0.6~m", "5", E("2.0", "-4") + "--" + E("2.9", "-4") + r"~m/s, de 392 a 5880~kPa$^{e}$", "Caracterización"),
+        ("Edómetro de gran escala", r"\citet[Tabla~12]{w2024}", "Mezclas de intrusivo y relave (C1--C3); 0.6~m", "3", r"$\varepsilon_v$ final 8.2--11.1~\% a 5880~kPa", r"Caracterización (Tabla~\ref{tab:b_perm})"),
+        ("Carga directa en plataforma", r"\citet[Tabla~2 y pp.~185--226]{g2010}", "Material chancado (fase B); placas de 0.30 a 0.60~m", "4", r"Asentamiento máximo 3.6--5.6~cm, con carga de hasta 6.0~kg/cm²", r"Caracterización (Tabla~\ref{tab:b_perm})"),
+        ("Permeabilidad, pared flexible (ASTM D5084)", r"\citet[Tabla~2 y pp.~157--160]{g2010}", "Hornfels e intrusivo (A y B); fracción menor que 5/8~in", "4", r"$k_{20}$ " + E("2.2", "-6") + "--" + E("3.2", "-6") + r"~m/s", r"Caracterización (Tabla~\ref{tab:b_perm})"),
+        ("Permeabilidad, carga constante en el edómetro", r"\citet[Tabla~4]{g2012}", "Mármol; 0.95~m", "6", E("8.2", "-4") + "--" + E("1.4", "-3") + r"~m/s$^{d}$, con $\sigma'_v$ de 6 a 60~kg/cm²", r"Caracterización (Tabla~\ref{tab:b_perm})"),
+        ("Permeabilidad, carga constante en el edómetro", r"\citet[Tablas~5 y~6]{w2022}", "Hornfels y mármol (2021); 1.0~m", "14", "Hornfels, de " + E("3.5", "-4") + " a " + E("3.5", "-5") + "; mármol, de " + E("1.2", "-4") + " a " + E("2.7", "-5") + r"~m/s$^{d}$, de 588 a 6865~kPa", r"Caracterización (Tabla~\ref{tab:b_perm})"),
+        ("Permeabilidad, carga constante en el edómetro", r"\citet[Tabla~14]{w2024}", "Intrusivo (C4) y mezclas con relave (C1--C3); 0.6~m", "20", E("2.0", "-4") + "--" + E("1.3", "-3") + r"~m/s, de 392 a 5880~kPa$^{e}$", r"Caracterización (Tabla~\ref{tab:b_perm})"),
         ("Permeabilidad, pared flexible (ASTM D5084)", r"\citet[Tabla~9]{g2021}", "Mezclas de desmonte y relave 9:1 y 1:1", "6", E("1.4", "-6") + "--" + E("8.9", "-6") + r"~m/s$^{f}$", "No usado: mezcla con relave"),
     ]),
     ("Degradabilidad", [
-        ("Abrasión Los Ángeles (ASTM C535)", r"\citet[Tabla~2]{g2010}", "Mármol, hornfels, intrusivo y skarn (fase A)", "4", r"Pérdida 23.7--62.1~\%", "Caracterización"),
-        ("Abrasión Los Ángeles", r"\citet[p.~36]{w2022}", "Hornfels y mármol", "--", r"Hornfels, 17~\% en promedio; mármol, 43~\% (2011) y 45--50~\% (2021)$^{g}$", "Caracterización"),
-        ("Abrasión Los Ángeles (ASTM C131)", r"\citet[Tabla~7]{w2024}", "Intrusivo", "8", r"Pérdida 21.2--39.9~\% (promedio 30.4~\%)", "Caracterización"),
-        ("Durabilidad en sulfato", r"\citet[Tabla~2]{g2010}", "Mármol, hornfels, intrusivo y skarn (fase A)", "4", r"Pérdida corregida 0.7--43.4~\%$^{h}$", "Caracterización"),
+        ("Abrasión Los Ángeles (ASTM C535)", r"\citet[Tabla~2]{g2010}", "Mármol, hornfels, intrusivo y skarn; fases A y B", "8", r"A: pérdida 23.7--62.1~\%; B: 20.3--62.4~\%", r"Caracterización (Tabla~\ref{tab:b_g10ind})"),
+        ("Abrasión Los Ángeles", r"\citet[p.~36]{w2022}", "Hornfels y mármol", "--", r"Hornfels, 17~\% en promedio; mármol, 43~\% (2011) y 45--50~\% (2021)$^{g}$", r"Caracterización (Tabla~\ref{tab:b_part})"),
+        ("Abrasión Los Ángeles (ASTM C131)", r"\citet[Tabla~7]{w2024}", "Intrusivo", "8", r"Pérdida 21.2--39.9~\% (promedio 30.4~\%)", r"Caracterización (Tabla~\ref{tab:b_part})"),
+        ("Durabilidad en sulfato", r"\citet[Tabla~2]{g2010}", "Mármol, hornfels, intrusivo y skarn; fases A y B", "8", r"Pérdida corregida A: 0.7--43.4~\%; B: 0.6--49.8~\%$^{h}$", r"Caracterización (Tabla~\ref{tab:b_g10ind})"),
+        ("Índice de abrasión de Bond, abrasividad Macon, CWI, BWI y DWT", r"\citet[lámina~2]{antamina2025wsc}", "Desmonte Waste-C/Std, Waste-Fine y Waste-Hard", "3", r"Bond Ai 0.0202--0.4810; abrasividad Macon 39.4--778.0~g/t; CWI 12.6--17.1~kWh/t", r"Caracterización (Tabla~\ref{tab:b_wsc})"),
     ]),
     ("Resistencia de la roca", [
-        ("Compresión uniaxial (ASTM D2938)", r"\citet[Tabla~2]{g2010}", "Mármol, hornfels, intrusivo y skarn (fase A)", "8", r"44.7--73.3~MPa (promedio por litología)", "Caracterización"),
-        ("Carga puntual (ASTM D5731)", r"\citet[Tabla~2]{g2010}", "Mismas litologías", "16", r"$\sigma_c$ estimada 32.24--80.56~MPa (promedio por litología)", "Caracterización"),
-        ("Compresión uniaxial", r"\citet[Tablas~1 y~2 y anexo]{w2022}", "Hornfels y mármol", "18", r"Hornfels, 64 y 65~MPa (Tabla~1) y 24.5--40.8~MPa (IDIEM); mármol, 42 y 44~MPa (2021) y 53--136~MPa (2011; Tabla~2); muestra REG~41061, 66.9--103.5~MPa$^{i}$", "Caracterización"),
-        ("Compresión uniaxial (ASTM D7012)", r"\citet[Tabla~6]{w2024}", "Intrusivo", "7", r"61.1--143.1~MPa$^{j}$", "Caracterización"),
-        ("Carga puntual", r"\citet[p.~364]{w2024}", "Intrusivo", "4", r"$I_{s(50)}$ 4.11--6.16~MPa", "Caracterización"),
-        ("UCS, carga puntual y tracción brasileña", r"\citet{antamina2025le2}", "Roca de seis unidades geotécnicas (END, EXO, HRN, INT, LMH y XDP)", r"22\,970", r"Medianas por unidad: UCS 28.1--98.0~MPa (2470 ensayos); $I_{s(50)}$ axial 1.97--6.85 y diametral 2.65--7.18~MPa (18\,628); tracción 3.39--9.71~MPa (1872)", "Caracterización"),
+        ("Compresión uniaxial (ASTM D2938)", r"\citet[Tabla~2 y pp.~66--73]{g2010}", "Mármol, hornfels, intrusivo y skarn; fases A y B", "16", r"Promedio por litología A: 44.7--73.3~MPa; B: 49.6--97.4~MPa", r"Caracterización (Tabla~\ref{tab:b_g10ind})"),
+        ("Carga puntual (ASTM D5731)", r"\citet[Tabla~2 y pp.~74--81]{g2010}", "Mismas litologías", "48", r"$\sigma_c$ estimada, promedio por litología A: 32.24--80.56~MPa; B: 24.56--124.78~MPa", r"Caracterización (Tabla~\ref{tab:b_g10ind})"),
+        ("Compresión uniaxial", r"\citet[Tablas~1 y~2 y anexo]{w2022}", "Hornfels y mármol", "18", r"Hornfels, 64 y 65~MPa (Tabla~1) y 24.5--40.8~MPa (IDIEM); mármol, 42 y 44~MPa (M-001 y M-002) y 53--136~MPa (2011); muestra REG~41061, 66.9--103.5~MPa$^{i}$", r"Caracterización (Tabla~\ref{tab:b_part})"),
+        ("Compresión uniaxial (ASTM D7012)", r"\citet[Tabla~6]{w2024}", "Intrusivo", "7", r"61.1--143.1~MPa$^{j}$", r"Caracterización (Tabla~\ref{tab:b_part})"),
+        ("Carga puntual", r"\citet[p.~364]{w2024}", "Intrusivo", "4", r"$I_{s(50)}$ 4.11--6.16~MPa", r"Caracterización (Tabla~\ref{tab:b_part})"),
+        ("UCS de desmonte", r"\citet[lámina~2]{antamina2025wsc}", "Desmonte Waste-C/Std, Waste-Fine y Waste-Hard", "3", r"54, 83 y 155~MPa", r"Caracterización (Tabla~\ref{tab:b_wsc})"),
+        ("UCS, carga puntual, tracción brasileña, corte directo, RMR, RQD y FF", r"\citet{antamina2025le2}", "Roca de seis unidades geotécnicas (END, EXO, HRN, INT, LMH y XDP)", r"22\,970$^{l}$", r"Medianas por unidad: UCS 28.1--98.0~MPa; $I_{s(50)}$ axial 2.0--6.8 y diametral 2.6--7.2~MPa; tracción 3.4--9.7~MPa; $\phi$ 28.2--33.4°", r"Caracterización (Tabla~\ref{tab:b_rmu})"),
+        ("UCS del modelo de bloques", r"\citet[lámina~12]{antamina2025wsc}; \citet{antamina2024mr}", "Desmonte LE2, nueve litologías", r"310\,102$^{m}$", r"Media por litología 57.37--116.96~MPa", r"Caracterización (Tabla~\ref{tab:b_mr})"),
+    ]),
+    ("Fragmentación de campo", [
+        ("Fragmentación por análisis de fotos", r"\citet{antamina2025frag}", "Desmonte de voladura, clases A, B, C y C1; fases 8 a 10", "319", r"Mediana de $X_{max}$ 66.7--91.9~cm según la clase", r"$D_{max}$ de campo (Tabla~\ref{tab:b_frag})"),
     ]),
 ]
 filas_car = []
@@ -328,7 +338,9 @@ REF_S = r"""\bibitem[Anddes Geolab(2024)]{anddes2024} Anddes Geolab (2024). \emp
 \bibitem[Stantec(2026a)]{stantec2026dde} Stantec (2026a). \emph{Informe de diseño geotécnico: 24213EXB-115 Depósito de Desmonte Este, extensiones E1, E2, E9 y E10} [Informe 102-24213-CW18321-INF-115-R-0004, Rev.~0, 13 de febrero de 2026, para Compañía Minera Antamina].
 \bibitem[Stantec(2026b)]{stantec2026iff} Stantec (2026b). \emph{Informe final de estudio: Depósito de Desmonte Este (DDE), Life Extension 2 Program, ingeniería de prefactibilidad Gate 2B} [Informe 102-24213-CW18321-IFF-115-G-0001, Rev.~B, 6 de abril de 2026, para Compañía Minera Antamina].
 \bibitem[Compañía Minera Antamina(2025a)]{antamina2025frag} Compañía Minera Antamina (2025a). \emph{Fragmentación del desmonte 2025} [base de datos de análisis de fotos post-voladura].
-\bibitem[Compañía Minera Antamina(2025b)]{antamina2025le2} Compañía Minera Antamina (2025b). \emph{Resumen de parámetros geotécnicos LE2} [planilla de ensayos de roca por unidad geotécnica, 3 de septiembre de 2025].
+\bibitem[Compañía Minera Antamina(2025b)]{antamina2025le2} Compañía Minera Antamina (2025b). \emph{Ensayos geotécnicos LE2: resumen de parámetros geotécnicos} [presentación y planilla de ensayos de roca por unidad geotécnica, Geotecnia e Hidrogeología, 3 de septiembre de 2025].
+\bibitem[Compañía Minera Antamina(2025c)]{antamina2025wsc} Compañía Minera Antamina (2025c). \emph{LE2 waste characterization} [presentación Waste Sample Characterization, Rev.~C, 29 de agosto de 2025].
+\bibitem[Compañía Minera Antamina(2024)]{antamina2024mr} Compañía Minera Antamina (2024). \emph{Modelo de bloques MR2024 del desmonte LE2} [exportación de Leapfrog Geo, archivo SIMULACIONES\_MR2024\_V3].
 \bibitem[Golder Associates Perú(2010)]{g2010} Golder Associates Perú (2010). \emph{Caracterización material de ROM -- Proyecto IPCC} [Memorando técnico para Compañía Minera Antamina, proyecto 099-4151017, 25 de marzo de 2010].
 \bibitem[Golder Associates Perú(2012)]{g2012} Golder Associates Perú (2012). \emph{Summary of results from laboratory testing program for black marble rockfill} [Technical memorandum Doc.~No.~446, proyectos 1014270482C/1194155017P, 7 de febrero de 2012; anexo IDIEM, Informe 708.397-A].
 \bibitem[Golder Associates Perú(2021)]{g2021} Golder Associates Perú (2021). \emph{Estudio conceptual almacenamiento eco-estable de desmonte y relaves: Informe de interpretación de ensayos de laboratorio} [Informe 101-20110-LTE01220-INF-420-G-0013, Rev.~0, 28 de abril de 2021].
@@ -397,17 +409,18 @@ El ajuste usa los ensayos drenados de material del tajo: los triaxiales drenados
 Por origen, el intrusivo \citep{w2024,i2025}, el compuesto de \citet{g2021} y las muestras de \citet{anddes2024} son desmonte del tajo; los informes no dicen si es ROM, chancado o enrocado, de modo que se clasificaron como ROM por su procedencia. Los tipos A, B y C con que Antamina designa el desmonte son una clasificación geoquímica por potencial de generación de acidez \citep[pp.~6 y~27]{g2021}, no de gradación. El mármol de \citet{g2012} es enrocado para la presa de relaves, obtenido de material \emph{run-of-the-mine} del tajo («Type C rockfill», pp.~1--2), y el hornfels de \citet{w2022} es enrocado 3B de la presa (pp.~3 y~7).
 
 \subsection{Ensayos de caracterización}\label{sec:caract}
-La Tabla~\ref{tab:caract} resume los demás ensayos disponibles sobre el desmonte y la roca de Antamina: granulometría y clasificación, peso específico y absorción, densidad, compresibilidad, permeabilidad, degradabilidad y resistencia de la roca. Los valores son los que informa cada fuente, verificados en la página del informe; cuando la fuente da un valor por litología o por muestra, la tabla da el rango entre esos valores, sin promediar ni recalcular. De \citet{g2010} se incluye solo la fase A, de material del tajo; la fase B es material chancado. De estos ensayos, el memorándum usa el $G_s$ de sólidos de \citet{g2010} para calcular la $e_0$ (Tabla~\ref{tab:e0}) y los edómetros para los perfiles de $e$ (Tabla~\ref{tab:edo}). Los demás caracterizan el material y no entran en el ajuste de la curva.
+La Tabla~\ref{tab:caract} resume los demás ensayos y datos disponibles sobre el desmonte y la roca de Antamina: granulometría y clasificación, peso específico y absorción, densidad, compresibilidad, carga en plataforma, permeabilidad, degradabilidad, resistencia de la roca y fragmentación de campo. Los valores son los que informa cada fuente, verificados en la página del informe, la lámina o la planilla citada; cuando la fuente da un valor por litología o por muestra, la tabla da el rango entre esos valores, sin promediar ni recalcular. De \citet{g2010} se incluyen las dos fases: la A, de material del tajo, y la B, del mismo material chancado. El Anexo~\ref{sec:anexob} da los valores de cada tipo de desmonte (litología, clase de desmonte o unidad geotécnica) y de cada muestra, con la tabla o página de origen. De estos datos, el memorándum usa el $G_s$ de sólidos de \citet{g2010} para calcular la $e_0$ (Tabla~\ref{tab:e0}), los edómetros para los perfiles de $e$ (Tabla~\ref{tab:edo}) y la fragmentación para el $D_{max}$ de campo (sección~\ref{sec:tamano}); los demás caracterizan el material y no entran en el ajuste de la curva.
 
+\clearpage
 \begin{footnotesize}\setlength{\tabcolsep}{3pt}
-\begin{longtable}{L{2.75cm}L{2.2cm}L{2.5cm}>{\raggedleft\arraybackslash}p{0.9cm}L{4.15cm}L{2.3cm}}
+\begin{longtable}{L{2.35cm}L{2.2cm}L{2.5cm}>{\raggedleft\arraybackslash}p{1.3cm}L{4.15cm}L{2.3cm}}
 \caption{Ensayos de caracterización de desmonte y de roca de Antamina, con los valores informados por cada fuente. TM: tamaño máximo; finos: pasante del tamiz N.º~200; NP: no plástico.}\label{tab:caract}\\
 \toprule Ensayo & Fuente & Material & $n$ & Resultado & Uso\\\midrule\endfirsthead
 \toprule Ensayo & Fuente & Material & $n$ & Resultado & Uso\\\midrule\endhead
 """ + "\n".join(filas_car) + r"""
 \bottomrule
 \end{longtable}\end{footnotesize}
-\vspace{-6pt}{\footnotesize $^{a}$Clasificación calculada por el laboratorio con el material menor que 3~in. $^{b}$La Tabla~2 del informe da 2.451--3.172 para el mismo ensayo; el valor de la tabla es el de las hojas de laboratorio. $^{c}$Informes marcados «fuera de método». $^{d}$Convertido de cm/s. $^{e}$El informe considera estos valores no representativos: la conductividad del equipo es del orden de $10^{-4}$~m/s y el flujo pudo ir por las paredes del molde. $^{f}$Tabla~9 del informe; la hoja de laboratorio de la mezcla 1:1 de la alternativa~1 da $8.9\times10^{-7}$~m/s. $^{g}$Citados de ensayos anteriores, no ensayados en ese estudio. $^{h}$Sulfato de magnesio según las hojas de laboratorio; el texto del informe indica sulfato de sodio (ASTM C88). $^{i}$La hoja de IDIEM de la muestra REG~41061 no indica la litología. $^{j}$Valores de la Tabla~6; el texto del informe da 64.0--143.1~MPa.\par}
+\vspace{-6pt}{\footnotesize $^{a}$Clasificación calculada por el laboratorio con el material menor que 3~in. $^{b}$La Tabla~2 del informe da 2.451--3.172 para el mismo ensayo; el valor de la tabla es el de las hojas de laboratorio. $^{c}$Informes marcados «fuera de método». $^{d}$Convertido de cm/s. $^{e}$El informe considera estos valores no representativos: la conductividad del equipo es del orden de $10^{-4}$~m/s y el flujo pudo ir por las paredes del molde. $^{f}$Tabla~9 del informe; la hoja de laboratorio de la mezcla 1:1 de la alternativa~1 da $8.9\times10^{-7}$~m/s. $^{g}$Citados de ensayos anteriores, no ensayados en ese estudio. $^{h}$Sulfato de magnesio según las hojas de laboratorio; el texto del informe indica sulfato de sodio (ASTM C88). $^{i}$La hoja de IDIEM de la muestra REG~41061 no indica la litología. $^{j}$Valores de la Tabla~6; el texto del informe da 64.0--143.1~MPa. $^{k}$La Tabla~2 del informe repite en la fase B el TM de la fase A; la Tabla~1 indica 12~in después del chancado. $^{l}$Ensayos de las hojas de la planilla, de 1997 a 2024. $^{m}$Bloques del modelo, no ensayos.\par}
 
 \subsection{Diferencias entre los ensayos y el campo}
 Los ensayos no reproducen el desmonte del botadero en dos aspectos, y ambos deben tenerse presentes al usar la curva:
@@ -802,10 +815,224 @@ La Tabla~\ref{tab:anx_todos} da, ensayo por ensayo, los """ + f"{len(A27)}" + r"
 \bottomrule
 \end{longtable}\end{footnotesize}
 """
+
+# ---- Anexo B: caracterización por tipo de desmonte, con los valores de cada informe tal como fueron informados
+#      (verificados en la página, lámina o planilla citada; 2026-10-13)
+TB = lambda rows: "\n".join(" & ".join(r) + r" \\" for r in rows)
+TBG = lambda grupos, nc: "\n".join((r"\midrule " if i else "") + r"\multicolumn{" + str(nc) + r"}{l}{\textit{" + g + r"}} \\" + "\n" + TB(rr) for i, (g, rr) in enumerate(grupos))
+B_G10GRAN = [
+    ("Fase A, material del tajo", [
+        ("Mármol negro", "35", "35.1", "30.2", "23.6", "8.3", "2.8", "71.4", "22.8", "5.8", "2.185", "2.2", "2.135"),
+        ("Hornfels gris", "35", "22.1", "49.3", "24.9", "2.82", "0.88", "86.2", "11.2", "2.6", "2.055", "2.4", "2.026"),
+        ("Intrusivo", "30", "21.8", "38.8", "31.4", "6.4", "1.6", "80.4", "16.3", "3.3", "1.931", "3.8", "1.865"),
+        ("Exoskarn diópsido", "19", "4.6", "15.6", "58", "19.1", "2.7", "76.5", "20.9", "2.6", "2.35", "3.1", "2.273")]),
+    ("Fase B, material chancado", [
+        ("Mármol negro", "35$^{a}$", "--", "34", "43.4", "15.4", "7.2", "68.9", "23.6", "7.5", "2.2", "2.9", "2.151"),
+        ("Hornfels gris", "35$^{a}$", "--", "35.6", "56.3", "5.4", "2.7", "85.6", "10.8", "3.6", "2.162", "2.3", "2.137"),
+        ("Intrusivo", "30$^{a}$", "--", "34.7", "40.7", "17.6", "7", "67.4", "25.4", "7.2", "2.06", "2.7", "2.019"),
+        ("Exoskarn diópsido", "19$^{a}$", "--", "10.7", "60.9", "23", "5.4", "72.5", "23.1", "4.4", "2.418", "3", "2.357")]),
+]
+B_G10IND = [
+    ("Fase A, material del tajo", [
+        ("Mármol negro", "2.763", "2.717", "0.34", "43.4", "62.1", "32.24", "44.7 (41.0; 48.3)", "--", "--"),
+        ("Hornfels gris", "2.791", "2.737", "0.24", "0.7", "23.7", "72.99", "49.2 (46.8; 51.6)", r"$3.20\times10^{-6}$", "--"),
+        ("Intrusivo", "2.674", "2.461", "1.66", "33.4", "49.8", "80.56", "46.8 (48.4; 45.1)", r"$2.50\times10^{-6}$", "--"),
+        ("Exoskarn diópsido", "3.484", "3.212", "1.44", "5.9", "37", "67.79", "73.3 (79.3; 67.3)", "--", "--")]),
+    ("Fase B, material chancado", [
+        ("Mármol negro", "2.747", "2.725", "0.33", "49.8", "62.4", "24.56", "49.6 (41.5; 57.7)", "--", "4.8"),
+        ("Hornfels gris", "2.802", "2.740", "0.12", "0.6", "20.3", "100.42", "65.5 (62.6; 68.3)", r"$2.60\times10^{-6}$$^{c}$", "5.6"),
+        ("Intrusivo", "2.742", "2.647", "2.17", "18.6", "32.2", "78.06", "54 (56.1; 51.8)", r"$2.20\times10^{-6}$$^{c}$", "3.6"),
+        ("Exoskarn diópsido", "3.338", "3.102", "1.30", "6.7", "27.6", "124.78", "97.4 (101.7; 93.1)", "--", "5.1")]),
+]
+B_GRAN = [
+    (r"\citet{anddes2024}: muestras de perforación, patio de servicios y Botadero Este, 40--90~m", [
+        ("Ruma 01 (M-1 a M-13)", "Mármol", "75~mm", "65", "25", "10", "GP-GM", "NP / NP", "23.780 (25.754)", "6.8 (3.9)", "3"),
+        ("Ruma 02 (H-1 a H-12)", "Hornfels", "75~mm", "68", "21", "11", "GP-GM", "16 / NP", "22.876 (24.533)", "7.7 (4.7)", "3"),
+        ("Ruma 03 (I-1 a I-12)", "Intrusivo", "75~mm", "63", "29", "8", "GP-GM", "17 / NP", "20.930 (22.230)", "9.8 (6.7)", "5"),
+        ("Pila 01", "Mármol y hornfels", "75~mm", "59", "30", "11", "GP-GM", "NP / NP", "22.819 (24.012)", "7.4 (5.4)", "3"),
+        ("Pila 02", "Intrusivo", "75~mm", "57", "34", "9", "GW-GM", "NP / NP", "19.951 (20.797)", "11.1 (8.6)", "6")]),
+    (r"\citet[Tablas~4 y~6, p.~14]{g2021}: muestras truncadas en 1~in", [
+        ("Tipo A", "Intrusivo", r"$D_{50}$ 3.6~mm", "45.3", "41.2", "13.5$^{e}$", "GM", "--", "--", "--", "--"),
+        ("Tipo B", "Mármol y hornfels", r"$D_{50}$ 3.9~mm", "46.2", "40.9", "12.9$^{e}$", "GM", "--", "--", "--", "--"),
+        ("Tipo C", "Hornfels", r"$D_{50}$ 9.5~mm", "68.2", "24.6", "7.2$^{e}$", "GM", "--", "--", "--", "--"),
+        (r"Compuesto (35/15/50~\%)", "Intrusivo, mármol--hornfels y hornfels", r"$D_{50}$ 7.4~mm", "59.5", "30.8", "9.7$^{f}$", "GP-GM", "NP", "22.7", "6.5", "--")]),
+    ("Granulometría de terreno y de probeta", [
+        (r"M-001 \citep[p.~47]{w2022}", "Hornfels", "36~in", "--", "--", "2.49", "GW-GM$^{g}$", "NP", "--", "--", "--"),
+        (r"Desmonte de mina \citep[p.~93]{w2024}", "Intrusivo", "10~in", "--", "--", "6.6", "--", "--", "--", "--", "--"),
+        (r"Probeta de 1~m \citep[anexo, p.~3]{g2012}", "Mármol", "178~mm", "--", "--", "4.9", "--", "--", "--", "--", "--")]),
+]
+B_GS = [
+    (r"\citet[Tabla~5 y pp.~83--86]{g2021}", [
+        ("Tipo A", "Intrusivo", "2.44", "2.53", "2.67", "3.39", "--"),
+        ("Tipo B", "Mármol y hornfels", "2.87", "2.90", "2.97", "1.22", "--"),
+        ("Tipo C", "Hornfels", "2.70", "2.72", "2.75", "0.61", "--"),
+        ("Compuesto", "Mezcla", "2.71", "2.72", "2.75", "0.54", "2.77")]),
+    (r"\citet[Tabla~3]{w2024}, desmonte tipo intrusivo", [
+        ("M-1", "Intrusivo", "2.79", "2.82", "2.87", "1.0", "--"), ("M-2", "Intrusivo", "2.79", "2.82", "2.87", "1.0", "--"),
+        ("M-3", "Intrusivo", "2.80", "2.83", "2.90", "1.2", "--"), ("M-4", "Intrusivo", "2.80", "2.83", "2.87", "0.8", "--"),
+        ("M-5", "Intrusivo", "2.75", "2.79", "2.85", "1.3", "--"), ("M-6", "Intrusivo", "2.86", "2.88", "2.93", "0.8", "--"),
+        ("M-7", "Intrusivo", "2.71", "2.76", "2.83", "1.6", "--"), ("M-8", "Intrusivo", "2.76", "2.79", "2.84", "1.0", "--")]),
+    (r"\citet{anddes2024}, fracción sobretamaño del Proctor", [
+        ("Ruma 01", "Mármol", "2.94", "--", "--", "--", "--"), ("Ruma 02", "Hornfels", "2.80", "--", "--", "--", "--"),
+        ("Ruma 03", "Intrusivo", "2.56", "--", "--", "--", "--"), ("Pila 01", "Mármol y hornfels", "2.79", "--", "--", "--", "--"),
+        ("Pila 02", "Intrusivo", "2.39", "--", "--", "--", "--")]),
+]
+B_DENS = [
+    (r"\citet[pp.~43--47]{g2010}", [("Exoskarn diópsido, fase A", "2.175", "2.621", "--"), ("Mármol negro, fase B", "1.821", "2.236", "--"),
+        ("Hornfels gris, fase B", "1.861", "2.308", "--"), ("Intrusivo, fase B", "1.833", "2.237", "--"), ("Exoskarn diópsido, fase B", "2.161", "2.647", "--")]),
+    (r"\citet[pp.~85--86]{w2022}", [("Hornfels (HR)", "1.852", "2.232", "2.308"), ("Mármol (MR)", "1.905", "2.297", "2.398")]),
+    (r"\citet[Tabla~8]{w2024}, fracción menor que 3~in", [("Codisposal 4, intrusivo", "1.825", "2.212", "--"),
+        ("Codisposal 1, intrusivo y relave 3.5:1", "1.945", "2.169", "--"), ("Codisposal 2, intrusivo y relave 4.5:1", "1.914", "2.158", "--"),
+        ("Codisposal 3, intrusivo y relave 5.5:1", "1.865", "2.187", "--")]),
+]
+B_PART = [
+    ("Compresión uniaxial (MPa)", [
+        (r"\citet[Tabla~1]{w2022}", "Hornfels gris (M-1 y M-2)", "2", "65; 64"),
+        (r"\citet[Tabla~2]{w2022}", "Mármol negro (M-001 y M-002)", "2", "44; 42"),
+        (r"\citet[Tabla~2]{w2022}, de \citet{g2012}", "Mármol negro (M1-1 a M4-2)", "8", "53; 108; 106; 129; 54; 61; 136; 132"),
+        (r"\citet[anexo IDIEM, pp.~72--77]{w2022}", "H6 hornfels gris", "3", "26.3; 40.8; 24.5"),
+        (r"\citet[anexo IDIEM, pp.~78--83]{w2022}", r"Muestra REG~41061$^{h}$", "3", "96.6; 66.9; 103.5"),
+        (r"\citet[Tabla~6]{w2024}", "Intrusivo (M-1 y M-2)", "7", "100.6; 143.1; 64.0; 117.8; 76.0; 103.6; 61.1")]),
+    ("Abrasión Los Ángeles (\\% de pérdida)", [
+        (r"\citet[p.~36]{w2022}", "Hornfels; mármol", "--", r"17 (promedio); 43 (2011) y 45--50 (2021)$^{i}$"),
+        (r"\citet[Tabla~7]{w2024}", "Intrusivo (M-1 a M-8)", "8", "29.1; 39.9; 21.2; 32.2; 27.1; 32.3; 29.0; 32.6")]),
+    ("Carga puntual, $I_{s(50)}$ (MPa)", [
+        (r"\citet[IDIEM, Tabla~6, p.~364]{w2024}", "100~\\% intrusivo", "4", "5.48; 4.36; 4.11; 6.16")]),
+]
+B_PERM = [
+    ("Permeabilidad (m/s salvo indicación)", [
+        (r"\citet[Tabla~2]{g2010}", "Hornfels gris, A y B; intrusivo, A y B (fracción < 5/8~in)", "--", r"$3.20\times10^{-6}$; $2.60\times10^{-6}$; $2.50\times10^{-6}$; $2.20\times10^{-6}$$^{c}$"),
+        (r"\citet[Tabla~4]{g2012}", "Mármol negro, 0.95~m (cm/s)", "6, 10, 20, 40, 50 y 60~kg/cm²", r"$1.4\times10^{-1}$; $1.1\times10^{-1}$; $1.0\times10^{-1}$; $1.1\times10^{-1}$; $8.6\times10^{-2}$; $8.2\times10^{-2}$"),
+        (r"\citet[Tabla~5]{w2022}", "Hornfels, 1.0~m (cm/s)", "588, 981, 1961, 3923, 4903, 5884 y 6865~kPa", r"$3.5\times10^{-2}$; $1.7\times10^{-2}$; $9.7\times10^{-3}$; $6.8\times10^{-3}$; $5.6\times10^{-3}$; $4.2\times10^{-3}$; $3.5\times10^{-3}$"),
+        (r"\citet[Tabla~6]{w2022}", "Mármol negro 2021, 1.0~m (cm/s)", "Mismos esfuerzos", r"$1.2\times10^{-2}$; $9.5\times10^{-3}$; $7.7\times10^{-3}$; $5.0\times10^{-3}$; $4.1\times10^{-3}$; $3.0\times10^{-3}$; $2.7\times10^{-3}$"),
+        (r"\citet[Tabla~14]{w2024}", "Codisposal 4, intrusivo, 0.6~m$^{j}$", "392, 784, 1568, 3136 y 5880~kPa", r"$2.9\times10^{-4}$; $2.8\times10^{-4}$; $2.3\times10^{-4}$; $2.3\times10^{-4}$; $2.0\times10^{-4}$"),
+        (r"\citet[Tabla~14]{w2024}", "Codisposal 1, intrusivo y relave 3.5:1$^{j}$", "Mismos esfuerzos", r"$1.3\times10^{-3}$; $1.0\times10^{-3}$; $8.4\times10^{-4}$; $7.6\times10^{-4}$; $6.6\times10^{-4}$"),
+        (r"\citet[Tabla~14]{w2024}", "Codisposal 2, intrusivo y relave 4.5:1$^{j}$", "Mismos esfuerzos", r"$4.7\times10^{-4}$; $3.8\times10^{-4}$; $3.2\times10^{-4}$; $2.7\times10^{-4}$; $2.5\times10^{-4}$"),
+        (r"\citet[Tabla~14]{w2024}", "Codisposal 3, intrusivo y relave 5.5:1$^{j}$", "Mismos esfuerzos", r"$7.0\times10^{-4}$; $6.2\times10^{-4}$; $5.8\times10^{-4}$; $4.5\times10^{-4}$; $4.2\times10^{-4}$"),
+        (r"\citet[Tabla~9]{g2021}", "Mezclas de desmonte y relave, alternativas 1, 2 y 4, 9:1 y 1:1", "399~kPa", r"$5.60\times10^{-6}$ y $8.90\times10^{-6}$$^{k}$; $8.10\times10^{-6}$ y $1.40\times10^{-6}$; $6.70\times10^{-6}$ y $2.50\times10^{-6}$")]),
+    ("Edómetros de mezclas, 0.6~m: $e_0$; $\\rho_d$ (g/cm³); $\\varepsilon_v$ final a 5880~kPa (\\%)", [
+        (r"\citet[Tabla~12]{w2024}", "Codisposal 1, 2 y 3 (intrusivo y relave)", "--", "0.418, 2.07, 8.2; 0.431, 2.03, 10.4; 0.408, 2.05, 11.1"),
+        (r"\citet[Tabla~12]{w2024}", r"Codisposal 4, intrusivo (también en la Tabla~\ref{tab:edo})", "--", "0.425, 2.00, 17.4")]),
+    ("Carga directa en plataforma de material chancado (asentamiento máximo, cm)", [
+        (r"\citet[Tabla~2 y pp.~185--226]{g2010}", "Mármol negro; hornfels gris; intrusivo; exoskarn diópsido", "Hasta 6.0~kg/cm², placas de 0.30, 0.45 y 0.60~m", "4.8; 5.6; 3.6; 5.1")]),
+]
+B_RMU = [
+    ("END", "Promedio", "39.3", "2.8", "3.9", "4.2", "30.7", "0.3", "60.7", "78.0", "2.6"), ("", "P50", "28.1", "2.0", "2.6", "3.4", "31.4", "0.1", "65.0", "98.2", "0.4"), ("", "P35", "22.0", "1.5", "1.7", "2.4", "27.9", "0.0", "58.0", "85.7", "0.3"),
+    ("EXO", "Promedio", "72.7", "5.1", "6.5", "7.7", "33.8", "0.4", "62.5", "81.6", "1.8"), ("", "P50", "66.7", "4.7", "5.9", "7.2", "31.6", "0.1", "66.5", "100.0", "0.5"), ("", "P35", "49.6", "3.4", "4.6", "6.0", "29.7", "0.0", "60.0", "93.3", "0.3"),
+    ("HRN", "Promedio", "96.8", "5.4", "5.6", "9.8", "29.1", "0.4", "69.2", "96.5", "1.2"), ("", "P50", "75.2", "4.9", "5.0", "9.7", "28.2", "0.0", "72.0", "100.0", "0.7"), ("", "P35", "58.2", "4.3", "4.3", "8.7", "27.4", "0.0", "67.0", "100.0", "0.3"),
+    ("INT", "Promedio", "57.7", "4.0", "5.7", "7.4", "31.1", "0.5", "67.9", "91.7", "1.3"), ("", "P50", "50.6", "3.5", "4.9", "7.3", "33.4", "0.1", "71.0", "100.0", "0.3"), ("", "P35", "39.5", "2.1", "3.7", "5.9", "30.3", "0.0", "65.0", "100.0", "0.0"),
+    ("LMH", "Promedio", "68.0", "3.7", "3.8", "6.6", "31.0", "0.2", "68.3", "96.0", "0.9"), ("", "P50", "56.3", "3.5", "3.5", "6.4", "28.7", "0.1", "70.0", "100.0", "0.6"), ("", "P35", "44.3", "2.8", "2.9", "5.5", "28.0", "0.1", "65.0", "100.0", "0.3"),
+    ("XDP", "Promedio", "98.7", "7.3", "7.8", "8.9", "33.7", "0.2", "67.0", "91.7", "0.9"), ("", "P50", "98.0", "6.8", "7.2", "8.5", "32.6", "0.0", "68.0", "100.0", "0.6"), ("", "P35", "2021.0$^{l}$", "4.9", "5.7", "7.1", "27.7", "0.0", "64.0", "97.5", "0.3"),
+]
+B_MR = [  # lámina 12 (n, media, desviación, mínimo, P25, P50, P75, máximo); densidad media y fracción en masa recalculadas del modelo
+    ("Intrusivo", "1", "46\\,813", "63.27", "14.16", "16.81", "54.08", "63.18", "71.39", "153.34", "2.46", "13.9"),
+    ("Intrus-Estruct-Tab", "2", "3137", "104.47", "19.33", "46.51", "92.40", "103.30", "113.28", "196.41", "2.69", "1.0"),
+    ("Caliza", "10", "24\\,434", "81.32", "5.50", "51.35", "77.37", "82.54", "82.97", "123.98", "2.71", "8.0"),
+    ("Margas-Limonitas", "11", "58\\,104", "70.03", "7.89", "28.10", "68.32", "69.24", "72.17", "121.52", "2.71", "18.9"),
+    ("Hornfels", "13", "48\\,510", "105.85", "16.57", "28.85", "97.20", "104.93", "115.31", "200.24", "2.71", "15.8"),
+    ("Hornfels diópsida", "14", "9983", "116.96", "18.00", "57.13", "105.91", "114.95", "130.48", "225.95", "2.86", "3.4"),
+    ("Mármol", "16", "110\\,698", "74.03", "13.87", "26.58", "65.84", "74.14", "80.91", "174.86", "2.71", "36.1"),
+    ("Mármol diópsida", "19", "8020", "94.91", "11.10", "39.93", "89.48", "94.66", "102.08", "153.71", "2.85", "2.7"),
+    ("Brechas-Intrus", "53", "403", "57.37", "7.06", "40.11", "53.27", "56.68", "60.86", "96.93", "2.66", "0.1"),
+]
+B_WSC = [
+    ("Waste-C/Std", "54", "12.6", "36.50", "--", "39.4", "0.0261", "43.9"),
+    ("Waste-Fine", "83", "17.1", "28.72", "--", "50.0", "0.0202", "35.6"),
+    ("Waste-Hard", "155", "16.0", "25.02", "--", "778.0", "0.4810", "38.8"),
+]
+B_FRAG = [  # recalculado de la planilla (clasificación «Desmonte»); percentiles con interpolación lineal
+    ("A", "147", "8, 9 y 10", "10.1", "23.4", "86.0", "48.4--127.7"),
+    ("B", "30", "9 y 10", "11.5", "27.0", "91.9", "65.9--149.9"),
+    ("C", "115", "9 y 10", "10.0", "24.5", "86.1", "60.9--141.1"),
+    ("C1", "27", "9 y 10", "7.7", "18.1", "66.7", "49.7--98.1"),
+    (r"\midrule Todas", "319", "8, 9 y 10", "9.8", "23.4", "85.3", "54.1--134.0"),
+]
+ANXB = r"""
+\clearpage
+\renewcommand{\thetable}{B\arabic{table}}\setcounter{table}{0}
+\section{Caracterización por tipo de desmonte}\label{sec:anexob}
+Este anexo da, para cada tipo de desmonte (litología, clase de desmonte de Antamina o unidad geotécnica), los valores de caracterización disponibles, con la tabla, página o lámina de origen. Los valores son los informados por cada fuente, verificados en la página del informe, la lámina o la planilla, sin recalcular; las excepciones, que Stantec calculó a partir de la base de origen, se indican en la nota de cada tabla. Los ensayos de resistencia del desmonte están en el Anexo~\ref{sec:anexo} y los edómetros, en la Tabla~\ref{tab:edo}. El orden es: granulometría, densidad e índices de \citet{g2010} por litología y fase (Tablas~\ref{tab:b_g10gran} y~\ref{tab:b_g10ind}); granulometría, clasificación y compactación de las demás fuentes (Tabla~\ref{tab:b_gran}); peso específico y absorción (Tabla~\ref{tab:b_gs}); densidades mínima y máxima (Tabla~\ref{tab:b_dens}); resistencia de partículas (Tabla~\ref{tab:b_part}); permeabilidad, edómetros de mezclas y carga en plataforma (Tabla~\ref{tab:b_perm}); roca por unidad geotécnica (Tabla~\ref{tab:b_rmu}); modelo de bloques por litología (Tabla~\ref{tab:b_mr}); caracterización para chancado (Tabla~\ref{tab:b_wsc}); y fragmentación por clase de desmonte (Tabla~\ref{tab:b_frag}).
+
+Las clases A, B y C (y C1) de Antamina son una clasificación geoquímica por potencial de generación de acidez \citep[pp.~6 y~27]{g2021}; en \citet{g2021}, el tipo A es intrusivo, el B, mármol y hornfels, y el C, hornfels. La planilla de fragmentación \citep{antamina2025frag} usa las mismas letras sin definirlas.
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{2.5pt}\caption{Granulometría de terreno, densidad in situ y humedad natural por litología y fase \citep[Tabla~2]{g2010}. Porcentajes en masa de la muestra global y de la matriz menor que 3~in.}\label{tab:b_g10gran}
+\begin{tabular}{L{2.4cm}rrrrrrrrrrrr}\toprule
+ & & \multicolumn{5}{c}{Muestra global (\%)} & \multicolumn{3}{c}{Matriz (\%)} & $\gamma$ in situ & $w$ & $\gamma_d$\\\cmidrule(lr){3-7}\cmidrule(lr){8-10}
+Litología & TM (in) & 12--36~in & 3--12~in & Grava & Arena & Finos & Grava & Arena & Finos & (g/cm³) & (\%) & (g/cm³)\\\midrule
+""" + TBG(B_G10GRAN, 13) + r"""
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize $^{a}$TM repetido de la fase A en la Tabla~2 del informe; la Tabla~1 indica 12~in después del chancado. Densidad in situ por reemplazo de agua (pp.~35--42).\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{2.5pt}\caption{Peso específico, absorción, degradabilidad, resistencia, permeabilidad y carga en plataforma por litología y fase \citep{g2010}.}\label{tab:b_g10ind}
+\begin{tabular}{L{1.9cm}>{\centering\arraybackslash}p{1.25cm}>{\centering\arraybackslash}p{1.25cm}>{\centering\arraybackslash}p{1.25cm}>{\centering\arraybackslash}p{1.25cm}>{\centering\arraybackslash}p{1.25cm}>{\centering\arraybackslash}p{1.25cm}L{2.1cm}>{\centering\arraybackslash}p{1.75cm}>{\centering\arraybackslash}p{1.2cm}}\toprule
+Litología & $G_s$ fino (D854) & $G_s$ bulk (C127)$^{b}$ & \hspace{0pt}Absorción (\%) & \hspace{0pt}Durabilidad (\%)$^{d}$ & Los Ángeles (\%) & $\sigma_c$ carga puntual (MPa) & UCS promedio (probetas) (MPa) & $k$ (m/s) & \hspace{0pt}Asentamiento máximo (cm)\\\midrule
+""" + TBG(B_G10IND, 10) + r"""
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize Fuentes: Tabla~2 (p.~8), hojas de C127 (p.~48), compresión uniaxial (pp.~66--73), carga puntual (pp.~74--81, 4 probetas por litología en la fase A y 8 en la B), permeabilidad en pared flexible con fracción menor que 5/8~in (pp.~157--160) y carga directa en plataformas con placas de hasta 0.60~m y 6.0~kg/cm² (pp.~185--226). $^{b}$Hojas de laboratorio; en la fase A, la Tabla~2 del informe da 2.696, 2.733, 2.451 y 3.172. $^{c}$La Tabla~2 rotula la fase B en cm/s; las hojas de laboratorio dan m/s. $^{d}$Sulfato de magnesio según las hojas; el texto del informe indica sulfato de sodio.\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{2.5pt}\caption{Granulometría, clasificación, límites, Proctor estándar y humedad natural por muestra. Entre paréntesis, Proctor corregido por sobretamaño.}\label{tab:b_gran}
+\begin{tabular}{L{2.8cm}L{1.8cm}L{1.3cm}rrrlL{1.35cm}rrr}\toprule
+ & & TM o & Grava & Arena & Finos & SUCS & LL / IP & $\gamma_{d,max}$ & $w_{opt}$ & $w$\\
+Muestra & Litología & $D_{50}$ & (\%) & (\%) & (\%) & & & (kN/m³) & (\%) & (\%)\\\midrule
+""" + TBG(B_GRAN, 11) + r"""
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize \citet{anddes2024}: ASTM D6913, D2487 y D698 (informes marcados «fuera de método») y contenido de agua. $^{e}$Pasante del tamiz N.º~200, limo y arcilla (sin hidrómetro). $^{f}$9.2~\% de limo y 0.5~\% de arcilla. $^{g}$Calculada por el laboratorio con el material menor que 3~in; 5.7~\% de finos en esa fracción.\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{3pt}\caption{Peso específico y absorción por muestra.}\label{tab:b_gs}
+\begin{tabular}{L{2.4cm}L{2.4cm}rrrrr}\toprule
+Muestra & Litología & $G_s$ bulk o base seca & $G_s$ SSS & $G_s$ aparente & Absorción (\%) & $G_s$ de finos\\\midrule
+""" + TBG(B_GS, 7) + r"""
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize ASTM C127 en el grueso y D854 en los finos. Las muestras de \citet{g2010} están en la Tabla~\ref{tab:b_g10ind}.\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{3pt}\caption{Densidades mínima y máxima (ASTM D4254 y D4253), en g/cm³.}\label{tab:b_dens}
+\begin{tabular}{L{6.0cm}rrr}\toprule
+Material & Mínima & Máxima (seca) & Máxima (húmeda)\\\midrule
+""" + TBG(B_DENS, 4) + r"""
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{3pt}\caption{Resistencia de partículas: valores individuales informados.}\label{tab:b_part}
+\begin{tabular}{L{4.2cm}L{3.6cm}rL{5.4cm}}\toprule
+Fuente & Material & $n$ & Valores\\\midrule
+""" + TBG(B_PART, 4) + r"""
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize $^{h}$La hoja de IDIEM no indica la litología. $^{i}$Citados por el informe de ensayos anteriores. Las de \citet{g2010} están en la Tabla~\ref{tab:b_g10ind}. En \citet{w2024}, el texto da UCS de 64.0 a 143.1~MPa, pero la Tabla~6 incluye una probeta de 61.1~MPa.\end{table}
+
+\begin{footnotesize}\setlength{\tabcolsep}{3pt}
+\begin{longtable}{L{3.0cm}L{3.6cm}L{2.6cm}L{6.0cm}}
+\caption{Permeabilidad por nivel de esfuerzo, edómetros de mezclas y carga directa en plataforma.}\label{tab:b_perm}\\
+\toprule Fuente & Material & Esfuerzo & Valores\\\midrule\endfirsthead
+\toprule Fuente & Material & Esfuerzo & Valores\\\midrule\endhead
+""" + TBG(B_PERM, 4) + r"""
+\bottomrule
+\end{longtable}\end{footnotesize}
+\vspace{-6pt}{\footnotesize $^{j}$El informe considera estos valores no representativos: la conductividad del equipo es del orden de $10^{-4}$~m/s y el flujo pudo ir por las paredes del molde. $^{k}$Tabla~9; la hoja de laboratorio da $8.9\times10^{-7}$~m/s.\par}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{3pt}\caption{Parámetros de roca por unidad geotécnica (RMU) del tajo LE2 \citep[lámina~4 y planilla]{antamina2025le2}.}\label{tab:b_rmu}
+\begin{tabular}{llrrrrrrrrr}\toprule
+ & & UCS & $I_{s(50)}$ axial & $I_{s(50)}$ diam. & Tracción & \multicolumn{2}{c}{Corte directo} & & & \\\cmidrule(lr){7-8}
+RMU & Estadístico & (MPa) & (MPa) & (MPa) & (MPa) & $\phi$ (°) & $c$ (MPa) & RMR & RQD & FF\\\midrule
+""" + TB(B_RMU) + r"""
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize Ensayos de 1997 a 2024: 2470 de UCS, 4657 de carga puntual axial, 13\,971 de carga puntual diametral y 1872 de tracción; RMR, RQD y FF de 42\,500 tramos de logueo. Según la fuente, LMH corresponde a «calizas desmonte (limestone hornfels)» y XDP, a «exoskarn mayor desmonte» \citep[lámina~12]{antamina2025wsc}. $^{l}$Valor de la fuente, también en la planilla; no es coherente con el promedio ni con el P50.\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{2.5pt}\caption{UCS y densidad del modelo de bloques del desmonte LE2 por litología. UCS: \citet[lámina~12]{antamina2025wsc}; densidad y fracción en masa: \citet{antamina2024mr}.}\label{tab:b_mr}
+\begin{tabular}{L{2.4cm}rrrrrrrrrrr}\toprule
+ & & & \multicolumn{7}{c}{UCS del modelo (MPa)} & Densidad & Fracción\\\cmidrule(lr){4-10}
+Litología & RT & Bloques & Media & Desv. & Mín. & P25 & P50 & P75 & Máx. & (t/m³) & en masa (\%)\\\midrule
+""" + TB(B_MR) + r"""
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize Los valores son del modelo, no ensayos. UCS según la lámina~12; la densidad media y la fracción en masa las calculó Stantec del modelo (310\,102 bloques del desmonte LE2), suponiendo bloques de igual volumen. La correspondencia entre el código RT y la litología coincide con el número de bloques de la lámina.\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{3pt}\caption{Caracterización del desmonte para chancado \citep[lámina~2]{antamina2025wsc}.}\label{tab:b_wsc}
+\begin{tabular}{l>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}p{1.8cm}}\toprule
+Material & UCS (MPa) & Bond CWI (kWh/t) & Crushability (\%) & Bond BWI (kWh/t) & Abrasividad Macon (g/t) & Bond Ai & DWT A$\times$b\\\midrule
+""" + TB(B_WSC) + r"""
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize La lámina atribuye los datos al estudio Mine-to-mill 2007/2009, fase~3. Según la lámina, Waste-Hard es el desmonte de mayor resistencia a la voladura y el más abrasivo.\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{3pt}\caption{Fragmentación del desmonte por clase de Antamina, en el frente de carguío \citep{antamina2025frag}.}\label{tab:b_frag}
+\begin{tabular}{lrlrrrr}\toprule
+Clase & Análisis & Fases & P50 (cm) & P80 (cm) & $X_{max}$ (cm) & $X_{max}$, P10--P90 (cm)\\\midrule
+""" + TB(B_FRAG) + r"""
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize Medianas de los análisis por fotos de enero a agosto de 2025 (columna «Tipo de material» de la planilla); P10--P90: percentiles 10 y 90 de $X_{max}$ entre análisis. Estadísticos calculados por Stantec de la planilla.\end{table}
+"""
 _bib = [b.strip() for b in T[_i:_j].split("\\bibitem") if b.strip()]
 _bib.sort(key=lambda b: b.split("]", 1)[1].split("}", 1)[1].strip().lower().replace("á", "a").replace("é", "e"))
 T = T[:_i] + "\n".join("\\bibitem" + b for b in _bib) + "\n" + T[_j:]
-T = T.replace("\\end{document}", ANX + "\\end{document}")
+T = T.replace("\\end{document}", ANX + ANXB + "\\end{document}")
 _grado = lambda m: m.group(0).replace("°", "^{" + chr(92) + "circ}")
 T = re.sub(r"\$[^$]*\$", _grado, T)
 T = re.sub(r"begin\{equation\}.*?end\{equation\}", _grado, T, flags=re.S)

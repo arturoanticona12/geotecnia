@@ -30,6 +30,11 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-13 (2): memo con todo lo disponible por tipo de desmonte. Tabla 2 ampliada (fases A y B de Golder 2010, carga en
+  plataforma, LE2 por RMU, Waste-C/Fine/Hard, modelo de bloques MR24, fragmentación) y Anexo B (Tablas B1–B11) con los valores
+  por litología, clase o RMU y por muestra, cada uno con su tabla/página de origen. Referencias nuevas: Antamina 2025b (LE2),
+  2025c (WSC) y 2024 (MR2024). Memo de 49 p., sin errores ni desbordes. Pendiente menor previo: la última página del Anexo A
+  tiene una sola fila.
 - 2026-10-13: memo EoR con tabla nueva de ensayos de caracterización (sección 2.2, Tabla 2: granulometría, Gs, absorción,
   densidades, Proctor, edómetros, permeabilidad, Los Ángeles, durabilidad, UCS, carga puntual y LE2). Cada valor se verificó en la
   página del informe original. Diferencias de los informes anotadas en la tabla: UCS de WSP 2024 (Tabla 6: 61.1–143.1; texto:
