@@ -346,13 +346,23 @@ for k, (key, et) in enumerate(HIP, 2):
 
 # ------------------------------------------------------------------ Base_mundial
 W = datos(); W = W[~W.cens] if "cens" in W else W
-ws = hoja("Base_mundial", ["Set", "e", "σ′n (MPa)", "τ (MPa)", "φ′s ensayo (°)", "φ′s curva a su e (°)", "Δφ′s (°)"], [], [40, 8, 10, 10, 12, 14, 10])
+ws = hoja("Base_mundial", ["Set", "e", "σ′n (MPa)", "τ (MPa)", "φ′s ensayo (°)", "φ′s curva a su e (°)", "Δφ′s (°)", "Bg (%) (base de Leps 2.0)"], [], [40, 8, 10, 10, 12, 14, 10, 13])
 setcol = next((c for c in ("set_id", "set", "Set", "set_key") if c in W.columns), None)
 for i, (_, r) in enumerate(W.iterrows()):
     k = i + 2
     ws.cell(k, 1, str(r[setcol]) if setcol else ""); ws.cell(k, 2, float(r.e)); ws.cell(k, 3, float(r.sn)); ws.cell(k, 4, float(r.tau))
     ws.cell(k, 5, f"=DEGREES(ATAN(D{k}/C{k}))"); ws.cell(k, 6, f"=DEGREES(ATAN(TAN(RADIANS(pe0-omega*B{k}))*(C{k}/sref)^(m_-1)))"); ws.cell(k, 7, f"=E{k}-F{k}")
+    _bg = pd.to_numeric(r.get("Bg"), errors="coerce")
+    if pd.notna(_bg):
+        ws.cell(k, 8, float(_bg))
+        if _bg > 100:
+            ws.cell(k, 8).fill = PatternFill("solid", fgColor="FBE3D6")
 nW = len(W) + 1
+_nbg = int(pd.to_numeric(W.Bg, errors="coerce").notna().sum()); _sbg = W[pd.to_numeric(W.Bg, errors="coerce").notna()].Set.nunique()
+_alto = W[pd.to_numeric(W.Bg, errors="coerce") > 100]
+ws.cell(nW + 2, 1, f"Bg: índice de rotura de Marsal (1967), en %, tal como figura en la base de Leps 2.0 (Cylwik et al., 2025); informado en {_nbg} de los {len(W)} ensayos ({_sbg} sets).")
+ws.cell(nW + 3, 1, f"Celdas sombreadas: {len(_alto)} valores mayores que 100 % ({', '.join(sorted(_alto.Set.astype(str).unique()))}), sobre el máximo del Bg de Marsal; "
+                   "probablemente otra definición del índice de rotura. Se dejan como están en la base, sin corregir.")
 ws["I1"] = "Rango de σ′n"; ws["J1"] = "Ensayos"; ws["K1"] = "Bajo la curva"; ws["L1"] = "Δφ′s mediana (°)"
 for c in ws["I1:L1"][0]:
     c.font = NEG; c.fill = CAB
