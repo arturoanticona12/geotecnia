@@ -24,7 +24,7 @@ A33 = J("a33_curva_propuesta.json"); NIV = A33["nivel"]; A31 = J("a31_m_defendib
 _ml = S34.groupby("litologia").phi_e0.mean()
 OP2 = dict(pe0=A33["parametros"]["pe0"], m=A33["parametros"]["m_a"], pe0_dde=float(0.28 * _ml["Mármol"] + 0.28 * _ml["Hornfels"] + 0.44 * _ml["Intrusivo"]),
            pe0_le2=float(0.674 * _ml["Mármol"] + 0.155 * _ml["Hornfels"] + 0.170 * _ml["Intrusivo"]) / 0.999)   # MR2024 ≥2035; caliza y margas (29.6 %) asimiladas al mármol
-TOPE = 40.0   # tope del ángulo secante (revisión 11)
+from tope import TOPE   # tope del ángulo secante (tope.py)
 PE0, M, OM, EB, PA = OP2["pe0"], OP2["m"], 20.0, 0.45, 0.1013
 SNW = R19["base_sn_max"]
 T27 = pd.read_csv(AQ / "a27_ensayos_todos.csv")
@@ -54,13 +54,14 @@ ws = wb.active; ws.title = "Leame"
 for t in ["Curva de resistencia Leps 2.0 del desmonte ROM de Antamina: datos, cálculos y curvas (memo de Stantec, 12 de octubre de 2026)",
           "",
           "Las celdas en azul de la hoja Parametros son las entradas; todo lo demás se calcula con fórmulas a partir de ellas (nombres definidos: pe0, omega, m_, e_base, sref, tope).",
-          "Leps 2.0 (Cylwik et al. 2025, Ec. 26): τ = tan(φ′e=0 − ω·e)·(10pa)^(1−m)·σ′n^m; φ′s = atan(τ/σ′n). La curva se aplica con un tope de 40° en φ′s (τ ≤ σ′n·tan 40°).",
+          "Leps 2.0 (Cylwik et al. 2025, Ec. 26): τ = tan(φ′e=0 − ω·e)·(10pa)^(1−m)·σ′n^m; φ′s = atan(τ/σ′n). La curva se aplica con un tope de " + f"{TOPE:.0f}° en φ′s (τ ≤ σ′n·tan {TOPE:.0f}°).",
           "Unidades: esfuerzos en MPa; ángulos en grados.",
           "",
           "Hojas:",
           "  Parametros: parámetros de la curva propuesta, hipótesis de curvatura y controles con la composición del DDE y la de LE2.",
           "  Ensayos: los 120 ensayos de resistencia con su uso (ajuste, contraste, no usado), esfuerzos de falla, conversión de Leps 2.0 (fórmula) y corrección a e base (Ec. 27).",
-          "  Curva: curva propuesta a e base, 0.55, 0.65 y perfiles A y V; tope de 40° en todas las curvas de Leps 2.0; banda de incertidumbre (sin tope); cotas de Indraratna et al. (1993) y Hawley y Cunning (2017); recta de 37°; sensibilidad del DDE; gráficos.",
+          "  Figuras: las seis figuras del memo como gráficos de Excel, con la misma numeración (datos y fórmulas en Datos_figuras).",
+          "  Curva: curva propuesta a e base, 0.55, 0.65 y perfiles A y V; tope de " + f"{TOPE:.0f}" + "° en todas las curvas de Leps 2.0; banda de incertidumbre (sin tope); cotas de Indraratna et al. (1993) y Hawley y Cunning (2017); recta de 37°; sensibilidad del DDE; gráficos.",
           "  phi1_vs_e: φ′1 de cada ensayo y por set contra e, φ′e=0 por set y su media (el nivel de la curva), con la recta de la curva propuesta, las envolventes de Leps (1970) y la cota de Indraratna et al. (1993).",
           "  Hipotesis_m: φ′s según la hipótesis de curvatura (m del intervalo al 90 % y P10–P90 entre materiales de la base mundial, y m = 1 de Antamina sola como sensibilidad).",
           "  Base_mundial: los ensayos de la base de Leps 2.0 (sin los censurados, como en el memo) frente a la curva evaluada a su propia e (Δφ′s) y conteos por rango de esfuerzo.",
@@ -161,20 +162,6 @@ for k, s in enumerate(SN, 2):
 control["banda"] = [[float(lo(s)), float(hi(s))] for s in SN]; control["eA"] = [float(PEM.e_A(s)) for s in SN]
 control["curva_phis"] = [min(TOPE, float(np.degrees(np.arctan(np.tan(np.radians(PE0 - OM * EB)) * (s / 1.013) ** (M - 1))))) for s in SN]
 nC = len(SN) + 1
-ch = ScatterChart(); ch.title = "Ángulo de fricción secante a e base"; ch.x_axis.title = "σ′n (MPa)"; ch.y_axis.title = "φ′s (°)"
-ch.x_axis.scaling.logBase = 10; ch.x_axis.scaling.min = 0.1; ch.x_axis.scaling.max = 15; ch.y_axis.scaling.min = 22; ch.y_axis.scaling.max = 56
-X = Reference(ws, min_col=1, min_row=7, max_row=nC)
-for col, nm in ((4, "Curva propuesta"), (5, "Banda inferior"), (6, "Banda superior"), (15, "Cota de Indraratna et al. (1993)"), (16, "Cota de Hawley y Cunning (2017)")):
-    se = Series(Reference(ws, min_col=col, min_row=7, max_row=nC), X, title=nm); se.marker.symbol = "none"; ch.series.append(se)
-we = wb["Ensayos"]
-se = Series(Reference(we, min_col=16, min_row=2, max_row=1 + N_AJ), Reference(we, min_col=13, min_row=2, max_row=1 + N_AJ), title="Ensayos del ajuste, a e base")
-se.marker.symbol = "circle"; se.graphicalProperties.line.noFill = True; ch.series.append(se)
-ch.height, ch.width = 11, 20; ws.add_chart(ch, "V2")
-ch2 = ScatterChart(); ch2.title = "τ–σ′n a e base"; ch2.x_axis.title = "σ′n (MPa)"; ch2.y_axis.title = "τ (MPa)"
-X2 = Reference(ws, min_col=1, min_row=2, max_row=nC)
-for col, nm in ((3, "Curva propuesta"), (7, "Banda inferior"), (8, "Banda superior"), (17, "Indraratna et al. (1993)"), (18, "Hawley y Cunning (2017)")):
-    se = Series(Reference(ws, min_col=col, min_row=2, max_row=nC), X2, title=nm); se.marker.symbol = "none"; ch2.series.append(se)
-ch2.height, ch2.width = 11, 20; ws.add_chart(ch2, "V26")
 
 # ------------------------------------------------------------------ phi1_vs_e (φ′1 contra e, como Cylwik et al. 2025)
 ws = hoja("phi1_vs_e", ["Set (ensayos del ajuste)", "Litología", "Ensayos", "e0 media", "φ′1 medio a su e0 (°)", "", "e", "Curva propuesta (°)",
@@ -195,16 +182,6 @@ for k, e_ in enumerate([round(0.05 * i, 2) for i in range(17)], 2):
     for j, p_ in enumerate((46, 41, 36, 33), 9):          # Leps (1970) e Indraratna (1993): no dependen de e (Cylwik et al. 2025, p. 2 y Tabla 1)
         ws.cell(k, j, p_)
 ws.cell(nS + 2, 1, "φ′1 de cada ensayo: Ensayos!V (a su e0). Cada punto de la figura de Cylwik et al. (2025) es un set; aquí, el promedio de los ensayos del set.")
-ch3 = ScatterChart(); ch3.title = "φ′1 contra relación de vacíos"; ch3.x_axis.title = "e (relación de vacíos)"; ch3.y_axis.title = "φ′1 (°)"
-ch3.x_axis.scaling.min = 0; ch3.x_axis.scaling.max = 0.8; ch3.y_axis.scaling.min = 20; ch3.y_axis.scaling.max = 55
-we = wb["Ensayos"]
-se = Series(Reference(we, min_col=22, min_row=2, max_row=1 + N_AJ), Reference(we, min_col=10, min_row=2, max_row=1 + N_AJ), title="Ensayos de Antamina")
-se.marker.symbol = "circle"; se.graphicalProperties.line.noFill = True; ch3.series.append(se)
-se = Series(Reference(ws, min_col=5, min_row=2, max_row=nS), Reference(ws, min_col=4, min_row=2, max_row=nS), title="Promedio por set")
-se.marker.symbol = "diamond"; se.graphicalProperties.line.noFill = True; ch3.series.append(se)
-for col, nm in ((8, "Curva propuesta"), (9, "Leps (1970), superior"), (10, "Leps (1970), media"), (11, "Leps (1970), inferior"), (12, "Indraratna et al. (1993)")):
-    se = Series(Reference(ws, min_col=col, min_row=2, max_row=18), Reference(ws, min_col=7, min_row=2, max_row=18), title=nm); se.marker.symbol = "none"; ch3.series.append(se)
-ch3.height, ch3.width = 11, 18; ws.add_chart(ch3, "M2")
 
 # ------------------------------------------------------------------ Hipotesis_m
 SNT = [1, 2, 3, 4.6, 8, 15]
@@ -329,6 +306,25 @@ for dl in (178, 102, 25):
                                f"=F{k}-(pe0-omega*e_base)"], 1):
             ws.cell(k, j, v)
         k += 1
+# ------------------------------------------------------------------ Figuras del memo (gráficos nativos; a28_figuras_excel.py)
+import re  # noqa: E402
+import a28_figuras_excel as FX  # noqa: E402
+_aux = AQ.parent / "eor_antamina" / "curva_leps2_antamina.aux"
+ROT = {}
+if _aux.exists():
+    for _l in open(_aux, encoding="utf-8", errors="ignore"):
+        _m = re.match(r"\\newlabel\{(fig:[^}]+)\}\{\{(\d+)\}", _l)
+        if _m:
+            ROT[_m.group(1)] = _m.group(2)
+TIT = {"fig:phi1e": "φ′1 de cada set de Antamina frente a su e0 media, y la recta de la curva propuesta",
+       "fig:phi": "Curva propuesta y su banda de incertidumbre, con los ensayos del ajuste y la base mundial llevados a e base",
+       "fig:contraste": "Contraste de la curva propuesta con los triaxiales CU de desmonte ROM no usados en el ajuste",
+       "fig:bg": "Índice de rotura de Marsal (1967) en los triaxiales drenados del ajuste",
+       "fig:tau": "Curva propuesta y su banda de incertidumbre en τ–σ′n",
+       "fig:e": "(a) Relación de vacíos con la profundidad; (b) ángulo de fricción secante de la curva propuesta con cada supuesto"}
+_wf, _figs = FX.agregar(wb, HB=HB, SNX=SNX, SNW=SNW, EB=EB, TOPE=TOPE, PE=PE, PEM=PEM, A16BG=pd.read_csv(AQ / "a16_bg.csv"),
+                        A16C=pd.read_csv(AQ / "a16_contraste.csv"), S34=S34, N_AJ=N_AJ, NW=len(W), rbg=A16["bg"]["r"])
+FX.colocar(_wf, _figs, {k: (ROT.get(k, ""), t) for k, t in TIT.items()})
 wb.save(OUT)
 json.dump(control, open(AQ / "a28_valores_control.json", "w", encoding="utf-8"))
 print("escrito", OUT, "| ensayos", len(T27), "| base mundial", len(W), "| curva", len(SN), "puntos")

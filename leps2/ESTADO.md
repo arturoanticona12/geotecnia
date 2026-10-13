@@ -18,13 +18,13 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - Memo: no mencionar los 42 triaxiales CD de mezclas con relave (usuario y WA, 2026-10-13).
 - Memo: m común para los sets de Antamina (pedido de WA), en vez de una m por set como Cylwik.
 - Regla de diseño del Modo B: sobre la σ′n máxima del sitio, el menor entre el percentil actualizado y el de la previa.
-- Curva vigente del memo: φ′e=0 = 48.47° (media de 13 sets, 37 ensayos), ω = 20°, m = 0.85, e base 0.45, **tope de 40°** en φ′s,
+- Curva vigente del memo: φ′e=0 = 48.47° (media de 13 sets, 37 ensayos), ω = 20°, m = 0.85, e base 0.45, **tope de 42°** en φ′s (`analisis_antamina/tope.py`, fuente única),
   verificación del diseño con e = 0.55. Es la curva media, no característica (decisión del usuario, 2026-10-13).
 
 ## Datos y valores clave
 - a30 (con e0 adoptado): paso 1 m = 0.93 (50 % mundo), 1.00 con Antamina sola; paso 2 ω = −17.7°, IC 90 % [−38°, +30°]
   → **no adoptable**; base mundial ω = 7.6°. El memo lo presenta como control (sec. 4.1) y mantiene ω = 20°.
-- Curva vigente: φ′s = 39.5° (1 MPa), 33.3° (4.6 MPa), 30.3° (10 MPa), 28.8° (15 MPa); tope 40° gobierna bajo 0.89 MPa.
+- Curva vigente: φ′s = 39.5° (1 MPa), 33.3° (4.6 MPa), 30.3° (10 MPa), 28.8° (15 MPa); tope 42° gobierna bajo 0.56 MPa (0.35 con e = 0.55).
 - Banda (m P10–P90 entre materiales 0.787–0.923 + nivel P5–P95): 37.4–42.2° a 1 MPa, 25.1–36.1° a 10 MPa.
 - Niveles: mármol 45.81°, intrusivo 48.05°, hornfels 51.62°; DDE 48.42°; LE2 (MR2024 ≥2035, caliza y margas = mármol) 47.09°.
 - HiBER r6: MC 0/600 fallas (β_LN 3.2); Pf integrada sobre τ_D 4.6e-3 (β 2.6); manuscrito 30 p., suplemento 8 p.
@@ -33,6 +33,10 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-13 (5): tope 40° → 42° (decisión del usuario; juicio entre Antamina σ′n < 0.5 MPa, mediana 37.3°, y base mundial
+  0.3–0.6 MPa, mediana 44.6°, P31 = 42°). Justificación en el memo y fila de riesgos. Planilla: hoja «Figuras» con las seis
+  figuras del memo como gráficos nativos (a28_figuras_excel.py; datos con fórmulas en «Datos_figuras», verificados contra
+  matplotlib con LibreOffice). Ejes de las Figs. 2 y 6 a 20–60°. a16 corregido para pandas 3.
 - 2026-10-13 (4): revisión del memo completo (autor de Leps 2.0, Stantec, Piteau, Antamina). Aplicado: curva media 48.47°
   declarada como no característica; tope de 40°; verificación con e = 0.55; banda con m P10–P90; sensibilidades de nivel por
   litología y LE2; Indraratna con dos lecturas; ajuste en dos pasos en la sec. 4.1; riesgos actualizados; planilla (a28) con

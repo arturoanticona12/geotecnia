@@ -56,6 +56,7 @@ C = pd.DataFrame(filas)
 # en el ajuste (a8_ensayos_ajuste.py; revisión 5). Antes se usaba el rótulo del Proctor (3.06 en el mármol).
 GSD = {"Mármol": (2.763 + 2.747) / 2, "Hornfels": (2.791 + 2.802) / 2, "Intrusivo": (2.674 + 2.742) / 2}; GSD["Mezcla"] = (GSD["Mármol"] + GSD["Hornfels"]) / 2
 EA = cu.groupby("set").rho_d_ini_gcm3.first().astype(float); EA = pd.Series({s: GSD[lit_anddes(s)] / v - 1 for s, v in EA.items()})
+C["e"] = C.e.astype(object)   # pandas 3: la columna puede quedar como texto
 C.loc[C.fuente == "Anddes Geolab (2024)", "e"] = C.loc[C.fuente == "Anddes Geolab (2024)", "set"].map(EA)
 C["e"] = pd.to_numeric(C.e, errors="raise")
 C["sn"], C["tau"] = a_tau_sn(C.s3.values, C.s1.values)
@@ -110,7 +111,10 @@ plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 9, "axes.edgecol
 sn = np.array(A33["sn"]); lo = np.array(A33["phi_lo"]); hi = np.array(A33["phi_hi"])
 fig, ax = plt.subplots(figsize=(6.5, 5.4))
 ax.fill_between(sn, lo, hi, color="#e3e0f3", lw=0, zorder=1, label="Incertidumbre de la curva")
-ax.plot(sn, phis_c(sn), color="#4a3aa7", lw=2.2, zorder=4, label=f"Curva propuesta (m = {M:.2f})")
+from tope import TOPE  # noqa: E402
+_pc = phis_c(sn); _tp = _pc > TOPE
+ax.plot(sn, np.minimum(_pc, TOPE), color="#4a3aa7", lw=2.2, zorder=4, label=f"Curva propuesta (m = {M:.2f}), con tope de {TOPE:.0f}°")
+ax.plot(np.where(_tp, sn, np.nan), np.where(_tp, _pc, np.nan), color="#4a3aa7", lw=1.1, ls=":", zorder=4, label="Curva sin tope")
 # fondo (WA 2026-10-12): Leps (1970) en la forma de Cylwik et al. (2025, p. 2, Ec. 9, m = 0.9) y cota inferior de Indraratna et al. (1993)
 _l70 = lambda s, p1: np.degrees(np.arctan(np.tan(np.radians(p1)) * (s / S0) ** (0.9 - 1)))
 for _nm, _p1, _ls in (("Leps (1970), envolvente superior", 46.0, (0, (6, 2, 1, 2))), ("Leps (1970), envolvente media", 41.0, (0, (4, 2))),
