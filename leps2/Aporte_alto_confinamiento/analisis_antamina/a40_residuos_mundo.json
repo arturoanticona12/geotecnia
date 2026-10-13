@@ -1,0 +1,53 @@
+{
+ "definicion": "residuo = φ′s medido − φ′s de la curva propuesta (con tope), a σ′n y e0 de cada ensayo",
+ "mundo_3_8": {
+  "n": 66,
+  "sets": 42,
+  "mediana": 3.78185689107929,
+  "sobre": 60,
+  "clases": {
+   "good": {
+    "n": 29,
+    "mediana": 5.282691673854714
+   },
+   "low": {
+    "n": 7,
+    "mediana": 1.3713117413606568
+   },
+   "moderate": {
+    "n": 30,
+    "mediana": 2.8749838835253634
+   }
+  },
+  "pe0_mediana_sets": 51.23769944629126
+ },
+ "dentro_mundo": {
+  "pendiente": -0.10910600325918034,
+  "p": 0.30818625823870915,
+  "r": -0.07116895059744992,
+  "n": 207,
+  "sets": 82,
+  "intercepto": 0.09422871830490098
+ },
+ "dentro_antamina": {
+  "pendiente": 6.3343186439127335,
+  "p": 1.1795092968964417e-05,
+  "r": 0.9148418552021752,
+  "n": 13,
+  "sets": 5,
+  "intercepto": -6.441010927845254
+ },
+ "smin": 1.0,
+ "n_mundo": 686,
+ "pe0_curva": 48.47048190770352,
+ "ejes": {
+  "a": [
+   -16.0,
+   16.0
+  ],
+  "b": [
+   -8.0,
+   8.0
+  ]
+ }
+}

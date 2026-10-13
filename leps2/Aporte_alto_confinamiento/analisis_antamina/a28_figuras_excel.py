@@ -6,6 +6,7 @@ del informe»). Lo llama a28_hoja_calculo.py. Escribe dos hojas:
            a11, a16 y a34 (matplotlib). Excel no tiene relleno entre curvas en un gráfico de dispersión: la banda y la zona gris
            se dibujan con segmentos verticales anchos y el rayado con segmentos diagonales."""
 import math
+from pathlib import Path
 import numpy as np, pandas as pd
 from openpyxl.chart import Reference, ScatterChart, Series
 from openpyxl.chart.axis import ChartLines
@@ -37,7 +38,7 @@ def _ln(color, w_pt, dash="solid"):
     return LineProperties(solidFill=color, w=int(w_pt * 12700), prstDash=dash)
 
 
-def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, rbg, A36=None, P35=None, FIT=None, A38=None, WDF=None, BG_FILA=None):
+def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, rbg, A36=None, P35=None, FIT=None, A38=None, WDF=None, BG_FILA=None, A40=None):
     wd = wb.create_sheet("Datos_figuras")
     wf = wb.create_sheet("Figuras", 1)
     col = [1]
@@ -554,6 +555,65 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
             sp_.dLbls.numFmt = None
             wd.cell(3 + i_, cPt + 1).number_format = '+0.0"°";-0.0"°"'
         figs.append(("fig:extrap", (cha, chb, chc, chd)))
+    # ---------------------------------------------------------------- Fig. residuos Antamina y base mundial (a40)
+    if A40 is not None:
+        ROJO, MUN = "D55E00", "3B3A37"
+        M40 = pd.read_csv(Path(__file__).with_name("a40_mundo.csv"))
+        cur = lambda b, c: f"MIN(tope,DEGREES(ATAN(TAN(RADIANS(pe0-omega*{b}))*({c}/sref)^(m_-1))))"
+        cab = ["Set", "σ′n (MPa)", "Residuo (°)", "Entra en (b)", "ln σ′n (b)", "Media del set (b)", "Residuo centrado (b)"]
+        cM, nM = bloque("Fig. residuos Antamina y mundo: base mundial (fórmulas; Base_mundial)", cab, [[None]] * len(M40))
+        for i in range(nM):
+            r = 3 + i; kb = 2 + i
+            wd.cell(r, cM, f"=Base_mundial!A{kb}"); wd.cell(r, cM + 1, f"=Base_mundial!C{kb}")
+            wd.cell(r, cM + 2, f"=Base_mundial!E{kb}-{cur(f'Base_mundial!B{kb}', f'Base_mundial!C{kb}')}")
+            wd.cell(r, cM + 3, 1 if bool(M40.dentro.iloc[i]) else 0)
+        SR, IR, RR = (f"{L(cM + j, 3)}:{L(cM + j, 2 + nM)}" for j in (0, 3, 2))
+        for i in range(nM):
+            r = 3 + i
+            wd.cell(r, cM + 4, f'=IF({L(cM + 3, r)}=1,LN({L(cM + 1, r)}),"")')
+            wd.cell(r, cM + 5, f'=IF({L(cM + 3, r)}=1,AVERAGEIFS({RR},{SR},{L(cM, r)},{IR},1),"")')
+            wd.cell(r, cM + 6, f'=IF({L(cM + 3, r)}=1,{L(cM + 2, r)}-{L(cM + 5, r)},"")')
+        # Antamina: ensayos del ajuste (hoja Ensayos, filas 2 a 1 + N_AJ)
+        fit = FIT.copy(); fit["key"] = fit.fuente_id + "|" + fit.set_id.astype(str)
+        alto = fit[fit.sn > A40["smin"]]; ok = set(alto.groupby("key").sn.nunique().loc[lambda x: x >= 2].index)
+        cA, nA = bloque("Fig. residuos Antamina y mundo: Antamina (fórmulas; Ensayos)", cab, [[None]] * N_AJ)
+        for i in range(N_AJ):
+            r = 3 + i; ke = 2 + i; f_ = fit.iloc[i]
+            wd.cell(r, cA, f'=Ensayos!A{ke}&"|"&Ensayos!B{ke}'); wd.cell(r, cA + 1, f"=Ensayos!M{ke}"); wd.cell(r, cA + 2, f"=Ensayos!R{ke}")
+            wd.cell(r, cA + 3, 1 if (f_.key in ok and f_.sn > A40["smin"]) else 0)
+        SRa, IRa, RRa = (f"{L(cA + j, 3)}:{L(cA + j, 2 + nA)}" for j in (0, 3, 2))
+        for i in range(nA):
+            r = 3 + i
+            wd.cell(r, cA + 4, f'=IF({L(cA + 3, r)}=1,LN({L(cA + 1, r)}),"")')
+            wd.cell(r, cA + 5, f'=IF({L(cA + 3, r)}=1,AVERAGEIFS({RRa},{SRa},{L(cA, r)},{IRa},1),"")')
+            wd.cell(r, cA + 6, f'=IF({L(cA + 3, r)}=1,{L(cA + 2, r)}-{L(cA + 5, r)},"")')
+        # tendencias (b) y resumen
+        g_w = M40[M40.dentro]; g_a = fit[[(k in ok and s > A40["smin"]) for k, s in zip(fit.key, fit.sn)]]
+        cT4, _ = bloque("Fig. residuos Antamina y mundo: tendencias (b) (fórmulas)", ["σ′n mundo", "Tendencia mundo", "σ′n Antamina", "Tendencia Antamina", "", "Pendiente mundo", "Pendiente Antamina"],
+                        [[float(g_w.sn.min()), None, float(g_a.sn.min())], [float(g_w.sn.max()), None, float(g_a.sn.max())]])
+        for (cx, cy, c0) in ((cT4, cT4 + 1, cM), (cT4 + 2, cT4 + 3, cA)):
+            Y, X = f"{L(c0 + 6, 3)}:{L(c0 + 6, 2 + (nM if c0 == cM else nA))}", f"{L(c0 + 4, 3)}:{L(c0 + 4, 2 + (nM if c0 == cM else nA))}"
+            for i in range(2):
+                wd.cell(3 + i, cy, f"=INTERCEPT({Y},{X})+SLOPE({Y},{X})*LN({L(cx, 3 + i)})")
+            wd.cell(3, cT4 + (5 if c0 == cM else 6), f"=SLOPE({Y},{X})")
+        cZ4, _ = bloque("Fig. residuos Antamina y mundo: línea cero", ["x", "y"], [[0.1, 0], [10, 0]])
+        cl = A40["mundo_3_8"]["clases"]
+        cha = grafico("Esfuerzo normal efectivo en el plano de falla, σ′n (MPa)", "φ′s ensayado − predicho (°)", 0.1, 10, -16, 16, log=True, ymaj=4, w=17, h=11)
+        titulo(cha, "(a) Residuo de la curva propuesta, cada ensayo a su e0. Base mundial, 3–8 MPa, mediana por clase: "
+               + ", ".join(f"{n_} {cl[c]['mediana']:+.1f}° ({cl[c]['n']})" for c, n_ in (("good", "buena"), ("moderate", "moderada"), ("low", "baja"))))
+        serie(cha, cZ4, cZ4 + 1, 2, "Cero", linea=(INK2, 0.9), leyenda=False)
+        serie(cha, cM + 1, cM + 2, nM, f"Base mundial de Leps 2.0 ({nM}; Cylwik et al., 2025)", marcador="diamond", msize=3, mcol=MUN)
+        serie(cha, cA + 1, cA + 2, nA, f"Antamina, ensayos del ajuste ({nA})", marcador="circle", msize=6, mcol=ROJO)
+        chb = grafico("Esfuerzo normal efectivo en el plano de falla, σ′n (MPa)", "Residuo centrado en el set (°)", 1, 10, -8, 8, log=True, ymaj=4, w=17, h=11)
+        titulo(chb, f"(b) Residuo dentro de cada set (menos la media del set), σ′n > {A40['smin']:g} MPa")
+        serie(chb, cZ4, cZ4 + 1, 2, "Cero", linea=(INK2, 0.9), leyenda=False)
+        serie(chb, cM + 1, cM + 6, nM, "Base mundial de Leps 2.0", marcador="diamond", msize=3, mcol=MUN)
+        serie(chb, cA + 1, cA + 6, nA, "Antamina", marcador="circle", msize=6, mcol=ROJO)
+        pf = lambda p: "p < 0.001" if p < 0.001 else f"p = {p:.2f}"
+        Tw, Ta = A40["dentro_mundo"], A40["dentro_antamina"]
+        serie(chb, cT4, cT4 + 1, 2, f"Tendencia base mundial: {Tw['pendiente']:+.2f}° por unidad de ln σ′n, {pf(Tw['p'])} ({Tw['sets']} sets)".replace("-", "−"), linea=(MUN, 1.6, "dash"))
+        serie(chb, cT4 + 2, cT4 + 3, 2, f"Tendencia Antamina: {Ta['pendiente']:+.1f}° por unidad de ln σ′n, {pf(Ta['p'])} ({Ta['sets']} sets)".replace("-", "−"), linea=(ROJO, 1.6, "dash"))
+        figs.append(("fig:resmundo", (cha, chb, "vertical")))
     return wf, figs
 
 
@@ -575,6 +635,9 @@ def colocar(wf, figs, rotulos):
             wf.add_chart(ch[0], f"B{fila}"); wf.add_chart(ch[1], f"N{fila}")
             fila += int(ch[0].height / 0.5) + 2
             wf.add_chart(ch[2], f"B{fila}"); wf.add_chart(ch[3], f"N{fila}"); h = ch[2].height
+        elif isinstance(ch, tuple) and len(ch) == 3 and ch[2] == "vertical":
+            wf.add_chart(ch[0], f"B{fila}"); fila += int(ch[0].height / 0.5) + 2
+            wf.add_chart(ch[1], f"B{fila}"); h = ch[1].height
         elif isinstance(ch, tuple) and len(ch) == 3:
             wf.add_chart(ch[0], f"B{fila}"); wf.add_chart(ch[1], f"N{fila}")
             fila += int(ch[0].height / 0.5) + 2

@@ -33,6 +33,10 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-13 (13): Fig. 4 nueva (idea del usuario; a40): residuos de la curva en Antamina y en la base mundial. (a) cada ensayo:
+  mundo 3–8 MPa 60/66 sobre la curva, mediana +3.8°, por material (φ′e=0 mediano 51.2°; buena +5.3, moderada +2.9, baja +1.4).
+  (b) dentro de cada set, σ′n > 1 MPa: mundo −0.11°/ln σ′n (p = 0.31, 82 sets), Antamina +6.3° (p < 0.001, 5 sets). Párrafo
+  «Residuos en la base mundial» en 5.3; Excel la reproduce con fórmulas (Base_mundial y Ensayos!R).
 - 2026-10-13 (12): hoja Ensayos del Excel con columna X «Bg (%)»: fórmula al valor adoptado de Rotura_Bg (16 triaxiales drenados);
   «no informado» en G2021 e I2025.
 - 2026-10-13 (11): Excel con hoja «Rotura_Bg»: todos los Bg de rotura_bg.csv (sin mezclas con relave), con fuente, página, origen
