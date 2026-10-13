@@ -30,6 +30,11 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-13: memo EoR con tabla nueva de ensayos de caracterización (sección 2.2, Tabla 2: granulometría, Gs, absorción,
+  densidades, Proctor, edómetros, permeabilidad, Los Ángeles, durabilidad, UCS, carga puntual y LE2). Cada valor se verificó en la
+  página del informe original. Diferencias de los informes anotadas en la tabla: UCS de WSP 2024 (Tabla 6: 61.1–143.1; texto:
+  64.0–143.1), k de Golder 2021 Alt. 1 1:1 (Tabla 9 frente a la hoja), Gs grueso de Golder 2010 (Tabla 2 frente a las hojas C127).
+  `analisis/common.py` ahora cae a la ruta del repo si no existe H:\ (el generador corre en la nube; PDF de 41 p.).
 - 2026-10-13: proyecto migrado de Drive a `leps2/` en el repo (sin .npz, PDF de ensayos, páginas escaneadas ni .s01).
   Pruebas de `hiber` (21) y `leps3` (30) pasan en la nube.
 - 2026-10-12: diseño y plan del ajuste en dos pasos (`docs/`); `a30_dos_pasos.py` y `Fig_phi1_e.png`.

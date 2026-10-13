@@ -49,29 +49,86 @@ La Tabla~\ref{tab:inventario} lista todos los ensayos de desmonte de Antamina di
 \toprule Fuente & Ensayo & Escala & Litologías & $n$ & Uso\\\midrule\endhead
 \citet{g2010}, fase A (ROM) & Triaxial CU & 2.8 y 4~in (9.5--15.9~mm) & Mármol, hornfels, intrusivo, skarn & 21 & Contraste (sección~\ref{sec:contraste}) \\
 \citet{g2010}, fase B (ROM chancado) & Triaxial CU & 2.8, 4 y 6~in (9.5--25.4~mm) & Mármol, hornfels, intrusivo, skarn & 36 & No usado: material chancado \\
-\citet{g2010} & Índices de roca y densidad in situ & -- & Mármol, hornfels, intrusivo, skarn & -- & $G_s$; la $e$ in situ no se usa (sección~\ref{sec:datos}) \\
+\citet{g2010} & Índices de roca y densidad in situ & -- & Mármol, hornfels, intrusivo, skarn & -- & $G_s$; la $e$ in situ no se usa; resto, caracterización (Tabla~\ref{tab:caract}) \\
 \citet{g2012} & Triaxial CD (3 con carga y descarga) & 1~m (178~mm) & Mármol & 5 & Ajuste \\
 \citet{g2012} & Edómetro & 0.95~m & Mármol & 1 & Rango de compresibilidad (Tabla~\ref{tab:edo}) \\
+\citet{g2012} & Permeabilidad en el edómetro & 0.95~m & Mármol & 6 & Caracterización (Tabla~\ref{tab:caract}) \\
 \citet{g2021} & Triaxial CD, desmonte compuesto & 6~in (25~mm) & Intrusivo, hornfels, mármol (35/50/15~\%) & 3 & Ajuste \\
+\citet{g2021} & Granulometría, $G_s$, absorción, límites y Proctor & -- & Intrusivo, mármol--hornfels, hornfels y compuesto & -- & Caracterización (Tabla~\ref{tab:caract}) \\
 \citet{w2022} & Triaxial CD (3 con carga y descarga) & 1~m (178~mm) & Hornfels & 6 & Ajuste \\
 \citet{w2022} & Triaxial CD con carga y descarga & 6~in (25~mm) & Hornfels, mármol & 2 & Ajuste (pares de escala) \\
 \citet{w2022} & Triaxial CD y edómetro (copias de \citealp{g2012}) & 1~m & Mármol & 5 y 1 & Duplicados; se usa el original \\
 \citet{w2022} & Triaxial cíclico (15 ciclos) y luego monótono & 0.10--0.15~m & Hornfels, mármol & 6 & No usado: carga cíclica previa; 3 detenidos por la capacidad del equipo \\
 \citet{w2022} & Edómetro & 1~m (2) y 0.24~m (4) & Hornfels, mármol & 6 & Perfil A (mármol suelto, 0.24~m) y rango de compresibilidad (Tabla~\ref{tab:edo}) \\
+\citet{w2022} & Permeabilidad, UCS, densidad máxima y mínima, granulometría de terreno & -- & Hornfels, mármol & -- & Caracterización (Tabla~\ref{tab:caract}) \\
 \citet{w2024}, set C4 & Triaxial CD & 0.6~m (102~mm) & Intrusivo & 3 & Ajuste \\
 \citet{w2024}, set C4 & Edómetro & 0.6~m (102~mm) & Intrusivo & 1 & Rango de compresibilidad (Tabla~\ref{tab:edo}) \\
+\citet{w2024} & $G_s$, absorción, UCS, Los Ángeles, carga puntual, densidad máxima y mínima, permeabilidad & -- & Intrusivo & -- & Caracterización (Tabla~\ref{tab:caract}) \\
 \citet{i2025} & Triaxial CD & 1~m (178~mm) & Intrusivo & 3 & Ajuste \\
 \citet{anddes2024} & Triaxial CU & 6~in ($D_{max}$ no informado) & Mármol, hornfels, intrusivo, mármol--hornfels & 15 & Contraste \\
 \citet{anddes2024} & Corte directo de gran escala & 30.5~cm (1~in) & Mármol, hornfels, intrusivo, mármol--hornfels & 15 & Ajuste \\
-\citet{anddes2024} & Granulometría, límites, Proctor, humedad & -- & Mármol, hornfels, intrusivo, mármol--hornfels & 5 & Caracterización \\
+\citet{anddes2024} & Granulometría, límites, Proctor, humedad & -- & Mármol, hornfels, intrusivo, mármol--hornfels & 5 & Caracterización (Tabla~\ref{tab:caract}) \\
 \citet{stantec2023} & Puntos $\tau$--$\sigma'_n$ de terceros & -- & -- & -- & No usado \\
 \citet{antamina2025frag} & Fragmentación por análisis de fotos & Campo & Desmonte ROM & 319 & $D_{max}$ de campo \\
+\citet{antamina2025le2} & UCS, carga puntual y tracción brasileña en roca & -- & Seis unidades geotécnicas de roca & 22\,970 & Caracterización (Tabla~\ref{tab:caract}) \\
 \bottomrule
 \end{longtable}\end{footnotesize}
 
 El ajuste usa los ensayos drenados de material del tajo: los triaxiales drenados (CD) y los cortes directos de gran escala. Leps 2.0 admite ambos tipos de ensayo: \citet{cylwik} definen sus sets como series de triaxiales o de cortes directos (p.~5) y dan una guía de esfuerzos para cada tipo (p.~11), aunque su base es casi toda triaxial (934 triaxiales y 4 cortes directos, p.~4). Quedan 37 ensayos en 13 sets (Tabla~\ref{tab:datos}): 22 triaxiales (17 en probetas de 0.6--1.0~m y 5 de 6~in) y 15 cortes directos en caja de 30.5~cm, de mármol, hornfels, intrusivo (tonalita) y dos mezclas: el desmonte compuesto de \citet{g2021}, con 35~\% de intrusivo, 15~\% de mármol y hornfels y 50~\% de hornfels en masa seca (tipos A, B y C de Antamina; p.~6), y la pila 01 de mármol y hornfels de \citet{anddes2024}. Las dos mezclas también entran en la curva propuesta, que trata el desmonte como un solo material (sección~\ref{sec:curva}). El máximo $\sigma'_3$ de los triaxiales es 2.45~MPa, que con la conversión de Leps 2.0 ($m = 0.85$) corresponde a $\sigma'_n = 4.62$~MPa en el plano de falla; los cortes directos llegan a 1.2~MPa. Los triaxiales no drenados (CU) se usan como contraste (sección~\ref{sec:contraste}). Los CU de la fase B de \citet{g2010} no se usan porque son de material chancado: según el propio informe, la fase A corresponde al «material original procedente del tajo» y la fase B al «material chancado» (p.~1).
 
 Por origen, el intrusivo \citep{w2024,i2025}, el compuesto de \citet{g2021} y las muestras de \citet{anddes2024} son desmonte del tajo; los informes no dicen si es ROM, chancado o enrocado, de modo que se clasificaron como ROM por su procedencia. Los tipos A, B y C con que Antamina designa el desmonte son una clasificación geoquímica por potencial de generación de acidez \citep[pp.~6 y~27]{g2021}, no de gradación. El mármol de \citet{g2012} es enrocado para la presa de relaves, obtenido de material \emph{run-of-the-mine} del tajo («Type C rockfill», pp.~1--2), y el hornfels de \citet{w2022} es enrocado 3B de la presa (pp.~3 y~7).
+
+\needspace{10\baselineskip}\subsection{Ensayos de caracterización}\label{sec:caract}
+La Tabla~\ref{tab:caract} resume los demás ensayos disponibles sobre el desmonte y la roca de Antamina: granulometría y clasificación, peso específico y absorción, densidad, compresibilidad, permeabilidad, degradabilidad y resistencia de la roca. Los valores son los que informa cada fuente, verificados en la página del informe; cuando la fuente da un valor por litología o por muestra, la tabla da el rango entre esos valores, sin promediar ni recalcular. De \citet{g2010} se incluye solo la fase A, de material del tajo; la fase B es material chancado. De estos ensayos, el memorándum usa el $G_s$ de sólidos de \citet{g2010} para calcular la $e_0$ (Tabla~\ref{tab:e0}) y los edómetros para los perfiles de $e$ (Tabla~\ref{tab:edo}). Los demás caracterizan el material y no entran en el ajuste de la curva.
+
+\begin{footnotesize}\setlength{\tabcolsep}{3pt}
+\begin{longtable}{L{2.75cm}L{2.2cm}L{2.5cm}>{\raggedleft\arraybackslash}p{0.9cm}L{4.15cm}L{2.3cm}}
+\caption{Ensayos de caracterización de desmonte y de roca de Antamina, con los valores informados por cada fuente. TM: tamaño máximo; finos: pasante del tamiz N.º~200; NP: no plástico.}\label{tab:caract}\\
+\toprule Ensayo & Fuente & Material & $n$ & Resultado & Uso\\\midrule\endfirsthead
+\toprule Ensayo & Fuente & Material & $n$ & Resultado & Uso\\\midrule\endhead
+\multicolumn{6}{l}{\textit{Granulometría y clasificación}} \\
+Granulometría de terreno & \citet[Tabla~2]{g2010} & Mármol, hornfels, intrusivo y skarn (fase A) & 4 & TM 19--35~in; finos 0.88--2.8~\% & Caracterización \\
+Granulometría de terreno & \citet[p.~47]{w2022} & Hornfels (muestra M-001) & 1 & TM 36~in; finos 2.49~\%; GW-GM$^{a}$ & Caracterización \\
+Granulometría de terreno & \citet[p.~93]{w2024} & Intrusivo & 1 & TM 10~in; finos 6.6~\% & Caracterización \\
+Granulometría y SUCS (ASTM D6913 y D2487) & \citet{anddes2024} & Mármol, hornfels, intrusivo y mármol--hornfels; $D_{max}$ 75~mm & 5 & Grava 57--68~\%, arena 21--34~\%, finos 8--11~\%; GP-GM (4) y GW-GM (1) & Caracterización \\
+Granulometría y SUCS (ASTM D422 y D7928) & \citet[Tabla~4]{g2021} & Tipos A, B y C y desmonte compuesto & 4 & $D_{50}$ 3.6--9.5~mm; finos 7.2--13.5~\%; GM (3) y GP-GM (1) & Caracterización \\
+Límites de Atterberg & \citet{anddes2024} & Mismas muestras & 5 & LL: NP (3), 16 y 17; IP: NP & Caracterización \\
+Límites de Atterberg & \citet[p.~14]{g2021} & Compuestos y mezclas & -- & NP & Caracterización \\
+\midrule \multicolumn{6}{l}{\textit{Peso específico y absorción}} \\
+$G_s$ de sólidos (ASTM D854) & \citet[Tabla~2]{g2010} & Mármol, hornfels, intrusivo y skarn (fase A) & 4 & 2.674--3.484 & $e_0$ (Tabla~\ref{tab:e0}) \\
+$G_s$ y absorción del grueso (ASTM C127) & \citet[p.~48]{g2010} & Mismas muestras & 4 & $G_s$ bulk 2.461--3.212$^{b}$; absorción 0.24--1.66~\% & Caracterización \\
+$G_s$ y absorción del grueso (ASTM C127) & \citet[pp.~14 y~83--86]{g2021} & Tipos A, B y C y desmonte compuesto & 4 & $G_s$ bulk 2.44--2.87; absorción 0.54--3.39~\%; $G_s$ de finos del compuesto 2.77 & Caracterización \\
+$G_s$ y absorción del grueso (ASTM C127) & \citet[Tabla~3]{w2024} & Intrusivo & 8 & $G_s$ aparente 2.83--2.93; base seca 2.71--2.86; absorción 0.8--1.6~\% & Caracterización \\
+\midrule \multicolumn{6}{l}{\textit{Densidad y humedad}} \\
+Densidad in situ (reemplazo de agua) y humedad natural & \citet[Tabla~2]{g2010} & Desmonte en el tajo (fase A) & 4 & $\gamma_d$ 1.865--2.273~g/cm³; $w$ 2.2--3.8~\% & No usado (sección~\ref{sec:datos}) \\
+Densidad mínima y máxima (ASTM D4254 y D4253) & \citet[p.~43]{g2010} & Skarn (fase A) & 1 & 2.175 y 2.621~g/cm³ & Caracterización \\
+Densidad mínima y máxima (ASTM D4254 y D4253) & \citet[pp.~85--86]{w2022} & Hornfels y mármol & 2 & Mínima 1.852 y 1.905; máxima seca 2.232 y 2.297~g/cm³ & Caracterización \\
+Densidad mínima y máxima (ASTM D4254 y D4253) & \citet[Tabla~8]{w2024} & Intrusivo, set C4; fracción menor que 3~in & 1 & 1.825 y 2.212~g/cm³ & Caracterización \\
+Proctor estándar (ASTM D698) & \citet{anddes2024} & Mismas muestras & 5 & $\gamma_{d,max}$ 19.95--23.78~kN/m³; $w_{opt}$ 6.8--11.1~\%$^{c}$ & Caracterización \\
+Proctor estándar (ASTM D698) & \citet[Tabla~6]{g2021} & Desmonte compuesto & 1 & $\gamma_{d,max}$ 22.7~kN/m³; $w_{opt}$ 6.5~\% & Caracterización \\
+Contenido de agua & \citet{anddes2024} & Mismas muestras & 5 & 3--6~\% & Caracterización \\
+\midrule \multicolumn{6}{l}{\textit{Compresibilidad y permeabilidad}} \\
+Edómetro de gran escala & \citet{g2012,w2022,w2024} & Mármol, hornfels e intrusivo; 0.24--1.0~m & 8 & $C_c$ y $e$ con la profundidad en la Tabla~\ref{tab:edo} & Perfil A y rango de compresibilidad \\
+Permeabilidad, pared flexible (ASTM D5084) & \citet[Tabla~2]{g2010} & Hornfels e intrusivo; fracción menor que 5/8~in & 4 & $k_{20}$ $2.2\times10^{-6}$--$3.2\times10^{-6}$~m/s & Caracterización \\
+Permeabilidad, carga constante en el edómetro & \citet[Tabla~4]{g2012} & Mármol; 0.95~m & 6 & $8.2\times10^{-4}$--$1.4\times10^{-3}$~m/s$^{d}$, con $\sigma'_v$ de 6 a 60~kg/cm² & Caracterización \\
+Permeabilidad, carga constante en el edómetro & \citet[Tablas~5 y~6]{w2022} & Hornfels y mármol (2021); 1.0~m & 14 & Hornfels, de $3.5\times10^{-4}$ a $3.5\times10^{-5}$; mármol, de $1.2\times10^{-4}$ a $2.7\times10^{-5}$~m/s$^{d}$, de 588 a 6865~kPa & Caracterización \\
+Permeabilidad, carga constante en el edómetro & \citet[Tabla~14]{w2024} & Intrusivo, set C4; 0.6~m & 5 & $2.0\times10^{-4}$--$2.9\times10^{-4}$~m/s, de 392 a 5880~kPa$^{e}$ & Caracterización \\
+Permeabilidad, pared flexible (ASTM D5084) & \citet[Tabla~9]{g2021} & Mezclas de desmonte y relave 9:1 y 1:1 & 6 & $1.4\times10^{-6}$--$8.9\times10^{-6}$~m/s$^{f}$ & No usado: mezcla con relave \\
+\midrule \multicolumn{6}{l}{\textit{Degradabilidad}} \\
+Abrasión Los Ángeles (ASTM C535) & \citet[Tabla~2]{g2010} & Mármol, hornfels, intrusivo y skarn (fase A) & 4 & Pérdida 23.7--62.1~\% & Caracterización \\
+Abrasión Los Ángeles & \citet[p.~36]{w2022} & Hornfels y mármol & -- & Hornfels, 17~\% en promedio; mármol, 43~\% (2011) y 45--50~\% (2021)$^{g}$ & Caracterización \\
+Abrasión Los Ángeles (ASTM C131) & \citet[Tabla~7]{w2024} & Intrusivo & 8 & Pérdida 21.2--39.9~\% (promedio 30.4~\%) & Caracterización \\
+Durabilidad en sulfato & \citet[Tabla~2]{g2010} & Mármol, hornfels, intrusivo y skarn (fase A) & 4 & Pérdida corregida 0.7--43.4~\%$^{h}$ & Caracterización \\
+\midrule \multicolumn{6}{l}{\textit{Resistencia de la roca}} \\
+Compresión uniaxial (ASTM D2938) & \citet[Tabla~2]{g2010} & Mármol, hornfels, intrusivo y skarn (fase A) & 8 & 44.7--73.3~MPa (promedio por litología) & Caracterización \\
+Carga puntual (ASTM D5731) & \citet[Tabla~2]{g2010} & Mismas litologías & 16 & $\sigma_c$ estimada 32.24--80.56~MPa (promedio por litología) & Caracterización \\
+Compresión uniaxial & \citet[Tablas~1 y~2 y anexo]{w2022} & Hornfels y mármol & 18 & Hornfels, 64 y 65~MPa (Tabla~1) y 24.5--40.8~MPa (IDIEM); mármol, 42 y 44~MPa (2021) y 53--136~MPa (2011; Tabla~2); muestra REG~41061, 66.9--103.5~MPa$^{i}$ & Caracterización \\
+Compresión uniaxial (ASTM D7012) & \citet[Tabla~6]{w2024} & Intrusivo & 7 & 61.1--143.1~MPa$^{j}$ & Caracterización \\
+Carga puntual & \citet[p.~364]{w2024} & Intrusivo & 4 & $I_{s(50)}$ 4.11--6.16~MPa & Caracterización \\
+UCS, carga puntual y tracción brasileña & \citet{antamina2025le2} & Roca de seis unidades geotécnicas (END, EXO, HRN, INT, LMH y XDP) & 22\,970 & Medianas por unidad: UCS 28.1--98.0~MPa (2470 ensayos); $I_{s(50)}$ axial 1.97--6.85 y diametral 2.65--7.18~MPa (18\,628); tracción 3.39--9.71~MPa (1872) & Caracterización \\
+\bottomrule
+\end{longtable}\end{footnotesize}
+\vspace{-6pt}{\footnotesize $^{a}$Clasificación calculada por el laboratorio con el material menor que 3~in. $^{b}$La Tabla~2 del informe da 2.451--3.172 para el mismo ensayo; el valor de la tabla es el de las hojas de laboratorio. $^{c}$Informes marcados «fuera de método». $^{d}$Convertido de cm/s. $^{e}$El informe considera estos valores no representativos: la conductividad del equipo es del orden de $10^{-4}$~m/s y el flujo pudo ir por las paredes del molde. $^{f}$Tabla~9 del informe; la hoja de laboratorio de la mezcla 1:1 de la alternativa~1 da $8.9\times10^{-7}$~m/s. $^{g}$Citados de ensayos anteriores, no ensayados en ese estudio. $^{h}$Sulfato de magnesio según las hojas de laboratorio; el texto del informe indica sulfato de sodio (ASTM C88). $^{i}$La hoja de IDIEM de la muestra REG~41061 no indica la litología. $^{j}$Valores de la Tabla~6; el texto del informe da 64.0--143.1~MPa.\par}
 
 \needspace{10\baselineskip}\subsection{Diferencias entre los ensayos y el campo}
 Los ensayos no reproducen el desmonte del botadero en dos aspectos, y ambos deben tenerse presentes al usar la curva:
@@ -591,7 +648,8 @@ Aprobado por: & \colorbox{yellow}{XX} & Stantec\\
 
 \begin{thebibliography}{20}\small
 \bibitem[Anddes Geolab(2024)]{anddes2024} Anddes Geolab (2024). \emph{Ensayos de laboratorio en desmonte (rumas M-1 a M-13, H-1 a H-12, I-1 a I-12 y pilas 01 y 02): triaxial CU de 6~in, corte directo de gran escala, clasificación SUCS, Proctor estándar y contenido de agua} [informes de ensayo para Compañía Minera Antamina; solicitud EPE-23.10.141].
-\bibitem[Compañía Minera Antamina(2025)]{antamina2025frag} Compañía Minera Antamina (2025). \emph{Fragmentación del desmonte 2025} [base de datos de análisis de fotos post-voladura].
+\bibitem[Compañía Minera Antamina(2025a)]{antamina2025frag} Compañía Minera Antamina (2025a). \emph{Fragmentación del desmonte 2025} [base de datos de análisis de fotos post-voladura].
+\bibitem[Compañía Minera Antamina(2025b)]{antamina2025le2} Compañía Minera Antamina (2025b). \emph{Resumen de parámetros geotécnicos LE2} [planilla de ensayos de roca por unidad geotécnica, 3 de septiembre de 2025].
 \bibitem[Cylwik et al.(2025)]{cylwik} Cylwik, S.~D., Arrieta, M., Cunning, J.~C., y Hawley, P.~M. (2025). Update to the Leps strength envelopes for rockfill based on 900 large-scale triaxial tests. \emph{International Journal of Geomechanics}, 25(12), 04025285. \url{https://doi.org/10.1061/IJGNAI.GMENG-12050}
 \bibitem[Frossard et al.(2012)]{frossard2012} Frossard, E., Hu, W., Dano, C., y Hicher, P.-Y. (2012). Rockfill shear strength evaluation: A rational method based on size effects. \emph{Géotechnique}, 62(5), 415--427. \url{https://doi.org/10.1680/geot.10.P.079}
 \bibitem[Golder Associates Perú(2010)]{g2010} Golder Associates Perú (2010). \emph{Caracterización material de ROM -- Proyecto IPCC} [Memorando técnico para Compañía Minera Antamina, proyecto 099-4151017, 25 de marzo de 2010].
