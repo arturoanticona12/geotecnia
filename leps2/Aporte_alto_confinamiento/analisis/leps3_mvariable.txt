@@ -1,0 +1,13 @@
+
+modo B: grilla 81 (103 s); sets 47
+LOPO modo B:
+  m fijo (k = 0)             todos: (0.87, 0.0) | σn≥2 sesgo  +1.0 % EAM  7.3 % | σn≥3 sesgo  -3.8 % EAM  8.4 % | elegidos k: [0.0]
+  m = m0 − k(φ1 − 41°)       todos: (0.88, 0.008) | σn≥2 sesgo  +2.1 % EAM  8.6 % | σn≥3 sesgo  -2.2 % EAM 10.4 % | elegidos k: [0.004, 0.006, 0.008, 0.016]
+
+LOPO modo A (predictivo, φ'1 = φe0[calidad] − ω·e):
+  Leps 2.0 publicado           σ3 0–0.06: -32.9/38.0 | σ3 0.06–0.6:  -4.7/17.1 | σ3 0.6–2:  +2.2/10.8 | σ3 2–5:  +4.5/ 9.0  (sesgo/EAM %)
+  Leps 2.0 reajustado, m fijo  σ3 0–0.06:  +3.6/39.3 | σ3 0.06–0.6:  +9.2/20.4 | σ3 0.6–2:  -5.8/13.4 | σ3 2–5:  -7.2/14.6  (sesgo/EAM %)
+  m = m0 − k(φ1 − 41°)         σ3 0–0.06:  -0.1/39.3 | σ3 0.06–0.6:  +8.5/20.8 | σ3 0.6–2:  -3.0/13.4 | σ3 2–5: -11.2/15.1  (sesgo/EAM %)
+  parámetros (todos), m fijo: φe0 = 56.1/49.7/45.7 ω = 19.8 m = 0.816
+  parámetros (todos), m variable: φe0 = 52.9/46.8/44.5 ω = 13.2 m0 = 0.845 k = 0.0128
+

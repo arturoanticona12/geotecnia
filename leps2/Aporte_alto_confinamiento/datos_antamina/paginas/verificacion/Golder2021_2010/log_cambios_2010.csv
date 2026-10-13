@@ -1,0 +1,123 @@
+fila,ensayo_id,columna,valor_anterior,valor_correcto,pagina,razon
+0,GL-481-09 Prueba Nº 1 (σ3c=324 kPa),sigma3_kPa,324.0,619.0,82,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+1,GL-481-09 Prueba Nº 2 (σ3c=788 kPa),sigma3_kPa,788.0,717.0,82,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+1,GL-481-09 Prueba Nº 2 (σ3c=788 kPa),q_kPa,2393.0,2394.0,82,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 2393 kPa y σ1'−σ3' = 2394 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+1,GL-481-09 Prueba Nº 2 (σ3c=788 kPa),q_falla_und_kPa,2393.0,2394.0,82,q = σ'1f − σ'3f con los valores impresos en la hoja
+1,GL-481-09 Prueba Nº 2 (σ3c=788 kPa),u_falla_kPa,70.0,71.0,82,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+1,GL-481-09 Prueba Nº 2 (σ3c=788 kPa),p_falla_kPa,1515.7,1515.0,82,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+2,GL-481-09 Prueba Nº 3 (σ3c=1570 kPa),sigma3_kPa,1570.0,869.0,82,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+2,GL-481-09 Prueba Nº 3 (σ3c=1570 kPa),q_kPa,2738.0,2737.0,82,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 2738 kPa y σ1'−σ3' = 2737 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+2,GL-481-09 Prueba Nº 3 (σ3c=1570 kPa),q_falla_und_kPa,2738.0,2737.0,82,q = σ'1f − σ'3f con los valores impresos en la hoja
+2,GL-481-09 Prueba Nº 3 (σ3c=1570 kPa),u_falla_kPa,702.0,701.0,82,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+2,GL-481-09 Prueba Nº 3 (σ3c=1570 kPa),p_falla_kPa,1780.7,1781.3,82,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+3,GL-482-09 Prueba Nº 1 (σ3c=393 kPa),sigma3_kPa,393.0,216.0,87,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+4,GL-482-09 Prueba Nº 2 (σ3c=786 kPa),sigma3_kPa,786.0,303.0,87,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+4,GL-482-09 Prueba Nº 2 (σ3c=786 kPa),q_kPa,905.0,904.0,87,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 905 kPa y σ1'−σ3' = 904 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+4,GL-482-09 Prueba Nº 2 (σ3c=786 kPa),q_falla_und_kPa,905.0,904.0,87,q = σ'1f − σ'3f con los valores impresos en la hoja
+4,GL-482-09 Prueba Nº 2 (σ3c=786 kPa),u_falla_kPa,484.0,483.0,87,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+4,GL-482-09 Prueba Nº 2 (σ3c=786 kPa),p_falla_kPa,603.7,604.3,87,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+5,GL-482-09 Prueba Nº 3 (σ3c=1577 kPa),sigma3_kPa,1577.0,535.0,87,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+6,GL-483-09 Prueba Nº 1 (σ3c=394 kPa),sigma3_kPa,394.0,261.0,92,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+6,GL-483-09 Prueba Nº 1 (σ3c=394 kPa),q_kPa,870.0,869.0,92,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 870 kPa y σ1'−σ3' = 869 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+6,GL-483-09 Prueba Nº 1 (σ3c=394 kPa),q_falla_und_kPa,870.0,869.0,92,q = σ'1f − σ'3f con los valores impresos en la hoja
+6,GL-483-09 Prueba Nº 1 (σ3c=394 kPa),u_falla_kPa,134.0,133.0,92,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+6,GL-483-09 Prueba Nº 1 (σ3c=394 kPa),p_falla_kPa,550.0,550.7,92,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+7,GL-483-09 Prueba Nº 2 (σ3c=788 kPa),sigma3_kPa,788.0,393.0,92,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+8,GL-483-09 Prueba Nº 3 (σ3c=1570 kPa),sigma3_kPa,1570.0,528.0,92,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+9,GL-484-09 Prueba Nº 1 (σ3c=394 kPa),sigma3_kPa,394.0,193.0,97,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+10,GL-484-09 Prueba Nº 2 (σ3c=787 kPa),sigma3_kPa,787.0,317.0,97,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+11,GL-484-09 Prueba Nº 3 (σ3c=1573 kPa),sigma3_kPa,1573.0,486.0,97,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+12,GL-482-09 Prueba Nº 1 (σ3c=392 kPa),sigma3_kPa,392.0,224.0,102,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+13,GL-482-09 Prueba Nº 2 (σ3c=591 kPa),sigma3_kPa,591.0,242.0,102,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+13,GL-482-09 Prueba Nº 2 (σ3c=591 kPa),q_kPa,844.0,845.0,102,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 844 kPa y σ1'−σ3' = 845 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+13,GL-482-09 Prueba Nº 2 (σ3c=591 kPa),q_falla_und_kPa,844.0,845.0,102,q = σ'1f − σ'3f con los valores impresos en la hoja
+13,GL-482-09 Prueba Nº 2 (σ3c=591 kPa),u_falla_kPa,348.0,349.0,102,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+13,GL-482-09 Prueba Nº 2 (σ3c=591 kPa),p_falla_kPa,524.3,523.7,102,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+14,GL-482-09 Prueba Nº 3 (σ3c=785 kPa),sigma3_kPa,785.0,401.0,102,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+14,GL-482-09 Prueba Nº 3 (σ3c=785 kPa),q_kPa,938.0,937.0,102,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 938 kPa y σ1'−σ3' = 937 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+14,GL-482-09 Prueba Nº 3 (σ3c=785 kPa),q_falla_und_kPa,938.0,937.0,102,q = σ'1f − σ'3f con los valores impresos en la hoja
+14,GL-482-09 Prueba Nº 3 (σ3c=785 kPa),u_falla_kPa,385.0,384.0,102,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+14,GL-482-09 Prueba Nº 3 (σ3c=785 kPa),p_falla_kPa,712.7,713.3,102,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+15,GL-483-09 Prueba Nº 1 (σ3c=393 kPa),sigma3_kPa,393.0,99.0,107,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+16,GL-483-09 Prueba Nº 2 (σ3c=590 kPa),sigma3_kPa,590.0,167.0,107,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+17,GL-483-09 Prueba Nº 3 (σ3c=786 kPa),sigma3_kPa,786.0,183.0,107,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+18,GL-484-09 Prueba Nº 1 (σ3c=392 kPa),sigma3_kPa,392.0,156.0,112,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+19,GL-484-09 Prueba Nº 2 (σ3c=588 kPa),sigma3_kPa,588.0,232.0,112,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+19,GL-484-09 Prueba Nº 2 (σ3c=588 kPa),q_kPa,430.0,431.0,112,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 430 kPa y σ1'−σ3' = 431 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+19,GL-484-09 Prueba Nº 2 (σ3c=588 kPa),q_falla_und_kPa,430.0,431.0,112,q = σ'1f − σ'3f con los valores impresos en la hoja
+19,GL-484-09 Prueba Nº 2 (σ3c=588 kPa),u_falla_kPa,355.0,356.0,112,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+19,GL-484-09 Prueba Nº 2 (σ3c=588 kPa),p_falla_kPa,376.3,375.7,112,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+20,GL-484-09 Prueba Nº 3 (σ3c=783 kPa),sigma3_kPa,783.0,358.0,112,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+20,GL-484-09 Prueba Nº 3 (σ3c=783 kPa),q_kPa,662.0,661.0,112,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 662 kPa y σ1'−σ3' = 661 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+20,GL-484-09 Prueba Nº 3 (σ3c=783 kPa),q_falla_und_kPa,662.0,661.0,112,q = σ'1f − σ'3f con los valores impresos en la hoja
+20,GL-484-09 Prueba Nº 3 (σ3c=783 kPa),u_falla_kPa,426.0,425.0,112,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+20,GL-484-09 Prueba Nº 3 (σ3c=783 kPa),p_falla_kPa,577.7,578.3,112,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+21,GL-481-09 Prueba Nº 1 (σ3c=391 kPa),sigma3_kPa,391.0,715.0,117,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+21,GL-481-09 Prueba Nº 1 (σ3c=391 kPa),q_kPa,2775.0,2776.0,117,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 2775 kPa y σ1'−σ3' = 2776 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+21,GL-481-09 Prueba Nº 1 (σ3c=391 kPa),q_falla_und_kPa,2775.0,2776.0,117,q = σ'1f − σ'3f con los valores impresos en la hoja
+21,GL-481-09 Prueba Nº 1 (σ3c=391 kPa),u_falla_kPa,-325.0,-324.0,117,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+21,GL-481-09 Prueba Nº 1 (σ3c=391 kPa),p_falla_kPa,1641.0,1640.3,117,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+22,GL-481-09 Prueba Nº 2 (σ3c=788 kPa),sigma3_kPa,788.0,823.0,117,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+23,GL-481-09 Prueba Nº 3 (σ3c=1577 kPa),sigma3_kPa,1577.0,1028.0,117,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+23,GL-481-09 Prueba Nº 3 (σ3c=1577 kPa),q_kPa,3588.0,3589.0,117,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 3588 kPa y σ1'−σ3' = 3589 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+23,GL-481-09 Prueba Nº 3 (σ3c=1577 kPa),q_falla_und_kPa,3588.0,3589.0,117,q = σ'1f − σ'3f con los valores impresos en la hoja
+23,GL-481-09 Prueba Nº 3 (σ3c=1577 kPa),u_falla_kPa,548.0,549.0,117,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+23,GL-481-09 Prueba Nº 3 (σ3c=1577 kPa),p_falla_kPa,2225.0,2224.3,117,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+24,GL-482-09 Prueba Nº 1 (σ3c=387 kPa),sigma3_kPa,387.0,95.0,122,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+24,GL-482-09 Prueba Nº 1 (σ3c=387 kPa),q_kPa,425.0,426.0,122,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 425 kPa y σ1'−σ3' = 426 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+24,GL-482-09 Prueba Nº 1 (σ3c=387 kPa),q_falla_und_kPa,425.0,426.0,122,q = σ'1f − σ'3f con los valores impresos en la hoja
+24,GL-482-09 Prueba Nº 1 (σ3c=387 kPa),u_falla_kPa,291.0,292.0,122,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+24,GL-482-09 Prueba Nº 1 (σ3c=387 kPa),p_falla_kPa,237.7,237.0,122,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+25,GL-482-09 Prueba Nº 2 (σ3c=786 kPa),sigma3_kPa,786.0,269.0,122,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+26,GL-482-09 Prueba Nº 3 (σ3c=1576 kPa),sigma3_kPa,1576.0,401.0,122,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+27,GL-483-09 Prueba Nº 1 (σ3c=390 kPa),sigma3_kPa,390.0,169.0,127,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+28,GL-483-09 Prueba Nº 2 (σ3c=785 kPa),sigma3_kPa,785.0,384.0,127,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+29,GL-483-09 Prueba Nº 3 (σ3c=1568 kPa),sigma3_kPa,1568.0,495.0,127,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+30,GL-484-09 Prueba Nº 1 (σ3c=393 kPa),sigma3_kPa,393.0,191.0,132,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+30,GL-484-09 Prueba Nº 1 (σ3c=393 kPa),q_kPa,601.0,602.0,132,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 601 kPa y σ1'−σ3' = 602 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+30,GL-484-09 Prueba Nº 1 (σ3c=393 kPa),q_falla_und_kPa,601.0,602.0,132,q = σ'1f − σ'3f con los valores impresos en la hoja
+30,GL-484-09 Prueba Nº 1 (σ3c=393 kPa),u_falla_kPa,201.0,202.0,132,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+30,GL-484-09 Prueba Nº 1 (σ3c=393 kPa),p_falla_kPa,392.3,391.7,132,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+31,GL-484-09 Prueba Nº 2 (σ3c=784 kPa),sigma3_kPa,784.0,309.0,132,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+32,GL-484-09 Prueba Nº 3 (σ3c=1568 kPa),sigma3_kPa,1568.0,505.0,132,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+32,GL-484-09 Prueba Nº 3 (σ3c=1568 kPa),q_kPa,1512.0,1513.0,132,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 1512 kPa y σ1'−σ3' = 1513 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+32,GL-484-09 Prueba Nº 3 (σ3c=1568 kPa),q_falla_und_kPa,1512.0,1513.0,132,q = σ'1f − σ'3f con los valores impresos en la hoja
+32,GL-484-09 Prueba Nº 3 (σ3c=1568 kPa),u_falla_kPa,1062.0,1063.0,132,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+32,GL-484-09 Prueba Nº 3 (σ3c=1568 kPa),p_falla_kPa,1010.0,1009.3,132,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+33,GL-481-09 Prueba Nº 1 (σ3c=392 kPa),sigma3_kPa,392.0,127.0,137,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+34,GL-481-09 Prueba Nº 2 (σ3c=550 kPa),sigma3_kPa,550.0,254.0,137,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+35,GL-481-09 Prueba Nº 3 (σ3c=785 kPa),sigma3_kPa,785.0,348.0,137,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+36,GL-482-09 Prueba Nº 1 (σ3c=393 kPa),sigma3_kPa,393.0,173.0,142,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+37,GL-482-09 Prueba Nº 2 (σ3c=580 kPa),sigma3_kPa,580.0,214.0,142,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+38,GL-482-09 Prueba Nº 3 (σ3c=783 kPa),sigma3_kPa,783.0,459.0,142,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+39,GL-483-09 Prueba Nº 1 (σ3c=392 kPa),sigma3_kPa,392.0,185.0,147,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+40,GL-483-09 Prueba Nº 2 (σ3c=589 kPa),sigma3_kPa,589.0,254.0,147,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+40,GL-483-09 Prueba Nº 2 (σ3c=589 kPa),q_kPa,296.0,297.0,147,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 296 kPa y σ1'−σ3' = 297 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+40,GL-483-09 Prueba Nº 2 (σ3c=589 kPa),q_falla_und_kPa,296.0,297.0,147,q = σ'1f − σ'3f con los valores impresos en la hoja
+40,GL-483-09 Prueba Nº 2 (σ3c=589 kPa),u_falla_kPa,334.0,335.0,147,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+40,GL-483-09 Prueba Nº 2 (σ3c=589 kPa),p_falla_kPa,353.7,353.0,147,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+41,GL-483-09 Prueba Nº 3 (σ3c=780 kPa),sigma3_kPa,780.0,328.0,147,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+41,GL-483-09 Prueba Nº 3 (σ3c=780 kPa),q_kPa,448.0,449.0,147,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 448 kPa y σ1'−σ3' = 449 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+41,GL-483-09 Prueba Nº 3 (σ3c=780 kPa),q_falla_und_kPa,448.0,449.0,147,q = σ'1f − σ'3f con los valores impresos en la hoja
+41,GL-483-09 Prueba Nº 3 (σ3c=780 kPa),u_falla_kPa,451.0,452.0,147,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+41,GL-483-09 Prueba Nº 3 (σ3c=780 kPa),p_falla_kPa,478.3,477.7,147,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+42,GL-484-09 Prueba Nº 1 (σ3c=391 kPa),sigma3_kPa,391.0,136.0,152,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+43,GL-484-09 Prueba Nº 2 (σ3c=589 kPa),sigma3_kPa,589.0,205.0,152,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+44,GL-484-09 Prueba Nº 3 (σ3c=784 kPa),sigma3_kPa,784.0,307.0,152,sigma3_kPa contenía σ'3 de consolidación mezclado con σ'1 en la falla; ahora es σ'3 en la falla (la consolidación pasa a sigma3c_kPa)
+44,GL-484-09 Prueba Nº 3 (σ3c=784 kPa),q_kPa,511.0,510.0,152,q = σ'1f − σ'3f con los valores impresos en la hoja En la hoja σ1−σ3 (totales) = 511 kPa y σ1'−σ3' = 510 kPa (diferencia de redondeo de la hoja); se adopta el valor efectivo.
+44,GL-484-09 Prueba Nº 3 (σ3c=784 kPa),q_falla_und_kPa,511.0,510.0,152,q = σ'1f − σ'3f con los valores impresos en la hoja
+44,GL-484-09 Prueba Nº 3 (σ3c=784 kPa),u_falla_kPa,478.0,477.0,152,Δu en la falla = σ3 − σ'3 impresos en la hoja (exceso sobre la contrapresión)
+44,GL-484-09 Prueba Nº 3 (σ3c=784 kPa),p_falla_kPa,476.3,477.0,152,p' = (σ'1f + 2σ'3f)/3 recalculado con σ'3f impreso
+45,VP-209-09E σ'c=500 kPa,sigma3_kPa,500.0,383.42,161,sigma3_kPa contenía σ'3 de consolidación; ahora σ'3 en el pico de Vector
+46,VP-209-09E σ'c=250 kPa,sigma3_kPa,250.0,209.23,162,sigma3_kPa contenía σ'3 de consolidación; ahora σ'3 en el pico de Vector
+47,VP-209-09E σ'c=125 kPa,sigma3_kPa,125.0,110.37,163,sigma3_kPa contenía σ'3 de consolidación; ahora σ'3 en el pico de Vector
+48,VP-209-09E σ'c=500 kPa,sigma3_kPa,500.0,242.13,167,sigma3_kPa contenía σ'3 de consolidación; ahora σ'3 en el pico de Vector
+49,VP-209-09E σ'c=250 kPa,sigma3_kPa,250.0,137.71,168,sigma3_kPa contenía σ'3 de consolidación; ahora σ'3 en el pico de Vector
+50,VP-209-09E σ'c=125 kPa,sigma3_kPa,125.0,66.87,169,sigma3_kPa contenía σ'3 de consolidación; ahora σ'3 en el pico de Vector
+51,VP-209-09E σ'c=500 kPa,sigma3_kPa,500.0,234.86,173,sigma3_kPa contenía σ'3 de consolidación; ahora σ'3 en el pico de Vector
+52,VP-209-09E σ'c=250 kPa,sigma3_kPa,250.0,125.7,174,sigma3_kPa contenía σ'3 de consolidación; ahora σ'3 en el pico de Vector
+52,VP-209-09E σ'c=250 kPa,q_falla_und_kPa,171.4,171.46,174,q = σ1−σ3 en el pico
+53,VP-209-09E σ'c=125 kPa,sigma3_kPa,125.0,61.29,175,sigma3_kPa contenía σ'3 de consolidación; ahora σ'3 en el pico de Vector
+54,VP-209-09E σ'c=500 kPa,sigma3_kPa,500.0,280.05,179,sigma3_kPa contenía σ'3 de consolidación; ahora σ'3 en el pico de Vector
+55,VP-209-09E σ'c=250 kPa,sigma3_kPa,250.0,132.14,180,sigma3_kPa contenía σ'3 de consolidación; ahora σ'3 en el pico de Vector
+56,VP-209-09E σ'c=125 kPa,sigma3_kPa,125.0,64.57,181,sigma3_kPa contenía σ'3 de consolidación; ahora σ'3 en el pico de Vector

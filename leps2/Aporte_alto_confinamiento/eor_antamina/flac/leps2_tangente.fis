@@ -1,0 +1,65 @@
+; leps2_tangente.fis -- curva propuesta de Leps 2.0 como Mohr-Coulomb tangente por zona (FLAC2D 9.0).
+; Stantec, 2026-10-10. Memorandum "Envolvente de resistencia del desmonte ROM de Antamina con Leps 2.0".
+; tau = tan(phi_e0 - omega*e) * S0^(1-m) * sn^m, con S0 = 10*pa = 1.013e6 Pa (unidades SI: Pa).
+; Para cada zona del grupo 'desmonte': sigma'3 de la zona -> punto de tangencia del circulo de falla con la
+; envolvente (biseccion en ln sn, Ecs. 10-12 de Cylwik et al. 2025) -> friction y cohesion tangentes.
+; Compresion negativa (L-13): sigma'3 = -(zone.stress.max + zone.pp).
+; Auditoria estatica con fish_lint.py de la skill flac2d-fish; NO corrido en FLAC.
+[global leps_pe0 = 48.47]       ; phi'e=0 (grados), curva propuesta
+[global leps_omega = 20.0]      ; grados por unidad de e
+[global leps_m = 0.85]          ; exponente (sin sesgo en los ensayos mundiales de mayor esfuerzo)
+[global leps_e = 0.45]          ; e de colocacion (constante); para e(z) usar zone.extra(z,1)
+[global leps_s0 = 1.013e6]      ; 10*pa (Pa)
+[global leps_s3min = 1.0e4]     ; piso de sigma'3 (Pa): evita c y phi indefinidos en superficie
+[global leps_fos = 1.0]         ; divisor de la resistencia (reduccion por FISH; 1 = sin reducir)
+[global leps_grupo = 'desmonte']
+
+fish define leps_tangente
+    ; friction (grados) y cohesion (Pa) tangentes en cada zona del grupo
+    local phi1 = (leps_pe0 - leps_omega * leps_e) * math.degrad
+    local a = math.tan(phi1) * leps_s0 ^ (1.0 - leps_m) / leps_fos
+    local s3 = 0.0
+    local lo = 0.0
+    local hi = 0.0
+    local mid = 0.0
+    local sn = 0.0
+    local t = 0.0
+    local beta = 0.0
+    local tanphi = 0.0
+    local n = 0
+    loop foreach local z zone.list
+        if zone.isgroup(z, leps_grupo) then
+            s3 = math.max(-(zone.stress.max(z) + zone.pp(z)), leps_s3min)
+            lo = math.ln(s3)
+            hi = math.ln(40.0 * s3)
+            loop local k (1, 60)
+                mid = 0.5 * (lo + hi)
+                sn = math.exp(mid)
+                t = a * sn ^ leps_m
+                beta = 0.5 * math.atan(leps_m * t / sn) + 0.25 * math.pi
+                if sn - t / math.tan(beta) - s3 > 0.0 then
+                    hi = mid
+                else
+                    lo = mid
+                endif
+            endloop
+            sn = math.exp(0.5 * (lo + hi))
+            t = a * sn ^ leps_m
+            tanphi = leps_m * t / sn
+            zone.prop(z, 'friction') = math.atan(tanphi) / math.degrad
+            zone.prop(z, 'cohesion') = (1.0 - leps_m) * t
+            n = n + 1
+        endif
+    endloop
+    io.out('leps_tangente: ' + string(n) + ' zonas, fos = ' + string(leps_fos))
+end
+
+fish define leps_equilibrar(n_vueltas)
+    ; actualiza las tangentes y resuelve, n_vueltas veces
+    loop local i (1, n_vueltas)
+        leps_tangente
+        command
+            model solve ratio 1e-5 cycles 20000
+        endcommand
+    endloop
+end

@@ -1,0 +1,2963 @@
+
+=== PÁGINA 1 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.1 
+ 
+4  THE SHEAR STRENGTH OF ROCKFILL 
+4.1  OUTLINE OF THIS CHAPTER 
+The work by Marsal (1973) on the shear strength of rockfill showed that the strength of 
+rockfill may vary directly with normal effective stress, dry density, particle roughness, 
+particle crushing strength and inversely with grain size, uniformity of grading, and 
+particle shape.  
+The aim of this Chapter is to verify and extend this work using an extensive literature 
+review and an analysis of a triaxial shear strength database which has been collected 
+from the literature, and from organisations who have carried out testing for dams and 
+other projects. 
+In the context of this Chapter the term rockfill encompasses both material of alluvial 
+origin and that of blasted quarry origin. The differentiation between the two can be 
+made by looking at parameters such as angularity. 
+This Chapter also comprises part of the larger study that is investigating rock mass 
+strength. The author believes that it is reasonable to assume that a compacted rockfill is 
+representative of a poor quality rock mass as defined by Hoek and Brown (1980). The 
+author has therefore used the data collected in this report to create a lower bound for the 
+Hoek-Brown criterion. 
+This Chapter presents a summary of the main factors affecting rockfill strength from the 
+literature; the triaxial shear strength database; statistical results from the database; and 
+several shear-strength criteria for rockfill using Hoek-Brown and other methods. 
+ 
+
+=== PÁGINA 2 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.2 
+ 
+4.2  FACTORS AFFECTING THE SHEAR STRENGTH OF 
+ROCKFILL 
+The author believes that the shear strength of rockfill at a particular confining stress 
+may be seen as the combination of a basic friction angle (shearing between rock 
+surfaces), φb, plus a dilation component less an amount caused by asperity or particle 
+crushing/shearing and reorientation of particles. In terms of friction angle: 
+ 
+crush
+φ
+φ
+φ
+−
++
+=
+i
+b
+ 
+(4.1) 
+Dilation ceases to occur at the critical confining pressure as defined by Seed and Lee 
+(1967). 
+Marsal (1973) found that the shear strength of rockfill may vary directly with normal 
+effective stress, dry density, particle roughness, particle crushing strength and inversely 
+with grain size, uniformity of grading, and particle shape. The following discussion 
+centres on what factors have been found to affect the shear strength of rockfill. An 
+attempt is made to relate these factors to the equation above. 
+4.2.1  Confining Pressure 
+Several authors have shown the shear strength curve for rockfill is non-linear, 
+particularly at low confining pressures (triaxial: Leslie, 1963, Marachi et al, 1969, Leps, 
+1970, Bertacchi & Bellotti, 1970, Penman et al., 1982 and Indraratna et al., 1993; direct 
+shear: Dobr & Rozsypal, 1974 and Anagnosti & Popovic, 1982; plane strain: Al-
+Hussaini, 1983). This would be consistent with the theory that as normal stress is 
+increased dilation is suppressed and therefore shear strength increase is reduced. Indeed, 
+Boughton (1970) found “some indication … that the limiting value of φ as σ′3 increases 
+is the value for the surfaces of the individual rock pieces” or φb in Equation 4.1. 
+The effect of a curved strength envelope has a large impact on the stability analysis of 
+rockfill dams where shallow slip surfaces are shown by the analysis to be critical using 
+traditional average c-φ analysis. These failure surfaces are not found in practice and this 
+
+=== PÁGINA 3 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.3 
+ 
+is likely to be due to the high frictional strength of rockfill at the low confining 
+pressures acting near the surface. 
+Figure 4.1 shows a curved envelope together with various c-φ representations. The 
+tangent friction angle, φt, is defined as the slope of the tangent to the curved shear 
+strength envelope at a given normal stress. The secant friction angle, φsec, is defined as 
+the slope of the tangent from the origin to the Mohr’s circle for a particular normal 
+stress (Equation 4.2). It is this secant friction angle that is most commonly quoted when 
+test results are published. 
+ 
+
+
+
+
+
+
++
+−
+=
+−
+3
+1
+3
+1
+1
+sec
+sin
+σ
+σ
+σ
+σ
+φ
+ 
+(4.2) 
+Where the Mohr-Coulomb parameters are taken as c = 0 and φ = φsec the shear strength 
+will be underestimated for normal stresses less than σn2 and over estimated for stresses 
+greater than σn2. Where the Mohr-Coulomb parameters are taken as c = ct and φ = φt the 
+strength will be overestimated at confining pressures less than the normal stress at the 
+tangent point. Where ct is taken as zero, and φ = φt, as sometimes is done by designers, 
+the strength will be significantly underestimated. This shows the importance of using a 
+non-linear strength criterion or stress dependent parameters e.g. a bi-linear strength 
+envelope. 
+
+=== PÁGINA 4 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.4 
+ 
+φsec
+φt
+σn2
+τ
+σn
+τ0<τenv<τt
+Failure
+envelope
+τt =τenv<τ0
+τenv<τt<τ0
+Assumes φ = φt
+and c = 0
+Tangent to circle
+through origin =
+secant to failure
+envelope
+Tangent to failure
+envelope
+ 
+Figure 4.1.  Methods for representing the shear strength envelope 
+As is typical in the literature, this report uses φ = φsec in its discussion unless otherwise 
+stated. 
+Marachi et al (1969) carried out large scale triaxial tests on highly angular argillite, 
+crushed basalt and rounded amphibolite and found that φ does not appear to decrease 
+significantly beyond σn = 4.5MPa. Note that they did not perform tests beyond a 
+confining pressure of 4.5MPa. Figure 4.2 and Figure 4.3 show curved strength 
+envelopes from triaxial and direct shear tests respectively which support this. 
+Indraratna and his co-workers (Indraratna et al., 1993, 1998, Indraratna, 1994) 
+performed tests on greywacke rockfill and basalt ballast. They found that the shear 
+strength of the failure envelope was highly curved for confining stresses of less than 
+500kPa. Penman et al (1982) found a similar result for confining stresses below 400kPa. 
+Indraratna found that the shear strength could be approximated by a linear Mohr-
+Coulomb criterion at stresses higher than 1.5MPa (as compared to the Marachi value of 
+4.5MPa above). Figure 4.4 shows the variation of φsec with σn on a log scale presented 
+by Indraratna et al. (1993). The figure also shows a lower limit to the shear strength of 
+rockfill proposed by Indraratna et al (1993). 
+
+=== PÁGINA 5 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.5 
+ 
+ 
+Figure 4.2.  Variation of secant friction angle, φsec, with respect to cell confining 
+stress, σ′3, for (a) dense and (b) medium dense crushed basalt from triaxial tests 
+(Al-Hussaini, 1983) 
+0.5
+1.0
+1.5
+2.0
+2.5
+0.5
+1.0
+1.5
+2.0
+σn (MPa)
+τ/σn
+1
+2a
+2b
+4
+5
+6
+7
+3
+2b
+2b
+crushed quarry rockfill
+gravel rockfill
+1
+marble
+2a limestone (0.15 x 0.15m)
+2b limestone (0.07 x 0.07m)
+3
+mica & phyllite
+4
+sandstone-claystone-marl flysch
+5
+claystone-marl flysch
+6
+crystalline schist
+7
+sandstone
+ 
+Figure 4.3.  Average strength of rockfills from large-scale direct shear tests 
+(Anagnosti & Popovic, 1982) 
+ 
+
+=== PÁGINA 6 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.6 
+ 
+ 
+Figure 4.4.  Variation of secant friction angle, φsec, with normal stress σn 
+(Indraratna et al., 1993) 
+4.2.2  Particle Strength 
+The strength of the individual particles could be expected to have some effect on the 
+shear strength of rockfill. Where the confining pressure, σ′3, is low compared to the 
+particle (or unconfined compressive) strength, σc, it could be expected that variations in 
+particle strength would have minimal effect on the shear strength. The only exception to 
+this is if it could be shown that σc affects φb. It has been shown however that φb 
+generally falls within a narrow range for defects in rocks which have not been 
+tectonically sheared. As σ′3/σc decreases, dilation will be the main contributor to 
+increased shear strength. As σ′3/σc increases, failure of particles could be expected 
+through crushing shearing and/or splitting, and thus a reduction in dilation would take 
+place leading to lower shear strength.  
+Particle strength should therefore play a major role with higher strength particles 
+generally leading to higher strength rockfill. Hirshfeld et al (1973) found the curvature 
+of the shear strength envelope to be more distinct for weak particles. This would be due 
+to the rapid reduction in dilation with increase in confining stress. A reduction in 
+dilation for high strength particles could be expected at much higher stresses than weak 
+particles. 
+
+=== PÁGINA 7 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.7 
+ 
+Anagnosti and Popovic (1982) found for crushed rocks, there is a large drop in shear 
+strength up to normal stresses of 1MPa for strong rockfills (Figure 4.5) with a much 
+smaller drop for weaker flysch materials (Figure 4.6). It is likely that tests were not 
+carried out at low enough confining pressures to capture the curvature in the flysch 
+material. 
+ 
+Figure 4.5.  Shear strength and grain size curves for crushed (a) limestone and (b) 
+marble (Anagnosti and Popovic, 1982) 
+ 
+Figure 4.6. Shear strength and grain size curves for crushed flysch sandstone-marl 
+rockfill (Anagnosti and Popovic, 1982) 
+
+=== PÁGINA 8 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.8 
+ 
+4.2.3  Uniformity Coefficient 
+Generally, it could be expected that a poorly-graded rockfill (low uniformity coefficient, 
+cu, Equation 4.3), would have a higher strength than a well-graded rockfill assuming a 
+constant void ratio for both. A well-graded material would be more likely to reduce the 
+amount of dilation required due to the ‘gaps’ in the gravel matrix being filled with 
+smaller particles. However, Marachi et al (1969) claim that if both rockfills were 
+compacted to their maximum density then the well graded material could be expected to 
+be stronger as it would have the greater density. 
+ 
+10
+60
+d
+d
+cu =
+ 
+(4.3) 
+ 
+Where, d60 is the particle size for which 60% is finer. 
+Chiu (1994) using data by Marsal (1967) found that the effect of cu on the shear strength 
+of rockfill was more pronounced for low σ′3, with little effect at high σ′3. cu affects 
+dilation however, at higher σ′3 that dilation may have been retarded. Sarac & Popovic 
+(1985) found that the failure envelope was more curved for narrowly graded materials. 
+Al-Hussaini (1983) found strength increased with cu but felt it may also have been 
+affected by maximum particle size. Anagnosti & Popovic (1982) found for gravels there 
+is a marked drop in strength for the high strength limestone below σ′3=1MPa possibly 
+due to dilational effects below σ′3=0.4MPa caused by the uniform grading (Figure 4.7). 
+The well-graded and weaker material does not show this effect (Figure 4.8). 
+
+=== PÁGINA 9 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.9 
+ 
+ 
+Figure 4.7.  Shear strength and grain size curves for different gradings of 
+limestone gravel (Anagnosti and Popovic, 1982) 
+ 
+Figure 4.8.  Shear strength and grain size curves for (a) crystalline schist and (b) 
+sandstone gravels (Anagnosti and Popovic, 1982) 
+
+=== PÁGINA 10 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.10 
+ 
+4.2.4  Density 
+When comparing the degree of compaction of rockfill relative density or void ratio can 
+be used. Where materials of the same rock type and grading characteristics are tested 
+dry density may be used as it will be related to relative density. Dry density or void ratio 
+will not be a good parameter to use where different types and gradings of rockfills are 
+compared. 
+Rockfill with a higher relative density has been found to have a higher shear strength 
+(Boughton, 1970, Leps, 1970, Marsal, 1973, Williams & Walker, 1984, Sarac & 
+Popovic, 1985, Tosun et al., 1999). The shape of the Mohr-Coulomb failure envelope is 
+also affected. Initially dense rockfill shows a marked curvature showing a distinct drop 
+in the friction angle whereas an initially loose sample shows minimal curvature and 
+drop in friction. The two curves tend to merge at very high confining pressures. This is 
+consistent with the behaviour of granular soils which reach the critical state or constant 
+volume/void ratio at large strains. Marachi et al (1969) indicate that the curves continue 
+as a straight line whose projection passes through the origin. This is likely due to the 
+dense material requiring dilation at low stresses to fail. At higher confining stresses 
+dilation is restrained and particle shearing/crushing occurs resulting in a lower angle of 
+friction. Initially loose material will require much less dilation as particles have more 
+freedom to move (e.g. rotation) during shearing. Thus without the dilation there will be 
+a minimal drop in the friction angle. 
+Al-Hussaini (1983) found that dense crushed basalt has a higher strength than medium 
+dense crushed basalt. Dobr & Rozsypal (1974) tested basalt at different dry densities in 
+direct shear. They found that the strength increases with density but, the strength 
+difference reduces with confining pressure. Chui (1994) also found little difference at 
+high confining pressures. Alva-Hurtado et al. (1981) found the opposite with the 
+difference in strengths increasing with confining pressure. 
+Zeller et al (1957), as reported in Marachi et al (1969), performed triaxial tests on 
+scalped rockfill samples for Goscheoenalp Dam in Switzerland. The confining pressure 
+for all tests was 88kPa. It should be noted that the scalping method used did not result in 
+parallel gradations. Zeller’s results (Figure 4.9 and Figure 4.10) show a decrease in 
+
+=== PÁGINA 11 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.11 
+ 
+friction angle of approximately 50° to 40° for an initial porosity increase of 8% for all 
+dry rockfill samples (dmax of 10mm to 100mm). 
+ 
+Figure 4.9. Scalped rockfill gradings (Marachi et al, 1969) 
+ 
+Figure 4.10. Strength porosity relationships with σ3 = 88kPa (Marachi et al, 1969) 
+Marachi et al (1969) tested rockfill material from Pyramid Dam. They found a drop in 
+friction angle of approximately 4° for an increase in void ratio of 0.3.  
+Nakayama et al. (1982) found that the friction angle was reduced with an increase in the 
+void ratio (Figure 4.11). There is no indication in the paper as to what the confining 
+pressure or method of assessing φ was. Boughton (1970) and Anagnostic & Popovic 
+(1985) found a similar result although, as might be expected, Anagnostic & Popovic 
+(1985) found the effect was more noticeable at low confining pressures and low Cu. 
+
+=== PÁGINA 12 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.12 
+ 
+40
+41
+42
+43
+44
+45
+0.25
+0.3
+0.35
+0.4
+0.45
+0.5
+e
+φ
+triaxial - green schist - 12% -4.76mm
+triaxial - green schist - 18% -4.76mm
+triaxial - quartz schist - 13% -4.76mm
+triaxial - quartz schist - 20% -4.76mm
+direct shear - quartz schist - 18% -4.76mm
+direct shear - quartz schist - 25% -4.76mm
+direct shear - green schist - 17% -4.76mm
+ 
+Figure 4.11.  Void ratio vs angle of friction (modified from Nakayama et al., 1982) 
+4.2.5  Maximum Particle Size 
+There is some conjecture as to the effect of the maximum particle size on the shear 
+strength of rockfill. It is generally accepted that the shear strength decreases with 
+particle size (Marachi et al., 1969 & 1972, Marsal, 1973, Chui, 1994). However, some 
+researches claim no effect (Charles et al., 1980) or the opposite effect (Anagnosti & 
+Popovic, 1981). Some data from Marsal is tabulated below. 
+The effect of maximum particle size should be considered as two issues: 
+(I) 
+the effect of increasing maximum particle diameter, dmax with constant sample 
+diameter, D; and 
+(II) 
+the effect of increasing dmax with constant dmax/D ratio. 
+(both assuming constant sample height to sample diameter, H/D ratio) 
+
+=== PÁGINA 13 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.13 
+ 
+4.2.5.1 Increasing dmax with Constant D 
+Marsal (1973) performed tests on basalt rockfill (the results of the tests are tabulated 
+below). The results show an increase in friction angle of 3-4% for a change in dmax/D 
+from 0.07 to 0.18. At high normal stresses (3.9MPa) the effect is more limited (0.3°). 
+Table 4.1.  Increase in φ with dmax/D from Marsal (1973) data for different σn 
+ Source 
+Rock Type 
+D 
+(mm) 
+ 
+Cu 
+ 
+Cc 
+σn 
+(MPa) 
+dmax1/D 
+ 
+dmax2/D 
+(φ2 - φ1)/φ2 
+(%) 
+Marsal (1973) 
+Basalt 
+1130 
+A
+11 - 18 
+5.21 – 0.55 
+0.8 
+0.07 
+0.18 
+3 
+Marsal (1973) 
+Basalt 
+1130 
+A
+11 - 18 
+5.21 – 0.55 
+1.6 
+0.07 
+0.18 
+4 
+Marsal (1973) 
+Basalt 
+1130 
+A
+11 - 18 
+5.21 – 0.55 
+3.9 
+0.07 
+0.18 
+0.3 
+Note: dmax1, φ1 and dmax2, φ2 are the maximum particle sizes and secant friction angle for sample one and sample two respectively. 
+4.2.5.2 Increasing dmax with Constant dmax/D 
+Thiers & Donovan (1981) present Figure 4.12 to estimate the shear strength of rockfill 
+at field scale. The figure plots the angle of internal friction versus maximum particle 
+size. It should be noted that all the samples tested had a constant dmax/D ratio. 
+Table 4.2.  Reduction in φ with particle size, dmax, from Marsal (1973) data 
+Source 
+Rock Type 
+dmax/D 
+ 
+Cu 
+ 
+Cc 
+σn 
+(MPa) 
+dmax1 
+(mm) 
+dmax2 
+(mm) 
+(φ1 - φ2)/φ2 
+(%) 
+Marsal (1973) 
+Silicified conglomerate 
+.18 
+A 
+10 
+1.72 
+3.92 
+38.1 
+200 
+7 
+Marsal (1973) 
+Granitic-gneiss 
+.18 
+SA 
+14 
+1.30 
+3.92 
+38.1 
+200 
+20 
+Note: dmax1, φ1 and dmax2, φ2 are the maximum particle sizes and secant friction angle for sample one and sample two respectively. 
+ 
+Figure 4.12. Friction angle vs maximum particle size (Thiers & Donovan, 1981) 
+
+=== PÁGINA 14 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.14 
+ 
+4.2.6  Silt and Sand Fines versus Gravel and Larger Particle Content 
+The percent of material passing 2mm is believed to affect the shear strength of rockfill. 
+At the point where the failure shear surface does not incorporate gravel to gravel contact 
+it could be expected that the shear strength of the finer particles would be the sole 
+control on the shear strength of the material. Large triaxial tests for silty gravels were 
+carried out by the USBR (1966). Tests were carried out at 0, 35, 50 and 65% gravel 
+content. Shear strengths were found to be similar for the 0 and 35% gravel content tests. 
+Shear strengths increased considerably at 50% and 65% gravel content. Further tests on 
+clayey gravels found that the shear strength increased considerably between 42 and 50% 
+gravel content. Other conclusions that were reached included: 
+• Clayey and silty gravel show the shear strength is unaffected by gravel contents 
+below 35%. 
+• Sandy gravel shows an increase in gravel gives an increase in strength up to a 
+maximum of 50% gravel 
+• At 50% gravel content, silty gravel and clayey gravel strengths significantly increase. 
+• At 65% gravel content the silty gravel has similar shear strength to the sandy gravel. 
+Data from USBR (1966) and USBR (1961) for silty gravel and clayey gravel are plotted 
+on Figure 4.13 and Figure 4.14 respectively. Trend lines (logarithmic) have been plotted 
+on the curves to show the general trends of the data. They should not be used for design. 
+Marsal (1976) reports two triaxial tests each on rockfill-silt and rockfill-sand mixtures 
+and compares these to a test on rockfill only. The clean rockfill and 10% sand-rockfill 
+mixtures had a φ of 34.1° whilst the 30% sand-rockfill had a φ of 39°. Marsal (1976) 
+attributes the difference to the lower initial void ratio in the 30% sand-rockfill mixture. 
+The 10% silt-rockfill mixture showed a decrease in φ to 28.8° whilst the 30% silt-
+rockfill mixture had the strength properties of the silt. 
+Nakayama et al. (1982) performed triaxial and direct shear tests on schist gravels 
+(quartz schist and green schist) with maximum particle size of 63.5mm at Inamura 
+Rockfill Dam. It was found that the friction angle was reduced with an increase in the 
+percent of –4.76mm particles (Figure 4.15). 
+
+=== PÁGINA 15 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.15 
+ 
+30
+35
+40
+45
+50
+55
+60
+65
+70
+75
+80
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+σ′3 (MPa)
+φ
+38% gravel
+53% gravel
+67% gravel
+ 
+Figure 4.13.  Effect of gravel content on φ for silty gravel based on USBR (1966) 
+30
+32
+34
+36
+38
+40
+42
+44
+46
+48
+50
+0.0
+0.1
+0.2
+0.3
+0.4
+σ′3 (MPa)
+φ
+26% gravel
+42% gravel
+55% gravel
+68% gravel
+Log. (26% gravel)
+Log. (42% gravel)
+Log. (55% gravel)
+Log. (68% gravel)
+ 
+Figure 4.14.  Effect of gravel content on φ for clayey gravel based on USBR (1961) 
+
+=== PÁGINA 16 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.16 
+ 
+35
+40
+45
+50
+10
+15
+20
+25
+30
+-4.76mm content (%)
+φ
+direct shear - quartz schist - e=0.28
+direct shear - quartz schist - e=0.39
+ 
+Figure 4.15.  –4.76mm content vs secant angle of friction (Nakayama et al., 1982) 
+4.2.7  Particle Angularity 
+The strength of highly angular rockfill could be expected to be higher than that for a 
+rounded rockfill at similar relative density and low confining pressures. This is due in 
+some part to the interlocking effect of the angular particles and also increased dilation. 
+At high stresses the effect may not be as prominent and may be the opposite. An angular 
+rockfill may allow for stress concentrations that cause breakage of the particles at high 
+confining pressures reducing dilation and leading to a lower overall rockfill strength 
+than the rounded particles with less stress concentrations.  
+The shape co-efficient, Cf, is often used to describe the shape of particles and is given in 
+Equation 4.4. The shape coefficient is the volume of n particles of gravel over the 
+equivalent volume of n spheres of diameter D. 
+ 
+∑
+∑
+=
+n
+n
+f
+D
+V
+C
+0
+3
+0
+6
+π
+ 
+(4.4) 
+Bertacchi & Berlotti (1970) found that serpentinite (UCS = 100-150MPa, laminar 
+surfaces, sharp edges, Cf = 0.11) gives higher friction angles than tonalite (UCS = 
+150MPa, irregular rough surfaces, Cf = 0.17) due to the irregularity in the shape of the 
+serpentinite particles. Sarac & Popovic (1985) found a similar result but the effect was 
+less with higher confining pressures. 
+
+=== PÁGINA 17 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.17 
+ 
+4.2.8  Other Factors 
+The type of shear test is believed to have an influence over results. Generally plane 
+strain tests in the literature (Al-Hussaini, 1983 – dense crushed basalt, Barton & 
+Kjærnsli, 1981, Charles & Watts, 1980) give higher friction angles, φ′ps, than triaxial 
+shear tests, φ′ax. Tests by Marsal et al (1967) and Marsal (1973) discussed by Charles 
+(1991) showed φ′ at failure is greater in the plane strain tests by up to 8° for the same 
+minor principal stress. The Danish Code of Practice (Steensen-Bach, 1989) gave: 
+ 
+ax
+ps
+φ
+φ
+′
+=
+′
+1.1
+ 
+(4.5) 
+Whilst Wroth (1984) gives: 
+ 
+ax
+ps
+φ
+φ
+′
+=
+′
+9
+8
+ 
+(4.6) 
+McWilliam (2001), working with the author, used published data to show that the ratio 
+between φ′ps and φ′ax varied from 1.02 to 1.1 (c.f. 1.125 from equation 4.6). The ratio 
+varied with material type and confining pressure. 
+The triaxial test provides a correct value of φ as it incorporates the intermediate 
+principal stress, σ′2 (=σ′3).  In a plain strain test, strain is prevented in the direction of 
+σ′2. Where the popular Mohr-Coulomb criterion is used the intermediate stress is 
+ignored which leads to a miscalculation of φ. It is a common misconception that using 
+the Mohr-Coulomb derived φ from plain strain tests gives a better correlation to field 
+values and should therefore be used in preference to the φ from triaxial tests. The 
+backanalysis of failures have traditionally been carried out in two dimensions. This 
+procedure ignores σ′2 in the same manner as in the derivation of φ from the plane strain 
+lab tests. Thus, the plain strain φ and the back calculated φ are both incorrect but, as 
+they have similar errors in their derivation they tend to give similar results. The author 
+recommends the use of the φ derived from triaxial tests for design.  
+The shear strength of rockfill may decrease with moisture content (Frassoni et al., 1982, 
+Chui, 1994, Marsal, 1967). This is probably related to the drop in unconfined 
+compressive strength for some intact rocks. 
+
+=== PÁGINA 18 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.18 
+ 
+4.2.9  Summary of Factors Affecting the Secant Friction Angle 
+Table 4.3 shows a summary of the factors affecting the secant friction angle discussed 
+in this section. The most significant effects on the secant friction angle appear to be 
+caused by confining pressures, density and maximum particle size. There is also a 
+substantial effect on φsec at high percentages of material finer than gravel. Minor effects 
+on the secant friction angle are caused by angularity and the uniformity coefficient. 
+Table 4.3. Summary of factors affecting the secant friction angle 
+Parameter 
+Effect on φsec 
+with increase 
+in parameter 
+Comment 
+Confining pressure 
+Decrease 
+Significant effect. The rate of decrease in 
+φsec will drop with increasing confining 
+pressure 
+Unconfined compressive strength of 
+intact rock 
+Increase 
+Effect will depend on the ratio of 
+confining stress to compressive strength 
+Uniformity coefficient 
+Decrease 
+Minor effect and may reverse if samples 
+are compacted to their maximum density 
+prior to testing 
+Density 
+Increase 
+ 
+Maximum particle size (assuming the 
+ratio of maximum particle size to 
+sample diameter is constant) 
+Decrease 
+ 
+Ratio of maximum particle size to 
+sample diameter 
+Increase 
+ 
+Angularity 
+Increase 
+The effect will be most noticeable with 
+highly angular material 
+Percent finer than gravel size in sample 
+Decrease 
+The effect will not be significant at low 
+percentages. At high percentages strength 
+will approach that of the finer material. 
+ 
+
+=== PÁGINA 19 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.19 
+ 
+4.3  SHEAR STRENGTH CRITERIA 
+Table 4.5 shows a number of rockfill shear strength equations from the literature. The 
+equations are numbered in the first column of the table. The criteria are empirical 
+having been based on laboratory tests of rockfill. 
+De Mello (1977) proposed Equation 4.8 as suitable for representing the curved strength 
+envelope. Charles & Watts (1980) also used this form of equation. Indraratna et al. 
+(1993) developed a non-dimensional form of Equation 4.8 for both shear stress and 
+principal stress plots (Equations 4.9 and 4.11). Charles (1991) gives values for the 
+constants A and B in the De Mello (1977) equation (Table 4.4). 
+Table 4.4. Parameters obtained using De Mello (1977) (Charles, 1991) 
+ 
+ID 
+A 
+B 
+Sandy gravel 
+.95 
+4.4 
+.81 
+Soft rockfill 
+.95 
+4.2 
+.75 
+Soft rockfill 
+.70 
+1.4 
+.90 
+ 
+Indraratna et al. (1998) also uses Equation 4.12 to describe the shear strength of basalt 
+ballast. 
+Doruk (1991) created a modified version of the Hoek-Brown criterion by removing the 
+s component and thus rendering the unconfined compressive strength of the rock mass 
+to zero. (Equation 4.13) 
+Sarac & Popovic (1985) analysed a large number of large scale (0.7x0.7x0.4 to 
+1.9x2.9x1.5m) direct shear tests carried out at the Institute for Geotechnics and 
+Foundation Engineering, Sarajevo (Equation 4.10). The materials tested were generally 
+limestone, sandstone, serpentinite and slate and were from a mixture of sources 
+including: natural; rock debris; and quarry rockfill. The tests were generally carried out 
+for materials for embankment dams over stress ranges between 0.05 to 2.0MPa. Figure 
+4.17 shows the test results.  
+
+=== PÁGINA 20 ===
+ 
+ 
+Page 4.20 
+ 
+Table 4.5.  Various shear strength criteria for rockfill 
+Eq 
+Reference 
+Equation 
+Parameters 
+Development 
+4.8 
+De Mello (1977) 
+Charles & Watts (1980) 
+B
+n
+Aσ
+τ =
+ 
+A, B see Table 4.4 
+Empirical curved envelope. 
+4.9 
+Indraratna et al (1993) 
+Indraratna (1994) 
+b
+c
+n
+c
+a
+
+
+
+
+
+
+=
+σ
+σ
+σ
+τ
+ 
+a,b = 0.25,0.83 (lower bound, σn=0.1-1MPa) 
+a,b = 0.71,0.84 (upper bound, σn=0.1-1MPa) 
+a,b = 0.75,0.98 (lower bound, σn=1-7MPa) 
+a,b = 1.80,0.99 (upper bound, σn=1-7MPa) 
+Non-dimensionalised form of (4.8). Note that if A in (4.8) is 
+independent of σc then a is not independent of σc. 
+4.10 
+Sarac & Popovic (1985) 
+(
+)
+B
+n
+A
+0
+max
+σ
+σ
+τ
+=
+ 
+A increases with σc↑, Cu↑, γ ↑, d50 ↑ 
+≈ 0.7 to 1.5 (Figure 4.19,Figure 4.20) 
+B increases with σc↑, Cu↑, γ ↓ 
+≈ 0.419 to 0.911 (Figure 4.18) 
+σ0 = 1MPa 
+Developed from large-scale direct shear tests (up to σn = 
+2MPa) on quarry rockfill and natural gravels. Various 
+sedimentary rocks were used.(Figure 4.17) 
+4.11 
+Indraratna et al (1993) 
+Indraratna (1994) 
+β
+σ
+σ
+α
+σ
+σ
+
+
+
+
+
+
+′
+=
+′
+c
+c
+3
+1
+ 
+α,β = 0.4,0.62 (lower bound, 0.1 to 1MPa) 
+α,β = 0.78,0.65 (upper bound, 0.1 to 1MPa) 
+α,β = 2.71,0.96 (lower bound, 1 to 7MPa) 
+α,β = 3.58,0.90 (upper bound, 1 to 7MPa) 
+Alternative of (4.9) for principal stresses 
+4.12 
+Indraratna et al (1998) 
+b
+a
+3
+3
+1
+σ
+σ
+σ
+′
+=
+′
+′
+ 
+a, b = 84.98,-0.49 (gradation A) 
+a, b = 125.17,-0.56 (gradation B) 
+Developed empirically for two gradations of ballast 
+Undefined at σ′3 = 0 
+4.13 
+Doruk (1991) 
+c
+a
+c
+m
+σ
+σ
+σ
+σ
+σ
+
+
+
+
+
+
+′
++
+′
+=
+′
+3
+3
+1
+ 
+m, a 
+Developed from Hoek-Brown by setting the rockfill 
+compressive strength to zero (i.e. s = 0). 
+
+=== PÁGINA 21 ===
+
+=== PÁGINA 22 ===
+
+=== PÁGINA 23 ===
+
+=== PÁGINA 24 ===
+
+=== PÁGINA 25 ===
+
+=== PÁGINA 26 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.26 
+ 
+4.4  DATABASE OF TRIAXIAL SHEAR TESTS 
+The author has collated a database of large-scale triaxial shear tests. The database has 
+over 989 individual triaxial shear tests from 307 sets of data. The information in the 
+database has been collected from selected quality published papers and reports and from 
+unpublished laboratory reports from organisations that have carried out high quality 
+testing for dams and other projects. There is an assumption inherent in collating a large 
+amount of data that all data sets are of equal quality. The dangers of making this 
+assumption were mitigated to some degree by using the quality sources stated above. 
+Although virtually all tests were accepted, there were some that were rejected. Tests that 
+were carried out at a very high strain rate were rejected. As were results where the 
+strength of the sample was estimated due to the test reaching the strain limit of the 
+testing apparatus prior to attaining the maximum strength of the sample. Table 4.6 
+shows the parameters recorded in the database. The complete database is contained in 
+Appendix F on a CD-ROM that is appended to this thesis. 
+Table 4.7 summarises the basic statistics of the data. The triaxial cells used for tests 
+ranged from a diameter of 50.8mm to a diameter of 1130mm. The maximum particle 
+size in the tests ranged from 4.8mm to 200mm. The minimum particle size in the tests 
+ranged from 0.0035mm to 40mm. Note that many tests recorded a minimum particle 
+size of ‘less than’ a particular diameter.  
+40% of tests had zero fines (% passing 0.075mm) content whilst 80% of the tests had a 
+fines content of no more than 5%. 10% of the triaxial tests had fines contents in excess 
+of 20%. The largest fines content for a test in the database was 45%. Note that the 
+uniformity coefficient and the coefficient of curvature are very high for tests where 
+fines have been added to a large diameter rockfill. 
+18.7% of the triaxial tests were on basalt material whilst 14.9% were on granite, 8.2% 
+sandstone and 3.9% limestone. Many tests did not give the rock type of the material 
+tested. 
+49% of the samples tested were considered angular (with an angularity rating = 8). 
+
+=== PÁGINA 27 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.27 
+ 
+Table 4.6.  List of parameters in triaxial shear strength database 
+Parameter 
+Description 
+Case 
+Test number within database 
+Reference 
+Data source 
+Data set 
+Identifying number given for each set of tests performed. Taken from 
+reference where given. 
+Test 
+Test number within data set 
+Site 
+Place of origin of material or location (e.g. dam name) 
+Origin 
+Source of gravel size particles (e.g. crushed, blasted, alluvial etc.) 
+Type 
+Rock particle type (e.g. sandstone etc) 
+UCS (MPa) 
+Unconfined compressive strength of individual particles 
+UCS* (MPa) 
+Includes UCS estimated where not given (see Section 4.5.1) 
+Ang 
+Angularity of particles from: angular; sub-angular; sub-rounded; rounded 
+Ang rat 
+A value from 1 (rounded) to 8 (angular) based on a description of  the 
+rockfill given in reference. (0 = not given) 
+Ds (mm) 
+Sample diameter 
+Hs (mm) 
+Sample height 
+Fines (%) 
+Percent of material finer than 0.075mm 
+Fines* (%) 
+Includes estimated fines where not given (see Section 4.5.1) 
+dmin (mm) 
+Minimum particle size 
+d10 (mm) 
+Diameter corresponding to 10% finer 
+d30 (mm) 
+Diameter corresponding to 30% finer 
+d50 (mm) 
+Diameter corresponding to 50% finer 
+d60 (mm) 
+Diameter corresponding to 60% finer 
+d90 (mm) 
+Diameter corresponding to 90% finer 
+dmax (mm) 
+Maximum particle size 
+cu 
+Coefficient of uniformity: 
+10
+60
+d
+d
+cu =
+ 
+cc 
+Coefficient of curvature: 
+60
+10
+2
+30
+d
+d
+d
+cc =
+ 
+Grav (%) 
+Gravel content (defined as percent of material greater than 2mm 
+diameter) 
+rd 
+Relative density 
+γd (kN/m3) 
+Dry unit weight 
+emin 
+Minimum void ratio 
+emax 
+Maximum void ratio 
+ei 
+Initial void ratio 
+ei
+* 
+Includes estimated void ratio where not given (see Section 4.5.1) 
+n 
+Porosity 
+Bg 
+Breakage co-efficient (Marsal) 
+GS 
+Specific gravity 
+w (%) 
+Moisture content 
+S (%) 
+Degree of saturation 
+σ′3 
+Minimum principal effective stress 
+σ′1 
+Maximum principal effective stress 
+εaf 
+Axial strain at failure 
+εvf 
+Volumetric strain at failure 
+Brit 
+Type of failure (B-brittle, T-transitional, D-ductile). Qualitative term 
+based on the stress-strain curves (if given) presented in the reference. 
+φsec 
+Secant friction angle (calculated) 
+σn 
+Normal stress on failure plane (calculated) 
+σ1-σ3 
+Principal stress difference (calculated) 
+σ1/σ3 
+Principal stress ratio (calculated) 
+ 
+
+=== PÁGINA 28 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.28 
+ 
+Table 4.7.  Summary of basic statistics from the rockfill database  
+Parameter 
+Minimum 
+Average 
+Maximum 
+Sample diameter (mm) 
+50.8 
+332 
+1130.3 
+Minimum particle size (mm) 
+0.0035 
+3.6 
+40 
+d10 (mm) 
+0.001 
+4.3 
+53 
+d30 (mm) 
+0.01 
+9 
+90 
+d50 (mm) 
+0.09 
+16 
+100 
+d60 (mm) 
+0.22 
+20 
+110 
+Maximum particle size (mm) 
+4.8 
+59 
+200 
+Fines content (%) 
+0 
+4.1 
+45 
+Uniformity coefficient, cu 
+1.3 
+81 
+3243 
+Coefficient of curvature, cc 
+0.04 
+2 
+16.9 
+Unconfined compressive strength of 
+intact rock particles (MPa) 
+25 
+153 
+761 
+ 
+ 
+ 
+ 
+
+=== PÁGINA 29 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.29 
+ 
+4.5  DATABASE ANALYSIS 
+This section describes the qualitative and quantitative (using statistical methods) 
+analysis of the rockfill database. Analyses using both the secant friction angle and 
+principal stresses were carried out. A final analysis using the Hoek-Brown criterion was 
+performed as part of the development of a criterion for rock mass strength. 
+4.5.1  Analysis Methodology 
+The database contained missing information for some of the test results. If a parameter 
+used in the statistical analysis was missing for a particular test, that test result was 
+generally ignored. However, to increase the number of tests, certain assumptions were 
+made prior to the analysis. These are: 
+Where an unconfined compressive strength of the intact rock was not given and 
+reasonable estimates could be made, it was estimated into three groupings of 40, 100 
+and 200MPa rocks based on a description of the rock type, degree of weathering and 
+also the origin of the material. These samples were placed. The effect of including these 
+data sets was evaluated during the statistical analysis. 
+Where the minimum particle size, dmin, was recorded as ‘less than’ a particular diameter 
+the following table was used to estimate dmin for the analysis. 
+Minimum particle size given, dmin 
+Minimum particle size used, dminhat 
+<0.075 (and d10>0.075) 
+0.01 
+<0.075 (and d10≤0.075) 
+0.005 
+<0.02 
+0.005 
+<0.005 (and d10>0.003) 
+0.001 
+<0.005 (and d10≤0.003) 
+0.0005 
+ 
+Where an initial void ratio was not given it was calculated from one of the following 
+equations (in order of preference): 
+ 
+n
+n
+e
+−
+= 1
+ 
+(4.17) 
+
+=== PÁGINA 30 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.30 
+ 
+ 
+(
+)
+min
+max
+max
+e
+e
+D
+e
+e
+r
+−
+−
+=
+ 
+(4.18) 
+ 
+1
+−
+=
+d
+w
+s
+G
+e
+γ
+γ
+ 
+(4.19) 
+ 
+where 
+ 
+ 
+e 
+= void ratio 
+ 
+ 
+n 
+= porosity 
+ 
+ 
+emax = maximum void ratio 
+ 
+ 
+emin = minimum void ratio 
+ 
+ 
+Dr = relative density (%) 
+ 
+ 
+γw 
+= unit weight of water (kN/m3) 
+ 
+ 
+γd 
+= dry unit weight (kN/m3) 
+ 
+ 
+Gs = specific gravity (assumed = 2.7 if not given) 
+4.5.2  Secant Friction Angle, φsec, Versus Normal Stress, σn 
+Relationships between secant friction angle, φsec, and normal stress, σn, were 
+investigated using the rockfill shear strength database. This relationship was chosen as it 
+is commonly used in the literature and practice to present and analyse data. The results 
+are discussed in detail below however, it should be noted at the outset that the fits 
+obtained using this statistical analysis were inferior to those obtained using a 
+relationship of maximum principal stress, σ′1, versus minor principal stress, σ′3. This is 
+of particular importance at both low and high confining stress, σ′3.  
+4.5.2.1  General Assessment of Database 
+Figure 4.21 to Figure 4.27 show plots of φsec vs σn with σn plotted on a logarithmic 
+scale. These plots are discussed in turn below. Note that these analyses were carried out 
+for the complete data sets. No parameter (e.g. σc) was estimated for these plots. Where a 
+specific parameter has been investigated a small ‘+’ symbol on a figure represents a test 
+result where the parameter is unknown (except for Figure 4.21).  
+
+=== PÁGINA 31 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.31 
+ 
+q Figure 4.21 φsec vs σn: This figure shows that φsec has a range of approximately 25° 
+for any given value of σn. This shows that the bounds given by Indraratna et al 
+(1993) (equating to a range of about 15°) for this type of plot do not indicate the full 
+range of φsec possible. Their upper bound appears to be too conservative whilst the 
+lower bound, although providing a better fit, has several test results below it. The 
+gradient of the bounds does not appear to be steep enough to adequately describe the 
+variation in φsec relative to σn. 
+q Figure 4.22 φsec vs σn sorted on angularity rating: The addition of angularity rating 
+does not assist greatly with improving the prediction of φsec vs σn. The figure shows 
+that angular rockfill (angrat = 7 or 8) generally lies above sub-angular material 
+(angrat = 5 or 6). However, rounded material (angrat = 1 or 2) lies roughly in the 
+centre of the data with angular material lying both above and below the data. 
+q Figure 4.23 φsec vs σn sorted on rock type = basalt: This was plotted to see the 
+amount of variability there was within one class of rock type. Basalt is used as 
+railway ballast, road base and dam rockfill. A basalt rockfill might be expected to lie 
+at the higher strength end of all rockfills. Although the figure shows this to be true 
+there is still a 10°-15° range in φsec for the material for any given σn. 
+q Figure 4.24 φsec vs σn sorted on coefficient of uniformity, cu: The figure shows that 
+cu does not appear to be a very good additional predictor with data for each cu range 
+generally being well and evenly spread. It could be argued that the lower strength 
+rockfills predominately have high cu values (>12). However, these types of rockfills 
+are spread throughout the full strength range. 
+q Figure 4.25 φsec vs σn sorted on maximum particle size, dmax: This data is also quite 
+scattered although there appears to be a tendancy for high dmax rockfills to result in a 
+higher strength than small dmax rockfills. 
+q Figure 4.26 φsec vs σn sorted on percent fines content: The rockfills with a high fines 
+content (>20%) generally have a lower φsec. Much of the other data, particularly 
+with fines less than 10% is well scattered. 
+
+=== PÁGINA 32 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.32 
+ 
+q Figure 4.27 φsec vs σn sorted on unconfined compressive strength, σc: Rockfills with 
+a σc of less than 100MPa appear to have lower strengths than those greater than 
+100MPa. It is difficult to discern any real difference in the results for rockfills with 
+strengths of 100-200MPa and greater than 200MPa. 
+A general conclusion from the analysis of the graphs may be made that the factors 
+described above do have some effect on the shear strength of rockfill, although none of 
+them stands out as being substantially better than the others as a predictor. It is unwise 
+to estimate strength based solely on these graphs due to the interrelationship between 
+the various factors in the tests. A better statistical analysis is to perform a global 
+analysis of the data using all these factors and assessing whether they are statistically 
+significant. This is performed in the next section. 
+ 
+ 
+ 
+ 
+
+=== PÁGINA 33 ===
+ 
+ 
+Page 4.33 
+ 
+ 
+ 
+Sigma n (kPa)
+Phi secant (deg)
+20
+30
+40
+50
+60
+70
+80
+10
+40
+70
+100
+400
+700 1000
+4000
+7000
+ 
+Figure 4.21.  Secant friction angle, φsec vs normal stress, σn 
+Approximate location of bounds from 
+Indraratna et al (1993) - see Figure 4.4.  
+
+=== PÁGINA 34 ===
+ 
+ 
+Page 4.34 
+ 
+ 
+ 
+Sigma N (kPa)
+Phi sec (deg)
+20
+30
+40
+50
+60
+70
+80
+10
+40
+70
+100
+400
+700
+1000
+4000
+7000
+10000
+angrat=1 or angrat=2
+angrat=3 or angrat=4
+angrat=5 or angrat=6
+angrat=7 or angrat=8
+ 
+Figure 4.22. Secant friction angle, φsec vs normal stress, σn, sorted on angularity rating 
+Note a ‘+’ symbol indicates the 
+angularity rating is unknown 
+for that particular test 
+
+=== PÁGINA 35 ===
+ 
+ 
+Page 4.35 
+ 
+ 
+ 
+Sigma n (kPa)
+Phi sec (deg)
+20
+30
+40
+50
+60
+70
+80
+10
+40
+70
+100
+400
+700
+1000
+4000
+7000
+10000
+type="basalt"
+type="basalt r"
+type="basalt1"
+ 
+Figure 4.23. Secant friction angle, φsec vs normal stress, σn, sorted on rock type = basalt 
+Note a ‘+’ symbol indicates the 
+material is not basalt or is 
+unknown for that particular test 
+
+=== PÁGINA 36 ===
+ 
+ 
+Page 4.36 
+ 
+ 
+ 
+Sigma n (kPa)
+Phi sec (deg)
+20
+30
+40
+50
+60
+70
+80
+10
+40
+70
+100
+400
+700
+1000
+4000
+7000
+10000
+cu<=2
+cu<=6
+cu<=12
+cu>12
+ 
+Figure 4.24. Secant friction angle, φsec vs normal stress, σn, sorted on coefficient of uniformity, cu  
+Note a ‘+’ symbol indicates the 
+coefficient of uniformity is 
+unknown for that particular test 
+
+=== PÁGINA 37 ===
+ 
+ 
+Page 4.37 
+ 
+ 
+ 
+Sigma N (kPa)
+Phi sec (deg)
+20
+30
+40
+50
+60
+70
+80
+10
+40
+70
+100
+400
+700
+1000
+4000
+7000
+10000
+dmax<=20
+dmax<=50
+dmax<=100
+dmax>100
+ 
+Figure 4.25. Secant friction angle, φsec vs normal stress, σn, sorted on maximum particle size, dmax 
+Note a ‘+’ symbol 
+indicates dmax is unknown 
+for that particular test 
+
+=== PÁGINA 38 ===
+ 
+ 
+Page 4.38 
+ 
+ 
+ 
+Sigma n (kPa)
+Phi Sec (deg)
+20
+30
+40
+50
+60
+70
+80
+10
+40
+70
+100
+400
+700
+1000
+4000
+7000
+10000
+fines<=0
+fines<=5
+fines<=10
+fines<=20
+fines>20
+ 
+Figure 4.26. Secant friction angle, φsec vs normal stress, σn, sorted on percent fines (passing 0.075mm) content 
+Note a ‘+’ symbol indicates the 
+fines content is unknown for 
+that particular test 
+
+=== PÁGINA 39 ===
+ 
+ 
+Page 4.39 
+ 
+ 
+ 
+Sigma n (kPa)
+Phi sec (deg)
+20
+30
+40
+50
+60
+70
+80
+10
+40
+70
+100
+400
+700
+1000
+4000
+7000
+10000
+ucs>=200
+ucs>=100
+ucs>0
+ 
+Figure 4.27. Secant friction angle, φsec vs normal stress, σn, sorted on unconfined compressive strength of the rock substance, UCS (MPa) 
+Note a ‘+’ symbol indicates the 
+UCS of the intact particles is 
+unknown for that particular test 
+
+=== PÁGINA 40 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.40 
+ 
+4.5.2.2  Statistical Analysis of Database 
+A non-linear statistical analysis was carried out on the database. The estimation method 
+used was least squares. An analysis of the form shown below was found to be the most 
+effective for relating φ to σn. 
+ 
+c
+n
+b
+a
+σ
+φ
+′
++
+=
+′
+ 
+(4.20) 
+The analysis resulted in the following constants: 
+(
+)
+(
+)
+150
+0459
+.0
+2
+756
+.0
+172
+.0
+267
+.0
+43
+.
+36
+−
++
+−
++
+−
+−
+=
+UCS
+c
+FINES
+ANG
+a
+c
+ 
+(4.21) 
+(
+)
+(
+)
+150
+408
+.0
+2
+105
+.5
+549
+.0
+27
+.
+10
+51
+.
+69
+−
+−
+−
+−
++
++
+=
+UCS
+c
+FINES
+ANG
+b
+c
+-0.408 
+(4.22) 
+3974
+.0
+−
+=
+c
+  
+ 
+ 
+(4.23) 
+where, 
+(
+)
+5
+−
+=
+rating
+angularity
+ANG
+ for angularity rating >5.5; otherwise 0 
+FINES = percentage of fines passing 0.075mm (%) 
+cc = coefficient of curvature 
+UCS = unconfined compressive strength of the rock substance (MPa) 
+This function resulted in a variance explained of just 61.7%. It should be noted that the 
+addition of the uniformity coefficient, cu, and the maximum and minimum particle sizes, 
+dmax and dmin, did not result in a better fit to the data. As the φ vs σn curve is 
+unconstrained at both low and high σn it is unlikely that a reasonable fit will be found 
+regardless of the function used. Due to the relatively poor statistical results it was 
+decided to proceed with an analysis using principal stresses. 
+ 
+ 
+
+=== PÁGINA 41 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.41 
+ 
+4.5.3  Maximum Principal Stress, σ′1, versus Minimum Principal Stress, σ′3 
+The analysis using φsec vs σn gave poor results. In this section principal stresses are 
+used. These are constrained at σ′3=0, σ′1=0. A non-linear statistical analysis was carried 
+out on the database. The estimation method used was least squares. An analysis of the 
+form shown in Equation 4.24 was found to be the most effective for relating σ′1 to σ′3. 
+ 
+α
+σ
+σ
+3
+1
+′
+=
+′
+RFI
+ 
+(4.24) 
+An initial analysis on the whole database (988 data sets) found (Variance explained = 
+97.13%): 
+ 
+RFI = 4.7002 
+ 
+α 
+= 0.8972 
+To determine which parameters affected RFI, the analysis was carried out iteratively. 
+The analysis was carried out using a parameter in the database as a predictor of RFI 
+(e.g. σc). After each analysis the residuals were plotted against the parameters in the 
+database. Where a trend was noted for a particular parameter another analysis was 
+carried out using that additional parameter. The analysis resulted in the following 
+equations (based on 869 data sets and with a variance explained = 98.82%): 
+8726
+.0
+=
+α
+ 
+UCS
+FINES
+d
+ANG
+e
+RFI
+RFI
+RFI
+RFI
+RFI
+RFI
+30598
+.0
+1568
+.1
+0027
+.0
+48763
+.0
+3491
+.6
+max
++
+−
+−
++
+=
+ 
+ 
+ 
+ 
+ 
+ 
+(4.25) 
+i
+e
+e
+RFI
++
+= 1
+1
+  
+ 
+ 
+(4.26) 
+0
+otherwise
+ 
+angular,
+ 
+if
+  
+1
+=
+=
+ANG
+RFI
+ 
+ 
+(4.27) 
+max
+max
+d
+RFI d
+=
+(mm) 
+ 
+(4.28) 
+(
+)
+(
+)
+20
+Fines
+20
+Fines
+1
+−
+−
++
+=
+e
+e
+RFI FINES
+  where fines is in % 
+ 
+(4.29) 
+(
+)
+(
+)
+110
+UCS
+110
+UCS
+1
+−
+−
++
+=
+e
+e
+RFIUCS
+  where UCS is in MPa 
+ 
+(4.30) 
+ 
+ 
+
+=== PÁGINA 42 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.42 
+ 
+Equation 4.29 and 4.30 are effectively smooth “step” functions that are ameniable to 
+equation solving routines.  
+Figure 4.28 shows the variation of RFIe with initial void ratio. This shows that an 
+increase in initial void ratio will lead to a decrease in σ′1 and shear strength. 
+Highly angular rockfill (angularity rating = 8) showed an increase in strength. There 
+was no noticeable trend for less angular rockfill (angularity rating ≤ 7) and hence 
+Equation 4.27 was chosen. 
+The strength of the rockfill (σ′1) was found to be proportional to the maximum particle 
+size (Equation 4.28). 
+The unconfined compressive strength, σc, was found to have a limited effect on the 
+strength of the rockfill. Generally strengths below a σc of 100MPa had similar strengths, 
+as did those with σc greater than 120MPa. Equation 4.30 acts as a switch at a σc around 
+110MPa. Below a σc of 110MPa the function rapidly approaches zero and above a σc of 
+110MPa the function rapidly approaches unity (Figure 4.29). 
+The fines content was found to only affect the strength of the rockfill where the fines 
+content was greater than approximately 20%. Equation 4.29 acts as a switch at a fines 
+content around 20%. Below a fines content of 20% the function rapidly approaches zero 
+and above a fines content of 20% the function rapidly approaches unity (Figure 4.30). 
+
+=== PÁGINA 43 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.43 
+ 
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+0
+0.2
+0.4
+0.6
+0.8
+1
+Void Ratio
+RFIe
+ 
+Figure 4.28. RFIe versus void ratio 
+0
+0.2
+0.4
+0.6
+0.8
+1
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+UCS (MPa)
+RFIUCS
+ 
+Figure 4.29.  RFIUCS versus unconfined compressive strength 
+
+=== PÁGINA 44 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.44 
+ 
+0
+0.2
+0.4
+0.6
+0.8
+1
+0
+5
+10
+15
+20
+25
+30
+35
+40
+FINES (%)
+RFIFINES
+ 
+Figure 4.30.  RFIFINES versus percent fines 
+ 
+The residuals versus unconfined compressive strength, maximum particle size, initial 
+void ratio, angularity and fines content are shown on Figure 4.31 to Figure 4.35 
+respectively. These figures shown no discernible trend from which it can be assumed 
+that the equations provided above are reasonable over the range of the data. 
+Figure 4.36 shows the residuals plotted against sample diameter. The lack of any major 
+trend in the data suggests that sample diameter does not have a large effect on rockfill 
+strength at least up to diameters of about 1.2m. This suggests that the process of scaling 
+using parallel grading lines when testing rockfill for use in the field is valid and should 
+not affect the results. Note however, that if fines are increased due to the scaling 
+strength (σ′1) may be reduced. 
+Figure 4.37 to Figure 4.41 show the effect that a change in unconfined compressive 
+strength, angularity, fines content, maximum particle size and initial void ratio have on 
+σ′1 respectively. 
+
+=== PÁGINA 45 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.45 
+ 
+Figure 4.42 shows the data used in the analysis together with lines representing RFI=7 
+(approximate upper bound), RFI=4.7 (approximate best estimate) and RFI=3 
+(approximate lower bound). Figure 4.43 shows the same plot with all the data in the 
+database plotted. It shows that the bounds are still reasonable and that the data left out 
+of the analysis (due to insufficient information) would not have changed the results 
+significantly. Figure 4.44 shows the same plot for a stress range (σ′3) up to 1.5MPa. 
+ 
+ 
+ 
+
+=== PÁGINA 46 ===
+ 
+ 
+Page 4.46 
+ 
+ 
+ 
+-3
+-2
+-1
+0
+1
+2
+3
+0
+100
+200
+300
+400
+500
+600
+700
+800
+UCS (MPa)
+Residuals (MPa)
+ 
+Figure 4.31 Residuals versus unconfined compressive strength of intact rock 
+
+=== PÁGINA 47 ===
+ 
+ 
+Page 4.47 
+ 
+ 
+ 
+-3
+-2
+-1
+0
+1
+2
+3
+0
+50
+100
+150
+200
+250
+Dmax (mm)
+Residuals (MPa)
+ 
+Figure 4.32.  Residuals versus dmax 
+
+=== PÁGINA 48 ===
+ 
+ 
+Page 4.48 
+ 
+ 
+ 
+-3
+-2
+-1
+0
+1
+2
+3
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+Void Ratio
+Residuals (MPa)
+ 
+Figure 4.33.  Residuals versus void ratio 
+
+=== PÁGINA 49 ===
+ 
+ 
+Page 4.49 
+ 
+ 
+ 
+-3
+-2
+-1
+0
+1
+2
+3
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Angularity Rating
+Residuals (MPa)
+2 - Rounded
+4 - Sub-rounded
+6 - Sub-angular
+8 - Angular
+ 
+Figure 4.34.  Residuals versus angularity rating 
+
+=== PÁGINA 50 ===
+ 
+ 
+Page 4.50 
+ 
+ 
+ 
+-3
+-2
+-1
+0
+1
+2
+3
+0
+5
+10
+15
+20
+25
+30
+35
+40
+Fines (%)
+Residuals (MPa)
+ 
+Figure 4.35.  Residuals versus fines content 
+
+=== PÁGINA 51 ===
+ 
+ 
+Page 4.51 
+ 
+ 
+ 
+-3
+-2
+-1
+0
+1
+2
+3
+0
+200
+400
+600
+800
+1000
+1200
+Sample diameter (mm)
+Residuals (MPa)
+ 
+Figure 4.36.  Residuals versus sample diameter 
+
+=== PÁGINA 52 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.52 
+ 
+0
+5
+10
+15
+20
+0
+1
+2
+3
+4
+5
+σ3 (MPa)
+σ1
+(MPa)
+UCS = 50MPa
+UCS = 110MPa
+UCS = 200MPa
+Angularity = 7
+Fines = 0%
+dmax = 60
+Void ratio = 0.4
+ 
+Figure 4.37.  Effect of unconfined compressive strength on σ′1 
+0
+5
+10
+15
+20
+0
+1
+2
+3
+4
+5
+σ3 (MPa)
+σ1
+(MPa)
+Angularity = 7
+Angularity = 8
+UCS = 100 MPa
+Fines = 0%
+dmax = 60
+Void ratio = 0.4
+ 
+Figure 4.38.  Effect of angularity on σ′1 (7 = sub-angular to angular; 8 = angular) 
+
+=== PÁGINA 53 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.53 
+ 
+0
+5
+10
+15
+20
+0
+1
+2
+3
+4
+5
+σ3 (MPa)
+σ1
+(MPa)
+Fines = 40%
+Fines = 20%
+Fines = 0%
+UCS = 100 MPa
+Angularity = 7
+dmax = 60
+Void ratio = 0.4
+ 
+Figure 4.39.  Effect of fines content on σ′1 
+0
+5
+10
+15
+20
+0
+1
+2
+3
+4
+5
+σ3 (MPa)
+σ1
+(MPa)
+dmax = 200
+dmax = 100
+dmax = 5
+UCS = 100 MPa
+Angularity = 7
+Fines = 0%
+Void ratio = 0.4
+ 
+Figure 4.40.  Effect of maximum particle size on σ′1 
+
+=== PÁGINA 54 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.54 
+ 
+0
+5
+10
+15
+20
+0
+1
+2
+3
+4
+5
+σ3 (MPa)
+σ1
+(MPa)
+e = 0.8
+e = 0.5
+e = 0.2
+UCS = 100 MPa
+Angularity = 7
+Fines = 0%
+dmax = 60
+ 
+Figure 4.41.  Effect of initial void ratio on σ′1 
+
+=== PÁGINA 55 ===
+ 
+ 
+Page 4.55 
+ 
+ 
+ 
+0
+5
+10
+15
+20
+25
+30
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+σ3 (MPa)
+σ1 (MPa)
+RFI = 7
+RFI = 3
+RFI = 4.7
+ 
+Figure 4.42.  σ′1 vs σ′3 showing data used in analysis and RFI relationship 
+
+=== PÁGINA 56 ===
+ 
+ 
+Page 4.56 
+ 
+ 
+ 
+0
+5
+10
+15
+20
+25
+30
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+σ3 (MPa)
+σ1 (MPa)
+RFI = 7
+RFI = 3
+RFI = 4.7
+ 
+Figure 4.43.  σ′1 vs σ′3 showing all data and RFI relationship 
+
+=== PÁGINA 57 ===
+ 
+ 
+Page 4.57 
+ 
+ 
+ 
+0
+2
+4
+6
+8
+10
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+1.1
+1.2
+1.3
+1.4
+1.5
+σ3 (MPa)
+σ1 (MPa)
+RFI = 7
+RFI = 3
+RFI = 4.7
+ 
+Figure 4.44.  σ′1 vs σ′3 showing all data and RFI relationship (σ′3 up to 1.5MPa)
+
+=== PÁGINA 58 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.58 
+ 
+4.5.3.1 Secant Friction Angle Versus Normal Stress 
+Figure 4.37 to Figure 4.41 are replotted as curves for φsec vs σn by using the following 
+equations: 
+ 
+
+
+
+
+
+
+′
++
+′
+′
+−
+′
+=
+−
+3
+3
+3
+3
+1
+sec
+sin
+σ
+σ
+σ
+σ
+φ
+α
+α
+RFI
+RFI
+ 
+(4.31) 
+ 
+1
+3
+sec
+cos
++
+′
+=
+α
+σ
+φ
+σ
+RFI
+n
+ 
+(4.32) 
+Table 4.8 shows the variation in φsec due to changes in various parameters for σn=1MPa 
+and 0.5MPa. These give some idea of the influence of different parameters on the secant 
+friction angle. Note that these friction angles are based on assumptions as shown on 
+Figure 4.45 to Figure 4.49. The values chosen for the parameters are realistic upper and 
+lower bounds from the database. 
+Table 4.8.  Changes in φsec on Figure 4.45 to Figure 4.49 for σn=1MPa and σn = 
+0.5MPa 
+σn = 0.1MPa 
+σn = 0.5MPa 
+σn = 1MPa 
+Parameter 
+Value 
+φsec 
+(°) 
+Change in 
+φ with 
+increase in 
+parameter 
+φsec 
+(°) 
+Change in 
+φ with 
+increase in 
+parameter 
+φsec 
+(°) 
+Change in 
+φ with 
+increase in 
+parameter 
+50 
+46.8 
+42.2 
+40.3 
+σc (MPa) 
+200 
+48.1 
++1.3 
+43.6 
++1.4 
+41.8 
++1.5 
+1-7 
+46.7 
+42.2 
+40.3 
+Angularity 
+rating 
+8 
+48.8 
++2.1 
+44.4 
++2.2 
+42.6 
++2.3 
+0 
+46.7 
+42.2 
+40.3 
+Fines content 
+(%) 
+20 
+43.9 
+-2.8 
+39.1 
+-3.1 
+36.9 
+-3.4 
+50 
+47.0 
+42.4 
+40.4 
+Maximum 
+particle size 
+(mm) 
+200 
+44.8 
+-2.2 
+40.3 
+-2.1 
+38.3 
+-2.1 
+0.2 
+49.9 
+45.5 
+43.7 
+Initial void ratio 
+0.6 
+43.5 
+-6.4 
+36.4 
+-9.1 
+34.2 
+-9.5 
+ 
+ 
+
+=== PÁGINA 59 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.59 
+ 
+30
+35
+40
+45
+50
+0
+2
+4
+6
+8
+σn (MPa)
+φsec
+UCS = 50MPa
+UCS = 200MPa
+Angularity = 7
+Fines = 0%
+dmax = 60
+Void ratio = 0.4
+ 
+Figure 4.45.  Effect of unconfined compressive strength on φsec 
+30
+35
+40
+45
+50
+0
+2
+4
+6
+8
+σn (MPa)
+φsec
+Angularity = 7
+Angularity = 8
+UCS = 100MPa
+Fines = 0%
+dmax = 60
+Void ratio = 0.4
+ 
+Figure 4.46.  Effect of angularity on φsec (7 = sub-angular to angular; 8 = angular) 
+
+=== PÁGINA 60 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.60 
+ 
+20
+25
+30
+35
+40
+45
+50
+0
+2
+4
+6
+8
+σn (MPa)
+φ
+Fines = 0%
+Fines = 20%
+Fines = 40%
+UCS = 100MPa
+Angularity = 7
+dmax = 60
+Void ratio = 0.4
+ 
+Figure 4.47.  Effect of fines content on φsec 
+30
+35
+40
+45
+50
+0
+2
+4
+6
+8
+σn (MPa)
+φ
+dmax = 5
+dmax = 100
+dmax = 200
+UCS = 100MPa
+Angularity = 7
+Fines = 0%
+Void ratio = 0.4
+ 
+Figure 4.48.  Effect of maximum particle size on φsec 
+
+=== PÁGINA 61 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.61 
+ 
+20
+25
+30
+35
+40
+45
+50
+0
+2
+4
+6
+8
+σn (MPa)
+φ
+e = 0.2
+e = 0.4
+e = 0.6
+UCS = 100MPa
+Angularity = 7
+Fines = 0%
+dmax = 60
+ 
+Figure 4.49.  Effect of initial void ratio on φsec 
+4.5.4  Hoek-Brown Criterion 
+The author considers that rockfill could represent a very poor quality rockmass. As such 
+an analysis of the database using the Hoek-Brown criterion was performed. The results 
+from this analysis could then be used as a lower bound rock mass strength estimator. 
+The statistical analysis was carried out for data where the UCS was known. This 
+resulted in a sample of 409 triaxial tests. Two approaches were used: one where the 
+variables are σ′3 and the dependent variable σ′1; and the other where the variables are 
+σ′3/σc and the dependent variable σ′1/σc. Similar analyses to those discussed previously 
+were carried out i.e. non-linear, quasi-Newton with a loss function of (observed – 
+predicted)2. A further analysis was carried out where the estimated values of the UCS of 
+the intact rock were used where no UCS was recorded for the sample. 
+The ability of the Hoek-Brown criterion to estimate the shear strength of rockfill (and 
+subsequently poor quality rock mass) was performed by assuming typical Hoek-Brown 
+parameters of s = 0 and a = 0.6. This was compared with a further analyses where a was 
+defined as a parameter. The results from the analyses are shown in Table 4.9. 
+
+=== PÁGINA 62 ===
+The Shear Strength of Rockfill 
+ 
+Page 4.62 
+ 
+Table 4.9 and Figure 4.50 show that if the recommended Hoek-Brown parameters are 
+used a poor fit results. Due to the enforced curvature (a = 0.6), σ′1 is overpredicted at 
+low σ′3 and under predicted at high σ′3. Much better fits (Table 4.9 and Figure 4.50) are 
+obtained where a was a parameter. These analyses showed that an a of 0.90 to 0.95 was 
+much more suitable for rockfill. Similarly to intact rock, the interrelation between a and 
+mb is also illustrated by the results in Table 4.9. 
+The conclusion from the point of view of rock masses is that a is too constrained in the 
+current Hoek-Brown criterion. Modifications need to be made such that the exponent, a, 
+towards a value of 0.90-0.95 for poor quality rockfill. 
+A look at the forms of the equations used shows that the method of fitting is very 
+important to the results obtained. In this case, non-dimensionalising the equations 
+resulted in a better variance explained. 
+Table 4.9.  Results from the statistical analysis of the rockfill database using the 
+Hoek-Brown equation 
+Form of equation 
+Data sets 
+mb 
+a 
+Variance explained 
+6.0
+3
+3
+1
+0
+
+
+
+
+
++
+′
++
+′
+=
+′
+c
+b
+c
+m
+σ
+σ
+σ
+σ
+σ
+405 
+σci known 
+0.42929 
+0.6 
+(input) 
+88.95% 
+a
+c
+b
+c
+m
+
+
+
+
+
+
++
+′
++
+′
+=
+′
+0
+3
+3
+1
+σ
+σ
+σ
+σ
+σ
+ 
+405 
+σci known 
+2.40706 
+0.89999 
+97.40% 
+6.0
+3
+3
+1
+0
+
+
+
+
+
++
+′
++
+′
+=
+′
+c
+b
+c
+c
+m σ
+σ
+σ
+σ
+σ
+σ
+ 
+405 
+σci known 
+0.75486 
+0.6 
+(input) 
+90.93% 
+a
+c
+b
+c
+c
+m
+
+
+
+
+
+
++
+′
++
+′
+=
+′
+0
+3
+3
+1
+σ
+σ
+σ
+σ
+σ
+σ
+ 
+405 
+σci known 
+2.71833 
+0.94877 
+98.73% 
+a
+c
+b
+c
+m
+
+
+
+
+
+
++
+′
++
+′
+=
+′
+0
+3
+3
+1
+σ
+σ
+σ
+σ
+σ
+ 
+988 
+σci estimated 
+where 
+unknown 
+2.39551 
+0.8954 
+97.42% 
+
+=== PÁGINA 63 ===
+ 
+ 
+Page 4.63 
+ 
+ 
+ 
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.00
+0.02
+0.04
+0.06
+0.08
+0.10
+0.12
+0.14
+σ3/σc
+σ1/σc
+6.0
+3
+3
+1
+75486
+.0
+
+
+
+
+
+
++
+=
+c
+c
+c
+σ
+σ
+σ
+σ
+σ
+σ
+94877
+.0
+3
+3
+1
+71833
+.2
+
+
+
+
+
+
++
+=
+c
+c
+c
+σ
+σ
+σ
+σ
+σ
+σ
+ 
+Figure 4.50.  Statistical analysis results using Hoek-Brown formula and for a = 0.6 and a = 0.95
+
+=== PÁGINA 64 ===
+ 
+ 
+Page 4.64 
+ 
+4.6  CONCLUSION 
+This chapter presented an overview of the strength of rockfill. An analysis of a large 
+database of test results was used to develop two new shear strength equations, one 
+relating the secant friction angle and normal stress and the other the principal stresses. 
+The equation for principal stresses provided a much better fit to the data and is 
+recommended. Of the parameters statistically investigated, the unconfined compressive 
+strength, particle angularity, fines content, maximum particle size and void ratio were 
+found to have the most significant effect on the shear strength of rockfill. 
+An analysis using the database and the Hoek-Brown criterion demonstrated that the 
+criterion provided a poor fit to the rockfill data due to the restrictions placed on the 
+exponent a of approximately 0.6. A good fit was obtained where a was free to vary up 
+to unity (a value of 0.9 to 0.95 was obtained). This has important implications for the 
+use of the Hoek-Brown criterion for very poor quality rock masses. 
+ 

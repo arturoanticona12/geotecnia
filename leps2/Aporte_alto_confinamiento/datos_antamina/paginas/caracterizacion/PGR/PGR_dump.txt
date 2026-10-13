@@ -1,0 +1,27 @@
+
+===== SLIDE 1 =====
+[5 PLACEHOLDER (14) 'Marcador de texto 2'] TEXT: Ensayos Geotécnicos  LE2  | 
+[3 TEXT_BOX (17) 'CuadroTexto 2'] TEXT: Geotecnia e Hidrogeología PDN
+
+===== SLIDE 2 =====
+[5 PICTURE (13) 'Imagen 4'] PICTURE -> PGR_s02_5.png ((1498, 865)) 9.4x6.4 in
+[2 PLACEHOLDER (14) 'Título 1'] TEXT: 1. Ubicación Ensayos Geotécnicos LE2
+[18 GROUP (6) 'Grupo 17']
+  [12 TEXT_BOX (17) 'CuadroTexto 11'] TEXT: UCS | BT | CD | PLI
+[20 TEXT_BOX (17) 'CuadroTexto 19'] TEXT: Tajo LE2
+[3 TEXT_BOX (17) 'CuadroTexto 2'] TEXT: Nota: Solo  ensayos desde la configuración del plan minero 2036 hacia abajo.
+
+===== SLIDE 3 =====
+[8 PICTURE (13) 'Imagen 7'] PICTURE -> PGR_s03_8.png ((1198, 865)) 8.9x6.4 in
+[2 PLACEHOLDER (14) 'Título 1'] TEXT: 1. Ubicación Datos de RMR, RQ y FF LE2
+[20 TEXT_BOX (17) 'CuadroTexto 19'] TEXT: Tajo LE2
+[3 TEXT_BOX (17) 'CuadroTexto 2'] TEXT: Nota: Solo  tramos de RMR  desde la configuración del plan minero 2036 hacia abajo.
+[9 TEXT_BOX (17) 'CuadroTexto 8'] TEXT: 100
+[10 TEXT_BOX (17) 'CuadroTexto 9'] TEXT: 0
+
+===== SLIDE 4 =====
+[2 PLACEHOLDER (14) 'Título 1'] TEXT: 2. Resumen Parámetros Geotécnicos L2
+[6 PICTURE (13) 'Imagen 5'] PICTURE -> PGR_s04_6.wmf ((1262, 660)) 11.8x6.2 in
+
+===== SLIDE 5 =====
+[3 PLACEHOLDER (14) 'Título 2'] TEXT: Gracias por su participación

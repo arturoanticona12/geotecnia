@@ -1,0 +1,14 @@
+﻿fuente_id,autor,anio,titulo,tipo,archivo
+G2010,Golder Associates,2010,Caracterización ROM IPCC,primaria,Golder_2010_ROM_verificado.csv
+G2012,Golder Associates / IDIEM,2012,Triaxiales gran escala en mármol negro (Doc. 446; IDIEM 708.397-A),primaria,Golder_2012_marmol_verificado.csv
+G2021,Golder Associates,2021,Ensayos de laboratorio commingling,primaria,Golder_2021_commingling_verificado.csv
+W2022,WSP / IDIEM / Golder / USC,2022,"Pruebas de enrocado 3B a gran escala, hornfels (deformación)",primaria,WSP_2022_hornfels3B_verificado.csv
+W2024,WSP / IDIEM,2024,Ensayos gran escala mezcla co-disposición (Fase 1),primaria,WSP_2024_codisposicion_verificado.csv
+I2025,IDIEM (para WSP),2025,Triaxiales gran escala Codisposal 100 % intrusivo (Fases 2–3),primaria,IDIEM_2025_verificado.csv
+A2024,Anddes Geolab,2024,Triaxial CU 6 in (solicitud EPE-23.10.141),primaria,ensayos_triaxial_CU_verificado.csv
+A2024DS,Anddes Geolab,2024,Corte directo de gran escala LSDS,primaria,ensayos_corte_directo_verificado.csv
+LE2,Antamina,2025,"Resultados parámetros geotécnicos LE2 (03-09-2025), núcleos por RMU",primaria (roca),indices_roca_LE2.csv
+FRAG,Antamina,2025,Fragmentación desmonte 2025 (análisis por fotos),primaria (campo),fragmentacion.csv
+MR24,Antamina,2024,Modelo de bloques MR2024 y sondajes LE2 (proporción y propiedades por litología),primaria (modelo),litologias_proporcion.csv
+S2023,Stantec,2023,Láminas A.5.4 y A.5.5: interpretación antigua,histórica (no se usa),—
+OV2020,Ovalle et al.,2020,"Compilación de triaxiales grandes (Zenodo 3625778), no Antamina",externa,Ovalle_2020.csv

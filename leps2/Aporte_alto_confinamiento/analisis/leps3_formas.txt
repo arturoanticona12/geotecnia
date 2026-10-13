@@ -1,0 +1,15 @@
+
+sets 47, publicaciones 13
+  Potencia (Leps 2.0): 16 puntos de grilla (13 s)
+  Bolton con piso: 80 puntos de grilla (106 s)
+  Decaimiento a φcs: 64 puntos de grilla (170 s)
+  Piso suave (v1): 64 puntos de grilla (231 s)
+
+LOPO (parámetro global elegido sin la publicación evaluada; criterio: mínimo error cuadrático medio en ln q):
+  Potencia (Leps 2.0)    parámetro (todos): (np.float64(0.87),) | σn≥2: sesgo  +1.0 % EAM  7.3 % | σn≥3: sesgo  -3.8 % EAM  8.4 % (n=26) | rango elegido: (np.float64(0.87),)–(np.float64(0.88),)
+  Bolton con piso        parámetro (todos): (26, 80) | σn≥2: sesgo  +2.8 % EAM  8.0 % | σn≥3: sesgo  -0.2 % EAM  9.3 % (n=26) | rango elegido: (26, 80)–(34, 12)
+  Decaimiento a φcs      parámetro (todos): (26, 0.3) | σn≥2: sesgo  +1.0 % EAM  7.0 % | σn≥3: sesgo  -2.1 % EAM  8.2 % (n=26) | rango elegido: (26, 0.3)–(32, 0.45)
+  Piso suave (v1)        parámetro (todos): (26, 60) | σn≥2: sesgo  +1.0 % EAM  7.9 % | σn≥3: sesgo  -2.0 % EAM  9.6 % (n=26) | rango elegido: (26, 60)–(34, 4)
+
+Interacción con moderador independiente (φ'1 predicho por calidad y e, no por los ensayos): término -0.473 °/década por grado, IC 90 % [-0.759, -0.186]
+

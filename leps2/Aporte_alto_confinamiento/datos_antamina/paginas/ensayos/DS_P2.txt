@@ -1,0 +1,353 @@
+=== PAGE 1 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+    
+161,1
+kPa
+36,0
+grados
+0,63
+169,2
+kPa
+34,9
+grados
+0,61
+Realizado por:
+Revisado por:
+Autorizado por:
+J. Soto
+J. Gaspar
+C. Soto
+Nota: gráfica sin escala
+Cohesión:
+Ángulo de fricción:
+Observaciones
+Los ensayos fueron realizados en las instalaciones de Anddes Geolab.
+N° de solicitud
+EPE-23.10.141
+11-GEO-01-FOR-2043 / V0 / 02-08-2024
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D3080 / D3080M-23
+Nombre del proyecto
+Cliente
+Ubicación del proyecto
+Código de muestra
+Profundidad (m)
+Zona
+Descripción
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+Pilas Experimetales Medio Ambiente
+Intrusivo
+Las muestras han sido proporcionadas e identificadas por el solicitante. 
+--
+Espécimen
+Fijado (superior)
+Intrusivo Pilas Experimetales Medio Ambiente
+Capa de Drenaje
+1019,2
+50
+47
+40
+Estrato inferior
+Nota: gráfica sin escala
+Nº 
+ensayo
+1
+349,1
+Solicitado por
+Contacto del cliente
+Nº 
+ensayo
+1
+2
+3
+300
+600
+Condición
+Capa de Drenaje
+Condiciones del ensayo
+Envolvente de esfuerzos
+(Valores pico)
+Esfuerzo 
+normal
+(kPa)
+Esfuerzo 
+de corte
+(kPa)
+Ángulo secante 
+de fricción
+(grados)
+1200
+353,9
+633,7
+Estrato superior
+Esfuerzo 
+normal
+(kPa)
+Esfuerzo 
+de corte
+(kPa)
+Ángulo secante 
+de fricción
+(grados)
+Envolvente de esfuerzos
+(6,6 cm  de desplazamiento)
+49
+300
+Coeficiente de fricción:
+Ángulo de fricción:
+Cohesión:
+600
+1200
+Coeficiente de fricción:
+2
+3
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad con normas de 
+productos o como certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El laboratorio no se hace responsable por la 
+información suministrada por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+Información suministrada por el cliente
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D 
+Lote 12A Urb. El Retablo Comas. Lima – Perú
+Método de ensayo
+ASTM D3080/D3080M-23 Standard Test Method for Direct Shear Test of Soils Under Consolidated Drained Conditions
+Fecha de recepción de la muestra
+Fechas de inicio / fin del ensayo
+No. de informe de ensayo
+No. páginas
+Fecha de emisión
+Descripción del ítem
+1 de 2
+2024-10-30
+Suelo
+2024-09-03
+2024-10-05 / 2024-10-15
+EPE-23.10.141_5,6,7,8,9,10_110_R0_SUCS
+2023
+MP2 - A - M-1, MP2 - A - M-2, MP2 - A - M-3, MP2 - 
+A - M-4, MP2 - A - M-5, MP2 - H - Material A
+Gary Olivo
+--
+Antamina
+N° de proyecto
+N° de muestra
+San Marcos - Ancash
+Pila 02
+40
+46
+631,7
+991,5
+0
+200
+400
+600
+800
+1000
+1200
+0
+200
+400
+600
+800
+1000
+1200
+1400
+Esfuerzo de corte (kPa)
+Esfuerzo normal (kPa)
+0
+200
+400
+600
+800
+1000
+1200
+0
+200
+400
+600
+800
+1000
+1200
+1400
+Esfuerzo de corte (kPa)
+Esfuerzo normal (kPa)
+
+=== PAGE 2 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+    
+SUCS
+GW-GM
+Inicio
+Final
+Inicio
+Final
+Inicio
+Final
+Altura 
+(cm)
+17,8
+17,1
+17,8
+16,8
+17,8
+16,3
+Diámetro / Lado
+(cm)
+30,5
+30,5
+30,5
+30,5
+30,5
+30,5
+Contenido de agua
+(%)
+11,10
+11,70
+11,10
+11,40
+11,10
+10,90
+Densidad seca       
+(g/cm3)
+1,831
+1,907
+1,831
+1,941
+1,831
+1,995
+Condiciones estándar:
+1.
+Velocidad de desplazamiento de corte: 0,5 mm/min
+2.
+La separación entre cajas de corte fue de 1,0 mm.
+3.
+Los especímenes  fueron saturados durante el ensayo, salvo excepciones.
+4.
+Esfuerzos normales > 35kPa fueron aplicados usando un sistema hidráulico y esfuerzos normales < 35kPa fueron aplicados usando cargas muertas.
+5.
+El ensayo fue terminado después 65 mm de desplazamiento, salvo excepciones
+Orientación del ensayo:
+    Esfuerzo normal
+Realizado por:
+Revisado por:
+Autorizado por:
+J. Soto
+J. Gaspar
+C. Soto
+Cada espécimen de ensayo fue consolidado por 16,0 hrs al esfuerzo normal especificado, luego es aplicado el corte.
+Profundidad (m)
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D3080 / D3080M-23
+N° de solicitud
+EPE-23.10.141
+Código de muestra
+Suelo
+Condicion
+Caja superior (fijo)
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad con normas de 
+productos o como certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El laboratorio no se hace responsable por la 
+información suministrada por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+Cualquier interpretación adicional debe ser realizada por un profesional calificado con experiencia en ingeniería geotécnica.
+Los resultados del ángulo de fricción y cohesion dados, son basados en determinaciones matemáticas.
+Observaciones
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+Nombre del proyecto
+Pila 02
+Caja inferior (móvil)
+Condiciones del ensayo
+Pilas Experimetales Medio Ambiente
+Intrusivo
+Cliente
+Ubicación del proyecto
+N° de proyecto
+N° de muestra
+Solicitado por
+Contacto del cliente
+2023
+MP2 - A - M-1, MP2 - A - M-2, MP2 - A - M-3, MP2 - 
+A - M-4, MP2 - A - M-5, MP2 - H - Material A
+Gary Olivo
+11-GEO-01-FOR-2043 / V0 / 02-08-2024
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D 
+Lote 12A Urb. El Retablo Comas. Lima – Perú
+Información suministrada por el cliente
+Método de ensayo
+ASTM D3080/D3080M-23 Standard Test Method for Direct Shear Test of Soils Under Consolidated Drained Conditions
+Fecha de recepción de la muestra
+2024-09-03
+No. páginas
+2 de 2
+Zona
+Descripción
+--
+--
+Antamina
+Fin del informe
+Descripción
+San Marcos - Ancash
+Estrato inferior
+Intrusivo Pilas Experimetales Medio Ambiente
+Capa de Drenaje
+Fijado (superior)
+Estrato superior
+Espécimen
+Fechas de inicio / fin del ensayo
+2024-10-05 / 2024-10-15
+Fecha de emisión
+2024-10-30
+No. de informe de ensayo
+EPE-23.10.141_5,6,7,8,9,10_110_R0_SUCS
+Descripción del ítem
+Capa de Drenaje
+300 kPa
+600 kPa
+1200 kPa
+0
+200
+400
+600
+800
+1000
+1200
+0,0
+0,5
+1,0
+1,5
+2,0
+2,5
+3,0
+3,5
+4,0
+4,5
+5,0
+5,5
+6,0
+6,5
+7,0
+Esfuerzo de corte (kPa)
+Desplazamiento horizontal   (cm)
+300 kPa
+600 kPa
+1200 kPa
+0
+1
+2
+3
+4
+5
+6
+0,0
+1,0
+2,0
+3,0
+4,0
+5,0
+6,0
+7,0
+Desplazamiento vertical (mm)
+Desplazamiento horizontal   (cm)
+300 kPa
+600 kPa
+1200 kPa
+Intrusivo
+Caja 30,5 x 30,5 cm
+Altura: 17,8 cm
+TM: 1 in.

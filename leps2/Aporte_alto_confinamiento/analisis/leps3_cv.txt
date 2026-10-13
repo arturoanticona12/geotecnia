@@ -1,0 +1,35 @@
+
+ensayos 918, sets 282, publicaciones 39
+
+Parámetros con todos los datos:
+  Leps 2.0 reajustado: φe0 (buena, moderada, baja) = 56.1, 49.7, 45.7 ; ω = 19.8 ; m = 0.816
+  Leps 3.0:            φe0 = 47.3, 44.2, 42.9 ; ω = 7.6 ; φcs = 35.8° ; σcr = 1.5 MPa
+
+Modo A, ajuste y evaluación con todos los datos (error en q = σ1 − σ3):
+  L2pub   σ3 <0.06: sesgo -32.9 % EAM 38.0 % (n=108) | σ3 0.06–0.6: sesgo  -4.7 % EAM 17.1 % (n=499) | σ3 0.6–2: sesgo  +2.2 % EAM 10.8 % (n=221) | σ3 ≥2: sesgo  +4.5 % EAM  9.0 % (n=90)
+  L2fit   σ3 <0.06: sesgo  +3.4 % EAM 33.4 % (n=108) | σ3 0.06–0.6: sesgo  +8.6 % EAM 19.0 % (n=499) | σ3 0.6–2: sesgo  -5.6 % EAM 13.1 % (n=221) | σ3 ≥2: sesgo  -7.2 % EAM 13.8 % (n=90)
+  L3fit   σ3 <0.06: sesgo  +5.9 % EAM 27.3 % (n=108) | σ3 0.06–0.6: sesgo  +3.5 % EAM 17.8 % (n=499) | σ3 0.6–2: sesgo  -0.7 % EAM 13.9 % (n=221) | σ3 ≥2: sesgo  +1.3 % EAM  9.9 % (n=90)
+
+Modo A, validación dejando fuera cada publicación:
+  L2pub   σ3 <0.06: sesgo -32.9 % EAM 38.0 % (n=108) | σ3 0.06–0.6: sesgo  -4.7 % EAM 17.1 % (n=499) | σ3 0.6–2: sesgo  +2.2 % EAM 10.8 % (n=221) | σ3 ≥2: sesgo  +4.5 % EAM  9.0 % (n=90)
+  L2fit   σ3 <0.06: sesgo  +3.6 % EAM 39.3 % (n=108) | σ3 0.06–0.6: sesgo  +9.2 % EAM 20.4 % (n=499) | σ3 0.6–2: sesgo  -5.8 % EAM 13.4 % (n=221) | σ3 ≥2: sesgo  -7.2 % EAM 14.6 % (n=90)
+  L3fit   σ3 <0.06: sesgo +12.9 % EAM 36.1 % (n=108) | σ3 0.06–0.6: sesgo  +4.3 % EAM 19.4 % (n=499) | σ3 0.6–2: sesgo  -0.3 % EAM 14.6 % (n=221) | σ3 ≥2: sesgo  +1.9 % EAM 10.8 % (n=90)
+  (tiempo 55 s)
+
+Modo B: φ'1 de cada set con σ'n ≤ 1.5 MPa, predicción de σ'n ≥ 2 MPa (globales del pliegue sin esa publicación)
+  sets 47, ensayos 67, publicaciones 13
+  m=0.9        σn≥2: sesgo  +8.3 % (por set  +8.5 %) EAM 11.0 % | σn≥3: sesgo  +5.2 % EAM 10.5 % (n=26)
+  m=0.87       σn≥2: sesgo  +0.2 % (por set  +1.2 %) EAM  6.7 % | σn≥3: sesgo  -4.8 % EAM  7.8 % (n=26)
+  L2 m ajust.  σn≥2: sesgo -12.3 % (por set -10.1 %) EAM 13.3 % | σn≥3: sesgo -20.0 % EAM 20.0 % (n=26)
+  Leps 3.0     σn≥2: sesgo  +5.9 % (por set  +5.1 %) EAM  9.3 % | σn≥3: sesgo  +7.9 % EAM  9.9 % (n=26)
+
+Interacción en los datos: Δφ1 = L·(-1.91 -0.558·(φ1,ref − 41°)); IC 90 % del término de interacción [-0.707, -0.434] (negativo: los sets más resistentes pierden más con el esfuerzo)
+
+Leps 3.0 entre pliegues: φcs 34.3–37.3° ; σcr 0.6–2.8 MPa
+  φ'1 = 41°, σ'n =  1.01 MPa: φ's  Leps 2.0 m=0.9 41.0° | m=0.87 41.0° | Leps 3.0 41.0°
+  φ'1 = 41°, σ'n =  3.00 MPa: φ's  Leps 2.0 m=0.9 37.9° | m=0.87 37.0° | Leps 3.0 38.1°
+  φ'1 = 41°, σ'n =  5.00 MPa: φ's  Leps 2.0 m=0.9 36.5° | m=0.87 35.2° | Leps 3.0 37.3°
+  φ'1 = 41°, σ'n =  8.00 MPa: φ's  Leps 2.0 m=0.9 35.3° | m=0.87 33.6° | Leps 3.0 36.8°
+  φ'1 = 41°, σ'n = 10.00 MPa: φ's  Leps 2.0 m=0.9 34.7° | m=0.87 32.8° | Leps 3.0 36.6°
+  φ'1 = 41°, σ'n = 15.00 MPa: φ's  Leps 2.0 m=0.9 33.6° | m=0.87 31.5° | Leps 3.0 36.3°
+

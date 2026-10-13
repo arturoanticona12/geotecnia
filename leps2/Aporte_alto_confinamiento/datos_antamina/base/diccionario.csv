@@ -1,0 +1,22 @@
+﻿tabla,columna,descripcion
+ensayos,id_probeta,Identificador único de la probeta en esta base
+ensayos,id_material,fuente_id|set_id; enlaza con la tabla materiales
+ensayos,tipo_ensayo_std,"Triaxial CD, CD carga-descarga, CU, cíclico + monótono, corte directo CD, edómetro o permeabilidad"
+ensayos,sigma3c_kPa,σ′3 de consolidación
+ensayos,sigma3f_kPa_std / sigma1f_kPa_std,"Esfuerzos efectivos en la falla (en CD, σ′3f = σ′3c)"
+ensayos,q_kPa_std,Desviador en la falla = σ′1f − σ′3f (se corrigió la notación MIT de las hojas IDIEM)
+ensayos,phi_sec_deg_std,Ángulo secante: asin(q/(σ′1+σ′3)) en triaxial; atan(τ/σn) en corte directo
+ensayos,"sigma_n_falla_kPa, tau_falla_kPa",Punto de tangencia aproximado (círculo de Mohr con φ secante); referencia
+ensayos,eps_vol_falla_pct,Deformación volumétrica en la falla; compresión negativa
+ensayos,Bg_pct,Índice de rotura de Marsal = suma de diferencias positivas (Golder 2012 corregido a la mitad)
+ensayos,escala,Clase de diámetro de probeta
+ensayos,"clase_desmonte_std, clase_confianza","ROM, Chancado, Enrocado, Mezcla co-disposición o No indicada; con el respaldo de la asignación"
+ensayos,relave_pct_masa_total,Relave en masa seca total (WSP 2024 corregido: 13.1/10.7/9.0 % en vez de 22/18/15 % nominal)
+ensayos,"e0_adoptado, e0_nota",e0 verificado; corregido cuando el Gs del informe es físicamente incompatible
+ensayos,excluir_envolvente,"Motivo para no usar el ensayo en envolventes (duplicado, falla no alcanzada, no es de resistencia)"
+ensayos,calidad,A: tabla verificada en imagen; B: leído o digitalizado de gráfico; C: otro
+materiales,—,Una fila por set (material ensayado) con condiciones de campo y laboratorio verificadas
+indices_roca,—,"UCS, carga puntual, Los Ángeles, durabilidad, absorción y Gs por litología: Golder 2010 (por fase) y LE2 2025 (por RMU)"
+fragmentacion,—,"319 análisis de fragmentación por fotos del ROM recién volado (fases 8, 9 y 10)"
+litologia_plan,—,Proporción de litologías del desmonte LE2 (modelo de bloques MR2024) por período y fase; códigos pendientes de leyenda
+externos_ovalle2020,—,"158 triaxiales de gran escala (Ovalle et al., 2020); no Antamina; posibles duplicados con otras fuentes chilenas"

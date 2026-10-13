@@ -1,0 +1,102 @@
+=== PAGE 1 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+SI
+NO
+SI
+NO
+Condición de la muestra
+Disturbado
+Revisado por:
+D. Lizana
+C. Soto
+I. Medina
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad 
+con normas de productos o como certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El 
+laboratorio no se hace responsable por la información suministrada por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto 
+con autorización previa y por escrito de Anddes Geolab S.A.C.
+Fin del informe
+Se excluyó algún material del espécimen de ensayo
+Observaciones
+Las muestras han sido proporcionadas e identificadas por el solicitante. 
+Los ensayos fueron realizados en las instalaciones de Anddes Geolab.
+Realizado por:
+Autorizado por:
+Contenido de agua promedio 
+(%)
+3
+Cumple con la masa mínima indicada por el metodo de ensayo
+La muestra de suelo presenta estratificación
+Temperatura de secado a 110 ± 5°C.
+(6) Contenido de agua
+(4/5)*100
+(%)
+3
+(5) Masa suelo seco
+(2) - (3)
+(g)
+7696,0
+(3) Masa recipiente
+(g)
+1431,0
+(4) Masa del agua 
+(1) - (2)
+(g)
+216,0
+(1) Masa recipiente + suelo húmedo
+(g)
+9343,0
+(2) Masa recipiente + suelo seco 
+(g)
+9127,0
+Método de ensayo
+A
+TM (visual)
+3 in.
+N° de prueba
+1
+2
+3
+Fecha de inicio / fin de ensayo
+2024-09-17 / 2024-09-19
+Fecha de emisión
+2024-10-30
+No. de informe de ensayo
+EPE-23.10.141_1,2,3,4_110_R0_CA
+Descripción del ítem
+Suelo
+Descripción
+Mármol + Hornfels
+Método de ensayo
+ASTM D2216 - 19 Standard Test Methods for Laboratory Determination of Water (Moisture) Content of Soil and Rock by Mass
+Fecha recepción de la muestra
+2024-09-03
+No. páginas
+1 de 1
+Profundidad (m)
+--
+Contacto del cliente
+golivos@antamina.com
+Zona
+Pilas Experimetales Medio Ambiente
+Ubicación del proyecto
+San Marcos - Ancash
+N° de muestra
+MP1 - B - M-1, MP1 - B - M2, MP1 - B - M3, MP1 - H - Material B 
+Código de muestra
+Pila 01
+Solicitado por
+Gary Olivo
+Información suministrada por el cliente
+Nombre del proyecto
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+Cliente
+Antamina
+N° de proyecto
+2023
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D2216-19
+N° de solicitud
+EPE-23.10.141
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D 
+Lote 12A Urb. El Retablo Comas. Lima – Perú
+11-GEO-01-FOR-2001 / V1 / 01-07-24

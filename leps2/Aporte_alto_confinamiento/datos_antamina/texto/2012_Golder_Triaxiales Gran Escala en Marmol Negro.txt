@@ -1,0 +1,9910 @@
+
+=== PÁGINA 1 ===
+ 
+ 
+ 
+ 
+ 
+Golder Associates Perú S.A.  
+Edificio Miracorp. Av. La Paz 1049 - Piso 7, Miraflores - Lima 18, Perú  
+Tel: +51 (1) 610 1700  Fax: +51 (1) 610 1720  www.golder.com 
+Golder Associates: Operations in Africa, Asia, Australasia, Europe, North America and South America 
+       
+    Golder, Golder Associates y el logotipo formado por los símbolos GA junto al globo terráqueo son marcas registradas de Golder Associates Corporation.  
+ 
+ 
+1.0 
+INTRODUCTION 
+This Technical Memorandum presents a summary of results from the laboratory testing program carried out to 
+investigate the stress-deformation behaviour and strength of the black marble rockfill that is being used to build 
+Antamina Tailings Dam. The laboratory testing program was performed as part of the ongoing Dam Deformation 
+Study and included specialized, large scale oedometer and triaxial tests on rockfill samples.  The rockfill samples 
+were collected at Antamina as described in Report No. 379, Supervisión de Ensayos y Muestreo de Roca, and 
+sent to the Instituto de Investigación y Ensayos de Materiales (IDIEM) of the University of Chile to be tested.  The 
+large scale triaxial equipment at IDIEM allows the testing of 1-m diameter by 1.8-m high samples, with maximum 
+particle size of 178 mm.  The data and results obtained at IDIEM during the testing program are included in 
+Appendix 1. 
+ 
+2.0 
+LABORATORY TESTING PROGRAM FOR ROCKFILL 
+The laboratory testing program included the following types of tests: 
+ 
+grain size distribution (macro gradation and laboratory gradation); 
+ 
+triaxial, Isotropically Consolidated Drained (CID) tests on 1-m diameter by 1.8-m high samples; 
+ 
+oedometer test on 1-m diameter by 0.9-m high sample; 
+ 
+constant head permeability tests; and 
+ 
+post-test grain size distribution. 
+ 
+3.0 
+PARTICLE SIZE DISTRIBUTION 
+Approximately 16,000 kg of material were used to assess the geotechnical characteristics of the black marble 
+rockfill identified by Antamina as Type C rockfill from Phase 5, Polygon 12022607, elevation 4478. The rockfill 
+ DATE February 7, 2012 
+PROJECT No.
+DOCUMENT No.
+TASK No.
+1014270482C/1194155017P 
+446 
+5082 
+TO Roberto Manrique 
+Compañia Minera Antamina 
+CC 
+FROM
+Adam Darby, Andy Haynes on behalf of  
+ Rafael Davila 
+ 
+EMAIL
+adarby@golder.com 
+SUMMARY OF RESULTS FROM LABORATORY TESTING PROGRAM FOR BLACK MARBLE ROCKFILL 
+FROM ANTAMINA 
+ 
+
+=== PÁGINA 2 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+2/24 
+ 
+material was obtained from angular run-of-the-mine material (Photograph 1). The original material sample 
+contained oversize particles up to 559 mm in size, but was scalped at 178 mm to produce samples for testing 
+with comparable grain size curves. 
+ 
+ 
+Photograph 1: Black Marble Rockfill material. 
+The macro-gradation obtained in the field and the gradation used for the laboratory tests are shown on Figure 1.  
+As shown, the laboratory gradation is a reasonable approximation of the macro-gradation obtained in the field 
+given that the macro- and laboratory gradation curves are similar in shape and uniformity coefficient (Cu). 
+ 
+ 
+Figure 1: Run-of Mine (Macro) gradation and Initial (Laboratory) gradation for large scale triaxial and oedometer tests. 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0.01
+0.1
+1
+10
+100
+1000
+Laboratory gradation ‐Maximum 
+particle size 177.8 mm
+Macro gradation ‐ Maximum 
+particle size 558.8 mm 
+% passing
+Diameter [mm]
+Laboratory 
+Gradation:
+Cu =34.4
+Cc = 4.1
+Macro Gradation: 
+Cu =35.0
+Cc = 2.5
+
+=== PÁGINA 3 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+3/24 
+ 
+4.0 
+ASSESSMENT OF ROCKFILL STRENGTH AND STRESS-DEFORMATION 
+CHARACTERISTICS 
+The strength and stress-deformation characteristics of the black marble rockfill under different stress levels and 
+stress paths were investigated through triaxial compression CID and oedometer tests.  The triaxial tests included 
+paths of monotonic loading and irregular cycles of loading-unloading-reloading.  The latter will be refer to here as 
+unload-reload tests to emphasize that the irregular loading cycles did not include extension loading. 
+Unload-reload tests were chosen as an alternative to fully cyclic tests because the current set-up of the large 
+scale triaxial equipment at IDIEM does not allow extension loads to be applied. Nevertheless, important 
+information regarding the rockfill cyclic behaviour was obtained through the unload-reload tests.  These data will 
+serve as basis for calibrating the numerical models with which the seismic performance of Antamina Tailings 
+Dam will be predicted. 
+ 
+4.1 
+Unconfined Compression Tests 
+The strength of individual black marble rock samples has been previously evaluated through unconfined 
+compression tests on 8 cylindrical specimens (e.g. Photograph 2) as documented in Report No. 379, Supervisión 
+de Ensayos y Muestreo de Roca.  A summary of results from these tests is presented in Table 1. The specific 
+gravity of this rock type was not determined.  Based on the values of unconfined compression strength (UCS) 
+obtained, this material can be classified as R4 and R5 (strong and very strong rock) according to ISRM (1978). 
+ 
+Table 1: Summary of unconfined compression tests for rockfill material analyzed. 
+No. 
+Sample 
+Diameter 
+(cm) 
+Length
+(cm) 
+Slenderness
+(L/D) 
+Correction 
+factor 
+load 
+(kg) 
+Strength 
+σo 
+(kg/cm2) 
+1 
+M1-1 
+4.50 
+9.00 
+2.00 
+1.00 
+8,580 
+540 
+2 
+M1-2 
+4.50 
+9.05 
+2.01 
+1.00 
+17,590 
+1,110 
+3 
+M2-1 
+4.50 
+9.05 
+2.01 
+1.00 
+17,140 
+1,080 
+4 
+M2-2 
+4.50 
+9.01 
+2.00 
+1.00 
+20,880 
+1,310 
+5 
+M3-1 
+4.55 
+9.10 
+2.00 
+1.00 
+9,020 
+560 
+6 
+M3-2 
+4.55 
+9.15 
+2.01 
+1.00 
+10,110 
+620 
+7 
+M4-1 
+4.55 
+9.15 
+2.01 
+1.00 
+22,470 
+1,380 
+8 
+M4-2 
+4.55 
+9.20 
+2.02 
+1.00 
+21,820 
+1,340 
+ 
+
+=== PÁGINA 4 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+4/24 
+ 
+ 
+Photograph 2: Specimens M3-1, M3-2, M4-1 and M4-2 used for the unconfined compression tests 
+4.2 
+Large Scale Triaxial Tests 
+A total of five stress-controlled triaxial CID tests were carried out: two monotonic and three unload-reload tests.  
+All rockfill specimens were prepared to a target dry density of 2.1 t/m3 and then placed into the triaxial chamber 
+where they were saturated and isotropically consolidated to the target testing confining pressures (σ’c) indicated 
+in Table 2.   
+ 
+Table 2: Summary of the triaxial CID tests. 
+Test  
+Type of test 
+Target Confining 
+Pressure, σ’c 
+(kg/cm2) 
+1 
+Monotonic 
+5 
+2 
+Unload-Reload 
+5 
+3 
+Unload-Reload 
+10 
+4 
+Monotonic 
+20 
+5 
+Unload-Reload 
+20 
+ 
+The large scale apparatus used to carry out the triaxial drained (CID), oedometer, and permeability tests is shown 
+in Photograph 3.  
+
+=== PÁGINA 5 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+5/24 
+ 
+ 
+Photograph 3: Large scale triaxial equipment (Contreras 2011) 
+ 
+4.2.1 
+Sample Reconstitution 
+The rockfill specimens were prepared inside a 1-m diameter and 1.8-m high mould. Two rubber membranes (5-
+mm thickness) were first attached to the mould.  The membranes were then covered with layers of non-woven 
+geotextile to prevent the membranes from being punctured by the rockfill material. Rockfill material was then 
+placed and compacted in 0.3-m thick layers with a small vibrating tamper (Photograph 4) to achieve a dry density 
+of 2.1 t/m3.  Six layers of dry rockfill were used to construct the specimens.  Once the sample was prepared, it 
+was subjected to a vacuum pressure of 0.3 kg/cm2 and the mould was removed.  The sample was finally placed 
+inside the triaxial chamber using a crane (Photograph 5). 
+ 
+
+=== PÁGINA 6 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+6/24 
+ 
+ 
+Photograph 4: Compaction of specimen 
+ 
+ 
+Photograph 5: Placement of the specimen in the triaxial chamber 
+
+=== PÁGINA 7 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+7/24 
+ 
+ 
+4.2.2 
+Saturation of the Specimen 
+After placing the specimen in the triaxial chamber, the vacuum pressure was replaced by chamber pressure and 
+CO2 was circulated for 24 hours. Subsequently, deaired, distilled water was circulated through the specimen until 
+the water left the sample at a constant rate. A back pressure of 2 kg/cm2 was then applied to the specimen and 
+the Skempton parameter (B) was estimated.  The sample was considered saturated when a B value greater than 
+95% was obtained. 
+ 
+4.2.3 
+Consolidation Stage 
+Once the specimen was saturated, the confining pressure was increased in increments until the target confining 
+pressure was reached.  The density values of the specimen before and after consolidation are presented in Table 
+3. 
+ 
+Table 3: Specimen density before and after consolidation 
+Test  
+Confining 
+pressure 
+(kg/cm2) 
+Initial Density 
+(t/m3) 
+Void Ratio Before 
+Consolidation 
+Density after 
+Consolidation 
+(t/m3) 
+Void Ratio After 
+Consolidation 
+1 
+5 
+2.10 
+0.286 
+2.15 
+0.256 
+2 
+5 
+2.10 
+0.286 
+2.16 
+0.250 
+3 
+10 
+2.10 
+0.286 
+2.20 
+0.227 
+4 
+20 
+2.10 
+0.286 
+2.25 
+0.200 
+5 
+20 
+2.10 
+0.286 
+2.29 
+0.179 
+Note: The void ratio values before and after consolidation were estimated assuming Gs=2.7. 
+ 
+4.2.4 
+Deviatoric Stress Stage 
+The monotonic tests were loaded in increments until an axial strain (εa) of about 20% was reached.  The loading 
+schedule for the unload-reload tests consisted of three stages (Figure 2).  Stage 1 (dotted line segments) 
+included monotonic loading to about 33% of the estimated ultimate shear strength (τu) followed by a full 
+unload-reload cycle.  In Stage 2 (solid line segments), the load was subsequently increased to about 50% of τu 
+after which the samples were subjected to three partial unload-reload cycles of increasing amplitude.  Stage 3 
+(double line segments) had two variants: (i) for the test at σ’c=5 kg/cm2 (in blue), four full unload-reload cycles 
+were applied at increasingly higher stress ratio levels, starting at about 50% of τu, and (ii) for the tests at σ’c =10 
+and 20 kg/cm2 (in red and green), fifteen full unload-reload cycles were applied immediately after the partial 
+cycles at about 50% of τu while maintaining the maximum stress ratio approximately constant.  In both cases 
+Stage 3 was followed by monotonic loading to εa~20%.  The loading increments were of variable magnitude, but 
+small enough to define the stress-strain curves with reasonable detail. 
+
+=== PÁGINA 8 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+8/24 
+ 
+ 
+Figure 2: Loading schedule for unload-reload tests. 
+ 
+4.2.5 
+Results of Large Scale Triaxial Tests 
+Results in terms of shear stress (t = σd/2 = (σ1-σ3)/2) vs. axial strain (εa) and volumetric strain (εv) vs. εa are 
+presented on Figures 3 and 4, respectively.  As can be seen, the primary loading curves from the monotonic and 
+unload-reload tests carried out at σ’c=5 kg/cm2 are very similar in spite of the additional compaction induced by 
+the unload-reload cycles.  In contrast, the primary loading curve from the unload-reload test at σ’c=20 kg/cm2 is 
+stiffer and reaches a higher ultimate shear stress than in the monotonic test at the same σ’c. 
+It is clear from Figure 4 that the unload-reload cycles induced significant volumetric change (negative volumetric 
+strain means compaction).  Furthermore, the rockfill samples showed a contractive response in all tests and at all 
+stress and strain levels. 
+0
+5
+10
+15
+20
+25
+30
+0
+50
+100
+150
+200
+250
+300
+350
+400
+450
+500
+Deviator Stress (kg/cm2)
+Loading Increment Number
+s'c=  5 kg/cm2 ‐ Stage 1
+s'c=  5 kg/cm2 ‐ Stage 2
+s'c=  5 kg/cm2 ‐ Stage 3
+s'c=10 kg/cm2 ‐ Stage 1
+s'c=10 kg/cm2 ‐ Stage 2
+s'c=10 kg/cm2 ‐ Stage 3
+s'c=20 kg/cm2 ‐ Stage 1
+s'c=20 kg/cm2 ‐ Stage 2
+s'c=20 kg/cm2 ‐ Stage 3
+
+=== PÁGINA 9 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+9/24 
+ 
+ 
+Figure 3: Summary of Large Scale Triaxial CID Tests Results – Stress-Strain curves. 
+ 
+  
+Figure 4: Summary of Large Scale Triaxial CID Tests Results. Volumetric Strain-Axial Strain curves. 
+0
+5
+10
+15
+20
+25
+30
+35
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+t = (σ1-σ3)/2,  [kg/cm2]
+Axial Strain ε a [%]
+s'c = 5 kg/cm2 - Monotonic - Curve 1
+s'c = 5 kg/cm2 - Unload - reload - Curve 2
+s'c = 10 kg/cm2 - Unload - reload - Curve 3
+s'c = 20 kg/cm2 - Monotonic - Curve 4
+s'c = 20 kg/cm2 - Unload - reload - Curve 5
+-12
+-10
+-8
+-6
+-4
+-2
+0
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+Volumetric strain εv %
+Axial Strain e a [%]
+s'c = 5 kg/cm2 - Monotonic - Curve 1
+s'c = 5 kg/cm2 - Unload - reload - Curve 2
+s'c = 10 kg/cm2 - Unload - reload - Curve 3
+s'c = 20 kg/cm2 - Monotonic - Curve 4
+s'c = 20 kg/cm2 - Unload - reload - Curve 5
+σd/ 2 < τu / 2  
+εv
+Δεv cyc due to cyclic deviatoric 
+loading stages  2 & 3
+Δεv cyc due to cyclic 
+deviatoric  loading 
+stages  2 & 3
+Δεv due to unload ‐reload 
+cycles at σd / 2 < τu / 2  
+
+=== PÁGINA 10 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+10/24 
+ 
+The peak friction angle was estimated for each test.  The values obtained from all tests are plotted vs. confining 
+stress on Figure 5. As can be seen, the peak friction angle ranges from about 36° to 40° and generally decreases 
+as the confining stress increases. 
+  
+Figure 5: Peak friction angle vs. confining pressure 
+The values of peak friction angle obtained from the tests are plotted on Leps (1970) chart on Figure 6, where the 
+friction angles obtained can be seen to lie near the line of friction angles for average quality rockfill.   
+  
+Figure 6: Peak friction angle of these five triaxial tests included in the Leps chart (1970). 
+34
+35
+36
+37
+38
+39
+40
+41
+42
+0
+5
+10
+15
+20
+25
+Monotonic
+Unload ‐ reload
+Peak friction angle (degrees)
+σ'c [Kg/cm2]
+
+=== PÁGINA 11 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+11/24 
+ 
+The rockfill deformation modulus was estimated using triaxial test results from two stages: (i) the initial stage 
+where the confining stress is isotropic (σ’1/σ’3 = 1) and (ii) the test stage in which the vertical stress is 
+approximately twice the horizontal stress (σ’1/σ’3 = 2).  The latter stage was chosen because it corresponds to a 
+common initial anisotropic stress state in the field and is also similar to the stress state in the oedometer test.  
+The initial secant deformation modulus applicable to isotropic confining stress conditions (Ei1) was calculated 
+from the first load increment (Δσd1) as Ei1 = Δσd1/Δεa1, where Δεa1 is the axial strain increment caused by Δσd1.  
+The secant deformation modulus applicable to the chosen anisotropic confining stress condition (Ei2) was 
+calculated as Ei2 = (σ1-σ3)/εa when (σ’1/σ’3) = 2.  The calculated values of Ei1 and Ei2 are plotted versus initial 
+confining stress (σ’3c) on Figures 7a and 7b, respectively. 
+The computed values of Ei1 are highly sensitive to the size of the loading increment and sample setting effects at 
+the beginning of loading.  The size of the loading increment (Δσd) determines the resolution with which the stress-
+strain curve is defined, which is particularly important where the slope of the curve changes most rapidly (e.g., the 
+initial segment).  This is why the computed value of Ei1 from the monotonic test at σ’c=5 kg/cm2 (Curve 1) is 
+smaller than that from the unload-reload test (Curve 2) at the same initial confining stress (see Figure 7c).  The 
+difference in the computed values of Ei1 from the tests at σ’c=20 kg/cm2 could be attributed to sample setting 
+effects, causing the initial slope of Curve 5 to be smaller than the slope after the 2nd load increment (see Figure 
+7d). 
+The estimated magnitude of Ei2 is relatively less sensitive to the size of the loading increment or sample setting 
+effects. 
+   
+Figure 7a: Initial Deformation modulus vs. initial confining pressure – (σ’1/σ’3)=1 Stage 
+ 
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+0
+5
+10
+15
+20
+25
+Monotonic
+Unload ‐ reload
+Ei [kg/cm2]
+σ'c  [kg/cm2]
+
+=== PÁGINA 12 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+12/24 
+ 
+ 
+Figure 7b: Initial Deformation modulus vs. initial confining pressure – (σ’1/σ’3)=2 Stage 
+ 
+Figure 7c: Impact of loading increment size on stress-strain curve 
+0
+200
+400
+600
+800
+1000
+1200
+0
+5
+10
+15
+20
+25
+Monotonic
+Unload ‐ reload
+Es[kg/cm2]
+σ'c  [kg/cm2]
+0
+0.5
+1
+1.5
+2
+2.5
+0
+0.5
+1
+1.5
+t = (σ1-σ3)/2,  [kg/cm2]
+Axial Strain ε a [%]
+s'c = 5 kg/cm2 - Monotonic - Curve 1
+s'c = 5 kg/cm2 - Unload - reload - Curve 2
+Ei1
+Ei1
+
+=== PÁGINA 13 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+13/24 
+ 
+ 
+ 
+Figure 7d: Impact of sample setting effects on the initial segment of the stress-strain curve 
+ 
+4.3 
+Large Scale Oedometer 
+A large scale oedometer test was carried out on a 1-m diameter and 0.9-m high rockfill specimen. The rockfill 
+sample was prepared in 0.3-m thick layers inside a large oedometer ring.  The layers were compacted with a 
+small vibrating tamper to achieve a dry density of 2.1 t/m3.  Three layers of dry rockfill were used to construct the 
+specimen.  The void ratio was estimated based on an assumed specific gravity (Gs) of 2.7. 
+Once prepared, the sample was subjected to a seating pressure of 0.18 kg/cm2 and the change in sample height 
+recorded until the settlement stopped.  Subsequently, the sample was flooded keeping the seating pressure 
+constant and the wetting-induced settlement (0.8 mm, i.e., 0.09%) recorded. 
+The rockfill specimen was loaded to a maximum load of 60 kg/cm2.  Loading was applied in 20 increments of 
+2 kg/cm2 and four final increments of 5 kg/cm2 in order to carefully define the rockfill compressibility curve.  The 
+load was held constant until no further deformation occurred for at least 100 minutes.  The time required for the 
+deformation to stabilize after application of each loading increment became significantly longer when the total 
+load applied exceeded 34 kg/cm2.  Each of the last two loading increments took about 15 days to stabilize.  The 
+unloading phase was done in 12 stages.  This test lasted approximately two and a half months.  Results from the 
+oedometer test are presented on Figures 8a and 8b. 
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+1.8
+2
+0
+0.5
+1
+t = (σ1-σ3)/2,  [kg/cm2]
+Axial Strain ε a [%]
+s'c = 20 kg/cm2 - Monotonic - Curve 4
+s'c = 20 kg/cm2 - Unload - reload - Curve 5
+Ei1
+Ei1
+
+=== PÁGINA 14 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+14/24 
+ 
+ 
+  
+Figure 8a: Compressibility curve obtained from the large scale oedometer test. 
+As can be seen on Figure 8a, the slope of the compressibility curve is practically constant up to 40 kg/cm2, after 
+which the curve breaks and continues with a flatter slope.  We consider that the change in slope of the 
+compressibility curve could be related to changing the load increments from 2 to 5 kg/cm2 and/or to possibly not 
+allowing enough time for the settlement to fully stabilize during the first two 5 kg/cm2 loading increments rather 
+than the rockfill becoming less compressible.  The nearly constant slope of the compressibility curve indicates 
+that the rockfill stiffness increases very mildly with increasing stress level within the range of stresses in the test, 
+at least up to 40 kg/cm2.  This characteristic is likely related to particle breakage, which appears to occur from the 
+beginning of the test and in such a way that the compressibility remains approximately constant. 
+The compressibility curve is plotted in semi-log scale on Figure 8b for completeness. 
+ 
+0.150
+0.170
+0.190
+0.210
+0.230
+0.250
+0.270
+0.290
+0
+10
+20
+30
+40
+50
+60
+70
+Large oedometer test
+Void ratio [e]
+Vertical confining pressure σ'v [kg/cm2]
+
+=== PÁGINA 15 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+15/24 
+ 
+ 
+Figure 8b: Compressibility curve plotted in semi-log scale 
+ 
+Based on results from the oedometer test, the deformation modulus (E) of the black marble rockfill is in the order 
+of 400 kg/cm2 (for σ’v<40 kg/cm2) to 800 kg/cm2 (for σ’v between 40 kg/cm2 and 60 kg/cm2).  The estimated 
+values of E fall within the field compression data for rockfill compiled by Cruz et al. (2011) from several dams 
+(Figure 9). 
+0.150
+0.170
+0.190
+0.210
+0.230
+0.250
+0.270
+0.290
+0.1
+1
+10
+100
+Large oedometer test
+Void ratio [e]
+Vertical confining pressure σ'v [kg/cm2]
+
+=== PÁGINA 16 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+16/24 
+ 
+ 
+Figure 9: Field compression data for rockfills from several dams and Antamina oedometer test data 
+ 
+4.4 
+Permeability Tests 
+Six permeability tests (constant head, rigid wall) were carried out during the oedometer test.  The hydraulic 
+gradients applied varied between 0.01 and 0.11 (see Appendix 1).  Based on the sample height (L=90 cm), the 
+maximum estimated velocity (v=0.013 cm/s), and assuming the kinematic viscosity (υ) of the water at 20°C equal 
+to 0.01 cm2/s, the Reynolds Number (Re=v×L/ υ) is 117 < 2000.  Therefore, the flow regime during the tests was 
+laminar.  Results from the permeability tests are presented in Table 4. 
+ 
+Table 4: Results from permeability tests.  
+Test 
+Vertical Effective Stress 
+(kg/cm2) 
+Permeability (cm/s) 
+1 
+6 
+1.4 x 10-1 
+2 
+10 
+1.1 x 10-1 
+3 
+20 
+1.0 x 10-1 
+4 
+40 
+1.1 x 10-1 
+5 
+50 
+8,6 x 10-2 
+6 
+60 
+8.2 x 10-2 
+ 
+0
+1000
+2000
+3000
+4000
+5000
+6000
+1
+10
+100
+Deformation Modulus,  E (kg/cm2)
+Vertical Effective Stress (kg/cm2)
+Capivara  (Brazil) 
+Salto Osorio  (Brazil) 
+Salto Osorio  (Brazil) 
+Itauba  (Brazil) 
+Itauba  (Brazil) 
+Emborcacao  (Brazil) 
+Pedra Do Cavalo  (Brazil) 
+Infiernillo  (Mexico) 
+Muddy Run  (USA) 
+Akosomba  (Ghana) 
+Antamina  (Peru) 
+
+=== PÁGINA 17 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+17/24 
+ 
+5.0 
+ASSESSMENT OF THE PARTICLE BREAKAGE  
+The particle hardness of the rockfill particles has already been investigated through Los Angeles Abrasion tests 
+and documented in Report No. 379, Supervisión de Ensayos y Muestreo de Roca.  The results of these tests 
+indicate Los Angeles Abrasion loss values of 44% and 41% for the two samples tested. 
+Particle breakage was assessed by comparing the grain size curves obtained before and after the triaxial and 
+oedometer tests were done, and estimating Marsal’s (1967) breakage parameter Bg (i.e., the sum of the positive 
+differences between percentage retained in each fraction).  The pre- and post-test gradation curves are shown on 
+Figure 10 (Curves 0 through 6).  The values of the parameter Bg are included in Table 5.  These Bg values plot 
+(Figure 11) outside the band of data compiled by Marsal (1973). Values of Bg greater than 50 are not common in 
+the available literature. 
+ 
+Table 5: Particle Breakage (Marsal parameter Bg) 
+Samples tested at 
+Type test 
+Bg % 
+σ’c = 5 kg/cm2 
+Monotonic 
+26.8 
+σ’c = 5 kg/cm2 
+Unload-Reload 
+28.6 
+σ’c = 10 kg/cm2 
+Unload-Reload 
+40.8 
+σ’c = 20 kg/cm2 
+Monotonic 
+50.2 
+σ’c = 20 kg/cm2 
+Unload-Reload 
+55.4 
+σ’c = 60 kg/cm2 
+Odometer 
+28.8 
+ 
+
+=== PÁGINA 18 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+18/24 
+ 
+ 
+Figure 10: Grain size curves before and after testing 
+ 
+Figure 11: Breakage parameter (Bg) of Black Marble Rockfill compared with database from Marsal (1973) 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0.01
+0.1
+1
+10
+100
+1000
+Initial gradation ‐ Curve 0
+s'c=5 kg/cm2 ‐Monotonic test ‐Curve 1
+s'c=5 kg/cm2 ‐Unload‐reload test ‐Curve 2
+s'c=10 kg/cm2 ‐ Unload‐reload test ‐ Curve 3
+s'c=20 kg/cm2 ‐ Monotonic test ‐ Curve 4
+s'c=20 kg/cm2 ‐ Unload ‐ reload test ‐Curve 5
+Oedometer ‐Curve 6
+% passing
+Diameter [mm]
+
+=== PÁGINA 19 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+19/24 
+ 
+Photographs 6 through 11 show typical images of sample and particle breakage as observed after completion of 
+the monotonic triaxial test at σ’c=20 kg/cm2. 
+ 
+Photograph 6: Membrane Removal from Rockfill Sample after Triaxial Testing (s’c=20 kg/cm2; Monotonic Loading) 
+ 
+Photograph 7: Rockfill Sample after Triaxial Testing (s’c=20 kg/cm2; Monotonic Loading) 
+
+=== PÁGINA 20 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+20/24 
+ 
+ 
+Photograph 8: Breakage of Rockfill Particle (~ 50 mm size) After Triaxial Testing (s’c=20 kg/cm2; Monotonic Loading) 
+ 
+Photograph 9: Breakage of Rockfill Particle (~75 mm size) After Triaxial Testing (s’c=20 kg/cm2; Monotonic Loading) 
+
+=== PÁGINA 21 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+21/24 
+ 
+ 
+Photograph 10: Breakage of Rockfill Particle (~ 100 mm size) After Triaxial Testing (s’c=20 kg/cm2; Monotonic Loading) 
+ 
+Photograph 11: Breakage of Rockfill Particle (~150 mm size) After Triaxial Testing (s’c=20 kg/cm2; Monotonic Loading) 
+
+=== PÁGINA 22 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+22/24 
+ 
+ 
+6.0 
+DISCUSSION ON PARTICLE BREAKAGE AND CYCLIC COMPACTION 
+The pre- and post-test gradation curves shown on Figure 10 reveal that particle breakage occurred in all the tests 
+(triaxial and oedometer) performed, although not the same extent. 
+The post-test gradation curves from the monotonic and unload-reload triaxial tests at σ’c=5 kg/cm2 (Curves 1 and 
+2 on Figure 10) are essentially the same. This indicates that the unload-reload cycles did not cause more particle 
+breakage than monotonic loading in spite of causing significantly more compaction (volume reduction).  Hence, 
+the additional volumetric strain induced by cyclic loading (see Curve 2 on Figure 4) is inferred to be due to 
+particle rearrangement without contribution from particle breakage. 
+The post-test gradation curve from the oedometer test (Curve 6 on Figure 10) is also very similar to Curves 1 and 
+2 in spite of the large difference in maximum vertical stress level (60 versus 23 kg/cm2, respectively).  This 
+suggests that the restriction to lateral movement imposed by the oedometer ring yields stress states that cause 
+less particle breakage than those in the triaxial test. 
+The post-test gradation curve from the unload-reload test at σ’c=10 kg/cm2 (Curve 3 on Figure 10) indicates that 
+more particle breakage occurred in this test than in the oedometer and both triaxial tests at σ’c=5 kg/cm2, but less 
+than in the two triaxial tests at σ’c=20 kg/cm2 (Curves 4 and 5 on Figure 10).  The potential effect of cyclic loading 
+on particle breakage in this case cannot be assessed by simple inspection of the single post-test gradation curve.  
+The additional compaction induced by the series of unload-reload cycles applied at about 50% of τu (Curve 4 on 
+Figure 4) without exceeding the maximum stress level previously achieved (Curve 4 on Figure 3) is about 45% of 
+the compaction induced by previous loading up to such shear stress level.  
+The post-test gradation Curves 4 and 5 on Figure 10 suggest that a slightly larger extent of particle breakage 
+occurred in the unload-reload test at σ’c=20 kg/cm2 than in the corresponding monotonic test.  However, the 
+unload-reload cycles applied at about 50% of τu and without exceeding the maximum shear stress level (Curve 5 
+on Figure 3) increased the compaction by about 80% (see Curve 5 on Figure 4) compared to that induced by 
+previous loading.  Given the small difference in particle breakage between the monotonic and unload-reload 
+tests, the significant additional compaction induced by cyclic loading at this stress level seems to have been 
+caused by particle rearrangement with little or no contribution from particle breakage.  Furthermore, form Curves 
+3 and 5 on Figure 4, the volumetric strain induced exclusively by cyclic deviatoric loading Stages 2 and 3 (see 
+Figure 2) is about 45% greater in the test at σ’c=20 kg/cm2 than in the test at σ’c=10 kg/cm2.  Since the number of 
+unload-reload cycles is the same in both tests, the larger amount of compaction due to cyclic loading in the test at 
+σ’c=20 kg/cm2 is likely related to the amplitude of the unload-reload cycles.  
+
+=== PÁGINA 23 ===
+
+=== PÁGINA 24 ===
+Roberto Manrique 
+1014270482C/1194155017P
+Compañia Minera Antamina 
+February 7, 2012
+ 
+Document No. 446
+ 
+ 
+24/24 
+ 
+8.0 
+REFERENCES 
+Contreras, L. (2011). Comportamiento friccionante de materiales granulares gruesos, Tesis para optar al grado 
+de magister en ciencias de la ingeniería mención ingeniería geotécnica. Universidad de Chile, Facultad de 
+Ciencias Físicas y Matemáticas. 
+Cruz, P.T., Bayardo, M., and Freitas, M. (2009). Concrete Face Rockfill Dams. CRC Press/Balkema, pp. 130. 
+Golder (2011). Supervisión de ensayos y muestreo de roca para presa principal de relaves. Minera Antamina. 
+Idiem (2011). Informe Material de Enrocamiento Presa Antamina, Peru. 
+ISRM (1981). Rock Characterization, Testing and Monitoring, ISRM suggested methods. Ed. E.T. Brown. Publ. 
+Pergamon Press, Oxford., pp. 211. 
+Leps, T. (1970). Review of shearing strength of rockfill. Journal of the Soil Mechanics and Foundations Division, 
+96(4): 1159-1170, July. 
+ 
+Marsal, R. J. (1973). Mechanical properties of rockfill. Embankment-Dam Engineering. Casagrande Volume, eds 
+Hirschfeld and Poulos. L. Wiley and Sons, New York, pp. 109-200. 
+Marsal, R.J. (1967). Large scale testing of rockfill materials. Journal of Soil Mechanics and Foundations Divisio, 
+A.S.C.E., Vol. 93, No. SM2, March. 
+ 
+ 
+ 
+ 
+ 
+ 
+r:\109\abiertos\ingenieria\10921c1034 gapsa,proyecto antamina,chile ,peru,canada\correspondencia\documents sent antamina\word-pdf\doc 446 tm_0207_12 laboratory testing program 
+antamina deformation analysis.docx 
+
+=== PÁGINA 25 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 1 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME DE ENSAYO Nº 708.397-A DE MECANICA DE SUELOS 
+ 
+ 
+ 
+PROYECTO 
+: MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU 
+Orden de Trabajo 
+: 82-0000019-11-00 
+Cliente 
+: GOLDER ASSOCIATES S.A. 
+Dirección 
+: Magdalena Nº 181, Piso 3, Las Condes. 
+Destinatario 
+: Leonardo Dorador 
+Fecha Muestreo 
+: --- 
+Lugar de Muestreo 
+: (Realizado por Cliente) 
+Fecha Recepción de 
+Muestras 
+: Abril 2011 
+Lugar de Ensayo 
+: Plaza Ercilla Nº 883, Santiago Centro. 
+Fecha Inicio Trabajo 
+: 02 de Abril de 2011 
+Fecha Término Trabajo 
+: 22 de Agosto de 2011 
+Fecha Emisión  
+: 05 de Septiembre de 2011 
+Nº de Páginas 
+: 61 
+ 
+  
+ 
+ 
+1. Antecedentes Utilizados 
+ 
+Informe de ensayos realizados según los siguientes documentos recibidos por la Sección 
+Laboratorio de Geotecnia 
+ 
+- 
+Aceptación de presupuesto SLG.PRE.AC 118/11 
+ 
+De acuerdo a esto, se ejecutaron los siguientes ensayos: 
+ 
+- 
+Macro granulometría 
+- 
+Triaxial CID (Probeta 100 x 180cm) 
+- 
+Ensaye Odométrico a gran Escala 
+- 
+Ensaye de Permeabilidad a gran Escala 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PÁGINA 26 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 2 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+2. Identificación de muestras recepcionadas y ensayadas. 
+ 
+Las muestras recepcionadas y ensayadas corresponden al detalle indicado en la tabla Nº1.  
+ 
+Tabla Nº1.- Muestras recepcionadas y ensayadas 
+ 
+Identificación de Muestra 
+Calicata 
+[Nº] 
+Cotas 
+[m] 
+Tipo 
+Recibida 
+Ensayada 
+Probeta 1 (σ'c = 5 kg/cm²) 
+ESTATICO 
+--- 
+--- 
+P 
+X 
+X 
+Probeta 2 (σ'c = 5 kg/cm²)     
+CICLICO 
+--- 
+--- 
+P 
+X 
+X 
+Probeta 3 (σ'c = 10 kg/cm²)   
+CICLICO 
+--- 
+--- 
+P 
+X 
+X 
+Probeta 4 (σ'c = 20 kg/cm²) 
+ESTATICO 
+--- 
+--- 
+P 
+X 
+X 
+Probeta 5 (σ'c = 20 kg/cm²)   
+CICLICO 
+--- 
+--- 
+P 
+X 
+X 
+Probeta 6 Odómetro  
+--- 
+--- 
+P 
+X 
+X 
+ 
+La definición del tipo de muestras corresponde a: 
+- 
+P: muestra perturbada 
+- 
+NP: muestra no perturbada en bloque inalterado 
+- 
+SH: muestra tubo Shelby 
+- 
+CN: muestra cuchara normal 
+- 
+CD: muestra corona diamantina 
+ 
+Las muestras son almacenadas por IDIEM hasta 15 días luego de emitido este informe. 
+Posterior a este tiempo serán eliminadas, a menos que exista una solicitud escrita del cliente 
+para su resguardo y la ejecución de ensayos adicionales por un tiempo determinado.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nathalie Astorga I. 
+Iván Bejarano B. 
+Jefe Sección Laboratorio 
+Jefe Área Geotecnia y Pavimentación  
+Geotecnia –IDIEM 
+Geotecnia –IDIEM 
+ 
+ 
+ 
+PTC/bsd 
+ 
+
+=== PÁGINA 27 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 3 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYOS DE CLASIFICACION DE MUESTRAS DE SUELO
+Proyecto
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha Inicio
+02-04-2011
+Fecha Término
+22-08-2011
+IDENTIFICACION.
+Muestra
+Nº
+Muestra 
+Probeta 1
+Probeta 2
+Probeta 3
+Inicial
+(σ'c = 5 kg/cm²)
+(σ'c = 5 kg/cm²)
+(σ'c = 10 kg/cm²)
+ESTATICO
+CICLICO
+CICLICO
+Cota
+[m]
+---
+---
+---
+---
+GRANULOMETRIA.
+Tamaño de
+Designación
+Partícula, mm
+Malla o Criba
+7"
+178
+100,0
+100,0
+100,0
+100,0
+6"
+152
+97,9
+98,2
+99,4
+99,4
+5"
+127
+93,2
+95,9
+95,5
+98,2
+4"
+102
+87,9
+91,0
+92,1
+94,8
+3"
+76
+75,5
+83,3
+85,1
+89,1
+2 1/2"
+63,50
+67,6
+77,3
+79,7
+84,5
+2"
+50,80
+59,2
+70,9
+72,7
+77,8
+1 1/2"
+38,10
+48,7
+60,6
+62,8
+69,1
+1"
+25,40
+38,0
+47,0
+49,9
+56,8
+3/4"
+19,00
+31,2
+41,7
+43,3
+49,6
+3/8"
+9,52
+20,3
+29,8
+30,0
+34,6
+malla 4
+4,76
+14,7
+23,2
+23,2
+26,4
+malla 10
+2,000
+10,8
+16,9
+16,6
+19,5
+malla 20
+0,840
+8,9
+13,6
+13,1
+15,1
+malla 40
+0,420
+7,9
+12,1
+11,7
+13,1
+malla 60
+0,250
+7,3
+11,2
+10,9
+11,9
+malla 140
+0,110
+5,5
+9,2
+9,1
+9,2
+malla 200
+0,074
+4,9
+8,2
+8,0
+8,5
+Límite Líquido
+-
+-
+-
+-
+Límite Plástico
+-
+-
+-
+-
+Indice de Plasticidad
+-
+-
+-
+-
+Clasificación USCS
+-
+-
+-
+-
+Referencias
+1. Granulometría según SLG-PP-05 basado en 8.102.1 Suelos: Método para determinar la granulometría (LNV 105)
+% en peso que pasa
+ 
+
+=== PÁGINA 28 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 4 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYOS DE CLASIFICACION DE MUESTRAS DE SUELO
+Proyecto
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha Inicio
+02-04-2011
+Fecha Término
+22-08-2011
+IDENTIFICACION.
+Muestra
+Nº
+Probeta 4
+Probeta 5
+Probeta 6
+(σ'c = 20 kg/cm²)
+(σ'c = 20 kg/cm²)
+Odómetro
+ESTATICO
+CICLICO
+Cota
+[m]
+---
+---
+---
+GRANULOMETRIA.
+Tamaño de
+Designación
+Partícula, mm
+Malla o Criba
+7"
+178
+100,0
+100,0
+100,0
+6"
+152
+100,0
+99,7
+99,1
+5"
+127
+99,4
+98,7
+96,1
+4"
+102
+97,0
+95,7
+92,8
+3"
+76
+91,5
+90,9
+84,6
+2 1/2"
+63,50
+87,2
+87,2
+77,8
+2"
+50,80
+81,4
+81,7
+70,2
+1 1/2"
+38,10
+73,5
+74,2
+60,6
+1"
+25,40
+60,9
+63,2
+48,5
+3/4"
+19,00
+54,4
+58,6
+43,9
+3/8"
+9,52
+40,3
+46,0
+32,3
+malla 4
+4,76
+32,0
+34,3
+24,6
+malla 10
+2,000
+23,0
+24,8
+17,3
+malla 20
+0,840
+17,7
+19,3
+13,5
+malla 40
+0,420
+15,3
+16,8
+12,1
+malla 60
+0,250
+14,0
+15,4
+11,5
+malla 140
+0,110
+11,7
+12,5
+9,9
+malla 200
+0,074
+10,7
+11,4
+9,4
+Límite Líquido
+-
+-
+-
+Límite Plástico
+-
+-
+-
+Indice de Plasticidad
+-
+-
+-
+Clasificación USCS
+-
+-
+-
+Referencias
+1. Granulometría según SLG-PP-05 basado en 8.102.1 Suelos: Método para determinar la granulometría (LNV 105)
+% en peso que pasa
+ 
+
+=== PÁGINA 29 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 5 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+14-04-2011
+Fecha de Término
+15-04-2011
+Muestra
+Probeta 1 (σ'c = 5 kg/cm²) ESTATICO
+Altura Inicial de Confección
+[cm]=
+180,00
+Diámetro Inicial de Confección
+[cm]=
+100,00
+VariaciónVolumen drenado etapa consolidación
+[cm³]=
+34670,00
+Densidad Seca de Confección
+[gr/cm³]=
+2,10
+Humedad de Confección
+[%]=
+0,09
+Contrapresión
+[kg/cm²]=
+2,00
+Presión de Cámara Total
+[kg/cm²]=
+7,00
+Velocidad Deformación Unitaria
+[% / min]=
+--
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+Observaciones:
+0,00
+0,00
+5,13
+0,13
+0,52
+-0,62
+6,38
+1,38
+q = (s1-s3)/2
+1,39
+-1,39
+7,60
+2,60
+p = (s1+s3)/2
+2,50
+-2,27
+8,81
+3,81
+3,64
+-2,99
+9,99
+4,99
+Ensaye efectuado en probeta REMOLDEADA
+4,90
+-3,64
+11,15
+6,15
+6,77
+-4,28
+12,21
+7,21
+9,20
+-4,86
+13,14
+8,14
+12,11
+-5,17
+13,94
+8,94
+12,96
+-5,24
+13,82
+8,82
+15,03
+-5,43
+13,97
+8,97
+17,27
+-5,65
+14,08
+9,08
+18,02
+-5,70
+13,96
+8,96
+18,70
+-5,75
+13,86
+8,86
+19,40
+-5,84
+13,75
+8,75
+19,97
+-5,84
+13,66
+8,66
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+ 
+
+=== PÁGINA 30 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 6 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+q=( 1- 3)/2,  [kg/cm2]
+Deformación Unitaria,  [%]
+TRIAXIAL CID, e - q,
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 1 (σ'c = 5 kg/cm²) ESTATICO
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+2
+4
+6
+8
+10
+12
+14
+16
+q=( 1- 3)/2,  [kg/cm2]
+p=( 1+ 3)/2,  [kg/cm2]
+TRIAXIAL CID, p - q, 
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 1 (σ'c = 5 kg/cm²) ESTATICO
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+0
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+Deformación Volumétrica [%]
+Deformación Unitaria,  [%]
+TRIAXIAL CID, e - eV, 
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 1 (σ'c = 5 kg/cm²) ESTATICO
+ 
+
+=== PÁGINA 31 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 7 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+18-04-2011
+Fecha de Término
+22-04-2011
+Muestra
+Probeta 2 (σ'c = 5 kg/cm²) CICLICO
+Altura Inicial de Confección
+[cm]=
+180,00
+Diámetro Inicial de Confección
+[cm]=
+100,00
+VariaciónVolumen drenado etapa consolidación
+[cm³]=
+41604,00
+Densidad Seca de Confección
+[gr/cm³]=
+2,10
+Humedad de Confección
+[%]=
+0,09
+Contrapresión
+[kg/cm²]=
+2,00
+Presión de Cámara Total
+[kg/cm²]=
+7,00
+Velocidad Deformación Unitaria
+[% / min]=
+--
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+Observaciones:
+0,00
+0,00
+5,13
+0,13
+0,05
+0,00
+5,38
+0,38
+q = (
+1-
+3)/2
+0,09
+-0,02
+5,63
+0,63
+p = (
+1+ 3)/2
+0,23
+-0,12
+5,87
+0,87
+0,45
+-0,34
+6,10
+1,10
+Ensaye efectuado en probeta REMOLDEADA
+0,62
+-0,48
+6,34
+1,34
+0,78
+-0,63
+6,58
+1,58
+0,94
+-0,79
+6,81
+1,81
+1,11
+-0,96
+7,04
+2,04
+1,29
+-1,11
+7,27
+2,27
+1,46
+-1,25
+7,50
+2,50
+1,64
+-1,40
+7,73
+2,73
+1,83
+-1,56
+7,95
+2,95
+1,84
+-1,59
+7,71
+2,71
+1,84
+-1,59
+7,46
+2,46
+1,84
+-1,59
+7,22
+2,22
+1,83
+-1,59
+6,97
+1,97
+1,83
+-1,59
+6,74
+1,74
+1,82
+-1,56
+6,50
+1,50
+1,81
+-1,59
+6,25
+1,25
+1,80
+-1,59
+6,01
+1,01
+1,78
+-1,59
+5,76
+0,76
+1,75
+-1,59
+5,53
+0,53
+1,73
+-1,59
+5,29
+0,29
+1,68
+-1,59
+5,04
+0,04
+1,72
+-1,61
+5,29
+0,29
+1,75
+-1,59
+5,53
+0,53
+1,77
+-1,59
+5,76
+0,76
+1,79
+-1,59
+6,01
+1,01
+1,80
+-1,61
+6,25
+1,25
+1,81
+-1,61
+6,50
+1,50
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 32 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 8 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+18-04-2011
+Fecha de Término
+22-04-2011
+Muestra
+Probeta 2 (σ'c = 5 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+1,83
+-1,61
+6,74
+1,74
+1,84
+-1,64
+6,97
+1,97
+1,85
+-1,61
+7,22
+2,22
+1,87
+-1,64
+7,46
+2,46
+1,88
+-1,64
+7,70
+2,70
+1,92
+-1,68
+7,94
+2,94
+1,99
+-1,73
+8,17
+3,17
+2,17
+-1,88
+8,39
+3,39
+2,38
+-2,07
+8,61
+3,61
+2,54
+-2,17
+8,83
+3,83
+2,66
+-2,31
+9,05
+4,05
+2,86
+-2,45
+9,26
+4,26
+2,89
+-2,48
+9,02
+4,02
+2,89
+-2,50
+8,79
+3,79
+2,89
+-2,50
+8,55
+3,55
+2,89
+-2,48
+8,31
+3,31
+2,89
+-2,50
+8,07
+3,07
+2,89
+-2,53
+8,31
+3,31
+2,89
+-2,53
+8,55
+3,55
+2,90
+-2,55
+8,79
+3,79
+2,92
+-2,57
+9,01
+4,01
+2,93
+-2,60
+9,25
+4,25
+2,94
+-2,60
+9,01
+4,01
+2,94
+-2,60
+8,78
+3,78
+2,94
+-2,60
+8,54
+3,54
+2,94
+-2,62
+8,30
+3,30
+2,94
+-2,60
+8,06
+3,06
+2,94
+-2,62
+7,83
+2,83
+2,93
+-2,62
+7,59
+2,59
+2,93
+-2,65
+7,35
+2,35
+2,92
+-2,65
+7,12
+2,12
+2,92
+-2,65
+7,35
+2,35
+2,92
+-2,67
+7,59
+2,59
+2,92
+-2,67
+7,83
+2,83
+2,93
+-2,67
+8,06
+3,06
+2,93
+-2,69
+8,30
+3,30
+2,94
+-2,69
+8,54
+3,54
+2,95
+-2,69
+8,78
+3,78
+2,96
+-2,72
+9,00
+4,00
+2,97
+-2,72
+9,24
+4,24
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 33 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 9 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+18-04-2011
+Fecha de Término
+22-04-2011
+Muestra
+Probeta 2 (σ'c = 5 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,97
+-2,72
+9,00
+4,00
+2,97
+-2,74
+8,77
+3,77
+2,97
+-2,74
+8,53
+3,53
+2,97
+-2,74
+8,29
+3,29
+2,97
+-2,74
+8,05
+3,05
+2,97
+-2,77
+7,83
+2,83
+2,96
+-2,74
+7,59
+2,59
+2,96
+-2,77
+7,35
+2,35
+2,95
+-2,77
+7,11
+2,11
+2,94
+-2,77
+6,87
+1,87
+2,93
+-2,77
+6,65
+1,65
+2,91
+-2,77
+6,41
+1,41
+2,91
+-2,77
+6,17
+1,17
+2,91
+-2,79
+6,41
+1,41
+2,92
+-2,79
+6,65
+1,65
+2,93
+-2,81
+6,87
+1,87
+2,93
+-2,81
+7,11
+2,11
+2,94
+-2,81
+7,35
+2,35
+2,95
+-2,84
+7,59
+2,59
+2,96
+-2,84
+7,83
+2,83
+2,96
+-2,86
+8,05
+3,05
+2,97
+-2,84
+8,29
+3,29
+2,97
+-2,86
+8,53
+3,53
+2,98
+-2,89
+8,77
+3,77
+2,99
+-2,89
+8,99
+3,99
+3,01
+-2,91
+9,23
+4,23
+3,01
+-2,91
+8,99
+3,99
+3,01
+-2,91
+8,76
+3,76
+3,02
+-2,91
+8,52
+3,52
+3,01
+-2,93
+8,28
+3,28
+3,01
+-2,93
+8,05
+3,05
+3,01
+-2,93
+7,82
+2,82
+3,01
+-2,93
+7,58
+2,58
+3,00
+-2,93
+7,34
+2,34
+2,99
+-2,93
+7,10
+2,10
+2,98
+-2,96
+6,87
+1,87
+2,97
+-2,96
+6,64
+1,64
+2,96
+-2,96
+6,40
+1,40
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 34 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 10 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+18-04-2011
+Fecha de Término
+22-04-2011
+Muestra
+Probeta 2 (σ'c = 5 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,95
+-2,96
+6,16
+1,16
+2,93
+-2,96
+5,92
+0,92
+2,91
+-2,96
+5,69
+0,69
+2,88
+-2,96
+5,46
+0,46
+2,85
+-2,96
+5,22
+0,22
+2,79
+-2,98
+5,01
+0,01
+2,83
+-2,96
+5,23
+0,23
+2,86
+-2,98
+5,46
+0,46
+2,88
+-2,98
+5,69
+0,69
+2,90
+-2,98
+5,93
+0,93
+2,91
+-2,98
+6,16
+1,16
+2,92
+-3,01
+6,40
+1,40
+2,93
+-2,98
+6,64
+1,64
+2,94
+-3,01
+6,87
+1,87
+2,95
+-2,98
+7,11
+2,11
+2,96
+-3,01
+7,34
+2,34
+2,97
+-3,01
+7,58
+2,58
+2,98
+-3,01
+7,82
+2,82
+2,99
+-3,01
+8,05
+3,05
+3,00
+-3,01
+8,28
+3,28
+3,01
+-3,01
+8,52
+3,52
+3,02
+-3,01
+8,76
+3,76
+3,05
+-3,03
+8,98
+3,98
+3,08
+-3,06
+9,22
+4,22
+3,12
+-3,06
+9,45
+4,45
+3,22
+-3,13
+9,68
+4,68
+3,37
+-3,20
+9,90
+4,90
+3,59
+-3,34
+10,09
+5,09
+3,79
+-3,46
+10,30
+5,30
+4,04
+-3,61
+10,50
+5,50
+4,27
+-3,73
+10,70
+5,70
+4,51
+-3,85
+10,90
+5,90
+4,81
+-4,02
+11,08
+6,08
+4,85
+-4,07
+10,85
+5,85
+4,85
+-4,07
+10,62
+5,62
+4,86
+-4,07
+10,39
+5,39
+4,86
+-4,07
+10,16
+5,16
+4,86
+-4,07
+9,92
+4,92
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 35 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 11 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+18-04-2011
+Fecha de Término
+22-04-2011
+Muestra
+Probeta 2 (σ'c = 5 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+4,86
+-4,07
+9,70
+4,70
+4,86
+-4,07
+9,47
+4,47
+4,86
+-4,09
+9,24
+4,24
+4,86
+-4,09
+9,01
+4,01
+4,86
+-4,09
+8,78
+3,78
+4,85
+-4,11
+8,56
+3,56
+4,85
+-4,11
+8,33
+3,33
+4,85
+-4,11
+8,09
+3,09
+4,84
+-4,11
+7,86
+2,86
+4,83
+-4,11
+7,64
+2,64
+4,82
+-4,11
+7,41
+2,41
+4,82
+-4,11
+7,18
+2,18
+4,81
+-4,14
+6,95
+1,95
+4,80
+-4,14
+6,72
+1,72
+4,78
+-4,16
+6,50
+1,50
+4,77
+-4,16
+6,27
+1,27
+4,76
+-4,16
+6,04
+1,04
+4,74
+-4,19
+5,81
+0,81
+4,72
+-4,16
+5,58
+0,58
+4,69
+-4,19
+5,36
+0,36
+4,64
+-4,19
+5,13
+0,13
+4,58
+-4,21
+5,10
+0,10
+4,61
+-4,23
+5,13
+0,13
+4,63
+-4,26
+5,36
+0,36
+4,66
+-4,28
+5,58
+0,58
+4,68
+-4,28
+5,81
+0,81
+4,70
+-4,28
+6,04
+1,04
+4,71
+-4,31
+6,27
+1,27
+4,71
+-4,28
+6,50
+1,50
+4,72
+-4,31
+6,72
+1,72
+4,74
+-4,31
+6,95
+1,95
+4,74
+-4,33
+7,18
+2,18
+4,75
+-4,33
+7,41
+2,41
+4,75
+-4,33
+7,64
+2,64
+4,77
+-4,33
+7,86
+2,86
+4,78
+-4,35
+8,09
+3,09
+4,78
+-4,35
+8,32
+3,32
+4,80
+-4,38
+8,55
+3,55
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 36 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 12 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+18-04-2011
+Fecha de Término
+22-04-2011
+Muestra
+Probeta 2 (σ'c = 5 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+4,80
+-4,38
+8,77
+3,77
+4,81
+-4,38
+9,00
+4,00
+4,82
+-4,40
+9,23
+4,23
+4,84
+-4,40
+9,46
+4,46
+4,85
+-4,40
+9,69
+4,69
+4,86
+-4,43
+9,91
+4,91
+4,88
+-4,43
+10,14
+5,14
+4,89
+-4,45
+10,36
+5,36
+4,92
+-4,47
+10,59
+5,59
+4,96
+-4,47
+10,82
+5,82
+5,01
+-4,50
+11,03
+6,03
+5,09
+-4,52
+11,25
+6,25
+5,23
+-4,57
+11,46
+6,46
+5,26
+-4,59
+11,22
+6,22
+5,26
+-4,62
+10,99
+5,99
+5,26
+-4,62
+10,78
+5,78
+5,26
+-4,62
+10,55
+5,55
+5,26
+-4,62
+10,32
+5,32
+5,26
+-4,64
+10,09
+5,09
+5,26
+-4,64
+9,86
+4,86
+5,26
+-4,67
+9,64
+4,64
+5,26
+-4,67
+9,41
+4,41
+5,26
+-4,67
+9,18
+4,18
+5,26
+-4,67
+8,95
+3,95
+5,26
+-4,67
+8,72
+3,72
+5,26
+-4,67
+8,50
+3,50
+5,25
+-4,69
+8,27
+3,27
+5,25
+-4,67
+8,04
+3,04
+5,24
+-4,67
+7,82
+2,82
+5,24
+-4,67
+7,60
+2,60
+5,23
+-4,69
+7,37
+2,37
+5,22
+-4,69
+7,14
+2,14
+5,21
+-4,69
+6,91
+1,91
+5,20
+-4,72
+6,68
+1,68
+5,19
+-4,69
+6,46
+1,46
+5,18
+-4,72
+6,24
+1,24
+5,16
+-4,72
+6,01
+1,01
+5,15
+-4,72
+5,78
+0,78
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 37 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 13 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+18-04-2011
+Fecha de Término
+22-04-2011
+Muestra
+Probeta 2 (σ'c = 5 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+5,13
+-4,74
+5,55
+0,55
+5,09
+-4,74
+5,33
+0,33
+5,05
+-4,76
+5,11
+0,11
+4,97
+-4,76
+5,12
+0,12
+5,00
+-4,79
+5,11
+0,11
+5,03
+-4,79
+5,34
+0,34
+5,05
+-4,79
+5,55
+0,55
+5,07
+-4,79
+5,78
+0,78
+5,08
+-4,79
+6,01
+1,01
+5,09
+-4,79
+6,24
+1,24
+5,09
+-4,81
+6,47
+1,47
+5,10
+-4,81
+6,69
+1,69
+5,11
+-4,84
+6,92
+1,92
+5,12
+-4,84
+7,14
+2,14
+5,14
+-4,84
+7,37
+2,37
+5,14
+-4,81
+7,60
+2,60
+5,15
+-4,84
+7,82
+2,82
+5,16
+-4,81
+8,05
+3,05
+5,17
+-4,81
+8,28
+3,28
+5,18
+-4,81
+8,50
+3,50
+5,19
+-4,84
+8,72
+3,72
+5,20
+-4,84
+8,95
+3,95
+5,21
+-4,84
+9,18
+4,18
+5,22
+-4,84
+9,40
+4,40
+5,24
+-4,84
+9,63
+4,63
+5,25
+-4,84
+9,85
+4,85
+5,26
+-4,84
+10,08
+5,08
+5,28
+-4,84
+10,30
+5,30
+5,31
+-4,84
+10,53
+5,53
+5,33
+-4,86
+10,75
+5,75
+5,37
+-4,86
+10,97
+5,97
+5,42
+-4,86
+11,19
+6,19
+5,49
+-4,91
+11,41
+6,41
+5,62
+-4,96
+11,62
+6,62
+5,94
+-5,05
+11,80
+6,80
+6,39
+-5,20
+11,95
+6,95
+6,71
+-5,29
+12,13
+7,13
+6,76
+-5,32
+11,90
+6,90
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 38 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 14 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+18-04-2011
+Fecha de Término
+22-04-2011
+Muestra
+Probeta 2 (σ'c = 5 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+6,76
+-5,32
+11,68
+6,68
+6,76
+-5,34
+11,46
+6,46
+6,76
+-5,34
+11,23
+6,23
+6,76
+-5,34
+11,01
+6,01
+6,76
+-5,36
+10,78
+5,78
+6,76
+-5,36
+10,57
+5,57
+6,76
+-5,36
+10,34
+5,34
+6,76
+-5,34
+10,12
+5,12
+6,76
+-5,36
+9,90
+4,90
+6,77
+-5,36
+9,67
+4,67
+6,76
+-5,36
+9,46
+4,46
+6,76
+-5,36
+9,23
+4,23
+6,76
+-5,36
+9,01
+4,01
+6,75
+-5,36
+8,79
+3,79
+6,74
+-5,36
+8,56
+3,56
+6,74
+-5,36
+8,35
+3,35
+6,73
+-5,36
+8,13
+3,13
+6,72
+-5,39
+7,90
+2,90
+6,72
+-5,39
+7,68
+2,68
+6,71
+-5,39
+7,47
+2,47
+6,70
+-5,41
+7,24
+2,24
+6,69
+-5,41
+7,02
+2,02
+6,68
+-5,41
+6,79
+1,79
+6,67
+-5,41
+6,57
+1,57
+6,67
+-5,44
+6,36
+1,36
+6,65
+-5,44
+6,13
+1,13
+6,64
+-5,44
+5,91
+0,91
+6,63
+-5,46
+5,69
+0,69
+6,60
+-5,46
+5,46
+0,46
+6,58
+-5,49
+5,25
+0,25
+6,54
+-5,49
+5,03
+0,03
+6,49
+-5,53
+5,19
+0,19
+6,49
+-5,56
+5,03
+0,03
+6,51
+-5,56
+5,26
+0,26
+6,53
+-5,58
+5,47
+0,47
+6,54
+-5,58
+5,69
+0,69
+6,55
+-5,56
+5,91
+0,91
+6,57
+-5,61
+6,14
+1,14
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 39 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 15 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+18-04-2011
+Fecha de Término
+22-04-2011
+Muestra
+Probeta 2 (σ'c = 5 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+6,58
+-5,61
+6,36
+1,36
+6,59
+-5,61
+6,57
+1,57
+6,59
+-5,61
+6,80
+1,80
+6,60
+-5,61
+7,02
+2,02
+6,60
+-5,61
+7,24
+2,24
+6,62
+-5,61
+7,47
+2,47
+6,62
+-5,63
+7,68
+2,68
+6,63
+-5,63
+7,90
+2,90
+6,64
+-5,65
+8,13
+3,13
+6,65
+-5,65
+8,35
+3,35
+6,67
+-5,68
+8,56
+3,56
+6,67
+-5,68
+8,78
+3,78
+6,68
+-5,68
+9,01
+4,01
+6,69
+-5,70
+9,23
+4,23
+6,70
+-5,68
+9,45
+4,45
+6,72
+-5,70
+9,66
+4,66
+6,72
+-5,70
+9,88
+4,88
+6,74
+-5,70
+10,11
+5,11
+6,75
+-5,70
+10,33
+5,33
+6,77
+-5,73
+10,55
+5,55
+6,78
+-5,73
+10,76
+5,76
+6,81
+-5,73
+10,98
+5,98
+6,83
+-5,73
+11,20
+6,20
+6,86
+-5,73
+11,42
+6,42
+6,89
+-5,75
+11,64
+6,64
+6,93
+-5,77
+11,84
+6,84
+7,00
+-5,80
+12,06
+7,06
+7,14
+-5,82
+12,26
+7,26
+7,53
+-5,89
+12,43
+7,43
+8,06
+-6,01
+12,57
+7,57
+8,53
+-6,13
+12,71
+7,71
+9,15
+-6,23
+12,83
+7,83
+9,79
+-6,33
+12,95
+7,95
+10,35
+-6,42
+13,08
+8,08
+10,85
+-6,50
+13,22
+8,22
+11,40
+-6,57
+13,33
+8,33
+12,06
+-6,66
+13,44
+8,44
+13,16
+-6,71
+13,48
+8,48
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 40 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 16 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+18-04-2011
+Fecha de Término
+22-04-2011
+Muestra
+Probeta 2 (σ'c = 5 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+14,05
+-6,78
+13,55
+8,55
+14,91
+-6,83
+13,61
+8,61
+15,95
+-6,88
+13,65
+8,65
+17,28
+-6,90
+13,64
+8,64
+18,26
+-6,95
+13,68
+8,68
+18,73
+-6,95
+13,60
+8,60
+19,09
+-6,95
+13,55
+8,55
+19,87
+-6,98
+13,61
+8,61
+20,39
+-6,98
+13,53
+8,53
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 41 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 17 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+q=( 1- 3)/2,  [kg/cm2]
+Deformación Unitaria,  [%]
+TRIAXIAL CID, e - q,
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 2 (σ'c = 5 kg/cm²) CICLICO
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+2
+4
+6
+8
+10
+12
+14
+16
+q=( 1- 3)/2,  [kg/cm2]
+p=( 1+ 3)/2,  [kg/cm2]
+TRIAXIAL CID, p - q, 
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 2 (σ'c = 5 kg/cm²) CICLICO
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+0
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+Deformación Volumétrica [%]
+Deformación Unitaria,  [%]
+TRIAXIAL CID, 
+- V, 
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 2 (σ'c = 5 kg/cm²) CICLICO
+.
+ 
+
+=== PÁGINA 42 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 18 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+09-05-2011
+Fecha de Término
+13-05-2011
+Muestra
+Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+Altura Inicial de Confección
+[cm]=
+180,00
+Diámetro Inicial de Confección
+[cm]=
+100,00
+VariaciónVolumen drenado etapa consolidación
+[cm³]=
+65378,00
+Densidad Seca de Confección
+[gr/cm³]=
+2,10
+Humedad de Confección
+[%]=
+0,09
+Contrapresión
+[kg/cm²]=
+2,00
+Presión de Cámara Total
+[kg/cm²]=
+12,00
+Velocidad Deformación Unitaria
+[% / min]=
+--
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+Observaciones:
+0,00
+0,00
+10,13
+0,13
+0,04
+-0,02
+10,39
+0,39
+q = (σ1-σ3)/2
+0,09
+-0,02
+10,88
+0,88
+p = (σ₁+σ₃)/2
+0,19
+-0,07
+11,39
+1,39
+0,44
+-0,29
+11,88
+1,88
+Ensaye efectuado en probeta REMOLDEADA
+0,58
+-0,44
+12,36
+2,36
+0,79
+-0,69
+12,85
+2,85
+0,99
+-0,83
+13,32
+3,32
+1,23
+-1,08
+13,79
+3,79
+1,48
+-1,32
+14,24
+4,24
+1,72
+-1,54
+14,71
+4,71
+1,74
+-1,57
+14,46
+4,46
+1,74
+-1,59
+13,97
+3,97
+1,74
+-1,59
+13,48
+3,48
+1,74
+-1,59
+12,99
+2,99
+1,73
+-1,62
+12,50
+2,50
+1,72
+-1,59
+12,00
+2,00
+1,70
+-1,62
+11,52
+1,52
+1,68
+-1,59
+11,02
+1,02
+1,65
+-1,62
+10,54
+0,54
+1,59
+-1,59
+10,05
+0,05
+1,62
+-1,59
+10,30
+0,30
+1,65
+-1,62
+10,78
+0,78
+1,67
+-1,62
+11,27
+1,27
+1,69
+-1,62
+11,71
+1,71
+1,71
+-1,64
+12,25
+2,25
+1,72
+-1,64
+12,74
+2,74
+1,74
+-1,64
+13,23
+3,23
+1,76
+-1,64
+13,72
+3,72
+1,78
+-1,64
+14,20
+4,20
+1,82
+-1,69
+14,69
+4,69
+1,91
+-1,74
+15,17
+5,17
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+ 
+
+=== PÁGINA 43 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 19 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+09-05-2011
+Fecha de Término
+13-05-2011
+Muestra
+Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,23
+-2,03
+15,60
+5,60
+2,53
+-2,28
+16,05
+6,05
+2,80
+-2,50
+16,48
+6,48
+3,12
+-2,77
+16,91
+6,91
+3,15
+-2,81
+16,66
+6,66
+3,15
+-2,81
+16,19
+6,19
+3,15
+-2,81
+15,70
+5,70
+3,15
+-2,84
+15,22
+5,22
+3,15
+-2,84
+14,99
+4,99
+3,15
+-2,86
+15,22
+5,22
+3,15
+-2,86
+15,70
+5,70
+3,16
+-2,89
+16,18
+6,18
+3,18
+-2,89
+16,65
+6,65
+3,21
+-2,91
+16,89
+6,89
+3,21
+-2,94
+16,64
+6,64
+3,21
+-2,96
+16,17
+6,17
+3,21
+-2,96
+15,69
+5,69
+3,21
+-2,96
+15,21
+5,21
+3,21
+-2,99
+14,74
+4,74
+3,20
+-2,99
+14,26
+4,26
+3,19
+-3,01
+13,79
+3,79
+3,19
+-3,03
+13,54
+3,54
+3,18
+-3,03
+13,30
+3,30
+3,18
+-3,03
+13,55
+3,55
+3,18
+-3,03
+14,01
+4,01
+3,19
+-3,06
+14,49
+4,49
+3,19
+-3,06
+14,98
+4,98
+3,21
+-3,06
+15,44
+5,44
+3,21
+-3,06
+15,92
+5,92
+3,22
+-3,08
+16,39
+6,39
+3,23
+-3,08
+16,63
+6,63
+3,24
+-3,08
+16,87
+6,87
+3,25
+-3,08
+16,63
+6,63
+3,25
+-3,11
+16,16
+6,16
+3,25
+-3,11
+15,68
+5,68
+3,25
+-3,11
+15,20
+5,20
+3,24
+-3,08
+14,73
+4,73
+3,24
+-3,11
+14,25
+4,25
+3,23
+-3,11
+13,78
+3,78
+3,22
+-3,11
+13,30
+3,30
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 44 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 20 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+09-05-2011
+Fecha de Término
+13-05-2011
+Muestra
+Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+3,21
+-3,11
+12,83
+2,83
+3,19
+-3,13
+12,35
+2,35
+3,18
+-3,13
+11,87
+1,87
+3,17
+-3,11
+11,64
+1,64
+3,17
+-3,13
+11,87
+1,87
+3,18
+-3,13
+12,35
+2,35
+3,18
+-3,13
+12,83
+2,83
+3,19
+-3,13
+13,30
+3,30
+3,21
+-3,13
+13,78
+3,78
+3,22
+-3,16
+14,25
+4,25
+3,22
+-3,16
+14,73
+4,73
+3,23
+-3,16
+15,20
+5,20
+3,24
+-3,16
+15,68
+5,68
+3,25
+-3,16
+16,16
+6,16
+3,26
+-3,16
+16,62
+6,62
+3,28
+-3,18
+16,86
+6,86
+3,29
+-3,18
+16,62
+6,62
+3,29
+-3,18
+16,15
+6,15
+3,29
+-3,16
+15,19
+5,19
+3,27
+-3,16
+14,24
+4,24
+3,26
+-3,16
+13,29
+3,29
+3,23
+-3,16
+12,35
+2,35
+3,19
+-3,18
+11,40
+1,40
+3,15
+-3,18
+10,45
+0,45
+3,12
+-3,18
+10,21
+0,21
+3,10
+-3,25
+10,00
+0,00
+3,11
+-3,28
+10,21
+0,21
+3,13
+-3,28
+10,68
+0,68
+3,18
+-3,28
+11,64
+1,64
+3,21
+-3,30
+12,58
+2,58
+3,23
+-3,30
+13,53
+3,53
+3,25
+-3,33
+14,48
+4,48
+3,27
+-3,33
+15,42
+5,42
+3,30
+-3,33
+16,37
+6,37
+3,32
+-3,33
+16,60
+6,60
+3,34
+-3,35
+16,84
+6,84
+3,34
+-3,35
+16,60
+6,60
+3,34
+-3,35
+16,13
+6,13
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 45 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 21 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+09-05-2011
+Fecha de Término
+13-05-2011
+Muestra
+Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+3,34
+-3,35
+15,17
+5,17
+3,33
+-3,35
+14,23
+4,23
+3,31
+-3,35
+13,28
+3,28
+3,29
+-3,35
+12,34
+2,34
+3,25
+-3,35
+11,39
+1,39
+3,21
+-3,35
+10,45
+0,45
+3,18
+-3,35
+10,21
+0,21
+3,15
+-3,35
+10,00
+0,00
+3,15
+-3,38
+10,21
+0,21
+3,18
+-3,38
+10,68
+0,68
+3,22
+-3,40
+11,63
+1,63
+3,25
+-3,43
+12,58
+2,58
+3,28
+-3,40
+13,52
+3,52
+3,31
+-3,40
+14,47
+4,47
+3,34
+-3,40
+15,41
+5,41
+3,37
+-3,40
+16,35
+6,35
+3,39
+-3,43
+16,59
+6,59
+3,41
+-3,43
+16,83
+6,83
+3,41
+-3,45
+16,59
+6,59
+3,41
+-3,45
+16,12
+6,12
+3,41
+-3,45
+15,16
+5,16
+3,39
+-3,45
+14,22
+4,22
+3,37
+-3,45
+13,27
+3,27
+3,35
+-3,45
+12,33
+2,33
+3,31
+-3,45
+11,39
+1,39
+3,26
+-3,43
+10,44
+0,44
+3,24
+-3,43
+10,21
+0,21
+3,22
+-3,43
+10,00
+0,00
+3,23
+-3,43
+10,21
+0,21
+3,25
+-3,43
+10,67
+0,67
+3,29
+-3,43
+11,63
+1,63
+3,32
+-3,43
+12,57
+2,57
+3,35
+-3,43
+13,52
+3,52
+3,36
+-3,43
+14,46
+4,46
+3,39
+-3,43
+15,41
+5,41
+3,42
+-3,43
+16,35
+6,35
+3,43
+-3,45
+16,58
+6,58
+3,45
+-3,45
+16,82
+6,82
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 46 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 22 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+09-05-2011
+Fecha de Término
+13-05-2011
+Muestra
+Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+3,45
+-3,45
+16,58
+6,58
+3,45
+-3,45
+16,12
+6,12
+3,45
+-3,47
+15,16
+5,16
+3,44
+-3,47
+14,21
+4,21
+3,42
+-3,47
+13,27
+3,27
+3,39
+-3,45
+12,33
+2,33
+3,35
+-3,45
+11,38
+1,38
+3,31
+-3,45
+10,44
+0,44
+3,29
+-3,45
+10,20
+0,20
+3,26
+-3,45
+10,00
+0,00
+3,27
+-3,43
+10,20
+0,20
+3,29
+-3,43
+10,67
+0,67
+3,34
+-3,43
+11,63
+1,63
+3,36
+-3,43
+12,57
+2,57
+3,39
+-3,43
+13,51
+3,51
+3,41
+-3,43
+14,46
+4,46
+3,44
+-3,43
+15,40
+5,40
+3,46
+-3,43
+16,34
+6,34
+3,48
+-3,43
+16,58
+6,58
+3,49
+-3,45
+16,82
+6,82
+3,49
+-3,45
+16,58
+6,58
+3,49
+-3,45
+16,11
+6,11
+3,49
+-3,45
+15,15
+5,15
+3,47
+-3,45
+14,21
+4,21
+3,45
+-3,45
+13,27
+3,27
+3,43
+-3,45
+12,32
+2,32
+3,39
+-3,45
+11,38
+1,38
+3,34
+-3,45
+10,44
+0,44
+3,33
+-3,45
+10,20
+0,20
+3,29
+-3,45
+10,00
+0,00
+3,31
+-3,47
+10,20
+0,20
+3,34
+-3,47
+10,67
+0,67
+3,37
+-3,47
+11,62
+1,62
+3,40
+-3,47
+12,57
+2,57
+3,42
+-3,47
+13,51
+3,51
+3,45
+-3,47
+14,45
+4,45
+3,47
+-3,50
+15,39
+5,39
+3,50
+-3,52
+16,33
+6,33
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 47 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 23 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+09-05-2011
+Fecha de Término
+13-05-2011
+Muestra
+Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+3,51
+-3,52
+16,57
+6,57
+3,52
+-3,55
+16,81
+6,81
+3,52
+-3,55
+16,57
+6,57
+3,52
+-3,55
+16,10
+6,10
+3,52
+-3,55
+15,15
+5,15
+3,51
+-3,57
+14,20
+4,20
+3,48
+-3,57
+13,26
+3,26
+3,46
+-3,57
+12,32
+2,32
+3,43
+-3,57
+11,38
+1,38
+3,39
+-3,57
+10,44
+0,44
+3,36
+-3,60
+10,20
+0,20
+3,34
+-3,60
+10,00
+0,00
+3,34
+-3,60
+10,20
+0,20
+3,37
+-3,62
+10,66
+0,66
+3,41
+-3,62
+11,62
+1,62
+3,44
+-3,62
+12,56
+2,56
+3,46
+-3,62
+13,50
+3,50
+3,49
+-3,62
+14,44
+4,44
+3,51
+-3,62
+15,38
+5,38
+3,54
+-3,65
+16,32
+6,32
+3,54
+-3,65
+16,56
+6,56
+3,55
+-3,67
+16,79
+6,79
+3,56
+-3,67
+16,55
+6,55
+3,56
+-3,70
+16,09
+6,09
+3,56
+-3,70
+15,13
+5,13
+3,55
+-3,67
+14,19
+4,19
+3,52
+-3,67
+13,25
+3,25
+3,50
+-3,67
+12,31
+2,31
+3,47
+-3,67
+11,37
+1,37
+3,42
+-3,67
+10,43
+0,43
+3,40
+-3,67
+10,20
+0,20
+3,37
+-3,67
+10,00
+0,00
+3,38
+-3,67
+10,20
+0,20
+3,40
+-3,67
+10,66
+0,66
+3,44
+-3,67
+11,61
+1,61
+3,47
+-3,67
+12,56
+2,56
+3,49
+-3,67
+13,50
+3,50
+3,52
+-3,65
+14,44
+4,44
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 48 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 24 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+09-05-2011
+Fecha de Término
+13-05-2011
+Muestra
+Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+3,55
+-3,67
+15,38
+5,38
+3,58
+-3,65
+16,32
+6,32
+3,59
+-3,65
+16,55
+6,55
+3,60
+-3,65
+16,79
+6,79
+3,60
+-3,65
+16,55
+6,55
+3,60
+-3,65
+16,09
+6,09
+3,60
+-3,65
+15,13
+5,13
+3,58
+-3,65
+14,19
+4,19
+3,56
+-3,62
+13,25
+3,25
+3,54
+-3,62
+12,31
+2,31
+3,51
+-3,62
+11,37
+1,37
+3,46
+-3,60
+10,43
+0,43
+3,44
+-3,60
+10,19
+0,19
+3,42
+-3,60
+10,00
+0,00
+3,42
+-3,60
+10,19
+0,19
+3,45
+-3,60
+10,66
+0,66
+3,48
+-3,62
+11,61
+1,61
+3,51
+-3,62
+12,55
+2,55
+3,54
+-3,62
+13,49
+3,49
+3,56
+-3,65
+14,43
+4,43
+3,58
+-3,65
+15,37
+5,37
+3,61
+-3,65
+16,31
+6,31
+3,62
+-3,65
+16,55
+6,55
+3,62
+-3,65
+16,79
+6,79
+3,62
+-3,62
+16,55
+6,55
+3,62
+-3,62
+16,09
+6,09
+3,62
+-3,62
+15,13
+5,13
+3,61
+-3,62
+14,19
+4,19
+3,59
+-3,60
+13,25
+3,25
+3,57
+-3,57
+12,31
+2,31
+3,54
+-3,52
+11,37
+1,37
+3,49
+-3,50
+10,43
+0,43
+3,47
+-3,50
+10,19
+0,19
+3,45
+-3,50
+10,00
+0,00
+3,45
+-3,50
+10,19
+0,19
+3,48
+-3,50
+10,66
+0,66
+3,51
+-3,50
+11,61
+1,61
+3,54
+-3,52
+12,55
+2,55
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 49 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 25 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+09-05-2011
+Fecha de Término
+13-05-2011
+Muestra
+Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+3,57
+-3,52
+13,49
+3,49
+3,59
+-3,52
+14,44
+4,44
+3,61
+-3,52
+15,38
+5,38
+3,64
+-3,55
+16,31
+6,31
+3,64
+-3,57
+16,55
+6,55
+3,65
+-3,57
+16,79
+6,79
+3,65
+-3,57
+16,55
+6,55
+3,65
+-3,57
+16,08
+6,08
+3,65
+-3,57
+15,13
+5,13
+3,64
+-3,57
+14,19
+4,19
+3,61
+-3,60
+13,25
+3,25
+3,59
+-3,60
+12,31
+2,31
+3,56
+-3,60
+11,37
+1,37
+3,52
+-3,60
+10,43
+0,43
+3,49
+-3,60
+10,19
+0,19
+3,46
+-3,60
+10,00
+0,00
+3,47
+-3,62
+10,19
+0,19
+3,50
+-3,62
+10,66
+0,66
+3,54
+-3,62
+11,61
+1,61
+3,57
+-3,65
+12,55
+2,55
+3,59
+-3,65
+13,49
+3,49
+3,61
+-3,65
+14,43
+4,43
+3,64
+-3,67
+15,37
+5,37
+3,66
+-3,67
+16,30
+6,30
+3,67
+-3,67
+16,54
+6,54
+3,68
+-3,70
+16,78
+6,78
+3,68
+-3,70
+16,54
+6,54
+3,68
+-3,70
+16,07
+6,07
+3,68
+-3,72
+15,12
+5,12
+3,66
+-3,72
+14,18
+4,18
+3,64
+-3,72
+13,24
+3,24
+3,61
+-3,72
+12,30
+2,30
+3,58
+-3,72
+11,37
+1,37
+3,54
+-3,72
+10,43
+0,43
+3,51
+-3,72
+10,19
+0,19
+3,49
+-3,72
+10,00
+0,00
+3,49
+-3,72
+10,19
+0,19
+3,52
+-3,74
+10,65
+0,65
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 50 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 26 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+09-05-2011
+Fecha de Término
+13-05-2011
+Muestra
+Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+3,56
+-3,77
+11,60
+1,60
+3,59
+-3,77
+12,54
+2,54
+3,61
+-3,79
+13,48
+3,48
+3,64
+-3,79
+14,42
+4,42
+3,66
+-3,79
+15,36
+5,36
+3,68
+-3,82
+16,29
+6,29
+3,69
+-3,82
+16,53
+6,53
+3,70
+-3,82
+16,77
+6,77
+3,70
+-3,82
+16,53
+6,53
+3,70
+-3,82
+16,06
+6,06
+3,70
+-3,82
+15,11
+5,11
+3,68
+-3,82
+14,18
+4,18
+3,66
+-3,82
+13,24
+3,24
+3,64
+-3,82
+12,30
+2,30
+3,61
+-3,84
+11,36
+1,36
+3,56
+-3,82
+10,43
+0,43
+3,53
+-3,84
+10,19
+0,19
+3,51
+-3,84
+10,00
+0,00
+3,52
+-3,84
+10,19
+0,19
+3,54
+-3,84
+10,65
+0,65
+3,58
+-3,87
+11,60
+1,60
+3,61
+-3,87
+12,54
+2,54
+3,63
+-3,87
+13,48
+3,48
+3,66
+-3,87
+14,41
+4,41
+3,68
+-3,89
+15,35
+5,35
+3,70
+-3,89
+16,29
+6,29
+3,71
+-3,89
+16,52
+6,52
+3,72
+-3,89
+16,76
+6,76
+3,72
+-3,92
+16,52
+6,52
+3,72
+-3,92
+16,06
+6,06
+3,72
+-3,92
+15,11
+5,11
+3,70
+-3,92
+14,17
+4,17
+3,68
+-3,92
+13,23
+3,23
+3,66
+-3,92
+12,30
+2,30
+3,62
+-3,92
+11,36
+1,36
+3,58
+-3,92
+10,42
+0,42
+3,52
+-3,92
+10,19
+0,19
+3,55
+-3,92
+10,65
+0,65
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 51 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 27 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+09-05-2011
+Fecha de Término
+13-05-2011
+Muestra
+Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+3,59
+-3,94
+11,60
+1,60
+3,62
+-3,92
+12,54
+2,54
+3,65
+-3,92
+13,47
+3,47
+3,67
+-3,89
+14,41
+4,41
+3,70
+-3,89
+15,35
+5,35
+3,72
+-3,89
+16,28
+6,28
+3,73
+-3,92
+16,52
+6,52
+3,74
+-3,92
+16,76
+6,76
+3,74
+-3,89
+16,52
+6,52
+3,74
+-3,89
+16,06
+6,06
+3,74
+-3,89
+15,11
+5,11
+3,72
+-3,87
+14,17
+4,17
+3,70
+-3,87
+13,23
+3,23
+3,68
+-3,87
+12,30
+2,30
+3,65
+-3,87
+11,36
+1,36
+3,59
+-3,84
+10,42
+0,42
+3,58
+-3,84
+10,19
+0,19
+3,55
+-3,82
+10,00
+0,00
+3,55
+-3,82
+10,19
+0,19
+3,58
+-3,82
+10,65
+0,65
+3,62
+-3,79
+11,60
+1,60
+3,65
+-3,79
+12,54
+2,54
+3,67
+-3,79
+13,48
+3,48
+3,70
+-3,79
+14,41
+4,41
+3,72
+-3,79
+15,35
+5,35
+3,74
+-3,79
+16,29
+6,29
+3,75
+-3,79
+16,52
+6,52
+3,76
+-3,79
+16,76
+6,76
+3,77
+-3,79
+16,52
+6,52
+3,77
+-3,79
+16,06
+6,06
+3,77
+-3,77
+15,11
+5,11
+3,74
+-3,77
+14,17
+4,17
+3,72
+-3,77
+13,24
+3,24
+3,70
+-3,77
+12,30
+2,30
+3,67
+-3,77
+11,36
+1,36
+3,62
+-3,74
+10,42
+0,42
+3,59
+-3,72
+10,19
+0,19
+3,57
+-3,72
+10,00
+0,00
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 52 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 28 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+09-05-2011
+Fecha de Término
+13-05-2011
+Muestra
+Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+3,57
+-3,70
+10,19
+0,19
+3,60
+-3,70
+10,65
+0,65
+3,64
+-3,70
+11,60
+1,60
+3,67
+-3,72
+12,54
+2,54
+3,70
+-3,70
+13,48
+3,48
+3,71
+-3,67
+14,42
+4,42
+3,75
+-3,67
+15,35
+5,35
+3,77
+-3,70
+16,29
+6,29
+3,77
+-3,67
+16,53
+6,53
+3,78
+-3,67
+16,77
+6,77
+3,82
+-3,67
+17,70
+7,70
+4,26
+-3,99
+18,55
+8,55
+4,78
+-4,53
+19,37
+9,37
+5,42
+-4,92
+20,15
+10,15
+6,40
+-5,43
+20,85
+10,85
+7,37
+-5,90
+21,52
+11,52
+8,60
+-6,36
+22,13
+12,13
+9,91
+-6,78
+22,70
+12,70
+11,76
+-7,19
+23,14
+13,14
+13,86
+-7,61
+23,48
+13,48
+15,00
+-7,83
+24,02
+14,02
+16,57
+-8,08
+24,43
+14,43
+18,00
+-8,17
+24,87
+14,87
+18,27
+-8,20
+24,80
+14,80
+18,50
+-8,20
+24,75
+14,75
+18,73
+-8,22
+24,69
+14,69
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 53 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 29 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+0
+2
+4
+6
+8
+10
+12
+14
+16
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+q=( 1- 3)/2,  [kg/cm2]
+Deformación Unitaria,  [%]
+TRIAXIAL CID, e - q,
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+0
+2
+4
+6
+8
+10
+12
+14
+16
+0
+5
+10
+15
+20
+25
+30
+q=( 1- 3)/2,  [kg/cm2]
+p=( 1+ 3)/2,  [kg/cm2]
+TRIAXIAL CID, p - q, 
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+-9
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+0
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+Deformación Volumétrica [%]
+Deformación Unitaria,  [%]
+TRIAXIAL CID, 
+- V, 
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 3 (σ'c = 10 kg/cm²) CICLICO
+ 
+
+=== PÁGINA 54 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 30 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf.Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+23-05-2011
+Fecha de Término
+24-05-2011
+Muestra
+Probeta 4 (σ'c = 20 kg/cm²) ESTATICO
+Altura Inicial de Confección
+[cm]=
+180,00
+Diámetro Inicial de Confección
+[cm]=
+100,00
+VariaciónVolumen drenado etapa consolidación
+[cm³]=
+92453,00
+Densidad Seca de Confección
+[gr/cm³]=
+2,10
+Humedad de Confección
+[%]=
+0,09
+Contrapresión
+[kg/cm²]=
+2,00
+Presión de Cámara Total
+[kg/cm²]=
+22,00
+Velocidad Deformación Unitaria
+[% / min]=
+--
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+Observaciones:
+0,00
+0,00
+20,13
+0,13
+0,02
+0,00
+20,39
+0,39
+q = (σ1-σ3)/2
+0,06
+-0,02
+20,65
+0,65
+p = (σ₁+σ₃)/2
+0,13
+-0,05
+20,91
+0,91
+0,21
+-0,12
+21,16
+1,16
+Ensaye efectuado en probeta REMOLDEADA
+0,27
+-0,17
+21,39
+1,39
+0,40
+-0,32
+21,89
+1,89
+0,55
+-0,45
+22,39
+2,39
+0,65
+-0,62
+22,89
+2,89
+0,80
+-0,77
+23,39
+3,39
+0,95
+-0,95
+24,11
+4,11
+1,18
+-1,17
+24,84
+4,84
+1,37
+-1,35
+25,57
+5,57
+1,52
+-1,50
+26,28
+6,28
+1,72
+-1,70
+26,99
+6,99
+2,10
+-2,05
+27,92
+7,92
+2,39
+-2,32
+28,83
+8,83
+2,73
+-2,62
+29,74
+9,74
+3,09
+-2,92
+30,61
+10,61
+3,64
+-3,34
+31,69
+11,69
+4,39
+-3,87
+32,67
+12,67
+5,44
+-4,52
+35,00
+15,00
+6,20
+-4,89
+36,10
+16,10
+6,61
+-5,12
+37,15
+17,15
+6,95
+-5,27
+37,92
+17,92
+7,19
+-5,39
+39,66
+19,66
+7,54
+-5,56
+40,42
+20,42
+7,87
+-5,64
+40,95
+20,95
+8,07
+-5,79
+41,19
+21,19
+8,29
+-5,86
+41,70
+21,70
+8,52
+-5,96
+41,83
+21,83
+8,73
+-6,04
+42,01
+22,01
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+ 
+
+=== PÁGINA 55 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 31 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf.Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+23-05-2011
+Fecha de Término
+24-05-2011
+Muestra
+Probeta 4 (σ'c = 20 kg/cm²) ESTATICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+9,09
+-6,14
+42,39
+22,39
+9,23
+-6,21
+42,69
+22,69
+9,36
+-6,24
+42,95
+22,95
+9,47
+-6,29
+43,12
+23,12
+9,61
+-6,36
+43,38
+23,38
+9,74
+-6,39
+43,72
+23,72
+9,93
+-6,44
+43,86
+23,86
+10,10
+-6,49
+43,94
+23,94
+10,26
+-6,54
+44,14
+24,14
+10,42
+-6,59
+44,31
+24,31
+10,64
+-6,66
+44,64
+24,64
+11,06
+-6,74
+44,78
+24,78
+11,39
+-6,84
+45,08
+25,08
+12,22
+-6,99
+45,27
+25,27
+12,77
+-7,09
+46,16
+26,16
+13,69
+-7,24
+46,35
+26,35
+15,45
+-7,44
+47,18
+27,18
+17,62
+-7,56
+48,00
+28,00
+18,05
+-7,64
+48,31
+28,31
+19,59
+-7,69
+49,66
+29,66
+19,75
+-7,69
+49,60
+29,60
+19,97
+-7,69
+49,50
+29,50
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 56 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 32 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+0
+5
+10
+15
+20
+25
+30
+35
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+q=( 1- 3)/2,  [kg/cm2]
+Deformación Unitaria,  [%]
+TRIAXIAL CID, e - q,
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 4 (σ'c = 20 kg/cm²) ESTATICO
+0
+5
+10
+15
+20
+25
+30
+35
+0
+10
+20
+30
+40
+50
+60
+q=( 1- 3)/2,  [kg/cm2]
+p=( 1+ 3)/2,  [kg/cm2]
+TRIAXIAL CID, p - q, 
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 4 (σ'c = 20 kg/cm²) ESTATICO
+-9
+-8
+-7
+-6
+-5
+-4
+-3
+-2
+-1
+0
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+Deformación Volumétrica [%]
+Deformación Unitaria,  [%]
+TRIAXIAL CID, 
+- V, 
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 4 (σ'c = 20 kg/cm²) ESTATICO
+ 
+
+=== PÁGINA 57 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 33 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Altura Inicial de Confección
+[cm]=
+180,00
+Diámetro Inicial de Confección
+[cm]=
+100,00
+VariaciónVolumen drenado etapa consolidación
+[cm³]=
+116227,00
+Densidad Seca de Confección
+[gr/cm³]=
+2,10
+Humedad de Confección
+[%]=
+0,09
+Contrapresión
+[kg/cm²]=
+2,00
+Presión de Cámara Total
+[kg/cm²]=
+22,00
+Velocidad Deformación Unitaria
+[% / min]=
+--
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+Observaciones:
+0,00
+0,00
+20,13
+0,13
+0,06
+-0,08
+20,39
+0,39
+q = (s1-s3)/2
+0,12
+-0,13
+20,65
+0,65
+p = (s1+s3)/2
+0,24
+-0,15
+21,67
+1,67
+0,36
+-0,23
+22,70
+2,70
+Ensaye efectuado en probeta REMOLDEADA
+0,52
+-0,28
+23,73
+3,73
+0,76
+-0,48
+24,71
+4,71
+0,99
+-0,74
+25,71
+5,71
+1,21
+-0,96
+26,68
+6,68
+1,34
+-1,09
+27,16
+7,16
+1,40
+-1,17
+27,41
+7,41
+1,46
+-1,22
+27,65
+7,65
+1,46
+-1,19
+27,40
+7,40
+1,47
+-1,24
+27,14
+7,14
+1,47
+-1,22
+26,63
+6,63
+1,46
+-1,19
+25,63
+5,63
+1,43
+-1,19
+24,61
+4,61
+1,42
+-1,19
+23,62
+3,62
+1,39
+-1,22
+22,59
+2,59
+1,37
+-1,22
+21,57
+1,57
+1,35
+-1,22
+21,09
+1,09
+1,34
+-1,22
+20,58
+0,58
+1,32
+-1,24
+20,32
+0,32
+1,28
+-1,22
+20,07
+0,07
+1,30
+-1,22
+20,32
+0,32
+1,31
+-1,24
+20,58
+0,58
+1,33
+-1,27
+21,09
+1,09
+1,36
+-1,27
+22,08
+2,08
+1,38
+-1,32
+23,10
+3,10
+1,40
+-1,35
+24,10
+4,10
+1,43
+-1,37
+25,12
+5,12
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+ 
+
+=== PÁGINA 58 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 34 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+1,46
+-1,37
+26,13
+6,13
+1,50
+-1,40
+27,12
+7,12
+1,55
+-1,47
+28,13
+8,13
+1,76
+-1,62
+29,08
+9,08
+2,03
+-1,85
+30,03
+10,03
+2,19
+-2,03
+30,49
+10,49
+2,29
+-2,16
+30,72
+10,72
+2,37
+-2,18
+30,93
+10,93
+2,44
+-2,31
+31,15
+11,15
+2,46
+-2,36
+30,89
+10,89
+2,46
+-2,41
+30,66
+10,66
+2,46
+-2,41
+30,16
+10,16
+2,45
+-2,41
+29,16
+9,16
+2,44
+-2,44
+28,66
+8,66
+2,44
+-2,41
+28,41
+8,41
+2,43
+-2,41
+28,19
+8,19
+2,44
+-2,41
+28,41
+8,41
+2,44
+-2,41
+28,66
+8,66
+2,45
+-2,44
+29,16
+9,16
+2,47
+-2,46
+30,16
+10,16
+2,49
+-2,46
+30,65
+10,65
+2,50
+-2,46
+30,88
+10,88
+2,51
+-2,46
+31,12
+11,12
+2,51
+-2,49
+30,87
+10,87
+2,52
+-2,51
+30,64
+10,64
+2,52
+-2,49
+30,15
+10,15
+2,50
+-2,46
+29,15
+9,15
+2,48
+-2,51
+28,17
+8,17
+2,47
+-2,51
+27,18
+7,18
+2,46
+-2,51
+26,68
+6,68
+2,44
+-2,56
+26,18
+6,18
+2,44
+-2,56
+25,95
+5,95
+2,44
+-2,56
+25,70
+5,70
+2,44
+-2,56
+25,95
+5,95
+2,44
+-2,56
+26,18
+6,18
+2,44
+-2,59
+26,67
+6,67
+2,46
+-2,56
+27,17
+7,17
+2,48
+-2,56
+28,17
+8,17
+2,50
+-2,56
+29,14
+9,14
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 59 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 35 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,52
+-2,56
+30,14
+10,14
+2,53
+-2,59
+30,63
+10,63
+2,54
+-2,59
+30,86
+10,86
+2,55
+-2,59
+31,10
+11,10
+2,55
+-2,61
+30,85
+10,85
+2,55
+-2,64
+30,62
+10,62
+2,55
+-2,64
+30,37
+10,37
+2,55
+-2,64
+29,88
+9,88
+2,53
+-2,64
+28,88
+8,88
+2,52
+-2,64
+27,91
+7,91
+2,50
+-2,67
+26,91
+6,91
+2,48
+-2,67
+25,94
+5,94
+2,46
+-2,64
+24,95
+4,95
+2,43
+-2,61
+23,95
+3,95
+2,43
+-2,64
+23,48
+3,48
+2,41
+-2,67
+22,98
+2,98
+2,40
+-2,67
+22,73
+2,73
+2,40
+-2,67
+22,98
+2,98
+2,40
+-2,67
+23,23
+3,23
+2,41
+-2,69
+23,48
+3,48
+2,41
+-2,69
+23,95
+3,95
+2,44
+-2,69
+24,95
+4,95
+2,46
+-2,72
+25,94
+5,94
+2,48
+-2,72
+26,91
+6,91
+2,50
+-2,72
+27,91
+7,91
+2,52
+-2,77
+28,87
+8,87
+2,55
+-2,74
+29,87
+9,87
+2,56
+-2,77
+30,36
+10,36
+2,58
+-2,77
+30,83
+10,83
+2,59
+-2,77
+31,08
+11,08
+2,59
+-2,79
+30,83
+10,83
+2,59
+-2,77
+30,61
+10,61
+2,58
+-2,82
+30,10
+10,10
+2,57
+-2,82
+29,11
+9,11
+2,55
+-2,82
+28,14
+8,14
+2,53
+-2,82
+27,15
+7,15
+2,52
+-2,82
+26,15
+6,15
+2,49
+-2,82
+25,18
+5,18
+2,47
+-2,79
+23,94
+3,94
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 60 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 36 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,46
+-2,82
+23,22
+3,22
+2,43
+-2,82
+22,22
+2,22
+2,40
+-2,82
+21,23
+1,23
+2,38
+-2,82
+20,76
+0,76
+2,36
+-2,82
+20,26
+0,26
+2,33
+-2,79
+20,01
+0,01
+2,33
+-2,82
+20,26
+0,26
+2,34
+-2,84
+20,76
+0,76
+2,37
+-2,84
+21,73
+1,73
+2,40
+-2,84
+22,73
+2,73
+2,43
+-2,87
+24,19
+4,19
+2,47
+-2,87
+25,68
+5,68
+2,50
+-2,89
+27,15
+7,15
+2,54
+-2,94
+28,13
+8,13
+2,56
+-2,92
+29,10
+9,10
+2,59
+-2,92
+30,09
+10,09
+2,60
+-2,92
+30,59
+10,59
+2,61
+-2,89
+30,81
+10,81
+2,62
+-2,92
+31,06
+11,06
+2,63
+-2,92
+30,81
+10,81
+2,62
+-2,94
+30,33
+10,33
+2,62
+-2,92
+29,34
+9,34
+2,60
+-2,92
+28,35
+8,35
+2,58
+-3,00
+26,88
+6,88
+2,55
+-2,97
+25,42
+5,42
+2,52
+-2,97
+23,93
+3,93
+2,49
+-3,00
+22,96
+2,96
+2,46
+-3,00
+21,97
+1,97
+2,43
+-2,97
+21,00
+1,00
+2,41
+-3,00
+20,50
+0,50
+2,41
+-2,97
+20,26
+0,26
+2,39
+-2,97
+20,01
+0,01
+2,39
+-3,00
+20,26
+0,26
+2,40
+-3,00
+20,75
+0,75
+2,43
+-3,00
+21,72
+1,72
+2,46
+-3,00
+22,72
+2,72
+2,49
+-3,02
+24,18
+4,18
+2,52
+-3,02
+25,67
+5,67
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 61 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 37 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,56
+-3,05
+27,13
+7,13
+2,58
+-3,07
+28,12
+8,12
+2,61
+-3,10
+29,08
+9,08
+2,63
+-3,10
+30,07
+10,07
+2,64
+-3,10
+30,56
+10,56
+2,65
+-3,10
+30,79
+10,79
+2,66
+-3,12
+31,03
+11,03
+2,66
+-3,15
+30,78
+10,78
+2,66
+-3,12
+30,31
+10,31
+2,65
+-3,12
+29,32
+9,32
+2,62
+-3,12
+27,86
+7,86
+2,59
+-3,15
+26,37
+6,37
+2,56
+-3,15
+24,91
+4,91
+2,53
+-3,15
+23,45
+3,45
+2,50
+-3,15
+21,96
+1,96
+2,47
+-3,15
+21,00
+1,00
+2,45
+-3,17
+20,50
+0,50
+2,44
+-3,17
+20,25
+0,25
+2,42
+-3,17
+20,01
+0,01
+2,42
+-3,20
+20,25
+0,25
+2,43
+-3,20
+20,75
+0,75
+2,46
+-3,20
+21,72
+1,72
+2,50
+-3,22
+23,20
+3,20
+2,53
+-3,25
+24,66
+4,66
+2,56
+-3,25
+26,12
+6,12
+2,60
+-3,25
+27,61
+7,61
+2,63
+-3,27
+29,06
+9,06
+2,65
+-3,30
+30,05
+10,05
+2,67
+-3,30
+30,54
+10,54
+2,68
+-3,30
+30,76
+10,76
+2,68
+-3,30
+31,01
+11,01
+2,68
+-3,30
+30,76
+10,76
+2,68
+-3,33
+30,29
+10,29
+2,67
+-3,30
+29,30
+9,30
+2,65
+-3,30
+27,84
+7,84
+2,62
+-3,30
+26,36
+6,36
+2,59
+-3,33
+24,90
+4,90
+2,56
+-3,30
+23,44
+3,44
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 62 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 38 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,52
+-3,30
+21,96
+1,96
+2,49
+-3,30
+20,99
+0,99
+2,47
+-3,33
+20,50
+0,50
+2,46
+-3,33
+20,25
+0,25
+2,44
+-3,30
+20,01
+0,01
+2,44
+-3,30
+20,25
+0,25
+2,46
+-3,30
+20,75
+0,75
+2,49
+-3,33
+21,71
+1,71
+2,52
+-3,33
+23,20
+3,20
+2,56
+-3,33
+24,66
+4,66
+2,58
+-3,33
+26,12
+6,12
+2,62
+-3,33
+27,60
+7,60
+2,65
+-3,35
+29,05
+9,05
+2,68
+-3,35
+30,04
+10,04
+2,69
+-3,35
+30,53
+10,53
+2,70
+-3,35
+30,75
+10,75
+2,71
+-3,40
+30,99
+10,99
+2,71
+-3,38
+30,75
+10,75
+2,71
+-3,43
+30,27
+10,27
+2,69
+-3,43
+29,29
+9,29
+2,67
+-3,43
+27,83
+7,83
+2,64
+-3,40
+26,35
+6,35
+2,62
+-3,43
+24,89
+4,89
+2,59
+-3,43
+23,44
+3,44
+2,55
+-3,43
+21,96
+1,96
+2,52
+-3,43
+20,99
+0,99
+2,50
+-3,40
+20,50
+0,50
+2,48
+-3,45
+20,25
+0,25
+2,47
+-3,45
+20,00
+0,00
+2,47
+-3,43
+20,25
+0,25
+2,48
+-3,40
+20,75
+0,75
+2,50
+-3,40
+21,71
+1,71
+2,54
+-3,40
+23,19
+3,19
+2,58
+-3,40
+24,65
+4,65
+2,61
+-3,40
+26,11
+6,11
+2,64
+-3,40
+27,59
+7,59
+2,68
+-3,43
+29,04
+9,04
+2,70
+-3,43
+30,03
+10,03
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 63 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 39 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,71
+-3,43
+30,52
+10,52
+2,72
+-3,40
+30,74
+10,74
+2,72
+-3,43
+30,99
+10,99
+2,72
+-3,43
+30,74
+10,74
+2,72
+-3,40
+30,27
+10,27
+2,71
+-3,43
+29,28
+9,28
+2,68
+-3,43
+27,83
+7,83
+2,66
+-3,43
+26,35
+6,35
+2,63
+-3,40
+24,89
+4,89
+2,61
+-3,40
+23,44
+3,44
+2,56
+-3,43
+21,95
+1,95
+2,52
+-3,40
+20,99
+0,99
+2,51
+-3,40
+20,50
+0,50
+2,50
+-3,40
+20,25
+0,25
+2,48
+-3,38
+20,00
+0,00
+2,49
+-3,40
+20,25
+0,25
+2,50
+-3,43
+20,75
+0,75
+2,52
+-3,40
+21,71
+1,71
+2,56
+-3,43
+23,19
+3,19
+2,59
+-3,43
+24,65
+4,65
+2,62
+-3,43
+26,10
+6,10
+2,66
+-3,43
+27,58
+7,58
+2,69
+-3,45
+29,04
+9,04
+2,71
+-3,43
+30,02
+10,02
+2,72
+-3,45
+30,51
+10,51
+2,73
+-3,48
+30,73
+10,73
+2,74
+-3,48
+30,98
+10,98
+2,74
+-3,48
+30,73
+10,73
+2,74
+-3,45
+30,26
+10,26
+2,73
+-3,45
+29,28
+9,28
+2,71
+-3,45
+27,82
+7,82
+2,68
+-3,48
+26,34
+6,34
+2,65
+-3,45
+24,89
+4,89
+2,62
+-3,45
+23,43
+3,43
+2,58
+-3,45
+21,95
+1,95
+2,55
+-3,45
+20,99
+0,99
+2,53
+-3,45
+20,50
+0,50
+2,52
+-3,45
+20,25
+0,25
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 64 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 40 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,50
+-3,45
+20,00
+0,00
+2,50
+-3,43
+20,25
+0,25
+2,52
+-3,43
+20,74
+0,74
+2,54
+-3,45
+21,71
+1,71
+2,58
+-3,48
+23,19
+3,19
+2,61
+-3,45
+24,65
+4,65
+2,64
+-3,45
+26,10
+6,10
+2,68
+-3,45
+27,58
+7,58
+2,71
+-3,48
+29,03
+9,03
+2,74
+-3,40
+30,02
+10,02
+2,75
+-3,40
+30,51
+10,51
+2,75
+-3,40
+30,74
+10,74
+2,77
+-3,43
+30,98
+10,98
+2,77
+-3,43
+30,73
+10,73
+2,77
+-3,43
+30,26
+10,26
+2,75
+-3,40
+29,28
+9,28
+2,73
+-3,40
+27,82
+7,82
+2,71
+-3,43
+26,34
+6,34
+2,68
+-3,40
+24,89
+4,89
+2,65
+-3,38
+23,43
+3,43
+2,61
+-3,40
+21,95
+1,95
+2,58
+-3,40
+20,99
+0,99
+2,56
+-3,45
+20,49
+0,49
+2,55
+-3,48
+20,25
+0,25
+2,55
+-3,48
+20,00
+0,00
+2,55
+-3,45
+20,25
+0,25
+2,55
+-3,45
+20,74
+0,74
+2,57
+-3,45
+21,71
+1,71
+2,61
+-3,48
+23,19
+3,19
+2,65
+-3,48
+24,64
+4,64
+2,68
+-3,48
+26,10
+6,10
+2,71
+-3,50
+27,57
+7,57
+2,74
+-3,50
+29,02
+9,02
+2,76
+-3,48
+30,01
+10,01
+2,78
+-3,50
+30,50
+10,50
+2,78
+-3,50
+30,72
+10,72
+2,79
+-3,50
+30,97
+10,97
+2,79
+-3,50
+30,72
+10,72
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 65 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 41 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,79
+-3,48
+30,25
+10,25
+2,78
+-3,50
+29,27
+9,27
+2,75
+-3,48
+27,82
+7,82
+2,73
+-3,50
+26,34
+6,34
+2,70
+-3,50
+24,88
+4,88
+2,67
+-3,50
+23,43
+3,43
+2,63
+-3,50
+21,95
+1,95
+2,60
+-3,53
+20,99
+0,99
+2,59
+-3,50
+20,49
+0,49
+2,58
+-3,50
+20,25
+0,25
+2,57
+-3,53
+20,00
+0,00
+2,57
+-3,55
+20,25
+0,25
+2,58
+-3,55
+20,74
+0,74
+2,60
+-3,55
+21,70
+1,70
+2,64
+-3,55
+23,18
+3,18
+2,67
+-3,55
+24,64
+4,64
+2,69
+-3,58
+26,09
+6,09
+2,73
+-3,58
+27,56
+7,56
+2,76
+-3,58
+29,02
+9,02
+2,78
+-3,60
+30,00
+10,00
+2,80
+-3,60
+30,49
+10,49
+2,80
+-3,60
+30,71
+10,71
+2,81
+-3,60
+30,95
+10,95
+2,81
+-3,58
+30,71
+10,71
+2,81
+-3,58
+30,24
+10,24
+2,80
+-3,60
+29,25
+9,25
+2,78
+-3,63
+27,80
+7,80
+2,75
+-3,63
+26,33
+6,33
+2,72
+-3,63
+24,87
+4,87
+2,69
+-3,63
+23,42
+3,42
+2,65
+-3,66
+21,94
+1,94
+2,62
+-3,68
+20,98
+0,98
+2,61
+-3,68
+20,49
+0,49
+2,60
+-3,68
+20,24
+0,24
+2,59
+-3,68
+20,00
+0,00
+2,59
+-3,68
+20,24
+0,24
+2,61
+-3,68
+20,74
+0,74
+2,63
+-3,68
+21,70
+1,70
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 66 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 42 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,66
+-3,68
+23,18
+3,18
+2,69
+-3,71
+24,63
+4,63
+2,71
+-3,71
+26,08
+6,08
+2,75
+-3,71
+27,55
+7,55
+2,78
+-3,76
+29,00
+9,00
+2,80
+-3,73
+29,98
+9,98
+2,81
+-3,73
+30,47
+10,47
+2,82
+-3,73
+30,69
+10,69
+2,83
+-3,76
+30,93
+10,93
+2,83
+-3,76
+30,69
+10,69
+2,83
+-3,73
+30,22
+10,22
+2,82
+-3,78
+29,23
+9,23
+2,79
+-3,76
+27,79
+7,79
+2,76
+-3,78
+26,31
+6,31
+2,74
+-3,78
+24,86
+4,86
+2,71
+-3,78
+23,41
+3,41
+2,67
+-3,78
+21,94
+1,94
+2,64
+-3,81
+20,98
+0,98
+2,63
+-3,81
+20,49
+0,49
+2,61
+-3,81
+20,24
+0,24
+2,60
+-3,81
+20,00
+0,00
+2,61
+-3,81
+20,24
+0,24
+2,61
+-3,83
+20,74
+0,74
+2,64
+-3,81
+21,70
+1,70
+2,67
+-3,83
+23,17
+3,17
+2,71
+-3,83
+24,62
+4,62
+2,73
+-3,83
+26,07
+6,07
+2,77
+-3,83
+27,54
+7,54
+2,80
+-3,83
+28,99
+8,99
+2,82
+-3,83
+29,97
+9,97
+2,83
+-3,83
+30,46
+10,46
+2,84
+-3,83
+30,68
+10,68
+2,84
+-3,83
+30,92
+10,92
+2,84
+-3,83
+30,68
+10,68
+2,84
+-3,83
+30,21
+10,21
+2,84
+-3,83
+29,23
+9,23
+2,81
+-3,83
+27,78
+7,78
+2,78
+-3,83
+26,31
+6,31
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 67 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 43 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,76
+-3,83
+24,86
+4,86
+2,72
+-3,83
+23,41
+3,41
+2,69
+-3,83
+21,94
+1,94
+2,65
+-3,83
+20,98
+0,98
+2,64
+-3,81
+20,49
+0,49
+2,63
+-3,83
+20,24
+0,24
+2,62
+-3,83
+20,00
+0,00
+2,62
+-3,83
+20,24
+0,24
+2,63
+-3,83
+20,73
+0,73
+2,65
+-3,83
+21,69
+1,69
+2,69
+-3,86
+23,17
+3,17
+2,72
+-3,86
+24,62
+4,62
+2,75
+-3,86
+26,07
+6,07
+2,78
+-3,86
+27,54
+7,54
+2,81
+-3,86
+28,98
+8,98
+2,83
+-3,88
+29,96
+9,96
+2,85
+-3,88
+30,45
+10,45
+2,86
+-3,88
+30,67
+10,67
+2,86
+-3,88
+30,91
+10,91
+2,86
+-3,88
+30,67
+10,67
+2,86
+-3,88
+30,20
+10,20
+2,85
+-3,86
+29,22
+9,22
+2,83
+-3,86
+27,78
+7,78
+2,80
+-3,86
+26,31
+6,31
+2,77
+-3,86
+24,86
+4,86
+2,74
+-3,86
+23,41
+3,41
+2,69
+-3,86
+21,94
+1,94
+2,67
+-3,86
+20,98
+0,98
+2,65
+-3,83
+20,49
+0,49
+2,64
+-3,86
+20,24
+0,24
+2,63
+-3,78
+20,00
+0,00
+2,63
+-3,78
+20,24
+0,24
+2,64
+-3,78
+20,73
+0,73
+2,66
+-3,76
+21,69
+1,69
+2,69
+-3,78
+23,17
+3,17
+2,73
+-3,83
+24,62
+4,62
+2,76
+-3,83
+26,07
+6,07
+2,80
+-3,83
+27,54
+7,54
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 68 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 44 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,83
+-3,83
+28,98
+8,98
+2,85
+-3,83
+29,96
+9,96
+2,86
+-3,83
+30,45
+10,45
+2,87
+-3,83
+30,67
+10,67
+2,88
+-3,86
+30,91
+10,91
+2,88
+-3,83
+30,67
+10,67
+2,88
+-3,83
+30,20
+10,20
+2,87
+-3,86
+29,22
+9,22
+2,85
+-3,83
+27,78
+7,78
+2,82
+-3,83
+26,30
+6,30
+2,79
+-3,81
+24,86
+4,86
+2,76
+-3,81
+23,41
+3,41
+2,72
+-3,86
+21,93
+1,93
+2,69
+-3,88
+20,98
+0,98
+2,68
+-3,86
+20,49
+0,49
+2,67
+-3,86
+20,24
+0,24
+2,66
+-3,86
+20,00
+0,00
+2,66
+-3,86
+20,24
+0,24
+2,67
+-3,83
+20,73
+0,73
+2,69
+-3,83
+21,69
+1,69
+2,72
+-3,83
+23,17
+3,17
+2,76
+-3,86
+24,61
+4,61
+2,79
+-3,86
+26,06
+6,06
+2,82
+-3,88
+27,53
+7,53
+2,86
+-3,88
+28,97
+8,97
+2,87
+-3,88
+29,95
+9,95
+2,89
+-3,88
+30,44
+10,44
+2,89
+-3,88
+30,66
+10,66
+2,90
+-3,91
+30,91
+10,91
+2,90
+-3,88
+30,66
+10,66
+2,90
+-3,91
+30,19
+10,19
+2,89
+-3,91
+29,21
+9,21
+2,87
+-3,91
+27,77
+7,77
+2,84
+-3,91
+26,30
+6,30
+2,81
+-3,88
+24,85
+4,85
+2,78
+-3,88
+23,40
+3,40
+2,74
+-3,88
+21,93
+1,93
+2,72
+-3,86
+20,98
+0,98
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 69 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 45 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+2,69
+-3,88
+20,48
+0,48
+2,69
+-3,86
+20,24
+0,24
+2,68
+-3,88
+20,00
+0,00
+2,68
+-3,86
+20,24
+0,24
+2,69
+-3,86
+20,73
+0,73
+2,71
+-3,88
+21,69
+1,69
+2,74
+-3,88
+23,16
+3,16
+2,78
+-3,88
+24,61
+4,61
+2,81
+-3,91
+26,06
+6,06
+2,84
+-3,93
+27,52
+7,52
+2,87
+-3,93
+28,97
+8,97
+2,89
+-3,96
+29,94
+9,94
+2,90
+-3,93
+30,44
+10,44
+2,91
+-3,96
+30,65
+10,65
+2,92
+-3,93
+30,90
+10,90
+2,92
+-3,96
+31,14
+11,14
+2,93
+-3,93
+31,39
+11,39
+2,96
+-3,96
+31,87
+11,87
+3,27
+-4,11
+32,78
+12,78
+3,60
+-4,34
+34,12
+14,12
+4,13
+-4,72
+35,38
+15,38
+4,46
+-4,98
+36,71
+16,71
+4,85
+-5,23
+37,49
+17,49
+5,06
+-5,36
+38,17
+18,17
+5,24
+-5,48
+38,46
+18,46
+5,41
+-5,59
+39,01
+19,01
+5,57
+-5,71
+39,51
+19,51
+5,72
+-5,81
+39,76
+19,76
+6,02
+-6,02
+40,41
+20,41
+6,29
+-6,19
+40,91
+20,91
+6,59
+-6,35
+41,46
+21,46
+6,86
+-6,50
+41,96
+21,96
+7,13
+-6,70
+42,66
+22,66
+7,29
+-6,80
+42,82
+22,82
+7,54
+-6,96
+43,64
+23,64
+7,85
+-7,13
+43,92
+23,92
+8,09
+-7,26
+44,65
+24,65
+8,35
+-7,44
+45,11
+25,11
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 70 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 46 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+INFORME ENSAYO TRIAXIAL CID
+Proyecto
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha de Inicio
+30-05-2011
+Fecha de Término
+04-06-2011
+Muestra
+Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+Deformación
+Deform.
+p
+q
+Unitaria
+Volum.
+[%]
+%
+[kg/cm²]
+[kg/cm²]
+8,62
+-7,54
+45,46
+25,46
+9,01
+-7,72
+46,05
+26,05
+9,28
+-7,82
+46,18
+26,18
+9,61
+-7,95
+46,89
+26,89
+9,88
+-8,05
+46,86
+26,86
+10,36
+-8,23
+47,65
+27,65
+11,09
+-8,48
+48,38
+28,38
+12,27
+-8,78
+49,28
+29,28
+13,50
+-9,04
+50,03
+30,03
+14,77
+-9,22
+51,82
+31,82
+15,12
+-9,27
+51,65
+31,65
+15,67
+-9,37
+51,39
+31,39
+17,78
+-9,67
+52,27
+32,27
+18,76
+-9,82
+51,79
+31,79
+19,74
+-9,90
+51,33
+31,33
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Continuación…
+ 
+
+=== PÁGINA 71 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 47 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+0
+5
+10
+15
+20
+25
+30
+35
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+q=( 1- 3)/2,  [kg/cm2]
+Deformación Unitaria,  [%]
+TRIAXIAL CID, e - q,
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+0
+5
+10
+15
+20
+25
+30
+35
+0
+10
+20
+30
+40
+50
+60
+q=( 1- 3)/2,  [kg/cm2]
+p=( 1+ 3)/2,  [kg/cm2]
+TRIAXIAL CID, p - q, 
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+-12
+-10
+-8
+-6
+-4
+-2
+0
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+Deformación Volumétrica [%]
+Deformación Unitaria,  [%]
+TRIAXIAL CID, 
+- V, 
+Proyecto : MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 5 (σ'c = 20 kg/cm²) CICLICO
+ 
+
+=== PÁGINA 72 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 48 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+ENSAYE ODOMETRICO A GRAN ESCALA
+Proyecto
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha Inicio
+09-06-2011
+Fecha Término
+22-08-2011
+Muestra
+Probeta 6 Odómetro
+Datos del Molde
+Altura promedio
+[cm]
+90,00
+Nota: 
+Diámetro Inicial promedio
+[cm]
+94,97
+Carga Inicial sobre la muestra 1,289,180 kg
+Area Inicial promedio
+[cm²]
+7.084
+Tension Inicial 0,182 kg/cm²
+Volumen  Inicial
+[cm³]
+637.537
+Datos de Confeccion
+Densidad Humeda
+[g/cm³]
+2,102
+Humedad de confeccion
+[%]
+0,088
+Densidad Seca
+[g/cm³]
+2,100
+Peso Suelo seco
+[g]
+1.340.005
+Peso especifico Integral
+2,700
+Resumen Ensaye
+Tensión
+Acentamiento
+Variacion
+Densidad
+Relacion
+Observaciones
+Fecha inicio
+parcial
+de Altura
+Seca
+de Vacios
+aplicación de
+[kg/m²]
+[cm]
+[cm]
+[g/cm³]
+[g/cm³]
+Carga
+0,18
+0,15
+89,85
+2,104
+0,284
+Estado Seco
+09-06-2011
+0,18
+0,08
+89,77
+2,105
+0,282
+Saturacion
+09-06-2011
+2,00
+0,75
+89,02
+2,123
+0,272
+Saturacion
+10-06-2011
+4,00
+0,19
+88,83
+2,128
+0,269
+Saturacion
+11-06-2011
+6,00
+0,35
+88,47
+2,136
+0,264
+Permeabilidad
+12-06-2011
+8,00
+0,35
+88,12
+2,145
+0,259
+Saturacion
+13-06-2011
+10,00
+0,38
+87,74
+2,154
+0,253
+Permeabilidad
+14-06-2011
+12,00
+0,29
+87,45
+2,161
+0,249
+-
+15-06-2011
+14,00
+0,35
+87,10
+2,170
+0,244
+-
+16-06-2011
+16,00
+0,34
+86,75
+2,179
+0,239
+-
+17-06-2011
+18,00
+0,33
+86,42
+2,187
+0,235
+-
+17-06-2011
+20,00
+0,37
+86,05
+2,196
+0,229
+Permeabilidad
+18-06-2011
+22,00
+0,25
+85,80
+2,203
+0,226
+-
+18-06-2011
+24,00
+0,35
+85,45
+2,212
+0,221
+-
+19-06-2011
+26,00
+0,33
+85,12
+2,220
+0,216
+-
+20-06-2011
+28,00
+0,31
+84,81
+2,229
+0,212
+-
+21-06-2011
+30,00
+0,23
+84,57
+2,235
+0,208
+-
+22-06-2011
+32,00
+0,28
+84,30
+2,242
+0,204
+-
+23-06-2011
+34,00
+0,20
+84,09
+2,248
+0,201
+-
+24-06-2011
+36,00
+0,40
+83,69
+2,258
+0,196
+-
+26-06-2011
+38,00
+0,19
+83,50
+2,263
+0,193
+-
+30-06-2011
+40,00
+0,29
+83,21
+2,271
+0,189
+Permeabilidad
+04-07-2011
+45,00
+0,29
+82,93
+2,279
+0,185
+-
+11-07-2011
+50,00
+0,29
+82,63
+2,287
+0,180
+Permeabilidad
+14-07-2011
+55,00
+0,49
+82,14
+2,301
+0,173
+-
+18-07-2011
+60,00
+0,27
+81,87
+2,309
+0,170
+Permeabilidad
+03-08-2011
+50,00
+0,00
+81,87
+2,309
+0,170
+Descarga
+19-08-2011
+40,00
+0,00
+81,87
+2,308
+0,170
+Descarga
+19-08-2011
+36,00
+0,00
+81,87
+2,309
+0,170
+Descarga
+20-08-2011
+32,00
+0,01
+81,86
+2,309
+0,169
+Descarga
+20-08-2011
+28,00
+0,00
+81,86
+2,309
+0,169
+Descarga
+20-08-2011
+24,00
+0,00
+81,86
+2,309
+0,169
+Descarga
+20-08-2011
+20,00
+-0,01
+81,87
+2,308
+0,170
+Descarga
+21-08-2011
+16,00
+0,00
+81,87
+2,308
+0,170
+Descarga
+21-08-2011
+12,00
+0,00
+81,87
+2,308
+0,170
+Descarga
+21-08-2011
+8,00
+-0,01
+81,89
+2,308
+0,170
+Descarga
+21-08-2011
+4,00
+-0,03
+81,92
+2,307
+0,170
+Descarga
+21-08-2011
+0,18
+-0,11
+82,02
+2,304
+0,172
+Descarga
+22-08-2011
+ 
+
+=== PÁGINA 73 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 49 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+0,16
+0,18
+0,2
+0,22
+0,24
+0,26
+0,28
+0,1
+1
+10
+100
+Relación de vacíos
+Tensión, [kg/cm²]
+ENSAYE ODOMETRICO A GRAN ESCALA
+Proyecto: MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 6 Odómetro
+ 
+
+=== PÁGINA 74 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 50 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+ENSAYE DE PERMEABILIDAD A GRAN ESCALA
+Proyecto
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha Inicio
+13-06-2011
+Fecha Término
+13-06-2011
+Muestra
+Probeta 6 Odómetro (σ'c= 6 kg/cm²)
+DATOS DE CONFECCION
+Area Inicial promedio
+[cm²]
+7083,74
+Altura Inicial
+[cm]
+90,00
+Diferencia Altura por consolidacion
+[cm]
+1,53
+Altura corregida por consolidacion
+[cm]
+88,47
+LECTURAS DE ENSAYO
+Lectura
+Altura Carga
+Peso
+Tiempo
+Gradiente 
+v
+Hidráulica
+agua
+Escurrimiento
+Hidráulico
+[Nº]
+[cm]
+[g]
+[s]
+[i]
+[cm/s]
+1
+1,05
+1174,0
+60
+0,01
+0,002762
+2
+2,70
+1811,4
+45
+0,03
+0,005683
+3
+3,55
+1909,0
+40
+0,04
+0,006737
+4
+6,20
+2024,6
+30
+0,07
+0,009527
+5
+9,30
+1228,0
+13
+0,11
+0,013330
+Estimació n de P ermeabilidad (K)
+1,365E-01
+cm/seg
+y = 0,1365x
+R² = 0,9032
+0,000000
+0,002000
+0,004000
+0,006000
+0,008000
+0,010000
+0,012000
+0,014000
+0,016000
+0,00
+0,02
+0,04
+0,06
+0,08
+0,10
+0,12
+Velocidad de Escurrimiento 
+(cm/seg)
+Gradiente Hidráulico
+PERMEABILIDAD A GRAN ESCALA
+Proyecto: MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 6 Odómetro (σ'c= 6 kg/cm²)
+ 
+
+=== PÁGINA 75 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 51 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+ENSAYE DE PERMEABILIDAD A GRAN ESCALA
+Proyecto
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha Inicio
+15-06-2011
+Fecha Término
+15-06-2011
+Muestra
+Probeta 6 Odómetro (σ'c= 10 kg/cm²)
+DATOS DE CONFECCION
+Area Inicial promedio
+[cm²]
+7083,74
+Altura Inicial
+[cm]
+90,00
+Diferencia Altura por consolidacion
+[cm]
+2,26
+Altura corregida por consolidacion
+[cm]
+87,74
+LECTURAS DE ENSAYO
+Lectura
+Altura Carga
+Peso
+Tiempo
+Gradiente 
+v
+Hidráulica
+agua
+Escurrimiento
+Hidráulico
+[Nº]
+[cm]
+[g]
+[s]
+[i]
+[cm/s]
+1
+1,00
+1402,76
+90
+0,01
+0,002200
+2
+3,30
+1758,41
+45
+0,04
+0,005516
+3
+5,70
+1681,21
+30
+0,06
+0,007911
+4
+7,70
+1737,39
+25
+0,09
+0,009811
+5
+9,50
+1569,78
+20
+0,11
+0,011080
+Estimació n de P ermeabilidad (K)
+1,114E-01
+cm/seg
+y = 0,1114x
+R² = 0,9194
+0,000000
+0,002000
+0,004000
+0,006000
+0,008000
+0,010000
+0,012000
+0,014000
+0,00
+0,02
+0,04
+0,06
+0,08
+0,10
+0,12
+Velocidad de Escurrimiento 
+(cm/seg)
+Gradiente Hidráulico
+PERMEABILIDAD A GRAN ESCALA
+Proyecto: MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Muestra: Probeta 6 Odómetro (σ'c= 10 kg/cm²)
+ 
+
+=== PÁGINA 76 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 52 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+ENSAYE DE PERMEABILIDAD A GRAN ESCALA
+Proyecto
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha Inicio
+18-06-2011
+Fecha Término
+18-06-2011
+Muestra
+Probeta 6 Odómetro (σ'c= 20 kg/cm²)
+DATOS DE CONFECCION
+Area Inicial promedio
+[cm²]
+7083,74
+Altura Inicial
+[cm]
+90,00
+Diferencia Altura por consolidacion
+[cm]
+3,95
+Altura corregida por consolidacion
+[cm]
+86,05
+LECTURAS DE ENSAYO
+Lectura
+Altura Carga
+Peso
+Tiempo
+Gradiente 
+v
+Hidráulica
+agua
+Escurrimiento
+Hidráulico
+[Nº]
+[cm]
+[g]
+[s]
+[i]
+[cm/s]
+1
+1,20
+1961,9
+120
+0,01
+0,002308
+2
+2,50
+1755,6
+60
+0,03
+0,004131
+3
+4,70
+1851,2
+40
+0,05
+0,006533
+4
+7,10
+1828,7
+30
+0,08
+0,008605
+5
+9,50
+1857,8
+25
+0,11
+0,010490
+Estimació n de P ermeabilidad (K)
+1,033E-01
+cm/seg
+y = 0,1033x
+R² = 0,9158
+0,000000
+0,002000
+0,004000
+0,006000
+0,008000
+0,010000
+0,012000
+0,00
+0,02
+0,04
+0,06
+0,08
+0,10
+0,12
+Velocidad de Escurrimiento 
+(cm/seg)
+Gradiente Hidráulico
+PERMEABILIDAD A GRAN ESCALA
+Proyecto: MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU 
+Muestra: Probeta 6 Odómetro (σ'c= 20 kg/cm²)
+ 
+
+=== PÁGINA 77 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 53 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+ENSAYE DE PERMEABILIDAD A GRAN ESCALA
+Proyecto
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha Inicio
+11-06-2011
+Fecha Término
+11-06-2011
+Muestra
+Probeta 6 Odómetro (σ'c= 40 kg/cm²)
+DATOS DE CONFECCION
+Area Inicial promedio
+[cm²]
+7083,74
+Altura Inicial
+[cm]
+90,00
+Diferencia Altura por consolidacion
+[cm]
+6,79
+Altura corregida por consolidacion
+[cm]
+83,21
+LECTURAS DE ENSAYO
+Lectura
+Altura Carga
+Peso
+Tiempo
+Gradiente 
+v
+Hidráulica
+agua
+Escurrimiento
+Hidráulico
+[Nº]
+[cm]
+[g]
+[s]
+[i]
+[cm/s]
+1
+1,00
+2033,8
+130
+0,01
+0,002209
+2
+2,80
+1967,6
+60
+0,03
+0,004629
+3
+4,25
+1872,3
+45
+0,05
+0,005874
+4
+5,15
+1664,0
+35
+0,06
+0,006712
+5
+6,55
+1613,5
+30
+0,08
+0,007593
+6
+7,55
+1466,7
+25
+0,09
+0,008282
+Estimació n de P ermeabilidad (K)
+1,075E-01
+cm/seg
+y = 0,1075x
+R² = 0,842
+0,000000
+0,001000
+0,002000
+0,003000
+0,004000
+0,005000
+0,006000
+0,007000
+0,008000
+0,009000
+0,00
+0,01
+0,02
+0,03
+0,04
+0,05
+0,06
+0,07
+0,08
+0,09
+Velocidad de Escurrimiento 
+(cm/seg)
+Gradiente Hidráulico
+PERMEABILIDAD A GRAN ESCALA
+Proyecto: MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU 
+Muestra: Probeta 6 Odómetro (σ'c= 40 kg/cm²)
+ 
+
+=== PÁGINA 78 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 54 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+ENSAYE DE PERMEABILIDAD A GRAN ESCALA
+Proyecto
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha Inicio
+18-06-2011
+Fecha Término
+18-06-2011
+Muestra
+Probeta 6 Odómetro (σ'c= 50 kg/cm²)
+DATOS DE CONFECCION
+Area Inicial promedio
+[cm²]
+7083,74
+Altura Inicial
+[cm]
+90,00
+Diferencia Altura por consolidacion
+[cm]
+7,37
+Altura corregida por consolidacion
+[cm]
+82,63
+LECTURAS DE ENSAYO
+Lectura
+Altura Carga
+Peso
+Tiempo
+Gradiente 
+v
+Hidráulica
+agua
+Escurrimiento
+Hidráulico
+[Nº]
+[cm]
+[g]
+[s]
+[i]
+[cm/s]
+1
+0,80
+1414,9
+120
+0,01
+0,001664
+2
+2,20
+1819,2
+80
+0,03
+0,003210
+3
+3,20
+1808,1
+60
+0,04
+0,004254
+4
+4,60
+1685,8
+45
+0,06
+0,005288
+5
+5,60
+1487,0
+35
+0,07
+0,005997
+6
+7,00
+1456,5
+30
+0,08
+0,006854
+7
+7,90
+1325,4
+25
+0,10
+0,007484
+Estimació n de P ermeabilidad (K)
+8,600E-02
+cm/seg
+y = 0,086x
+R² = 0,8669
+0,000000
+0,001000
+0,002000
+0,003000
+0,004000
+0,005000
+0,006000
+0,007000
+0,008000
+0,009000
+0,00
+0,02
+0,04
+0,06
+0,08
+0,10
+0,12
+Velocidad de Escurrimiento 
+(cm/seg)
+Gradiente Hidráulico
+PERMEABILIDAD A GRAN ESCALA
+Proyecto: MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU 
+Muestra: Probeta 6 Odómetro (σ'c= 50 kg/cm²)
+ 
+
+=== PÁGINA 79 ===
+Nota:  
+La reproducción parcial del presente informe debe ser hecha con la autorización de la Sección Laboratorio de Geotecnia de IDIEM.  
+Los resultados son aplicables sólo a las muestras ensayadas. 
+Informe Nº 708.397-A  
+ 
+Página 55 de 61 
+ 
+SLG – FOR – 153 Versión: 2   
+ 
+ENSAYE DE PERMEABILIDAD A GRAN ESCALA
+Proyecto
+MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU
+Inf. Ensaye
+Nº 708.397-A
+Orden de Trabajo
+82-0000019-11-00
+Fecha Inicio
+22-06-2011
+Fecha Término
+22-06-2011
+Muestra
+Probeta 6 Odómetro (σ'c= 60 kg/cm²)
+DATOS DE CONFECCION
+Area Inicial promedio
+[cm²]
+7083,74
+Altura Inicial
+[cm]
+90,00
+Diferencia Altura por consolidacion
+[cm]
+8,13
+Altura corregida por consolidacion
+[cm]
+81,87
+LECTURAS DE ENSAYO
+Lectura
+Altura Carga
+Peso
+Tiempo
+Gradiente 
+v
+Hidráulica
+agua
+Escurrimiento
+Hidráulico
+[Nº]
+[cm]
+[g]
+[s]
+[i]
+[cm/s]
+1
+0,80
+1943,8
+180
+0,01
+0,001524
+2
+2,20
+2367,1
+120
+0,03
+0,002785
+3
+3,10
+2176,4
+80
+0,04
+0,003840
+4
+4,50
+2083,2
+60
+0,05
+0,004901
+5
+5,40
+1795,5
+45
+0,07
+0,005633
+6
+6,80
+1778,2
+40
+0,08
+0,006276
+7
+7,70
+1769,7
+35
+0,09
+0,007138
+Estimació n de P ermeabilidad (K)
+8,150E-02
+cm/seg
+y = 0,0815x
+R² = 0,9065
+0,000000
+0,001000
+0,002000
+0,003000
+0,004000
+0,005000
+0,006000
+0,007000
+0,008000
+0,009000
+0,00
+0,02
+0,04
+0,06
+0,08
+0,10
+Velocidad de Escurrimiento 
+(cm/seg)
+Gradiente Hidráulico
+PERMEABILIDAD A GRAN ESCALA
+Proyecto: MATERIAL DE ENROCAMIENTO PRESA ANTAMINA, PERU 
+Muestra: Probeta 6 Odómetro (σ'c= 60 kg/cm²)
+ 
+ 
