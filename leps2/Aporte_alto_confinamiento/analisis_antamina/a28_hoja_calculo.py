@@ -69,6 +69,7 @@ for t in ["Curva de resistencia Leps 2.0 del desmonte ROM de Antamina: datos, c�
           "  FLAC_tangente: Mohr-Coulomb tangente a la curva según σ′3 (para verificar la implementación en FLAC2D).",
           "  Relacion_vacios: e de colocación calculada con los pesos unitarios de los estudios de Antamina.",
           "  Perfiles_e: e y σ′v con la profundidad (perfiles A y V).",
+          "  Rotura_Bg: índice de rotura de Marsal (Bg) de todos los ensayos con su fuente, página y uso en la figura del memo.",
           "  Edometros: edómetros de desmonte de Antamina y e resultante con la ley del perfil A.",
           "  Tamano_particula: sensibilidad al tamaño (Frossard et al. 2012).",
           "",
@@ -259,6 +260,56 @@ ws.cell(kz + 3, 1, "Forma sobre 4.6 MPa (a31, prueba de extrapolación con 26 se
 control["comparacion"] = {k: v["Todos"] for k, v in A35["ajuste"].items()}; control["comparacion_loso"] = A35["loso"]["Todos"]
 control["comparacion_cu"] = A35["cu"]; control["comparacion_diseno"] = A35["diseno"]
 
+# ------------------------------------------------------------------ Rotura_Bg (índice de rotura de Marsal; datos_antamina/verificacion_ocr/rotura_bg.csv)
+_BG = pd.read_csv(AQ.parent / "datos_antamina" / "verificacion_ocr" / "rotura_bg.csv")
+_BG = _BG[~_BG.nota.astype(str).str.contains("contienen relave")].reset_index(drop=True)          # sin mezclas con relave (decisión del usuario)
+_FUE = {"G2012": "Golder Associates Perú (2012)", "W2022": "Golder Associates Perú (2022)", "W2024": "WSP Perú (2024)",
+        "G2021": "Golder Associates Perú (2021)", "I2025": "IDIEM (2025)"}
+def _lit(s):
+    s = str(s)
+    if s.startswith("HF"): return "Hornfels"
+    if s.startswith("MN") or "MN-C" in s: return "Mármol"
+    if "C4" in s or "Intrusivo" in s: return "Intrusivo"
+    return "—"
+def _esc(s, p):
+    s, p = str(s), str(p)
+    if "1.0m" in s or "MN-C" in s or "1.0 m" in p: return "1.0 m"
+    if "0.15m" in s or '6"' in p: return "6 in"
+    if "0.24 m" in p: return "0.24 m"
+    if "C4" in s: return "0.6 m"
+    if "cic" in s: return "0.10–0.15 m"
+    return "—"
+def _tipo(s, p):
+    t = (str(s) + " " + str(p)).lower()
+    return "Edómetro" if ("edo" in t or "edó" in t) else ("Triaxial cíclico" if "cic" in t else ("—" if "todos" in t or "P1-P3" in str(p) else "Triaxial drenado"))
+USADOS = {(r.fuente, r.set, round(float(r.s3), 3), round(float(r.Bg), 2), str(r.origen)) for _, r in pd.read_csv(AQ / "a16_bg.csv").iterrows()}
+ws = hoja("Rotura_Bg", ["Fuente", "Set", "Probeta", "Tipo", "Litología", "Escala de la probeta", "σ′3 o σ′v máx. (MPa)", "Bg (%)",
+                        "Σ|ΔW| informado (%)", "Origen del valor", "Página del PDF", "Nota", "En la Fig. del memo"], [],
+          [26, 22, 40, 15, 11, 12, 12, 9, 12, 46, 11, 60, 10])
+BG_FILA = {}
+for i, r in _BG.iterrows():
+    k = i + 2; s3 = pd.to_numeric(r.sigma3_kPa, errors="coerce"); bg = pd.to_numeric(r.Bg_pct, errors="coerce")
+    usado = (r.fuente_id, r.set_id, round(float(s3) / 1000, 3) if pd.notna(s3) else None, round(float(bg), 2) if pd.notna(bg) else None, str(r.origen)) in USADOS
+    vals = [_FUE.get(r.fuente_id, r.fuente_id), r.set_id, r.probeta, _tipo(r.set_id, r.probeta), _lit(r.set_id), _esc(r.set_id, r.probeta),
+            None if pd.isna(s3) else float(s3) / 1000, None if pd.isna(bg) else float(bg), None, r.origen, r.pagina_pdf,
+            None if pd.isna(r.nota) else r.nota, "sí" if usado else ""]
+    for j, v in enumerate(vals, 1):
+        ws.cell(k, j, v)
+    if usado:
+        BG_FILA[(r.set_id, round(float(s3) / 1000, 3), round(float(bg), 2))] = k
+# Golder (2012): la Tabla 5 informa Σ|ΔW| = 2·Bg; el Bg de Marsal (suma de diferencias positivas) es la mitad: fórmula en las filas calculadas
+for i, r in _BG.iterrows():
+    if r.fuente_id == "G2012" and str(r.origen).startswith("informado"):
+        k = i + 2; ws.cell(k, 9, float(r.Bg_pct)); ws.cell(k, 8).value = None
+        kc = next((j + 2 for j, q in _BG.iterrows() if q.fuente_id == "G2012" and q.probeta == r.probeta and str(q.origen).startswith("calculado")), None)
+        if kc:
+            ws.cell(kc, 8, f"=I{k}/2"); ws.cell(kc, 9, f"=I{k}")
+nB = len(_BG) + 1
+ws.cell(nB + 2, 1, "Bg: índice de rotura de Marsal (1967), suma de las diferencias positivas entre las granulometrías antes y después del ensayo, en %. "
+                   "Golder (2012, Tabla 5) informa la suma de las diferencias en valor absoluto, Σ|ΔW| = 2·Bg; su Bg se calcula como Σ|ΔW|/2 (columna H, fórmula).")
+ws.cell(nB + 3, 1, "Fuente: datos_antamina/verificacion_ocr/rotura_bg.csv, verificado contra las páginas citadas. Sin las mezclas con relave. "
+                   "«sí» en la última columna: ensayos de la figura del índice de rotura del memo (triaxiales drenados del ajuste, valor adoptado).")
+
 # ------------------------------------------------------------------ Hipotesis_m
 SNT = [1, 2, 3, 4.6, 8, 15]
 ws = hoja("Hipotesis_m", ["Hipótesis", "m", "φ′e=0 (°)"] + [f"φ′s a {s} MPa (°)" for s in SNT], [], [28, 8, 10] + [12] * len(SNT))
@@ -403,7 +454,7 @@ TIT = {"fig:phi1e": "φ′1 de cada set de Antamina frente a su e0 media, y la r
 _wf, _figs = FX.agregar(wb, HB=HB, SNX=SNX, SNW=SNW, EB=EB, TOPE=TOPE, PE=PE, PEM=PEM, A16BG=pd.read_csv(AQ / "a16_bg.csv"),
                         A16C=pd.read_csv(AQ / "a16_contraste.csv"), S34=S34, N_AJ=N_AJ, NW=len(W), rbg=A16["bg"]["r"],
                         A36=J("a36_residuos.json"), P35=pd.read_csv(AQ / "a35_residuos.csv"), FIT=T27.iloc[:N_AJ],
-                        A38=J("a38_extrapolacion.json"), WDF=W)
+                        A38=J("a38_extrapolacion.json"), WDF=W, BG_FILA=BG_FILA)
 FX.colocar(_wf, _figs, {k: (ROT.get(k, ""), t) for k, t in TIT.items()})
 wb.save(OUT)
 json.dump(control, open(AQ / "a28_valores_control.json", "w", encoding="utf-8"))

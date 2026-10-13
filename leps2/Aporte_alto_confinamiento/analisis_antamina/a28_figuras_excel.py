@@ -37,7 +37,7 @@ def _ln(color, w_pt, dash="solid"):
     return LineProperties(solidFill=color, w=int(w_pt * 12700), prstDash=dash)
 
 
-def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, rbg, A36=None, P35=None, FIT=None, A38=None, WDF=None):
+def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, rbg, A36=None, P35=None, FIT=None, A38=None, WDF=None, BG_FILA=None):
     wd = wb.create_sheet("Datos_figuras")
     wf = wb.create_sheet("Figuras", 1)
     col = [1]
@@ -188,7 +188,14 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
     f = []
     for _, r in A16BG.iterrows():
         f.append([r.s3, r.Bg] + [r.Bg if (r.litologia == l and r.escala == esc) else None for l, esc in BGS])
-    cG4, nG4 = bloque("Fig. 4: Bg de Marsal (a16_bg.csv)", ["σ′3 (MPa)", "Bg (%)"] + [f"{l} {esc}" for l, esc in BGS], f)
+    cG4, nG4 = bloque("Fig. Bg: índice de rotura de Marsal (fórmulas; hoja Rotura_Bg)", ["σ′3 (MPa)", "Bg (%)"] + [f"{l} {esc}" for l, esc in BGS], f)
+    if BG_FILA:      # cada valor ligado a su fila de la hoja Rotura_Bg
+        for i, (_, r) in enumerate(A16BG.iterrows()):
+            kb = BG_FILA[(r.set, round(float(r.s3), 3), round(float(r.Bg), 2))]; rr = 3 + i
+            wd.cell(rr, cG4, f"=Rotura_Bg!G{kb}"); wd.cell(rr, cG4 + 1, f"=Rotura_Bg!H{kb}")
+            for j, (l, esc) in enumerate(BGS):
+                if r.litologia == l and r.escala == esc:
+                    wd.cell(rr, cG4 + 2 + j, f"=Rotura_Bg!H{kb}")
     cT, nT = bloque("Fig. 4: tendencia lineal (fórmula)", ["σ′3 (MPa)", "Bg (%)"], [[0.0], [2.6]])
     xr = f"{L(cG4, 3)}:{L(cG4, 2 + nG4)}"; yr = f"{L(cG4 + 1, 3)}:{L(cG4 + 1, 2 + nG4)}"
     for i in range(2):
@@ -311,7 +318,7 @@ def agregar(wb, *, HB, SNX, SNW, EB, TOPE, PE, PEM, A16BG, A16C, S34, N_AJ, NW, 
     figs.append(("fig:tau", ch))
     # Fig. 6a y 6b
     cha = grafico("Relación de vacíos, e", "Profundidad bajo la superficie (m)", 0.08, 0.70, 0, 700, ymaj=100, w=8.5, h=12, invy=True)
-    cha.x_axis.majorUnit = 0.04; cha.x_axis.number_format = "0.00"
+    cha.x_axis.majorUnit = 0.08; cha.x_axis.number_format = "0.00"
     serie(cha, cPb + 1, cPb, 2, f"e = {EB:.2f} constante (base)", linea=(VIO, 2.0))
     serie(cha, cP + 1, cP, nP, "Perfil A, compresibilidad de Antamina", linea=("E87BA4", 2.0))
     serie(cha, cP + 2, cP, nP, "Perfil V, Valenzuela et al. (2008)", linea=("008300", 2.0))
