@@ -1,0 +1,103 @@
+=== PAGE 1 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+SI
+NO
+SI
+NO
+Condición de la muestra
+Disturbado
+Revisado por:
+D. Lizana
+C. Soto
+N° de solicitud
+EPE-23.10.141
+Los ensayos fueron realizados en las instalaciones de Anddes Geolab.
+Método de ensayo
+ASTM D2216-19 Standard Test Methods for Laboratory Determination of Water (Moisture) Content of Soil and Rock by Mass
+Fecha de inicio / fin de ensayo
+2024-08-27
+Profundidad (m)
+Descripción
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+Antamina
+EPE-23.10.141_7,9,2,4,11,8,1,3,5,6,18,10_200_R0_CA
+2023-11-23
+2024-04-08 / 2024-04-10
+No. páginas
+Fecha de emisión
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D2216-19
+San Marcos - Ancash
+02 ( Ruma 02)
+40,00 - 90,00
+N° de muestra
+Solicitado por
+Contacto del cliente
+No. de informe de ensayo
+(g)
+1794,0
+(3) Masa recipiente
+(g)
+(1) - (2)
+757,0
+Descripción del ítem
+Suelo
+11-GEO-01-FOR-2001 / V1 / 24-06-24
+Información suministrada por el cliente
+1 de 1
+Zona
+Nombre del proyecto
+Cliente
+Ubicación del proyecto
+Código de muestra
+HORNFELS
+Fecha recepción de la muestra
+2023
+H-1, H-2, H-3, H-4, H-5, H-6, H-7, H-8, H-9, H-
+10, H-11, H-12
+Gary Olivo
+golivos@antamina.com
+Patio de servicios / Botadero Este 
+N° de proyecto
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D 
+Lote 12A Urb. El Retablo Comas. Lima – Perú
+2
+3
+Realizado por:
+La muestra de suelo presenta estratificación
+Temperatura de secado a 110 ± 5°C.
+Se excluyó algún material del espécimen de ensayo
+(4) Masa del agua 
+N° de prueba
+1
+(4/5)*100
+(6) Contenido de agua
+(2) - (3)
+Observaciones
+3
+3
+(%)
+Contenido de agua promedio 
+Fin del informe
+Método de ensayo
+A
+TM (visual)
+3 in.
+25665,0
+24908,0
+(g)
+(g)
+(1) Masa recipiente + suelo húmedo
+(2) Masa recipiente + suelo seco 
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de 
+conformidad con normas de productos o como certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes 
+Geolab SAC. El laboratorio no se hace responsable por la información suministrada por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este 
+informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+Las muestras han sido proporcionadas e identificadas por el solicitante. 
+T. Bonifacio
+(g)
+(%)
+23114,0
+Cumple con la masa mínima indicada por el metodo de ensayo
+Autorizado por:
+(5) Masa suelo seco

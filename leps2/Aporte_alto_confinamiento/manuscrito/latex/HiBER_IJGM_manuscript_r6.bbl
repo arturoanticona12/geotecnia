@@ -1,0 +1,321 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{}{Alonso et~al.\@}{2012}]{alonso2012}
+Alonso, E.~E., Tapias, M., and Gili, J. (2012).
+\newblock ``Scale effects in rockfill behaviour.''\ {\em G{\'e}otech. Lett.},
+  2(3), 155--160\ \unskip. \url{https://doi.org/10.1680/geolett.12.00025}.
+
+\bibitem[\protect\citeauthoryear{}{Arrieta}{2025}]{arrieta2025}
+Arrieta, M. (2025).
+\newblock ``Rockfill test database, version 1.''\ {\em Zenodo}\ (Accessed
+  October 6, 2026).
+\newblock \url{https://doi.org/10.5281/zenodo.14665504}.
+
+\bibitem[\protect\citeauthoryear{}{Bard et~al.\@}{2011}]{bard2011}
+Bard, E., Anabal{\'o}n, M.~E., and Campa{\~n}a, J. (2011).
+\newblock ``Waste rock behavior at high pressures: Dimensioning high waste rock
+  dumps.''\ {\em Multiscale Geomechanics}, Wiley-ISTE, London,  83--112.
+\newblock \url{https://doi.org/10.1002/9781118601433.ch4}.
+
+\bibitem[\protect\citeauthoryear{}{Barton and Kj{\ae}rnsli}{1981}]{barton1981}
+Barton, N. and Kj{\ae}rnsli, B. (1981).
+\newblock ``Shear strength of rockfill.''\ {\em J. Geotech. Eng. Div.}, 107(7),
+  873--891\ \unskip. \url{https://doi.org/10.1061/AJGEB6.0001167}.
+
+\bibitem[\protect\citeauthoryear{}{Been and Jefferies}{1985}]{been1985}
+Been, K. and Jefferies, M.~G. (1985).
+\newblock ``A state parameter for sands.''\ {\em G{\'e}otechnique}, 35(2),
+  99--112\ \unskip. \url{https://doi.org/10.1680/geot.1985.35.2.99}.
+
+\bibitem[\protect\citeauthoryear{}{Bolton}{1986}]{bolton1986}
+Bolton, M.~D. (1986).
+\newblock ``The strength and dilatancy of sands.''\ {\em G{\'e}otechnique},
+  36(1), 65--78\ \unskip. \url{https://doi.org/10.1680/geot.1986.36.1.65}.
+
+\bibitem[\protect\citeauthoryear{}{Bozorgzadeh
+  et~al.\@}{2019}]{bozorgzadeh2019}
+Bozorgzadeh, N., Harrison, J.~P., and Escobar, M.~D. (2019).
+\newblock ``Hierarchical {B}ayesian modelling of geotechnical data: Application
+  to rock strength.''\ {\em G{\'e}otechnique}, 69(12), 1056--1070\ \unskip.
+  \url{https://doi.org/10.1680/jgeot.17.P.282}.
+
+\bibitem[\protect\citeauthoryear{}{{CEN}}{2002}]{cen2002}
+{CEN} (2002).
+\newblock {\em Eurocode: Basis of structural design}.
+\newblock European Committee for Standardization, Brussels, Belgium\ \unskip.
+  EN 1990.
+
+\bibitem[\protect\citeauthoryear{}{{CEN}}{2024}]{cen2024}
+{CEN} (2024).
+\newblock {\em Eurocode 7: Geotechnical design---Part 1: General rules}.
+\newblock European Committee for Standardization, Brussels, Belgium\ \unskip.
+  EN 1997-1:2024.
+
+\bibitem[\protect\citeauthoryear{}{Charles and Watts}{1980}]{charles1980}
+Charles, J.~A. and Watts, K.~S. (1980).
+\newblock ``The influence of confining pressure on the shear strength of
+  compacted rockfill.''\ {\em G{\'e}otechnique}, 30(4), 353--367\ \unskip.
+  \url{https://doi.org/10.1680/geot.1980.30.4.353}.
+
+\bibitem[\protect\citeauthoryear{}{Ching and Phoon}{2019}]{ching2019}
+Ching, J. and Phoon, K.-K. (2019).
+\newblock ``Constructing site-specific multivariate probability distribution
+  model using {B}ayesian machine learning.''\ {\em J. Eng. Mech.}, 145(1),
+  04018126\ \unskip. \url{https://doi.org/10.1061/(ASCE)EM.1943-7889.0001537}.
+
+\bibitem[\protect\citeauthoryear{}{Ching and Phoon}{2020}]{ching2020}
+Ching, J. and Phoon, K.-K. (2020).
+\newblock ``Measuring similarity between site-specific data and records from
+  other sites.''\ {\em ASCE-ASME J. Risk Uncertainty Eng. Syst. Part A: Civ.
+  Eng.}, 6(2), 04020011\ \unskip. \url{https://doi.org/10.1061/AJRUA6.0001046}.
+
+\bibitem[\protect\citeauthoryear{}{Ching et~al.\@}{2021}]{ching2021}
+Ching, J., Wu, S., and Phoon, K.-K. (2021).
+\newblock ``Constructing quasi-site-specific multivariate probability
+  distribution using hierarchical {B}ayesian model.''\ {\em J. Eng. Mech.},
+  147(10), 04021069\ \unskip.
+  \url{https://doi.org/10.1061/(ASCE)EM.1943-7889.0001964}.
+
+\bibitem[\protect\citeauthoryear{}{Christian et~al.\@}{1994}]{christian1994}
+Christian, J.~T., Ladd, C.~C., and Baecher, G.~B. (1994).
+\newblock ``Reliability applied to slope stability analysis.''\ {\em J.
+  Geotech. Eng.}, 120(12), 2180--2207\ \unskip.
+  \url{https://doi.org/10.1061/(ASCE)0733-9410(1994)120:12(2180)}.
+
+\bibitem[\protect\citeauthoryear{}{Clopper and Pearson}{1934}]{clopper1934}
+Clopper, C.~J. and Pearson, E.~S. (1934).
+\newblock ``The use of confidence or fiducial limits illustrated in the case of
+  the binomial.''\ {\em Biometrika}, 26(4), 404--413\ \unskip.
+  \url{https://doi.org/10.1093/biomet/26.4.404}.
+
+\bibitem[\protect\citeauthoryear{}{Contreras and
+  Linero-Molina}{2025}]{contreras2025}
+Contreras, L.-F. and Linero-Molina, S. (2025).
+\newblock ``Hierarchical {B}ayesian inference of rockfill strength parameters
+  from large-scale triaxial test data.''\ {\em Aust. Geomech.}, 60(2), 91--106\
+  \unskip. \url{https://doi.org/10.56295/AGJ6024}.
+
+\bibitem[\protect\citeauthoryear{}{Contreras et~al.\@}{2022}]{contreras2022}
+Contreras, L.-F., Linero-Molina, S., and Dixon, J. (2022).
+\newblock ``{B}ayesian approach to improve the confidence of the estimation of
+  the shear strength of coarse mine waste using {B}arton's empirical
+  criterion.''\ {\em Aust. Geomech.}, 57(2), 163--174\ \unskip.
+  \url{https://doi.org/10.56295/AGJ5728}.
+
+\bibitem[\protect\citeauthoryear{}{Cylwik et~al.\@}{2025}]{cylwik2025}
+Cylwik, S.~D., Arrieta, M., Cunning, J.~C., and Hawley, P.~M. (2025).
+\newblock ``Update to the {L}eps strength envelopes for rockfill based on 900
+  large-scale triaxial tests.''\ {\em Int. J. Geomech.}, 25(12), 04025285\
+  \unskip. \url{https://doi.org/10.1061/IJGNAI.GMENG-12050}.
+
+\bibitem[\protect\citeauthoryear{}{{De Mello}}{1977}]{demello1977}
+{De Mello}, V. F.~B. (1977).
+\newblock ``Reflections on design decisions of practical significance to
+  embankment dams.''\ {\em G{\'e}otechnique}, 27(3), 281--355\ \unskip.
+  \url{https://doi.org/10.1680/geot.1977.27.3.281}.
+
+\bibitem[\protect\citeauthoryear{}{Einav}{2007}]{einav2007}
+Einav, I. (2007).
+\newblock ``Breakage mechanics---{P}art {I}: {T}heory.''\ {\em J. Mech. Phys.
+  Solids}, 55(6), 1274--1297\ \unskip.
+  \url{https://doi.org/10.1016/j.jmps.2006.11.003}.
+
+\bibitem[\protect\citeauthoryear{}{Frossard et~al.\@}{2012}]{frossard2012}
+Frossard, E., Hu, W., Dano, C., and Hicher, P.-Y. (2012).
+\newblock ``Rockfill shear strength evaluation: {A} rational method based on
+  size effects.''\ {\em G{\'e}otechnique}, 62(5), 415--427\ \unskip.
+  \url{https://doi.org/10.1680/geot.10.P.079}.
+
+\bibitem[\protect\citeauthoryear{}{Girumugisha
+  et~al.\@}{2026}]{girumugisha2026}
+Girumugisha, G., Ovalle, C., Reith, H., and Stutz, H. (2026).
+\newblock ``Effects of triaxial sample scaling on the mechanical behavior of
+  alluvial gravels.''\ {\em J. Geotech. Geoenviron. Eng.}, 152(1), 04025166\
+  \unskip. \url{https://doi.org/10.1061/JGGEFK.GTENG-13923}.
+
+\bibitem[\protect\citeauthoryear{}{Gneiting and Raftery}{2007}]{gneiting2007}
+Gneiting, T. and Raftery, A.~E. (2007).
+\newblock ``Strictly proper scoring rules, prediction, and estimation.''\ {\em
+  J. Am. Stat. Assoc.}, 102(477), 359--378\ \unskip.
+  \url{https://doi.org/10.1198/016214506000001437}.
+
+\bibitem[\protect\citeauthoryear{}{Hardin}{1985}]{hardin1985}
+Hardin, B.~O. (1985).
+\newblock ``Crushing of soil particles.''\ {\em J. Geotech. Eng.}, 111(10),
+  1177--1192\ \unskip.
+  \url{https://doi.org/10.1061/(ASCE)0733-9410(1985)111:10(1177)}.
+
+\bibitem[\protect\citeauthoryear{}{Hawley and Cunning}{2017}]{hawley2017}
+M. Hawley and J. Cunning, eds. (2017).
+\newblock {\em Guidelines for mine waste dump and stockpile design}.
+\newblock CSIRO Publishing, Clayton, Australia.
+
+\bibitem[\protect\citeauthoryear{}{Higgins et~al.\@}{2009}]{higgins2009}
+Higgins, J. P.~T., Thompson, S.~G., and Spiegelhalter, D.~J. (2009).
+\newblock ``A re-evaluation of random-effects meta-analysis.''\ {\em J. R.
+  Stat. Soc. Ser. A Stat. Soc.}, 172(1), 137--159\ \unskip.
+  \url{https://doi.org/10.1111/j.1467-985X.2008.00552.x}.
+
+\bibitem[\protect\citeauthoryear{}{Holm}{1979}]{holm1979}
+Holm, S. (1979).
+\newblock ``A simple sequentially rejective multiple test procedure.''\ {\em
+  Scand. J. Stat.}, 6(2), 65--70.
+
+\bibitem[\protect\citeauthoryear{}{Indraratna et~al.\@}{1993}]{indraratna1993}
+Indraratna, B., Wijewardena, L. S.~S., and Balasubramaniam, A.~S. (1993).
+\newblock ``Large-scale triaxial testing of greywacke rockfill.''\ {\em
+  G{\'e}otechnique}, 43(1), 37--51\ \unskip.
+  \url{https://doi.org/10.1680/geot.1993.43.1.37}.
+
+\bibitem[\protect\citeauthoryear{}{Jefferies and Been}{2016}]{jefferies2016}
+Jefferies, M. and Been, K. (2016).
+\newblock {\em Soil liquefaction: A critical state approach}.
+\newblock CRC Press, Boca Raton, FL, 2nd edition\ \unskip.
+  \url{https://doi.org/10.1201/b19114}.
+
+\bibitem[\protect\citeauthoryear{}{Knapp and Hartung}{2003}]{knapp2003}
+Knapp, G. and Hartung, J. (2003).
+\newblock ``Improved tests for a random effects meta-regression with a single
+  covariate.''\ {\em Stat. Med.}, 22(17), 2693--2710\ \unskip.
+  \url{https://doi.org/10.1002/sim.1482}.
+
+\bibitem[\protect\citeauthoryear{}{Leps}{1970}]{leps1970}
+Leps, T.~M. (1970).
+\newblock ``Review of shearing strength of rockfill.''\ {\em J. Soil Mech.
+  Found. Div.}, 96(4), 1159--1170\ \unskip.
+  \url{https://doi.org/10.1061/JSFEAQ.0001433}.
+
+\bibitem[\protect\citeauthoryear{}{Lindstrom and Bates}{1990}]{lindstrom1990}
+Lindstrom, M.~J. and Bates, D.~M. (1990).
+\newblock ``Nonlinear mixed effects models for repeated measures data.''\ {\em
+  Biometrics}, 46(3), 673--687\ \unskip. \url{https://doi.org/10.2307/2532087}.
+
+\bibitem[\protect\citeauthoryear{}{Linero et~al.\@}{2007}]{linero2007}
+Linero, S., Palma, C., and Apablaza, R. (2007).
+\newblock ``Geotechnical characterisation of waste material in very high dumps
+  with large scale triaxial testing.''\ {\em Proc., Int. Symp. on Rock Slope
+  Stability in Open Pit Mining and Civil Engineering}, Y. Potvin, ed., Perth,
+  Australia, Australian Centre for Geomechanics,  59--75.
+\newblock \url{https://doi.org/10.36487/ACG_repo/708_2}.
+
+\bibitem[\protect\citeauthoryear{}{Marachi et~al.\@}{1972}]{marachi1972}
+Marachi, N.~D., Chan, C.~K., and Seed, H.~B. (1972).
+\newblock ``Evaluation of properties of rockfill materials.''\ {\em J. Soil
+  Mech. Found. Div.}, 98(1), 95--114\ \unskip.
+  \url{https://doi.org/10.1061/JSFEAQ.0001735}.
+
+\bibitem[\protect\citeauthoryear{}{Marsal}{1973}]{marsal1973}
+Marsal, R.~J. (1973).
+\newblock ``Mechanical properties of rockfill.''\ {\em Embankment-dam
+  engineering: {C}asagrande volume}, R.~C. Hirschfeld and S.~J. Poulos, eds.,
+  Wiley, New York,  109--200.
+
+\bibitem[\protect\citeauthoryear{}{Morgenstern and
+  Price}{1965}]{morgenstern1965}
+Morgenstern, N.~R. and Price, V.~E. (1965).
+\newblock ``The analysis of the stability of general slip surfaces.''\ {\em
+  G{\'e}otechnique}, 15(1), 79--93\ \unskip.
+  \url{https://doi.org/10.1680/geot.1965.15.1.79}.
+
+\bibitem[\protect\citeauthoryear{}{Oldecop and Alonso}{2001}]{oldecop2001}
+Oldecop, L.~A. and Alonso, E.~E. (2001).
+\newblock ``A model for rockfill compressibility.''\ {\em G{\'e}otechnique},
+  51(2), 127--139\ \unskip. \url{https://doi.org/10.1680/geot.2001.51.2.127}.
+
+\bibitem[\protect\citeauthoryear{}{Ovalle and Dano}{2020}]{ovalle2020b}
+Ovalle, C. and Dano, C. (2020).
+\newblock ``Effects of particle size--strength and size--shape correlations on
+  parallel grading scaling.''\ {\em G{\'e}otech. Lett.}, 10(2), 191--197\
+  \unskip. \url{https://doi.org/10.1680/jgele.19.00095}.
+
+\bibitem[\protect\citeauthoryear{}{Ovalle et~al.\@}{2014}]{ovalle2014}
+Ovalle, C., Frossard, E., Dano, C., Hu, W., Maiolino, S., and Hicher, P.-Y.
+  (2014).
+\newblock ``The effect of size on the strength of coarse rock aggregates and
+  large rockfill samples through experimental data.''\ {\em Acta Mech.},
+  225(8), 2199--2216\ \unskip. \url{https://doi.org/10.1007/s00707-014-1127-z}.
+
+\bibitem[\protect\citeauthoryear{}{Ovalle et~al.\@}{2020}]{ovalle2020}
+Ovalle, C., Linero, S., Dano, C., Bard, E., Hicher, P.-Y., and Osses, R.
+  (2020).
+\newblock ``Data compilation from large drained compression triaxial tests on
+  coarse crushable rockfill materials.''\ {\em J. Geotech. Geoenviron. Eng.},
+  146(9), 06020013\ \unskip.
+  \url{https://doi.org/10.1061/(ASCE)GT.1943-5606.0002314}.
+
+\bibitem[\protect\citeauthoryear{}{Pinheiro and Bates}{2000}]{pinheiro2000}
+Pinheiro, J.~C. and Bates, D.~M. (2000).
+\newblock {\em Mixed-effects models in {S} and {S-PLUS}}.
+\newblock Springer, New York\ \unskip. \url{https://doi.org/10.1007/b98882}.
+
+\bibitem[\protect\citeauthoryear{}{Pr{\"a}stings
+  et~al.\@}{2019}]{prastings2019}
+Pr{\"a}stings, A., Spross, J., and Larsson, S. (2019).
+\newblock ``Characteristic values of geotechnical parameters in {E}urocode
+  7.''\ {\em Proc. Inst. Civ. Eng. Geotech. Eng.}, 172(4), 301--311\ \unskip.
+  \url{https://doi.org/10.1680/jgeen.18.00057}.
+
+\bibitem[\protect\citeauthoryear{}{Read and Stacey}{2009}]{read2009}
+J. Read and P. Stacey, eds. (2009).
+\newblock {\em Guidelines for open pit slope design}.
+\newblock CSIRO Publishing, Collingwood, Australia.
+
+\bibitem[\protect\citeauthoryear{}{{Rocscience}}{XXXX}]{rocscience}
+{Rocscience} (XXXX).
+\newblock {\em Slide2, version 9.043}.
+\newblock Rocscience, Toronto.
+
+\bibitem[\protect\citeauthoryear{}{Valenzuela et~al.\@}{2008}]{valenzuela2008}
+Valenzuela, L., Bard, E., Campa{\~n}a, J., and Anabal{\'o}n, M.~E. (2008).
+\newblock ``High waste rock dumps: {C}hallenges and developments.''\ {\em
+  Proc., 1st Int. Seminar on the Management of Rock Dumps, Stockpiles and Heap
+  Leach Pads}, Perth, Australia, Australian Centre for Geomechanics,  65--78.
+\newblock \url{https://doi.org/10.36487/ACG_repo/802_6}.
+
+\bibitem[\protect\citeauthoryear{}{Vanmarcke}{1977}]{vanmarcke1977}
+Vanmarcke, E.~H. (1977).
+\newblock ``Probabilistic modeling of soil profiles.''\ {\em J. Geotech. Eng.
+  Div.}, 103(11), 1227--1246\ \unskip.
+  \url{https://doi.org/10.1061/AJGEB6.0000517}.
+
+\bibitem[\protect\citeauthoryear{}{Varadarajan
+  et~al.\@}{2003}]{varadarajan2003}
+Varadarajan, A., Sharma, K.~G., Venkatachalam, K., and Gupta, A.~K. (2003).
+\newblock ``Testing and modeling two rockfill materials.''\ {\em J. Geotech.
+  Geoenviron. Eng.}, 129(3), 206--218\ \unskip.
+  \url{https://doi.org/10.1061/(ASCE)1090-0241(2003)129:3(206)}.
+
+\bibitem[\protect\citeauthoryear{}{Vehtari et~al.\@}{2021}]{vehtari2021}
+Vehtari, A., Gelman, A., Simpson, D., Carpenter, B., and B{\"u}rkner, P.-C.
+  (2021).
+\newblock ``Rank-normalization, folding, and localization: {A}n improved
+  $\widehat{R}$ for assessing convergence of {MCMC}.''\ {\em Bayesian Anal.},
+  16(2), 667--718\ \unskip. \url{https://doi.org/10.1214/20-BA1221}.
+
+\bibitem[\protect\citeauthoryear{}{Ventini et~al.\@}{2021}]{ventini2021}
+Ventini, R., Lirer, S., Mancuso, C., and Flora, A. (2021).
+\newblock ``Simplified procedure to identify the critical state line of
+  crushable rockfills.''\ {\em J. Geotech. Geoenviron. Eng.}, 147(12),
+  04021150\ \unskip. \url{https://doi.org/10.1061/(ASCE)GT.1943-5606.0002668}.
+
+\bibitem[\protect\citeauthoryear{}{Viechtbauer}{2007}]{viechtbauer2007}
+Viechtbauer, W. (2007).
+\newblock ``Confidence intervals for the amount of heterogeneity in
+  meta-analysis.''\ {\em Stat. Med.}, 26(1), 37--52\ \unskip.
+  \url{https://doi.org/10.1002/sim.2514}.
+
+\bibitem[\protect\citeauthoryear{}{Xiao et~al.\@}{2014a}]{xiao2014a}
+Xiao, Y., Liu, H., Chen, Y., and Jiang, J. (2014a).
+\newblock ``Strength and deformation of rockfill material based on large-scale
+  triaxial compression tests. {I}: Influences of density and pressure.''\ {\em
+  J. Geotech. Geoenviron. Eng.}, 140(12), 04014070\ \unskip.
+  \url{https://doi.org/10.1061/(ASCE)GT.1943-5606.0001176}.
+
+\bibitem[\protect\citeauthoryear{}{Xiao et~al.\@}{2014b}]{xiao2014b}
+Xiao, Y., Liu, H., Chen, Y., and Jiang, J. (2014b).
+\newblock ``Strength and deformation of rockfill material based on large-scale
+  triaxial compression tests. {II}: Influence of particle breakage.''\ {\em J.
+  Geotech. Geoenviron. Eng.}, 140(12), 04014071\ \unskip.
+  \url{https://doi.org/10.1061/(ASCE)GT.1943-5606.0001177}.
+
+\end{thebibliography}

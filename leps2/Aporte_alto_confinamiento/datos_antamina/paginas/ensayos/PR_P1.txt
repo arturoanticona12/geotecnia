@@ -1,0 +1,117 @@
+=== PAGE 1 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+Psje. 
+Antonio
+(g/cm3)
+(kN/m3)
+(%)
+Peso unitario seco máximo
+(kN/m3)
+Óptimo contenido de agua
+ (%)
+Peso unitario seco máximo
+(kN/m3)
+Ópt. contenido de agua corregida 
+(%)
+Realizado por:
+Revisado por:
+T. Bonifacio
+C. Soto
+Densidad seca 
+Peso unitario seco 
+Contenido de agua
+Fin del informe
+21,9
+22,3
+22,8
+22,4
+5,4
+GS (Bulk)    
+ w (%)           
+2,79
+0,8
+Fraccion sobre tamaño
+6
+22,819
+7,4
+24,012
+4
+2,3
+9,0
+5
+2,3
+5,0
+3
+2,3
+7,1
+D. Lizana
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad con normas de 
+productos o como certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El laboratorio no se hace responsable por la 
+información suministrada por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+Método de ensayo: ASTM D698-12 Standard Test Methods for Laboratory Compaction Characteristics of Soil Using Standard Effort (12,400 ft-lbf/ft3 (600 kN-m/m3))
+ASTM D698-12 (2021) Método C
+1
+Observaciones
+Las muestras han sido proporcionadas e identificadas por el solicitante. 
+Los ensayos fueron realizados en las instalaciones de Anddes Geolab.
+Autorizado por:
+3,4
+Prueba No.
+2,2
+2
+No. de informe de ensayo
+EPE-23.10.141_1,2,3,4_110_R0_PR
+Descripción del ítem
+Suelo
+Fecha de recepción de la muestra
+2024-09-03
+No. páginas
+1 de 1
+Fechas de inicio / fin del ensayo
+2024-09-17 / 2024-09-19
+Fecha de emisión
+2024-10-30
+Descripción
+Mármol + Hornfels
+Profundidad (m)
+--
+Contacto del cliente
+golivos@antamina.com
+Zona
+Pilas Experimetales Medio Ambiente
+Ubicación del proyecto
+San Marcos - Ancash
+N° de muestra
+MP1 - B - M-1, MP1 - B - M2, MP1 - B - M3, MP1 - H - Material B 
+Código de muestra
+Pila 01
+Solicitado por
+Gary Olivo
+Información suministrada por el cliente
+Nombre del proyecto
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+Cliente
+Antamina
+N° de proyecto
+2023
+N° de solicitud
+EPE-23.10.141
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D Lote 
+12A Urb. El Retablo Comas. Lima – Perú
+11-GEO-01-FOR-2011 / V0 / 10-01-23)
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+20,000
+20,800
+21,600
+22,400
+23,200
+24,000
+2
+4
+6
+8
+10
+12
+Peso unitario seco (kN/m3)
+Contenido de agua (%)
+Curva de compactación

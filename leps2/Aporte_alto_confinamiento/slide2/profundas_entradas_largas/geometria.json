@@ -1,0 +1,13 @@
+{
+ "secciones": {
+  "R0 roca horizontal": {
+   "alfa": 0.0,
+   "t": 0.0,
+   "xi": 5541.76,
+   "H": 720.0
+  }
+ },
+ "gam": 19.54,
+ "gsat": 21.65,
+ "gamma_morrena": 21.0
+}

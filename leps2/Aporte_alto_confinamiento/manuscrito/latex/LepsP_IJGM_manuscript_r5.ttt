@@ -1,0 +1,100 @@
+\begin{table}
+\caption{Parameters of Leps-P}
+\label{tab:1}
+\centering\small
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lcc}
+\hline\hline
+Parameter & Estimate & Standard error or 90\% credible interval \\
+\hline
+$\beta_c$, good rock quality & 0.231 & 0.034 \\
+$\beta_c$, moderate rock quality & 0.098 & 0.028 \\
+$\beta_c$, low rock quality & 0.023 & 0.024 \\
+$\beta_e$ & $-$0.545 & 0.050 \\
+$\phi'_\infty$ (\textdegree{}), weighted mean over the ridge & 24.4 & 19--28 (within 3 log-likelihood units) \\
+$\zeta_0$, weighted mean over the ridge & 0.29 & --- \\
+SD of $\eta$, publication & 0.062 & 0.044--0.085 \\
+SD of $\zeta$, publication & 0.074 & 0.051--0.104 \\
+Correlation of $\eta$ and $\zeta$, publication & 0.17 & $-$0.27 to 0.57 \\
+SD of $\eta$, set & 0.082 & 0.075--0.091 \\
+SD of $\zeta$, set & 0.068 & 0.055--0.081 \\
+Correlation of $\eta$ and $\zeta$, set & $-$0.10 & $-$0.28 to 0.10 \\
+$\sigma_\varepsilon$ at $\sigma'_n$ = $\sigma_0$ & 0.036 & 0.033--0.038 \\
+$a_1$ & $-$0.236 & $-$0.307 to $-$0.167 \\
+\hline\hline
+\end{tabular}
+\par\vspace{4pt}\parbox{\linewidth}{\footnotesize Note: 767 tests, 226 sets, 36 publications. Fixed effects at the maximum-likelihood point of the ridge ($\phi'_\infty$ = 25\textdegree{}, $\zeta_0$ = 0.2985342815779983); variance parameters: posterior median and 90\% credible interval. Median $\phi'_1$ at e = 0: 51.6\textdegree{}, 47.8\textdegree{}, and 45.7\textdegree{} for good, moderate, and low rock quality.}
+\end{table}
+\efloatseparator
+ 
+\begin{table}
+\caption{Out-of-sample evaluation (leave one publication out)}
+\label{tab:2}
+\centering\small
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lccc}
+\hline\hline
+Procedure & 80\% coverage & Below P10 & CRPS \\
+\hline
+Mode A, all stresses &  &  &  \\
+   Leps-P, bounded form & 84\% & 10\% & 0.0680 \\
+   Leps-P, quadratic form & 83\% & 9\% & 0.0688 \\
+   Leps 2.0 envelope, constant dispersion & 82\% & 6\% & 0.0696 \\
+Mode A, $\sigma'_n$ > 2.75 MPa &  &  &  \\
+   Leps-P, bounded form & 88\% & 4\% & 0.0478 \\
+   Leps-P, quadratic form & 88\% & 4\% & 0.0468 \\
+   Leps 2.0 envelope, constant dispersion & 96\% & 4\% & 0.0446 \\
+Mode B, site tests at $\sigma'_n$ $\le$ 1.5 MPa &  &  &  \\
+   Prior, no site tests & 95\% & 3\% & 0.0424 \\
+   Fit of $\phi'_1$, m = 0.90 & 81\% & 17\% & 0.0407 \\
+   Fit of $\phi'_1$, m from training data & 81\% & 2\% & 0.0369 \\
+   Joint update of both random effects & 80\% & 12\% & 0.0330 \\
+   Level update of each set & 83\% & 9\% & 0.0308 \\
+   Recommended procedure & 83\% & 12\% & 0.0344 \\
+\hline\hline
+\end{tabular}
+\par\vspace{4pt}\parbox{\linewidth}{\footnotesize Note: Mode A: 767 tests (36 publications); above 2.75 MPa, 100 tests (9 publications). Mode B: 64 tests at $\sigma'_n$ $\ge$ 2 MPa (46 sets, 13 publications). Nominal values: 80\% coverage and 10\% below P10. CRPS in units of ln $\tau$. No difference was significant after Holm adjustment.}
+\end{table}
+\efloatseparator
+ 
+\begin{table}
+\caption{Design values of the secant friction angle $\phi'_s$ (\textdegree{}) for an untested material: median / 5th percentile of the mean envelope}
+\label{tab:3}
+\centering\small
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lcccccc}
+\hline\hline
+Rock quality & \textit{e} & 0.5 MPa & 1 MPa & 3 MPa & 5 MPa & 8 MPa \\
+\hline
+Good & 0.30 & 50.4 / 44.5 & 47.0 / 41.9 & 42.0 / 37.4 & 40.0 / 35.4 & 38.3 / 33.7$^{a}$ \\
+ & 0.45 & 47.9 / 42.0 & 44.6 / 39.6 & 40.0 / 35.6 & 38.2 / 33.9 & 36.6 / 32.4$^{a}$ \\
+ & 0.65 & 44.4 / 38.6 & 41.5 / 36.6 & 37.5 / 33.3 & 35.9 / 31.9$^{a}$ & 34.6 / 30.7$^{a}$ \\
+Moderate & 0.30 & 46.3 / 40.5 & 43.2 / 38.2 & 38.8 / 34.6 & 37.1 / 33.0 & 35.7 / 31.7$^{a}$ \\
+ & 0.45 & 43.7 / 38.0 & 40.8 / 36.0 & 36.9 / 32.9 & 35.4 / 31.6 & 34.1 / 30.4$^{a}$ \\
+ & 0.65 & 40.2 / 34.6 & 37.8 / 33.1 & 34.5 / 30.7 & 33.2 / 29.7$^{a}$ & 32.2 / 28.8$^{a}$ \\
+Low & 0.30 & 43.9 / 38.2 & 41.0 / 36.2 & 37.1 / 33.0 & 35.5 / 31.7 & 34.3 / 30.5$^{a}$ \\
+ & 0.45 & 41.3 / 35.7 & 38.7 / 34.0 & 35.3 / 31.3 & 33.9 / 30.2 & 32.8 / 29.3$^{a}$ \\
+ & 0.65 & 37.9 / 32.3 & 35.7 / 31.1 & 32.9 / 29.2 & 31.8 / 28.4$^{a}$ & 30.9 / 27.8$^{a}$ \\
+\hline\hline
+\end{tabular}
+\par\vspace{4pt}\parbox{\linewidth}{\footnotesize Note: Laboratory specimen size, new laboratory, no site tests, drained, maximum-deviator criterion; for global mechanisms. Field values are lower when the specimen-size uncertainty is added (about 2--4\textdegree{} at the 5th percentile for a size ratio of 5.6). Not applicable to degradable, argillaceous, or fines-rich waste below the database range ($\phi'_1$ $\ge$ 31\textdegree{}). $^{a}$Extrapolated beyond the validity domain ($\sigma'_n$ $\le$ 8 MPa; e $\le$ 0.55 above 3 MPa).}
+\end{table}
+\efloatseparator
+ 
+\begin{table}
+\caption{Factor of safety of dumps on a competent level foundation (Morgenstern--Price, Slide2), placed waste rock: median / 5th-percentile envelope}
+\label{tab:4}
+\centering\small
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{lccc}
+\hline\hline
+Envelope & 150 m & 400 m & 700 m \\
+\hline
+Dump average, model correlation & 1.76 / 1.41 & 1.56 / 1.27 & 1.47 / 1.21 \\
+Dump average, full correlation & 1.75 / 1.37 & 1.56 / 1.25 & 1.47 / 1.18 \\
+Weakest tested rock type only & 1.68 / 1.34 & 1.50 / 1.23 & 1.42 / 1.17 \\
+Untested, degraded rock type E only & 1.58 / 1.18 & 1.43 / 1.10 & 1.36 / 1.06 \\
+\hline\hline
+\end{tabular}
+\par\vspace{4pt}\parbox{\linewidth}{\footnotesize Note: Uniform dry face without benches; unit weight 17.2 kN/m\textsuperscript{3} (rock type E only: 15.7 kN/m\textsuperscript{3}). Monte Carlo at 700 m with 600 envelope samples, each with its own search: model correlation 0 failures (0.0--0.6\%; lognormal reliability index 3.3); rock type E only 11 failures (0.9--3.3\%; index 2.1). 700 m, model correlation: without size shift 1.47 / 1.39; laboratory density with size shift (21 kN/m\textsuperscript{3}) 1.69 / 1.39; laboratory density and size 1.69 / 1.60; size effect at its estimated mean 1.58 / 1.30; independent size shifts per rock type 1.48 / 1.32; $\tau_D$ = 0.049 1.47 / 1.25; quadratic form 1.46 / 1.20.}
+\end{table}

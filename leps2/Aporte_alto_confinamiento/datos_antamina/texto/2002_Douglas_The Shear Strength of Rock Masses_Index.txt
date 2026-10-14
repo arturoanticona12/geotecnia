@@ -1,0 +1,978 @@
+
+=== PÁGINA 1 ===
+ 
+ 
+ 
+THE SHEAR STRENGTH OF ROCK MASSES 
+ 
+  
+ 
+by 
+Kurt John Douglas 
+BE(Hons) USyd 
+ 
+ 
+A thesis submitted in partial fulfilment of 
+the requirements for the degree of 
+Doctor of Philosophy 
+ 
+ 
+ 
+School of Civil and Environmental Engineering 
+The University of New South Wales 
+Sydney, Australia 
+ 
+December 2002 
+
+=== PÁGINA 2 ===
+ 
+Thesis/Project Report Sheet 
+ 
+Surname or Family Name:  DOUGLAS 
+First Name:  Kurt 
+Other name/s:  John 
+Abbreviation for degree as given in the University calendar:  PhD 
+School:  Civil and Environmental Engineering 
+Faculty:  Engineering 
+Title: The Shear Strength of Rock Masses 
+Declaration relating to disposition of project report/thesis 
+I am fully aware of the policy of the University relating to the retention and use of higher degree project reports and theses, namely that the University    
+retains the copies submitted for examination and is free to allow them to be consulted or borrowed. Subject to the provisions of the Copyright Act 1968,       
+the university may issue a project report or thesis in whole or in part, in photostate or microfilm or other copying medium. 
+I also authorise the publication by the University Microfilms of a 350 word abstract in Dissertations Abstracts International (applicable to doctorates 
+only) 
+ 
+...................................................................... 
+...................................................................... 
+...................................................................... 
+ 
+Signature 
+Witness 
+Date 
+The university recognise that there may be exceptional circumstances requiring restrictions on copying or conditions on use, Requests for restriction for 
+a period of up to 2 years must made in writing to the Registrar. Requests for a longer period of restriction may be considered in exceptional circumstances 
+if accompanied by a letter of support from the Supervisor or Head of School. Such requests must be submitted with the thesis/project report. 
+ 
+FOR OFFICE USE ONLY   
+Date of completion of requirement for Award:   
+                                                                                                                                                                                             Registrar and Deputy Principal 
+THIS SHEET IS TO BE GLUED TO THE INSIDE FRONT COVER OF THE THESIS 
+Abstract 350 words maximum: 
+ 
+The first section of this thesis (Chapter 2) describes the creation and analysis of a database on concrete and 
+masonry dam incidents known as CONGDATA. The aim was to carry out as complete a study of concrete and 
+masonry dam incidents as was practicable, with a greater emphasis than in other studies on the geology, mode of 
+failure, and the warning signs that were observed. This analysis was used to develop a method of very 
+approximately assessing probabilities of failure. This can be used in initial risk assessments of large concrete and 
+masonry dams along with analysis of stability for various annual exceedance probability floods. 
+ 
+The second and main section of this thesis (Chapters 3-6) had its origins in the results of Chapter 2. It was found 
+that failure through the foundation was common in the list of dams analysed and that information on how to 
+assess the strength of the foundations of dams on rock masses was limited. This section applies to all applications 
+of rock mass strength. 
+ 
+Methods used for assessing the shear strength of jointed rock masses are based on empirical criteria. As a general 
+rule such criteria are based on laboratory scale specimens with very little, and often no, field validation. 
+ 
+The Hoek-Brown empirical rock mass failure criterion was developed in 1980 for hard rock masses. Since its 
+development it has become almost universally accepted and is now used for all types of rock masses and in all 
+stress regimes. This thesis uses case studies and databases of intact rock and rockfill triaxial tests collated by the 
+author to review the current Hoek-Brown criterion. The results highlight the inability of the criterion to fit all 
+types of intact rock and poor quality rock masses. This arose predominately due to the exponent, a, being 
+restrained to approximately 0.5 to 0.6 and using rock type as a predictor of mi. Modifications to the equations for 
+determining the Hoek-Brown parameters are provided that overcome these problems. 
+ 
+In the course of reviewing the Hoek-Brown criterion new equations were derived for estimating the shear 
+strength of intact rock and rockfill. Empirical slope design curves have also been developed. 
+ 
+ 
+ 
+
+=== PÁGINA 3 ===
+Abstract 
+ 
+Page i  
+ABSTRACT 
+The first section of this thesis (Chapter 2) describes the creation and analysis of a 
+database on concrete and masonry dam incidents known as CONGDATA. The aim was to 
+carry out as complete a study of concrete and masonry dam incidents as was practicable, 
+with a greater emphasis than in other studies on the geology, mode of failure, and the 
+warning signs that were observed. This analysis was used to develop a method of very 
+approximately assessing probabilities of failure. This can be used in initial risk 
+assessments of large concrete and masonry dams along with analysis of stability for 
+various annual exceedance probability floods. 
+The second and main section of this thesis (Chapters 3-6) had its origins in the results of 
+Chapter 2 and the general interests of the author. It was found that failure through the 
+foundation was common in the list of dams analysed and that information on how to 
+assess the strength of the foundations of dams on rock masses was limited. This section 
+applies to all applications of rock mass strength such as the stability of rock slopes. 
+Methods used for assessing the shear strength of jointed rock masses are based on 
+empirical criteria. As a general rule such criteria are based on laboratory scale 
+specimens with very little, and often no, field validation. 
+The Hoek-Brown empirical rock mass failure criterion was developed in 1980 for hard 
+rock masses. Since its development it has become virtually universally accepted and is 
+now used for all types of rock masses and in all stress regimes. This thesis uses case 
+studies and databases of intact rock and rockfill triaxial tests collated by the author to 
+review the current Hoek-Brown criterion. The results highlight the inability of the 
+criterion to fit all types of intact rock and poor quality rock masses. This arose 
+predominately due to the exponent a being restrained to approximately 0.5 to 0.62 and 
+using rock type as a predictor of mi. Modifications to the equations for determining the 
+Hoek-Brown parameters are provided that overcome these problems. 
+In the course of reviewing the Hoek-Brown criterion new equations were derived for 
+estimating the shear strength of intact rock and rockfill. Empirical slope design curves 
+have also been developed for use as a preliminary tool for slope design. 
+
+=== PÁGINA 4 ===
+Acknowledgements 
+ 
+Page iii 
+ACKNOWLEDGEMENTS 
+The support of the sponsors of the research project - Dams Risk Project - Estimation of 
+the Probability of Failure, the Australian Research Council, and the Faculty of 
+Engineering at the University of New South Wales is acknowledged. The sponsors of 
+the Dams Risk Project were: 
+• ACT Electricity and Water; 
+• Australian Water Technologies, Sydney Water Corporation; 
+• Dams Safety Committee of NSW; 
+• Department of Land and Water Conservation; 
+• Department of Land and Water Conservation - Dams Safety; 
+• Electric Corporation of New Zealand (ECNZ); 
+• Goulburn Murray Water; 
+• Gutteridge Haskins and Davey (GHD); 
+• Hydro-Electric Commission, Tasmania; 
+• Melbourne Water; 
+• NSW Department of Public Works and Services; 
+• Pacific Power; 
+• Queensland Department of Natural Resources; 
+• Snowy Mountains Engineering Corporation (SMEC); 
+• Snowy Mountains Hydro-Electricity Authority. 
+• South Australia Water Corporation; 
+• Water Authority of Western Australia; 
+The access to, and assistance with collection of data provided by the United States 
+Bureau of Reclamation and BC Hydro is also acknowledged. 
+Thanks are made to Pells Sullivan Meynink Pty Ltd who provided the data for most of 
+the case studies for the rock mass component of this thesis. Thanks also to their staff 
+who were always available to provide assistance and encouragement. Particular thanks 
+to Alex Duran who worked with the author on the creation of the slope design curves. 
+
+=== PÁGINA 5 ===
+Acknowledgements 
+ 
+Page iv 
+A general acknowledgement is made to the organisations that provided data on various 
+mine slopes and test results that have been used in the development of this thesis, yet for 
+the purposes of confidentiality their contributions cannot be properly referenced. 
+Marcus Helgstedt and Anna Tarua are acknowledged for their assistance with computer 
+analysis of some of the rock mass strength case studies. 
+To my fellow PhD comrades: Mark Foster, James Glastonbury and Gavan Hunter, a 
+major thankyou for your encouragement through example and your friendship. 
+To my friends, who have not only provided support but also nagging questions e.g. “Are 
+you finished yet?” … “Yes”. 
+To my parents, thanks for your values, your encouragement and your genes. 
+To my supervisor and co-supervisor Garry Mostyn and Robin Fell respectively, 
+thankyou not only for your invaluable assistance but also for the invaluable practical 
+experience you gave me in the areas of rock and dam engineering. 
+Finally, to my fiancée, Rebecca: thanks for hanging in all these years waiting for (and 
+putting up with) me. 
+ 
+
+=== PÁGINA 6 ===
+Table of contents 
+ 
+Page v 
+TABLE OF CONTENTS 
+CHAPTER 1: INTRODUCTION 
+1.1 THESIS OBJECTIVES..........................................................................................1.1 
+1.2 THE BACKGROUND TO THIS THESIS ............................................................1.2 
+1.3 THE CHAPTERS IN THIS THESIS .....................................................................1.3  
+1.3.1 The analysis of concrete and masonry dam incidents..........................................1.3 
+1.3.2 The shear strength of rock masses.......................................................................1.4 
+1.4 PUBLISHED PAPERS/REPORTS .......................................................................1.6 
+CHAPTER 2: THE ANALYSIS OF CONCRETE AND MASONRY DAM 
+INCIDENTS 
+2.1 OUTLINE OF THIS CHAPTER ...........................................................................2.1 
+2.2 STRUCTURE AND ASSEMBLY OF CONGDATA DATABASE.....................2.4 
+2.2.1 Sources of Data....................................................................................................2.4 
+2.2.2 CONGDATA Layout............................................................................................2.9 
+2.2.3 Data Entered into CONGDATA.........................................................................2.12 
+2.2.3.1 Definitions of Failures/Accidents............................................................... 2.12 
+2.2.3.2 Types of Dams............................................................................................2.14 
+2.2.3.3 Failure Types.............................................................................................2.14 
+2.2.3.4 Incident Time..............................................................................................2.15 
+2.2.3.5 Type of Foundation....................................................................................2.15 
+2.2.3.6 Dam Height................................................................................................2.15 
+2.2.3.7 Detection Methods.....................................................................................2.16 
+2.2.3.8 Classification of Causes of Incidents of Dams And Reservoirs.................2.17 
+2.2.3.9 Classification of Remedial Measures.........................................................2.22 
+2.2.4 Selection of Additional Variables......................................................................2.24 
+2.2.4.1 Time of Incidents........................................................................................2.24 
+2.2.4.2 Foundation Incident Mode.........................................................................2.25 
+2.2.4.3 Dam Incident Mode....................................................................................2.26 
+2.2.4.4 Comments on Incidents..............................................................................2.26 
+
+=== PÁGINA 7 ===
+Table of contents 
+ 
+Page vi 
+2.2.4.5 Description of the Failure or Accident......................................................2.26 
+2.2.4.6 Additional Geological Information............................................................2.26 
+2.2.4.7 Dam Dimensions........................................................................................2.28 
+2.2.4.8 Valley Shape...............................................................................................2.29 
+2.2.4.9 Radius of Curvature...................................................................................2.29 
+2.2.4.10 Monitoring and Surveillance Data ............................................................2.31 
+2.2.4.11 Warning Rating..........................................................................................2.32 
+2.2.4.12 Warning Time.............................................................................................2.32 
+2.2.4.13 Other Design Factors.................................................................................2.32 
+2.2.5 Assumptions Made in Assembling the Database...............................................2.33 
+2.2.6 Data on the Population of Dams ........................................................................2.36 
+2.3 RESULTS OF ANALYSIS OF THE DATABASE ............................................2.40 
+2.3.1 Summary of Incidents........................................................................................2.40 
+2.3.2 Year Commissioned of Dams Experiencing Incidents ......................................2.45 
+2.3.3 Height.................................................................................................................2.54 
+2.3.4 Age at Failure.....................................................................................................2.60 
+2.3.5 Incident Causes..................................................................................................2.78 
+2.3.6 Monitoring and Surveillance Data.....................................................................2.85 
+2.3.6.1 Using ICOLD Terms .................................................................................. 2.85 
+2.3.6.2 Details of Warnings ...................................................................................2.89 
+2.3.7 Remedial Measures............................................................................................2.98 
+2.3.8 Geology............................................................................................................2.101 
+2.3.8.1 Geology of Dam Foundations Experiencing Incidents............................ 2.101 
+2.3.8.2 Geology of the Population of Dams.........................................................2.106 
+2.3.9.3 Geology - Comparison Between Incidents and Population.....................2.112 
+2.3.9 Other Design Factors in Failed Dams ..............................................................2.123 
+2.4 METHOD OF FIRST ORDER PROBABILITY ASSESSMENT ....................2.132 
+2.4.1 Probability of Failure.......................................................................................2.132 
+2.4.1.1 Introduction.............................................................................................. 2.132 
+2.4.1.2 Population of Dams .................................................................................2.133 
+2.4.1.3 Dam Year .................................................................................................2.135 
+2.4.1.4 Probabilities of Failure............................................................................2.135 
+2.4.1.5 Gravity Dams - Separation of Concrete and Masonry Dams..................2.146 
+
+=== PÁGINA 8 ===
+Table of contents 
+ 
+Page vii 
+2.4.2 General Approach for Estimating the Probability of Failure for Individual 
+Gravity Dams ...................................................................................................2.153 
+2.4.3 Details of the Method for Estimating the Probability of Failure for 
+Individual Gravity Dams .................................................................................2.154 
+2.4.4 Gravity Dam Probability Multiplication Factors.............................................2.158 
+2.4.4.1 Soil/Rock Foundation Factor, fSF and fPF ................................................2.158 
+2.4.4.2 Geology Types - Sliding on Rock, fSG.......................................................2.161 
+2.4.4.3 Geology Type - Piping on Rock, fGE.........................................................2.164 
+2.4.4.4 Height on Width Ratio, fH/W......................................................................2.164 
+2.4.4.5 Other Observations, fO.............................................................................2.169 
+2.4.4.6 Surveillance, fS.........................................................................................2.169 
+2.4.5 Results..............................................................................................................2.170 
+2.5 DISCUSSION AND CONCLUSIONS..............................................................2.172 
+CHAPTER 3: THE SHEAR STRENGTH OF INTACT ROCK 
+3.1 INTRODUCTION..................................................................................................3.1 
+3.2 FAILURE CRITERIA FOR INTACT ROCK.......................................................3.2 
+3.3 LABORATORY TEST DATABASE FOR INTACT ROCK.............................3.12 
+3.4 AN ANALYSIS OF THE ANALYSIS OF DATA .............................................3.14 
+3.5 HOEK-BROWN CRITERION FOR INTACT ROCK........................................3.24 
+3.6 GENERALISED CRITERION FOR INTACT ROCK .......................................3.32 
+3.7 GLOBAL PREDICTION.....................................................................................3.49 
+3.8 COMPARISON OF CRITERIA..........................................................................3.60 
+3.9 SYSTEMATIC ERROR IN HOEK-BROWN CRITERION...............................3.64 
+3.10 APPLICATION TO SLOPE ENGINEERING....................................................3.73 
+3.11 CONCLUSION....................................................................................................3.77 
+CHAPTER 4: THE SHEAR STRENGTH OF ROCKFILL 
+4.1 OUTLINE OF THIS CHAPTER ...........................................................................4.1 
+4.2 FACTORS AFFECTING THE SHEAR STRENGTH OF ROCKFILL ...............4.2 
+
+=== PÁGINA 9 ===
+Table of contents 
+ 
+Page viii 
+4.2.1 Confining Pressure...............................................................................................4.2 
+4.2.2 Particle Strength...................................................................................................4.6 
+4.2.3 Uniformity Coefficient ........................................................................................4.8 
+4.2.4 Density...............................................................................................................4.10 
+4.2.5 Maximum Particle Size......................................................................................4.12 
+4.2.5.1 Increasing dmax with Constant D..................................................................4.13 
+4.2.5.2 Increasing dmax with Constant dmax/D ..........................................................4.13 
+4.2.6 Silt and Sand Fines versus Gravel and Larger Particle Content........................4.14 
+4.2.7 Particle Angularity.............................................................................................4.16 
+4.2.8 Other Factors......................................................................................................4.17 
+4.2.9 Summary of Factors Affecting the Secant Friction Angle ................................4.18 
+4.3 SHEAR STRENGTH CRITERIA .......................................................................4.19 
+4.4 DATABASE OF TRIAXIAL SHEAR TESTS....................................................4.26 
+4.5 DATABASE ANALYSIS....................................................................................4.29 
+4.5.1 Analysis Methodology.......................................................................................4.29 
+4.5.2 Secant Friction Angle, φsec, Versus Normal Stress, σn......................................4.30 
+4.5.2.1 General Assessment of Database...............................................................4.30 
+4.5.2.2 Statistical Analysis of Database.................................................................4.40 
+4.5.3 Maximum Principal Stress, σ′1, versus Minimum Principal Stress, σ′3............4.41 
+4.5.3.1 Secant Friction Angle Versus Normal Stress.............................................4.58 
+4.5.4 Hoek-Brown Criterion.......................................................................................4.61 
+4.6 CONCLUSION....................................................................................................4.64 
+CHAPTER 5: EMPIRICAL ROCK SLOPE DESIGN 
+5.1 INTRODUCTION..................................................................................................5.1 
+5.2 REVIEW OF THE ROCK MASS RATING SYSTEMS ......................................5.2 
+5.2.1 Methods for Estimating the Basic Rock Mass Rating.........................................5.3 
+5.2.1.1 The Rock Mass Rating, RMR, and Geological Strength Index, GSI............ 5.3 
+5.2.1.2 Mining Rock Mass Rating, MRMR..............................................................5.6 
+5.2.1.3 Rock Mass Strength, RMS............................................................................5.9 
+5.2.1.4 Slope Rock Mass Rating, SRMR................................................................5.11 
+5.2.1.5 Modified Rock Mass Classification, M-RMR.............................................5.14 
+
+=== PÁGINA 10 ===
+Table of contents 
+ 
+Page ix 
+5.2.1.6 Basic Quality, BQ ......................................................................................5.17 
+5.2.2 Adjustment Factors to basic rock mass ratings..................................................5.19 
+5.3 A REVIEW OF SLOPE DESIGN METHODS WHICH ARE BASED ON 
+ROCK MASS RATINGS ....................................................................................5.25 
+5.3.1 Correlations with Shear Strength Parameters and Slope Angles.......................5.25 
+5.3.2 Available Slope Performance Curves................................................................5.30 
+5.3.3 Pells Sullivan Meynink Slope Performance Curves..........................................5.36 
+5.4 ANALYSIS OF CASE STUDY DATA..............................................................5.39 
+5.4.1 Case Studies Used..............................................................................................5.39 
+5.4.2 Correlations of MRMR, SRMR and RMS with GSI.........................................5.40 
+5.4.3 General Assessment of the Parameters in GSI ..................................................5.51 
+5.4.4 Development of Generalised Slope Design Curves...........................................5.54 
+5.4.4.1 Use of MRMR in Haines and Terbrugge Method...................................... 5.54 
+5.4.4.2 Revised Method Using MRMR...................................................................5.54 
+5.4.4.3 Method Based on the Use of the Geological Strength Index, GSI.............5.55 
+5.5 CONCLUSION....................................................................................................5.62 
+CHAPTER 6: THE SHEAR STRENGTH OF ROCK MASSES 
+6.1 INTRODUCTION..................................................................................................6.1 
+6.2 ESTIMATING THE SHEAR STRENGTH OF A ROCK MASS.........................6.3 
+6.2.1 Predicting Rock Mass Strength from Discontinuities..........................................6.3 
+6.2.2 Predicting Rock Mass Strength using Empirical Formulae.................................6.8 
+6.2.3 Predicting Rock Mass Strength using the Hoek-Brown Criterion.......................6.8 
+6.3 A 
+DISCUSSION 
+OF 
+THE 
+HOEK-BROWN 
+CRITERION 
+WITH 
+PARTICULAR REFERENCE TO SLOPES .......................................................6.16 
+6.3.1 Calculation of GSI.............................................................................................6.16 
+6.3.1.1 Intact Strength............................................................................................6.16 
+6.3.1.2 RQD ...........................................................................................................6.17 
+6.3.1.3 Defect spacing............................................................................................6.18 
+6.3.1.4 Joint condition............................................................................................6.18 
+6.3.1.7 GSI from published figures........................................................................6.20 
+6.3.1.8 A Note on Schistose Rocks.........................................................................6.20 
+
+=== PÁGINA 11 ===
+Table of contents 
+ 
+Page x 
+6.3.2 Estimation of Parameters from GSI...................................................................6.26 
+6.3.2.1 The Rock Mass Disturbance Factor, D......................................................6.26 
+6.3.2.2 The Variation of the Hoek-Brown Parameters with GSI...........................6.27 
+6.4 VALIDATION OF THE HOEK-BROWN CRITERION ...................................6.30 
+6.4.1 Chichester Dam..................................................................................................6.30 
+6.4.2 Nattai North Escarpment Failure.......................................................................6.30 
+6.4.3 Katoomba Escarpment Failure...........................................................................6.35 
+6.4.4 Aviemore Dam Insitu Shear Tests .....................................................................6.39 
+6.4.5 Discussion of the Results of the Analysis..........................................................6.43 
+6.5 A NEW ESTIMATION OF ROCK MASS STRENGTH ...................................6.46 
+6.5.1 Development of a Modified Criterion ...............................................................6.46 
+6.5.1.1 Exponent ‘α’ ..............................................................................................6.47 
+6.5.1.2 Parameter ‘m’............................................................................................6.47 
+6.5.1.3 Parameter ‘s’.............................................................................................6.48 
+6.5.2 Development of the Equations to Estimate the Parameters in the Hoek-
+Brown Criterion.................................................................................................6.49 
+6.5.2.1 A New Equation for ‘mb’............................................................................6.50 
+6.5.2.2 A New Equation for ‘sb’.............................................................................6.54 
+6.5.2.3 A New Equation for ‘αb’............................................................................6.56 
+6.5.2.4 The Overall Equation.................................................................................6.61 
+6.5.3 Summary of Method..........................................................................................6.69 
+CHAPTER 7: CONCLUSIONS AND RECOMMENDATIONS 
+7.1 CONCLUSIONS....................................................................................................7.1 
+7.1.1 The Analysis of Concrete and Masonry Dams ....................................................7.1 
+7.1.2 The Shear Strength of Intact Rock.......................................................................7.3 
+7.1.3 The Shear Strength of Rockfill............................................................................7.4 
+7.1.4 Empirical Slope Design .......................................................................................7.4 
+7.1.5 The Shear Strength of Rock Masses....................................................................7.5 
+7.2 RECOMMENDATIONS FOR FURTHER RESEARCH .....................................7.7 
+7.2.1 The Analysis of Concrete and Masonry Dams ....................................................7.7 
+7.2.2 The Shear Strength of Rock Masses....................................................................7.7 
+ 
+
+=== PÁGINA 12 ===
+Table of contents 
+ 
+Page xi 
+REFERENCES 
+APPENDICES 
+APPENDIX A – CONGDATA DATABASE ...................................................CD-ROM 
+APPENDIX B – DAM LIST - FAILURES ..................................................................A.1 
+APPENDIX C – POPULATION OF DAMS................................................................ A.3 
+APPENDIX D – CAUSES OF INCIDENTS..............................................................A.11 
+APPENDIX E – SHEAR STRENGTH OF INTACT ROCK DATABASE ......CD-ROM 
+APPENDIX F – SHEAR STRENGTH OF ROCKFILL DATABASE .............CD-ROM 
+
+=== PÁGINA 13 ===
+Table of contents 
+ 
+Page xii 
+TABLE OF FIGURES 
+Figure 1.1. Thesis structure..........................................................................................1.2 
+Figure 2.1. Definition of dimensions in CONGDATA...............................................2.30 
+Figure 2.2. Definition of dimensions in CONGDATA - section across river.............2.31 
+Figure 2.3. The distribution of reported dam incidents vs country............................2.43 
+Figure 2.4. Reported incidents as percentage of country’s dam population from 
+ICOLD (1984).........................................................................................2.44 
+Figure 2.5. Year commissioned vs concrete gravity dam incidents ..........................2.47 
+Figure 2.6. Year commissioned vs masonry gravity dam incidents ..........................2.48 
+Figure 2.7. Year commissioned vs all dam incidents ................................................2.49 
+Figure 2.8. Year commissioned for world population data obtained from ICOLD 
+(1979) ......................................................................................................2.50 
+Figure 2.9. Year commissioned vs percentage of gravity dams constructed in the 
+USA.........................................................................................................2.51 
+Figure 2.10. Year commissioned - failures/population per period ..............................2.52 
+Figure 2.11. CONGDATA - height ranges for all dam significant incidents ...............2.55 
+Figure 2.12. CONGDATA - Height ranges for concrete gravity dam significant 
+incidents...................................................................................................2.56 
+Figure 2.13. CONGDATA - height ranges for masonry gravity dam significant 
+incidents...................................................................................................2.57 
+Figure 2.14. Height of failed dams - failures/population (%)......................................2.59 
+Figure 2.15. World dams - height ranges for all concrete & masonry dams ...............2.60 
+Figure 2.16. Age at incident - all dams ........................................................................2.64 
+Figure 2.17. Age at incident - concrete gravity dams ..................................................2.65 
+Figure 2.18. Age at incident - masonry gravity dams ..................................................2.66 
+Figure 2.19. Time to significant incident - gravity dam incidents/population (%)......2.67 
+Figure 2.20. Time to significant incident - all dam incidents/population (%).............2.67 
+Figure 2.21. Failure mode: age at failure versus year commissioned (all dams).........2.73 
+Figure 2.22. Over topping: age at failure versus year commissioned (all dams).........2.74 
+Figure 2.23. Dam type: age at failure versus year commissioned ...............................2.75 
+Figure 2.24. Age at significant incident versus year commissioned............................2.76 
+Figure 2.25. Age at significant incident versus year commissioned............................2.77 
+Figure 2.26. Causes of significant incidents (rock & unknown foundations) .............2.84 
+
+=== PÁGINA 14 ===
+Table of contents 
+ 
+Page xiii 
+Figure 2.27. Causes of significant incidents (soil foundations)...................................2.85 
+Figure 2.28. Warning types - gravity dams .................................................................2.86 
+Figure 2.29. Warning Types - All Dams .....................................................................2.87 
+Figure 2.30. Most common remedial measures - all dam incidents ............................2.99 
+Figure 2.31. Foundation incidents age, type and year commissioned - all dams ......2.104 
+Figure 2.32. Foundation incidents geology - all incidents.........................................2.105 
+Figure 2.33. Geology for incidents in the foundation and dam population – all 
+dams.......................................................................................................2.115 
+Figure 2.34. Geology for incidents in the foundation and dam population – 
+concrete gravity dams............................................................................2.116 
+Figure 2.35. Geology for incidents in the foundation and dam population – 
+masonry gravity dams ...........................................................................2.117 
+Figure 2.36. Foundation geology type as a percentage of the geology population – 
+all dams..................................................................................................2.118 
+Figure 2.37. Foundation geology type as a percentage of the geology population – 
+gravity dams ..........................................................................................2.119 
+Figure 2.38. Foundation geology type as a percentage of geology population – 
+arch dams...............................................................................................2.120 
+Figure 2.39. Foundation geology type as a percentage of geology population – 
+buttress dams .........................................................................................2.121 
+Figure 2.40. Foundation 
+incident 
+geology 
+and 
+population 
+– 
+mode 
+of 
+failure/accident......................................................................................2.122 
+Figure 2.41. Average failure stresses for dams with failure through the foundation.2.131 
+Figure 2.42. Average failure stresses for Bhandardara Dam.....................................2.131 
+Figure 2.43. hd/W versus year commissioned............................................................2.166 
+Figure 2.44. hd/W versus hd .......................................................................................2.167 
+Figure 2.45. hd/W factors...........................................................................................2.168 
+Figure 2.46. Range of annual probability of failure for concrete gravity dams.........2.170 
+Figure 2.47. Range of annual probability of failure for masonry gravity dams ........2.171 
+Figure 3.1. Generalised failure criterion......................................................................3.2 
+Figure 3.2. Comparison of test results with theoretically based failure criteria 
+(Johnston & Chiu, 1984) ...........................................................................3.3 
+Figure 3.3. Comparison of Hoek-Brown criterion (solid) and Johnston criterion 
+(dashed) for Melbourne mudstone (Johnston, 1985).................................3.4 
+
+=== PÁGINA 15 ===
+Table of contents 
+ 
+Page xiv 
+Figure 3.4. Fits to artificial data (a) full range (b) low stress range ..........................3.20 
+Figure 3.5. mi from literature against mi from test results and Hoek-Brown 
+Equation...................................................................................................3.26 
+Figure 3.6. Rock type against mi from test results and Hoek-Brown equation..........3.28 
+Figure 3.7. Unconfined compressive strength against that predicted by the Hoek-
+Brown equation .......................................................................................3.30 
+Figure 3.8. Uniaxial tensile strength against that predicted by the Hoek-Brown 
+equation...................................................................................................3.31 
+Figure 3.9. mi from literature against mi from test results and generalised 
+equation...................................................................................................3.34 
+Figure 3.10. mi from literature against α mi from test results and generalised 
+equation...................................................................................................3.36 
+Figure 3.11. Rock type against α mi from test results and generalised equation.........3.37 
+Figure 3.12. Unconfined compressive strength against that predicted by 
+generalised equation................................................................................3.39 
+Figure 3.13. Uniaxial tensile strength against that predicted by generalised 
+equation...................................................................................................3.41 
+Figure 3.14. α against mi..............................................................................................3.43 
+Figure 3.15. α against mi categorised by σc.................................................................3.45 
+Figure 3.16. Family of failure envelopes.....................................................................3.46 
+Figure 3.17. Results showing failure envelopes crossing............................................3.47 
+Figure 3.18. Residuals for global fit with α constant against σ′3/σc categorised by 
+-σc/σt........................................................................................................3.50 
+Figure 3.19. Residuals for global fit with variable α against σ′3/σc categorised by -
+σc/σt.........................................................................................................3.52 
+Figure 3.20. Three dimensional plot of global fit........................................................3.54 
+Figure 3.21. σ′1/σc with fits for variable α against σ′3/σc categorised by -σc/σt for 
+high stress................................................................................................3.56 
+Figure 3.22. σ′1/σc with fits for variable α against σ′3/σc categorised by -σc/σt for 
+low stress.................................................................................................3.57 
+Figure 3.23. α against mi showing cases with measured or reported σ′3 and σt..........3.59 
+Figure 3.24. σ′1/σc with fits for published mI against σ′3/σc categorised by mI for 
+high stress................................................................................................3.62 
+
+=== PÁGINA 16 ===
+Table of contents 
+ 
+Page xv 
+Figure 3.25. σ′1/σc with fits for published mI against σ′3/σc categorised by mI for 
+low stress.................................................................................................3.63 
+Figure 3.26. Pattern of residuals for Hoek-Brown fits ................................................3.64 
+Figure 3.28. Hoek-Brown fits to artificial data............................................................3.67 
+Figure 3.29. Hoek-Brown fits to actual data................................................................3.69 
+Figure 3.30. Residuals for Hoek-Brown fits for weak rock against σ′3/σ′3max 
+categorised by α ......................................................................................3.71 
+Figure 3.31. Residuals for generalised fits for weak rock against σ′3/σ′3max 
+categorised by α ......................................................................................3.72 
+Figure 3.32. Residuals against σ′3 for various fits.......................................................3.75 
+Figure 4.1. Methods for representing the shear strength envelope..............................4.4 
+Figure 4.2. Variation of secant friction angle, φsec, with respect to cell confining 
+stress, σ′3, for (a) dense and (b) medium dense crushed basalt from 
+triaxial tests (Al-Hussaini, 1983)...............................................................4.5 
+Figure 4.3. Average strength of rockfills from large-scale direct shear tests 
+(Anagnosti & Popovic, 1982)....................................................................4.5 
+Figure 4.4. Variation of secant friction angle, φsec, with normal stress σn 
+(Indraratna et al., 1993).............................................................................4.6 
+Figure 4.5. Shear strength and grain size curves for crushed (a) limestone and (b) 
+marble (Anagnosti and Popovic, 1982).....................................................4.7 
+Figure 4.6. Shear strength and grain size curves for crushed flysch sandstone-
+marl rockfill (Anagnosti and Popovic, 1982)............................................4.7 
+Figure 4.7. Shear strength and grain size curves for different gradings of 
+limestone gravel (Anagnosti and Popovic, 1982) .....................................4.9 
+Figure 4.8. Shear strength and grain size curves for (a) crystalline schist and (b) 
+sandstone gravels (Anagnosti and Popovic, 1982)....................................4.9 
+Figure 4.9. Scalped rockfill gradings (Marachi et al, 1969)......................................4.11 
+Figure 4.10. Strength porosity relationships with σ3 = 88kPa (Marachi et al, 1969)..4.11 
+Figure 4.12. Void ratio vs angle of friction (modified from Nakayama et al., 1982)..4.12 
+Figure 4.13. Friction angle vs maximum particle size (Thiers & Donovan, 1981).....4.13 
+Figure 4.14. Effect of gravel content on φ for silty gravel based on USBR (1966) ....4.15 
+Figure 4.15. Effect of gravel content on φ for clayey gravel based on USBR 
+(1961) ......................................................................................................4.15 
+
+=== PÁGINA 17 ===
+Table of contents 
+ 
+Page xvi 
+Figure 4.16. –4.76mm content vs secant angle of friction (Nakayama et al., 1982) ...4.16 
+Figure 4.17. Gonzalez (1985) shear strength of rockfill equations..............................4.22 
+Figure 4.18. Friction angle, φ, vs normal stress, σn.....................................................4.23 
+Figure 4.19. Frequency distributions for coefficients B versus porosity (Sarac & 
+Popovic, 1985).........................................................................................4.23 
+Figure 4.20. Dependence between coefficient A and gravel unit weight (Sarac & 
+Popovic, 1985).........................................................................................4.24 
+Figure 4.21. Dependence between coefficient A and mean grain diameter, d50 
+(Sarac & Popovic, 1985).........................................................................4.24 
+Figure 4.22. Secant friction angle, φsec vs normal stress, σn........................................4.33 
+Figure 4.23. Secant friction angle, φsec vs normal stress, σn, sorted on angularity 
+rating........................................................................................................4.34 
+Figure 4.24. Secant friction angle, φsec vs normal stress, σn, sorted on rock type = 
+basalt........................................................................................................4.35 
+Figure 4.25. Secant friction angle, φsec vs normal stress, σn, sorted on coefficient 
+of uniformity, cu ......................................................................................4.36 
+Figure 4.26. Secant friction angle, φsec vs normal stress, σn, sorted on maximum 
+particle size, dmax.....................................................................................4.37 
+Figure 4.27. Secant friction angle, φsec vs normal stress, σn, sorted on percent fines 
+(passing 0.075mm) content .....................................................................4.38 
+Figure 4.28. Secant friction angle, φsec vs normal stress, σn, sorted on unconfined 
+compressive strength of the rock substance, UCS (MPa) .......................4.39 
+Figure 4.29. RFIe versus void ratio..............................................................................4.43 
+Figure 4.30. RFIUCS versus unconfined compressive strength.....................................4.43 
+Figure 4.31. RFIFINES versus percent fines...................................................................4.44 
+Figure 4.32 Residuals versus unconfined compressive strength of intact rock ...........4.46 
+Figure 4.33. Residuals versus dmax...............................................................................4.47 
+Figure 4.34. Residuals versus void ratio......................................................................4.48 
+Figure 4.35. Residuals versus angularity rating...........................................................4.49 
+Figure 4.36. Residuals versus fines content.................................................................4.50 
+Figure 4.37. Residuals versus sample diameter...........................................................4.51 
+Figure 4.38. Effect of unconfined compressive strength on σ′1 ..................................4.52 
+Figure 4.39. Effect of angularity on σ′1 (7 = sub-angular to angular; 8 = angular).....4.52 
+
+=== PÁGINA 18 ===
+Table of contents 
+ 
+Page xvii 
+Figure 4.40. Effect of fines content on σ′1...................................................................4.53 
+Figure 4.41. Effect of maximum particle size on σ′1...................................................4.53 
+Figure 4.42. Effect of initial void ratio on σ′1 .............................................................4.54 
+Figure 4.43. σ′1 vs σ′3 showing data used in analysis and RFI relationship................4.55 
+Figure 4.44. σ′1 vs σ′3 showing all data and RFI relationship.....................................4.56 
+Figure 4.45. σ′1 vs σ′3 showing all data and RFI relationship (σ′3 up to 1.5MPa)......4.57 
+Figure 4.46. Effect of unconfined compressive strength on φsec..................................4.59 
+Figure 4.47. Effect of angularity on φsec (7 = sub-angular to angular; 8 = angular)....4.59 
+Figure 4.48. Effect of fines content on φsec..................................................................4.60 
+Figure 4.49. Effect of maximum particle size on φsec..................................................4.60 
+Figure 4.50. Effect of initial void ratio on φsec.............................................................4.61 
+Figure 4.51. Statistical analysis results using Hoek-Brown formula and for a = 0.6 
+and a = 0.95.............................................................................................4.63 
+Figure 5.1. Estimate of GSI based on geological descriptions. (Hoek, 2000).............5.7 
+Figure 5.2. SRMR strength correlation (a) Island Copper Mine (b) Getchell Mine 
+(Robertson, 1988)....................................................................................5.14 
+Figure 5.3. Example of Planar Failure Case with High SMR....................................5.21 
+Figure 5.4. Slope height, H, vs slope height factor, ξ (after Chen, 1995) .................5.22 
+Figure 5.5. RMR versus slope angle (Orr, 1996).......................................................5.27 
+Figure 5.6. Observed cases (ESMR) vs (a) SMR, (b) CSMR (Chen, 1995) .............5.29 
+Figure 5.7. Upper bound slope height versus slope angle curve for rock masses 
+(Hoek & Bray, 1981)...............................................................................5.31 
+Figure 5.8. Slope angle versus slope height with regression curves (modified 
+after McMahon, 1976).............................................................................5.33 
+Figure 5.9. Slope height vs slope angle for MRMR (Haines & Terbrugge, 1991)....5.34 
+Figure 5.10. Haines & Terbrugge (1991) slope design replotted on basis of slope 
+angle versus slope height showing Haines & Terbrugge (1991) slope 
+data. .........................................................................................................5.35 
+Figure 5.11. Slope performance curves for case studies (Duran & Douglas, 1999)....5.37 
+Figure 5.12. Correlations of GSI with MRMR, SRMR, RMS rating (mod. Duran 
+and Douglas, 2002)..................................................................................5.42 
+Figure 5.13. GSI versus slope height for failed and stable slopes...............................5.51 
+
+=== PÁGINA 19 ===
+Table of contents 
+ 
+Page xviii 
+Figure 5.14. GSI defect spacing rating versus slope height for failed and stable 
+slopes.......................................................................................................5.52 
+Figure 5.15. GSI defect condition rating versus slope height for failed and stable 
+slopes.......................................................................................................5.52 
+Figure 5.16. GSI RQD rating versus slope height for failed and stable slopes...........5.53 
+Figure 5.17. GSI UCS rating versus slope height for failed and stable slopes............5.53 
+Figure 5.18. Haines & Terbrugge (1991) slope design curves & slope data (Figure 
+5.10) with  additional case studies (Duran & Douglas, 1999).................5.56 
+Figure 5.19. Suggested slope design curves for MRMR (Duran & Douglas, 1999)...5.57 
+Figure 5.20. Slope height vs slope angle case study data and the author’s proposed 
+design curves for a dry slope...................................................................5.58 
+Figure 5.21. Slope height vs slope angle case study data and a comparison of 
+design curves for a dry slope...................................................................5.59 
+Figure 5.22. Slope height vs slope angle case study data and the author’s proposed 
+design curves for moderate pressures......................................................5.60 
+Figure 5.23. Slope height vs slope angle case study data and a comparison of 
+design curves for moderate pressures......................................................5.61 
+Figure 6.1. Heavily jointed rock mass.........................................................................6.1 
+Figure 6.2. Example of shear failure through rock mass at the toe of a slope - 
+Nattai Escarpment Failure.........................................................................6.2 
+Figure 6.3. Assessment of Barton and Bandis (1982) JRC0 vs JRCn ..........................6.7 
+Figure 6.4. Values of the parameter mi for intact rock (Hoek, 1999) ........................6.11 
+Figure 6.5. Estimation of GSI (Hoek, 1997)..............................................................6.12 
+Figure 6.6. History of the Hoek-Brown criterion (Hoek, 2002) ................................6.13 
+Figure 6.7. Scale effect of Intact Rock (Hoek and Brown, 1980) .............................6.17 
+Figure 6.8. Slope failure block size ...........................................................................6.19 
+Figure 6.9. Effect of scale on defect properties.........................................................6.19 
+Figure 6.10. GSI Table (Hoek et al, 1998) ..................................................................6.22 
+Figure 6.11. Ed versus GSI case study data and Hoek et al (1995) equation for σc 
+≥ 100MPa and σc = 10MPa.....................................................................6.24 
+Figure 6.12. Ed test from case studies versus Ed pred from Hoek et al (1995) 
+equation...................................................................................................6.25 
+Figure 6.13. Variation of a, s and mb/mi with GSI.......................................................6.28 
+Figure 6.14. Typical section of the Nattai North failure (Pells et al, 1987).................6.31 
+
+=== PÁGINA 20 ===
+Table of contents 
+ 
+Page xix 
+Figure 6.15. Illustration of the failure mechanism at Nattai North  (Helgstedt, 
+1997)........................................................................................................6.32 
+Figure 6.16. Katoomba Escarpment Failure................................................................6.36 
+Figure 6.17. Katoomba Escarpment Failure, column prior to collapse.......................6.37 
+Figure 6.18. Direct Shear Test Set up (Foster & Fairless, 1994).................................6.41 
+Figure 6.19. Example of mesh used (Helgstedt, 1997)................................................6.44 
+Figure 6.20. Close up of the simulated jack (Helgstedt, 1997) ...................................6.44 
+Figure 6.21. Back analysis results using Figure 6.5 for GSI.......................................6.45 
+Figure 6.22. Test results for tectonised quartzitic sandstone (Habimana et al, 
+2002)........................................................................................................6.52 
+Figure 6.23. The author’s statistical fits to Habimana et al (2002) data......................6.53 
+Figure 6.24. mb versus GSI..........................................................................................6.54 
+Figure 6.25. GSI for an intact or massive rock structure (Hoek, 1999).......................6.55 
+Figure 6.26. sb versus GSI ...........................................................................................6.56 
+Figure 6.27. αb versus GSI ..........................................................................................6.57 
+Figure 6.28. Graphical representation of the equations for α and m ...........................6.58 
+Figure 6.29. Transition of α and m from intact rock to rock mass..............................6.59 
+Figure 6.30. Original and modified relationships for αi and mi...................................6.60 
+Figure 6.31. Shear strength curves for tectonised quartzitic sandstone (Habimana 
+et al, 2002)...............................................................................................6.61 
+Figure 6.32. Results of analysis of Habimana et al (2002) data using the new 
+equation and parameters from equations.................................................6.63 
+Figure 6.33. Results of global analysis of Habimana et al (2002) data using new 
+equations..................................................................................................6.64 
+Figure 6.34. Non-dimensionalised plot of new shear strength curves for mi = 40 
+and varying GSI.......................................................................................6.65 
+Figure 6.35. Non-dimensionalised plot of new shear strength curves for mi = 4 
+and varying GSI.......................................................................................6.66 
+Figure 6.1. Comparison of the author’s criterion and the Hoek-Brown criterion 
+(Hoek, 2002) for mi = 40 .........................................................................6.67 
+Figure 6.2. Comparison of the author’s criterion and the Hoek-Brown criterion 
+(Hoek, 2002) for mi = 4 ...........................................................................6.68 
+ 
+
+=== PÁGINA 21 ===
+Table of contents 
+ 
+Page xx 
+TABLE OF TABLES 
+Table 2.1. 
+Bibliography for failed dams in CONGDATA ..........................................2.6 
+Table 2.2. 
+CONGDATA parameters........................................................................2.10 
+Table 2.3. 
+Causes of incidents of concrete dams......................................................2.18 
+Table 2.4. 
+Causes of incidents of masonry dams .....................................................2.19 
+Table 2.5. 
+Causes of incidents to appurtenant works ...............................................2.20 
+Table 2.6. 
+Causes of incidents of reservoirs.............................................................2.21 
+Table 2.7. 
+Causes of incidents downstream of dam.................................................2.21 
+Table 2.8. 
+Classification of remedial measures........................................................2.23 
+Table 2.9. 
+Number of dam incidents in database by type ........................................2.40 
+Table 2.10. Number of significant dam incidents in database by type.......................2.40 
+Table 2.11. Number of dam incidents reported in each country................................2.42 
+Table 2.12. Year commissioned - failures vs population per period..........................2.53 
+Table 2.13. Year commissioned - accidents vs population per period.......................2.54 
+Table 2.14. Percent of concrete & masonry dam fails vs population for height ........2.58 
+Table 2.15. Percent of concrete & masonry accidents vs population for height........2.58 
+Table 2.16. No. of dam foundation sliding & piping failures vs age at failure..........2.62 
+Table 2.17. No. of structural (shear or tensile) failures vs age at failure ...................2.63 
+Table 2.18. Time to significant incident - incident/population of dams surviving 
+period (%)................................................................................................2.68 
+Table 2.19. Time to significant incident.....................................................................2.69 
+Table 2.20. Details of dam failure water levels..........................................................2.70 
+Table 2.21. Failure types ............................................................................................2.78 
+Table 2.22. Main causes of incidents in all dams .......................................................2.79 
+Table 2.23. Main causes of incidents in concrete gravity dams .................................2.80 
+Table 2.24. Main causes of incidents in masonry gravity dams .................................2.80 
+Table 2.25. Main failure causes for dams with soil foundations................................2.81 
+Table 2.26. Main significant incident causes for dams with rock or unknown 
+foundations ..............................................................................................2.82 
+Table 2.27. Warning types vs dam type - failures......................................................2.88 
+Table 2.28. Warning types vs dam type - accidents ...................................................2.88 
+Table 2.29. Warning types vs dam type - major repairs.............................................2.89 
+Table 2.30. Warning ratings for failed dams ..............................................................2.90 
+
+=== PÁGINA 22 ===
+Table of contents 
+ 
+Page xxi 
+Table 2.31. Details of dam failures and descriptions of warnings .............................2.91 
+Table 2.32. Details of dam significant accidents and descriptions of warnings.........2.95 
+Table 2.33. Remedial measures - all dam incidents .................................................2.100 
+Table 2.34. Geology for dams with failure in the foundation..................................2.102 
+Table 2.35. Geology for dams with accidents in the foundation..............................2.103 
+Table 2.36. Foundation geology for Australia, New Zealand, Portugal and USBR 
+(percent and number for each group) ....................................................2.109 
+Table 2.37. Foundation geology for Australia, New Zealand, Portugal & USBR 
+dams - totalled Figures ..........................................................................2.111 
+Table 2.38. Failed dams with grouted foundation....................................................2.123 
+Table 2.39. Crest length/height for failed dams and population ..............................2.125 
+Table 2.40. Upstream and downstream slopes for failed dams ................................2.126 
+Table 2.41. Hd/W for failed dams.............................................................................2.128 
+Table 2.42. Back analysed shear strengths for failed dams (mod. from Rich, 
+1995)......................................................................................................2.129 
+Table 2.43. Calculated normal stresses along the failure plane of back analysed 
+gravity dams ..........................................................................................2.130 
+Table 2.44. Number of dams as at 1992...................................................................2.133 
+Table 2.45. Population of dams by dam type and year commissioned ....................2.134 
+Table 2.46. Number of dams (excluding China) in the population..........................2.134 
+Table 2.47. Annual probability of failure (1992, exc. China) - all failure types......2.136 
+Table 2.48. Probability of failure (as at 1992, exc. China, non-annualised) - all 
+failure types...........................................................................................2.137 
+Table 2.49. Annual probability of failure (as at 1992, excluding China) - sliding 
+failures...................................................................................................2.138 
+Table 2.50. Probability of failure (as at 1992, excluding China, non-annualised) - 
+sliding failures.......................................................................................2.139 
+Table 2.51. Annual probability of failure (as at 1992, excluding China) - piping 
+failures...................................................................................................2.140 
+Table 2.52. Probability of failure (as at 1992, excluding China, non-annualised) - 
+piping failures........................................................................................2.141 
+Table 2.53. Annual probability of failure (as at 1992, excluding China) - 
+tension/shear failures through dam body...............................................2.142 
+
+=== PÁGINA 23 ===
+Table of contents 
+ 
+Page xxii 
+Table 2.54. Probability of failure (as at 1992, excluding China, non-annualised) - 
+tension/shear failures through dam body...............................................2.143 
+Table 2.55. Number of failures during overtopping where the failure mode was 
+unknown................................................................................................2.144 
+Table 2.56. No. of failures where the failure mode was unknown (no 
+overtopping) ..........................................................................................2.145 
+Table 2.57. Distribution of concrete and masonry gravity dams in the USA...........2.146 
+Table 2.58. Distribution of concrete and masonry gravity dams chosen for 
+analysis..................................................................................................2.148 
+Table 2.59. Summary of annualised probabilities of failure for gravity dams (exc. 
+China)....................................................................................................2.148 
+Table 2.60. Suggested values for annualised probabilities of failure for gravity 
+dams (excluding China).........................................................................2.149 
+Table 2.61. Annualised probabilities of failure for gravity dams - all failures ........2.150 
+Table 2.62. Annualised probabilities of failure for gravity dams - sliding failures .2.150 
+Table 2.63. Annualised probabilities of failure for gravity dams - piping failures..2.151 
+Table 2.64. Annualised probabilities of failure for gravity dams - dam body 
+tension/shear failures.............................................................................2.151 
+Table 2.65. Number of failures during overtopping where failure mode was 
+unknown................................................................................................2.152 
+Table 2.66. Number of failures where failure mode was unknown.........................2.152 
+Table 2.67. Foundation types - USBR......................................................................2.158 
+Table 2.68. Foundation types - Australia/New Zealand...........................................2.158 
+Table 2.69. Foundation types - Portugal ..................................................................2.159 
+Table 2.70. Gravity dam foundation types - combined............................................2.159 
+Table 2.71. Foundations for gravity dam failures by sliding or piping....................2.159 
+Table 2.72. Gravity dam factors for piping and sliding failure on soil and rock, 
+fSF and fPF...............................................................................................2.160 
+Table 2.73. Foundation types - accidents .................................................................2.160 
+Table 2.74. Weighting factors used for weighted average (ICOLD (1984) dam 
+population).............................................................................................2.161 
+Table 2.75. Adopted gravity dam factors for sliding on a rock foundation, fSG.......2.162 
+Table 2.76. Gravity dam factors for sliding on a rock foundation...........................2.163 
+
+=== PÁGINA 24 ===
+Table of contents 
+ 
+Page xxiii 
+Table 2.77. Multiplication factors for structural height/width ratio of gravity 
+dams, fH/W...............................................................................................2.165 
+Table 2.78. Monitoring and surveillance multiplication factors, fS..........................2.169 
+Table 3.1. 
+Various intact rock failure criteria.............................................................3.6 
+Table 3.2. 
+Empirical estimates of exponents for the equations in Table 3.1............3.10 
+Table 3.3. 
+Suggested values of constant k (Yudhbir et al, 1983 and Bieniawsi, 
+1974)........................................................................................................3.10 
+Table 3.4. 
+Values of M and B for a range of materials (Johnston, 1991) ................3.10 
+Table 3.5. 
+Intact rock database descriptors ..............................................................3.13 
+Table 3.6. 
+Results of different regression methods on artificial data.......................3.19 
+Table 3.7. 
+Error in approximating σut as -σc/(mi+1).................................................3.42 
+Table 3.8. 
+Comparison of predictions ......................................................................3.60 
+Table 3.9. 
+Errors in fitting Hoek-Brown criterion to materials with α ≠ 0.5...........3.65 
+Table 3.10. Variation of σc and mi with σ3max for exact simulated results .................3.66 
+Table 3.11. Variation of σc and mi with σ′3max for data set 434..................................3.68 
+Table 3.12. Triaxial component of strength ...............................................................3.73 
+Table 3.13. Comparison of predictions for weak rocks at low stress.........................3.74 
+Table 4.1. 
+Increase in φ with dmax/D from Marsal (1973) data for different σn........4.13 
+Table 4.2. 
+Reduction in φ with particle size, dmax, from Marsal (1973) data ...........4.13 
+Table 4.3. 
+Summary of factors affecting the secant friction angle...........................4.18 
+Table 4.4. 
+Parameters obtained using De Mello (1977) (Charles, 1991).................4.19 
+Table 4.5. 
+Various shear strength criteria for rockfill ..............................................4.20 
+Table 4.6. 
+List of parameters in triaxial shear strength database .............................4.27 
+Table 4.7. 
+Summary of basic statistics from the rockfill database...........................4.28 
+Table 4.8. 
+Changes in φsec on Figure 4.46 to Figure 4.50 for σn=1MPa and σn = 
+0.5MPa ....................................................................................................4.58 
+Table 4.9. 
+Results from the statistical analysis of the rockfill database using the 
+Hoek-Brown equation .............................................................................4.62 
+Table 5.1. 
+Comparison of weightings for various rock mass rating methods ............5.2 
+Table 5.2. 
+Rock mass rating (Bieniawski, 1989)........................................................5.5 
+Table 5.3. 
+Geological strength index, GSI (Hoek et al, 1995)...................................5.6 
+Table 5.4. 
+MRMR (Laubscher, 1977) ........................................................................5.8 
+Table 5.5. 
+Defect condition rating for MRMR (Laubscher, 1977).............................5.8 
+
+=== PÁGINA 25 ===
+Table of contents 
+ 
+Page xxiv 
+Table 5.6. 
+RMS Classification and Ratings (mod. Selby, 1980)..............................5.10 
+Table 5.7. 
+SRK Geomechanics Classification or Slope Rock Mass Rating 
+(SRMR) ...................................................................................................5.13 
+Table 5.8. 
+SRMR strength correlation (Robertson, 1988)........................................5.14 
+Table 5.9. 
+Joint condition index IJC (Ünal, 1996).....................................................5.16 
+Table 5.10. Ratings for joint condition parameters (Ünal, 1996)...............................5.17 
+Table 5.11. The basic quality, BQ, rock mass classes (Lin, 1998) ............................5.18 
+Table 5.12. Adjustment rating for joints (after Romana, 1985) .................................5.20 
+Table 5.13. Adjustment Rating for methods of excavation of slopes (after 
+Romana, 1985) ........................................................................................5.20 
+Table 5.14. Tentative description of SMR classes (after Romana, 1985)..................5.21 
+Table 5.15. Discontinuity condition factor λ (Chen, 1995)........................................5.22 
+Table 5.16. Blasting adjustment, Ab (Ünal, 1996)......................................................5.23 
+Table 5.17. Major plane of weakness adjustment, Aw (Ünal, 1996)...........................5.23 
+Table 5.18. Rock mass properties for RMR76 (Bieniawski, 1976).............................5.25 
+Table 5.19. Stable slope angle versus MRMR (Laubscher, 1977).............................5.26 
+Table 5.20. Case records for SMR (after Romana, 1985)..........................................5.28 
+Table 5.21. Parameters for McMahon’s (1976) slope relationship............................5.32 
+Table 5.22. Summary of slope data from case studies ...............................................5.39 
+Table 5.23. Correlation between rating methods – author’s case studies...................5.41 
+Table 5.24. Summary of best estimate GSI data for mine cases................................5.43 
+Table 5.25. Summary of defect condition for GSI.....................................................5.44 
+Table 5.26. Summary of best estimate of Laubscher’s MRMR data for mine 
+cases.........................................................................................................5.45 
+Table 5.27. Summary of best estimate of SRMR data for mine cases.......................5.47 
+Table 5.28. Summary of best estimate of RMS data for mine cases..........................5.49 
+Table 6.1. 
+Estimation of Hoek-Brown co-efficients ..................................................6.9 
+Table 6.2. 
+Rock mass deformability case studies.....................................................6.23 
+Table 6.3. 
+Guidelines for estimating disturbance factor D (Hoek et al, 2002).........6.26 
+Table 6.4. 
+Maximum and minimum values of Hoek-Brown parameters using  
+Figure 6.10...............................................................................................6.29 
+Table 6.5. 
+Joint orientation, spacing and persistence for Nattai North ....................6.34 
+Table 6.6. 
+Summary of parameters used for the Nattai North Escarpment 
+Failure......................................................................................................6.34 
+
+=== PÁGINA 26 ===
+Table of contents 
+ 
+Page xxv 
+Table 6.7. 
+Summary of Hoek-Brown parameters for Nattai using RMR and the 
+Hoek-Brown chart ...................................................................................6.35 
+Table 6.8. 
+UDEC output: average shear and normal stresses along the predicted 
+failure plane.............................................................................................6.35 
+Table 6.9. 
+Summary of parameters used for the Katoomba Escarpment Failure.....6.38 
+Table 6.10. Summary of Hoek-Brown parameters for the Claystone in the 
+Katoomba Escarpment Failure using RMR and the Hoek-Brown 
+chart.........................................................................................................6.38 
+Table 6.11. Summary of the Joint Properties from the Joint Survey carried out by 
+Read et al (1996) .....................................................................................6.40 
+Table 6.12. Hoek Parameters for Aviemore Shear Tests using RMR, and the 
+Hoek-Brown Chart ..................................................................................6.40 
+Table 6.13. Intact material parameters .......................................................................6.43 
+Table 6.14. Defect and Interface Material Parameters...............................................6.43 
+Table 6.15. Results of statistical analysis of Habimana et al (2002) test data............6.50 

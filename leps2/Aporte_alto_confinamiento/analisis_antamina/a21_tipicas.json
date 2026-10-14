@@ -1,0 +1,52 @@
+{
+ "B": {
+  "seco": {
+   "pie": 0.994809,
+   "libre": 0.996082,
+   "global": 0.993115
+  },
+  "saturado": {
+   "pie": 0.435795,
+   "global": 0.925907,
+   "libre": 0.70283
+  }
+ },
+ "C": {
+  "saturado": {
+   "libre": 1.49247,
+   "pie": 1.37606,
+   "global": 1.58947
+  },
+  "seco": {
+   "pie": 1.41841,
+   "libre": 1.4268,
+   "global": 1.63917
+  }
+ },
+ "A roca": {
+  "seco": {
+   "pie": 1.49259,
+   "global": 1.68261,
+   "libre": 1.49164
+  }
+ },
+ "A morrena": {
+  "seco": {
+   "global": 1.65329,
+   "libre": 1.49285,
+   "pie": 1.41765
+  }
+ },
+ "D": {
+  "saturado": {
+   "pie": 1.07093,
+   "global": 1.51864,
+   "libre": 1.53548
+  },
+  "seco": {
+   "pie": 1.2834,
+   "global": 1.58505,
+   "libre": 1.49218
+  }
+ }
+}

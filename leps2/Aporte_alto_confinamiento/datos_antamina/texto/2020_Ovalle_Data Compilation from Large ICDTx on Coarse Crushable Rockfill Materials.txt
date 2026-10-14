@@ -1,0 +1,806 @@
+
+=== PÁGINA 1 ===
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/343971963
+Data Compilation from Large Drained Compression Triaxial Tests on Coarse
+Crushable Rockﬁll Materials
+Article  in  Journal of Geotechnical and Geoenvironmental Engineering · June 2020
+DOI: 10.1061/(ASCE)GT.1943-5606.0002314
+CITATIONS
+43
+READS
+1,363
+6 authors, including:
+Carlos Ovalle
+Polytechnique Montréal
+71 PUBLICATIONS   890 CITATIONS   
+SEE PROFILE
+Sandra Linero
+University of Newcastle Australia
+16 PUBLICATIONS   273 CITATIONS   
+SEE PROFILE
+Christophe Dano
+Laboratoire 3SR Grenoble
+129 PUBLICATIONS   2,177 CITATIONS   
+SEE PROFILE
+Rodrigo Osses
+Temuco Catholic University
+11 PUBLICATIONS   98 CITATIONS   
+SEE PROFILE
+All content following this page was uploaded by Christophe Dano on 21 September 2020.
+The user has requested enhancement of the downloaded file.
+
+=== PÁGINA 2 ===
+Technical Note
+Data Compilation from Large Drained Compression
+Triaxial Tests on Coarse Crushable Rockfill Materials
+Carlos Ovalle1; Sandra Linero2; Christophe Dano3; Edgar Bard4;
+Pierre-Yves Hicher5; and Rodrigo Osses6
+Abstract: Investigating the mechanical properties of rockfills requires laborious, time-consuming, and expensive large-scale testing.
+Therefore, practitioners frequently adopt design parameters based on a limited number of reports with experimental results. With the aim
+of enlarging and consolidating the database on the mechanical behavior of coarse rockfills, this paper compiles 158 drained triaxial compression
+tests conducted on 33 different materials, performed on samples∼1 m in diameter and having a maximum particle size between 100and 200mm.
+Data are analyzed in terms of particle breakage, shear strength, and stiffness. The results are compared with limits for high and low shear strength
+previously reported. At confining pressures lower than 0.2 MPa, rockfills consistently have a maximum internal friction angle higher than 45°;
+at high pressure, this value decreases to a range between 30° and 40°, mainly due to degradation caused by particle breakage. Average
+secant Young’s moduli for all uniform and well-graded rockfills analyzed are in the typical range for loose sands, characterized by a normalized
+secant modulus of 100 to 200. DOI: 10.1061/(ASCE)GT.1943-5606.0002314. © 2020 American Society of Civil Engineers.
+Author keywords: Rockfill; Large triaxial tests; Particle crushing; Shear strength; Secant stiffness.
+Introduction
+Owing to their massive production potential by quarrying and their
+mechanical properties in the dense state, rockfills are frequently
+used in civil engineering works. These granular fills are mainly
+composed of a mix of sand and angular rock aggregates with over-
+sized particles that are too large to be handled by standard labora-
+tory devices for compression and shearing. Alternative laboratory
+and in situ large direct shear tests have been developed by others
+(Barton and Kjaernsli 1981; Matsuoka et al. 2001; Estaire and
+Olalla 2006). However, these methodologies only allow for the
+evaluation of the mechanical behavior at low stresses, while cali-
+bration of new constitutive models that have been specifically
+developed for rockfill behavior (Chávez and Alonso 2003;
+Varadarajan et al. 2003; Xiao and Liu 2017; Yin et al. 2017) require
+accurate data on stress-strain controlled response over a large range
+of stresses. Therefore, a common challenge that engineers face
+when designing rockfill structures is that published information
+which documents large-scale tests is very scarce.
+The largest triaxial testing apparatus ever built handles speci-
+mens with a diameter of ∼1 m. While equipment of this scale has
+been built, there are few examples currently in use due to the high
+cost involved in their maintenance and operation. Pioneering devel-
+opment of testing on very large samples was first reported during
+the 1960s at the laboratories of Karlsruhe Technical University
+(Leussink 1960), the University of California at Berkeley (UCB)
+(Marachi et al. 1969), and the Federal Electricity Commission of
+Mexico (CFE) (Marsal et al. 1965). These groups designed and
+built devices that could handle samples ranging in diameter (D)
+from 914 to 1,130 mm, and having a maximum particle size (dmax)
+of 200 mm using the classic minimum aspect ratio D=dmax ¼
+5 to 6 (Holtz and Gibbs 1956). Experimental programs at CFE
+and UCB were carried out on several rockfill dam materials, and
+the results have become a reference for engineers and researchers.
+Part of the data produced at the CFE and UCB laboratories has been
+analyzed in detail and used to propose empirical correlations and
+ranges for mechanical parameters of coarse rockfill materials
+(Leps 1970; Barton and Kjaernsli 1981; Hunter and Fell 2003).
+Other authors have subsequently reported new results and have up-
+dated the database (Charles and Watts 1980; Al-Hussaini 1983;
+Matsuoka and Liu 1998; Hunter and Fell 2003; Varadarajan
+et al. 2003; Xiao et al. 2014a, b) using triaxial cells that can take
+samples of 300–500 mm in diameter. These studies have signifi-
+cantly advanced the understanding of the mechanical behavior
+of rockfills, such as the study of the effects of partial saturation
+(Oldecop and Alonso 2003; Alonso et al. 2016), stress path (Chávez
+and Alonso 2003; Xiao et al. 2015), and particle size (Verdugo and
+De la Hoz 2006; Hu et al. 2011; Ovalle and Dano 2020).
+Due to the size limitation of testing devices, a common practice
+is to test small-scale samples with a parallel gradation while main-
+taining the particle shape, mineralogy, and sample aspect ratio.
+1 Assistant Professor, Dept. of Civil, Geological and Mining Engineer-
+ing, Polytechnique Montreal, 2900 Edouard Montpetit Blvd., Montreal,
+QC, Canada H3T1J4; Research Institute of Mining and Environment,
+RIME UQAT-Polytechnique, 2900 Edouard Montpetit Blvd., Montreal,
+QC, Canada H3T1J4 (corresponding author). ORCID: https://orcid.org
+/0000-0002-9648-5262. Email: carlos.ovalle@polymtl.ca
+2Principal Geotechnical Engineer, SRK Consulting (Australasia) Pty
+Ltd., Level 17, 44 Market St., Sydney, NSW 2000, Australia.
+3Associate Professor, Centre National de la Recherche Scientifique,
+Institut National Polytechnique, Univ. Grenoble–Alpes, 3SR, 1270 rue de
+la piscine, Domaine Universitaire, Grenoble 38000, France.
+4Senior Mine Waste Consultant, Golder Associates, 181 Magdalena,
+Las Condes 7550055, Chile.
+5Emeritus Professor, Centre National de la Recherche Scientifique,
+Unité Mixte de Recherche, Ecole Centrale de Nantes, 1 Rue de la Noë,
+Nantes 44300, France.
+6Ph.D. Candidate, Dept. of Structural and Geotechnical Engineering,
+Pontificia Universidad Cat´olica de Chile, 4860 Av. Vicu˜na Mackenna,
+Macul 7820436, Chile; Facultad de Ingeniería y Ciencias, Departamento
+de Ingeniería de Obras Civiles, Universidad de La Frontera, 1145 Francisco
+Salazar, Temuco 4811230, Chile.
+Note. This manuscript was submitted on August 30, 2019; approved on
+March 18, 2020; published online on June 27, 2020. Discussion period
+open until November 27, 2020; separate discussions must be submitted
+for individual papers. This technical note is part of the Journal of Geotech-
+nical and Geoenvironmental Engineering, © ASCE, ISSN 1090-0241.
+© ASCE
+06020013-1
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., 2020, 146(9): 06020013 
+Downloaded from ascelibrary.org by Carlos Ovalle on 06/27/20. Copyright ASCE. For personal use only; all rights reserved.
+
+=== PÁGINA 3 ===
+However, it has been proven that this method may be limited due to
+size effects on particle crushing (Marachi et al. 1969; Frossard et al.
+2012; Ovalle et al. 2014). Fig. 1 presents the results of several
+diametral compressions of individual rock aggregates between
+two stiff parallel platens where crushing strength decreases when
+particle size increases, which is consistent with the brittle fracture
+mechanics theory (Weibull 1939). Therefore, the amount of particle
+crushing is less in small-scale (i.e., finer) granular materials than in
+coarser prototype materials.
+Along with presenting new tests carried out in recent, very large
+triaxial devices, the aim of this study was to consolidate and extend
+the existing database through the compilation of data on large tri-
+axial tests on coarse rockfill samples carried out between the 1960s
+and the 2000s. To present comparable results in terms of stress path,
+particle size, and particle shape, only drained compression triaxial
+tests on coarse rockfills samples of ∼1 m in diameter, composed of
+angular shaped grains with dmax between 100 and 200 mm, have
+been considered. Results from 158 tests on samples from 33 rock-
+fill materials are presented. The influence of the confining stress
+and the amount of particle crushing on shear strength and secant
+stiffness is discussed. To highlight the data on coarse crushable
+rockfill materials, the results were compared with published data
+on finer materials, such as dense uniform quartzitic sands and rail-
+way ballasts.
+Recent Experimental Data Included in the Database
+Recently, new large triaxial devices have been operating at École
+Centrale Nantes (ECN) in France and at the IDIEM laboratory in
+Chile. The large device at ECN can test samples that are 1,000 mm
+in diameter and 1,500 mm in height, at a maximum confining pres-
+sure of 1.5 MPa. The IDIEM large triaxial device can handle sam-
+ples of 1,000 mm in diameter and 1,800 mm in height at confining
+pressures up to 3 MPa. Exhaustive descriptions and testing method-
+ologies can be found in Hu et al. (2011) and Ovalle (2013) for ECN,
+and in De La Hoz (2007) for IDIEM.
+Among the 158 large triaxial tests on 33 materials com-
+piled and analyzed, 14 rockfill materials were tested at IDIEM
+(1 unpublished—on Pilbara rockfill), 3 at ECN (2 unpublished—on
+Agence Nationale de la Recherche (ANR) Pedra granite and Sainte
+Cécile d’Andorge dam), 4 at UCB, and 12 at CFE. Fig. 2(a) shows
+the grain size distribution (GSD) for each material. Descriptions of
+the new rockfills reported in this study are the following:
+•
+Pilbara: Waste crushed mining rockfill from the Pilbara region
+in Western Australia, consisting of Neogene alluvial and collu-
+vial sediments originated from weathering, erosion, and trans-
+portation of Precambrian banded iron formation rocks.
+•
+ANR Pedra granite: Washed, crushed angular granite rockfill.
+•
+Sainte Cécile d’Andorge dam: Schist and mica-schist rockfill
+with subangular grains.
+The materials analyzed here have diverse origins, and differ
+in terms of relative density, mineralogy, particle shape, GSD,
+and water content (tests on saturated and air-dried samples).
+Accordingly, significant data scatter should be expected. How-
+ever, due to the lack of available data to perform accurate analy-
+ses, this paper aims to present ranges of results for shear strength
+and secant Young’s modulus to compare the results with quartzitic
+sands and ballasts and to provide references for engineers and re-
+searchers. The analyses presented highlight the influence of the
+breakage ratio (Bg), using the definition of Marsal (1967), given
+by the sum of positive differences between the percentage of the
+total sample contained in each size fraction before and after
+the test.
+Quartzitic Sands and Ballast Data Collected
+Compiled data from new tests on rockfills were compared with
+published data on dense uniform quartzitic sands and ballast ma-
+terials, as well three new tests on Luché ballast. The results of
+drained triaxial compression tests with confining pressures over
+the same range as the database compiled for rockfill materials
+(e.g., from 1 to 10 MPa) were considered for the materials pre-
+sented in Table 1; Fig. 2(a) presents the GSD for each quartzitic
+sand and ballast.
+Analysis and Discussion
+Shear Strength
+Fig. 2(b) presents shear strength for all tests collected in terms of
+the maximum friction angle (ϕmax) against the effective normal
+pressure on the failure plane (σ 0n), according to the Mohr-Coulomb
+failure criterion. Fig. 2(b) also includes the limits for high, average
+and low shear strength proposed by Leps (1970) and Indraratna
+et al. (1993), which can be expressed as:
+ϕmax ¼ −2.8 ln σ 0n þ ϕ1
+ð1Þ
+with σ 0n in MPa and ϕmax in degrees; and ϕ1 = maximum friction
+angle at σ 0n ¼ 1.0 MPa, and is 36°, 41°, and 46° for low, average,
+and high strength according to Leps (1970), respectively, and 33°
+for the low strength limit proposed by Indraratna et al. (1993).
+For rockfills, ballasts, and sands, Fig. 2(b) confirms that shear
+strength decreases with σ 0n, as a consequence of dilatancy decreas-
+ing due to particle rearrangement and crushing. At the highest stress
+levels presented, no constant critical friction angle could be ob-
+served, which can be attributed to significant particle crushing po-
+tential still relevant at higher strains (Coop et al. 2004), compared to
+limited maximum strains of 15% to 20% in triaxial testing. While
+common values of ϕmax in dense sands at low confining pressure
+are typically between 40° and 45° (Bolton 1986; Biarez and Hicher
+1994; Schanz and Vermeer 1996), all rockfills in Fig. 2(b) pres-
+ent ϕmax > 45° at σ 0n < 0.2 MPa, due to the interlocking of
+highly angular grains and high friction on the rough surfaces of
+Fig. 1. Particle crushing strength of rock aggregates.
+© ASCE
+06020013-2
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., 2020, 146(9): 06020013 
+Downloaded from ascelibrary.org by Carlos Ovalle on 06/27/20. Copyright ASCE. For personal use only; all rights reserved.
+
+=== PÁGINA 4 ===
+(a)
+(b)
+0
+20
+40
+60
+80
+100
+0.08
+0.8
+8
+80
+% Passing
+Particle size (mm)
+Fine
+sand
+Medium
+sand
+Coarse
+sand
+Fine
+gravel
+Coarse
+gravel
+Cobbles
+Crushed Basalt - Basalt / 152 mm (Marachi et al., 1969)
+Oroville Dam - Augite, biotite and quartz / 152 mm (Marachi et al., 1969)
+Pyramid Dam - Argillite / 152 mm (Marachi et al., 1969)
+STV - Shale / 160 mm (Ovalle et al., 2014)
+Andina waste rock 1 - Granodiorite / 152 mm (Palma et al., 2009)
+Andina waste rock 2 - Porphyry / 152 mm (Palma et al., 2009)
+Natural waste rock - Felsic and andesíte / 200 mm (Contreras, 2011)
+Leached waste rock - Felsic and andesíte / 200 mm (Contreras, 2011)
+Crushed waste rock - Felsic and andesíte / 200 mm (Contreras, 2011)
+ROM waste rock - Porphyry / 200 mm (Bard et al., 2012)
+Leached waste rock - Porphyry / 200 mm (Bard et al., 2012)
+Crushed waste rock - Porphyry / 200 mm (Bard et al., 2012)
+Rancagua rockfill - Andesite / 175 mm (Dorador, 2010)
+Leached rockfill - Altered granite / 152 mm (Dorador, 2010)
+CAD waste Parallel PSD - Granodiorite / 200 mm (Linero et al., 2007)
+CAD waste Truncated GSD - Granodiorite / 200 mm (Linero et al., 2007)
+Infiernillo (dry) - Basalt / 200 mm Marsal (1967)
+Infiernillo Cantera N°5 (dry) - Diorite / 200 mm (Marsal et al., 1965)
+Infiernillo Rockfill (dry) - Silified congl. / 200 mm (Marsal et al., 1965)
+Malpaso (dry) - Conglomerate / 200 mm (Marsal et al., 1965)
+San Francisco grad. 1 - Basalt / 80 mm (Marsal, 1973)
+San Francisco grad. 2 - Basalt / 180 mm (Marsal, 1973)
+Mica grad. X - Granitic gneiss / 200 mm (Marsal, 1973)
+Mica grad. Y - Granitic gneiss / 200 mm (Marsal, 1973)
+Black marble - Marble / 178 mm (Besio, 2012)
+Venato - Sandstone / 152 mm (Becker et al., 1972)
+El Granero GSD A Dense - Slate / 200 mm (Marsal, 1973)
+El Granero GSD A Loose - Slate / 200 mm (Marsal, 1973)
+El Granero GSD B Dense - Slate / 200 mm (Marsal, 1973)
+El Granero GSD B Loose - Slate / 200 mm (Marsal, 1973)
+ANR Pedra granite - Granite / 160 mm (this work)
+Ste. Cécile d'Andorge dam - / 160 mm (this work)
+Pilbara  - Colluvial Fe / 152 mm
+Aio Sand - / 2 mm (Nakata el al., 1999)
+Hostun sand - / 2 mm (Biarez & Hicher, 1994)
+Cambria sand - / 2 mm (Yamamuro & Lade, 1996)
+Leigthon Buzzard sand - / 2.3 mm (Lee, 1992)
+Sacramento River sand - / 0.4 mm (Lee & Seed, 1967)
+Back Mine (Canada) sand - Quartz / 0.5 mm (Lo & Roy, 1973)
+Bombo quarry, GSD-A ballast - Latite basalt / 53 mm (Indraratna et al., 1998)
+Coteau dolomite ballast - Dolomite / 37.5 mm (Raymond & Davies, 1978)
+Luché ballast - Basalt / 40 mm (this work)
+25
+30
+35
+40
+45
+50
+55
+60
+65
+0.01
+0.1
+1
+10
+φmax(°)
+σn' (MPa)
+New low strength 
+limit proposed
+Fig. 2. Compiled sands, ballasts, and rockfills: (a) GSD; and (b) maximum internal friction angle [legend: “Material Name/dmax (millimeters)
+(Ref.)”].
+Table 1. Data collected on sands and ballast
+Material
+Description
+dmax
+(mm)
+LLA (%)
+(for ballast only)
+Relative density
+(for sands only)
+Reference
+Quartzitic sands
+Hostun sand
+98% quartz angular
+2
+—
+1
+Biarez and Hicher (1994)
+Aio sand
+Quartz and 30% feldspar, subrounded sand
+2
+—
+1
+Nakata et al. (1999)
+Cambria sand
+Subrounded sand composed by a mix of
+quartz and gypsum
+2
+—
+0.9
+Yamamuro and Lade (1996)
+Leighton Buzzard sand
+Subrounded quartz sand
+2.3
+—
+0.8
+Lee (1992)
+Sacramento River sand
+Subrounded quartz sand
+0.4
+—
+1
+Lee and Seed (1967)
+Quartz sand
+Angular, derived from crude quartz from
+Back mine, Canada
+0.5
+—
+0.6
+Lo and Roy (1973)
+Railway ballast materials
+Bombo ballast
+Latite basalt from Bombo quarry, Australia
+53
+15
+—
+Indraratna et al. (1998)
+Coteau ballast
+Dolomite from Coteau, Quebec, Canada
+37.5
+17.6
+—
+Raymond and Davies (1978)
+Luché ballast
+Diorite ballast from Luché quarry, France
+40
+10
+—
+This work
+© ASCE
+06020013-3
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., 2020, 146(9): 06020013 
+Downloaded from ascelibrary.org by Carlos Ovalle on 06/27/20. Copyright ASCE. For personal use only; all rights reserved.
+
+=== PÁGINA 5 ===
+crushed rocks. This effect is even more significant in ballast ma-
+terials, where ϕmax reaches values higher than 60° at low stresses.
+At σ 0n > 0.5 MPa, ϕmax in rockfills and ballasts decreases to values
+between 35° and 45°, approaching the results reported in dense
+sands. In general, the shear strength of quartzitic sands stays below
+the average values for rockfills, near the low strength limit proposed
+by Leps (1970) (i.e., ϕ1 ¼ 36°). For σ 0n < 0.7 MPa, the low shear
+strength limits proposed by Leps (1970) and Indraratna et al. (1993)
+seem conservative for rockfills and ballasts. Therefore, a new low
+strength limit is proposed here for low stress, given by:
+ϕmax ¼
+ −5.6 ln σ 0n þ 32;
+σ 0n ≤0.7 MPa
+−2.8 ln σ 0n þ 33;
+σ 0n > 0.7 MPa
+ð2Þ
+To consider high shear strength at low stresses, the new limit
+proposal—included in Fig. 2(b)—keeps the low strength limit of
+Indraratna et al. (1993) for σ 0n > 0.7 MPa and adds a new expres-
+sion for higher ϕmax at lower stresses.
+Particle Breakage
+As applies to any granular material subjected to high stresses,
+rockfills may experience particle crushing, which leads to increas-
+ing compressibility and decreasing dilatancy and ϕmax (Vesic and
+Clough 1968; Biarez and Hicher 1994; Lade et al. 1996; Biarez
+and Hicher 1997; Ovalle et al. 2015; Dano et al. 2018). For a
+given material, the amount of particle breakage is a function of
+independent variables of stress and strain, which can be expressed
+as plastic work input (Daouadji et al. 2001; Yin et al. 2017; Ovalle
+and Hicher 2020), and independent material parameters such as
+grading, particle size, particle shape, and water content. Breakage
+is more significant in coarse materials with angular particles, uni-
+form GSD, and high water content (Hardin 1985; Ovalle et al.
+2013; Ovalle 2018). It follows that rockfill materials have favorable
+conditions for grain breakage, since the process of blasting and
+grinding produces large angular aggregates.
+In constitutive models, Bg can be linked with dependent
+mechanical variables through empirical expressions, such as fric-
+tion coefficient, Young’s modulus or hardening pressure (Yin et al.
+2017; Ovalle and Hicher 2020). In this paper, the role of particle
+breakage in the degradation of the internal friction angle is high-
+lighted to give empirical support to engineers and researchers
+designing and modeling rockfill structures.
+Fig. 3(a) presents Bg against σ 0
+3. As expected, for a given stress,
+most rockfill materials present higher Bg values when compared to
+dense quartzitic sands. Particle breakage in rockfills is significant,
+even under very low stresses σ 0
+3 < 0.1 MPa, whereas in sands it
+becomes relevant for σ 0
+3 of about 1.0 MPa. Fig. 3(b) shows the re-
+lationship between shear strength and particle breakage, where
+ϕmax in sands is less sensitive to Bg than rockfills and ballasts.
+The analysis also shows that at high stresses, when a significant
+amount of crushing occurs, the strengths of sands and rockfills tend
+to have similar values.
+It is well known that Bg is expected to be inversely propor-
+tional to the initial uniformity coefficient Cu ¼ d60=d10 (Hardin
+1985; Ovalle et al. 2016). However, it is not worth proposing a
+relationship for the current rockfill database given the large data
+scatter due to other independent variables that affect the material
+response.
+Secant Young’s Modulus
+Young’s moduli values for rockfills have been proposed based
+on dam settlement analyses (Hunter and Fell 2003; Kermani
+et al. 2018). However, data from stress-controlled laboratory tests
+needed for calibration of constitutive models are scarce. Here,
+secant Young’s moduli from drained triaxial stress paths were
+obtained to compare the results with typical values used for sands.
+To avoid experimental scatter from data recorded at small strains
+in triaxial tests, a convenient modulus E50 has been chosen, defined
+as the secant modulus associated with a deviatoric stress level
+(q ¼ σ 0
+1 −σ 0
+3) equal to half of the maximum strength. E50 is com-
+monly fitted by the following expression:
+E50 ¼ K50 · pa
+σ 0
+3
+pa
+n
+ð3Þ
+where n = fitted parameter, typically from 0.4 to 0.6 in sands
+(Schanz and Vermeer 1998; Schanz et al. 1999); K50 = reference
+normalized modulus; and pa ¼ 0.1 MPa = reference pressure.
+Fig. 4 presents E50 for all rockfill materials compared to data of
+dense quartzitic sands and ballasts. In addition, Eq. (1) is plotted
+assuming n ¼ 0.5 and typical values of K50 of 200 and 400 for
+loose and dense sands, respectively (Schanz and Vermeer 1998).
+The comparison indicates that most rockfills have lower moduli
+than loose sands. By contrast, E50 of ballasts at low pressure is
+similar to the values for dense sands, but tends to be in the range
+for rockfills at intermediate pressures of 100–200 kPa. As an ex-
+planation of this result, it is thought that even a small number of
+crushing events occurring in rockfill and ballast materials at
+(a)
+(b)
+Fig. 3. Marsal’s breakage ratio.
+© ASCE
+06020013-4
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., 2020, 146(9): 06020013 
+Downloaded from ascelibrary.org by Carlos Ovalle on 06/27/20. Copyright ASCE. For personal use only; all rights reserved.
+
+=== PÁGINA 6 ===
+relatively small strains (e.g., attrition process removing asperities)
+could result in a significant drop in material stiffness. At high
+stresses, crushing becomes significant in sands and the stiffness
+of sands and rockfills follows a similar trend.
+Fig. 4 also includes values of E50 from drained triaxial tests on
+coarse, well-graded fluvial gravel composed of sound rounded
+clasts of dmax ¼ 200 mm reported by De La Hoz (2007) and
+Verdugo and De la Hoz (2006). In this case, the amount of particle
+crushing is considerably lower than in rockfills due to both high Cu
+and highly resistant rounded gravel clasts, resulting in E50 being
+comparable to dense quartzitic sands.
+For the data compiled here, K50 from Eq. (3) was fitted by sepa-
+rating and averaging the data in ranges of initial Cu. As shown
+in Fig. 5, regardless of the value of Cu, the data for rockfill are
+in a narrow band of K50 ¼ 100–200, typically associated with
+loose sands.
+Conclusions
+The compilation of large drained triaxial tests on coarse rockfill
+materials presented in this article includes samples with different
+relative densities, mineralogies, gradings, and particle shapes,
+resulting in significant data scatter. However, the minimum limit
+imposed on dmax reduces the potential for size effects, allowing
+an appropriate comparison with data on ballast and quartzitic dense
+sands, which are usually taken as a reference for mechanical param-
+eters of granular materials.
+The analyses show the typical behavior of crushable granular
+materials previously reported, namely, shear strength decreasing
+due to particle crushing when pressure increases. In this study,
+the magnitude of this phenomenon is highlighted in coarse, angular
+materials. In general, data on coarse rockfill materials confirm pre-
+viously reported limits for average shear strength. Dense quartzitic
+sands reasonably correspond to the range of average to low shear
+strength values for rockfills in a large range from low to high pres-
+sure. At low pressure of σ 0n < 0.2 MPa, where the amount of crush-
+ing is still not significant, rockfills and ballasts have consistently
+higher shear strength than dense quartzitic sands, and the maximum
+internal friction angle is higher than 45°. At high pressure, the
+amount of grain breakage increases and the maximum internal fric-
+tion angle of sands and rockfills is between 30° and 40°. According
+to the analysis, previous limits for low shear strength proposed in
+the literature seem conservative at low stresses. A new expression is
+provided in this paper that considers higher strength at normal
+stress lower than 0.7 MPa.
+In general, dense quartzitic sands are stiffer than rockfills at low
+stresses and their secant Young’s moduli tends to have similar val-
+ues at high stresses, probably due to the significant amount of par-
+ticle crushing in both materials. Normalized Young’s moduli at
+reference pressures for rockfills are in the same typical range for
+loose sands.
+Data Availability Statement
+Compiled and new data on rockfill materials supporting this paper
+are available at https://doi.org/10.5281/zenodo.3625778.
+Acknowledgments
+The authors gratefully acknowledge Fortescue Metals Group Ltd
+(Australia), Conseil Général du Gard (France), and Ecole Centrale
+of Lyon (leader of French ANR PEDRA project) for permission to
+publish the results of testing on rockfill materials. The first author
+acknowledges the support of the Natural Sciences and Engineering
+Research Council of Canada (NSERC) [funding reference number
+RGPIN-2019-06118]. The second author acknowledges the sup-
+port of SRK Consulting (Australasia) Pty Ltd and the University
+of Newcastle (Australia).
+References
+Al-Hussaini, M. 1983. “Effect of particle size and strain conditions on the
+strength of crushed basalt.” Can. Geotech. J. 20 (4): 706–717. https://
+doi.org/10.1139/t83-077.
+Alonso, E., E. Romero, and E. Ortega. 2016. “Yielding of rockfill in relative
+humidity controlled triaxial experiments.” Acta Geotech. 11 (3):
+455–477. https://doi.org/10.1007/s11440-016-0437-9.
+Bard, E., M. Anabalon, and J. Campa˜na. 2012. “Waste rock behavior at
+high pressures: Dimensioning high waste rock dumps.” In Multiscale
+geomechanics, edited by P.-Y. Hicher, 86–112. London: ISTE/Wiley.
+Barton, N., and B. Kjaernsli. 1981. “Shear strength of rockfills.” J. Geo-
+tech. Eng. Div. 107 (7): 873–891.
+Becker, E., C. K. Chan, and H. B. Seed. 1972. Strength and deformation
+characteristics of rockfill materials in plane strain and triaxial
+Fig. 5. Normalized secant Young’s modulus.
+Fig. 4. Secant Young’s modulus.
+© ASCE
+06020013-5
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., 2020, 146(9): 06020013 
+Downloaded from ascelibrary.org by Carlos Ovalle on 06/27/20. Copyright ASCE. For personal use only; all rights reserved.
+
+=== PÁGINA 7 ===
+compression tests. Rep. No. TE-72-3. Berkeley, CA: Dept. of Civil
+Engineering, Univ. of California, Berkeley.
+Besio, G. 2012. “Uso del método de curvas homotéticas en la repre-
+sentaci´on de ensayos monot´onicos y cíclicos en suelos gruesos.”
+[In Spanish.] M.Sc. thesis, Departamento De Ingeniería Civil, Univer-
+sidad de Chile.
+Biarez, J., and P.-Y. Hicher. 1994. Elementary mechanics of soil behavior.
+Rotterdam, Netherlands: A. A. Balkema.
+Biarez, J., and P.-Y. Hicher. 1997. “Influence de la granulométrie et de son
+évolution par ruptures de grains sur le comportement mécanique de ma-
+tériaux granulaires.” Revue Française de Génie Civil 1 (4): 607–631.
+https://doi.org/10.1080/12795119.1997.9692147.
+Bolton, M. 1986. “The strength and dilatancy of sands.” Géotechnique
+36 (1): 65–78. https://doi.org/10.1680/geot.1986.36.1.65.
+Charles, J., and K. Watts. 1980. “The influence of confining pressure on the
+shear strength of compacted rockfill.” Géotechnique 30 (4): 353–367.
+https://doi.org/10.1680/geot.1980.30.4.353.
+Chávez, C., and E. Alonso. 2003. “A constitutive model for crushed granu-
+lar aggregates which includes suction effects.” Soils Found. 43 (4):
+215–227. https://doi.org/10.3208/sandf.43.4_215.
+Contreras, L. 2011. “Comportamiento friccionante de materiales granulares
+gruesos.” [In Spanish.] M.Sc. thesis, Departamento De Ingeniería Civil,
+Universidad de Chile.
+Coop, M. R., K. K. Sorensen, T. Bodas Freitas, and G. Georgoutsos. 2004.
+“Particle breakage during shearing of a carbonate sand.” Géotechnique
+54 (3): 157–163. https://doi.org/10.1680/geot.2004.54.3.157.
+Dano, C., C. Ovalle, Z. Yin, A. Daouadji, and P.-Y. Hicher. 2018.
+“Behavior of granular materials affected by grain breakage.” In Ad-
+vances in multi-physics and multi-scale couplings in geo-environmental
+mechanics. 1st ed., edited by F. Nicot and O. Millet, 95–132. London:
+ISTE Press.
+Daouadji, A., P.-Y. Hicher, and A. Rahma. 2001. “Modelling grain break-
+age influence on mechanical behaviour of granular media.” Eur. J.
+Mech. A. Solids 20 (1): 113–137. https://doi.org/10.1016/S0997-7538
+(00)01130-X.
+De La Hoz, K. 2007. “Estimaci´on de los parámetros de resistencia al corte
+en suelos granulares gruesos.” [In Spanish.] M.Sc. thesis, Departamento
+De Ingeniería Civil, Universidad de Chile.
+Dorador, L. 2010. “Análisis experimental de las metodologías de curvas
+homotéticas y corte en la evaluaci´on de propiedades geotécnicas de
+suelos.” [In Spanish.] M.Sc. thesis, Departamento De Ingeniería Civil,
+Universidad de Chile.
+Estaire, J., and C. Olalla. 2006. “Análisis de la resistencia de escolleras
+mediante ensayos de corte directo en caja de 1 × 1 m2.” Ingeniería Civil
+144: 73–79.
+Frossard, E., W. Hu, C. Dano, and P.-Y. Hicher. 2012. “Rockfill shear
+strength evaluation: A rational method based on size effects.” Géotech-
+nique 62 (5): 415–428. https://doi.org/10.1680/geot.10.P.079.
+Hardin, B. O. 1985. “Crushing of soil particles.” J. Geotech. Eng. 111 (10):
+1177–1192. https://doi.org/10.1061/(ASCE)0733-9410(1985)111:
+10(1177).
+Holtz, W., and H. Gibbs. 1956. “Triaxial shear tests on previous gravelly
+soils.” Supplement, J. Soil Mech. Found. Div. 82 (SM1): 1–22.
+Hu, W., C. Dano, P.-Y. Hicher, J.-Y. Le Touzo, F. Derkx, and E. Merliot.
+2011. “Effect of sample size on the behavior of granular materials.”
+Geotech. Test. J. 34 (3): 186–197. https://doi.org/10.1520/GTJ103095.
+Hunter, G., and R. Fell. 2003. “Rockfill modulus and settlement of concrete
+face rockfill dams.” J. Geotech. Geoenviron. Eng. 129 (10): 909–917.
+https://doi.org/10.1061/(ASCE)1090-0241(2003)129:10(909).
+Indraratna, B., D. Ionescu, and H. D. Christie. 1998. “Shear behavior
+of railway ballast based on large-scale triaxial tests.” J. Geotech. Geo-
+environ. Eng. 124 (5): 439–449. https://doi.org/10.1061/(ASCE)1090
+-0241(1998)124:5(439).
+Indraratna, B., L. Wijewardena, and A. Balasubramaniam. 1993. “Large-
+scale triaxial testing of greywacke rockfill.” Géotechnique 43 (1):
+539–543. https://doi.org/10.1680/geot.1994.44.3.539.
+Kermani, M., J.-M. Konrad, and M. Smith. 2018. “In situ short-term
+and long-term rockfill compressibility as a function of void ratio and
+strength of parent rock.” J. Geotech. Geoenviron. Eng. 144 (4):
+04018009. https://doi.org/10.1061/(ASCE)GT.1943-5606.0001835.
+Lade, P., J. Yamamuro, and P. Bopp. 1996. “Significance of particle crush-
+ing in granular materials.” J. Geotech. Eng. 122 (4): 309–316. https://
+doi.org/10.1061/(ASCE)0733-9410(1996)122:4(309).
+Lee, D. M. 1992. “The angles of friction of granular fills.” Ph.D. thesis,
+Churchill College, Univ. of Cambridge.
+Lee, K., and H. B. Seed. 1967. “Drained strength characteristics of sands.”
+Supplement, J. Soil Mech. Foud. Div. 93 (SM6): 117–141.
+Leps, T. M. 1970. “Review of shearing strength of rockfill.” J. Soil Mech.
+Found. Div. 96 (4): 1159–1170.
+Leussink, H. 1960. Vol. 1. of Bau eines grossen dreiaxialen shergerätes zur
+untersuchung grobkörniger erdstoffe (Design of a large triaxial shear
+apparatus for investigating coarse grained soils). Karlsruhe, Germany:
+Soil Mechanics Institute of the Karlsruhe Technical Univ.
+Lim, W. L., G. R. McDowell, and A. C. Collop. 2004. “The application of
+Weibull statistics to the strength of railway ballast.” Granular Matter
+6 (4): 229–237. https://doi.org/10.1007/s10035-004-0180-z.
+Linero, S., C. Palma, and R. Apablaza. 2007. “Geotechnical characteriza-
+tion of waste material in very high dumps with large scale triaxial test-
+ing.” In Proc., Int. Symp. on Rock Slope Stability in Open Pit Mining
+and Civil Engineering, 59–75. Perth, Australia: Australian Centre for
+Geomechanics.
+Lo, K. Y., and M. Roy. 1973. “Response of particulate materials at high
+pressures.”
+Soils
+Found.
+13
+(1):
+61–76.
+https://doi.org/10.3208
+/sandf1972.13.61.
+Marachi, N. D., C. K. Chan, H. B. Seed, and J. M. Duncan. 1969. Strength
+and deformation characteristics of rockfills materials. Rep. No. TE-
+69-5. Berkeley, CA: Dept. of Civil Engineering, Univ. of California,
+Berkeley.
+Marsal, R. 1967. “Large-scale testing of rockfill materials.” J. Soil Mech.
+Found. Div. 93 (2): 27–43.
+Marsal, R. 1973. “Mechanical properties of rockfill dams.” In Embankment-
+dam engineering: Casagrande Volumen, edited by R. Hirschfeld and
+S. Poulos, 454. New York: Wiley.
+Marsal, R., E. Moreno, A. Nu˜nez, and R. Moreno. 1965. Research on the
+behaviour of granular materials and rockfill samples. Research Rep.
+Mexico City, Mexico: Comisi´on Federal de Electricidad de México.
+Matsuoka, H., and S. Liu. 1998. “Simplified direct box shear test on granu-
+lar materials and its application to rockfill materials.” Soils Found.
+38 (4): 275–284. https://doi.org/10.3208/sandf.38.4_275.
+Matsuoka, H., S. Liu, D. Sun, and U. Nishikata. 2001. “Development of a
+new in-situ direct shear test.” Geotech. Test. J. 24 (1): 92–102. https://
+doi.org/10.1520/GTJ11285J.
+Nakata, Y., A. F. L. Hyde, M. Hyodo, and H. Murata. 1999. “A probabilistic
+approach to sand particle crushing in the triaxial test.” Géotechnique
+49 (5): 567–583. https://doi.org/10.1680/geot.1999.49.5.567.
+Oldecop, L., and E. Alonso. 2003. “Suction effects on rockfill compress-
+ibility.” Géotechnique 53 (2): 289–292. https://doi.org/10.1680/geot
+.2003.53.2.289.
+Ovalle, C. 2013. “Contribution à l’étude de la rupture des grains dans les
+matériaux granulaires.” [In French.] Doctoral thesis, Ecole Centrale de
+Nantes.
+Ovalle, C. 2018. “Role of particle breakage in primary and secondary com-
+pression of wet and dry sand.” Géotech. Lett. 8 (2): 161–164. https://doi
+.org/10.1680/jgele.18.00047.
+Ovalle, C., and C. Dano. 2020. “Effects of particle size–strength and size–
+shape correlations on parallel grading scaling.” Géotech. Lett. 10 (2):
+1–7. https://doi.org/10.1680/jgele.19.00095.
+Ovalle, C., C. Dano, and P.-Y. Hicher. 2013. “Experimental data highlight-
+ing the role of surface fracture energy in quasi-static confined commi-
+nution.” Int. J. Fract. 182 (1): 123–130. https://doi.org/10.1007/s10704
+-013-9833-4.
+Ovalle, C., C. Dano, P.-Y. Hicher, and M. Cisternas. 2015. “Experimental
+framework for evaluating the mechanical behavior of dry and wet
+crushable granular materials based on the particle breakage ratio.” Can.
+Geotech. J. 52 (5): 587–598. https://doi.org/10.1139/cgj-2014-0079.
+Ovalle, C., E. Frossard, C. Dano, W. Hu, S. Maiolino, and P.-Y. Hicher.
+2014. “The effect of size on the strength of coarse rock aggregates
+and large rockfill samples through experimental data.” Acta Mech.
+225 (8): 2199–2216. https://doi.org/10.1007/s00707-014-1127-z.
+© ASCE
+06020013-6
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., 2020, 146(9): 06020013 
+Downloaded from ascelibrary.org by Carlos Ovalle on 06/27/20. Copyright ASCE. For personal use only; all rights reserved.
+
+=== PÁGINA 8 ===
+Ovalle, C., and P.-Y. Hicher. 2020. “Modeling the effect of wetting on the
+mechanical behavior of crushable granular materials.” Geosci. Front.
+11 (2): 487–494. https://doi.org/10.1016/j.gsf.2019.06.009.
+Ovalle, C., C. Voivret, C. Dano, and P.-Y. Hicher. 2016. “Population
+balance in confined comminution using a physical based probabilistic
+approach for polydisperse granular materials.” Int. J. Numer. Anal.
+Methods Geomech. 40 (17): 2383–2397. https://doi.org/10.1002/nag
+.2534.
+Palma, C., S. Linero, and R. Apablaza. 2009. “Caracterizaci´on geotécnica
+de materiales de lastre en botaderos de gran altura mediante ensayos
+triaxiales y odométricos de gran tama˜no.” In Proc., Desafíos y avances
+de la geotecnia joven en Sudamérica, Memorias de la III Conferencia
+Sudamericana de Ingenieros Geotécnicos J´ovenes, edited by F. M.
+Francisca, 201–204. C´ordoba, Argentina: Alejandria.
+Raymond, G. P., and J. R. Davies. 1978. “Triaxial tests on dolomite railroad
+ballast.” J. Geotech. Eng. Div. 104 (6): 737–751.
+Schanz, T., and P. Vermeer. 1996. “Angles of friction and dilatancy of
+sand.” Géotechnique 46 (1): 145–151. https://doi.org/10.1680/geot.1996
+.46.1.145.
+Schanz, T., and P. Vermeer. 1998. “On the stiffness of sand.” In Pre-failure
+deformation behaviour of geomaterials, edited by R. J. Jardine,
+383–387. London: Institution of Civil Engineers.
+Schanz, T., P. Vermeer, and P. Bonnier. 1999. “The hardening soil model:
+Formulation and verification.” In Beyond 2000 in computational
+geotechnics—10 years of plaxis, edited by R. Brinkgreve, 281–296.
+Rotterdam, Netherlands: Balkema.
+Varadarajan, A., K. Sharma, K. Venkatachalam, and K. Gupta. 2003.
+“Testing and modeling two rockfill materials.” J. Geotech. Geoenviron.
+Eng. 129 (3): 206–218. https://doi.org/10.1061/(ASCE)1090-0241
+(2003)129:3(206).
+Verdugo, R., and K. De la Hoz. 2006. “Strength and stiffness of coarse
+granular soils.” In Soil stress-strain behavior: Measurement, modeling
+and analysis, edited by H. I. Ling, 243–252. Dordrecht, Netherlands:
+Springer.
+Vesic, A. S., and G. W. Clough. 1968. “Behavior of granular materials
+under high stresses.” Supplement, J. Soil Mech. Found. Div. 94 (SM3):
+661–688.
+Weibull, W. 1939. “A statistical theory of the strength of materials.” Proc.
+R. Swedish Inst. Eng. Res. 151: 1–53.
+Xiao, Y., and H. Liu. 2017. “Elastoplastic constitutive model for rockfill
+materials considering particle breakage.” Int. J. Geomech. 17 (1):
+04016041. https://doi.org/10.1061/(ASCE)GM.1943-5622.0000681.
+Xiao, Y., H. Liu, Y. Chen, and J. Jiang. 2014a. “Strength and deformation
+of rockfill material based on large-scale triaxial compression tests. I: In-
+fluences of density and pressure.” J. Geotech. Geoenviron. Eng. 140 (12):
+04014070. https://doi.org/10.1061/(ASCE)GT.1943-5606.0001176.
+Xiao, Y., H. Liu, Y. Chen, and J. Jiang. 2014b. “Strength and deformation
+of rockfill material based on large-scale triaxial compression tests. II:
+Influence of particle breakage.” J. Geotech. Geoenviron. Eng. 140 (12):
+04014071. https://doi.org/10.1061/(ASCE)GT.1943-5606.0001177.
+Xiao, Y., H. Liu, C. S. Desai, Y. Sun, and H. Liu. 2015. “Effect of inter-
+mediate principal-stress ratio on particle breakage of rockfill material.”
+J. Geotech. Geoenviron. Eng. 142 (4): 06015017. https://doi.org/10
+.1061/(ASCE)GT.1943-5606.0001433.
+Yamamuro, J., and P. Lade. 1996. “Drained sand behavior in axisymmetric
+tests at high pressures.” J. Geotech. Eng. 122 (2): 109–119. https://doi
+.org/10.1061/(ASCE)0733-9410(1996)122:2(109).
+Yin, Z.-Y., P.-Y. Hicher, C. Dano, and Y.-F. Jin. 2017. “Modeling mechani-
+cal behavior of very coarse granular materials.” J. Eng. Mech. 143 (1):
+C4016006. https://doi.org/10.1061/(ASCE)EM.1943-7889.0001059.
+© ASCE
+06020013-7
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., 2020, 146(9): 06020013 
+Downloaded from ascelibrary.org by Carlos Ovalle on 06/27/20. Copyright ASCE. For personal use only; all rights reserved.
+View publication stats

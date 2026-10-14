@@ -1,0 +1,19 @@
+\begin{figure}
+\centering\includegraphics[width=\linewidth]{Fig01_design_envelopes.png}
+\caption{Design envelopes of Leps-P for a new material tested by a new laboratory, at laboratory specimen size, by rock quality and void ratio: median (thick lines) and 5th percentile (thin lines) of the mean envelope. The shaded zone exceeds the largest normal stress in the database.}
+\label{fig:1}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\centering\includegraphics[width=\linewidth]{Fig02_validation.png}
+\caption{Out-of-sample evaluation, leaving out each publication: (a) coverage of the 80\% interval by range of normal stress without site tests; and (b) mean CRPS of ln $\tau$ for held-out tests at $\sigma'_n$ $\ge$ 2 MPa with site tests at $\sigma'_n$ $\le$ 1.5 MPa (bars: 95\% bootstrap intervals over publications; filled: recommended procedure).}
+\label{fig:2}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\centering\includegraphics[width=\linewidth]{Fig03_site_envelopes.png}
+\caption{Waste rock of the example: (a) laboratory-scale envelopes by rock type with the site tests (open symbols: tests flagged by the conflict check); and (b) envelopes of placed waste rock (void ratio 0.65, maximum particle size 1 m) by rock type and dump-average envelope. Dotted vertical lines mark the largest normal stress of the site tests.}
+\label{fig:3}
+\end{figure}

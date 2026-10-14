@@ -1,0 +1,1530 @@
+=== PAGE 1 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+SUCS
+GW-GM
+Grado de compactación:
+Bajo
+Medio
+Alto
+Elevado
+Realizado por:
+Revisado por:
+Autorizado por:
+Reconstituido al 90% de la máxima densidad seca (MDS) de 2,034 g/cm³ y óptimo contenido de agua de 11,1 %. 
+Estado:
+Información suministrada por el cliente
+Descripción del ítem
+1 de 7
+2024-10-30
+Suelo
+ASTM D4767-11 (2020) Standard Test Method for Consolidated Undrained Triaxial Compression Test for Cohesive Soils
+No. de informe de ensayo
+EPE-23.10.141_5,6,7,8,9,10_110_R0_TXCU
+2024-09-03
+2024-10-03 / 2024-10-10
+--
+Pilas Experimetales Medio Ambiente
+Intrusivo
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D Lote 
+12A Urb. El Retablo Comas. Lima – Perú
+Fecha de recepción de la muestra
+Fechas de inicio / fin del ensayo
+No. páginas
+Fecha de emisión
+Método de ensayo
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+N° de proyecto
+N° de muestra
+Solicitado por
+Contacto del cliente
+Antamina
+San Marcos - Ancash
+Pila 02
+Profundidad (m)
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad con normas de productos o como 
+certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El laboratorio no se hace responsable por la información suministrada 
+por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+Los parámetros de resistencia cortante reportados podrían ser reinterpretados en caso ser considerado pertinente por un profesional competente en geotecnia.
+Las muestras han sido proporcionadas e identificadas por el solicitante. Su: resistencia no drenada, σ'3: Presión de consolidación efectiva vertical.
+E. Linares
+C. Soto
+J. Gaspar
+Observaciones
+Resistencia no drenada tomada como referencia del libro "Soil Strength and Slope Stability" by J. Michael Duncan et al.
+N° de solicitud
+EPE-23.10.141
+11-GEO-01-FOR-2026A / V0 / 10-01-22
+2023
+golivos@antamina.com
+MP2 - A - M-1, MP2 - A - M-2, MP2 - A - M-3, MP2 - A - 
+M-4, MP2 - A - M-5, MP2 - H - Material A
+Gary Olivo
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D4767-11 (2020)
+Nombre del proyecto
+Cliente
+Ubicación del proyecto
+Código de muestra
+Zona
+Descripción
+0
+500
+1000
+1500
+2000
+2500
+3000
+0
+1000
+2000
+3000
+4000
+5000
+6000
+Su (kPa)
+Presión de consolidación efectiva vertical σ'3 (kPa)
+500 kPa
+1000 kPa
+2000 kPa
+Resistencia no drenada (Su)
+Resistencia no drenada (Su)
+= 4%
+= 2%
+=1%
+0
+500
+1000
+1500
+2000
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+q' (kPa)
+p' (kPa)
+500 kPa
+1000 kPa
+2000 kPa
+Esfuerzos efectivos
+a' = 
+' = 
+c' = 
+' =                                                                                                                            
+42,7 kPa
+33,8°
+57,0 kPa
+42,0°
+Trazado al 15% de deformación
+Envolvente trazado al 
+15% de deformación
+Su =                                                                                                                            
+0,69 σ'3
+Su(500 kPa) =
+Su(1000 kPa) =
+Su(2000 kPa) =
+684 kPa
+300 kPa
+1391 kPa
+
+=== PAGE 2 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+Estado:
+SUCS
+GW-GM
+Grado de compactación:
+Bajo
+Medio
+Alto
+Elevado
+Realizado por:
+Revisado por:
+Autorizado por:
+Antamina
+Suelo
+Método de ensayo
+ASTM D4767-11 (2020) Standard Test Method for Consolidated Undrained Triaxial Compression Test for Cohesive Soils
+Pila 02
+Profundidad (m)
+Solicitado por
+Código de muestra
+Gary Olivo
+No. páginas
+Fecha de emisión
+Descripción del ítem
+2 de 7
+2024-10-30
+Fecha de recepción de la muestra
+Fechas de inicio / fin del ensayo
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad con normas de productos o como 
+certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El laboratorio no se hace responsable por la información suministrada 
+por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+Las muestras han sido proporcionadas e identificadas por el solicitante.
+E. Linares
+J. Gaspar
+C. Soto
+golivos@antamina.com
+Contacto del cliente
+Pilas Experimetales Medio Ambiente
+Intrusivo
+Los parámetros de resistencia cortante reportados podrían ser reinterpretados en caso ser considerado pertinente por un profesional competente en geotecnia.
+Zona
+Descripción
+Reconstituido al 90% de la máxima densidad seca (MDS) de 2,034 g/cm³ y óptimo contenido de agua de 11,1 %. 
+Observaciones
+--
+No. de informe de ensayo
+2024-09-03
+2024-10-03 / 2024-10-10
+EPE-23.10.141_5,6,7,8,9,10_110_R0_TXCU
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D4767-11 (2020)
+Nombre del proyecto
+Cliente
+Ubicación del proyecto
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+N° de solicitud
+EPE-23.10.141
+11-GEO-01-FOR-2026A / V0 / 10-01-22
+2023
+MP2 - A - M-1, MP2 - A - M-2, MP2 - A - M-3, MP2 - A - 
+M-4, MP2 - A - M-5, MP2 - H - Material A
+N° de proyecto
+N° de muestra
+San Marcos - Ancash
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D Lote 
+12A Urb. El Retablo Comas. Lima – Perú
+Información suministrada por el cliente
+0
+500
+1000
+1500
+2000
+2500
+3000
+0,00
+2,00
+4,00
+6,00
+8,00
+10,00
+12,00
+14,00
+16,00
+Esfuerzo desviador (1-3) kPa
+Deformación (%)
+500 kPa
+1000 kPa
+2000 kPa
+0
+300
+600
+900
+1200
+1500
+0,00
+2,00
+4,00
+6,00
+8,00
+10,00
+12,00
+14,00
+16,00
+Exceso de presión de poros "" (kPa)
+Deformación (%)
+500 kPa
+1000 kPa
+2000 kPa
+
+=== PAGE 3 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+Estado:
+GW-GM
+2000 kPa
+Inicio
+Final
+Valor
+Altura 
+(cm)
+31,00
+30,28
+Parámetro "B"
+0,95
+Diámetro
+(cm)
+15,20
+14,40
+Velocidad
+(cm/min)
+0,025
+(%)
+11,1
+10,5
+Presión de celda
+(kPa)
+2187
+(g/cm3)
+1,831
+2,087
+Contra presión
+(kPa)
+187
+desv
+
+p 
+q
+p' 
+q' 
+(kPa)
+(kPa)
+(kPa)
+(kPa)
+(kPa)
+(kPa)
+0,00
+0,0
+0,0
+2000,0
+0,0
+2000,0
+0,0
+0,00
+1,00
+0,05
+154,3
+0,3
+2077,1
+77,1
+2076,8
+77,1
+0,04
+1,08
+0,10
+248,2
+0,7
+2124,1
+124,1
+2123,4
+124,1
+0,06
+1,12
+0,15
+386,2
+2,0
+2193,1
+193,1
+2191,1
+193,1
+0,09
+1,19
+0,20
+646,4
+7,1
+2323,2
+323,2
+2316,1
+323,2
+0,14
+1,32
+0,25
+839,9
+14,6
+2419,9
+419,9
+2405,3
+419,9
+0,17
+1,42
+0,35
+1022,0
+27,8
+2511,0
+511,0
+2483,2
+511,0
+0,21
+1,52
+0,50
+1268,1
+55,8
+2634,1
+634,1
+2578,2
+634,1
+0,25
+1,65
+0,75
+1568,3
+113,7
+2784,1
+784,1
+2670,5
+784,1
+0,29
+1,83
+1,00
+1777,3
+173,9
+2888,7
+888,7
+2714,7
+888,7
+0,33
+1,97
+1,25
+2030,7
+275,9
+3015,3
+1015,3
+2739,4
+1015,3
+0,37
+2,18
+1,50
+2243,0
+409,5
+3121,5
+1121,5
+2712,0
+1121,5
+0,41
+2,41
+1,75
+2363,0
+512,8
+3181,5
+1181,5
+2668,7
+1181,5
+0,44
+2,59
+2,00
+2484,8
+681,8
+3242,4
+1242,4
+2560,6
+1242,4
+0,49
+2,89
+2,50
+2564,4
+930,0
+3282,2
+1282,2
+2352,2
+1282,2
+0,55
+3,40
+3,00
+2565,3
+1096,2
+3282,7
+1282,7
+2186,4
+1282,7
+0,59
+3,84
+4,00
+2517,5
+1254,5
+3258,7
+1258,7
+2004,3
+1258,7
+0,63
+4,38
+5,00
+2493,6
+1330,8
+3246,8
+1246,8
+1916,0
+1246,8
+0,65
+4,73
+6,00
+2497,5
+1363,7
+3248,7
+1248,7
+1885,0
+1248,7
+0,66
+4,93
+7,00
+2520,1
+1381,5
+3260,1
+1260,1
+1878,6
+1260,1
+0,67
+5,07
+8,00
+2550,5
+1385,6
+3275,2
+1275,2
+1889,7
+1275,2
+0,67
+5,15
+9,00
+2589,7
+1387,9
+3294,8
+1294,8
+1906,9
+1294,8
+0,68
+5,23
+10,00
+2626,3
+1385,2
+3313,1
+1313,1
+1928,0
+1313,1
+0,68
+5,27
+11,00
+2657,1
+1381,4
+3328,6
+1328,6
+1947,2
+1328,6
+0,68
+5,30
+12,00
+2698,2
+1377,3
+3349,1
+1349,1
+1971,8
+1349,1
+0,68
+5,33
+13,00
+2732,7
+1373,2
+3366,3
+1366,3
+1993,1
+1366,3
+0,69
+5,36
+14,00
+2764,4
+1369,2
+3382,2
+1382,2
+2013,0
+1382,2
+0,69
+5,38
+15,00
+2782,7
+1365,7
+3391,4
+1391,4
+2025,7
+1391,4
+0,69
+5,39
+Grado de compactación:
+Bajo
+Medio
+Alto
+Elevado
+Realizado por:
+Revisado por:
+Autorizado por:
+2024-10-30
+No. de informe de ensayo
+EPE-23.10.141_5,6,7,8,9,10_110_R0_TXCU
+Descripción del ítem
+Suelo
+Información suministrada por el cliente
+Método de ensayo
+ASTM D4767-11 (2020) Standard Test Method for Consolidated Undrained Triaxial Compression Test for Cohesive Soils
+Fecha de recepción de la muestra
+2024-09-03
+No. páginas
+3 de 7
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad con normas de productos o como 
+certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El laboratorio no se hace responsable por la información suministrada 
+por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+Contenido de agua
+Densidad seca       
+Los parámetros de resistencia cortante reportados podrían ser reinterpretados en caso ser considerado pertinente por un profesional competente en geotecnia.
+Las muestras han sido proporcionadas e identificadas por el solicitante.
+E. Linares
+J. Gaspar
+C. Soto
+Observaciones
+Deform. (%)
+ ('1/'3)
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D4767-11 (2020)
+Nombre del proyecto
+Cliente
+Ubicación del proyecto
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+N° de solicitud
+EPE-23.10.141
+11-GEO-01-FOR-2026A / V0 / 10-01-22
+2023
+MP2 - A - M-1, MP2 - A - M-2, MP2 - A - M-3, MP2 - A - 
+M-4, MP2 - A - M-5, MP2 - H - Material A
+N° de proyecto
+N° de muestra
+Antamina
+San Marcos - Ancash
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D Lote 
+12A Urb. El Retablo Comas. Lima – Perú
+Reconstituido al 90% de la máxima densidad seca (MDS) de 2,034 g/cm³ y óptimo contenido de agua de 11,1 %. 
+Código de muestra
+Zona
+Descripción
+Profundidad (m)
+Pilas Experimetales Medio Ambiente
+Intrusivo
+Solicitado por
+Contacto del cliente
+Pila 02
+--
+Gary Olivo
+golivos@antamina.com
+Fechas de inicio / fin del ensayo
+2024-10-03 / 2024-10-10
+Fecha de emisión
+SUCS
+q'/p'
+Descripción 
+Etapa de consolidación
+Esf. efect. inicial
+
+=== PAGE 4 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+Estado:
+GW-GM
+2,70
+            
+1000 kPa
+Inicio
+Final
+Valor
+Altura 
+(cm)
+31,00
+30,61
+Parámetro "B"
+0,95
+Diámetro
+(cm)
+15,20
+14,53
+Velocidad
+(cm/min)
+0,025
+Contenido de agua
+(%)
+11,1
+11,4
+Presión de celda
+(kPa)
+1187
+Densidad seca       
+(g/cm3)
+1,831
+2,028
+Contra presión
+(kPa)
+187
+desv
+
+p 
+q
+p' 
+q' 
+(kPa)
+(kPa)
+(kPa)
+(kPa)
+(kPa)
+(kPa)
+0,00
+0,0
+0,0
+1000,0
+0,0
+1000,0
+0,0
+0,00
+1,00
+0,05
+61,8
+0,6
+1030,9
+30,9
+1030,3
+30,9
+0,03
+1,06
+0,10
+96,7
+1,3
+1048,3
+48,3
+1047,1
+48,3
+0,05
+1,10
+0,15
+129,8
+2,2
+1064,9
+64,9
+1062,7
+64,9
+0,06
+1,13
+0,20
+241,7
+5,4
+1120,9
+120,9
+1115,4
+120,9
+0,11
+1,24
+0,25
+321,6
+10,1
+1160,8
+160,8
+1150,7
+160,8
+0,14
+1,32
+0,35
+428,5
+21,5
+1214,3
+214,3
+1192,8
+214,3
+0,18
+1,44
+0,50
+549,8
+41,1
+1274,9
+274,9
+1233,8
+274,9
+0,22
+1,57
+0,75
+727,4
+77,1
+1363,7
+363,7
+1286,6
+363,7
+0,28
+1,79
+1,00
+874,6
+119,4
+1437,3
+437,3
+1317,9
+437,3
+0,33
+1,99
+1,25
+1004,1
+167,2
+1502,1
+502,1
+1334,8
+502,1
+0,38
+2,21
+1,50
+1114,4
+220,2
+1557,2
+557,2
+1336,9
+557,2
+0,42
+2,43
+1,75
+1204,9
+277,3
+1602,4
+602,4
+1325,1
+602,4
+0,45
+2,67
+2,00
+1268,5
+335,7
+1634,3
+634,3
+1298,6
+634,3
+0,49
+2,91
+2,50
+1339,5
+448,2
+1669,8
+669,8
+1221,6
+669,8
+0,55
+3,43
+3,00
+1355,3
+530,9
+1677,7
+677,7
+1146,8
+677,7
+0,59
+3,89
+4,00
+1336,1
+626,9
+1668,1
+668,1
+1041,2
+668,1
+0,64
+4,58
+5,00
+1313,2
+673,5
+1656,6
+656,6
+983,1
+656,6
+0,67
+5,02
+6,00
+1299,1
+700,8
+1649,6
+649,6
+948,7
+649,6
+0,68
+5,34
+7,00
+1292,0
+718,9
+1646,0
+646,0
+927,0
+646,0
+0,70
+5,60
+8,00
+1287,3
+730,5
+1643,7
+643,7
+913,2
+643,7
+0,70
+5,78
+9,00
+1288,2
+743,0
+1644,1
+644,1
+901,1
+644,1
+0,71
+6,01
+10,00
+1298,5
+746,6
+1649,2
+649,2
+902,6
+649,2
+0,72
+6,12
+11,00
+1306,2
+750,6
+1653,1
+653,1
+902,5
+653,1
+0,72
+6,24
+12,00
+1323,0
+759,0
+1661,5
+661,5
+902,5
+661,5
+0,73
+6,49
+13,00
+1332,6
+760,0
+1666,3
+666,3
+906,3
+666,3
+0,74
+6,55
+14,00
+1347,1
+768,7
+1673,5
+673,5
+904,8
+673,5
+0,74
+6,82
+15,00
+1368,6
+771,1
+1684,3
+684,3
+913,2
+684,3
+0,75
+6,98
+Grado de compactación:
+Bajo
+Medio
+Alto
+Elevado
+Realizado por:
+Revisado por:
+Autorizado por:
+No. de informe de ensayo
+EPE-23.10.141_5,6,7,8,9,10_110_R0_TXCU
+Descripción del ítem
+Suelo
+Esf. efect. inicial
+SUCS
+Reconstituido al 90% de la máxima densidad seca (MDS) de 2,034 g/cm³ y óptimo contenido de agua de 11,1 %. 
+Descripción 
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad con normas de productos o como 
+certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El laboratorio no se hace responsable por la información suministrada 
+por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+C. Soto
+Etapa de consolidación
+Deform. (%)
+q'/p'
+ ('1/'3)
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D4767-11 (2020)
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+Nombre del proyecto
+Cliente
+N° de solicitud
+EPE-23.10.141
+11-GEO-01-FOR-2026A / V0 / 10-01-22
+2023
+N° de proyecto
+Antamina
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D Lote 
+12A Urb. El Retablo Comas. Lima – Perú
+Información suministrada por el cliente
+Ubicación del proyecto
+N° de muestra
+Solicitado por
+E. Linares
+J. Gaspar
+San Marcos - Ancash
+Pila 02
+Código de muestra
+Descripción
+Observaciones
+Los parámetros de resistencia cortante reportados podrían ser reinterpretados en caso ser considerado pertinente por un profesional competente en geotecnia.
+Las muestras han sido proporcionadas e identificadas por el solicitante.
+MP2 - A - M-1, MP2 - A - M-2, MP2 - A - M-3, MP2 - A - 
+M-4, MP2 - A - M-5, MP2 - H - Material A
+Profundidad (m)
+Pilas Experimetales Medio Ambiente
+golivos@antamina.com
+Zona
+Contacto del cliente
+Gary Olivo
+--
+Intrusivo
+Fechas de inicio / fin del ensayo
+2024-10-03 / 2024-10-10
+Fecha de emisión
+2024-10-30
+Método de ensayo
+ASTM D4767-11 (2020) Standard Test Method for Consolidated Undrained Triaxial Compression Test for Cohesive Soils
+Fecha de recepción de la muestra
+2024-09-03
+No. páginas
+4 de 7
+
+=== PAGE 5 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+Estado:
+GW-GM
+500 kPa
+Inicio
+Final
+Valor
+Altura 
+(cm)
+31,00
+30,74
+Parámetro "B"
+0,98
+Diámetro
+(cm)
+15,20
+14,67
+Velocidad
+(cm/min)
+0,025
+Contenido de agua
+(%)
+11,1
+12,7
+Presión de celda
+(kPa)
+687
+Densidad seca       
+(g/cm3)
+1,831
+1,983
+Contra presión
+(kPa)
+187
+desv
+
+p 
+q
+p' 
+q' 
+(kPa)
+(kPa)
+(kPa)
+(kPa)
+(kPa)
+(kPa)
+0,00
+0,0
+0,0
+500,0
+0,0
+500,0
+0,0
+0,00
+1,00
+0,05
+87,8
+1,4
+543,9
+43,9
+542,5
+43,9
+0,08
+1,18
+0,10
+130,2
+3,4
+565,1
+65,1
+561,7
+65,1
+0,12
+1,26
+0,15
+159,3
+6,3
+579,7
+79,7
+573,4
+79,7
+0,14
+1,32
+0,20
+185,6
+9,4
+592,8
+92,8
+583,4
+92,8
+0,16
+1,38
+0,25
+212,4
+13,0
+606,2
+106,2
+593,2
+106,2
+0,18
+1,44
+0,35
+266,5
+20,9
+633,3
+133,3
+612,4
+133,3
+0,22
+1,56
+0,50
+352,9
+37,0
+676,5
+176,5
+639,4
+176,5
+0,28
+1,76
+0,75
+456,3
+68,4
+728,1
+228,1
+659,7
+228,1
+0,35
+2,06
+1,00
+529,5
+100,5
+764,8
+264,8
+664,2
+264,8
+0,40
+2,33
+1,25
+583,7
+132,8
+791,8
+291,8
+659,0
+291,8
+0,44
+2,59
+1,50
+622,9
+162,1
+811,4
+311,4
+649,3
+311,4
+0,48
+2,84
+1,75
+645,5
+188,8
+822,7
+322,7
+633,9
+322,7
+0,51
+3,07
+2,00
+655,6
+212,0
+827,8
+327,8
+615,8
+327,8
+0,53
+3,28
+2,50
+658,3
+246,9
+829,1
+329,1
+582,3
+329,1
+0,57
+3,60
+3,00
+647,5
+270,5
+823,8
+323,8
+553,3
+323,8
+0,59
+3,82
+4,00
+618,0
+300,9
+809,0
+309,0
+508,1
+309,0
+0,61
+4,10
+5,00
+595,4
+320,3
+797,7
+297,7
+477,5
+297,7
+0,62
+4,31
+6,00
+579,2
+334,6
+789,6
+289,6
+455,0
+289,6
+0,64
+4,50
+7,00
+569,6
+344,4
+784,8
+284,8
+440,4
+284,8
+0,65
+4,66
+8,00
+569,0
+351,7
+784,5
+284,5
+432,8
+284,5
+0,66
+4,84
+9,00
+568,8
+357,9
+784,4
+284,4
+426,5
+284,4
+0,67
+5,00
+10,00
+571,1
+362,9
+785,5
+285,5
+422,6
+285,5
+0,68
+5,17
+11,00
+575,2
+368,2
+787,6
+287,6
+419,4
+287,6
+0,69
+5,36
+12,00
+581,6
+372,8
+790,8
+290,8
+418,0
+290,8
+0,70
+5,57
+13,00
+588,2
+378,2
+794,1
+294,1
+415,9
+294,1
+0,71
+5,83
+14,00
+594,0
+382,9
+797,0
+297,0
+414,1
+297,0
+0,72
+6,07
+15,00
+599,0
+385,9
+799,5
+299,5
+413,6
+299,5
+0,72
+6,25
+Grado de compactación:
+Bajo
+Medio
+Alto
+Elevado
+Realizado por:
+Revisado por:
+Autorizado por:
+Suelo
+Información suministrada por el cliente
+Método de ensayo
+ASTM D4767-11 (2020) Standard Test Method for Consolidated Undrained Triaxial Compression Test for Cohesive Soils
+Fecha de recepción de la muestra
+2024-09-03
+No. páginas
+5 de 7
+Código de muestra
+Solicitado por
+Pila 02
+Gary Olivo
+Zona
+Descripción
+Profundidad (m)
+Pilas Experimetales Medio Ambiente
+Reconstituido al 90% de la máxima densidad seca (MDS) de 2,034 g/cm³ y óptimo contenido de agua de 11,1 %. 
+Fechas de inicio / fin del ensayo
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad con normas de productos o como 
+certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El laboratorio no se hace responsable por la información suministrada 
+por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+Observaciones
+Los parámetros de resistencia cortante reportados podrían ser reinterpretados en caso ser considerado pertinente por un profesional competente en geotecnia.
+Las muestras han sido proporcionadas e identificadas por el solicitante.
+E. Linares
+J. Gaspar
+C. Soto
+2024-10-03 / 2024-10-10
+Fecha de emisión
+2024-10-30
+No. de informe de ensayo
+EPE-23.10.141_5,6,7,8,9,10_110_R0_TXCU
+Descripción del ítem
+Intrusivo
+Contacto del cliente
+--
+golivos@antamina.com
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D4767-11 (2020)
+Nombre del proyecto
+Cliente
+Ubicación del proyecto
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+N° de solicitud
+EPE-23.10.141
+11-GEO-01-FOR-2026A / V0 / 10-01-22
+2023
+MP2 - A - M-1, MP2 - A - M-2, MP2 - A - M-3, MP2 - A - 
+M-4, MP2 - A - M-5, MP2 - H - Material A
+N° de proyecto
+N° de muestra
+Antamina
+San Marcos - Ancash
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D Lote 
+12A Urb. El Retablo Comas. Lima – Perú
+Deform. (%)
+q'/p'
+ ('1/'3)
+Esf. efect. inicial
+SUCS
+Etapa de consolidación
+Descripción 
+
+=== PAGE 6 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+Estado:
+SUCS
+GW-GM
+Grado de compactación:
+Bajo
+Medio
+Alto
+Elevado
+Realizado por:
+Revisado por:
+Autorizado por:
+Información suministrada por el cliente
+Fin del informe
+Método de ensayo
+ASTM D4767-11 (2020) Standard Test Method for Consolidated Undrained Triaxial Compression Test for Cohesive Soils
+Fecha de recepción de la muestra
+2024-09-03
+No. páginas
+6 de 7
+Fechas de inicio / fin del ensayo
+2024-10-03 / 2024-10-10
+Fecha de emisión
+2024-10-30
+No. de informe de ensayo
+EPE-23.10.141_5,6,7,8,9,10_110_R0_TXCU
+Descripción del ítem
+C. Soto
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad con normas de productos o como 
+certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El laboratorio no se hace responsable por la información suministrada 
+por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+Los parámetros de resistencia cortante reportados podrían ser reinterpretados en caso ser considerado pertinente por un profesional competente en geotecnia.
+Especímen 500 kPa
+Especímen 1000 kPa
+Observaciones
+Las muestras han sido proporcionadas e identificadas por el solicitante.
+Especímen 2000 kPa
+J. Gaspar
+E. Linares
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D4767-11 (2020)
+Nombre del proyecto
+Cliente
+Ubicación del proyecto
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+N° de solicitud
+EPE-23.10.141
+11-GEO-01-FOR-2026A / V0 / 10-01-22
+2023
+MP2 - A - M-1, MP2 - A - M-2, MP2 - A - M-3, MP2 - A - 
+M-4, MP2 - A - M-5, MP2 - H - Material A
+N° de proyecto
+N° de muestra
+Antamina
+San Marcos - Ancash
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D Lote 
+12A Urb. El Retablo Comas. Lima – Perú
+Panel fotográfico
+Código de muestra
+Zona
+Descripción
+golivos@antamina.com
+Gary Olivo
+Profundidad (m)
+Pilas Experimetales Medio Ambiente
+Intrusivo
+Solicitado por
+Contacto del cliente
+Pila 02
+--
+Reconstituido al 90% de la máxima densidad seca (MDS) de 2,034 g/cm³ y óptimo contenido de agua de 11,1 %. 
+Suelo
+
+=== PAGE 7 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+SUCS
+GW-GM
+Grado de compactación:
+Bajo
+Medio
+Alto
+Elevado
+Realizado por:
+Revisado por:
+Autorizado por:
+E. Linares
+J. Gaspar
+C. Soto
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad con normas de productos o como 
+certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El laboratorio no se hace responsable por la información suministrada 
+por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+La interpretación presentada en la presente página ( 7 de 7) ha sido un requerimiento explícito del solicitante. Por lo cual, Anddes Geolab S.A.C. se exime de responsabilidad con la 
+presente interpretación.
+Estado:
+Reconstituido al 90% de la máxima densidad seca (MDS) de 2,034 g/cm³ y óptimo contenido de agua de 11,1 %. 
+Observaciones
+Fechas de inicio / fin del ensayo
+2024-10-03 / 2024-10-10
+Fecha de emisión
+2024-10-30
+No. de informe de ensayo
+EPE-23.10.141_5,6,7,8,9,10_110_R0_TXCU
+Descripción del ítem
+Suelo
+Descripción
+Intrusivo
+Método de ensayo
+ASTM D4767-11 (2020) Standard Test Method for Consolidated Undrained Triaxial Compression Test for Cohesive Soils
+Fecha de recepción de la muestra
+2024-09-03
+No. páginas
+7 de 7
+Profundidad (m)
+--
+Contacto del cliente
+golivos@antamina.com
+Zona
+Pilas Experimetales Medio Ambiente
+Ubicación del proyecto
+San Marcos - Ancash
+N° de muestra
+MP2 - A - M-1, MP2 - A - M-2, MP2 - A - M-3, MP2 - A - 
+M-4, MP2 - A - M-5, MP2 - H - Material A
+Código de muestra
+Pila 02
+Solicitado por
+Gary Olivo
+Información suministrada por el cliente
+Nombre del proyecto
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+Cliente
+Antamina
+N° de proyecto
+2023
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D4767-11 (2020)
+N° de solicitud
+EPE-23.10.141
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D Lote 
+12A Urb. El Retablo Comas. Lima – Perú
+11-GEO-01-FOR-2026A / V0 / 10-01-22
+= 4%
+= 2%
+=1%
+0
+500
+1000
+1500
+2000
+0
+500
+1000
+1500
+2000
+2500
+3000
+3500
+4000
+q' (kPa)
+p' (kPa)
+500 kPa
+1000 kPa
+2000 kPa
+Esfuerzos totales
+a' = 
+' = 
+c' = 
+' =                                                                                                                            
+0,0 kPa
+22,2°
+0,0 kPa
+24,0°
+Envolvente trazado al 
+15% de deformación

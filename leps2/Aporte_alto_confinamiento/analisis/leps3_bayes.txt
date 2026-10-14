@@ -1,0 +1,26 @@
+
+Población: 134 sets, 27 publicaciones | μm = 0.851 | τ (entre sets) = 0.056 | mediana se(m) = 0.016
+  sets con σ3,max 0–1 MPa: n = 55, μm = 0.848
+  sets con σ3,max 1–2.5 MPa: n = 42, μm = 0.851
+  sets con σ3,max 2.5–5 MPa: n = 37, μm = 0.853
+
+Modo B (calibración σ'n ≤ 1.5 MPa, predicción σ'n > 2 MPa): sets 46, publicaciones 13
+  m=0.9              n= 64 sesgo  +7.3 % | EAM 10.2 % | P90 sobreest. +17.9 % | peor +41.5 %
+  m=0.87             n= 64 sesgo  +0.1 % | EAM  6.9 % | P90 sobreest. +10.7 % | peor +34.6 %
+  μm del pliegue     n= 64 sesgo  -4.1 % | EAM  7.9 % | P90 sobreest.  +6.7 % | peor +30.8 %
+  m libre del set    n=  8 sesgo  -0.7 % | EAM 10.6 % | P90 sobreest. +17.0 % | peor +18.9 %
+  Bayes (Leps 3.0)   n= 64 sesgo  -4.3 % | EAM  8.1 % | P90 sobreest.  +6.9 % | peor +30.8 %
+  Bayes previa 0.87  n= 64 sesgo  -0.6 % | EAM  7.1 % | P90 sobreest. +10.7 % | peor +34.6 %
+
+Modo C (calibración σ'n ≤ 3 MPa, predicción σ'n > 3 MPa): sets 52, publicaciones 8
+  m=0.9              n= 90 sesgo +10.4 % | EAM 12.1 % | P90 sobreest. +25.7 % | peor +35.9 %
+  m=0.87             n= 90 sesgo  +2.8 % | EAM  8.1 % | P90 sobreest. +17.2 % | peor +25.6 %
+  μm del pliegue     n= 90 sesgo  -1.7 % | EAM  8.5 % | P90 sobreest. +12.8 % | peor +20.5 %
+  m libre del set    n= 16 sesgo  -1.6 % | EAM  5.8 % | P90 sobreest.  +4.6 % | peor +24.4 %
+  Bayes (Leps 3.0)   n= 90 sesgo  -1.0 % | EAM  8.1 % | P90 sobreest. +13.1 % | peor +22.5 %
+  Bayes previa 0.87  n= 90 sesgo  +2.9 % | EAM  8.0 % | P90 sobreest. +18.2 % | peor +25.6 %
+
+Bandas de extrapolación con m = 0.87 (modo B): factor sobre q no excedido en 90 % y 80 %
+  σ'n 2–3 MPa: n = 41, P10 = 0.893, P20 = 0.926
+  σ'n 3–8 MPa: n = 23, P10 = 0.949, P20 = 0.999
+

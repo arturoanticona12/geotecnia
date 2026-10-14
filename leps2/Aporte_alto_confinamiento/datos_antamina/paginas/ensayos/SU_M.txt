@@ -1,0 +1,425 @@
+=== PAGE 1 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+Psje. 
+Antonio
+Descripción del ítem
+Datos informativos en base a la ASTM D2487
+(%) 
+(%) 
+Arena 
+(%) 
+Limos y arcillas
+(%) 
+(mm)
+(mm)
+(mm)
+Método de ensayo
+Obtención de espécimen
+Tipo de tamizado
+Condición de la muestra
+75,000
+0
+2,000
+0
+75,000
+100
+2,000
+100
+50,000
+0
+0,850
+0
+50,000
+100
+0,850
+100
+37,500
+0
+0,425
+0
+37,500
+100
+0,425
+100
+25,000
+0
+0,250
+0
+25,000
+100
+0,250
+100
+19,000
+0
+0,150
+0
+19,000
+100
+0,150
+100
+9,500
+0
+0,106
+0
+9,500
+100
+0,106
+100
+4,750
+0
+0,075
+0
+4,750
+100
+0,075
+100
+Realizado por:
+Revisado por:
+T. Bonifacio
+C. Soto
+0,850
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D Lote 
+12A Urb. El Retablo Comas. Lima – Perú
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D2487-17e1
+N° de solicitud
+EPE-23.10.141
+11-GEO-01-FOR-2000 / V0 / 10-01-23
+Información suministrada por el cliente
+01 ( Ruma 01)
+Solicitado por
+Gary Olivo
+2 in.
+85
+50,000
+Marmol
+Nombre del proyecto
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+Cliente
+Antamina
+N° de proyecto
+2023
+Ubicación del proyecto
+San Marcos - Ancash
+N° de muestra
+M-1, M-2, M-3, M-4, M-5, M-6, M-7, M-8, M-9, M-
+10, M-11, M-12, M-13
+Código de muestra
+Método de ensayo
+ASTM D2487 - 17e1 Standard Practice for Classification of Soils for Engineering Purposes (Unified Soil Classification System)
+Fecha de recepción de la muestra
+1 de 2
+No. páginas
+Profundidad (m)
+40,00 - 90,00
+Contacto del cliente
+golivos@antamina.com
+Zona
+Fechas de inicio / fin del ensayo
+2024-05-13
+Bolonería y/o bloques 
+Grava 
+Suelo
+2023-11-23
+2024-04-10 / 2024-04-12
+EPE-23.10.141_17,19,20,13,23,22,25,24,14,15,12,16,21_200_R0_SUCS
+Fecha de emisión
+63
+1 1/2 in.
+No. 10
+No. 60
+15
+No. 4
+35
+Descripción
+100
+75,000
+Abertura nominal 
+del tamiz
+(mm)
+3/4 in.
+56
+4,750
+2,000
+3/8 in.
+9,500
+44
+27
+37,500
+Tamiz 
+(ASTM E11)
+% Que pasa
+3 in.
+No. de informe de ensayo
+D10
+D30
+D60
+Cu
+Cc
+1,54
+2,76
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad con normas de 
+productos o como certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El laboratorio no se hace responsable por la 
+información suministrada por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+Observaciones
+Las muestras han sido proporcionadas e identificadas por el solicitante. 
+Los ensayos fueron realizados en las instalaciones de Anddes Geolab.
+Autorizado por:
+D. Lizana
+No. 200
+10
+No. 100
+13
+No. 140
+No. 20
+22
+No. 40
+0,075
+22,04
+14,29
+0,22
+Ensayo realizado
+ASTM D6913/D6913M - 17 Standard Test Methods for Particle-Size Distribution (Gradation) of Soils Using Sieve Analysis
+Disturbada
+Patio de servicios / Botadero Este 
+19,000
+75
+25,000
+--
+65
+25
+10
+A
+Húmeda
+Tamiz. Comp. 1 sep.
+18
+12
+0,425
+0,250
+0,150
+0,106
+1 in.
+75,000
+3"
+37,500
+1-1/2"
+19,000
+3/4"
+9,500
+3/8"
+4,750
+N°4
+2,000
+N°10
+0,850
+N°20
+0,425
+Nº40
+0,150
+Nº100
+0,075
+Nº200
+25,000
+1"
+50,000
+2"
+0,250
+Nº60
+0,106
+Nº140
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0,010
+0,100
+1,000
+10,000
+100,000
+Porcentaje que pasa (%)
+Tamaño de partícula  (mm)
+Curva granulométrica                       
+Arenas
+Gravas
+Limos y arcillas
+
+=== PAGE 2 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+N° de golpes
+--
+--
+--
+Masa tara
+(g)
+--
+--
+--
+--
+--
+Masa tara + suelo húmedo
+(g)
+--
+--
+--
+--
+--
+Masa tara + suelo seco
+(g)
+--
+--
+--
+--
+--
+Contenido de agua 
+(%)
+--
+--
+--
+--
+--
+(LL)
+(LP)
+(IP)
+Límite líquido Sec. Horno
+(LLOD)
+NP
+LLOD/LL
+#######
+Realizado por:
+Revisado por:
+T. Bonifacio
+C. Soto
+Nombre del proyecto
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+Información suministrada por el cliente
+No. Páginas
+Fecha de emisión
+Fechas de inicio / fin del ensayo
+2024-04-08 / 2024-04-15
+Fecha de recepción de la muestra
+Cliente
+Antamina
+N° de proyecto
+2023
+Ubicación del proyecto
+San Marcos - Ancash
+N° de muestra
+M-1, M-2, M-3, M-4, M-5, M-6, M-7, M-8, M-9, M-
+10, M-11, M-12, M-13
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D2487-17e1
+N° de solicitud
+EPE-23.10.141
+11-GEO-01-FOR-2000 / V0 / 10-01-23
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D Lote 
+12A Urb. El Retablo Comas. Lima – Perú
+Fin del informe
+Descripción
+Marmol
+Autorizado por:
+D. Lizana
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad con normas de 
+productos o como certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El laboratorio no se hace responsable por la 
+información suministrada por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+2023-11-23
+Observaciones
+Las muestras han sido proporcionadas e identificadas por el solicitante.
+Los ensayos fueron realizados en las instalaciones de Anddes Geolab.
+Condición de la muestra
+EPE-23.10.141_17,19,20,13,23,22,25,24,14,15,12,16,21_200_R0_SUCS Descripción del ítem
+Suelo
+Nombre del grupo
+Zona
+Preparación del espécimen
+Húmedo
+No. de informe de ensayo
+Patio de servicios / Botadero Este 
+Método de ensayo
+Ensayo realizado
+ASTM D4318 - 17e1 Standard Test Methods for Liquid Limit, Plastic Limit, and Plasticity Index of Soils
+Código de muestra
+01 ( Ruma 01)
+Solicitado por
+Gary Olivo
+Profundidad (m)
+40,00 - 90,00
+Contacto del cliente
+golivos@antamina.com
+Poorly graded gravel with silt 
+and sand
+Nombre local
+Grava pobremente gradada 
+con limo y arena
+Límite líquido
+Límite plástico
+--
+Dispositivo de límite líquido
+Método 
+Procedimiento de enrolado
+Plástico
+Multipunto
+Manual
+Disturbado
+Manual
+Ranurador
+Simbolo del grupo
+GP-GM
+2 de 2
+2024-05-13
+ASTM D2487 - 17e1 Standard Practice for Classification of Soils for Engineering Purposes (Unified Soil Classification System)
+Límites de consistencia
+Límites de Atterberg
+Límite líquido 
+Límite plástico 
+Índice de plasticidad 
+NP
+NP
+NP
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+10
+100
+Contenido de agua (%)
+N° de golpes (N)
+Diagrama de fluidez                       
+0
+10
+20
+30
+40
+50
+60
+0
+20
+40
+60
+80
+100
+120
+Índice de plásticidad (IP)
+Límite líquido (LL)
+Gráfico de plasticidad
+MH u OH
+CH
+CL
+ML u OL
+CL - ML

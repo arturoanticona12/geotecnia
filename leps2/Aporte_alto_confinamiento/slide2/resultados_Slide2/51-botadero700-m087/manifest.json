@@ -1,0 +1,13 @@
+{
+ "lote": "51-botadero700-m087",
+ "creado": "2026-10-06T13:31:04",
+ "paralelo": 6,
+ "prioridad": "sobre_normal",
+ "casos": [
+  {
+   "id": "botadero_700m",
+   "archivo": "botadero_700m.slmd",
+   "timeout_s": 1200
+  }
+ ]
+}

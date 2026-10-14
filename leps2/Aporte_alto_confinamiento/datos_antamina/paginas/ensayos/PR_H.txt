@@ -1,0 +1,123 @@
+=== PAGE 1 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+Psje. 
+Antonio
+No. páginas
+Descripción del ítem
+(g/cm3)
+(kN/m3)
+(%)
+Peso unitario seco máximo
+(kN/m3)
+Óptimo contenido de agua
+ (%)
+Peso unitario seco máximo
+(kN/m3)
+Ópt. contenido de agua corregida 
+(%)
+Realizado por:
+Revisado por:
+S. Quispe
+C. Soto
+N° de solicitud
+EPE-23.10.141
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D Lote 
+12A Urb. El Retablo Comas. Lima – Perú
+11-GEO-01-FOR-2010 / V0 / 10-01-23
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+(Fuera de método)
+Información suministrada por el cliente
+Nombre del proyecto
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+Cliente
+Antamina
+N° de proyecto
+2023
+Ubicación del proyecto
+San Marcos - Ancash
+N° de muestra
+H-1, H-2, H-3, H-4, H-5, H-6, H-7, H-8, H-9, H-
+10, H-11, H-12
+Código de muestra
+02 ( Ruma 02)
+Solicitado por
+Gary Olivo
+Descripción
+HORNFELS
+Profundidad (m)
+40,00 - 90,00
+Contacto del cliente
+golivos@antamina.com
+Zona
+Patio de servicios / Botadero Este 
+Suelo
+Fecha de recepción de la muestra
+1 de 1
+Fechas de inicio / fin del ensayo
+2024-05-13
+Fecha de emisión
+2023-11-23
+2024-04-12 / 2024-04-15
+EPE-23.10.141_7,9,2,4,11,8,1,3,5,6,18,10_200_R0_PR
+D. Lizana
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de conformidad con normas de 
+productos o como certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes Geolab SAC. El laboratorio no se hace responsable por la 
+información suministrada por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+Método de ensayo: ASTM D698-12 Standard Test Methods for Laboratory Compaction Characteristics of Soil Using Standard Effort (12,400 ft-lbf/ft3 (600 kN-m/m3))
+ASTM D698-12 (2021)
+1
+Observaciones
+Las muestras han sido proporcionadas e identificadas por el solicitante. 
+Los ensayos fueron realizados en las instalaciones de Anddes Geolab.
+Autorizado por:
+4,4
+Prueba No.
+2,2
+2
+No. de informe de ensayo
+6
+22,876
+7,7
+24,533
+4
+2,2
+10,1
+5
+2,3
+6,1
+3
+2,3
+8,1
+Densidad seca 
+Peso unitario seco 
+Contenido de agua
+Fin del informe
+21,9
+22,6
+22,9
+21,9
+4,7
+GS (Bulk)    
+ w (%)           
+2,80
+0,3
+Fraccion sobre tamaño
+20,000
+20,600
+21,200
+21,800
+22,400
+23,000
+23,600
+24,200
+24,800
+3
+5
+7
+9
+11
+13
+15
+Peso unitario seco (kN/m3)
+Contenido de agua (%)
+Curva de compactación

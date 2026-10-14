@@ -1,0 +1,733 @@
+﻿fuente_id,campana,litologia,ensayo,norma,propiedad,valor,unidad,probeta,detalle,tipo_fuente,pagina_pdf
+G2010,A,Mármol Negro,Tabla 2 (resumen),,TM_in,35,pulg,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,pct_12_36in,35.1,%,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,pct_3_12in,30.2,%,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,global_gravas_pct,23.6,%,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,global_arenas_pct,8.3,%,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,global_finos_pct,2.8,%,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,matriz_gravas_pct,71.4,%,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,matriz_arenas_pct,22.8,%,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,matriz_finos_pct,5.8,%,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,densidad_in_situ_gcm3,2.185,g/cm3,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,w_natural_pct,2.2,%,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,densidad_seca_in_situ_gcm3,2.135,g/cm3,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,Gs_mat_grueso,2.696,-,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,Gs_mat_fino,2.763,-,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,durabilidad_perdida_corregida_pct,43.4,%,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,abrasion_desgaste_pct,62.1,%,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,sigma_c_carga_puntual_MPa,32.24,MPa,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,sigma_c_compresion_uniaxial_MPa,44.7,MPa,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,k_conductividad,-,m/s,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 2 (resumen),,asentamiento_carga_directa_cm,-,cm,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,TM_in,35,pulg,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,pct_12_36in,22.1,%,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,pct_3_12in,49.3,%,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,global_gravas_pct,24.9,%,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,global_arenas_pct,2.82,%,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,global_finos_pct,0.88,%,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,matriz_gravas_pct,86.2,%,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,matriz_arenas_pct,11.2,%,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,matriz_finos_pct,2.6,%,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,densidad_in_situ_gcm3,2.055,g/cm3,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,w_natural_pct,2.4,%,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,densidad_seca_in_situ_gcm3,2.026,g/cm3,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,Gs_mat_grueso,2.733,-,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,Gs_mat_fino,2.791,-,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,durabilidad_perdida_corregida_pct,0.7,%,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,abrasion_desgaste_pct,23.7,%,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,sigma_c_carga_puntual_MPa,72.99,MPa,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,sigma_c_compresion_uniaxial_MPa,49.2,MPa,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,k_conductividad,3.20E-06,m/s,,,tabla resumen del memo,8
+G2010,A,Hornfels Gris,Tabla 2 (resumen),,asentamiento_carga_directa_cm,-,cm,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,TM_in,30,pulg,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,pct_12_36in,21.8,%,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,pct_3_12in,38.8,%,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,global_gravas_pct,31.4,%,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,global_arenas_pct,6.4,%,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,global_finos_pct,1.6,%,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,matriz_gravas_pct,80.4,%,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,matriz_arenas_pct,16.3,%,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,matriz_finos_pct,3.3,%,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,densidad_in_situ_gcm3,1.931,g/cm3,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,w_natural_pct,3.8,%,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,densidad_seca_in_situ_gcm3,1.865,g/cm3,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,Gs_mat_grueso,2.451,-,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,Gs_mat_fino,2.674,-,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,durabilidad_perdida_corregida_pct,33.4,%,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,abrasion_desgaste_pct,49.8,%,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,sigma_c_carga_puntual_MPa,80.56,MPa,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,sigma_c_compresion_uniaxial_MPa,46.8,MPa,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,k_conductividad,2.50E-06,m/s,,,tabla resumen del memo,8
+G2010,A,Intrusivo,Tabla 2 (resumen),,asentamiento_carga_directa_cm,-,cm,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,TM_in,19,pulg,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,pct_12_36in,4.6,%,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,pct_3_12in,15.6,%,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,global_gravas_pct,58,%,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,global_arenas_pct,19.1,%,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,global_finos_pct,2.7,%,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,matriz_gravas_pct,76.5,%,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,matriz_arenas_pct,20.9,%,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,matriz_finos_pct,2.6,%,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,densidad_in_situ_gcm3,2.35,g/cm3,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,w_natural_pct,3.1,%,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,densidad_seca_in_situ_gcm3,2.273,g/cm3,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,Gs_mat_grueso,3.172,-,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,Gs_mat_fino,3.484,-,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,durabilidad_perdida_corregida_pct,5.9,%,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,abrasion_desgaste_pct,37,%,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,sigma_c_carga_puntual_MPa,67.79,MPa,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,sigma_c_compresion_uniaxial_MPa,73.3,MPa,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,k_conductividad,-,m/s,,,tabla resumen del memo,8
+G2010,A,Exoskarn Diópsido,Tabla 2 (resumen),,asentamiento_carga_directa_cm,-,cm,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,TM_in,35,pulg,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,pct_12_36in,-,%,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,pct_3_12in,34,%,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,global_gravas_pct,43.4,%,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,global_arenas_pct,15.4,%,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,global_finos_pct,7.2,%,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,matriz_gravas_pct,68.9,%,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,matriz_arenas_pct,23.6,%,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,matriz_finos_pct,7.5,%,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,densidad_in_situ_gcm3,2.2,g/cm3,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,w_natural_pct,2.9,%,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,densidad_seca_in_situ_gcm3,2.151,g/cm3,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,Gs_mat_grueso,2.725,-,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,Gs_mat_fino,2.747,-,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,durabilidad_perdida_corregida_pct,49.8,%,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,abrasion_desgaste_pct,62.4,%,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,sigma_c_carga_puntual_MPa,24.56,MPa,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,sigma_c_compresion_uniaxial_MPa,49.6,MPa,,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,k_conductividad,-,cm/s (rótulo de la Tabla 2; las hojas p.159-160 dan m/s),,,tabla resumen del memo,8
+G2010,B,Mármol Negro,Tabla 2 (resumen),,asentamiento_carga_directa_cm,4.8,cm,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,TM_in,35,pulg,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,pct_12_36in,-,%,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,pct_3_12in,35.6,%,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,global_gravas_pct,56.3,%,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,global_arenas_pct,5.4,%,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,global_finos_pct,2.7,%,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,matriz_gravas_pct,85.6,%,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,matriz_arenas_pct,10.8,%,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,matriz_finos_pct,3.6,%,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,densidad_in_situ_gcm3,2.162,g/cm3,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,w_natural_pct,2.3,%,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,densidad_seca_in_situ_gcm3,2.137,g/cm3,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,Gs_mat_grueso,2.74,-,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,Gs_mat_fino,2.802,-,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,durabilidad_perdida_corregida_pct,0.6,%,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,abrasion_desgaste_pct,20.3,%,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,sigma_c_carga_puntual_MPa,100.42,MPa,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,sigma_c_compresion_uniaxial_MPa,65.5,MPa,,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,k_conductividad,2.60E-06,cm/s (rótulo de la Tabla 2; las hojas p.159-160 dan m/s),,,tabla resumen del memo,8
+G2010,B,Hornfels Gris,Tabla 2 (resumen),,asentamiento_carga_directa_cm,5.6,cm,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,TM_in,30,pulg,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,pct_12_36in,-,%,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,pct_3_12in,34.7,%,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,global_gravas_pct,40.7,%,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,global_arenas_pct,17.6,%,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,global_finos_pct,7,%,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,matriz_gravas_pct,67.4,%,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,matriz_arenas_pct,25.4,%,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,matriz_finos_pct,7.2,%,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,densidad_in_situ_gcm3,2.06,g/cm3,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,w_natural_pct,2.7,%,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,densidad_seca_in_situ_gcm3,2.019,g/cm3,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,Gs_mat_grueso,2.647,-,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,Gs_mat_fino,2.742,-,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,durabilidad_perdida_corregida_pct,18.6,%,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,abrasion_desgaste_pct,32.2,%,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,sigma_c_carga_puntual_MPa,78.06,MPa,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,sigma_c_compresion_uniaxial_MPa,54,MPa,,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,k_conductividad,2.20E-06,cm/s (rótulo de la Tabla 2; las hojas p.159-160 dan m/s),,,tabla resumen del memo,8
+G2010,B,Intrusivo,Tabla 2 (resumen),,asentamiento_carga_directa_cm,3.6,cm,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,TM_in,19,pulg,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,pct_12_36in,-,%,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,pct_3_12in,10.7,%,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,global_gravas_pct,60.9,%,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,global_arenas_pct,23,%,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,global_finos_pct,5.4,%,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,matriz_gravas_pct,72.5,%,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,matriz_arenas_pct,23.1,%,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,matriz_finos_pct,4.4,%,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,densidad_in_situ_gcm3,2.418,g/cm3,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,w_natural_pct,3,%,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,densidad_seca_in_situ_gcm3,2.357,g/cm3,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,Gs_mat_grueso,3.102,-,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,Gs_mat_fino,3.338,-,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,durabilidad_perdida_corregida_pct,6.7,%,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,abrasion_desgaste_pct,27.6,%,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,sigma_c_carga_puntual_MPa,124.78,MPa,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,sigma_c_compresion_uniaxial_MPa,97.4,MPa,,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,k_conductividad,-,cm/s (rótulo de la Tabla 2; las hojas p.159-160 dan m/s),,,tabla resumen del memo,8
+G2010,B,Exoskarn Diópsido,Tabla 2 (resumen),,asentamiento_carga_directa_cm,5.1,cm,,,tabla resumen del memo,8
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),w_natural_pct,2.2,%,,muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_35""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_32""",95.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_30""",92.6,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_29""",91.6,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_26""",90.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_25""",89.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_24""",86.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_23""",85.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_22""",84.2,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_21""",82.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_20""",81.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_19""",80.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_18""",79.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_17""",78.2,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_16""",74.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_15""",71.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_14""",69.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_13""",68.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_12""",64.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_11""",61.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_10""",59.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_9""",57.2,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_8""",51.2,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_7""",47.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_6""",44.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_5""",40.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_4""",37.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3""",34.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_2""",26.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1 1/2""",23.2,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1""",20.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/4""",17.6,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/8""",13.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#4,11.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#10,9.6,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#20,8.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#30,7.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#40,7.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#60,6.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#100,4.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#140,3.6,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#200,2.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 02-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),w_natural_pct,2.4,%,,muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_35""",94.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_32""",94.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_30""",94.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_29""",94.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_26""",94.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_25""",94.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_24""",94.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_23""",93.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_22""",92.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_21""",91.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_20""",89.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_19""",88.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_18""",86.6,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_17""",85.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_16""",83.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_15""",81.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_14""",80.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_13""",80.2,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_12""",77.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_11""",74.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_10""",71.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_9""",66.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_8""",58.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_7""",54.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_6""",48.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_5""",42.2,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_4""",37.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3""",28.6,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_2""",20.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1 1/2""",15.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1""",11.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/4""",9.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/8""",5.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#4,3.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#10,2.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#20,1.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#30,1.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#40,1.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#60,1.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#100,1.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#140,0.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#200,0.88,% acumulado que pasa,,Fase A: antes del chancado; muestreo 06-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),w_natural_pct,3.8,%,,muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_35""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_32""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_30""",100,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_29""",96.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_26""",96.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_25""",94.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_24""",92.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_23""",91.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_22""",90.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_21""",89.2,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_20""",88.2,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_19""",87.6,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_18""",87.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_17""",85.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_16""",84.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_15""",83.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_14""",82.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_13""",81.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_12""",78.2,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_11""",76.2,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_10""",72.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_9""",69.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_8""",65.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_7""",58.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_6""",55.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_5""",50.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_4""",46.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3""",39.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_2""",27.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1 1/2""",22.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1""",17.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/4""",14.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/8""",10.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#4,8.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#10,6.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#20,5.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#30,4.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#40,4.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#60,3.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#100,2.6,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#140,2.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#200,1.6,% acumulado que pasa,,Fase A: antes del chancado; muestreo 07-Jul-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),w_natural_pct,3.1,%,,muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_35""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_32""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_30""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_29""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_26""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_25""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_24""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_23""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_22""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_21""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_20""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_19""",100.0,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_18""",98.6,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_17""",98.2,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_16""",97.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_15""",96.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_14""",95.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_13""",95.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_12""",95.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_11""",95.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_10""",94.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_9""",93.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_8""",92.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_7""",91.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_6""",88.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_5""",86.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_4""",83.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3""",79.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_2""",69.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1 1/2""",63.6,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1""",52.9,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/4""",46.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/8""",32.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#4,21.8,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#10,14.5,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#20,10.4,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#30,8.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#40,7.6,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#60,5.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#100,4.1,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#140,3.3,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,A,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#200,2.7,% acumulado que pasa,,Fase A: antes del chancado; muestreo 29-Ago-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),w_natural_pct,2.9,%,,muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_12""",100.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_11""",100.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_10""",99.2,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_9""",95.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_8""",92.1,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_7""",88.2,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_6""",84.5,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_5""",79.9,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_4""",71.2,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3""",66.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_2""",59.5,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1 1/2""",51.5,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1""",41.9,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/4""",37.1,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/8""",27.7,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#4,22.6,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#10,18.8,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#20,16.7,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#30,15.8,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#40,15.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#60,13.2,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#100,11.4,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#140,9.7,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Mármol Negro,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#200,7.2,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),w_natural_pct,2.3,%,,muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_12""",100.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_11""",100.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_10""",98.5,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_9""",94.5,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_8""",90.8,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_7""",87.2,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_6""",83.7,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_5""",79.9,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_4""",73.3,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3""",64.4,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_2""",53.6,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1 1/2""",45.4,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1""",31.3,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/4""",22.3,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/8""",11.8,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#4,8.1,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#10,6.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#20,4.9,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#30,4.5,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#40,4.2,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#60,3.7,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#100,3.4,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#140,3.2,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Hornfels Gris,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#200,2.7,% acumulado que pasa,,Fase B: después del chancado; muestreo 22-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),w_natural_pct,2.7,%,,muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_12""",100.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_11""",99.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_10""",95.5,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_9""",90.9,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_8""",88.5,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_7""",85.6,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_6""",82.9,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_5""",77.2,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_4""",72.4,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3""",65.3,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_2""",57.1,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1 1/2""",52.3,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1""",44.7,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/4""",40.4,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/8""",30.9,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#4,24.6,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#10,19.8,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#20,16.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#30,14.3,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#40,13.3,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#60,11.4,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#100,10.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#140,9.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Intrusivo,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#200,7.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),w_natural_pct,3.0,%,,muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_12""",100.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_11""",100.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_10""",100.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_9""",100.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_8""",99.1,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_7""",97.6,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_6""",96.4,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_5""",95.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_4""",93.4,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3""",89.3,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_2""",80.7,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1 1/2""",75.8,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_1""",66.9,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/4""",60.6,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),"pasa_3/8""",41.3,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#4,28.4,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#10,22.0,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#20,16.8,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#30,14.3,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#40,12.9,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#60,10.2,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#100,8.4,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#140,7.3,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,B,Exoskarn Diópsido,Tabla 1 granulometría de campo,ASTM D5519 (memo p.1),pasa_#200,5.4,% acumulado que pasa,,Fase B: después del chancado; muestreo 23-Sep-09,tabla resumen del memo,7
+G2010,A,Mármol Negro,Densidad in situ (reemplazo de agua),ASTM D5030,w_pct,2.4,%,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,35
+G2010,A,Mármol Negro,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_humeda,2.185,t/m3,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,35
+G2010,A,Mármol Negro,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_seca,2.135,t/m3,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,35
+G2010,A,Mármol Negro,Densidad in situ (reemplazo de agua),ASTM D5030,volumen_agua,571.7,L,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,35
+G2010,A,Mármol Negro,Densidad in situ (reemplazo de agua),ASTM D5030,peso_seco,1220,kg,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,35
+G2010,A,Hornfels Gris,Densidad in situ (reemplazo de agua),ASTM D5030,w_pct,1.44,%,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,36
+G2010,A,Hornfels Gris,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_humeda,2.055,t/m3,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,36
+G2010,A,Hornfels Gris,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_seca,2.026,t/m3,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,36
+G2010,A,Hornfels Gris,Densidad in situ (reemplazo de agua),ASTM D5030,volumen_agua,710.6,L,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,36
+G2010,A,Hornfels Gris,Densidad in situ (reemplazo de agua),ASTM D5030,peso_seco,1439,kg,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,36
+G2010,A,Intrusivo,Densidad in situ (reemplazo de agua),ASTM D5030,w_pct,3.5,%,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,37
+G2010,A,Intrusivo,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_humeda,1.931,t/m3,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,37
+G2010,A,Intrusivo,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_seca,1.865,t/m3,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,37
+G2010,A,Intrusivo,Densidad in situ (reemplazo de agua),ASTM D5030,volumen_agua,702.9,L,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,37
+G2010,A,Intrusivo,Densidad in situ (reemplazo de agua),ASTM D5030,peso_seco,1311,kg,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,37
+G2010,A,Exoskarn Diópsido,Densidad in situ (reemplazo de agua),ASTM D5030,w_pct,3.4,%,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,38
+G2010,A,Exoskarn Diópsido,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_humeda,2.350,t/m3,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,38
+G2010,A,Exoskarn Diópsido,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_seca,2.273,t/m3,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,38
+G2010,A,Exoskarn Diópsido,Densidad in situ (reemplazo de agua),ASTM D5030,volumen_agua,742.1,L,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,38
+G2010,A,Exoskarn Diópsido,Densidad in situ (reemplazo de agua),ASTM D5030,peso_seco,1687,kg,,hoja: 'Material Chancado Fase A'; parte baja chancadora secundaria,hoja de laboratorio,38
+G2010,B,Mármol Negro,Densidad in situ (reemplazo de agua),ASTM D5030,w_pct,2.3,%,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,39
+G2010,B,Mármol Negro,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_humeda,2.200,t/m3,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,39
+G2010,B,Mármol Negro,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_seca,2.151,t/m3,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,39
+G2010,B,Mármol Negro,Densidad in situ (reemplazo de agua),ASTM D5030,volumen_agua,380.5,L,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,39
+G2010,B,Mármol Negro,Densidad in situ (reemplazo de agua),ASTM D5030,peso_seco,818,kg,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,39
+G2010,B,Hornfels Gris,Densidad in situ (reemplazo de agua),ASTM D5030,w_pct,1.20,%,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,40
+G2010,B,Hornfels Gris,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_humeda,2.162,t/m3,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,40
+G2010,B,Hornfels Gris,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_seca,2.137,t/m3,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,40
+G2010,B,Hornfels Gris,Densidad in situ (reemplazo de agua),ASTM D5030,volumen_agua,487,L,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,40
+G2010,B,Hornfels Gris,Densidad in situ (reemplazo de agua),ASTM D5030,peso_seco,1041,kg,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,40
+G2010,B,Intrusivo,Densidad in situ (reemplazo de agua),ASTM D5030,w_pct,2.0,%,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,41
+G2010,B,Intrusivo,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_humeda,2.060,t/m3,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,41
+G2010,B,Intrusivo,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_seca,2.019,t/m3,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,41
+G2010,B,Intrusivo,Densidad in situ (reemplazo de agua),ASTM D5030,volumen_agua,762,L,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,41
+G2010,B,Intrusivo,Densidad in situ (reemplazo de agua),ASTM D5030,peso_seco,1539,kg,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,41
+G2010,B,Exoskarn Diópsido,Densidad in situ (reemplazo de agua),ASTM D5030,w_pct,2.6,%,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,42
+G2010,B,Exoskarn Diópsido,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_humeda,2.418,t/m3,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,42
+G2010,B,Exoskarn Diópsido,Densidad in situ (reemplazo de agua),ASTM D5030,densidad_seca,2.357,t/m3,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,42
+G2010,B,Exoskarn Diópsido,Densidad in situ (reemplazo de agua),ASTM D5030,volumen_agua,433,L,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,42
+G2010,B,Exoskarn Diópsido,Densidad in situ (reemplazo de agua),ASTM D5030,peso_seco,1020,kg,,hoja: 'Material Chancado Fase B'; parte baja chancadora secundaria,hoja de laboratorio,42
+G2010,A,Exoskarn Diópsido,Densidad mínima,ASTM D4254,densidad_minima,2.172,g/cm3,ensayo 1,"material pasante 5/8""",hoja de laboratorio,43
+G2010,A,Exoskarn Diópsido,Densidad máxima,ASTM D4253,densidad_maxima,2.617,g/cm3,ensayo 1,"material pasante 5/8""",hoja de laboratorio,43
+G2010,A,Exoskarn Diópsido,Densidad mínima,ASTM D4254,densidad_minima,2.176,g/cm3,ensayo 2,"material pasante 5/8""",hoja de laboratorio,43
+G2010,A,Exoskarn Diópsido,Densidad máxima,ASTM D4253,densidad_maxima,2.623,g/cm3,ensayo 2,"material pasante 5/8""",hoja de laboratorio,43
+G2010,A,Exoskarn Diópsido,Densidad mínima,ASTM D4254,densidad_minima,2.179,g/cm3,ensayo 3,"material pasante 5/8""",hoja de laboratorio,43
+G2010,A,Exoskarn Diópsido,Densidad máxima,ASTM D4253,densidad_maxima,2.622,g/cm3,ensayo 3,"material pasante 5/8""",hoja de laboratorio,43
+G2010,A,Exoskarn Diópsido,Densidad mínima,ASTM D4254,densidad_minima_promedio,2.175,g/cm3,promedio,"material pasante 5/8""",hoja de laboratorio,43
+G2010,A,Exoskarn Diópsido,Densidad máxima,ASTM D4253,densidad_maxima_promedio,2.621,g/cm3,promedio,"material pasante 5/8""",hoja de laboratorio,43
+G2010,B,Mármol Negro,Densidad mínima,ASTM D4254,densidad_minima,1.817,g/cm3,ensayo 1,"material pasante 5/8""",hoja de laboratorio,44
+G2010,B,Mármol Negro,Densidad máxima,ASTM D4253,densidad_maxima,2.235,g/cm3,ensayo 1,"material pasante 5/8""",hoja de laboratorio,44
+G2010,B,Mármol Negro,Densidad mínima,ASTM D4254,densidad_minima,1.825,g/cm3,ensayo 2,"material pasante 5/8""",hoja de laboratorio,44
+G2010,B,Mármol Negro,Densidad máxima,ASTM D4253,densidad_maxima,2.238,g/cm3,ensayo 2,"material pasante 5/8""",hoja de laboratorio,44
+G2010,B,Mármol Negro,Densidad mínima,ASTM D4254,densidad_minima,1.820,g/cm3,ensayo 3,"material pasante 5/8""",hoja de laboratorio,44
+G2010,B,Mármol Negro,Densidad máxima,ASTM D4253,densidad_maxima,2.236,g/cm3,ensayo 3,"material pasante 5/8""",hoja de laboratorio,44
+G2010,B,Mármol Negro,Densidad mínima,ASTM D4254,densidad_minima_promedio,1.821,g/cm3,promedio,"material pasante 5/8""",hoja de laboratorio,44
+G2010,B,Mármol Negro,Densidad máxima,ASTM D4253,densidad_maxima_promedio,2.236,g/cm3,promedio,"material pasante 5/8""",hoja de laboratorio,44
+G2010,B,Hornfels Gris,Densidad mínima,ASTM D4254,densidad_minima,1.869,g/cm3,ensayo 1,"material pasante 5/8""",hoja de laboratorio,45
+G2010,B,Hornfels Gris,Densidad máxima,ASTM D4253,densidad_maxima,2.308,g/cm3,ensayo 1,"material pasante 5/8""",hoja de laboratorio,45
+G2010,B,Hornfels Gris,Densidad mínima,ASTM D4254,densidad_minima,1.850,g/cm3,ensayo 2,"material pasante 5/8""",hoja de laboratorio,45
+G2010,B,Hornfels Gris,Densidad máxima,ASTM D4253,densidad_maxima,2.307,g/cm3,ensayo 2,"material pasante 5/8""",hoja de laboratorio,45
+G2010,B,Hornfels Gris,Densidad mínima,ASTM D4254,densidad_minima,1.864,g/cm3,ensayo 3,"material pasante 5/8""",hoja de laboratorio,45
+G2010,B,Hornfels Gris,Densidad máxima,ASTM D4253,densidad_maxima,2.309,g/cm3,ensayo 3,"material pasante 5/8""",hoja de laboratorio,45
+G2010,B,Hornfels Gris,Densidad mínima,ASTM D4254,densidad_minima_promedio,1.861,g/cm3,promedio,"material pasante 5/8""",hoja de laboratorio,45
+G2010,B,Hornfels Gris,Densidad máxima,ASTM D4253,densidad_maxima_promedio,2.308,g/cm3,promedio,"material pasante 5/8""",hoja de laboratorio,45
+G2010,B,Intrusivo,Densidad mínima,ASTM D4254,densidad_minima,1.838,g/cm3,ensayo 1,"material pasante 5/8""",hoja de laboratorio,46
+G2010,B,Intrusivo,Densidad máxima,ASTM D4253,densidad_maxima,2.233,g/cm3,ensayo 1,"material pasante 5/8""",hoja de laboratorio,46
+G2010,B,Intrusivo,Densidad mínima,ASTM D4254,densidad_minima,1.829,g/cm3,ensayo 2,"material pasante 5/8""",hoja de laboratorio,46
+G2010,B,Intrusivo,Densidad máxima,ASTM D4253,densidad_maxima,2.242,g/cm3,ensayo 2,"material pasante 5/8""",hoja de laboratorio,46
+G2010,B,Intrusivo,Densidad mínima,ASTM D4254,densidad_minima,1.831,g/cm3,ensayo 3,"material pasante 5/8""",hoja de laboratorio,46
+G2010,B,Intrusivo,Densidad máxima,ASTM D4253,densidad_maxima,2.237,g/cm3,ensayo 3,"material pasante 5/8""",hoja de laboratorio,46
+G2010,B,Intrusivo,Densidad mínima,ASTM D4254,densidad_minima_promedio,1.833,g/cm3,promedio,"material pasante 5/8""",hoja de laboratorio,46
+G2010,B,Intrusivo,Densidad máxima,ASTM D4253,densidad_maxima_promedio,2.237,g/cm3,promedio,"material pasante 5/8""",hoja de laboratorio,46
+G2010,B,Exoskarn Diópsido,Densidad mínima,ASTM D4254,densidad_minima,2.150,g/cm3,ensayo 1,"material pasante 5/8""",hoja de laboratorio,47
+G2010,B,Exoskarn Diópsido,Densidad máxima,ASTM D4253,densidad_maxima,2.642,g/cm3,ensayo 1,"material pasante 5/8""",hoja de laboratorio,47
+G2010,B,Exoskarn Diópsido,Densidad mínima,ASTM D4254,densidad_minima,2.164,g/cm3,ensayo 2,"material pasante 5/8""",hoja de laboratorio,47
+G2010,B,Exoskarn Diópsido,Densidad máxima,ASTM D4253,densidad_maxima,2.651,g/cm3,ensayo 2,"material pasante 5/8""",hoja de laboratorio,47
+G2010,B,Exoskarn Diópsido,Densidad mínima,ASTM D4254,densidad_minima,2.167,g/cm3,ensayo 3,"material pasante 5/8""",hoja de laboratorio,47
+G2010,B,Exoskarn Diópsido,Densidad máxima,ASTM D4253,densidad_maxima,2.648,g/cm3,ensayo 3,"material pasante 5/8""",hoja de laboratorio,47
+G2010,B,Exoskarn Diópsido,Densidad mínima,ASTM D4254,densidad_minima_promedio,2.161,g/cm3,promedio,"material pasante 5/8""",hoja de laboratorio,47
+G2010,B,Exoskarn Diópsido,Densidad máxima,ASTM D4253,densidad_maxima_promedio,2.647,g/cm3,promedio,"material pasante 5/8""",hoja de laboratorio,47
+G2010,A,Hornfels Gris,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_bulk_PEM,2.737,-,,,hoja de laboratorio,48
+G2010,A,Intrusivo,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_bulk_PEM,2.461,-,,,hoja de laboratorio,48
+G2010,A,Exoskarn Diópsido,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_bulk_PEM,3.212,-,,,hoja de laboratorio,48
+G2010,A,Mármol Negro,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_bulk_PEM,2.717,-,,,hoja de laboratorio,48
+G2010,A,Hornfels Gris,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_SSS,2.743,-,,,hoja de laboratorio,48
+G2010,A,Intrusivo,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_SSS,2.502,-,,,hoja de laboratorio,48
+G2010,A,Exoskarn Diópsido,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_SSS,3.259,-,,,hoja de laboratorio,48
+G2010,A,Mármol Negro,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_SSS,2.727,-,,,hoja de laboratorio,48
+G2010,A,Hornfels Gris,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_aparente_PEA,2.755,-,,,hoja de laboratorio,48
+G2010,A,Intrusivo,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_aparente_PEA,2.566,-,,,hoja de laboratorio,48
+G2010,A,Exoskarn Diópsido,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_aparente_PEA,3.368,-,,,hoja de laboratorio,48
+G2010,A,Mármol Negro,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_aparente_PEA,2.743,-,,,hoja de laboratorio,48
+G2010,A,Hornfels Gris,Gravedad específica y absorción agregado grueso,ASTM C127,absorcion,0.24,%,,,hoja de laboratorio,48
+G2010,A,Intrusivo,Gravedad específica y absorción agregado grueso,ASTM C127,absorcion,1.66,%,,,hoja de laboratorio,48
+G2010,A,Exoskarn Diópsido,Gravedad específica y absorción agregado grueso,ASTM C127,absorcion,1.44,%,,,hoja de laboratorio,48
+G2010,A,Mármol Negro,Gravedad específica y absorción agregado grueso,ASTM C127,absorcion,0.34,%,,,hoja de laboratorio,48
+G2010,B,Hornfels Gris,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_bulk_PEM,2.740,-,,,hoja de laboratorio,48
+G2010,B,Intrusivo,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_bulk_PEM,2.647,-,,,hoja de laboratorio,48
+G2010,B,Exoskarn Diópsido,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_bulk_PEM,3.102,-,,,hoja de laboratorio,48
+G2010,B,Mármol Negro,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_bulk_PEM,2.725,-,,,hoja de laboratorio,48
+G2010,B,Hornfels Gris,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_SSS,2.744,-,,,hoja de laboratorio,48
+G2010,B,Intrusivo,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_SSS,2.704,-,,,hoja de laboratorio,48
+G2010,B,Exoskarn Diópsido,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_SSS,3.142,-,,,hoja de laboratorio,48
+G2010,B,Mármol Negro,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_SSS,2.734,-,,,hoja de laboratorio,48
+G2010,B,Hornfels Gris,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_aparente_PEA,2.749,-,,,hoja de laboratorio,48
+G2010,B,Intrusivo,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_aparente_PEA,2.808,-,,,hoja de laboratorio,48
+G2010,B,Exoskarn Diópsido,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_aparente_PEA,3.233,-,,,hoja de laboratorio,48
+G2010,B,Mármol Negro,Gravedad específica y absorción agregado grueso,ASTM C127,Gs_aparente_PEA,2.750,-,,,hoja de laboratorio,48
+G2010,B,Hornfels Gris,Gravedad específica y absorción agregado grueso,ASTM C127,absorcion,0.12,%,,,hoja de laboratorio,48
+G2010,B,Intrusivo,Gravedad específica y absorción agregado grueso,ASTM C127,absorcion,2.17,%,,,hoja de laboratorio,48
+G2010,B,Exoskarn Diópsido,Gravedad específica y absorción agregado grueso,ASTM C127,absorcion,1.30,%,,,hoja de laboratorio,48
+G2010,B,Mármol Negro,Gravedad específica y absorción agregado grueso,ASTM C127,absorcion,0.33,%,,,hoja de laboratorio,48
+G2010,A,Hornfels Gris,Gravedad específica de sólidos,ASTM D854,Gs,2.791,-,,,hoja de laboratorio,49
+G2010,A,Intrusivo,Gravedad específica de sólidos,ASTM D854,Gs,2.674,-,,,hoja de laboratorio,49
+G2010,A,Exoskarn Diópsido,Gravedad específica de sólidos,ASTM D854,Gs,3.484,-,,,hoja de laboratorio,49
+G2010,A,Mármol Negro,Gravedad específica de sólidos,ASTM D854,Gs,2.763,-,,,hoja de laboratorio,49
+G2010,B,Hornfels Gris,Gravedad específica de sólidos,ASTM D854,Gs,2.802,-,,,hoja de laboratorio,49
+G2010,B,Intrusivo,Gravedad específica de sólidos,ASTM D854,Gs,2.742,-,,,hoja de laboratorio,49
+G2010,B,Exoskarn Diópsido,Gravedad específica de sólidos,ASTM D854,Gs,3.338,-,,,hoja de laboratorio,49
+G2010,B,Mármol Negro,Gravedad específica de sólidos,ASTM D854,Gs,2.747,-,,,hoja de laboratorio,49
+G2010,A,Mármol Negro,Abrasión Los Ángeles,ASTM C535,desgaste_1000_rev,62.1,%,,"peso inicial 10104 g, final 3834 g, perdido 6270 g",hoja de laboratorio,50
+G2010,A,Hornfels Gris,Abrasión Los Ángeles,ASTM C535,desgaste_1000_rev,23.7,%,,"peso inicial 10138 g, final 7738 g, perdido 2400 g",hoja de laboratorio,51
+G2010,A,Intrusivo,Abrasión Los Ángeles,ASTM C535,desgaste_1000_rev,49.8,%,,"peso inicial 10002 g, final 5024 g, perdido 4978 g",hoja de laboratorio,52
+G2010,A,Exoskarn Diópsido,Abrasión Los Ángeles,ASTM C535,desgaste_1000_rev,37.0,%,,"peso inicial 10110 g, final 6367 g, perdido 3743 g",hoja de laboratorio,53
+G2010,B,Mármol Negro,Abrasión Los Ángeles,ASTM C535,desgaste_1000_rev,62.4,%,,"peso inicial 10039 g, final 3776 g, perdido 6263 g",hoja de laboratorio,54
+G2010,B,Hornfels Gris,Abrasión Los Ángeles,ASTM C535,desgaste_1000_rev,20.3,%,,"peso inicial 10018 g, final 7980 g, perdido 2038 g",hoja de laboratorio,55
+G2010,B,Intrusivo,Abrasión Los Ángeles,ASTM C535,desgaste_1000_rev,32.2,%,,"peso inicial 10035 g, final 6805 g, perdido 3230 g",hoja de laboratorio,56
+G2010,B,Exoskarn Diópsido,Abrasión Los Ángeles,ASTM C535,desgaste_1000_rev,27.6,%,,"peso inicial 9999 g, final 7241 g, perdido 2758 g",hoja de laboratorio,57
+G2010,A,Mármol Negro,Durabilidad (inalterabilidad sulfato de magnesio),ASTM C88,perdida_corregida_total,43.4,%,,,hoja de laboratorio,58
+G2010,A,Hornfels Gris,Durabilidad (inalterabilidad sulfato de magnesio),ASTM C88,perdida_corregida_total,0.7,%,,,hoja de laboratorio,59
+G2010,A,Intrusivo,Durabilidad (inalterabilidad sulfato de magnesio),ASTM C88,perdida_corregida_total,33.4,%,,,hoja de laboratorio,60
+G2010,A,Exoskarn Diópsido,Durabilidad (inalterabilidad sulfato de magnesio),ASTM C88,perdida_corregida_total,5.9,%,,,hoja de laboratorio,61
+G2010,B,Mármol Negro,Durabilidad (inalterabilidad sulfato de magnesio),ASTM C88,perdida_corregida_total,49.8,%,,,hoja de laboratorio,62
+G2010,B,Hornfels Gris,Durabilidad (inalterabilidad sulfato de magnesio),ASTM C88,perdida_corregida_total,0.6,%,,,hoja de laboratorio,63
+G2010,B,Intrusivo,Durabilidad (inalterabilidad sulfato de magnesio),ASTM C88,perdida_corregida_total,18.6,%,,,hoja de laboratorio,64
+G2010,B,Exoskarn Diópsido,Durabilidad (inalterabilidad sulfato de magnesio),ASTM C88,perdida_corregida_total,6.7,%,,,hoja de laboratorio,65
+G2010,A,Mármol Negro,Compresión uniaxial simple,ASTM D2938,sigma_c,41.0,MPa,probeta 1,D=4.57 cm; L=8.92 cm; L/D=1.95; factor=1.00; carga=6870 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,66
+G2010,A,Mármol Negro,Compresión uniaxial simple,ASTM D2938,sigma_c,48.3,MPa,probeta 2,D=4.58 cm; L=8.95 cm; L/D=1.95; factor=1.00; carga=8140 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,66
+G2010,A,Hornfels Gris,Compresión uniaxial simple,ASTM D2938,sigma_c,46.8,MPa,probeta 1,D=4.61 cm; L=9.12 cm; L/D=1.98; factor=1.00; carga=7980 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,67
+G2010,A,Hornfels Gris,Compresión uniaxial simple,ASTM D2938,sigma_c,51.6,MPa,probeta 2,D=4.58 cm; L=9.13 cm; L/D=1.99; factor=1.00; carga=8670 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,67
+G2010,A,Intrusivo,Compresión uniaxial simple,ASTM D2938,sigma_c,48.4,MPa,probeta 1,D=4.57 cm; L=9.30 cm; L/D=2.04; factor=1.00; carga=8080 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,68
+G2010,A,Intrusivo,Compresión uniaxial simple,ASTM D2938,sigma_c,45.1,MPa,probeta 2,D=4.60 cm; L=9.16 cm; L/D=1.99; factor=1.00; carga=7640 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,68
+G2010,A,Exoskarn Diópsido,Compresión uniaxial simple,ASTM D2938,sigma_c,79.3,MPa,probeta 1,D=4.56 cm; L=10.02 cm; L/D=2.20; factor=1.01; carga=13050 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,69
+G2010,A,Exoskarn Diópsido,Compresión uniaxial simple,ASTM D2938,sigma_c,67.3,MPa,probeta 2,D=4.57 cm; L=10.10 cm; L/D=2.21; factor=1.01; carga=11120 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,69
+G2010,B,Mármol Negro,Compresión uniaxial simple,ASTM D2938,sigma_c,41.5,MPa,probeta 1,D=4.55 cm; L=8.96 cm; L/D=1.97; factor=1.00; carga=6900 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,70
+G2010,B,Mármol Negro,Compresión uniaxial simple,ASTM D2938,sigma_c,57.7,MPa,probeta 2,D=4.59 cm; L=8.94 cm; L/D=1.95; factor=1.00; carga=9770 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,70
+G2010,B,Hornfels Gris,Compresión uniaxial simple,ASTM D2938,sigma_c,62.6,MPa,probeta 1,D=4.60 cm; L=9.20 cm; L/D=2.00; factor=1.00; carga=10600 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,71
+G2010,B,Hornfels Gris,Compresión uniaxial simple,ASTM D2938,sigma_c,68.3,MPa,probeta 2,D=4.59 cm; L=9.34 cm; L/D=2.03; factor=1.00; carga=11500 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,71
+G2010,B,Intrusivo,Compresión uniaxial simple,ASTM D2938,sigma_c,56.1,MPa,probeta 1,D=4.49 cm; L=9.33 cm; L/D=2.08; factor=1.00; carga=9020 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,72
+G2010,B,Intrusivo,Compresión uniaxial simple,ASTM D2938,sigma_c,51.8,MPa,probeta 2,D=4.53 cm; L=9.39 cm; L/D=2.07; factor=1.00; carga=8480 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,72
+G2010,B,Exoskarn Diópsido,Compresión uniaxial simple,ASTM D2938,sigma_c,101.7,MPa,probeta 1,D=4.54 cm; L=9.46 cm; L/D=2.08; factor=1.01; carga=16690 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,73
+G2010,B,Exoskarn Diópsido,Compresión uniaxial simple,ASTM D2938,sigma_c,93.1,MPa,probeta 2,D=4.61 cm; L=9.45 cm; L/D=2.05; factor=1.00; carga=15800 kgf; σc estandarizada (Protodyakonov),hoja de laboratorio,73
+G2010,A,Mármol Negro,Carga puntual,ASTM D5731,Is,13.5,kg/cm2,M-1,"carga axial, falla L; D=45.80 mm; H=41.40 mm; A/D=0.90; De2=2414 mm2; P=325 kg",hoja de laboratorio,74
+G2010,A,Mármol Negro,Carga puntual,ASTM D5731,Is50,13.4,kg/cm2,M-1,"carga axial, falla L; D=45.80 mm; H=41.40 mm; A/D=0.90; De2=2414 mm2; P=325 kg",hoja de laboratorio,74
+G2010,A,Mármol Negro,Carga puntual,ASTM D5731,sigma_c_estimada,321,kg/cm2,M-1,"carga axial, falla L; D=45.80 mm; H=41.40 mm; A/D=0.90; De2=2414 mm2; P=325 kg",hoja de laboratorio,74
+G2010,A,Mármol Negro,Carga puntual,ASTM D5731,Is,15.7,kg/cm2,M-2,"carga axial, falla L; D=45.80 mm; H=38.30 mm; A/D=0.84; De2=2233 mm2; P=350 kg",hoja de laboratorio,74
+G2010,A,Mármol Negro,Carga puntual,ASTM D5731,Is50,15.3,kg/cm2,M-2,"carga axial, falla L; D=45.80 mm; H=38.30 mm; A/D=0.84; De2=2233 mm2; P=350 kg",hoja de laboratorio,74
+G2010,A,Mármol Negro,Carga puntual,ASTM D5731,sigma_c_estimada,367,kg/cm2,M-2,"carga axial, falla L; D=45.80 mm; H=38.30 mm; A/D=0.84; De2=2233 mm2; P=350 kg",hoja de laboratorio,74
+G2010,A,Mármol Negro,Carga puntual,ASTM D5731,Is,12.8,kg/cm2,M-3,"carga axial, falla L; D=45.80 mm; H=41.10 mm; A/D=0.90; De2=2397 mm2; P=306 kg",hoja de laboratorio,74
+G2010,A,Mármol Negro,Carga puntual,ASTM D5731,Is50,12.6,kg/cm2,M-3,"carga axial, falla L; D=45.80 mm; H=41.10 mm; A/D=0.90; De2=2397 mm2; P=306 kg",hoja de laboratorio,74
+G2010,A,Mármol Negro,Carga puntual,ASTM D5731,sigma_c_estimada,304,kg/cm2,M-3,"carga axial, falla L; D=45.80 mm; H=41.10 mm; A/D=0.90; De2=2397 mm2; P=306 kg",hoja de laboratorio,74
+G2010,A,Mármol Negro,Carga puntual,ASTM D5731,Is,13.4,kg/cm2,M-4,"carga axial, falla L; D=45.80 mm; H=44.50 mm; A/D=0.97; De2=2595 mm2; P=347 kg",hoja de laboratorio,74
+G2010,A,Mármol Negro,Carga puntual,ASTM D5731,Is50,13.5,kg/cm2,M-4,"carga axial, falla L; D=45.80 mm; H=44.50 mm; A/D=0.97; De2=2595 mm2; P=347 kg",hoja de laboratorio,74
+G2010,A,Mármol Negro,Carga puntual,ASTM D5731,sigma_c_estimada,323,kg/cm2,M-4,"carga axial, falla L; D=45.80 mm; H=44.50 mm; A/D=0.97; De2=2595 mm2; P=347 kg",hoja de laboratorio,74
+G2010,A,Hornfels Gris,Carga puntual,ASTM D5731,Is,29.4,kg/cm2,M-1,"carga axial, falla L; D=45.90 mm; H=37.80 mm; A/D=0.82; De2=2209 mm2; P=649 kg",hoja de laboratorio,75
+G2010,A,Hornfels Gris,Carga puntual,ASTM D5731,Is50,28.6,kg/cm2,M-1,"carga axial, falla L; D=45.90 mm; H=37.80 mm; A/D=0.82; De2=2209 mm2; P=649 kg",hoja de laboratorio,75
+G2010,A,Hornfels Gris,Carga puntual,ASTM D5731,sigma_c_estimada,685,kg/cm2,M-1,"carga axial, falla L; D=45.90 mm; H=37.80 mm; A/D=0.82; De2=2209 mm2; P=649 kg",hoja de laboratorio,75
+G2010,A,Hornfels Gris,Carga puntual,ASTM D5731,Is,35.6,kg/cm2,M-2,"carga axial, falla L; D=45.80 mm; H=38.90 mm; A/D=0.85; De2=2268 mm2; P=806 kg",hoja de laboratorio,75
+G2010,A,Hornfels Gris,Carga puntual,ASTM D5731,Is50,34.8,kg/cm2,M-2,"carga axial, falla L; D=45.80 mm; H=38.90 mm; A/D=0.85; De2=2268 mm2; P=806 kg",hoja de laboratorio,75
+G2010,A,Hornfels Gris,Carga puntual,ASTM D5731,sigma_c_estimada,835,kg/cm2,M-2,"carga axial, falla L; D=45.80 mm; H=38.90 mm; A/D=0.85; De2=2268 mm2; P=806 kg",hoja de laboratorio,75
+G2010,A,Hornfels Gris,Carga puntual,ASTM D5731,Is,30.5,kg/cm2,M-3,"carga axial, falla L; D=45.90 mm; H=41.20 mm; A/D=0.90; De2=2408 mm2; P=735 kg",hoja de laboratorio,75
+G2010,A,Hornfels Gris,Carga puntual,ASTM D5731,Is50,30.3,kg/cm2,M-3,"carga axial, falla L; D=45.90 mm; H=41.20 mm; A/D=0.90; De2=2408 mm2; P=735 kg",hoja de laboratorio,75
+G2010,A,Hornfels Gris,Carga puntual,ASTM D5731,sigma_c_estimada,726,kg/cm2,M-3,"carga axial, falla L; D=45.90 mm; H=41.20 mm; A/D=0.90; De2=2408 mm2; P=735 kg",hoja de laboratorio,75
+G2010,A,Hornfels Gris,Carga puntual,ASTM D5731,Is,30.0,kg/cm2,M-4,"carga axial, falla L; D=45.90 mm; H=46.00 mm; A/D=1.00; De2=2688 mm2; P=805 kg",hoja de laboratorio,75
+G2010,A,Hornfels Gris,Carga puntual,ASTM D5731,Is50,30.5,kg/cm2,M-4,"carga axial, falla L; D=45.90 mm; H=46.00 mm; A/D=1.00; De2=2688 mm2; P=805 kg",hoja de laboratorio,75
+G2010,A,Hornfels Gris,Carga puntual,ASTM D5731,sigma_c_estimada,731,kg/cm2,M-4,"carga axial, falla L; D=45.90 mm; H=46.00 mm; A/D=1.00; De2=2688 mm2; P=805 kg",hoja de laboratorio,75
+G2010,A,Intrusivo,Carga puntual,ASTM D5731,Is,37.3,kg/cm2,M-1,"carga axial, falla L; D=45.90 mm; H=38.70 mm; A/D=0.84; De2=2262 mm2; P=844 kg",hoja de laboratorio,76
+G2010,A,Intrusivo,Carga puntual,ASTM D5731,Is50,36.5,kg/cm2,M-1,"carga axial, falla L; D=45.90 mm; H=38.70 mm; A/D=0.84; De2=2262 mm2; P=844 kg",hoja de laboratorio,76
+G2010,A,Intrusivo,Carga puntual,ASTM D5731,sigma_c_estimada,875,kg/cm2,M-1,"carga axial, falla L; D=45.90 mm; H=38.70 mm; A/D=0.84; De2=2262 mm2; P=844 kg",hoja de laboratorio,76
+G2010,A,Intrusivo,Carga puntual,ASTM D5731,Is,34.7,kg/cm2,M-2,"carga axial, falla L; D=45.90 mm; H=43.10 mm; A/D=0.94; De2=2519 mm2; P=873 kg",hoja de laboratorio,76
+G2010,A,Intrusivo,Carga puntual,ASTM D5731,Is50,34.7,kg/cm2,M-2,"carga axial, falla L; D=45.90 mm; H=43.10 mm; A/D=0.94; De2=2519 mm2; P=873 kg",hoja de laboratorio,76
+G2010,A,Intrusivo,Carga puntual,ASTM D5731,sigma_c_estimada,833,kg/cm2,M-2,"carga axial, falla L; D=45.90 mm; H=43.10 mm; A/D=0.94; De2=2519 mm2; P=873 kg",hoja de laboratorio,76
+G2010,A,Intrusivo,Carga puntual,ASTM D5731,Is,28.5,kg/cm2,M-3,"carga axial, falla L; D=45.70 mm; H=42.20 mm; A/D=0.92; De2=2455 mm2; P=701 kg",hoja de laboratorio,76
+G2010,A,Intrusivo,Carga puntual,ASTM D5731,Is50,28.4,kg/cm2,M-3,"carga axial, falla L; D=45.70 mm; H=42.20 mm; A/D=0.92; De2=2455 mm2; P=701 kg",hoja de laboratorio,76
+G2010,A,Intrusivo,Carga puntual,ASTM D5731,sigma_c_estimada,682,kg/cm2,M-3,"carga axial, falla L; D=45.70 mm; H=42.20 mm; A/D=0.92; De2=2455 mm2; P=701 kg",hoja de laboratorio,76
+G2010,A,Intrusivo,Carga puntual,ASTM D5731,Is,38.1,kg/cm2,M-4,"carga axial, falla L; D=45.90 mm; H=39.00 mm; A/D=0.85; De2=2279 mm2; P=869 kg",hoja de laboratorio,76
+G2010,A,Intrusivo,Carga puntual,ASTM D5731,Is50,37.3,kg/cm2,M-4,"carga axial, falla L; D=45.90 mm; H=39.00 mm; A/D=0.85; De2=2279 mm2; P=869 kg",hoja de laboratorio,76
+G2010,A,Intrusivo,Carga puntual,ASTM D5731,sigma_c_estimada,896,kg/cm2,M-4,"carga axial, falla L; D=45.90 mm; H=39.00 mm; A/D=0.85; De2=2279 mm2; P=869 kg",hoja de laboratorio,76
+G2010,A,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is,26.0,kg/cm2,M-1,"carga axial, falla L; D=45.70 mm; H=50.00 mm; A/D=1.09; De2=2909 mm2; P=756 kg",hoja de laboratorio,77
+G2010,A,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is50,26.9,kg/cm2,M-1,"carga axial, falla L; D=45.70 mm; H=50.00 mm; A/D=1.09; De2=2909 mm2; P=756 kg",hoja de laboratorio,77
+G2010,A,Exoskarn Diópsido,Carga puntual,ASTM D5731,sigma_c_estimada,645,kg/cm2,M-1,"carga axial, falla L; D=45.70 mm; H=50.00 mm; A/D=1.09; De2=2909 mm2; P=756 kg",hoja de laboratorio,77
+G2010,A,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is,26.8,kg/cm2,M-2,"carga axial, falla L; D=45.60 mm; H=47.70 mm; A/D=1.05; De2=2769 mm2; P=742 kg",hoja de laboratorio,77
+G2010,A,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is50,27.4,kg/cm2,M-2,"carga axial, falla L; D=45.60 mm; H=47.70 mm; A/D=1.05; De2=2769 mm2; P=742 kg",hoja de laboratorio,77
+G2010,A,Exoskarn Diópsido,Carga puntual,ASTM D5731,sigma_c_estimada,658,kg/cm2,M-2,"carga axial, falla L; D=45.60 mm; H=47.70 mm; A/D=1.05; De2=2769 mm2; P=742 kg",hoja de laboratorio,77
+G2010,A,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is,32.1,kg/cm2,M-3,"carga axial, falla L; D=45.70 mm; H=48.30 mm; A/D=1.06; De2=2810 mm2; P=902 kg",hoja de laboratorio,77
+G2010,A,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is50,33.0,kg/cm2,M-3,"carga axial, falla L; D=45.70 mm; H=48.30 mm; A/D=1.06; De2=2810 mm2; P=902 kg",hoja de laboratorio,77
+G2010,A,Exoskarn Diópsido,Carga puntual,ASTM D5731,sigma_c_estimada,791,kg/cm2,M-3,"carga axial, falla L; D=45.70 mm; H=48.30 mm; A/D=1.06; De2=2810 mm2; P=902 kg",hoja de laboratorio,77
+G2010,A,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is,27.2,kg/cm2,M-4,"carga axial, falla L; D=45.80 mm; H=48.60 mm; A/D=1.06; De2=2834 mm2; P=770 kg",hoja de laboratorio,77
+G2010,A,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is50,27.9,kg/cm2,M-4,"carga axial, falla L; D=45.80 mm; H=48.60 mm; A/D=1.06; De2=2834 mm2; P=770 kg",hoja de laboratorio,77
+G2010,A,Exoskarn Diópsido,Carga puntual,ASTM D5731,sigma_c_estimada,671,kg/cm2,M-4,"carga axial, falla L; D=45.80 mm; H=48.60 mm; A/D=1.06; De2=2834 mm2; P=770 kg",hoja de laboratorio,77
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is,11.4,kg/cm2,M-1,"carga axial, falla L; D=45.60 mm; H=41.90 mm; A/D=0.92; De2=2433 mm2; P=279 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is50,11.4,kg/cm2,M-1,"carga axial, falla L; D=45.60 mm; H=41.90 mm; A/D=0.92; De2=2433 mm2; P=279 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,sigma_c_estimada,273,kg/cm2,M-1,"carga axial, falla L; D=45.60 mm; H=41.90 mm; A/D=0.92; De2=2433 mm2; P=279 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is,9.6,kg/cm2,M-2,"carga axial, falla L; D=46.00 mm; H=43.40 mm; A/D=0.94; De2=2542 mm2; P=244 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is50,9.6,kg/cm2,M-2,"carga axial, falla L; D=46.00 mm; H=43.40 mm; A/D=0.94; De2=2542 mm2; P=244 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,sigma_c_estimada,231,kg/cm2,M-2,"carga axial, falla L; D=46.00 mm; H=43.40 mm; A/D=0.94; De2=2542 mm2; P=244 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is,8.8,kg/cm2,M-3,"carga axial, falla L; D=45.70 mm; H=44.90 mm; A/D=0.98; De2=2613 mm2; P=229 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is50,8.8,kg/cm2,M-3,"carga axial, falla L; D=45.70 mm; H=44.90 mm; A/D=0.98; De2=2613 mm2; P=229 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,sigma_c_estimada,212,kg/cm2,M-3,"carga axial, falla L; D=45.70 mm; H=44.90 mm; A/D=0.98; De2=2613 mm2; P=229 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is,10.3,kg/cm2,M-4,"carga axial, falla L; D=46.00 mm; H=43.60 mm; A/D=0.95; De2=2554 mm2; P=262 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is50,10.3,kg/cm2,M-4,"carga axial, falla L; D=46.00 mm; H=43.60 mm; A/D=0.95; De2=2554 mm2; P=262 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,sigma_c_estimada,248,kg/cm2,M-4,"carga axial, falla L; D=46.00 mm; H=43.60 mm; A/D=0.95; De2=2554 mm2; P=262 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is,11.1,kg/cm2,M-5,"carga axial, falla L; D=46.00 mm; H=38.40 mm; A/D=0.83; De2=2249 mm2; P=250 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is50,10.8,kg/cm2,M-5,"carga axial, falla L; D=46.00 mm; H=38.40 mm; A/D=0.83; De2=2249 mm2; P=250 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,sigma_c_estimada,260,kg/cm2,M-5,"carga axial, falla L; D=46.00 mm; H=38.40 mm; A/D=0.83; De2=2249 mm2; P=250 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is,12.1,kg/cm2,M-6,"carga axial, falla L; D=46.00 mm; H=41.20 mm; A/D=0.90; De2=2413 mm2; P=293 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is50,12.0,kg/cm2,M-6,"carga axial, falla L; D=46.00 mm; H=41.20 mm; A/D=0.90; De2=2413 mm2; P=293 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,sigma_c_estimada,289,kg/cm2,M-6,"carga axial, falla L; D=46.00 mm; H=41.20 mm; A/D=0.90; De2=2413 mm2; P=293 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is,9.6,kg/cm2,M-7,"carga axial, falla L; D=45.80 mm; H=40.20 mm; A/D=0.88; De2=2344 mm2; P=226 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is50,9.5,kg/cm2,M-7,"carga axial, falla L; D=45.80 mm; H=40.20 mm; A/D=0.88; De2=2344 mm2; P=226 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,sigma_c_estimada,228,kg/cm2,M-7,"carga axial, falla L; D=45.80 mm; H=40.20 mm; A/D=0.88; De2=2344 mm2; P=226 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is,10.9,kg/cm2,M-8,"carga axial, falla L; D=45.60 mm; H=43.60 mm; A/D=0.96; De2=2531 mm2; P=277 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,Is50,11.0,kg/cm2,M-8,"carga axial, falla L; D=45.60 mm; H=43.60 mm; A/D=0.96; De2=2531 mm2; P=277 kg",hoja de laboratorio,78
+G2010,B,Mármol Negro,Carga puntual,ASTM D5731,sigma_c_estimada,263,kg/cm2,M-8,"carga axial, falla L; D=45.60 mm; H=43.60 mm; A/D=0.96; De2=2531 mm2; P=277 kg",hoja de laboratorio,78
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is,37.0,kg/cm2,M-1,"carga axial, falla L; D=46.00 mm; H=43.20 mm; A/D=0.94; De2=2530 mm2; P=937 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is50,37.1,kg/cm2,M-1,"carga axial, falla L; D=46.00 mm; H=43.20 mm; A/D=0.94; De2=2530 mm2; P=937 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,sigma_c_estimada,892,kg/cm2,M-1,"carga axial, falla L; D=46.00 mm; H=43.20 mm; A/D=0.94; De2=2530 mm2; P=937 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is,48.9,kg/cm2,M-2,"carga axial, falla L; D=46.00 mm; H=42.80 mm; A/D=0.93; De2=2507 mm2; P=1226 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is50,48.9,kg/cm2,M-2,"carga axial, falla L; D=46.00 mm; H=42.80 mm; A/D=0.93; De2=2507 mm2; P=1226 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,sigma_c_estimada,1175,kg/cm2,M-2,"carga axial, falla L; D=46.00 mm; H=42.80 mm; A/D=0.93; De2=2507 mm2; P=1226 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is,35.7,kg/cm2,M-3,"carga axial, falla L; D=46.00 mm; H=44.50 mm; A/D=0.97; De2=2606 mm2; P=930 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is50,36.0,kg/cm2,M-3,"carga axial, falla L; D=46.00 mm; H=44.50 mm; A/D=0.97; De2=2606 mm2; P=930 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,sigma_c_estimada,864,kg/cm2,M-3,"carga axial, falla L; D=46.00 mm; H=44.50 mm; A/D=0.97; De2=2606 mm2; P=930 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is,45.4,kg/cm2,M-4,"carga axial, falla L; D=46.00 mm; H=44.00 mm; A/D=0.96; De2=2577 mm2; P=1171 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is50,45.7,kg/cm2,M-4,"carga axial, falla L; D=46.00 mm; H=44.00 mm; A/D=0.96; De2=2577 mm2; P=1171 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,sigma_c_estimada,1098,kg/cm2,M-4,"carga axial, falla L; D=46.00 mm; H=44.00 mm; A/D=0.96; De2=2577 mm2; P=1171 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is,48.3,kg/cm2,M-5,"carga axial, falla L; D=46.00 mm; H=44.00 mm; A/D=0.96; De2=2577 mm2; P=1244 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is50,48.6,kg/cm2,M-5,"carga axial, falla L; D=46.00 mm; H=44.00 mm; A/D=0.96; De2=2577 mm2; P=1244 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,sigma_c_estimada,1166,kg/cm2,M-5,"carga axial, falla L; D=46.00 mm; H=44.00 mm; A/D=0.96; De2=2577 mm2; P=1244 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is,43.0,kg/cm2,M-6,"carga axial, falla L; D=46.00 mm; H=45.00 mm; A/D=0.98; De2=2636 mm2; P=1133 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is50,43.5,kg/cm2,M-6,"carga axial, falla L; D=46.00 mm; H=45.00 mm; A/D=0.98; De2=2636 mm2; P=1133 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,sigma_c_estimada,1044,kg/cm2,M-6,"carga axial, falla L; D=46.00 mm; H=45.00 mm; A/D=0.98; De2=2636 mm2; P=1133 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is,40.8,kg/cm2,M-7,"carga axial, falla L; D=45.90 mm; H=44.30 mm; A/D=0.97; De2=2589 mm2; P=1056 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is50,41.1,kg/cm2,M-7,"carga axial, falla L; D=45.90 mm; H=44.30 mm; A/D=0.97; De2=2589 mm2; P=1056 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,sigma_c_estimada,987,kg/cm2,M-7,"carga axial, falla L; D=45.90 mm; H=44.30 mm; A/D=0.97; De2=2589 mm2; P=1056 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is,40.0,kg/cm2,M-8,"carga axial, falla L; D=45.90 mm; H=44.20 mm; A/D=0.96; De2=2583 mm2; P=1032 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,Is50,40.3,kg/cm2,M-8,"carga axial, falla L; D=45.90 mm; H=44.20 mm; A/D=0.96; De2=2583 mm2; P=1032 kg",hoja de laboratorio,79
+G2010,B,Hornfels Gris,Carga puntual,ASTM D5731,sigma_c_estimada,966,kg/cm2,M-8,"carga axial, falla L; D=45.90 mm; H=44.20 mm; A/D=0.96; De2=2583 mm2; P=1032 kg",hoja de laboratorio,79
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is,28.8,kg/cm2,M-1,"carga axial, falla L; D=46.00 mm; H=43.00 mm; A/D=0.93; De2=2518 mm2; P=724 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is50,28.8,kg/cm2,M-1,"carga axial, falla L; D=46.00 mm; H=43.00 mm; A/D=0.93; De2=2518 mm2; P=724 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,sigma_c_estimada,691,kg/cm2,M-1,"carga axial, falla L; D=46.00 mm; H=43.00 mm; A/D=0.93; De2=2518 mm2; P=724 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is,35.2,kg/cm2,M-2,"carga axial, falla L; D=45.90 mm; H=43.40 mm; A/D=0.95; De2=2536 mm2; P=892 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is50,35.3,kg/cm2,M-2,"carga axial, falla L; D=45.90 mm; H=43.40 mm; A/D=0.95; De2=2536 mm2; P=892 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,sigma_c_estimada,846,kg/cm2,M-2,"carga axial, falla L; D=45.90 mm; H=43.40 mm; A/D=0.95; De2=2536 mm2; P=892 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is,33.9,kg/cm2,M-3,"carga axial, falla L; D=46.00 mm; H=42.90 mm; A/D=0.93; De2=2513 mm2; P=852 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is50,33.9,kg/cm2,M-3,"carga axial, falla L; D=46.00 mm; H=42.90 mm; A/D=0.93; De2=2513 mm2; P=852 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,sigma_c_estimada,815,kg/cm2,M-3,"carga axial, falla L; D=46.00 mm; H=42.90 mm; A/D=0.93; De2=2513 mm2; P=852 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is,33.7,kg/cm2,M-4,"carga axial, falla L; D=46.00 mm; H=44.30 mm; A/D=0.96; De2=2595 mm2; P=874 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is50,34.0,kg/cm2,M-4,"carga axial, falla L; D=46.00 mm; H=44.30 mm; A/D=0.96; De2=2595 mm2; P=874 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,sigma_c_estimada,815,kg/cm2,M-4,"carga axial, falla L; D=46.00 mm; H=44.30 mm; A/D=0.96; De2=2595 mm2; P=874 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is,33.4,kg/cm2,M-5,"carga axial, falla L; D=46.00 mm; H=43.00 mm; A/D=0.93; De2=2518 mm2; P=841 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is50,33.5,kg/cm2,M-5,"carga axial, falla L; D=46.00 mm; H=43.00 mm; A/D=0.93; De2=2518 mm2; P=841 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,sigma_c_estimada,803,kg/cm2,M-5,"carga axial, falla L; D=46.00 mm; H=43.00 mm; A/D=0.93; De2=2518 mm2; P=841 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is,26.3,kg/cm2,M-6,"carga axial, falla L; D=46.00 mm; H=45.30 mm; A/D=0.98; De2=2653 mm2; P=698 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is50,26.6,kg/cm2,M-6,"carga axial, falla L; D=46.00 mm; H=45.30 mm; A/D=0.98; De2=2653 mm2; P=698 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,sigma_c_estimada,640,kg/cm2,M-6,"carga axial, falla L; D=46.00 mm; H=45.30 mm; A/D=0.98; De2=2653 mm2; P=698 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is,34.2,kg/cm2,M-7,"carga axial, falla L; D=46.00 mm; H=44.90 mm; A/D=0.98; De2=2630 mm2; P=900 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is50,34.6,kg/cm2,M-7,"carga axial, falla L; D=46.00 mm; H=44.90 mm; A/D=0.98; De2=2630 mm2; P=900 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,sigma_c_estimada,831,kg/cm2,M-7,"carga axial, falla L; D=46.00 mm; H=44.90 mm; A/D=0.98; De2=2630 mm2; P=900 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is,34.4,kg/cm2,M-8,"carga axial, falla L; D=46.00 mm; H=45.50 mm; A/D=0.99; De2=2665 mm2; P=917 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,Is50,34.9,kg/cm2,M-8,"carga axial, falla L; D=46.00 mm; H=45.50 mm; A/D=0.99; De2=2665 mm2; P=917 kg",hoja de laboratorio,80
+G2010,B,Intrusivo,Carga puntual,ASTM D5731,sigma_c_estimada,838,kg/cm2,M-8,"carga axial, falla L; D=46.00 mm; H=45.50 mm; A/D=0.99; De2=2665 mm2; P=917 kg",hoja de laboratorio,80
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is,57.0,kg/cm2,M-1,"carga axial, falla L; D=46.00 mm; H=42.00 mm; A/D=0.91; De2=2460 mm2; P=1403 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is50,56.8,kg/cm2,M-1,"carga axial, falla L; D=46.00 mm; H=42.00 mm; A/D=0.91; De2=2460 mm2; P=1403 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,sigma_c_estimada,1364,kg/cm2,M-1,"carga axial, falla L; D=46.00 mm; H=42.00 mm; A/D=0.91; De2=2460 mm2; P=1403 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is,53.7,kg/cm2,M-2,"carga axial, falla L; D=45.90 mm; H=42.00 mm; A/D=0.92; De2=2455 mm2; P=1318 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is50,53.5,kg/cm2,M-2,"carga axial, falla L; D=45.90 mm; H=42.00 mm; A/D=0.92; De2=2455 mm2; P=1318 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,sigma_c_estimada,1283,kg/cm2,M-2,"carga axial, falla L; D=45.90 mm; H=42.00 mm; A/D=0.92; De2=2455 mm2; P=1318 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is,62.3,kg/cm2,M-3,"carga axial, falla L; D=46.00 mm; H=42.40 mm; A/D=0.92; De2=2483 mm2; P=1546 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is50,62.2,kg/cm2,M-3,"carga axial, falla L; D=46.00 mm; H=42.40 mm; A/D=0.92; De2=2483 mm2; P=1546 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,sigma_c_estimada,1492,kg/cm2,M-3,"carga axial, falla L; D=46.00 mm; H=42.40 mm; A/D=0.92; De2=2483 mm2; P=1546 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is,34.7,kg/cm2,M-4,"carga axial, falla L; D=46.00 mm; H=40.80 mm; A/D=0.89; De2=2390 mm2; P=829 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is50,34.3,kg/cm2,M-4,"carga axial, falla L; D=46.00 mm; H=40.80 mm; A/D=0.89; De2=2390 mm2; P=829 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,sigma_c_estimada,824,kg/cm2,M-4,"carga axial, falla L; D=46.00 mm; H=40.80 mm; A/D=0.89; De2=2390 mm2; P=829 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is,46.1,kg/cm2,M-5,"carga axial, falla L; D=46.00 mm; H=39.60 mm; A/D=0.86; De2=2319 mm2; P=1068 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is50,45.3,kg/cm2,M-5,"carga axial, falla L; D=46.00 mm; H=39.60 mm; A/D=0.86; De2=2319 mm2; P=1068 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,sigma_c_estimada,1087,kg/cm2,M-5,"carga axial, falla L; D=46.00 mm; H=39.60 mm; A/D=0.86; De2=2319 mm2; P=1068 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is,59.8,kg/cm2,M-6,"carga axial, falla L; D=46.00 mm; H=41.90 mm; A/D=0.91; De2=2454 mm2; P=1468 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is50,59.6,kg/cm2,M-6,"carga axial, falla L; D=46.00 mm; H=41.90 mm; A/D=0.91; De2=2454 mm2; P=1468 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,sigma_c_estimada,1430,kg/cm2,M-6,"carga axial, falla L; D=46.00 mm; H=41.90 mm; A/D=0.91; De2=2454 mm2; P=1468 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is,63.1,kg/cm2,M-7,"carga axial, falla L; D=46.00 mm; H=41.90 mm; A/D=0.91; De2=2454 mm2; P=1548 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is50,62.8,kg/cm2,M-7,"carga axial, falla L; D=46.00 mm; H=41.90 mm; A/D=0.91; De2=2454 mm2; P=1548 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,sigma_c_estimada,1507,kg/cm2,M-7,"carga axial, falla L; D=46.00 mm; H=41.90 mm; A/D=0.91; De2=2454 mm2; P=1548 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is,49.2,kg/cm2,M-8,"carga axial, falla L; D=45.80 mm; H=45.00 mm; A/D=0.98; De2=2624 mm2; P=1290 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,Is50,49.7,kg/cm2,M-8,"carga axial, falla L; D=45.80 mm; H=45.00 mm; A/D=0.98; De2=2624 mm2; P=1290 kg",hoja de laboratorio,81
+G2010,B,Exoskarn Diópsido,Carga puntual,ASTM D5731,sigma_c_estimada,1193,kg/cm2,M-8,"carga axial, falla L; D=45.80 mm; H=45.00 mm; A/D=0.98; De2=2624 mm2; P=1290 kg",hoja de laboratorio,81
+G2010,A,Intrusivo,Permeabilidad pared flexible,ASTM D5084 método C,k,2.5E-06,m/s,,"B=0.99.; σ'=20 kPa; inicial w=9.0 %, H=20.3 cm, D=10.2 cm, ρd=1.863 g/cm3, S=55 %; promedio de las 4 últimas lecturas",hoja de laboratorio,157
+G2010,A,Hornfels Gris,Permeabilidad pared flexible,ASTM D5084 método C,k,3.3E-06,m/s,,"B=0.96.; σ'=20 kPa; inicial w=4.0 %, H=20.4 cm, D=10.2 cm, ρd=2.026 g/cm3, S=30 %; promedio de las 4 últimas lecturas",hoja de laboratorio,158
+G2010,B,Intrusivo,Permeabilidad pared flexible,ASTM D5084 método C,k,2.2E-06,m/s,,"B=0.96.; σ'=20 kPa; inicial w=5.3 %, H=10.5 cm, D=10.2 cm, ρd=2.011 g/cm3, S=40 %; promedio de las 4 últimas lecturas",hoja de laboratorio,159
+G2010,B,Hornfels Gris,Permeabilidad pared flexible,ASTM D5084 método C,k,2.6E-06,m/s,,"B=0.98.; σ'=20 kPa; inicial w=5.0 %, H=10.5 cm, D=10.2 cm, ρd=2.136 g/cm3, S=45 %; promedio de las 4 últimas lecturas",hoja de laboratorio,160

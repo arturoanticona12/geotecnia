@@ -1,0 +1,19 @@
+
+ensayos 938 | sets 289 | publicaciones 40 | triaxiales 934
+σ3 max 4.48 MPa | σn max 7.86 MPa
+σ3 ≥ 2: 90 ensayos, 52 sets, 8 publicaciones: ['Al-Hussaini (1983)', 'Donaghe & Cohen (1978)', 'Hall & Gordon (1963)', 'Marachi et al. (1972)', 'Marsal (1971)', 'Marsal (1973)', 'Marsal et al. (1965)', 'Ovalle et al. (2020)']
+σ3 ≥ 3: 29 ensayos, 29 sets, 4 publicaciones: ['Al-Hussaini (1983)', 'Donaghe & Cohen (1978)', 'Hall & Gordon (1963)', 'Marachi et al. (1972)']
+σ3 ≥ 4.48: 9 ensayos, 9 sets, 1 publicaciones: ['Marachi et al. (1972)']
+σn ≥ 3: 90 ensayos (9.6 %)
+σn ≥ 5: 34 ensayos (3.6 %)
+sets con ≥3 ensayos: 209
+Bg mediana σn 0.1-0.3: 5.7 % (n=92)
+Bg mediana σn 1-2: 24.4 % (n=151)
+Bg mediana σn 2-4: 36.0 % (n=75)
+Bg mediana σn 4-8: 27.6 % (n=53)
+evol σ3 0-0.1: media -1.9 %, n=65, >0: 0
+evol σ3 0.3-1: media -3.8 %, n=124, >0: 0
+evol σ3 1-3: media -6.6 %, n=57, >0: 0
+evol σ3 3-5: media -7.1 %, n=28, >0: 0
+n evol 347 | n Bg 627
+

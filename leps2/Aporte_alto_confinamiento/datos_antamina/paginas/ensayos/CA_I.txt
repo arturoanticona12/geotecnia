@@ -1,0 +1,102 @@
+=== PAGE 1 === size Rect(0.0, 0.0, 595.3200073242188, 841.9199829101562)
+SI
+NO
+SI
+NO
+Condición de la muestra
+Disturbado
+Revisado por:
+D. Lizana
+C. Soto
+Fin del informe
+Método de ensayo
+A
+TM (visual)
+3 in.
+26672,0
+25461,0
+(g)
+(g)
+(1) Masa recipiente + suelo húmedo
+(2) Masa recipiente + suelo seco 
+Los resultados presentados son aplicables exclusivamente a la muestra ensayada según las condiciones como se recibieron. Los resultados de este informe no deben ser utilizados como una certificación de 
+conformidad con normas de productos o como certificado del sistema de calidad de la entidad que lo produce. Los datos e información contenidos en esta hoja no pueden ser utilizados sin la autorización de Anddes 
+Geolab SAC. El laboratorio no se hace responsable por la información suministrada por el cliente. Este informe no es válido sin la firma y sello del gerente del laboratorio. Prohibido la reproducción total o parcial de este 
+informe, excepto con autorización previa y por escrito de Anddes Geolab S.A.C.
+Las muestras han sido proporcionadas e identificadas por el solicitante. 
+T. Bonifacio
+(g)
+(%)
+23683,0
+Cumple con la masa mínima indicada por el metodo de ensayo
+Autorizado por:
+(5) Masa suelo seco
+2
+3
+Realizado por:
+La muestra de suelo presenta estratificación
+Temperatura de secado a 110 ± 5°C.
+Se excluyó algún material del espécimen de ensayo
+(4) Masa del agua 
+N° de prueba
+1
+(4/5)*100
+(6) Contenido de agua
+(2) - (3)
+Observaciones
+5
+5
+(%)
+Contenido de agua promedio 
+11-GEO-01-FOR-2001 / V1 / 24-06-24
+Información suministrada por el cliente
+1 de 1
+Zona
+Nombre del proyecto
+Cliente
+Ubicación del proyecto
+Código de muestra
+Intrusivo
+Fecha recepción de la muestra
+2023
+I-1, I-2, I-3, I-4, I-5, I-6, I-7, I-8, I-9, I-10, I-11
+Gary Olivo
+golivos@antamina.com
+Botadero Este 
+N° de proyecto
+Psje. Antonio Raimondi Pj. 41, Pj. 42 Mza D 
+Lote 12A Urb. El Retablo Comas. Lima – Perú
+No. de informe de ensayo
+(g)
+1778,0
+(3) Masa recipiente
+(g)
+(1) - (2)
+1211,0
+Descripción del ítem
+Suelo
+N° de solicitud
+EPE-23.10.141
+Los ensayos fueron realizados en las instalaciones de Anddes Geolab.
+Método de ensayo
+ASTM D2216-19 Standard Test Methods for Laboratory Determination of Water (Moisture) Content of Soil and Rock by Mass
+Fecha de inicio / fin de ensayo
+2024-08-27
+Profundidad (m)
+Descripción
+Perforaciones Geotécnicas e Hidrogeológicas 2023
+Antamina
+EPE-23.10.141_28,27,26,43,34,35,41,39,40,38,36_200_R0_CA
+2023-11-23
+2024-04-08 / 2024-04-10
+No. páginas
+Fecha de emisión
+LABORATORIO GEOTÉCNICO
+Informe de ensayo
+ASTM D2216-19
+San Marcos - Ancash
+03 ( Ruma 03) / Fase 10 A
+20,00 - 60,00
+N° de muestra
+Solicitado por
+Contacto del cliente

@@ -1,0 +1,225 @@
+nombre: tip_A_roca
+titulo: Secciones tipicas de botadero (Hawley y Cunning 2017, 8.4)
+unidades: metric
+direccion: der-izq
+materiales:
+- nombre: Desmonte ROM
+  agua: ninguna
+  gamma: 19.54
+  gamma_sat: 21.65
+  modelo: funcion
+  funcion: Leps2 e045
+  resistencia_txt: Leps 2.0, curva propuesta (e = 0.45)
+- nombre: Desmonte ROM saturable
+  agua: nf
+  etiqueta_corta: Desmonte ROM
+  gamma: 19.54
+  gamma_sat: 21.65
+  modelo: funcion
+  funcion: Leps2 e045
+  resistencia_txt: Leps 2.0, curva propuesta (e = 0.45)
+- nombre: Morrena
+  agua: ninguna
+  gamma: 21.0
+  modelo: mohr-coulomb
+  c: 0
+  phi: 33
+  resistencia_txt: c′ = 0, φ′ = 33° (DDE, Tabla 9-3)
+- nombre: Morrena saturada
+  agua: nf
+  etiqueta_corta: Morrena
+  gamma: 21.0
+  modelo: mohr-coulomb
+  c: 0
+  phi: 33
+  resistencia_txt: c′ = 0, φ′ = 33° (DDE, Tabla 9-3)
+- nombre: Roca
+  gamma: 26.7
+  modelo: mohr-coulomb
+  c: 1000
+  phi: 45
+  agua: ninguna
+  resistencia_txt: c = 1000 kPa, φ = 45° (DDE, Tabla 9-3)
+funciones:
+  Leps2 e045:
+  - - 0.0
+    - 0.0
+  - - 2.0
+    - 3.7
+  - - 2.46
+    - 4.43
+  - - 3.03
+    - 5.29
+  - - 3.73
+    - 6.32
+  - - 4.58
+    - 7.55
+  - - 5.64
+    - 9.02
+  - - 6.94
+    - 10.78
+  - - 8.54
+    - 12.88
+  - - 10.51
+    - 15.39
+  - - 12.93
+    - 18.39
+  - - 15.91
+    - 21.97
+  - - 19.57
+    - 26.26
+  - - 24.08
+    - 31.37
+  - - 29.63
+    - 37.49
+  - - 36.45
+    - 44.79
+  - - 44.85
+    - 53.52
+  - - 55.19
+    - 63.95
+  - - 67.91
+    - 76.42
+  - - 83.55
+    - 91.31
+  - - 102.8
+    - 109.11
+  - - 126.49
+    - 130.37
+  - - 155.64
+    - 155.78
+  - - 191.5
+    - 186.14
+  - - 235.62
+    - 222.42
+  - - 289.91
+    - 265.77
+  - - 356.71
+    - 317.56
+  - - 438.9
+    - 379.45
+  - - 540.03
+    - 453.41
+  - - 664.46
+    - 541.77
+  - - 817.57
+    - 647.36
+  - - 1005.95
+    - 773.52
+  - - 1237.73
+    - 924.28
+  - - 1522.92
+    - 1104.41
+  - - 1873.83
+    - 1319.65
+  - - 2305.58
+    - 1576.84
+  - - 2836.82
+    - 1884.15
+  - - 3490.47
+    - 2251.36
+  - - 4294.73
+    - 2690.13
+  - - 5284.29
+    - 3214.42
+  - - 6501.87
+    - 3840.88
+  - - 8000.0
+    - 4589.44
+grupos:
+- nombre: A roca
+  etiqueta: Bancos, 420 m, fundación de roca
+  geometria:
+    regiones:
+    - material: Roca
+      poligono:
+      - - -400.0
+        - -300.0
+      - - 1459.86
+        - -300.0
+      - - 1459.86
+        - -0.0
+      - - -400.0
+        - -0.0
+    - material: Desmonte ROM
+      poligono:
+      - - 0.0
+        - 0.0
+      - - 79.98
+        - 60.0
+      - - 129.98
+        - 60.0
+      - - 209.96
+        - 120.0
+      - - 259.96
+        - 120.0
+      - - 339.94
+        - 180.0
+      - - 389.94
+        - 180.0
+      - - 469.92
+        - 240.0
+      - - 519.92
+        - 240.0
+      - - 599.9
+        - 300.0
+      - - 649.9
+        - 300.0
+      - - 729.88
+        - 360.0
+      - - 779.88
+        - 360.0
+      - - 859.86
+        - 420.0
+      - - 1459.86
+        - 420.0
+      - - 1459.86
+        - 0
+  busqueda:
+    tipo: sa
+    limites:
+    - 0.0
+    - 1259.9
+    parametros:
+      optimize: 1
+  metodos:
+  - gle
+  vista:
+    xlim:
+    - -400
+    - 1500
+    ylim:
+    - -350
+    - 600
+  escenarios:
+  - nombre: Seco, libre
+    etiqueta: Seco, superficie libre
+    busqueda:
+      tipo: sa
+      limites:
+      - 0.0
+      - 1259.9
+      parametros:
+        optimize: 1
+  - nombre: Seco, pie
+    etiqueta: Seco, falla de pie
+    busqueda:
+      tipo: sa
+      limites:
+      - -63.0
+      - 8.4
+      - 42.0
+      - 294.0
+      parametros:
+        optimize: 1
+  - nombre: Seco, global
+    etiqueta: Seco, superficie global
+    busqueda:
+      tipo: sa
+      limites:
+      - -126.0
+      - 21.0
+      - 859.9
+      - 1195.9
+      parametros:
+        optimize: 1
