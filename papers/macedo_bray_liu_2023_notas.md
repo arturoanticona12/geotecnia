@@ -19,7 +19,7 @@
    (Tabla 1, con coeficientes separados para Ts ≤ 0.6 s y Ts > 0.6 s)
 2. **D > 0.5 cm**:
    - Escalar (Ec. 3a): usa ky, Sa(1.3Ts), Ts y Mw.
-   - Vectorial (Ec. 3b): agrega a9·ln(PGV). Se recomienda cuando PGV > 40 cm/s (interfase) o PGV > 20 cm/s (intraslab).
+   - Vectorial (Ec. 3b): agrega a9·ln(PGV). El escalar "underestimates D significantly" cuando PGV > 40 cm/s (interfase) o PGV > 20 cm/s (intraslab), y el vectorial elimina ese sesgo (p. PDF 8). a9 = 0.73 si PGV ≥ 10 cm/s (interfase) y 0.72 si PGV ≥ 30 cm/s (intraslab) (nota de la Tabla 3).
    - ε es normal con media 0 y desviación estándar σ (en unidades de ln).
 
 | Modelo | σ interfase | σ intraslab |
