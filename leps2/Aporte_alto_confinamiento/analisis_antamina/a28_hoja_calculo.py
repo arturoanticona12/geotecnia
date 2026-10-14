@@ -346,30 +346,31 @@ for k, (key, et) in enumerate(HIP, 2):
 
 # ------------------------------------------------------------------ Base_mundial
 W = datos(); W = W[~W.cens] if "cens" in W else W
-ws = hoja("Base_mundial", ["Set", "e", "σ′n (MPa)", "τ (MPa)", "φ′s ensayo (°)", "φ′s curva a su e (°)", "Δφ′s (°)", "Bg (%) (base de Leps 2.0)"], [], [40, 8, 10, 10, 12, 14, 10, 13])
+ws = hoja("Base_mundial", ["Set", "e", "σ′n (MPa)", "τ (MPa)", "φ′s ensayo (°)", "φ′s curva a su e (°)", "Δφ′s (°)", "σ′3 (MPa)", "Bg (%) (base de Leps 2.0)"], [], [40, 8, 10, 10, 12, 14, 10, 10, 13])
 setcol = next((c for c in ("set_id", "set", "Set", "set_key") if c in W.columns), None)
 for i, (_, r) in enumerate(W.iterrows()):
     k = i + 2
     ws.cell(k, 1, str(r[setcol]) if setcol else ""); ws.cell(k, 2, float(r.e)); ws.cell(k, 3, float(r.sn)); ws.cell(k, 4, float(r.tau))
     ws.cell(k, 5, f"=DEGREES(ATAN(D{k}/C{k}))"); ws.cell(k, 6, f"=DEGREES(ATAN(TAN(RADIANS(pe0-omega*B{k}))*(C{k}/sref)^(m_-1)))"); ws.cell(k, 7, f"=E{k}-F{k}")
+    ws.cell(k, 8, float(r.s3))
     _bg = pd.to_numeric(r.get("Bg"), errors="coerce")
     if pd.notna(_bg):
-        ws.cell(k, 8, float(_bg))
+        ws.cell(k, 9, float(_bg))
         if _bg > 100:
-            ws.cell(k, 8).fill = PatternFill("solid", fgColor="FBE3D6")
+            ws.cell(k, 9).fill = PatternFill("solid", fgColor="FBE3D6")
 nW = len(W) + 1
 _nbg = int(pd.to_numeric(W.Bg, errors="coerce").notna().sum()); _sbg = W[pd.to_numeric(W.Bg, errors="coerce").notna()].Set.nunique()
 _alto = W[pd.to_numeric(W.Bg, errors="coerce") > 100]
 ws.cell(nW + 2, 1, f"Bg: índice de rotura de Marsal (1967), en %, tal como figura en la base de Leps 2.0 (Cylwik et al., 2025); informado en {_nbg} de los {len(W)} ensayos ({_sbg} sets).")
 ws.cell(nW + 3, 1, f"Celdas sombreadas: {len(_alto)} valores mayores que 100 % ({', '.join(sorted(_alto.Set.astype(str).unique()))}), sobre el máximo del Bg de Marsal; "
                    "probablemente otra definición del índice de rotura. Se dejan como están en la base, sin corregir.")
-ws["I1"] = "Rango de σ′n"; ws["J1"] = "Ensayos"; ws["K1"] = "Bajo la curva"; ws["L1"] = "Δφ′s mediana (°)"
-for c in ws["I1:L1"][0]:
+ws["K1"] = "Rango de σ′n"; ws["L1"] = "Ensayos"; ws["M1"] = "Bajo la curva"; ws["N1"] = "Δφ′s mediana (°)"
+for c in ws["K1:N1"][0]:
     c.font = NEG; c.fill = CAB
 for k, (a, b) in enumerate(((2, 4.6), (4.6, 7.9), (3, 7.9)), 2):
-    ws.cell(k, 9, f"{a}–{b} MPa")
-    ws.cell(k, 10, f'=COUNTIFS(C2:C{nW},">{a}",C2:C{nW},"<={b}")'); ws.cell(k, 11, f'=COUNTIFS(C2:C{nW},">{a}",C2:C{nW},"<={b}",G2:G{nW},"<0")')
-    ws[f"L{k}"] = ArrayFormula(f"L{k}", f'=MEDIAN(IF((C2:C{nW}>{a})*(C2:C{nW}<={b}),G2:G{nW}))')
+    ws.cell(k, 11, f"{a}–{b} MPa")
+    ws.cell(k, 12, f'=COUNTIFS(C2:C{nW},">{a}",C2:C{nW},"<={b}")'); ws.cell(k, 13, f'=COUNTIFS(C2:C{nW},">{a}",C2:C{nW},"<={b}",G2:G{nW},"<0")')
+    ws[f"N{k}"] = ArrayFormula(f"N{k}", f'=MEDIAN(IF((C2:C{nW}>{a})*(C2:C{nW}<={b}),G2:G{nW}))')
 _k = (W.sn > 4.6) & (W.sn <= 7.9); _d = np.degrees(np.arctan(W.tau[_k] / W.sn[_k])) - np.degrees(np.arctan(np.tan(np.radians(PE0 - OM * W.e[_k])) * (W.sn[_k] / 1.013) ** (M - 1)))
 control["mundial_46_79"] = dict(n=int(_k.sum()), bajo_curva=int((_d < 0).sum()), dphi_mediana=float(np.median(_d)))
 

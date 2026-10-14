@@ -33,6 +33,7 @@ Reconstruido al migrar el proyecto de Drive al repo; revisar y corregir lo que n
 - ¿Se mantiene ω = 20° en el memo, dado que el ajuste propio de Antamina no identifica ω? (para WA)
 
 ## Hecho (reciente)
+- 2026-10-14: hoja Base_mundial del Excel con σ′3 (columna H; Bg pasa a la I y el resumen a K–N).
 - 2026-10-13 (15): hoja Base_mundial del Excel con columna H «Bg (%)» de la base de Leps 2.0 (462 de 686 ensayos, 143 sets);
   4 valores > 100 % (SMHEA 1967 ACXII/F2-a y -b, Marsal 1973 M3) sombreados y anotados, sin corregir.
 - 2026-10-13 (14): Fig. 4 rediseñada (pedido del usuario: se distinguen las clases sin recargar): base mundial en gris y mediana por
