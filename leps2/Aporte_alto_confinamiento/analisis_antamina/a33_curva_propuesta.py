@@ -37,7 +37,10 @@ def phi1_sets(m):
     return np.array(ph)
 
 
-rng = np.random.default_rng(33); HIP = {"m085": 0.85, "m0834": 0.834, "m0862": 0.862, "lineal": 1.0}
+_A31 = json.load(open(AQ / "a31_m_defendible.json", encoding="utf-8"))["estimadores"]["Mundo, todos los sets (mediana; P10–P90)"]
+rng = np.random.default_rng(33); HIP = {"m085": 0.85, "m0834": 0.834, "m0862": 0.862, "m_p10": round(_A31["p10"], 3), "m_p90": round(_A31["p90"], 3), "lineal": 1.0}
+# revisión 11 (2026-10-13, revisión independiente): la banda incluye la dispersión de m entre materiales de la base mundial
+# (P10–P90 de 0.787 a 0.923), no solo el IC 90 % de la m mediana (0.834–0.862), que no representa un material nuevo
 niv = {}
 for k, m in HIP.items():
     v = phi1_sets(m) + OM * E_SET

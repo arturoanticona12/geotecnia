@@ -1,0 +1,376 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}\usepackage[T1]{fontenc}\usepackage{lmodern}
+\usepackage[spanish,es-noshorthands,es-tabla]{babel}\decimalpoint
+\usepackage[margin=2.5cm]{geometry}\usepackage{booktabs,longtable,graphicx,amsmath,array,caption,xcolor,float,needspace}\usepackage[section]{placeins}\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\usepackage{upquote}
+\usepackage{xr-hyper}\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}
+\usepackage[round]{natbib}\captionsetup{font=small,labelfont=bf}
+\setlength{\parskip}{4pt}
+\externaldocument[M-]{curva_leps2_antamina}
+\hypersetup{filecolor=black}
+\begin{document}
+\appendix
+\renewcommand{\thetable}{A\arabic{table}}\setcounter{table}{0}
+\section{Ensayos de resistencia disponibles y su uso}\label{sec:anexo}
+La Tabla~\ref{tab:anx_todos} da, ensayo por ensayo, los 120 ensayos de resistencia de desmonte de la Tabla~\ref{M-tab:inventario} del memorándum, agrupados por su uso en este memorándum: 37 en el ajuste de la curva propuesta (incluidas las dos mezclas), 36 de contraste y 47 no usados, con el motivo. Los esfuerzos son efectivos, en la falla: en los triaxiales drenados, en el máximo desviador; en los no drenados, en la máxima oblicuidad o, donde el informe no lo permite \citep{g2010}, en el máximo desviador; en el corte directo, $\tau$ pico y $\sigma'_n$ medidos. En los triaxiales, $\sigma'_n$ y $\phi'_s$ se calcularon con la conversión de Leps 2.0 con $m = 0.85$, como en la Tabla~\ref{M-tab:datos} del memorándum, y $\phi'_s$ está a la $e_0$ de cada ensayo, sin corregir por densidad. Los edómetros están en la Tabla~\ref{M-tab:edo} del memorándum.
+
+\begin{footnotesize}\setlength{\tabcolsep}{2.5pt}
+\begin{longtable}{L{3.6cm}L{2.2cm}rrrrrrrr}
+\caption{Ensayos de resistencia de desmonte de Antamina y su uso. $D$: diámetro de la probeta o lado de la caja; $D_{max}$: tamaño máximo de partícula (--: no informado); $\varepsilon_a$: deformación axial en la falla.}\label{tab:anx_todos}\\
+\toprule Set & Litología & $D$ & $D_{max}$ & $e_0$ & $\sigma'_3$ & $\sigma'_1$ & $\sigma'_n$ & $\phi'_s$ & $\varepsilon_a$\\
+ & & (m) & (mm) & & (MPa) & (MPa) & (MPa) & (°) & (\%)\\\endfirsthead
+\toprule Set & Litología & $D$ & $D_{max}$ & $e_0$ & $\sigma'_3$ & $\sigma'_1$ & $\sigma'_n$ & $\phi'_s$ & $\varepsilon_a$\\\midrule\endhead
+\midrule\multicolumn{10}{p{14.2cm}}{\textbf{Ajuste de la curva propuesta}} \\
+\multicolumn{10}{p{14.2cm}}{\textit{\citet{g2012}, triaxial CD}} \\
+G2012-MN-C & mármol & 1.00 & 178 & 0.312 & 0.49 & 2.27 & 0.86 & 40.0 & 17.3 \\
+G2012-MN-C & mármol & 1.00 & 178 & 0.312 & 0.49 & 2.19 & 0.86 & 39.2 & 18.3 \\
+G2012-MN-C & mármol & 1.00 & 178 & 0.312 & 0.98 & 3.90 & 1.66 & 36.6 & 18.0 \\
+G2012-MN-C & mármol & 1.00 & 178 & 0.312 & 1.96 & 7.78 & 3.32 & 36.6 & 19.6 \\
+G2012-MN-C & mármol & 1.00 & 178 & 0.312 & 1.96 & 8.29 & 3.38 & 38.0 & 17.8 \\
+\multicolumn{10}{p{14.2cm}}{\textit{\citet{g2021}, triaxial CD}} \\
+G21-DESM-COMP & compuesto & 0.15 & 25 & 0.322 & 0.10 & 0.38 & 0.16 & 36.1 & 4.0 \\
+G21-DESM-COMP & compuesto & 0.15 & 25 & 0.322 & 0.40 & 1.92 & 0.71 & 40.8 & 20.2 \\
+G21-DESM-COMP & compuesto & 0.15 & 25 & 0.324 & 1.20 & 5.85 & 2.14 & 41.1 & 12.1 \\
+\multicolumn{10}{p{14.2cm}}{\textit{\citet{w2022}, triaxial CD}} \\
+HF-1.0m-IDIEM-mono & hornfels & 1.00 & 178 & 0.332 & 0.98 & 4.88 & 1.76 & 41.5 & 13.1 \\
+HF-1.0m-IDIEM-mono & hornfels & 1.00 & 178 & 0.332 & 1.96 & 11.02 & 3.61 & 44.1 & 19.0 \\
+HF-1.0m-IDIEM-mono & hornfels & 1.00 & 178 & 0.332 & 2.45 & 14.38 & 4.56 & 44.9 & 17.8 \\
+HF-1.0m-IDIEM-cd & hornfels & 1.00 & 178 & 0.357 & 0.98 & 4.80 & 1.75 & 41.2 & 19.1 \\
+HF-1.0m-IDIEM-cd & hornfels & 1.00 & 178 & 0.357 & 1.96 & 11.66 & 3.66 & 45.2 & 18.8 \\
+HF-1.0m-IDIEM-cd & hornfels & 1.00 & 178 & 0.357 & 2.45 & 15.38 & 4.62 & 46.3 & 19.0 \\
+HF-0.15m-Golder & hornfels & 0.15 & 25 & 0.333 & 0.98 & 5.08 & 1.77 & 42.5 & 11.4 \\
+MN-0.15m-Golder & mármol & 0.15 & 25 & 0.327 & 0.98 & 4.80 & 1.75 & 41.2 & 18.5 \\
+\multicolumn{10}{p{14.2cm}}{\textit{\citet{w2024}, triaxial CD}} \\
+WSP24\_C4\_MON & intrusivo & 0.60 & 102 & 0.354 & 0.49 & 2.13 & 0.85 & 38.6 & 12.4 \\
+WSP24\_C4\_MON & intrusivo & 0.60 & 102 & 0.354 & 0.98 & 4.37 & 1.71 & 39.2 & 20.7 \\
+WSP24\_C4\_MON & intrusivo & 0.60 & 102 & 0.354 & 1.96 & 8.98 & 3.45 & 39.8 & 19.4 \\
+\multicolumn{10}{p{14.2cm}}{\textit{\citet{i2025}, triaxial CD}} \\
+Intrusivo 100 ~\% & intrusivo & 1.00 & 178 & 0.290 & 0.49 & 2.17 & 0.85 & 39.0 & 4.0 \\
+Intrusivo 100 ~\% & intrusivo & 1.00 & 178 & 0.290 & 0.98 & 4.43 & 1.72 & 39.5 & 13.0 \\
+Intrusivo 100 ~\% & intrusivo & 1.00 & 178 & 0.290 & 1.96 & 8.69 & 3.42 & 39.0 & 11.2 \\
+\multicolumn{10}{p{14.2cm}}{\textit{\citet{anddes2024}, corte directo}} \\
+Ruma 02 & hornfels & 0.31 & 25 & 0.332 & -- & -- & 0.30 & 40.4 & -- \\
+Ruma 02 & hornfels & 0.31 & 25 & 0.332 & -- & -- & 0.60 & 38.4 & -- \\
+Ruma 02 & hornfels & 0.31 & 25 & 0.332 & -- & -- & 1.20 & 39.8 & -- \\
+Ruma 03 / Fase 10 A & intrusivo & 0.31 & 25 & 0.410 & -- & -- & 0.30 & 37.2 & -- \\
+Ruma 03 / Fase 10 A & intrusivo & 0.31 & 25 & 0.410 & -- & -- & 0.60 & 38.0 & -- \\
+Ruma 03 / Fase 10 A & intrusivo & 0.31 & 25 & 0.410 & -- & -- & 1.20 & 38.2 & -- \\
+Ruma 01 & mármol & 0.31 & 25 & 0.262 & -- & -- & 0.30 & 36.2 & -- \\
+Ruma 01 & mármol & 0.31 & 25 & 0.262 & -- & -- & 0.60 & 38.0 & -- \\
+Ruma 01 & mármol & 0.31 & 25 & 0.262 & -- & -- & 1.20 & 39.4 & -- \\
+Pila 01 (Mármol + Hornfels) & mármol--hornfels & 0.31 & 25 & 0.326 & -- & -- & 0.30 & 49.9 & -- \\
+Pila 01 (Mármol + Hornfels) & mármol--hornfels & 0.31 & 25 & 0.326 & -- & -- & 0.60 & 46.2 & -- \\
+Pila 01 (Mármol + Hornfels) & mármol--hornfels & 0.31 & 25 & 0.326 & -- & -- & 1.00 & 43.4 & -- \\
+Pila 02 (Intrusivo) & intrusivo & 0.31 & 25 & 0.479 & -- & -- & 0.30 & 49.7 & -- \\
+Pila 02 (Intrusivo) & intrusivo & 0.31 & 25 & 0.479 & -- & -- & 0.60 & 46.6 & -- \\
+Pila 02 (Intrusivo) & intrusivo & 0.31 & 25 & 0.479 & -- & -- & 1.20 & 40.3 & -- \\
+\midrule\multicolumn{10}{p{14.2cm}}{\textbf{Contraste (sección~\ref{M-sec:contraste} del memorándum)}} \\
+\multicolumn{10}{p{14.2cm}}{\textit{\citet{anddes2024}, triaxial CU: triaxial no drenado (CU), máxima oblicuidad}} \\
+Ruma 01 (M-1 al M-13) & mármol & 0.15 & -- & 0.263 & 0.08 & 0.45 & 0.15 & 44.5 & 15.0 \\
+Ruma 01 (M-1 al M-13) & mármol & 0.15 & -- & 0.263 & 0.11 & 1.00 & 0.22 & 53.6 & 15.0 \\
+Ruma 01 (M-1 al M-13) & mármol & 0.15 & -- & 0.263 & 0.42 & 2.44 & 0.78 & 44.8 & 15.0 \\
+Ruma 02 (H-1 al H-12) & hornfels & 0.15 & -- & 0.332 & 0.07 & 0.63 & 0.14 & 52.4 & 15.0 \\
+Ruma 02 (H-1 al H-12) & hornfels & 0.15 & -- & 0.332 & 0.09 & 1.08 & 0.20 & 56.7 & 15.0 \\
+Ruma 02 (H-1 al H-12) & hornfels & 0.15 & -- & 0.332 & 0.31 & 1.90 & 0.58 & 45.7 & 15.0 \\
+Ruma 03 / Fase 10 A (I-1 al I-12) & intrusivo & 0.15 & -- & 0.410 & 0.12 & 0.84 & 0.24 & 48.0 & 15.0 \\
+Ruma 03 / Fase 10 A (I-1 al I-12) & intrusivo & 0.15 & -- & 0.410 & 0.13 & 1.12 & 0.26 & 51.8 & 15.0 \\
+Ruma 03 / Fase 10 A (I-1 al I-12) & intrusivo & 0.15 & -- & 0.410 & 0.29 & 1.97 & 0.55 & 48.0 & 15.0 \\
+Pila 01 (MP1-B-M-1, MP1-B-M2, MP1-B-M3, MP1-H-Material B) & mármol--hornfels & 0.15 & -- & 0.326 & 0.10 & 0.68 & 0.19 & 48.2 & 15.0 \\
+Pila 01 (MP1-B-M-1, MP1-B-M2, MP1-B-M3, MP1-H-Material B) & mármol--hornfels & 0.15 & -- & 0.326 & 0.20 & 1.41 & 0.38 & 48.7 & 15.0 \\
+Pila 01 (MP1-B-M-1, MP1-B-M2, MP1-B-M3, MP1-H-Material B) & mármol--hornfels & 0.15 & -- & 0.326 & 0.69 & 3.75 & 1.26 & 43.5 & 15.0 \\
+Pila 02 (MP2-A-M-1 a MP2-A-M-5, MP2-H-Material A) & intrusivo & 0.15 & -- & 0.479 & 0.11 & 0.71 & 0.21 & 46.2 & 15.0 \\
+Pila 02 (MP2-A-M-1 a MP2-A-M-5, MP2-H-Material A) & intrusivo & 0.15 & -- & 0.479 & 0.23 & 1.60 & 0.44 & 48.3 & 15.0 \\
+Pila 02 (MP2-A-M-1 a MP2-A-M-5, MP2-H-Material A) & intrusivo & 0.15 & -- & 0.479 & 0.63 & 3.42 & 1.16 & 43.2 & 15.0 \\
+\multicolumn{10}{p{14.2cm}}{\textit{\citet{g2010}, triaxial CU: triaxial no drenado (CU), máximo desviador}} \\
+G2010-A-MN-2.8in & mármol & 0.07 & 10 & 0.290 & 0.62 & 2.84 & 1.09 & 39.8 & 8.3 \\
+G2010-A-MN-2.8in & mármol & 0.07 & 10 & 0.295 & 0.72 & 3.11 & 1.24 & 38.6 & 7.6 \\
+G2010-A-MN-2.8in & mármol & 0.07 & 10 & 0.290 & 0.87 & 3.61 & 1.49 & 37.6 & 5.3 \\
+G2010-A-HG-2.8in & hornfels & 0.07 & 10 & 0.377 & 0.22 & 0.92 & 0.37 & 38.2 & 1.9 \\
+G2010-A-HG-2.8in & hornfels & 0.07 & 10 & 0.377 & 0.30 & 1.21 & 0.51 & 36.7 & 1.8 \\
+G2010-A-HG-2.8in & hornfels & 0.07 & 10 & 0.377 & 0.54 & 2.07 & 0.90 & 36.0 & 2.5 \\
+G2010-A-INT-2.8in & intrusivo & 0.07 & 10 & 0.434 & 0.26 & 1.13 & 0.45 & 38.5 & 1.6 \\
+G2010-A-INT-2.8in & intrusivo & 0.07 & 10 & 0.434 & 0.39 & 1.58 & 0.67 & 36.8 & 1.9 \\
+G2010-A-INT-2.8in & intrusivo & 0.07 & 10 & 0.434 & 0.53 & 1.93 & 0.87 & 34.7 & 1.7 \\
+G2010-A-EXO-2.8in & skarn & 0.07 & 10 & 0.532 & 0.19 & 0.56 & 0.30 & 29.3 & 1.1 \\
+G2010-A-EXO-2.8in & skarn & 0.07 & 10 & 0.531 & 0.32 & 0.88 & 0.48 & 28.1 & 1.2 \\
+G2010-A-EXO-2.8in & skarn & 0.07 & 10 & 0.532 & 0.49 & 1.41 & 0.75 & 29.1 & 1.3 \\
+G2010-A-HG-4in & hornfels & 0.10 & 16 & 0.377 & 0.22 & 1.05 & 0.40 & 40.2 & 1.0 \\
+G2010-A-HG-4in & hornfels & 0.10 & 16 & 0.381 & 0.24 & 1.09 & 0.42 & 39.3 & 0.8 \\
+G2010-A-HG-4in & hornfels & 0.10 & 16 & 0.377 & 0.40 & 1.34 & 0.65 & 32.5 & 1.0 \\
+G2010-A-INT-4in & intrusivo & 0.10 & 16 & 0.435 & 0.10 & 0.37 & 0.16 & 35.0 & 1.4 \\
+G2010-A-INT-4in & intrusivo & 0.10 & 16 & 0.435 & 0.17 & 0.66 & 0.28 & 36.6 & 2.2 \\
+G2010-A-INT-4in & intrusivo & 0.10 & 16 & 0.435 & 0.18 & 0.83 & 0.32 & 39.5 & 14.6 \\
+G2010-A-EXO-4in & skarn & 0.10 & 16 & 0.598 & 0.16 & 0.51 & 0.25 & 32.1 & 1.4 \\
+G2010-A-EXO-4in & skarn & 0.10 & 16 & 0.695 & 0.23 & 0.66 & 0.36 & 28.7 & 1.7 \\
+G2010-A-EXO-4in & skarn & 0.10 & 16 & 0.703 & 0.36 & 1.02 & 0.55 & 28.6 & 1.2 \\
+\midrule\multicolumn{10}{p{14.2cm}}{\textbf{No usado}} \\
+\multicolumn{10}{p{14.2cm}}{\textit{\citet{w2022}, triaxial cíclico y monótono: carga cíclica (compresión y extensión) previa a la carga monótona}} \\
+HF-USC-ciclico-350 & hornfels & 0.15 & 25 & 0.239 & 0.35 & 1.77 & 0.63 & 41.9 & 20.0 \\
+HF-USC-ciclico-350 & hornfels & 0.10 & 25 & 0.239 & 0.35 & 1.63 & 0.62 & 40.1 & 1.7 \\
+HF-USC-ciclico-350 & hornfels & 0.10 & 25 & 0.239 & 0.35 & 1.56 & 0.61 & 39.2 & 7.4 \\
+MN-USC-ciclico-350 & mármol & 0.10 & 25 & 0.205 & 0.35 & 1.60 & 0.61 & 39.7 & 4.9 \\
+MN-USC-ciclico-350 & mármol & 0.15 & 25 & 0.205 & 0.35 & 1.93 & 0.64 & 43.6 & -- \\
+MN-USC-ciclico-350 & mármol & 0.15 & 25 & 0.205 & 0.35 & 1.90 & 0.64 & 43.4 & -- \\
+\multicolumn{10}{p{14.2cm}}{\textit{\citet{w2022}, triaxial CD: duplicado de Golder Associates Perú (2012); se usa el original}} \\
+MN-1.0m-IDIEM-2011 & mármol & 1.00 & 178 & 0.312 & 0.49 & 2.27 & 0.86 & 40.0 & 17.3 \\
+MN-1.0m-IDIEM-2011 & mármol & 1.00 & 178 & 0.312 & 0.49 & 2.19 & 0.86 & 39.2 & 18.3 \\
+MN-1.0m-IDIEM-2011 & mármol & 1.00 & 178 & 0.312 & 0.98 & 3.90 & 1.66 & 36.6 & 18.0 \\
+MN-1.0m-IDIEM-2011 & mármol & 1.00 & 178 & 0.312 & 1.96 & 7.78 & 3.32 & 36.6 & 19.6 \\
+MN-1.0m-IDIEM-2011 & mármol & 1.00 & 178 & 0.312 & 1.96 & 8.29 & 3.38 & 38.0 & 17.8 \\
+\multicolumn{10}{p{14.2cm}}{\textit{\citet{g2010}, triaxial CU: material chancado (fase B)}} \\
+G2010-B-MN-2.8in & mármol & 0.07 & 10 & 0.278 & 0.71 & 3.49 & 1.28 & 41.1 & 5.8 \\
+G2010-B-MN-2.8in & mármol & 0.07 & 10 & 0.273 & 0.82 & 3.73 & 1.44 & 39.5 & 5.1 \\
+G2010-B-MN-2.8in & mármol & 0.07 & 10 & 0.273 & 1.03 & 4.62 & 1.80 & 39.3 & 6.3 \\
+G2010-B-HG-2.8in & hornfels & 0.07 & 10 & 0.312 & 0.10 & 0.52 & 0.17 & 43.6 & 1.3 \\
+G2010-B-HG-2.8in & hornfels & 0.07 & 10 & 0.312 & 0.27 & 1.03 & 0.45 & 35.7 & 1.0 \\
+G2010-B-HG-2.8in & hornfels & 0.07 & 10 & 0.311 & 0.40 & 1.90 & 0.71 & 40.5 & 15.2 \\
+G2010-B-INT-2.8in & intrusivo & 0.07 & 10 & 0.358 & 0.17 & 0.75 & 0.29 & 39.1 & 1.0 \\
+G2010-B-INT-2.8in & intrusivo & 0.07 & 10 & 0.358 & 0.38 & 1.50 & 0.65 & 36.2 & 1.6 \\
+G2010-B-INT-2.8in & intrusivo & 0.07 & 10 & 0.358 & 0.49 & 1.90 & 0.83 & 35.8 & 1.5 \\
+G2010-B-EXO-2.8in & skarn & 0.07 & 10 & 0.417 & 0.19 & 0.79 & 0.33 & 37.6 & 0.9 \\
+G2010-B-EXO-2.8in & skarn & 0.07 & 10 & 0.416 & 0.31 & 1.17 & 0.52 & 35.4 & 1.0 \\
+G2010-B-EXO-2.8in & skarn & 0.07 & 10 & 0.416 & 0.51 & 2.02 & 0.86 & 36.7 & 1.5 \\
+G2010-B-MN-4in & mármol & 0.10 & 16 & 0.505 & 0.13 & 0.42 & 0.20 & 32.5 & 1.2 \\
+G2010-B-MN-4in & mármol & 0.10 & 16 & 0.506 & 0.25 & 0.60 & 0.37 & 23.8 & 0.5 \\
+G2010-B-MN-4in & mármol & 0.10 & 16 & 0.595 & 0.35 & 0.82 & 0.50 & 23.7 & 0.5 \\
+G2010-B-HG-4in & hornfels & 0.10 & 16 & 0.502 & 0.17 & 0.42 & 0.25 & 24.4 & 0.9 \\
+G2010-B-HG-4in & hornfels & 0.10 & 16 & 0.501 & 0.21 & 0.55 & 0.32 & 26.0 & 1.3 \\
+G2010-B-HG-4in & hornfels & 0.10 & 16 & 0.503 & 0.46 & 1.05 & 0.65 & 23.0 & 1.0 \\
+G2010-B-INT-4in & intrusivo & 0.10 & 16 & 0.492 & 0.18 & 0.43 & 0.27 & 23.4 & 0.6 \\
+G2010-B-INT-4in & intrusivo & 0.10 & 16 & 0.498 & 0.25 & 0.55 & 0.36 & 21.6 & 0.6 \\
+G2010-B-INT-4in & intrusivo & 0.10 & 16 & 0.492 & 0.33 & 0.78 & 0.47 & 23.9 & 0.6 \\
+G2010-B-EXO-4in & skarn & 0.10 & 16 & 0.539 & 0.14 & 0.38 & 0.21 & 28.2 & 1.2 \\
+G2010-B-EXO-4in & skarn & 0.10 & 16 & 0.534 & 0.20 & 0.59 & 0.32 & 28.8 & 1.2 \\
+G2010-B-EXO-4in & skarn & 0.10 & 16 & 0.538 & 0.31 & 0.82 & 0.46 & 26.9 & 1.2 \\
+G2010-B-MN-6in & mármol & 0.15 & 25 & 0.355 & 0.21 & 0.95 & 0.37 & 39.4 & 1.5 \\
+G2010-B-MN-6in & mármol & 0.15 & 25 & 0.357 & 0.21 & 0.86 & 0.35 & 37.5 & 1.0 \\
+G2010-B-MN-6in & mármol & 0.15 & 25 & 0.357 & 0.06 & 0.35 & 0.12 & 43.4 & 1.0 \\
+G2010-B-HG-6in & hornfels & 0.15 & 25 & 0.312 & 0.15 & 0.70 & 0.27 & 39.7 & 1.2 \\
+G2010-B-HG-6in & hornfels & 0.15 & 25 & 0.310 & 0.11 & 0.55 & 0.20 & 41.1 & 1.0 \\
+G2010-B-HG-6in & hornfels & 0.15 & 25 & 0.310 & 0.05 & 0.24 & 0.09 & 40.7 & 0.5 \\
+G2010-B-INT-6in & intrusivo & 0.15 & 25 & 0.353 & 0.09 & 0.39 & 0.16 & 38.0 & 1.8 \\
+G2010-B-INT-6in & intrusivo & 0.15 & 25 & 0.354 & 0.03 & 0.13 & 0.06 & 35.6 & 1.2 \\
+G2010-B-INT-6in & intrusivo & 0.15 & 25 & 0.355 & 0.03 & 0.08 & 0.05 & 23.4 & 0.8 \\
+G2010-B-EXO-6in & skarn & 0.15 & 25 & 0.419 & 0.22 & 1.10 & 0.39 & 41.7 & 1.2 \\
+G2010-B-EXO-6in & skarn & 0.15 & 25 & 0.418 & 0.13 & 0.62 & 0.23 & 40.2 & 1.0 \\
+G2010-B-EXO-6in & skarn & 0.15 & 25 & 0.431 & 0.11 & 0.55 & 0.20 & 40.9 & 1.0 \\
+\bottomrule
+\end{longtable}\end{footnotesize}
+
+\clearpage
+\renewcommand{\thetable}{B\arabic{table}}\setcounter{table}{0}
+\section{Caracterización por tipo de desmonte}\label{sec:anexob}
+Este anexo da, para cada tipo de desmonte (litología, clase de desmonte de Antamina o unidad geotécnica), los valores de caracterización disponibles, con la tabla, página o lámina de origen. Los valores son los informados por cada fuente, verificados en la página del informe, la lámina o la planilla, sin recalcular; las excepciones, que Stantec calculó a partir de la base de origen, se indican en la nota de cada tabla. Los ensayos de resistencia del desmonte están en el Anexo~\ref{sec:anexo} y los edómetros, en la Tabla~\ref{M-tab:edo} del memorándum. El orden es: granulometría, densidad e índices de \citet{g2010} por litología y fase (Tablas~\ref{tab:b_g10gran} y~\ref{tab:b_g10ind}); granulometría, clasificación y compactación de las demás fuentes (Tabla~\ref{tab:b_gran}); peso específico y absorción (Tabla~\ref{tab:b_gs}); densidades mínima y máxima (Tabla~\ref{tab:b_dens}); resistencia de partículas (Tabla~\ref{tab:b_part}); permeabilidad, edómetros de mezclas y carga en plataforma (Tabla~\ref{tab:b_perm}); roca por unidad geotécnica (Tabla~\ref{tab:b_rmu}); modelo de bloques por litología (Tabla~\ref{tab:b_mr}); caracterización para chancado (Tabla~\ref{tab:b_wsc}); y fragmentación por clase de desmonte (Tabla~\ref{tab:b_frag}).
+
+Las clases A, B y C de Antamina son una clasificación geoquímica por potencial de generación de acidez \citep[pp.~6 y~27]{g2021}. Las muestras de tipo A, B y C de \citet{g2021} fueron de intrusivo, de mármol y hornfels, y de hornfels, respectivamente; esa correspondencia describe esas muestras, no la definición de las clases. La planilla de fragmentación \citep{antamina2025frag} usa las letras A, B, C y C1 sin definirlas.
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{2.5pt}\caption{Granulometría de terreno, densidad in situ y humedad natural por litología y fase \citep[Tabla~2]{g2010}. Porcentajes en masa de la muestra global y de la matriz menor que 3~in.}\label{tab:b_g10gran}
+\begin{tabular}{L{2.4cm}rrrrrrrrrrrr}\toprule
+ & & \multicolumn{5}{c}{Muestra global (\%)} & \multicolumn{3}{c}{Matriz (\%)} & $\gamma$ in situ & $w$ & $\gamma_d$\\\cmidrule(lr){3-7}\cmidrule(lr){8-10}
+Litología & TM (in) & 12--36~in & 3--12~in & Grava & Arena & Finos & Grava & Arena & Finos & (g/cm³) & (\%) & (g/cm³)\\\midrule
+\multicolumn{13}{l}{\textit{Fase A, material del tajo}} \\
+Mármol negro & 35 & 35.1 & 30.2 & 23.6 & 8.3 & 2.8 & 71.4 & 22.8 & 5.8 & 2.185 & 2.2 & 2.135 \\
+Hornfels gris & 35 & 22.1 & 49.3 & 24.9 & 2.82 & 0.88 & 86.2 & 11.2 & 2.6 & 2.055 & 2.4 & 2.026 \\
+Intrusivo & 30 & 21.8 & 38.8 & 31.4 & 6.4 & 1.6 & 80.4 & 16.3 & 3.3 & 1.931 & 3.8 & 1.865 \\
+Exoskarn diópsido & 19 & 4.6 & 15.6 & 58 & 19.1 & 2.7 & 76.5 & 20.9 & 2.6 & 2.35 & 3.1 & 2.273 \\
+\midrule \multicolumn{13}{l}{\textit{Fase B, material chancado}} \\
+Mármol negro & 35$^{a}$ & -- & 34 & 43.4 & 15.4 & 7.2 & 68.9 & 23.6 & 7.5 & 2.2 & 2.9 & 2.151 \\
+Hornfels gris & 35$^{a}$ & -- & 35.6 & 56.3 & 5.4 & 2.7 & 85.6 & 10.8 & 3.6 & 2.162 & 2.3 & 2.137 \\
+Intrusivo & 30$^{a}$ & -- & 34.7 & 40.7 & 17.6 & 7 & 67.4 & 25.4 & 7.2 & 2.06 & 2.7 & 2.019 \\
+Exoskarn diópsido & 19$^{a}$ & -- & 10.7 & 60.9 & 23 & 5.4 & 72.5 & 23.1 & 4.4 & 2.418 & 3 & 2.357 \\
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize $^{a}$TM repetido de la fase A en la Tabla~2 del informe; la Tabla~1 indica 12~in después del chancado. Densidad in situ por reemplazo de agua (pp.~35--42).\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{2.5pt}\caption{Peso específico, absorción, degradabilidad, resistencia, permeabilidad y carga en plataforma por litología y fase \citep{g2010}.}\label{tab:b_g10ind}
+\begin{tabular}{L{1.9cm}>{\centering\arraybackslash}p{1.25cm}>{\centering\arraybackslash}p{1.25cm}>{\centering\arraybackslash}p{1.25cm}>{\centering\arraybackslash}p{1.25cm}>{\centering\arraybackslash}p{1.25cm}>{\centering\arraybackslash}p{1.25cm}L{2.1cm}>{\centering\arraybackslash}p{1.75cm}>{\centering\arraybackslash}p{1.2cm}}\toprule
+Litología & $G_s$ fino (D854) & $G_s$ bulk (C127)$^{b}$ & \hspace{0pt}Absorción (\%) & \hspace{0pt}Durabilidad (\%)$^{d}$ & Los Ángeles (\%) & $\sigma_c$ carga puntual (MPa) & UCS promedio (probetas) (MPa) & $k$ (m/s) & \hspace{0pt}Asentamiento máximo (cm)\\\midrule
+\multicolumn{10}{l}{\textit{Fase A, material del tajo}} \\
+Mármol negro & 2.763 & 2.717 & 0.34 & 43.4 & 62.1 & 32.24 & 44.7 (41.0; 48.3) & -- & -- \\
+Hornfels gris & 2.791 & 2.737 & 0.24 & 0.7 & 23.7 & 72.99 & 49.2 (46.8; 51.6) & $3.20\times10^{-6}$ & -- \\
+Intrusivo & 2.674 & 2.461 & 1.66 & 33.4 & 49.8 & 80.56 & 46.8 (48.4; 45.1) & $2.50\times10^{-6}$ & -- \\
+Exoskarn diópsido & 3.484 & 3.212 & 1.44 & 5.9 & 37 & 67.79 & 73.3 (79.3; 67.3) & -- & -- \\
+\midrule \multicolumn{10}{l}{\textit{Fase B, material chancado}} \\
+Mármol negro & 2.747 & 2.725 & 0.33 & 49.8 & 62.4 & 24.56 & 49.6 (41.5; 57.7) & -- & 4.8 \\
+Hornfels gris & 2.802 & 2.740 & 0.12 & 0.6 & 20.3 & 100.42 & 65.5 (62.6; 68.3) & $2.60\times10^{-6}$$^{c}$ & 5.6 \\
+Intrusivo & 2.742 & 2.647 & 2.17 & 18.6 & 32.2 & 78.06 & 54 (56.1; 51.8) & $2.20\times10^{-6}$$^{c}$ & 3.6 \\
+Exoskarn diópsido & 3.338 & 3.102 & 1.30 & 6.7 & 27.6 & 124.78 & 97.4 (101.7; 93.1) & -- & 5.1 \\
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize Fuentes: Tabla~2 (p.~8), hojas de C127 (p.~48), compresión uniaxial (pp.~66--73), carga puntual (pp.~74--81, 4 probetas por litología en la fase A y 8 en la B), permeabilidad en pared flexible con fracción menor que 5/8~in (pp.~157--160) y carga directa en plataformas con placas de hasta 0.60~m y 6.0~kg/cm² (pp.~185--226). $^{b}$Hojas de laboratorio; en la fase A, la Tabla~2 del informe da 2.696, 2.733, 2.451 y 3.172. $^{c}$La Tabla~2 rotula la fase B en cm/s; las hojas de laboratorio dan m/s. $^{d}$Sulfato de magnesio según las hojas; el texto del informe indica sulfato de sodio.\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{2.5pt}\caption{Granulometría, clasificación, límites, Proctor estándar y humedad natural por muestra. Entre paréntesis, Proctor corregido por sobretamaño.}\label{tab:b_gran}
+\begin{tabular}{L{2.8cm}L{1.8cm}L{1.3cm}rrrlL{1.35cm}rrr}\toprule
+ & & TM o & Grava & Arena & Finos & SUCS & LL / IP & $\gamma_{d,max}$ & $w_{opt}$ & $w$\\
+Muestra & Litología & $D_{50}$ & (\%) & (\%) & (\%) & & & (kN/m³) & (\%) & (\%)\\\midrule
+\multicolumn{11}{l}{\textit{\citet{anddes2024}: muestras de perforación, patio de servicios y Botadero Este, 40--90~m}} \\
+Ruma 01 (M-1 a M-13) & Mármol & 75~mm & 65 & 25 & 10 & GP-GM & NP / NP & 23.780 (25.754) & 6.8 (3.9) & 3 \\
+Ruma 02 (H-1 a H-12) & Hornfels & 75~mm & 68 & 21 & 11 & GP-GM & 16 / NP & 22.876 (24.533) & 7.7 (4.7) & 3 \\
+Ruma 03 (I-1 a I-12) & Intrusivo & 75~mm & 63 & 29 & 8 & GP-GM & 17 / NP & 20.930 (22.230) & 9.8 (6.7) & 5 \\
+Pila 01 & Mármol y hornfels & 75~mm & 59 & 30 & 11 & GP-GM & NP / NP & 22.819 (24.012) & 7.4 (5.4) & 3 \\
+Pila 02 & Intrusivo & 75~mm & 57 & 34 & 9 & GW-GM & NP / NP & 19.951 (20.797) & 11.1 (8.6) & 6 \\
+\midrule \multicolumn{11}{l}{\textit{\citet[Tablas~4 y~6, p.~14]{g2021}: muestras truncadas en 1~in}} \\
+Tipo A & Intrusivo & $D_{50}$ 3.6~mm & 45.3 & 41.2 & 13.5$^{e}$ & GM & NP & -- & -- & -- \\
+Tipo B & Mármol y hornfels & $D_{50}$ 3.9~mm & 46.2 & 40.9 & 12.9$^{e}$ & GM & NP & -- & -- & -- \\
+Tipo C & Hornfels & $D_{50}$ 9.5~mm & 68.2 & 24.6 & 7.2$^{e}$ & GM$^{h}$ & NP & -- & -- & -- \\
+Compuesto (35/15/50~\%) & Intrusivo, mármol--hornfels y hornfels & $D_{50}$ 7.4~mm & 59.5 & 30.8 & 9.7$^{f}$ & GP-GM & NP & 22.7 & 6.5 & -- \\
+\midrule \multicolumn{11}{l}{\textit{Granulometría de terreno y de probeta}} \\
+M-001 \citep[p.~47]{w2022} & Hornfels & 36~in & -- & -- & 2.49 & GW-GM$^{g}$ & NP & -- & -- & -- \\
+M-001 \citep[p.~52]{w2022} & Mármol & 36~in & -- & -- & 4.07 & GP-GM$^{g}$ & -- & -- & -- & -- \\
+Desmonte de mina \citep[p.~93]{w2024} & Intrusivo & 10~in & -- & -- & 6.6 & -- & -- & -- & -- & -- \\
+Probeta de 1~m \citep[anexo, p.~3]{g2012} & Mármol & 178~mm & -- & -- & 4.9 & -- & -- & -- & -- & -- \\
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize \citet{anddes2024}: ASTM D6913, D2487 y D698 (informes marcados «fuera de método») y contenido de agua. $^{e}$Pasante del tamiz N.º~200, limo y arcilla (sin hidrómetro). $^{f}$9.2~\% de limo y 0.5~\% de arcilla. $^{g}$Calculada por el laboratorio con el material menor que 3~in; en esa fracción, 5.7~\% de finos en el hornfels y 7.0~\% en el mármol. $^{h}$La hoja de límites (p.~60) clasifica el tipo C como GP-GM. Límites de \citet{g2021}: pp.~58--60.\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{3pt}\caption{Peso específico y absorción por muestra.}\label{tab:b_gs}
+\begin{tabular}{L{2.4cm}L{2.4cm}rrrrr}\toprule
+Muestra & Litología & $G_s$ bulk o base seca & $G_s$ SSS & $G_s$ aparente & Absorción (\%) & $G_s$ de finos\\\midrule
+\multicolumn{7}{l}{\textit{\citet[Tabla~5 y pp.~83--86]{g2021}}} \\
+Tipo A & Intrusivo & 2.44 & 2.53 & 2.67 & 3.39 & -- \\
+Tipo B & Mármol y hornfels & 2.87 & 2.90 & 2.97 & 1.22 & -- \\
+Tipo C & Hornfels & 2.70 & 2.72 & 2.75 & 0.61 & -- \\
+Compuesto & Mezcla & 2.71 & 2.72 & 2.75 & 0.54 & 2.77 \\
+\midrule \multicolumn{7}{l}{\textit{\citet[Tabla~3]{w2024}, desmonte tipo intrusivo}} \\
+M-1 & Intrusivo & 2.79 & 2.82 & 2.87 & 1.0 & -- \\
+M-2 & Intrusivo & 2.79 & 2.82 & 2.87 & 1.0 & -- \\
+M-3 & Intrusivo & 2.80 & 2.83 & 2.90 & 1.2 & -- \\
+M-4 & Intrusivo & 2.80 & 2.83 & 2.87 & 0.8 & -- \\
+M-5 & Intrusivo & 2.75 & 2.79 & 2.85 & 1.3 & -- \\
+M-6 & Intrusivo & 2.86 & 2.88 & 2.93 & 0.8 & -- \\
+M-7 & Intrusivo & 2.71 & 2.76 & 2.83 & 1.6 & -- \\
+M-8 & Intrusivo & 2.76 & 2.79 & 2.84 & 1.0 & -- \\
+\midrule \multicolumn{7}{l}{\textit{\citet{anddes2024}, fracción sobretamaño del Proctor}} \\
+Ruma 01 & Mármol & 2.94 & -- & -- & -- & -- \\
+Ruma 02 & Hornfels & 2.80 & -- & -- & -- & -- \\
+Ruma 03 & Intrusivo & 2.56 & -- & -- & -- & -- \\
+Pila 01 & Mármol y hornfels & 2.79 & -- & -- & -- & -- \\
+Pila 02 & Intrusivo & 2.39 & -- & -- & -- & -- \\
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize ASTM C127 en el grueso y D854 en los finos. Las muestras de \citet{g2010} están en la Tabla~\ref{tab:b_g10ind}.\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{3pt}\caption{Densidades mínima y máxima (ASTM D4254 y D4253), en g/cm³.}\label{tab:b_dens}
+\begin{tabular}{L{6.0cm}rrr}\toprule
+Material & Mínima & Máxima (seca) & Máxima (húmeda)\\\midrule
+\multicolumn{4}{l}{\textit{\citet[pp.~43--47]{g2010}, fracción menor que 5/8~in}} \\
+Exoskarn diópsido, fase A & 2.175 & 2.621 & -- \\
+Mármol negro, fase B & 1.821 & 2.236 & -- \\
+Hornfels gris, fase B & 1.861 & 2.308 & -- \\
+Intrusivo, fase B & 1.833 & 2.237 & -- \\
+Exoskarn diópsido, fase B & 2.161 & 2.647 & -- \\
+\midrule \multicolumn{4}{l}{\textit{\citet[pp.~85--86]{w2022}}} \\
+Hornfels (HR) & 1.852 & 2.232 & 2.308 \\
+Mármol (MR) & 1.905 & 2.297 & 2.398 \\
+\midrule \multicolumn{4}{l}{\textit{\citet[Tabla~8]{w2024}, fracción menor que 3~in}} \\
+Codisposal 4, intrusivo & 1.825 & 2.212 & -- \\
+Codisposal 1, intrusivo y relave 3.5:1 & 1.945 & 2.169 & -- \\
+Codisposal 2, intrusivo y relave 4.5:1 & 1.914 & 2.158 & -- \\
+Codisposal 3, intrusivo y relave 5.5:1 & 1.865 & 2.187 & -- \\
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{3pt}\caption{Resistencia de partículas: valores individuales informados.}\label{tab:b_part}
+\begin{tabular}{L{4.2cm}L{3.6cm}rL{5.4cm}}\toprule
+Fuente & Material & $n$ & Valores\\\midrule
+\multicolumn{4}{l}{\textit{Compresión uniaxial (MPa)}} \\
+\citet[Tabla~1]{w2022} & Hornfels gris (M-1 y M-2) & 2 & 65; 64 \\
+\citet[Tabla~2]{w2022} & Mármol negro (M-001 y M-002) & 2 & 44; 42 \\
+\citet[Tabla~2]{w2022}, de \citet{g2012} & Mármol negro (M1-1 a M4-2) & 8 & 53; 108; 106; 129; 54; 61; 136; 132 \\
+\citet[anexo IDIEM, pp.~72--77]{w2022} & H6 hornfels gris & 3 & 26.3; 40.8; 24.5 \\
+\citet[anexo IDIEM, pp.~78--83]{w2022} & Mármol (muestra REG~41061) & 3 & 96.6; 66.9; 103.5 \\
+\citet[Tabla~6]{w2024} & Intrusivo (M-1 y M-2) & 7 & 100.6; 143.1; 64.0; 117.8; 76.0; 103.6; 61.1 \\
+\midrule \multicolumn{4}{l}{\textit{Abrasión Los Ángeles (\% de pérdida)}} \\
+\citet[pp.~48--55, ASTM C535]{w2022} & Hornfels (M-001, dos ensayos); mármol (M-001 y M-002) & 4 & 15.5; 17.3; 55.8; 45.2$^{i}$ \\
+\citet[p.~17]{g2012} & Mármol negro & 2 & 44; 41 \\
+\citet[Tabla~7]{w2024} & Intrusivo (M-1 a M-8)$^{j}$ & 8 & 29.1; 39.9; 21.2; 32.2; 27.1; 32.3; 29.0; 32.6 \\
+\midrule \multicolumn{4}{l}{\textit{Carga puntual, $I_{s(50)}$ (MPa)}} \\
+\citet[Tabla~6 del informe IDIEM 1.914.482-F, p.~364]{w2024} & Desmonte intrusivo: 4 sets con 31 colpas de tonalita y 7 de caliza & 4 & 5.48; 4.36; 4.11; 6.16 \\
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize $^{i}$El texto del informe (p.~38) resume 17~\% para el hornfels y 43~\% (2011) y 45--50~\% (2021) para el mármol. $^{j}$Las fichas indican ASTM C535; el texto, C131. Las de \citet{g2010} están en la Tabla~\ref{tab:b_g10ind}. En \citet{w2024}, el texto da UCS de 64.0 a 143.1~MPa, pero la Tabla~6 incluye una probeta de 61.1~MPa.\end{table}
+
+\begin{footnotesize}\setlength{\tabcolsep}{3pt}
+\begin{longtable}{L{3.0cm}L{3.6cm}L{2.6cm}L{6.0cm}}
+\caption{Permeabilidad por nivel de esfuerzo, edómetros de mezclas y carga directa en plataforma.}\label{tab:b_perm}\\
+\toprule Fuente & Material & Esfuerzo & Valores\\\midrule\endfirsthead
+\toprule Fuente & Material & Esfuerzo & Valores\\\midrule\endhead
+\multicolumn{4}{l}{\textit{Permeabilidad (m/s salvo indicación)}} \\
+\citet[Tabla~2 y pp.~157--160]{g2010} & Hornfels gris, A y B; intrusivo, A y B (fracción < 5/8~in, probeta de 4~in) & $\sigma'$ = 20~kPa & $3.20\times10^{-6}$; $2.60\times10^{-6}$; $2.50\times10^{-6}$; $2.20\times10^{-6}$$^{c}$ \\
+\citet[Tabla~4]{g2012} & Mármol negro, 0.95~m (cm/s) & 6, 10, 20, 40, 50 y 60~kg/cm² & $1.4\times10^{-1}$; $1.1\times10^{-1}$; $1.0\times10^{-1}$; $1.1\times10^{-1}$; $8.6\times10^{-2}$; $8.2\times10^{-2}$ \\
+\citet[Tabla~5]{w2022} & Hornfels, 1.0~m (cm/s) & 588, 981, 1961, 3923, 4903, 5884 y 6865~kPa & $3.5\times10^{-2}$; $1.7\times10^{-2}$; $9.7\times10^{-3}$; $6.8\times10^{-3}$; $5.6\times10^{-3}$; $4.2\times10^{-3}$; $3.5\times10^{-3}$ \\
+\citet[Tabla~6]{w2022} & Mármol negro 2021, 1.0~m (cm/s) & Mismos esfuerzos & $1.2\times10^{-2}$; $9.5\times10^{-3}$; $7.7\times10^{-3}$; $5.0\times10^{-3}$; $4.1\times10^{-3}$; $3.0\times10^{-3}$; $2.7\times10^{-3}$ \\
+\citet[Tabla~14]{w2024} & Codisposal 4, intrusivo, 0.6~m$^{j}$ & 392, 784, 1568, 3136 y 5880~kPa & $2.9\times10^{-4}$; $2.8\times10^{-4}$; $2.3\times10^{-4}$; $2.3\times10^{-4}$; $2.0\times10^{-4}$ \\
+\citet[Tabla~14]{w2024} & Codisposal 1, intrusivo y relave 3.5:1$^{j}$ & Mismos esfuerzos & $1.3\times10^{-3}$; $1.0\times10^{-3}$; $8.4\times10^{-4}$; $7.6\times10^{-4}$; $6.6\times10^{-4}$ \\
+\citet[Tabla~14]{w2024} & Codisposal 2, intrusivo y relave 4.5:1$^{j}$ & Mismos esfuerzos & $4.7\times10^{-4}$; $3.8\times10^{-4}$; $3.2\times10^{-4}$; $2.7\times10^{-4}$; $2.5\times10^{-4}$ \\
+\citet[Tabla~14]{w2024} & Codisposal 3, intrusivo y relave 5.5:1$^{j}$ & Mismos esfuerzos & $7.0\times10^{-4}$; $6.2\times10^{-4}$; $5.8\times10^{-4}$; $4.5\times10^{-4}$; $4.2\times10^{-4}$ \\
+\citet[Tabla~9]{g2021} & Mezclas de desmonte y relave, alternativas 1, 2 y 4, 9:1 y 1:1 & 399~kPa & $5.60\times10^{-6}$ y $8.90\times10^{-6}$$^{k}$; $8.10\times10^{-6}$ y $1.40\times10^{-6}$; $6.70\times10^{-6}$ y $2.50\times10^{-6}$ \\
+\midrule \multicolumn{4}{l}{\textit{Edómetros de mezclas, 0.6~m: $e_0$; $\rho_d$ (g/cm³); $\varepsilon_v$ final a 5880~kPa (\%)}} \\
+\citet[Tabla~12]{w2024} & Codisposal 1, 2 y 3 (intrusivo y relave) & -- & 0.418, 2.07, 8.2; 0.431, 2.03, 10.4; 0.408, 2.05, 11.1 \\
+\citet[Tabla~12]{w2024} & Codisposal 4, intrusivo (también en la Tabla~\ref{M-tab:edo} del memorándum) & -- & 0.425, 2.00, 17.4 \\
+\midrule \multicolumn{4}{l}{\textit{Carga directa en plataforma de material chancado (asentamiento máximo, cm)}} \\
+\citet[Tabla~2 y pp.~185--226]{g2010} & Mármol negro; hornfels gris; intrusivo; exoskarn diópsido & Hasta 6.0~kg/cm², placas de 0.30, 0.45 y 0.60~m & 4.8; 5.6; 3.6; 5.1 \\
+\bottomrule
+\end{longtable}\end{footnotesize}
+\vspace{-6pt}{\footnotesize $^{j}$El informe no los considera indicativos de la permeabilidad del material: la conductividad del equipo es del orden de $10^{-4}$~m/s y el flujo pudo ir por las paredes del molde. Los ensayos de 1.0~m de \citet{w2022} dan para el mármol de 2011 una permeabilidad de uno a dos órdenes de magnitud mayor que la del mármol de 2021 (p.~37). $^{k}$Tabla~9; la hoja de laboratorio da $8.9\times10^{-7}$~m/s.\par}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{3pt}\caption{Parámetros de roca por unidad geotécnica (RMU) del tajo LE2 \citep[lámina~4 y planilla]{antamina2025le2}.}\label{tab:b_rmu}
+\begin{tabular}{llrrrrrrrrr}\toprule
+ & & UCS & $I_{s(50)}$ axial & $I_{s(50)}$ diam. & Tracción & \multicolumn{2}{c}{Corte directo} & & & \\\cmidrule(lr){7-8}
+RMU & Estadístico & (MPa) & (MPa) & (MPa) & (MPa) & $\phi$ (°) & $c$ (MPa) & RMR & RQD & FF\\\midrule
+END & Promedio & 39.3 & 2.8 & 3.9 & 4.2 & 30.7 & 0.3 & 60.7 & 78.0 & 2.6 \\
+ & P50 & 28.1 & 2.0 & 2.6 & 3.4 & 31.4 & 0.1 & 65.0 & 98.2 & 0.4 \\
+ & P35 & 22.0 & 1.5 & 1.7 & 2.4 & 27.9 & 0.0 & 58.0 & 85.7 & 0.3 \\
+EXO & Promedio & 72.7 & 5.1 & 6.5 & 7.7 & 33.8 & 0.4 & 62.5 & 81.6 & 1.8 \\
+ & P50 & 66.7 & 4.7 & 5.9 & 7.2 & 31.6 & 0.1 & 66.5 & 100.0 & 0.5 \\
+ & P35 & 49.6 & 3.4 & 4.6 & 6.0 & 29.7 & 0.0 & 60.0 & 93.3 & 0.3 \\
+HRN & Promedio & 96.8 & 5.4 & 5.6 & 9.8 & 29.1 & 0.4 & 69.2 & 96.5 & 1.2 \\
+ & P50 & 75.2 & 4.9 & 5.0 & 9.7 & 28.2 & 0.0 & 72.0 & 100.0 & 0.7 \\
+ & P35 & 58.2 & 4.3 & 4.3 & 8.7 & 27.4 & 0.0 & 67.0 & 100.0 & 0.3 \\
+INT & Promedio & 57.7 & 4.0 & 5.7 & 7.4 & 31.1 & 0.5 & 67.9 & 91.7 & 1.3 \\
+ & P50 & 50.6 & 3.5 & 4.9 & 7.3 & 33.4 & 0.1 & 71.0 & 100.0 & 0.3 \\
+ & P35 & 39.5 & 2.1 & 3.7 & 5.9 & 30.3 & 0.0 & 65.0 & 100.0 & 0.0 \\
+LMH & Promedio & 68.0 & 3.7 & 3.8 & 6.6 & 31.0 & 0.2 & 68.3 & 96.0 & 0.9 \\
+ & P50 & 56.3 & 3.5 & 3.5 & 6.4 & 28.7 & 0.1 & 70.0 & 100.0 & 0.6 \\
+ & P35 & 44.3 & 2.8 & 2.9 & 5.5 & 28.0 & 0.1 & 65.0 & 100.0 & 0.3 \\
+XDP & Promedio & 98.7 & 7.3 & 7.8 & 8.9 & 33.7 & 0.2 & 67.0 & 91.7 & 0.9 \\
+ & P50 & 98.0 & 6.8 & 7.2 & 8.5 & 32.6 & 0.0 & 68.0 & 100.0 & 0.6 \\
+ & P35 & 2021.0$^{l}$ & 4.9 & 5.7 & 7.1 & 27.7 & 0.0 & 64.0 & 97.5 & 0.3 \\
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize Ensayos de 1997 a 2024: 2470 de UCS, 4657 de carga puntual axial, 13\,971 de carga puntual diametral, 1872 de tracción y 890 de corte directo; RMR, RQD y FF de 42\,500 tramos de logueo. Según la fuente, LMH corresponde a «calizas desmonte (limestone hornfels)» y XDP, a «exoskarn mayor desmonte» \citep[lámina~12]{antamina2025wsc}. UCS por unidad: END 312, EXO 309, HRN 275, INT 379, LMH 1111 y XDP 78 ensayos. Corte directo: 890 registros (261 combinaciones distintas); la planilla no indica si es sobre discontinuidades. La fuente incluye solo ensayos desde la configuración del plan minero 2036 hacia abajo (lámina~2). $^{l}$Valor de la fuente: la fórmula de la planilla toma una columna errada. El percentil 35 de los 78 UCS de XDP de la planilla, calculado por Stantec, es 70.8~MPa.\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{2.5pt}\caption{UCS y densidad del modelo de bloques del desmonte del LOM25 (2025--2049, LE1 y LE2) por litología, y fracción en masa en LE2 (2035--2049). UCS: \citet[lámina~12]{antamina2025wsc}; densidad y fracciones: \citet{antamina2024mr}.}\label{tab:b_mr}
+\begin{tabular}{L{2.2cm}rrrrrrrrrrrr}\toprule
+ & & & \multicolumn{7}{c}{UCS del modelo (MPa)} & Densidad & \multicolumn{2}{c}{Fracción en masa (\%)}\\\cmidrule(lr){4-10}\cmidrule(lr){12-13}
+Litología & RT & Bloques & Media & Desv. & Mín. & P25 & P50 & P75 & Máx. & (t/m³) & LOM25 & LE2\\\midrule
+Intrusivo & 1 & 46\,813 & 63.27 & 14.16 & 16.81 & 54.08 & 63.18 & 71.39 & 153.34 & 2.46 & 13.9 & 15.8 \\
+Intrus-Estruct-Tab & 2 & 3137 & 104.47 & 19.33 & 46.51 & 92.40 & 103.30 & 113.28 & 196.41 & 2.69 & 1.0 & 1.1 \\
+Caliza & 10 & 24\,434 & 81.32 & 5.50 & 51.35 & 77.37 & 82.54 & 82.97 & 123.98 & 2.71 & 8.0 & 8.9 \\
+Margas-Limonitas & 11 & 58\,104 & 70.03 & 7.89 & 28.10 & 68.32 & 69.24 & 72.17 & 121.52 & 2.71 & 18.9 & 20.7 \\
+Hornfels & 13 & 48\,510 & 105.85 & 16.57 & 28.85 & 97.20 & 104.93 & 115.31 & 200.24 & 2.71 & 15.8 & 13.3 \\
+Hornfels diópsida & 14 & 9983 & 116.96 & 18.00 & 57.13 & 105.91 & 114.95 & 130.48 & 225.95 & 2.86 & 3.4 & 2.2 \\
+Mármol & 16 & 110\,698 & 74.03 & 13.87 & 26.58 & 65.84 & 74.14 & 80.91 & 174.86 & 2.71 & 36.1 & 35.8 \\
+Mármol diópsida & 19 & 8020 & 94.91 & 11.10 & 39.93 & 89.48 & 94.66 & 102.08 & 153.71 & 2.85 & 2.7 & 2.0 \\
+Brechas-Intrus & 53 & 403 & 57.37 & 7.06 & 40.11 & 53.27 & 56.68 & 60.86 & 96.93 & 2.66 & 0.1 & 0.1 \\
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize Los valores son del modelo, no ensayos. UCS según la lámina~12, con los 310\,102 bloques del desmonte del LOM25 (2025--2049, LE1 y LE2). La densidad media y las fracciones en masa las calculó Stantec del modelo, suponiendo bloques de igual volumen; LE2 corresponde a los 175\,437 bloques con período de desmonte de 2035 en adelante, como en la lámina~7. Nombres de litología del modelo: Horfels, Horfel Diopsida, Marmol y Marmol Diopsida. La correspondencia entre el código RT y la litología coincide con el número de bloques de la lámina.\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{3pt}\caption{Caracterización del desmonte para chancado \citep[lámina~2]{antamina2025wsc}.}\label{tab:b_wsc}
+\begin{tabular}{l>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}p{1.8cm}>{\centering\arraybackslash}p{1.8cm}}\toprule
+Material & UCS (MPa) & Bond CWI (kWh/t) & Crushability (\%) & Bond BWI (kWh/t) & Abrasividad Macon (g/t) & Bond Ai & DWT A$\times$b\\\midrule
+Waste-C/Std & 54 & 12.6 & 36.50 & -- & 39.4 & 0.0261 & 43.9 \\
+Waste-Fine & 83 & 17.1 & 28.72 & -- & 50.0 & 0.0202 & 35.6 \\
+Waste-Hard & 155 & 16.0 & 25.02 & -- & 778.0 & 0.4810 & 38.8 \\
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize La lámina atribuye los datos al estudio Mine-to-mill 2007/2009, fase~3; no indica cuántos ensayos hay por material. Waste-C/Std, Waste-Fine y Waste-Hard son categorías de ese estudio, no las clases A, B, C y C1 de Antamina. Según la lámina, Waste-Hard es el desmonte de mayor resistencia a la voladura y el más abrasivo.\end{table}
+
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{3pt}\caption{Fragmentación del desmonte por clase de Antamina, en el frente de carguío \citep{antamina2025frag}.}\label{tab:b_frag}
+\begin{tabular}{lrlrrrr}\toprule
+Clase & Análisis & Fases & P50 (cm) & P80 (cm) & $X_{max}$ (cm) & $X_{max}$, P10--P90 (cm)\\\midrule
+A & 147 & 8, 9 y 10 & 10.1 & 23.4 & 86.0 & 48.4--127.7 \\
+B & 30 & 9 y 10 & 11.45 & 27.0 & 91.9 & 65.9--149.9 \\
+C & 115 & 9 y 10 & 10.0 & 24.5 & 86.1 & 60.9--141.1 \\
+C1 & 27 & 9 y 10 & 7.7 & 18.1 & 66.7 & 49.7--98.1 \\
+\midrule Todas & 319 & 8, 9 y 10 & 9.8 & 23.4 & 85.3 & 54.1--134.0 \\
+\bottomrule\end{tabular}\par\vspace{3pt}\footnotesize Medianas de los análisis por fotos de enero a agosto de 2025 (columna «Tipo de material» de la planilla); P10--P90: percentiles 10 y 90 de $X_{max}$ entre análisis. Estadísticos calculados por Stantec de la planilla. P50 y P80: tamaños del análisis por fotos que pasan el 50 y el 80~\%. El $X_{max}$ máximo es 270.9~cm (clase A). La clase y la fase están asociadas (26 de 27 análisis de la clase C1 en la fase 10 y 27 de 30 de la clase B en la fase 9); las fases 8 a 10 no son las fases de LE2 del modelo de bloques.\end{table}
+
+\begin{thebibliography}{20}\small
+\bibitem[Anddes Geolab(2024)]{anddes2024} Anddes Geolab (2024). \emph{Ensayos de laboratorio en desmonte (rumas M-1 a M-13, H-1 a H-12, I-1 a I-12 y pilas 01 y 02): triaxial CU de 6~in, corte directo de gran escala, clasificación SUCS, Proctor estándar y contenido de agua} [informes de ensayo para Compañía Minera Antamina; solicitud EPE-23.10.141].
+\bibitem[Compañía Minera Antamina(2024)]{antamina2024mr} Compañía Minera Antamina (2024). \emph{Modelo de bloques MR2024 del desmonte del plan LOM25} [exportación de Leapfrog Geo, archivo SIMULACIONES\_MR2024\_V3].
+\bibitem[Compañía Minera Antamina(2025a)]{antamina2025frag} Compañía Minera Antamina (2025a). \emph{Fragmentación del desmonte 2025} [planilla de análisis de fragmentación por fotos post-voladura, enero a agosto de 2025, archivo «Fragmentación Desmonte 2025»].
+\bibitem[Compañía Minera Antamina(2025b)]{antamina2025le2} Compañía Minera Antamina (2025b). \emph{Ensayos geotécnicos LE2} [presentación de Geotecnia e Hidrogeología PDN «Parametros Geotecnicos Vs RMU LE2 03092025» y planilla «Resultados Parametros Geotecnicos LE2 (03092025)», 3 de septiembre de 2025; confidencial].
+\bibitem[Compañía Minera Antamina(2025c)]{antamina2025wsc} Compañía Minera Antamina (2025c). \emph{LE2 waste characterization: LE2 Program estudios} [presentación, archivo «Waste Sample Characterization Rev C», 29 de agosto de 2025].
+\bibitem[Golder Associates Perú(2010)]{g2010} Golder Associates Perú (2010). \emph{Caracterización material de ROM -- Proyecto IPCC} [Memorando técnico para Compañía Minera Antamina, proyecto 099-4151017, 25 de marzo de 2010].
+\bibitem[Golder Associates Perú(2012)]{g2012} Golder Associates Perú (2012). \emph{Summary of results from laboratory testing program for black marble rockfill} [Technical memorandum Doc.~No.~446, proyectos 1014270482C/1194155017P, 7 de febrero de 2012; anexo IDIEM, Informe 708.397-A].
+\bibitem[Golder Associates Perú(2021)]{g2021} Golder Associates Perú (2021). \emph{Estudio conceptual almacenamiento eco-estable de desmonte y relaves: Informe de interpretación de ensayos de laboratorio} [Informe 101-20110-LTE01220-INF-420-G-0013, Rev.~0, 28 de abril de 2021].
+\bibitem[Golder Associates Perú(2022)]{w2022} Golder Associates Perú (2022). \emph{Pruebas de enrocado 3B a gran escala material tipo hornfels y de alta presión para el modelamiento de deformación} [Memorando técnico 105-18028-MTE00420-MEM-430-G-0007, 8 de septiembre de 2022; anexos IDIEM, Informes 1.555.677-A a~E].
+\bibitem[IDIEM(2025)]{i2025} IDIEM (2025). \emph{Ensayos triaxiales a gran escala -- Fase 2 y 3} [Informe de Ensayo Especial 1.966.314-B, Rev.~01, 24 de enero de 2025, para WSP Perú y Compañía Minera Antamina].
+\bibitem[WSP Perú(2024)]{w2024} WSP Perú (2024). \emph{Ensayos geotécnicos a gran escala para mezclas de co-disposición de desmonte y relave} [Informe final 101-20110-LTE01220-IFF-420-G-0003, Fase~1, 30 de octubre de 2024; anexos IDIEM 1.914.482-A a~G].
+\end{thebibliography}
+\end{document}

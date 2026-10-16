@@ -1,0 +1,22 @@
+# Salidas pesadas y regenerables (MCMC, ~3.6 GB)
+*.npz
+
+# PDF de ensayos de Antamina: muy pesados (hasta 102 MB) y confidenciales; quedan en Drive
+Data Antamina/**/*.pdf
+
+# Basura de herramientas
+.playwright-mcp/
+__pycache__/
+*.pyc
+~$*
+*.aux
+*.log
+*.out
+desktop.ini
+
+# Imágenes de páginas escaneadas (intermedias de la extracción, cientos de MB); quedan en Drive
+**/paginas/**/*.png
+**/paginas/**/*.wmf
+
+# Resultados binarios de Slide2 (se regeneran al recalcular los .slmd; ~30 MB cada uno)
+*.s01

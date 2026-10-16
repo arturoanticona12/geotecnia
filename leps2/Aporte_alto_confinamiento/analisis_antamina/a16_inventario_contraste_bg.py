@@ -56,6 +56,7 @@ C = pd.DataFrame(filas)
 # en el ajuste (a8_ensayos_ajuste.py; revisión 5). Antes se usaba el rótulo del Proctor (3.06 en el mármol).
 GSD = {"Mármol": (2.763 + 2.747) / 2, "Hornfels": (2.791 + 2.802) / 2, "Intrusivo": (2.674 + 2.742) / 2}; GSD["Mezcla"] = (GSD["Mármol"] + GSD["Hornfels"]) / 2
 EA = cu.groupby("set").rho_d_ini_gcm3.first().astype(float); EA = pd.Series({s: GSD[lit_anddes(s)] / v - 1 for s, v in EA.items()})
+C["e"] = C.e.astype(object)   # pandas 3: la columna puede quedar como texto
 C.loc[C.fuente == "Anddes Geolab (2024)", "e"] = C.loc[C.fuente == "Anddes Geolab (2024)", "set"].map(EA)
 C["e"] = pd.to_numeric(C.e, errors="raise")
 C["sn"], C["tau"] = a_tau_sn(C.s3.values, C.s1.values)

@@ -3,10 +3,12 @@ from scipy.optimize import least_squares
 PA = 0.1013
 SP = str(__import__("pathlib").Path(__file__).parent)
 P = r"H:\Mi unidad\00_WORKSPACE\20_PROYECTOS_CONSULTORÍA\Antamina\2026_Gate3\Revisión de literatura\Leps 2.0"
+if not __import__("os").path.isdir(P):                       # fuera del PC (repo): carpeta leps2
+    P = str(__import__("pathlib").Path(__file__).resolve().parents[2])
 
 
 def load_db():
-    df = pd.read_excel(P + r"\Rockfill_Test_Database_v1.xlsx", sheet_name="Data", header=0)
+    df = pd.read_excel(__import__("os").path.join(P, "Rockfill_Test_Database_v1.xlsx"), sheet_name="Data", header=0)
     df.columns = [str(c).replace("\n", " ").strip() for c in df.columns]
     ren = {"σ3 (MPa)": "s3", "σ1 (MPa)": "s1", "σn (MPa)": "sn", "τ (MPa)": "tau", "ei": "e", "UCS (MPa)": "UCS",
            "Bg (%)": "Bg", "evol (%)": "evol", "eaxial (%)": "eax", "Fines-BT (%)": "fines", "D50-BT (mm)": "D50",
